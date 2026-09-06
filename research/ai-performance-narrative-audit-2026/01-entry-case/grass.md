@@ -112,21 +112,49 @@ The audit rejected several weak linkage ideas:
 
 ## Raw evidence status
 
-Two separate video files are now preserved in the audit environment and must not be treated as byte-identical.
+**Status:** DEPOSITED / HASH MATCH
 
-### Earlier audit capture
+The exact X-post screenshot and three non-identical video captures are preserved under `evidence/raw/` and catalogued in `evidence/CAPTURE-MANIFEST.md`.
+
+### Full user-supplied capture
+
+Repository path:
+
+`evidence/raw/video/grass-x-video-full-user-capture.mp4`
+
+SHA-256:
+
+`228b407259d653c68c4481a734365013d0a9062eac15ff24bd978655fd93340b`
+
+Properties:
+
+- duration: `19.669313 s`
+- video: H.264, `482 × 1058`
+- audio: AAC
+- classification: `PRIMARY-CAPTURED / USER-SUPPLIED`
+
+### Earlier full audit capture
+
+Repository path:
+
+`evidence/raw/video/grass-original-audit-capture.mp4`
 
 SHA-256:
 
 `a935e1e4d3722c073bd58693e8721d135c2f31e152f8b3fffff4be780c3ab330`
 
-Properties recorded during the audit:
+Properties:
 
 - duration: `19.413271 s`
 - video: H.264, `896 × 782`, `30 fps`
 - audio: AAC
+- classification: `PRIMARY-CAPTURED / AUDIT-PRESERVED`
 
-### Direct X-linked video supplied 2026-09-06
+### User-trimmed capture
+
+Repository path:
+
+`evidence/raw/video/grass-x-video-user-trimmed.mp4`
 
 SHA-256:
 
@@ -137,13 +165,15 @@ Properties:
 - duration: `9.386625 s`
 - video: H.264, `476 × 1060`, `30 fps`
 - audio: AAC
-- file size: `1,141,978 bytes`
+- classification: `DERIVED / USER-TRIMMED`
 
-The two files differ in duration, dimensions and hash. The direct X-linked file is therefore recorded as a separate primary capture rather than silently replacing the earlier audit capture.
+The three video files differ in duration, dimensions and hash and are intentionally retained separately.
 
-A screenshot of the exact X post was also captured and hashed separately in `evidence/CAPTURE-MANIFEST.md`.
+The screenshot of the exact X post is preserved at:
 
-Repository binary upload remains pending.
+`evidence/raw/x/grass-zynex-status-2093658526820212996.png`
+
+After upload, locally calculated Git blob SHA-1 values matched the corresponding GitHub blob SHAs for all GRASS binaries, confirming byte identity with the locally hashed audit files.
 
 ## Final case conclusion
 
