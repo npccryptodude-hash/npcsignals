@@ -10,51 +10,73 @@ Mint:
 
 `FRPV7Df98MRYLQus6LvJHkjWukUai9wonumScVcypump`
 
-## Direct creator captures
+## Direct creator evidence
 
-Primary X captures from `@0xkkai` were obtained during source hardening.
+Direct X captures obtained during the audit show `@0xkkai` publicly describing REAPER as externally launched.
 
-In one Sep 1 post, Kai wrote that someone had launched `$REAPER` as a sign of support, supplied the contract address, and stated that he was taking communications and would keep building.
+One captured Sep 1 post states:
 
-A second Sep 1 creator post stated that a token had launched with the agent's name on it and that nobody had told him. Kai wrote that he found out because the agent flagged it.
+> someone just launched $REAPER as a sign of support
 
-These statements materially strengthen the public chronology compared with the earlier archive-dependent record.
+The same post says the creator was `taking comms` and would `keep building`.
 
-## Orbitalx0 captures
+A second captured Sep 1 post states:
 
-A captured Sep 1 Orbitalx0 post described GROK REAPER-1, linked to Kai's material and GitHub, and supplied the same REAPER contract address in a reply.
+> a token launched with my agent's name on it and nobody told me.
 
-A separate captured Orbitalx0 post quoted Kai's Sep 1 statement and said:
+and:
 
-`He tapped in and claimed`
+> i found out because the agent flagged it.
 
-The same mint was displayed.
+The creator then described checking the token and pushing one card to the agent's memory.
 
-Another captured Orbitalx0 post shared an `@0xkkai` REAPER-1 community link.
+These captures are direct primary-source evidence of the creator's public account of the chronology.
+
+## Orbital evidence
+
+Direct captures from `@Orbitalx0` show the same REAPER mint and subsequent public onboarding language.
+
+A captured post states:
+
+> He tapped in and claimed
+
+The same mint is shown alongside the post.
+
+Another Orbital post describes `GROK REAPER-1`, links to Kai's work and GitHub, and provides the REAPER contract address in a reply.
 
 ## Public chronology
 
 The directly captured public sequence is consistent with:
 
-1. REAPER token exists
-2. creator publicly states that someone else launched it as support
-3. creator states that nobody told him and that he learned about it after launch
-4. creator takes communications and continues building
-5. Orbitalx0 publicly describes the creator as having tapped in / claimed
+1. Kai's underlying REAPER-1 agent work existed publicly
+2. a third party launched a REAPER token
+3. Kai publicly stated that he had not been told about the launch
+4. Kai took communications and continued building
+5. Orbital later described Kai as having tapped in and claimed
 
-This chronology supports post-launch creator adoption more strongly than the earlier archive-only record.
+This is evidence of public post-launch creator adoption or onboarding.
+
+It is not a complete record of private communications.
 
 ## Finding REAPER-01
 
 **Verdict:** NOT ESTABLISHED  
 **Evidence grade:** E1  
-**Scope:** pre-launch creator participation
+**Scope:** creator participation from the outset
 
 The available public evidence does not establish that Kai participated in the original token launch.
 
-Kai's own public statements are inconsistent with simply assuming creator-origin launch participation.
+His directly captured public statements instead describe the token as externally launched and initially unknown to him.
 
-This does not prove the absence of all private pre-launch communication.
+### Not established
+
+The public record does not establish:
+
+- absence of all private pre-launch communication
+- identity of the launcher
+- common control
+- motive
+- fee configuration or payout
 
 ## Finding REAPER-02
 
@@ -62,7 +84,9 @@ This does not prove the absence of all private pre-launch communication.
 **Evidence grade:** E2  
 **Scope:** public post-launch creator-onboarding chronology
 
-Direct creator captures and Orbitalx0 captures referencing the same mint support a public sequence in which creator association and claim/adoption occur after the externally described launch.
+The creator's own statement and separate Orbital posts referencing the same mint support a sequence in which creator association became public after the token already existed.
+
+This upgrades the case from archive-dependent discovery to directly captured public evidence.
 
 ## Finding REAPER-03
 
@@ -70,32 +94,29 @@ Direct creator captures and Orbitalx0 captures referencing the same mint support
 **Evidence grade:** E1  
 **Scope:** specific creator-fee payout
 
-Public claim or fee-routing language does not establish the final payment path.
+Public material contains fee-routing / claiming language, but the audit has not reconstructed:
 
-The audit has not reconstructed:
+`mint → fee configuration → recipient mapping → claim transaction → recipient wallet`
 
-mint  
-→ token-specific fee configuration  
-→ recipient mapping  
-→ claim transaction  
-→ recipient wallet
+A claimed or described creator-fee benefit therefore remains unverified at transaction level.
 
-A creator-fee payout therefore remains unverified at transaction level.
+## Cross-case significance
 
-## Counterevidentiary significance
+Taken with SPIDER, REAPER supports the proposition that post-launch creator onboarding is observable in more than one independent case.
 
-REAPER independently weakens the hypothesis that creator-linked tokenization necessarily implies creator participation before launch.
+This weakens the hypothesis that pre-launch creator participation is necessary to explain the observed tokenization mechanism.
 
-Together with SPIDER, it supports a narrower structural mechanism in which a third party can tokenize an existing creator narrative and later onboard the creator.
+It does not establish that all creator-linked launches follow this sequence.
 
 ## Raw evidence status
 
-Direct screenshots of the relevant Kai and Orbitalx0 posts were captured on 2026-09-06 and should be deposited unedited under `evidence/raw/x/`.
+Direct screenshots were captured on 2026-09-06 and should be deposited unedited under `evidence/raw/x/`.
 
-Until the binary files are uploaded, the text case record is source-hardened by direct capture but the repository path references remain pending.
+Planned raw-evidence references:
 
-## Final case conclusion
+- `evidence/raw/x/reaper-kai-origin.png`
+- `evidence/raw/x/reaper-kai-unaware.png`
+- `evidence/raw/x/reaper-orbital-claimed.png`
+- `evidence/raw/x/reaper-orbital-agent-post.png`
 
-The public chronology supports post-launch creator onboarding.
-
-It does not establish the identity of the launcher, a verified payout, common control, or the absence of every private pre-launch contact.
+Until the binary files are committed, these paths are repository targets rather than proof that the files are already present.
