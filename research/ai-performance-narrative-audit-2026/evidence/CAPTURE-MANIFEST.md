@@ -10,6 +10,26 @@ A manifest entry does not increase an evidence grade by itself. It preserves fil
 
 ---
 
+## GRASS primary claim video
+
+### `evidence/raw/video/grass-original.mp4`
+
+**Source:** captured GRASS / Grok-bot claim video supplied during the audit  
+**Local source recovered:** yes, 2026-09-06  
+**Container source filename:** `1291d225-5f65-4d0f-bd15-f275d81d3ee5.mp4`  
+**Duration:** `19.413271 s`  
+**Video:** H.264, `896 × 782`, `30 fps`  
+**Audio:** AAC  
+**File size:** `3,424,968 bytes`  
+**Relevant content:** presentation of a claimed `0.3 ETH` GRASS entry, approximately `+19.7 ETH`, `66.7x`, closed position and safety-language. The video does not expose an agent wallet, buy transaction hash or sell transaction hash.  
+**SHA-256:**
+
+`a935e1e4d3722c073bd58693e8721d135c2f31e152f8b3fffff4be780c3ab330`
+
+**Status:** LOCAL RECOVERED / HASH VERIFIED / GITHUB BINARY UPLOAD PENDING
+
+---
+
 ## REAPER
 
 ### `evidence/raw/x/reaper-kai-origin.png`
@@ -200,8 +220,10 @@ A manifest entry does not increase an evidence grade by itself. It preserves fil
 
 ## Upload status
 
-**Manifest status:** HASHED / BINARY UPLOAD PENDING
+**Manifest status:** HASHED / LOCAL SOURCES VERIFIED / GITHUB BINARY UPLOAD PENDING
 
 The SHA-256 hashes above allow later repository uploads to be checked against the original files captured during the audit.
+
+The GRASS source video is confirmed present in the current working environment and its SHA-256 matches the hash previously recorded during the investigation.
 
 Once binaries are committed, each entry should be checked and marked `UPLOADED / HASH MATCH`.
