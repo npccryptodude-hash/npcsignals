@@ -2,30 +2,55 @@
 
 ## Purpose
 
-This case examines content provenance, not whether the underlying trade occurred.
+This case examines whether highly specific first-person AI trading-performance narratives appearing across multiple accounts represent independent observations or reused narrative material.
 
-## Claim pattern
+The audit treats content provenance separately from the truth of the underlying trade.
 
-A first-person AI-performance narrative associated with Zynex described a Grok bot trading MEMEMOON with unusually specific details, including:
+## Zynex narrative
 
+A captured Zynex MEMEMOON post described a Grok-based trading system and included unusually specific details:
+
+- starting bankroll framed as 1 SOL
+- MEMEMOON as the selected token
+- a 0.5 SOL buy
+- entry around `$0.0000012`
+- narrative score `0.94`
+- approximately `+800%`
+- `42` new holders
+- `3` whales
+- `8 SOL` liquidity
+- approximately `60x`
+
+The same published system description also stated that position size never exceeded `0.1 SOL`.
+
+That creates an internal conflict with the stated `0.5 SOL` MEMEMOON entry.
+
+## Backwood duplicate narrative
+
+A direct capture from `@0xBackwood` on Aug 30 showed a highly similar first-person narrative:
+
+- 1 SOL assigned to the bot
+- MEMEMOON selected
+- narrative score `0.94`
 - 0.5 SOL buy
-- entry around $0.0000012
-- narrative score 0.94
-- approximately +800% after about 11 seconds
-- 42 new holders
-- 3 whales
-- 8 SOL liquidity
-- approximately 60x
+- entry around `$0.0000012`
+- `+800%`
+- `42` new holders
+- `3` whales
+- `8 SOL` liquidity
+- approximately `60x`
 
-The same surrounding system narrative also reportedly stated that position size never exceeded 0.1 SOL.
+The Backwood version also used a maximum position size of `0.5 SOL`, which removes the contradiction present in the Zynex version.
 
-A materially similar first-person narrative later appeared from `@0xBackwood`, preserving multiple unusual details while mutating some values.
+A later Aug 31 Backwood post again framed the result as 1 SOL becoming approximately 60 SOL within about 60 seconds.
 
 ## Observed
 
-The duplicated narrative contains a concentration of unusual details that is unlikely to be explained by generic trading language alone.
+The overlap is not limited to a generic theme such as "AI trading bot" or "meme coin profit."
 
-The later version changes at least one parameter in a way that removes the internal position-size conflict present in the earlier version.
+The two narratives share a cluster of unusual numerical and descriptive details.
+
+The later version contains small mutations rather than a wholly independent presentation.
 
 ## Finding PROV-01
 
@@ -33,34 +58,46 @@ The later version changes at least one parameter in a way that removes the inter
 **Evidence grade:** E2  
 **Scope:** content provenance only
 
-The available captures support the conclusion that a highly specific first-person performance narrative was recycled across accounts rather than independently originated in identical form.
+The apparent independence of the public narratives is materially weakened by the unusually specific overlap.
 
-### Not established
-
-This does not establish:
+This finding does not establish:
 
 - common account control
 - coordinated fraud
-- that the underlying trade was fabricated
-- which account originated the narrative
-- whether one account copied another directly or through an intermediary source
+- fabrication of the underlying trade
+- shared wallet control
+- shared operator identity
 
 ## Finding PROV-02
 
 **Verdict:** INCONSISTENT  
 **Evidence grade:** E1  
-**Scope:** internal consistency of the Zynex-published narrative
+**Scope:** published Zynex execution description only
 
-The described 0.5 SOL entry conflicts with the separately stated 0.1 SOL maximum position-size rule.
+The claimed `0.5 SOL` entry conflicts with the published `0.1 SOL` maximum-position rule.
 
-This inconsistency weakens the published performance narrative but does not independently disprove the trade.
+An undocumented configuration change, exception or narrative error could theoretically explain the conflict.
 
-## Source status
+No transaction-level reconstruction was available to resolve it.
 
-Direct original screenshots should be treated as `PRIMARY-CAPTURED` once deposited in the repository.
+## Counterevidence and limitations
 
-Third-party archives may be retained only as `ARCHIVED-CORROBORATION` or `SECONDARY-DISCOVERY`.
+Similarity alone does not identify who originated the narrative or why it was reused.
+
+Public reposting, copying, template reuse, shared source material or coordinated publication are all possible explanations.
+
+The audit does not select among those explanations without additional evidence.
+
+## Raw evidence status
+
+Direct screenshots of the Backwood Aug 30 and Aug 31 posts were captured during source hardening on 2026-09-06.
+
+They should be deposited under `evidence/raw/x/` and referenced from the ledger once uploaded.
 
 ## Final case conclusion
 
-The strongest supported finding is about narrative provenance and internal consistency, not historical P&L.
+The strongest defensible conclusion is about provenance, not fraud.
+
+The MEMEMOON narrative cannot be treated as multiple independent performance observations simply because it appeared under multiple first-person accounts.
+
+Distribution depth is not evidence depth.
