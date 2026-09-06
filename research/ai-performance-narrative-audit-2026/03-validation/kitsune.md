@@ -14,6 +14,16 @@ A public narrative associated with Enko described an autonomous agent trading KI
 - approximately +62 ETH
 - about 5,820 holders
 - no honeypot / verified / renounced / LP burned safety language
+- a stated position-size hard cap of 0.8 ETH
+
+The text of this claim was independently recoverable during source hardening from current public archive/profile mirrors for `@enkoxbt`.
+
+Archived corroboration located during the audit includes:
+
+- `https://www.sotwe.com/enkoxbt`
+- `https://m.twstalker.com/enkoxbt`
+
+These are corroborating mirrors, not substitutes for an original X capture.
 
 ## Arithmetic check
 
@@ -36,6 +46,8 @@ The audit did not identify a unique combination of:
 
 sufficient to independently reconstruct the claimed historical P&L.
 
+The public claim contains high numerical precision, but the public audit trail identified during this investigation does not provide the transaction identifiers required to reproduce that precision.
+
 ## Finding
 
 **Verdict:** NON-REPRODUCIBLE  
@@ -52,6 +64,12 @@ This does not establish that:
 - the agent did not exist
 - the published code or capability was non-functional
 - the claimant intentionally misrepresented performance
+
+## Source status
+
+The claim text is currently supported by `ARCHIVED-CORROBORATION` from public profile mirrors.
+
+A direct original X post capture or exact original status URL would strengthen source preservation, but would not by itself raise the historical P&L finding above E1 unless transaction-level evidence were also supplied.
 
 ## Final case conclusion
 
