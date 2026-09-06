@@ -141,6 +141,8 @@ research/
     ├── timeline.csv
     ├── limitations.md
     ├── corrections.md
+    ├── SOURCE-HARDENING-STATUS.md
+    ├── FREEZE-READINESS.md
     ├── 01-entry-case/
     ├── 02-provenance/
     ├── 03-validation/
@@ -150,6 +152,7 @@ research/
     ├── 07-economics/
     ├── 08-timing/
     └── evidence/
+        ├── CAPTURE-MANIFEST.md
         ├── raw/
         └── figures/
 ```
@@ -166,6 +169,19 @@ Source status may be recorded as:
 - `PRIMARY-CAPTURED`
 - `ARCHIVED-CORROBORATION`
 - `SECONDARY-DISCOVERY`
+- `DERIVED`
+
+`DERIVED` is reserved for analysis generated from other evidence, such as arithmetic, timing calculations or cross-case synthesis. It is not a substitute for a primary source.
+
+---
+
+## Raw-evidence preservation
+
+Direct screenshots and videos are catalogued in `evidence/CAPTURE-MANIFEST.md` with intended repository paths and SHA-256 hashes.
+
+Where the current GitHub connector cannot deposit binary files directly, that operational limitation is declared rather than treating a planned raw-evidence path as though the binary were already present.
+
+See `SOURCE-HARDENING-STATUS.md` and `FREEZE-READINESS.md` for the current archival status.
 
 ---
 
