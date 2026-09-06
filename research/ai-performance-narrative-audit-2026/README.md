@@ -2,6 +2,8 @@
 
 ## Evidence repository
 
+**Status:** Evidence Ledger v1.0 frozen on 2026-09-06
+
 This repository contains the evidence, methodology, source material, corrections and adjudication record supporting the NPCsignals investigation:
 
 # Distribution Depth Is Not Evidence Depth
@@ -177,11 +179,21 @@ Source status may be recorded as:
 
 ## Raw-evidence preservation
 
-Direct screenshots and videos are catalogued in `evidence/CAPTURE-MANIFEST.md` with intended repository paths and SHA-256 hashes.
+The current v1.0 raw-evidence set has been deposited under `evidence/raw/` and catalogued in `evidence/CAPTURE-MANIFEST.md`.
 
-Where the current GitHub connector cannot deposit binary files directly, that operational limitation is declared rather than treating a planned raw-evidence path as though the binary were already present.
+The deposited binaries were checked against the original local audit files by matching locally calculated Git blob SHA-1 values to the GitHub blob SHAs after upload. SHA-256 values for the source captures remain preserved in the manifest.
 
-See `SOURCE-HARDENING-STATUS.md` and `FREEZE-READINESS.md` for the current archival status.
+The deposited set includes 16 X screenshots, 2 FACTORY metadata screenshots and 3 GRASS video captures.
+
+See `SOURCE-HARDENING-STATUS.md` and `FREEZE-READINESS.md` for the frozen archival status and declared non-blocking limitations.
+
+---
+
+## Versioning after freeze
+
+Evidence Ledger v1.0 is the frozen first audit state.
+
+Material changes to evidence grades, verdicts, scope or source interpretation should be recorded in a later ledger version rather than silently rewriting v1.0.
 
 ---
 
