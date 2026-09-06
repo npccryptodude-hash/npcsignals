@@ -36,7 +36,7 @@ The repository is the authoritative evidence layer for this investigation. The p
 
 ### Read the article on Medium
 
-`MEDIUM_URL_TO_BE_ADDED_AFTER_PUBLICATION`
+https://medium.com/@npcsignals/distribution-depth-is-not-evidence-depth-f449cdde3796
 
 ### Inspect the evidence on GitHub
 
