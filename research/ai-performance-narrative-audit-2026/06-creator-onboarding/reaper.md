@@ -112,11 +112,11 @@ It does not establish that all creator-linked launches follow this sequence.
 
 Direct screenshots were captured on 2026-09-06 and should be deposited unedited under `evidence/raw/x/`.
 
-Planned raw-evidence references:
+Planned raw-evidence references, aligned with `evidence/CAPTURE-MANIFEST.md`:
 
 - `evidence/raw/x/reaper-kai-origin.png`
 - `evidence/raw/x/reaper-kai-unaware.png`
+- `evidence/raw/x/reaper-orbital-community.png`
 - `evidence/raw/x/reaper-orbital-claimed.png`
-- `evidence/raw/x/reaper-orbital-agent-post.png`
 
 Until the binary files are committed, these paths are repository targets rather than proof that the files are already present.
