@@ -17,7 +17,20 @@ The freeze records the evidence and adjudications available at that point. It do
 - GRASS original X-source mapping is resolved to status `2093658526820212996`
 - current raw-evidence binaries are deposited under `evidence/raw/`
 - deposited binaries were byte-identity checked against the original local audit files
+- all `raw_evidence` paths retained in the frozen ledger point only to deposited files; planned-but-undeposited paths were removed during the final consistency cleanup
 - no finding was upgraded to compensate for unavailable evidence
+
+## Final source-path cleanup
+
+The final pre-freeze repository pass removed stale planned raw paths that did not correspond to deposited binaries.
+
+In particular:
+
+- MEMEMOON Zynex-only material is explicitly archive/recovery dependent rather than represented by a nonexistent deposited screenshot
+- KITSUNE has no raw screenshot path because the original X capture was not recovered
+- SPIDER raw paths are limited to the deposited Phosphen and Orbital captures
+
+These changes did not strengthen the findings. They made the source record more conservative and internally auditable.
 
 ## Declared limitations retained at freeze
 
