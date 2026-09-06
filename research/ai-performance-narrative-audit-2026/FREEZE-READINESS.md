@@ -4,19 +4,29 @@
 
 Updated: 2026-09-06
 
-This file separates analytical completion from source-preservation work that remains before the repository is frozen as Evidence Ledger v1.0.
+**Freeze status: FROZEN — EVIDENCE LEDGER v1.0**
+
+This file records the basis for freezing the v1.0 public audit package.
+
+---
+
+## Freeze decision
+
+Evidence Ledger v1.0 is frozen as of 2026-09-06.
+
+The freeze reflects the evidence available and source-hardening completed at that point. It does not imply that every open source question has been resolved.
+
+A later material correction or evidence upgrade should be recorded in a subsequent ledger version rather than silently rewriting the frozen v1.0 record.
 
 ---
 
 ## Analytical status
 
-**READY FOR FREEZE, SUBJECT TO DECLARED SOURCE-PRESERVATION ITEMS**
+**PASS**
 
-The core adjudications are internally consistent with the methodology and case files.
+The core adjudications are internally consistent with the methodology, case files, timeline, corrections and Evidence Ledger.
 
-The audit does not need stronger narrative conclusions before freeze.
-
-Current locked or intended v1.0 conclusions include:
+Frozen v1.0 conclusions include:
 
 - GRASS underlying asset movement: `CONFIRMED / E3`
 - GRASS claimed agent P&L: `UNVERIFIED / E1`
@@ -38,13 +48,29 @@ Current locked or intended v1.0 conclusions include:
 
 ---
 
-## Source-hardening completed
+## Raw-evidence preservation
 
-### GRASS exact source mapping
+**PASS**
 
-Resolved.
+The current v1.0 raw-evidence set has been deposited in GitHub and byte-identity checked against the original local audit files.
 
-Original status:
+Deposited set:
+
+- 16 X screenshots under `evidence/raw/x/`
+- 2 FACTORY metadata screenshots under `evidence/raw/metadata/`
+- 3 GRASS video captures under `evidence/raw/video/`
+
+The local file bytes were used to calculate Git blob SHA-1 values, and those values matched the corresponding GitHub blob SHAs after upload. The separately recorded SHA-256 values are preserved in `evidence/CAPTURE-MANIFEST.md`.
+
+The `.gitkeep` placeholder in `evidence/raw/x/` is organizational only and is not evidence.
+
+---
+
+## GRASS source resolution
+
+**PASS**
+
+Original source:
 
 `https://x.com/0xzynex/status/2093658526820212996`
 
@@ -52,97 +78,70 @@ Video endpoint:
 
 `https://x.com/0xzynex/status/2093658526820212996/video/1`
 
-The repository now contains a dedicated capture-integrity record under:
-
-`evidence/raw/video/grass-capture-integrity.md`
-
-Three non-identical capture variants are preserved by hash and classification, including a full user-supplied capture, an earlier full audit capture and a user-trimmed version.
-
-### Direct creator-onboarding captures
-
-SPIDER and REAPER direct captures are hashed and reflected in the case files and source index.
-
-### HIVEMIND and GBC source posts
-
-Direct source posts are captured and their post timestamps are stable.
-
-### Pump.fun creator-fee capability
-
-Primary Pump.fun documentation is preserved as protocol-level E3 evidence.
-
-### FACTORY primary-platform provenance text
-
-Pump.fun's own Explore surface independently displayed the FACTORY provenance text referencing `@enkoxbt`, Enko GitHub material and RoundtableSpace status `2093824765785976942`.
-
-The exact coin URL / full mint was not exposed through the accessible output, so the finding remains conservatively E2 rather than being upgraded to E3.
+The exact source mapping is no longer pending.
 
 ---
 
-## Remaining source-preservation items
+## Declared non-blocking limitations
 
-### 1. Binary deposition
+### FACTORY exact mint / primary coin URL
 
-**OPEN**
+**OPEN / NON-BLOCKING**
 
-The direct screenshots and videos are locally available and hashed, but the available GitHub connector does not expose a practical local-binary upload action.
+Pump.fun primary-platform provenance text was observed, but the exact stable asset URL and full mint were not recovered from the accessible output.
 
-Required action before ideal final freeze:
-
-- upload the listed files under `evidence/raw/`
-- preserve the intended filenames from `evidence/CAPTURE-MANIFEST.md`
-- verify each repository file against its recorded SHA-256
-
-This is an evidence-preservation task. It does not change the existing adjudications.
-
-### 2. FACTORY exact mint / exact primary coin URL
-
-**OPEN, NON-BLOCKING IF LIMITATION IS RETAINED**
-
-The provenance text is independently visible on Pump.fun's primary public surface and on GeckoTerminal.
-
-The full mint remains unresolved from the current accessible outputs.
-
-If not improved, retain:
+Frozen treatment:
 
 `FACTORY-01 = E2 / SUPPORTED / PROVISIONAL`
 
-Do not infer the missing identifier.
+No missing identifier is inferred.
 
-### 3. HIVEMIND / GBC primary creation transactions
+### HIVEMIND / GBC primary creation transactions
 
-**OPEN, NON-BLOCKING IF LIMITATION IS RETAINED**
+**OPEN / NON-BLOCKING**
 
-The current creation timestamps remain third-party indexed values.
+The current creation timestamps remain third-party indexed values rather than independently reconstructed primary Solana creation transactions.
 
-Attempts to obtain a clean primary Solana creation transaction through the available interfaces did not yield a source suitable for upgrade.
+Frozen treatment:
 
-If not improved, retain E2 and state that the interval is post-to-indexed-creation only.
+- keep timing at E2
+- describe the interval as post-to-indexed-creation only
+- do not infer automation, coordination, common control or causality
 
-### 4. Direct KITSUNE original capture
+### KITSUNE direct original capture
 
-**OPEN, NON-BLOCKING IF LIMITATION IS RETAINED**
+**OPEN / NON-BLOCKING**
 
-The detailed claim text is recoverable through public mirrors, but a direct original X capture remains preferable.
+The detailed claim text is preserved through public mirrors, but a direct original X capture was not recovered.
 
-This does not change the underlying verdict because no agent wallet, contract and entry/exit transaction chain was reconstructed.
-
-Retain:
+Frozen treatment:
 
 `KITSUNE = NON-REPRODUCIBLE / E1`
 
+No agent wallet, unique contract and entry/exit transaction chain were reconstructed.
+
 ---
 
-## Freeze rule
+## Freeze criteria
 
-The repository should not wait indefinitely for evidence that is not publicly recoverable.
-
-A v1.0 freeze is defensible when:
+The v1.0 freeze satisfies the repository's stated rule because:
 
 1. the analytical findings are internally consistent
 2. unresolved items are explicitly declared
-3. no finding is upgraded to compensate for missing evidence
-4. raw evidence already available to the audit is deposited or, where technically blocked, preserved by hash and source record
-5. the final ledger and case files undergo one last consistency check
+3. no finding has been upgraded to compensate for missing evidence
+4. available raw evidence has been deposited and identity-verified
+5. the ledger and case files completed a final consistency pass
+6. corrections and rejected hypotheses remain preserved
+
+---
+
+## Versioning rule after freeze
+
+From this point forward:
+
+- typographical or navigational repairs that do not alter substantive meaning should be documented clearly
+- any material evidence change, verdict change, evidence-grade change or scope change should produce a later ledger version
+- v1.0 should remain available as the frozen first public audit state
 
 The governing principle remains:
 
