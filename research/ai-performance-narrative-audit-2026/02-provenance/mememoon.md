@@ -8,7 +8,7 @@ The audit treats content provenance separately from the truth of the underlying 
 
 ## Zynex narrative
 
-A captured Zynex MEMEMOON post described a Grok-based trading system and included unusually specific details:
+A recovered / archived Zynex MEMEMOON post described a Grok-based trading system and included unusually specific details:
 
 - starting bankroll framed as 1 SOL
 - MEMEMOON as the selected token
@@ -24,6 +24,8 @@ A captured Zynex MEMEMOON post described a Grok-based trading system and include
 The same published system description also stated that position size never exceeded `0.1 SOL`.
 
 That creates an internal conflict with the stated `0.5 SOL` MEMEMOON entry.
+
+The direct original Zynex screenshot is not part of the deposited v1.0 raw set, so the Zynex-only inconsistency finding remains source-limited to archived / recovered public material.
 
 ## Backwood duplicate narrative
 
@@ -60,6 +62,8 @@ The later version contains small mutations rather than a wholly independent pres
 
 The apparent independence of the public narratives is materially weakened by the unusually specific overlap.
 
+This finding combines archive/recovery-dependent Zynex material with directly captured Backwood material.
+
 This finding does not establish:
 
 - common account control
@@ -80,6 +84,8 @@ An undocumented configuration change, exception or narrative error could theoret
 
 No transaction-level reconstruction was available to resolve it.
 
+**Source status for this Zynex-only finding:** `ARCHIVED-CORROBORATION`.
+
 ## Counterevidence and limitations
 
 Similarity alone does not identify who originated the narrative or why it was reused.
@@ -90,9 +96,16 @@ The audit does not select among those explanations without additional evidence.
 
 ## Raw evidence status
 
-Direct screenshots of the Backwood Aug 30 and Aug 31 posts were captured during source hardening on 2026-09-06.
+**Status:** DIRECT BACKWOOD CAPTURES DEPOSITED / HASH MATCH
 
-They should be deposited under `evidence/raw/x/` and referenced from the ledger once uploaded.
+The direct Backwood Aug 30 and Aug 31 screenshots are preserved under:
+
+- `evidence/raw/x/mememoon-backwood.png`
+- `evidence/raw/x/mememoon-backwood-followup.png`
+
+Their SHA-256 values are recorded in `evidence/CAPTURE-MANIFEST.md`, and their deposited Git blob SHAs matched the locally calculated values.
+
+No nonexistent Zynex raw screenshot path is asserted in the frozen v1.0 ledger.
 
 ## Final case conclusion
 
