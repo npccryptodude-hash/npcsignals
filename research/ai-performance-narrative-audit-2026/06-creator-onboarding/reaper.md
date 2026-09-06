@@ -110,13 +110,15 @@ It does not establish that all creator-linked launches follow this sequence.
 
 ## Raw evidence status
 
-Direct screenshots were captured on 2026-09-06 and should be deposited unedited under `evidence/raw/x/`.
+**Status:** DEPOSITED / HASH MATCH
 
-Planned raw-evidence references, aligned with `evidence/CAPTURE-MANIFEST.md`:
+Direct screenshots captured during the audit are preserved unedited under `evidence/raw/x/`:
 
 - `evidence/raw/x/reaper-kai-origin.png`
 - `evidence/raw/x/reaper-kai-unaware.png`
-- `evidence/raw/x/reaper-orbital-community.png`
 - `evidence/raw/x/reaper-orbital-claimed.png`
+- `evidence/raw/x/reaper-orbital-community.png`
 
-Until the binary files are committed, these paths are repository targets rather than proof that the files are already present.
+Their SHA-256 values are recorded in `evidence/CAPTURE-MANIFEST.md`.
+
+After upload, locally calculated Git blob SHA-1 values matched the corresponding GitHub blob SHAs, confirming byte identity with the locally hashed audit files.
