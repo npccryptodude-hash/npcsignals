@@ -10,13 +10,37 @@ A manifest entry does not increase an evidence grade by itself. It preserves fil
 
 ---
 
-## GRASS primary claim video
+## GRASS primary claim
 
-### `evidence/raw/video/grass-original.mp4`
+### `evidence/raw/x/grass-zynex-status-2093658526820212996.png`
 
-**Source:** captured GRASS / Grok-bot claim video supplied during the audit  
-**Local source recovered:** yes, 2026-09-06  
-**Container source filename:** `1291d225-5f65-4d0f-bd15-f275d81d3ee5.mp4`  
+**Source:** `@0xzynex`  
+**Visible date:** Sep 4  
+**Exact X status:** `https://x.com/0xzynex/status/2093658526820212996`  
+**Relevant content:** `HOLY SH*T MY GROK BOT BOUGHT $GRASS AT $30K CAP AND SOLD AT $2M`; `66x on one trade, completely autonomous, ETH chain`; safety-language including `no honeypot, verified, renounced, LP burned 95%`.  
+**SHA-256:**
+
+`82d23ae2c6708fe07290f1dd162f3e5ff958d3a0d648dcd4ad9098ad60fcea59`
+
+**Status:** LOCAL CAPTURED / HASH VERIFIED / GITHUB BINARY UPLOAD PENDING
+
+### `evidence/raw/video/grass-x-video-2093658526820212996.mp4`
+
+**Source:** direct video file supplied from the exact X post  
+**Exact video endpoint:** `https://x.com/0xzynex/status/2093658526820212996/video/1`  
+**Duration:** `9.386625 s`  
+**Video:** H.264, `476 × 1060`, `30 fps`  
+**Audio:** AAC  
+**File size:** `1,141,978 bytes`  
+**SHA-256:**
+
+`bbab2447f036108005e1519292f41600df63581d5e1c7e555da92d13c3ece307`
+
+**Status:** LOCAL CAPTURED / HASH VERIFIED / GITHUB BINARY UPLOAD PENDING
+
+### `evidence/raw/video/grass-original-audit-capture.mp4`
+
+**Source:** earlier GRASS / Grok-bot claim video preserved during the audit  
 **Duration:** `19.413271 s`  
 **Video:** H.264, `896 × 782`, `30 fps`  
 **Audio:** AAC  
@@ -27,6 +51,8 @@ A manifest entry does not increase an evidence grade by itself. It preserves fil
 `a935e1e4d3722c073bd58693e8721d135c2f31e152f8b3fffff4be780c3ab330`
 
 **Status:** LOCAL RECOVERED / HASH VERIFIED / GITHUB BINARY UPLOAD PENDING
+
+**Audit note:** the direct X-linked video and the earlier audit capture are not byte-identical. They differ in duration, dimensions, size and SHA-256. Both are retained separately. The exact source mapping is now resolved to status `2093658526820212996`.
 
 ---
 
@@ -224,6 +250,6 @@ A manifest entry does not increase an evidence grade by itself. It preserves fil
 
 The SHA-256 hashes above allow later repository uploads to be checked against the original files captured during the audit.
 
-The GRASS source video is confirmed present in the current working environment and its SHA-256 matches the hash previously recorded during the investigation.
+The exact GRASS source mapping is now resolved to X status `2093658526820212996`. Both the direct X-linked video and the earlier audit capture are retained separately because their byte-level properties differ.
 
 Once binaries are committed, each entry should be checked and marked `UPLOADED / HASH MATCH`.
