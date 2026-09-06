@@ -2,16 +2,18 @@
 
 This index records the principal public, technical, archived and captured sources used in the AI Performance Narrative Audit 2026.
 
+**Status:** aligned with frozen Evidence Ledger v1.0 on 2026-09-06.
+
 A source appearing here does not mean every claim associated with it is verified. Each finding must be read together with its evidence grade, verdict scope, counterevidence and limitations in `evidence-ledger-v1.0.csv`.
 
-Direct captures hashed during the audit are recorded separately in `evidence/CAPTURE-MANIFEST.md`.
+Direct captures and their SHA-256 values are recorded in `evidence/CAPTURE-MANIFEST.md`. The current v1.0 binary set is deposited under `evidence/raw/` and byte-identity verified against the locally hashed audit files.
 
 ---
 
 ## Source-status labels
 
 - `PRIMARY-LIVE` — original source is directly accessible.
-- `PRIMARY-CAPTURED` — original source was captured directly, but may not yet be committed as a binary file.
+- `PRIMARY-CAPTURED` — original source was captured directly and preserved or catalogued by the audit.
 - `ARCHIVED-CORROBORATION` — archived or mirrored copy used to corroborate that public material existed.
 - `SECONDARY-DISCOVERY` — third-party index or aggregator used for discovery, metadata recovery or chronology.
 - `DERIVED` — analysis created from other evidence, such as arithmetic or cross-case synthesis.
@@ -33,21 +35,17 @@ Third-party repetition is not treated as independent verification unless it adds
 
 **Important limitation:** asset movement does not establish that the claimed autonomous agent executed the stated entry and exit.
 
-## Zynex published / personal wallet
+## Exact Zynex claim source
 
-**Wallet:** `0x690d7552375Fcd23Bd2a5E1d74f7445FAdfc6c83`
-
-**Role in audit:** wallet publicly associated with the creator/account during verification attempts.
-
-No transaction path from this wallet independently reconstructed the claimed GRASS trade.
-
-**Limitation:** the public narrative distinguished a personal wallet from separate agent wallets. Failure to locate the trade in the personal wallet does not disprove another agent wallet.
-
-## GRASS claim video
-
+**Account:** `@0xzynex`  
+**Status:** `2093658526820212996`  
+**URL:** `https://x.com/0xzynex/status/2093658526820212996`  
+**Video endpoint:** `https://x.com/0xzynex/status/2093658526820212996/video/1`  
 **Source status:** `PRIMARY-CAPTURED`
 
-The captured video presents:
+The captured post states that the Grok bot bought GRASS at approximately `$30K` market cap and sold at approximately `$2M`, framed as `66x on one trade, completely autonomous, ETH chain`.
+
+The preserved presentation includes:
 
 - `0.3 ETH` entry
 - approximately `+19.7 ETH`
@@ -55,11 +53,17 @@ The captured video presents:
 - position marked closed
 - safety labels including no honeypot / verified / renounced / LP burned 95%
 
-**Recorded SHA-256:**
+The screenshot and three non-identical video captures are deposited under `evidence/raw/` and catalogued in `evidence/CAPTURE-MANIFEST.md`.
 
-`a935e1e4d3722c073bd58693e8721d135c2f31e152f8b3fffff4be780c3ab330`
+**Limitation:** no agent wallet, buy hash or sell hash is exposed by the video.
 
-**Limitation:** the video does not expose the agent wallet, buy hash or sell hash.
+## Zynex published / personal wallet
+
+**Wallet:** `0x690d7552375Fcd23Bd2a5E1d74f7445FAdfc6c83`
+
+No transaction path from this wallet independently reconstructed the claimed GRASS trade.
+
+**Limitation:** the public narrative distinguished a personal wallet from separate agent wallets. Failure to locate the trade in the personal wallet does not disprove another agent wallet.
 
 ## Pons v2 launch architecture
 
@@ -78,8 +82,6 @@ A direct historical Zynex capture dated Jul 6, 2025 referred to `The next Grass`
 **Audit use:** counterevidence only.
 
 The reference concerns the older Grass ecosystem / airdrop context and is not used as evidence of prior knowledge of the 2026 GRASS token case.
-
-See `evidence/CAPTURE-MANIFEST.md` for the capture hash.
 
 ---
 
@@ -104,17 +106,16 @@ The same surrounding system narrative also reportedly stated a maximum position 
 
 ## Backwood duplicate narrative
 
-**Account:** `@0xBackwood`
+**Account:** `@0xBackwood`  
+**Source status:** `PRIMARY-CAPTURED`
 
 Direct captures obtained on 2026-09-06 preserve a separate first-person MEMEMOON narrative with multiple unusually specific overlapping details, while some parameters are changed.
-
-**Source status:** `PRIMARY-CAPTURED`
 
 **Audit use:** content provenance and internal-consistency analysis.
 
 **Not established:** common account control, coordinated fraud or fabrication of the underlying trade.
 
-Hashes are recorded in `evidence/CAPTURE-MANIFEST.md`.
+The Backwood captures are deposited under `evidence/raw/x/`.
 
 ---
 
@@ -133,13 +134,15 @@ Observed claim elements recorded during the audit included:
 - safety statements including no honeypot / verified / renounced / LP burned
 - autonomous execution framing
 
+**Source status:** `ARCHIVED-CORROBORATION`
+
 **Audit result:** no unique contract, agent wallet, buy hash and sell hash were identified from the public material available to the audit.
 
-**Verdict relevance:** `NON-REPRODUCIBLE` within the public evidence set.
+**Verdict relevance:** `NON-REPRODUCIBLE / E1` within the public evidence set.
 
 **Not established:** that the claim was false or that the trade did not occur.
 
-A separate direct Enko capture from Aug 30 documenting a five-bot race exists in the capture manifest. It is not the KITSUNE source and must not be substituted for the KITSUNE evidence.
+A separate direct Enko capture from Aug 30 documenting a five-bot race is deposited under `evidence/raw/x/`. It is not the KITSUNE source and must not be substituted for KITSUNE evidence.
 
 ---
 
@@ -149,11 +152,10 @@ A separate direct Enko capture from Aug 30 documenting a five-bot race exists in
 
 **Account:** `@RoundtableSpace`  
 **Display name:** `0xMarioNawfal`  
-**Recorded status:** `2093824765785976942`
+**Recorded status:** `2093824765785976942`  
+**Source status:** `PRIMARY-CAPTURED`
 
 The captured post states that a Grok bot was taught to autonomously launch memecoins on Pump.fun, kill failed launches and collect creator fees from those that trade.
-
-**Source status:** `PRIMARY-CAPTURED`
 
 **Role in audit:** amplification layer.
 
@@ -161,7 +163,7 @@ The captured post states that a Grok bot was taught to autonomously launch memec
 
 **Not established:** that RoundtableSpace created, approved or financially benefited from downstream tokens.
 
-The direct capture hash is recorded in `evidence/CAPTURE-MANIFEST.md`.
+The direct capture is deposited under `evidence/raw/x/`.
 
 ---
 
@@ -173,7 +175,7 @@ The direct capture hash is recorded in `evidence/CAPTURE-MANIFEST.md`.
 
 **Creator-wallet record:** `HAh7q881D5qUiXuHCZQXx7PcQQWiyHWE3fVXF5j8khpV`
 
-Two direct GeckoTerminal screenshots obtained during the audit show:
+Two GeckoTerminal screenshots preserved by the audit show:
 
 - the FACTORY market
 - `Grok Token Factory` labeling
@@ -183,18 +185,17 @@ Two direct GeckoTerminal screenshots obtained during the audit show:
 
 **Source status:** captured third-party market interface.
 
-GeckoTerminal is not primary Pump.fun metadata. Accordingly, `FACTORY-01` is held at `E2 / SUPPORTED / PROVISIONAL` until the exact primary Pump.fun token page and mint metadata are preserved or equivalent primary technical evidence is obtained.
+The two screenshots are deposited under `evidence/raw/metadata/`.
 
-Additional downstream provenance material examined during the audit referenced:
+Pump.fun's own Explore surface was also observed reproducing FACTORY provenance text referencing `@enkoxbt`, Enko GitHub material and RoundtableSpace status `2093824765785976942`. A primary-platform discovery note is preserved at `evidence/raw/metadata/factory-pumpfun-discovery-note.md`.
 
-- `@enkoxbt`
-- Enko-linked GitHub material
-- Enko public content
-- RoundtableSpace status `2093824765785976942`
+The exact stable Pump.fun asset URL/full mint was not recovered from the accessible primary output.
+
+Accordingly:
+
+`FACTORY-01 = E2 / SUPPORTED / PROVISIONAL`
 
 **Not established:** that Enko or RoundtableSpace created, approved or financially benefited from FACTORY.
-
-Capture hashes are recorded in `evidence/CAPTURE-MANIFEST.md`.
 
 ---
 
@@ -211,7 +212,7 @@ Relevant documented capabilities include:
 - configurable recipients
 - up to 10 shareholders
 - allocation through basis-point shares summing to 10,000
-- social / identity-linked fee mechanisms
+- identity-linked fee mechanics documented by the protocol
 
 **Source status:** `PRIMARY-LIVE`
 
@@ -238,8 +239,7 @@ A direct captured Sep 2 post states in substance that:
 - the creator learned about it from a stranger in replies
 - creator fees were routed to the creator
 
-**Token mint:** `6m6hkSNrZ1FxuLLdbcf9UAraPvUZMgfcCSsx3hh4pump`
-
+**Token mint:** `6m6hkSNrZ1FxuLLdbcf9UAraPvUZMgfcCSsx3hh4pump`  
 **Source status:** `PRIMARY-CAPTURED`
 
 ## Orbital claim / onboarding material
@@ -250,13 +250,11 @@ A direct captured Orbitalx0 post shows:
 - the same SPIDER mint
 - `$SPIDER tech`
 
-Additional captured material documents later onboarding/adoption language.
-
 **Audit use:** public post-launch onboarding chronology.
 
 **Payout status:** unverified at transaction level.
 
-Hashes are recorded in `evidence/CAPTURE-MANIFEST.md`.
+The SPIDER captures are deposited under `evidence/raw/x/`.
 
 ---
 
@@ -265,7 +263,8 @@ Hashes are recorded in `evidence/CAPTURE-MANIFEST.md`.
 ## Creator account
 
 **Account:** `@0xkkai`  
-**Token mint:** `FRPV7Df98MRYLQus6LvJHkjWukUai9wonumScVcypump`
+**Token mint:** `FRPV7Df98MRYLQus6LvJHkjWukUai9wonumScVcypump`  
+**Source status:** `PRIMARY-CAPTURED`
 
 Direct Sep 1 captures show Kai stating:
 
@@ -274,15 +273,11 @@ Direct Sep 1 captures show Kai stating:
 - he found out because the agent flagged it
 - he was taking communications and would keep building
 
-**Source status:** `PRIMARY-CAPTURED`
-
 ## Orbital onboarding material
 
 Direct Orbitalx0 captures show the same mint and later language:
 
 `He tapped in and claimed`
-
-A separate Orbital post links to Kai's REAPER-1 work and GitHub and provides the CA in a reply.
 
 **Audit use:** second directly captured case consistent with public post-launch creator onboarding.
 
@@ -290,7 +285,7 @@ A separate Orbital post links to Kai's REAPER-1 work and GitHub and provides the
 
 **Specific creator-fee payout:** `UNVERIFIED` until reconstructed transaction-by-transaction.
 
-Hashes are recorded in `evidence/CAPTURE-MANIFEST.md`.
+The REAPER captures are deposited under `evidence/raw/x/`.
 
 ---
 
@@ -330,32 +325,28 @@ No denominator-based prevalence estimate is made.
 ## Miraqle
 
 **Recorded status:** `2094015933891178522`  
-**Decoded timestamp:** `2026-08-30 10:54:38 UTC`
+**Decoded timestamp:** `2026-08-30 10:54:38 UTC`  
+**Source status:** `PRIMARY-CAPTURED`
 
 A direct capture preserves the HIVEMIND 16-agent / 2 SOL to 31 SOL narrative.
-
-**Source status:** `PRIMARY-CAPTURED`
 
 ## Orbitalx0
 
 **Recorded status:** `2094086697256427897`  
-**Decoded timestamp:** `2026-08-30 15:35:49.532 UTC`
+**Decoded timestamp:** `2026-08-30 15:35:49.532 UTC`  
+**Source status:** `PRIMARY-CAPTURED`
 
 A direct capture describes HIVEMIND as a 16-agent autonomous trading desk, references Miraqle and GitHub, states `Redirecting all fees`, and provides a CA in the reply.
 
-**Source status:** `PRIMARY-CAPTURED`
-
 ## Indexed token creation
 
-**Third-party indexed time:** `2026-08-30 15:36:43 UTC`
-
-**Observed interval:** approximately `53.468 seconds` from the Orbital post to indexed creation.
-
+**Third-party indexed time:** `2026-08-30 15:36:43 UTC`  
+**Observed interval:** approximately `53.468 seconds`  
 **Source status:** `SECONDARY-DISCOVERY`
 
 **Audit rule:** short latency does not establish automation, coordination, prior knowledge or causality.
 
-Capture hashes are recorded in `evidence/CAPTURE-MANIFEST.md`.
+The Miraqle and Orbital captures are deposited under `evidence/raw/x/`.
 
 ---
 
@@ -364,23 +355,20 @@ Capture hashes are recorded in `evidence/CAPTURE-MANIFEST.md`.
 ## ScottyBeamIO source narrative
 
 **Recorded status:** `2093430437704319344`  
-**Decoded timestamp:** `2026-08-28 20:08:05.062 UTC`
+**Decoded timestamp:** `2026-08-28 20:08:05.062 UTC`  
+**Source status:** `PRIMARY-CAPTURED`
 
 A direct Aug 28 capture states that `@ScottyBeamIO` built a full Grok Bot agent setup for a Cybertruck and describes the multi-agent architecture.
 
-**Source status:** `PRIMARY-CAPTURED`
-
 ## Indexed token creation
 
-**Third-party indexed time:** `2026-08-28 20:24:07 UTC`
-
-**Observed interval:** approximately `16 minutes 1.938 seconds`.
-
+**Third-party indexed time:** `2026-08-28 20:24:07 UTC`  
+**Observed interval:** approximately `16 minutes 1.938 seconds`  
 **Source status:** `SECONDARY-DISCOVERY`
 
 **Audit use:** counterevidence against a uniform sub-minute launch-latency hypothesis.
 
-The direct source capture hash is recorded in `evidence/CAPTURE-MANIFEST.md`.
+The direct source capture is deposited under `evidence/raw/x/`.
 
 ---
 
@@ -393,7 +381,7 @@ A previously observed indexed creation time suggested a roughly 33-second interv
 
 The creation source was not sufficiently verified for a locked v1.0 timing conclusion.
 
-**Status:** `PENDING`.
+**Status:** `PENDING` and excluded from the locked timing inference.
 
 ---
 
@@ -423,20 +411,25 @@ Where an indexed timestamp or attribution has not been independently reconstruct
 
 Annotated or generated figures belong under `evidence/figures/` and must not replace raw evidence.
 
-Raw screenshots and videos should remain unedited under `evidence/raw/` where possible.
+Raw screenshots and videos remain unedited under `evidence/raw/` where available.
 
 ---
 
-# 14. Pending source-hardening work
+# 14. Frozen v1.0 source-hardening state
 
-Before final repository freeze, the remaining high-value tasks are:
+The blocking source-preservation work is complete:
 
-- upload the already hashed direct screenshots under `evidence/raw/`
-- verify hash matches after upload
-- preserve the exact primary Pump.fun FACTORY page / mint metadata if obtainable
-- preserve a direct original KITSUNE source if obtainable
-- replace secondary HIVEMIND and GBC creation timestamps with primary Solana creation evidence where obtainable
-- preserve the exact original GRASS X mapping with the video capture
-- harden OPENCODEX or leave it explicitly pending
+- current direct screenshots are deposited under `evidence/raw/x/`
+- FACTORY metadata screenshots are deposited under `evidence/raw/metadata/`
+- GRASS videos are deposited under `evidence/raw/video/`
+- deposited binaries were byte-identity checked against the original local audit files
+- exact original GRASS X mapping is resolved
 
-Findings that depend on incomplete source hardening retain the lower evidence grade or limitation already recorded in the ledger.
+The following remain declared non-blocking limitations:
+
+- exact stable primary Pump.fun FACTORY asset URL/full mint not recovered; retain `FACTORY-01 = E2 / SUPPORTED / PROVISIONAL`
+- primary Solana creation transactions for HIVEMIND and GBC not reconstructed; retain E2 indexed-timestamp limitation
+- direct original KITSUNE X capture not recovered; retain `NON-REPRODUCIBLE / E1`
+- OPENCODEX remains pending and is not used as a locked timing finding
+
+Any material future source upgrade that changes a verdict, evidence grade or scope should be recorded in a later ledger version rather than silently rewriting v1.0.
