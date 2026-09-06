@@ -10,6 +10,25 @@ The case is used to separate observable token price movement from a separate cla
 
 A public performance narrative stated that a Grok bot entered GRASS with approximately 0.3 ETH and exited with approximately 19.7 ETH, presented as roughly a 66x result.
 
+## Exact primary X source
+
+The original source was directly recovered on 2026-09-06:
+
+`https://x.com/0xzynex/status/2093658526820212996`
+
+Direct video endpoint supplied from the same post:
+
+`https://x.com/0xzynex/status/2093658526820212996/video/1`
+
+The captured X post is dated Sep 4 and states:
+
+- `HOLY SH*T MY GROK BOT BOUGHT $GRASS AT $30K CAP AND SOLD AT $2M`
+- `66x on one trade, completely autonomous, ETH chain`
+- the bot scans new launches on Robinhood and applies safety checks
+- `GRASS passed all 4: no honeypot, verified, renounced, LP burned 95%`
+
+This resolves the earlier ambiguity around the original X status mapping.
+
 ## Identified asset
 
 GRASS contract:
@@ -93,13 +112,38 @@ The audit rejected several weak linkage ideas:
 
 ## Raw evidence status
 
-A captured GRASS video was preserved during the investigation and hashed locally:
+Two separate video files are now preserved in the audit environment and must not be treated as byte-identical.
+
+### Earlier audit capture
+
+SHA-256:
 
 `a935e1e4d3722c073bd58693e8721d135c2f31e152f8b3fffff4be780c3ab330`
 
-Repository upload of the raw file is pending.
+Properties recorded during the audit:
 
-Exact original X-source mapping should remain `PENDING` until the raw capture and final source URL are placed in the repository.
+- duration: `19.413271 s`
+- video: H.264, `896 × 782`, `30 fps`
+- audio: AAC
+
+### Direct X-linked video supplied 2026-09-06
+
+SHA-256:
+
+`bbab2447f036108005e1519292f41600df63581d5e1c7e555da92d13c3ece307`
+
+Properties:
+
+- duration: `9.386625 s`
+- video: H.264, `476 × 1060`, `30 fps`
+- audio: AAC
+- file size: `1,141,978 bytes`
+
+The two files differ in duration, dimensions and hash. The direct X-linked file is therefore recorded as a separate primary capture rather than silently replacing the earlier audit capture.
+
+A screenshot of the exact X post was also captured and hashed separately in `evidence/CAPTURE-MANIFEST.md`.
+
+Repository binary upload remains pending.
 
 ## Final case conclusion
 
