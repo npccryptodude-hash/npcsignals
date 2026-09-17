@@ -10,18 +10,27 @@ Framework: FROZEN v1.0
 Countries: 15
 Dimensions: 6
 Contemporary Mandate Integrity target: 90 cases
-Current completed and temporally eligible cases: 89 / 90
-Pending case: Sweden 2026 general election — final certification pending
+Case design: COMPLETE — 90 / 90 bounded rows
+Sweden 2026 election: completed count gives centre-left 176 seats vs right bloc 173; formal Election Authority determination still pending
 Historical controls: separated from the contemporary sample
-Scoring status: PAUSED pending source/design audit resolution
+Scoring status: READY AFTER FORMAL SWEDISH CERTIFICATION
 
 Public audit files
 
 AUDIT_LEDGER_v1.1.md
-The 90-slot contemporary Mandate Integrity case register. It contains the fixed 2/2/2 case composition for all 15 countries, case IDs, categories, dates, source-pack labels, eligibility status, and the seven frozen scoring fields. The score fields are intentionally blank until the final Sweden result is certified and the full sample is rescored from scratch.
+The original 90-slot contemporary Mandate Integrity case register. It preserves the pre-resolution case structure and blank scoring fields for audit traceability.
 
 SOURCE_AUDIT_v1.0.md
-Pre-rescore review of all 90 slots for temporal eligibility, source readiness, category fit, and within-country duplication risk. This audit identifies cases that are READY, need source/definition TIGHTENING, require DESIGN REVIEW, or remain PENDING.
+Pre-rescore review of all 90 slots for temporal eligibility, source readiness, category fit, and within-country duplication risk.
+
+CASE_DESIGN_RESOLUTION_v1.0.md
+Records the first set of replacements, de-duplications and bounded-unit corrections identified by the source audit.
+
+CASE_DESIGN_RESOLUTION_v1.1.md
+Closes the final unresolved Japan fiscal row and records the Sweden result direction as locked while formal certification remains pending.
+
+PRE_SCORE_FREEZE_v1.0.md
+Freezes the resolved 90-case design immediately before numerical rescoring. No pilot score is carried forward automatically.
 
 METHODS.md
 Frozen framework, definitions, inclusion rules, weights, temporal eligibility, historical controls, and falsification rules.
@@ -39,7 +48,7 @@ Pre-shock reference: 2016–2023
 Main observation period: 2024–2026
 Longitudinal follow-up: through 2028
 
-The primary contemporary eligibility window was frozen as January 1, 2024 through September 10, 2026. One exception was pre-registered before the result was known: the Swedish general election on September 13, 2026. That case remains unscored until the final result is formally certified.
+The primary contemporary eligibility window was frozen as January 1, 2024 through September 10, 2026. One exception was pre-registered before the result was known: the Swedish general election on September 13, 2026. That case remains unscored until the final result is formally determined by the Swedish Election Authority.
 
 Country sample
 
@@ -167,14 +176,14 @@ The project is exploratory and case-based. It is designed as a stress instrument
 
 Next steps
 
-1. Resolve SOURCE_AUDIT_v1.0 TIGHTEN and DESIGN REVIEW cases.
-2. Attach the final primary/high-quality source register to the resolved 90-slot ledger.
-3. Wait for final certification of the Swedish 2026 election.
-4. Freeze the 90 / 90 contemporary case ledger.
-5. Run full numerical rescoring from scratch.
+1. Wait for formal Swedish Election Authority determination.
+2. Merge the resolved rows into the final 90-case scoring ledger.
+3. Run one last temporal/source audit.
+4. Run full numerical rescoring from scratch.
+5. Freeze the numerical first pass.
 6. Run controlled second-pass review.
 7. Run sensitivity analysis.
-8. Test non-compensatory safeguards.
+8. Test non-compensatory safeguards separately from the base arithmetic result.
 9. Freeze the first 2026 baseline report.
 10. Continue the same framework through 2028.
 
