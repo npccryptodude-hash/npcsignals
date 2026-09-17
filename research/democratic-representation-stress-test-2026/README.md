@@ -13,11 +13,15 @@ Contemporary Mandate Integrity target: 90 cases
 Current completed and temporally eligible cases: 89 / 90
 Pending case: Sweden 2026 general election — final certification pending
 Historical controls: separated from the contemporary sample
+Scoring status: PAUSED pending source/design audit resolution
 
 Public audit files
 
 AUDIT_LEDGER_v1.1.md
 The 90-slot contemporary Mandate Integrity case register. It contains the fixed 2/2/2 case composition for all 15 countries, case IDs, categories, dates, source-pack labels, eligibility status, and the seven frozen scoring fields. The score fields are intentionally blank until the final Sweden result is certified and the full sample is rescored from scratch.
+
+SOURCE_AUDIT_v1.0.md
+Pre-rescore review of all 90 slots for temporal eligibility, source readiness, category fit, and within-country duplication risk. This audit identifies cases that are READY, need source/definition TIGHTENING, require DESIGN REVIEW, or remain PENDING.
 
 METHODS.md
 Frozen framework, definitions, inclusion rules, weights, temporal eligibility, historical controls, and falsification rules.
@@ -163,15 +167,16 @@ The project is exploratory and case-based. It is designed as a stress instrument
 
 Next steps
 
-1. Attach and validate the primary source pack for every row in AUDIT_LEDGER_v1.1.md.
-2. Wait for final certification of the Swedish 2026 election.
-3. Freeze the 90 / 90 contemporary case ledger.
-4. Run full numerical rescoring from scratch.
-5. Run controlled second-pass review.
-6. Run sensitivity analysis.
-7. Test non-compensatory safeguards.
-8. Freeze the first 2026 baseline report.
-9. Continue the same framework through 2028.
+1. Resolve SOURCE_AUDIT_v1.0 TIGHTEN and DESIGN REVIEW cases.
+2. Attach the final primary/high-quality source register to the resolved 90-slot ledger.
+3. Wait for final certification of the Swedish 2026 election.
+4. Freeze the 90 / 90 contemporary case ledger.
+5. Run full numerical rescoring from scratch.
+6. Run controlled second-pass review.
+7. Run sensitivity analysis.
+8. Test non-compensatory safeguards.
+9. Freeze the first 2026 baseline report.
+10. Continue the same framework through 2028.
 
 NPCsignals
 Observe → Filter → Validate → Stress → Archive → Review
