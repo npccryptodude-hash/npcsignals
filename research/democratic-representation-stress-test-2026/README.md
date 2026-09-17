@@ -14,6 +14,20 @@ Current completed and temporally eligible cases: 89 / 90
 Pending case: Sweden 2026 general election — final certification pending
 Historical controls: separated from the contemporary sample
 
+Public audit files
+
+AUDIT_LEDGER_v1.1.md
+The 90-slot contemporary Mandate Integrity case register. It contains the fixed 2/2/2 case composition for all 15 countries, case IDs, categories, dates, source-pack labels, eligibility status, and the seven frozen scoring fields. The score fields are intentionally blank until the final Sweden result is certified and the full sample is rescored from scratch.
+
+METHODS.md
+Frozen framework, definitions, inclusion rules, weights, temporal eligibility, historical controls, and falsification rules.
+
+FINDINGS_LEDGER.md
+Cross-dimensional findings CDF-01 through CDF-07, including evidence strength, counterexamples, falsification conditions, and current status.
+
+MEDIUM_DRAFT.md
+Narrative publication draft. The audit layer in this repository is intended to remain more detailed than the public-facing article.
+
 Observation design
 
 Historical baseline: 2000–2015
@@ -149,14 +163,15 @@ The project is exploratory and case-based. It is designed as a stress instrument
 
 Next steps
 
-1. Wait for final certification of the Swedish 2026 election.
-2. Freeze the 90 / 90 contemporary case ledger.
-3. Run full numerical rescoring from scratch.
-4. Run controlled second-pass review.
-5. Run sensitivity analysis.
-6. Test non-compensatory safeguards.
-7. Freeze the first 2026 baseline report.
-8. Continue the same framework through 2028.
+1. Attach and validate the primary source pack for every row in AUDIT_LEDGER_v1.1.md.
+2. Wait for final certification of the Swedish 2026 election.
+3. Freeze the 90 / 90 contemporary case ledger.
+4. Run full numerical rescoring from scratch.
+5. Run controlled second-pass review.
+6. Run sensitivity analysis.
+7. Test non-compensatory safeguards.
+8. Freeze the first 2026 baseline report.
+9. Continue the same framework through 2028.
 
 NPCsignals
 Observe → Filter → Validate → Stress → Archive → Review
