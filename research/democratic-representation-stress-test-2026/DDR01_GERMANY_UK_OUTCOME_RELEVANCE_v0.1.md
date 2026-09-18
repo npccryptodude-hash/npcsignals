@@ -70,7 +70,7 @@ Germany is currently the clearest counterexample to a generic claim that immigra
 
 The more accurate mechanism is:
 
-> Immigration-origin status matters politically, but origin composition matters more than the broad category alone.
+> Origin-specific differences are large enough that the broad migration-background category can obscure opposite partisan patterns.
 
 That is analytically important because demographic change can produce different electoral effects depending on which origin groups grow, naturalize and turn out.
 
@@ -104,19 +104,19 @@ This confirms that ethnic-minority voters remained substantially more Labour/lef
 
 ## 3. Historical trajectory
 
-Available election-study series show Labour has led among ethnic-minority voters throughout the modern comparable period.
+The previously listed 2010–2024 Labour/Conservative percentage series has been removed from this file after source audit because it mixed estimates from different survey families and subgroup definitions.
 
-Selected historical Labour vs Conservative shares among ethnic-minority voters:
-- 2010: Labour 60%, Conservative 16%
-- 2015: Labour 65%, Conservative 23%
-- 2017: Labour 73%, Conservative 39%
-- 2019: Labour 64%, Conservative 20%
-- 2024: Labour 49%, Conservative 20%
+For the long-run trajectory, this pass now relies on one consistent British Election Study-based analysis covering 1983–2019.
 
-Methodological note:
-These estimates come from different election-study/survey waves and should be treated as a trajectory rather than exact like-for-like panel measurements.
+Farrer & Zingher (Parliamentary Affairs) find:
+- ethnicity consistently exerted a statistically and substantively significant effect on Labour vote choice;
+- holding the other modeled group memberships constant, the odds that South Asian and Black respondents voted Labour were roughly 4:1 across elections;
+- ethnic-minority groups became an increasingly important source of Labour votes over the period as their population share grew;
+- the study attributes much of the changing group contribution to demographic change, while also finding behavioural change in several groups.
 
-The central 2024 development is therefore not disappearance of Labour's advantage; it is fragmentation within a still strongly Labour-leaning electorate.
+This establishes long-run Labour alignment among key ethnic-minority groups without requiring a stitched percentage series.
+
+The separate 2024 Focaldata evidence then shows that this aggregate alignment persisted but fragmented internally.
 
 ## 4. Internal fragmentation in 2024
 
@@ -142,9 +142,9 @@ At constituency level, however, subgroup realignment was demonstrably material:
 
 Therefore:
 
-**DDR7 — GREAT BRITAIN 2024: MATERIAL NATIONAL ELECTORATE / LOCALLY DECISIVE PATTERNS / NATIONAL GOVERNMENT EFFECT NOT IDENTIFIED**
+**DDR7 — GREAT BRITAIN 2024: MATERIAL NATIONAL ELECTORATE / LOCALLY MATERIAL SUBGROUP SHIFTS / NATIONAL GOVERNMENT EFFECT NOT IDENTIFIED**
 
-"Locally decisive" here refers to constituency-level electoral relevance, not a claim that ethnicity itself causally determined an individual's vote.
+"Locally material" means subgroup shifts were large enough to matter in constituency-level patterns. It does not identify ethnicity or religion as a unique causal determinant of any seat result.
 
 ## 6. Great Britain's key contribution to DDR-01
 
@@ -224,7 +224,7 @@ National vote shares can conceal:
 | Sweden 2026 | MATERIAL, NOT CAUSALLY DECISIVE | New-citizen estimated net contribution large relative to narrow bloc margin |
 | Norway 2025 | MATERIAL, SEAT EFFECT NOT IDENTIFIED | Large electorate with aggregate left tilt; district/leveling-seat conversion unresolved |
 | Germany 2025 | MATERIAL ELECTORATE, NET NATIONAL DIRECTION NOT IDENTIFIED | ~12% eligible benchmark; origin groups point in different directions |
-| Great Britain 2024 | MATERIAL NATIONAL ELECTORATE / LOCALLY DECISIVE PATTERNS / NATIONAL GOVERNMENT EFFECT NOT IDENTIFIED | Strong Labour aggregate alignment, but subgroup shifts materially affected some constituencies |
+| Great Britain 2024 | MATERIAL NATIONAL ELECTORATE / LOCALLY MATERIAL SUBGROUP SHIFTS / NATIONAL GOVERNMENT EFFECT NOT IDENTIFIED | Strong Labour aggregate alignment, but subgroup shifts materially affected some constituencies |
 
 These are descriptive research labels, not democracy ratings or judgments about political parties.
 
