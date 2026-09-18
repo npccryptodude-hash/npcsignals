@@ -42,15 +42,15 @@ D — insufficient / non-comparable for the focal measure
 | Denmark | Immigrant-origin direct measure not yet locked | C for direct; strong causal indirect evidence | Open | Lower turnout documented for non-Western immigrants | Direct national estimate not yet locked | Likely, not yet standardized | Open | **SUPPORTED, CONTEXT-DEPENDENT** | No current national DDR7 | Counter-mobilization mechanism |
 | Germany | Migration background / origin groups | B | ~12% benchmark of eligible electorate | Not standardized in module yet | No single national direction | **Very strong** | Changing across groups | Not yet estimated as national DDR6 | **MATERIAL ELECTORATE / NET NATIONAL DIRECTION NOT IDENTIFIED** | Origin-dependent cross-bloc heterogeneity |
 | Great Britain | Ethnic-minority electorate | B | Population proxy ~16%; eligible share not yet locked | Not standardized | Strong Labour / left-liberal aggregate advantage in 2024 | **Strong**, including Muslim/Hindu/Asian divergence | Aggregate persistence + fragmentation | Not separately identified | **MATERIAL NATIONAL ELECTORATE / LOCAL EFFECTS MATERIAL / NATIONAL GOVERNMENT EFFECT NOT IDENTIFIED** | Aggregate persistence + local fragmentation |
-| France | Ethnic-origin official data restricted; private surveys required | D / private-survey track | Open | Open | Open | Open | Open | Open | Not classified | Official comparability limited |
+| France | Immigrant / descendant status for turnout; private surveys needed for party choice | B/C participation; D current party-choice comparability | Strong demographic base | Usable turnout evidence | Open | Potentially measurable | Open | Open | Not assignable | Partial entry — turnout track only |
 | Italy | Immigration exposure / municipal immigrant share | C direct; strong historical causal indirect evidence | Open | Open | Direct naturalized-citizen alignment not yet locked | Open | Open | **HISTORICALLY SUPPORTED / CURRENT EFFECT HETEROGENEOUS** | No current national DDR7 | Counter-mobilization with temporal saturation |
 | Poland | Immigrant-origin electorate | D | Open | Open | Insufficient comparable evidence | Open | Open | Open | Not classified | Do not infer |
 | United States | Naturalized citizens | A | ~10% eligible benchmark; ~9% of 2024 voters | Composition effects strongly documented | 2024 near parity: Harris 51 / Trump 47 | Present across race/ethnicity | Rapid convergence from 2020 | Not separately causal in current module | **MATERIAL REALIGNMENT / LIMITED NET NATIONAL BLOC ADVANTAGE** | Turnout-composition realignment |
-| Costa Rica | Immigrant / naturalized electorate | D | Open | Open | Insufficient comparable evidence | Open | Open | Open | Not classified | Do not infer |
-| Chile | Immigrant / naturalized electorate | D | Open | Open | Insufficient comparable evidence | Open | Open | Open | Not classified | Do not infer |
+| Costa Rica | Naturalized electorate | A electorate composition; D party choice | Strong administrative register data | Open | Insufficient | Origin distribution available administratively | Potentially reconstructable | Open | Not assignable | Partial entry — electorate structure only |
+| Chile | Foreign-national electorate eligible under residence rules | A participation / C party-choice proxy | ~5.6% of provisional 2025 electorate (886,190 of 15,791,056) | Very strong administrative turnout evidence | Party vote unresolved; party-membership proxy only | Strong by origin and integration variables | Turnout trajectory measurable | Open | Not assignable | Strong participation case / party alignment unresolved |
 | Ghana | Ethnic/regional cleavage track | Non-comparable | N/A for focal immigrant-origin measure | N/A | Not directly comparable | Strong ethnic/regional structure may exist | Separate track | Separate track | Not classified | Ethnic/regional cleavage track |
 | Botswana | Ethnic/regional cleavage track | Non-comparable | N/A for focal immigrant-origin measure | N/A | Not directly comparable | Separate track | Separate track | Separate track | Not classified | Ethnic/regional cleavage track |
-| Japan | Naturalized citizens / foreign-born citizens | D | Open | Open | Insufficient robust national party-choice evidence | Open | Open | Open | Not classified | Do not infer |
+| Japan | Naturalized citizens; non-citizen foreign residents excluded from national vote | D direct vote-choice | Open | Insufficient | Insufficient robust national party-choice evidence | Open | Open | WATCH only for indirect salience; causal effect unidentified | Not classified | Insufficient direct data / indirect-channel watch |
 | Thailand | Regional/religious cleavage track | Non-comparable | N/A for focal immigrant-origin measure | N/A | Not directly comparable | Strong regional/religious structure | Separate track | Separate track | Not classified | Regional/religious cleavage track |
 
 ## Current comparative patterns
@@ -141,10 +141,11 @@ The working model must be weakened if additional comparable cases show that:
 ## Next evidence pass
 
 Priority:
-- France: private-survey evidence audit.
-- Poland: test whether a comparable immigrant-origin electorate is large enough to analyse.
-- Costa Rica / Chile: search for national naturalized/immigrant-origin vote-choice data.
-- Japan: determine whether any validated or representative naturalized-citizen party-choice dataset exists.
+- France: private-survey party-choice reconstruction remains open; turnout track retained.
+- Poland: remain outside main module unless current host-country party-choice evidence emerges.
+- Costa Rica: retain administrative electorate-structure track; seek survey vote-choice evidence.
+- Chile: promote to partial core participation case; party-choice remains unresolved.
+- Japan: retain indirect-channel watch only unless validated naturalized-citizen vote-choice data emerge.
 - Ghana / Botswana / Thailand: keep separate cleavage tracks unless a defensible immigrant-origin comparison becomes available.
 
 No additional country should be promoted into the main comparative finding set merely to fill the 15-country table.
