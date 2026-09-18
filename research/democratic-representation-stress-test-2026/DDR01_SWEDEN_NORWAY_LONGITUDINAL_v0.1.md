@@ -24,17 +24,19 @@ Definition used by SCB:
 
 ### Selected checkpoints
 
+**Source-lock note (18 Sep 2026):** exact cells below were rechecked against SCB's official Party Preference Survey tables. SCB reports sampling uncertainty for these estimates, and *partisympati* is not the same as an actual ballot choice.
+
 #### May 2014 — foreign background
 
-M 18.4  
-C 1.1  
-L 4.0  
-KD 3.3  
-MP 7.7  
-S 47.6  
-V 10.9  
-SD 2.0  
-Other 5.0
+M 18.4 ± 3.6  
+C 1.1 ± 0.9  
+L 4.0 ± 1.8  
+KD 3.3 ± 1.7  
+MP 7.7 ± 2.5  
+S 47.6 ± 4.6  
+V 10.9 ± 2.8  
+SD 2.0 ± 1.3  
+Other 5.0 ± 2.0
 
 Broad pattern:
 - S + V + MP = 66.2%
@@ -44,15 +46,15 @@ This is a very strong centre-left/left-green advantage.
 
 #### May 2018 — foreign background
 
-M 22.9  
-C 5.2  
-L 3.5  
-KD 2.6  
-MP 4.9  
-S 39.0  
-V 7.6  
-SD 12.0  
-Other 2.3
+M 22.9 ± 3.9  
+C 5.2 ± 2.1  
+L 3.5 ± 1.6  
+KD 2.6 ± 1.5  
+MP 4.9 ± 2.1  
+S 39.0 ± 4.6  
+V 7.6 ± 2.4  
+SD 12.0 ± 3.0  
+Other 2.3 ± 1.3
 
 Broad pattern:
 - S + V + MP = 51.5%
@@ -62,15 +64,15 @@ The old centre-left advantage had narrowed sharply compared with 2014.
 
 #### May 2022 — foreign background
 
-M 15.9  
-C 4.3  
-L 2.2  
-KD 2.8  
-MP 4.2  
-S 46.7  
-V 9.6  
-SD 13.0  
-Other 1.2
+M 15.9 ± 3.7  
+C 4.3 ± 2.1  
+L 2.2 ± 1.2  
+KD 2.8 ± 1.6  
+MP 4.2 ± 2.1  
+S 46.7 ± 5.0  
+V 9.6 ± 2.5  
+SD 13.0 ± 3.4  
+Other 1.2 ± 1.2
 
 Broad pattern:
 - S + V + MP = 60.5%
@@ -80,15 +82,15 @@ The left advantage widened again relative to 2018.
 
 #### May 2026 — foreign background
 
-M 11.3  
-C 4.5  
-L 1.6  
-KD 3.3  
-MP 6.3  
-S 45.8  
-V 13.0  
-SD 12.2  
-Other 1.9
+M 11.3 ± 2.4  
+C 4.5 ± 1.7  
+L 1.6 ± 1.1  
+KD 3.3 ± 1.6  
+MP 6.3 ± 2.0  
+S 45.8 ± 4.3  
+V 13.0 ± 2.9  
+SD 12.2 ± 2.9  
+Other 1.9 ± 1.2
 
 Broad pattern:
 - S + V + MP = 65.1%
@@ -98,15 +100,15 @@ At the final pre-election SCB checkpoint, the foreign-background electorate agai
 
 ### Swedish comparison group — Swedish background, May 2026
 
-M 19.6  
-C 6.8  
-L 2.5  
-KD 4.4  
-MP 6.3  
-S 30.8  
-V 7.8  
-SD 19.8  
-Other 2.1
+M 19.6 ± 1.2  
+C 6.8 ± 0.7  
+L 2.5 ± 0.5  
+KD 4.4 ± 0.6  
+MP 6.3 ± 0.7  
+S 30.8 ± 1.3  
+V 7.8 ± 0.8  
+SD 19.8 ± 1.1  
+Other 2.1 ± 0.6
 
 Broad pattern:
 - S + V + MP = 44.9%
@@ -123,7 +125,9 @@ Swedish background:
 - right/centre-right + SD = 53.1
 
 Difference in left-green preference:
-**+20.2 percentage points** among voters with foreign background.
+**+20.2 percentage points** among respondents with foreign background.
+
+This 20.2-point figure is an arithmetic difference between grouped point estimates. It should not be presented as a separately tested SCB statistic without a covariance-aware uncertainty calculation.
 
 Difference in SD sympathy:
 - foreign background: 12.2
