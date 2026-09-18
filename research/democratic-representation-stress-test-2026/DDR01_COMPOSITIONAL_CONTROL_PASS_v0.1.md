@@ -49,7 +49,7 @@ The authors also found that immigrant-background voters could hold relatively ri
 
 ## Norway verdict
 
-**BROAD IMMIGRANT-ORIGIN EFFECT DOES NOT DISAPPEAR UNDER BASIC CONTROLS, BUT RELIGION AND POLITICAL ATTITUDES MODIFY IT.**
+**THE OBSERVED RIGHTWARD SHIFT IN THE NORWEGIAN PANEL IS NOT EXPLAINED AWAY BY BASIC AGE/GENDER/EDUCATION CONTROLS; RELIGION AND POLITICAL ATTITUDES MODIFY THE PATTERN.**
 
 This is evidence against a pure compositional explanation based only on age and education.
 
@@ -98,9 +98,9 @@ Yet Labour still led strongly in both education categories.
 
 ## Great Britain verdict
 
-**ETHNICITY RETAINS INDEPENDENT EXPLANATORY VALUE IN LONG-RUN MULTIVARIATE MODELS, BUT RELIGION, EDUCATION AND SUBGROUP IDENTITY MODIFY THE EFFECT.**
+**ETHNICITY RETAINS AN INDEPENDENT PREDICTIVE ASSOCIATION IN LONG-RUN MULTIVARIATE MODELS, BUT RELIGION, EDUCATION AND SUBGROUP IDENTITY MODIFY THE PATTERN.**
 
-The broad category is not merely a proxy for class or education.
+The broad category is not fully accounted for by class or education in these models. This is an adjusted association, not a causal estimate.
 
 Classification:
 **RESIDUAL ETHNIC EFFECT / STRONG SUBGROUP MODIFICATION**
