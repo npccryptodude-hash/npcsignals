@@ -10,7 +10,9 @@ Case composition per country: 2 Electoral/Power + 2 Major Policy + 2 Institution
 Important:
 - This file is the public case register for the 90 contemporary MIS slots.
 - The seven scoring fields are intentionally NOT populated yet.
-- Sweden's 2026 Riksdag result was formally established by Valmyndigheten on 19 September 2026.\n- This v1.2 file merges all resolutions from CASE_DESIGN_RESOLUTION_v1.0 and v1.1.\n- Numerical scoring remains closed until one last temporal/source audit is completed.
+- Sweden's 2026 Riksdag result was formally established by Valmyndigheten on 19 September 2026.
+- This v1.2 file merges all resolutions from CASE_DESIGN_RESOLUTION_v1.0 and v1.1.
+- Final temporal/source audit completed on 20 September 2026; numerical first-pass scoring is now open under the frozen framework.
 - Old pilot scores are not carried forward automatically.
 - Historical controls are kept outside this contemporary ledger.
 - Source labels below identify the primary source pack to be attached/verified; they are not a substitute for the final source register.
@@ -31,7 +33,7 @@ MS 20% | PA 15% | PLI 10% | LD 15% | IR 20% | RS 10% | MPL 10%
 
 | Case ID | Category | Date | Case | MS | PA | PLI | LD | IR | RS | MPL | Source pack | Status |
 |---|---|---|---|---:|---:|---:|---:|---:|---:|---:|---|---|
-| `NOR-2025-EP-01` | Electoral / Power Translation | 2025 | 2025 parliamentary election and governing-power translation | — | — | — | — | — | — | — | SRC-PENDING | **ELIGIBLE** |
+| `NOR-2025-EP-01` | Electoral / Power Translation | 2025 | 2025 parliamentary election and governing-power translation | — | — | — | — | — | — | — | Valgdirektoratet / Storting | **ELIGIBLE** |
 | `NOR-2025-EP-02` | Electoral / Power Translation | 2025-01/02 | Centre Party exits government over EEA energy directives | — | — | — | — | — | — | — | Government / Storting source pack | **ELIGIBLE** |
 | `NOR-2024/25-MP-01` | Major Policy / Fiscal / Social | 2024-2025 | Seabed minerals: first licensing round postponed after parliamentary bargaining | — | — | — | — | — | — | — | Government / Storting source pack | **ELIGIBLE** |
 | `NOR-2024/26-MP-02` | Major Policy / Fiscal / Social | 2024-2026 | Offshore-wind expansion, domestic-price objective and integrated-market exposure | — | — | — | — | — | — | — | Government / NVE source pack | **ELIGIBLE** |
@@ -133,9 +135,9 @@ MS 20% | PA 15% | PLI 10% | LD 15% | IR 20% | RS 10% | MPL 10%
 | `CRI-2026-EP-01` | Electoral / Power Translation | 2026-02 | Laura Fernández presidential victory and congressional majority | — | — | — | — | — | — | — | TSE / Reuters | **ELIGIBLE** |
 | `CRI-2025-EP-02` | Electoral / Power Translation | 2025-07 to 2025-09 | Chaves immunity process: court referral and legislative supermajority vote | — | — | — | — | — | — | — | Supreme Court / Assembly | **ELIGIBLE** |
 | `CRI-2026-MP-01` | Major Policy / Fiscal / Social | 2026 | Hardline security legislative package and implementation, including June anti-crime bills and executive measures | — | — | — | — | — | — | — | Presidency / Legislative Assembly | **ELIGIBLE** |
-| `CRI-2026-MP-02` | Major Policy / Fiscal / Social | 2026-05 | Electricity-market harmonisation / investment and infrastructure reform agenda submitted to Legislative Assembly; score stage reached only | — | — | — | — | — | — | — | Government / Legislative Assembly | **ELIGIBLE** |
+| `CRI-2026-MP-02` | Major Policy / Fiscal / Social | 2026-05-26 | Electricity-market harmonisation bill (Exp. 23.414), approved in first debate; score only the legislative stage reached by cutoff | — | — | — | — | — | — | — | Legislative Assembly official | **ELIGIBLE** |
 | `CRI-2026-INST-01` | Institutional / High Persistence | 2026 | Proposal to shift Attorney General appointment power and reduce judicial budget autonomy; score stage reached only | — | — | — | — | — | — | — | Government / judiciary / Legislative Assembly | **ELIGIBLE** |
-| `CRI-2026-INST-02` | Institutional / High Persistence | 2026 | Constitutional proposal to end automatic re-election of Supreme Court and Supreme Electoral Tribunal magistrates; score stage reached only | — | — | — | — | — | — | — | Legislative Assembly / constitutional materials | **ELIGIBLE** |
+| `CRI-2026-INST-02` | Institutional / High Persistence | 2026-08 | Constitutional proposal (Exp. 25.694) to replace automatic re-election of Supreme Court magistrates with a single 15-year term; score only stage reached by cutoff | — | — | — | — | — | — | — | Sala Constitucional / Legislative Assembly | **ELIGIBLE** |
 
 ## Chile
 
