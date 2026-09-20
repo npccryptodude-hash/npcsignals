@@ -48,16 +48,16 @@ Japan six-case design is now fully bounded:
 
 ### SWE-2026-EP-02 status update
 
-The national count completed with the centre-left bloc ahead 176 seats to 173 for the outgoing right bloc. Prime Minister Ulf Kristersson announced that he would resign and allow government-formation procedures to begin.
+Valmyndigheten formally established the Riksdag result on 19 September 2026.
 
-The governing-power direction is therefore treated as LOCKED for analytical purposes.
+Final seat distribution:
+- S + C + V + MP: 176
+- M + SD + KD + L: 173
 
-However, Valmyndigheten has stated that the formally final Riksdag result is expected during the weekend after election day. Under the pre-registered rule, the row remains unscored until formal certification/official final publication.
+The pre-registered certification condition is therefore satisfied.
 
 Status:
-RESULT DIRECTION LOCKED / FORMAL CERTIFICATION PENDING.
-
-This distinction prevents the project from changing its pre-registered certification rule after seeing the result while still recognising that the political outcome is no longer genuinely uncertain.
+FORMALLY CERTIFIED / READY FOR FINAL SOURCE-TEMPORAL AUDIT.
 
 ## Final design status
 
@@ -66,10 +66,10 @@ All 90 case slots now have bounded case definitions.
 Unresolved design rows: 0.
 
 External status remaining before final 90/90 freeze:
-- Sweden SWE-2026-EP-02 — formal election certification / official final publication only.
+- none.
 
-Once Sweden is formally certified, the sequence remains:
-1. final temporal and source audit;
+Sequence now:
+1. final temporal and source audit against AUDIT_LEDGER_v1.2;
 2. freeze 90/90 contemporary ledger;
 3. numerical rescoring from scratch;
 4. controlled second pass;
