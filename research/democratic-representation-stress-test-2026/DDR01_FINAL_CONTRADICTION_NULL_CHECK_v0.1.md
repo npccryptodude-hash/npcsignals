@@ -97,16 +97,18 @@ The Sweden files correctly distinguish:
 - broader foreign-background survey evidence from the narrower post-2022 new-citizen estimate;
 - materiality from unique causal decisiveness.
 
-Current unresolved dependency:
-the Swedish Election Authority has not yet formally fixed the final Riksdag result as of 18 Sep 2026.
+The Swedish Election Authority formally established the Riksdag result on 19 Sep 2026.
 
-Therefore:
-- Sweden DDR7 remains **PROVISIONAL**;
-- no v1.0 freeze of exact election-margin ratios yet;
-- the 30k–35k estimate remains model-based under SVT assumptions.
+Final result:
+- 6,834,413 voters
+- 84.9% turnout
+- S+C+V+MP: 176 seats
+- M+SD+KD+L: 173 seats
+
+The 30k–35k new-citizen estimate remains model-based under SVT assumptions.
 
 Status:
-**OPEN DEPENDENCY / NO CONTRADICTION**
+**DEPENDENCY CLOSED / PASS**
 
 ---
 
@@ -347,8 +349,7 @@ Material wording inconsistencies corrected:
 3. Norway control result narrowed to the observed 2019–2023 panel shift rather than a generic immigrant-origin effect.
 
 Open dependencies:
-**1 major**
-- Sweden 2026 final Riksdag certification.
+**0 major**
 
 Method clarification:
 **1**
@@ -376,11 +377,11 @@ Status:
 
 ## v1.0 gate
 
-DDR-01 should not be frozen as v1.0 until:
-1. Sweden's 2026 Riksdag result is formally certified;
-2. the Sweden outcome-relevance ratios are recomputed against the certified result;
-3. the final cross-country ledger applies variable-specific evidence tiers;
-4. a short archive summary is generated from the corrected working set.
+All required v1.0 gate conditions are now satisfied:
+1. Sweden's 2026 Riksdag result is formally certified.
+2. Sweden DDR7 is frozen without false-precision ratio locking.
+3. The v1.0 cross-country ledger applies variable-specific evidence profiles.
+4. An archive summary is generated from the corrected working set.
 
 NPCsignals  
 Observe → Filter → Validate → Stress → Archive → Review
