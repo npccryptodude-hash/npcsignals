@@ -1,33 +1,43 @@
 # DDR-01 Sweden 2026 — Outcome Relevance Pass v0.1
 
-Status: PROVISIONAL / PRE-CERTIFICATION  
+Status: FINAL / CERTIFIED RESULT  
 Parent module: DDR-01 // Demographic Voting Alignment  
 Purpose: Estimate whether immigrant-origin/new-citizen voting was electorally material in Sweden's 2026 Riksdag election without overstating causality.
 
 ## 1. National result anchor
 
-SVT's election-results page, using Election Authority data, showed 100% of 6,626 districts counted as of 17 Sep 2026.
+The Swedish Election Authority formally established the Riksdag result on 19 Sep 2026.
 
-Preliminary seat allocation:
-- Opposition (V + S + MP + C): 176 seats
-- Tidö parties (L + KD + M + SD): 173 seats
+Final turnout:
+- 6,834,413 voters
+- 84.9% turnout
 
-Preliminary valid vote totals by party:
-- S: 1,886,535
-- V: 565,599
-- MP: 413,091
-- C: 474,541
-- M: 1,336,802
-- SD: 1,176,834
-- KD: 415,867
-- L: 359,850
+Final seat allocation:
+- S: 99
+- C: 25
+- V: 30
+- MP: 22
+- M: 70
+- SD: 62
+- KD: 22
+- L: 19
 
-Bloc totals from those party counts:
-- Opposition: 3,339,766
-- Tidö: 3,289,353
-- Bloc margin: 50,413 votes
+Grouped descriptively:
+- S + C + V + MP: 176 seats
+- M + SD + KD + L: 173 seats
 
-The result remained formally preliminary pending Election Authority certification.
+Final national vote shares:
+- S 28.02%
+- M 19.85%
+- SD 17.48%
+- V 8.40%
+- C 7.03%
+- KD 6.17%
+- MP 6.12%
+- L 5.34%
+- other 1.58%
+
+The result is now certified.
 
 ## 2. Best available new-citizen estimate
 
@@ -45,12 +55,13 @@ SVT estimated:
 
 SVT explicitly described this as a hypothesis/estimate rather than empirical proof that the group decided the election.
 
-## 3. Outcome relevance against the current bloc margin
+## 3. Outcome relevance against the certified result
 
-Using the preliminary 50,413-vote bloc margin:
+The original v0.1 sensitivity pass compared SVT's 30,000–35,000 estimate with the then-current preliminary bloc margin.
 
-- 30,000 estimated net centre-left votes = about 59.5% of the bloc margin.
-- 35,000 upper-bound estimate = about 69.4% of the bloc margin.
+The certified result preserved the same narrow 176–173 seat split and a sub-1-percentage-point difference between the two descriptive party groupings.
+
+Because the published national percentages are rounded and SVT's 30,000–35,000 figure is itself assumption-based, v1.0 does not lock a false-precision ratio between the estimate and the certified vote margin.
 
 Interpretation:
 
@@ -84,10 +95,10 @@ These facts strongly support the existence of a demographic contribution, but a 
 
 DDR7 — Outcome Relevance
 
-**PROVISIONAL: MATERIAL, NOT CAUSALLY DECISIVE**
+**FINAL: MATERIAL, NOT CAUSALLY DECISIVE**
 
 Rationale:
-The best available independently reported estimate for newly naturalized citizens alone is 30,000–35,000 net votes toward the centre-left, compared with a current bloc margin of about 50,000 votes. This is large enough to matter electorally, but not enough to establish unique causation.
+SVT's assumption-based estimate for newly naturalized citizens alone is 30,000–35,000 net votes toward the centre-left. The certified election remained narrowly divided at 176–173 seats. The estimate is therefore electorally material, but it does not establish unique causation or prove that this group alone determined the result.
 
 ## 6. Language lock
 
@@ -95,7 +106,7 @@ Allowed:
 > Newly naturalized voters appear to have made a materially large contribution to the centre-left margin in Sweden's 2026 election.
 
 Allowed:
-> Under SVT's assumptions, the estimated net contribution from post-2022 new citizens was on the order of 30,000–35,000 votes, against a bloc margin of roughly 50,000.
+> Under SVT's assumptions, the estimated net contribution from post-2022 new citizens was on the order of 30,000–35,000 votes in an election ultimately certified at 176–173 seats between the two descriptive party groupings.
 
 Do not write:
 > Immigrants decided the election.
@@ -105,14 +116,14 @@ Do not write:
 
 Neither stronger causal claim is established by the current evidence.
 
-## 7. Final-certification update
+## 7. Certification lock
 
-After the Election Authority formally certifies the Riksdag result:
-- replace preliminary vote totals if changed;
-- recompute exact bloc margin;
-- recompute the 30k and 35k ratios;
-- retain SVT's uncertainty language;
-- freeze DDR7 Sweden 2026 v1.0.
+Certification condition satisfied on 19 Sep 2026.
+
+DDR7 Sweden 2026 is now frozen for v1.0 as:
+**MATERIAL, NOT CAUSALLY DECISIVE**
+
+Any future update must be evidence-driven and versioned.
 
 ## Source anchors
 
