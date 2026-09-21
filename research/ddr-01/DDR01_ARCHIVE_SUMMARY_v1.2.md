@@ -1,18 +1,21 @@
 # DDR-01 Archive Summary v1.2
 
-**Demographic Change Does Not Move Elections in One Direction**
+**Demographic Change & Electoral Competition**
 
 ## Status
 
-**CURRENT REFERENCE VERSION — v1.2**
+**CURRENT REFERENCE VERSION — v1.2**  
+**v1.2 freeze point:** 21 September 2026
 
 **v1.0 freeze point:** 19 September 2026  
 **v1.1:** Germany 2026 state-election addendum  
-**v1.2:** Full 15-country scope restored
+**v1.2:** Scope expanded to the full 15-country comparative stress test
 
 ## Scope
 
 DDR-01 is a 15-country stress test.
+
+The countries are **not a representative global sample**. They were selected because relevant evidence was available, because they tested specific parts of the proposed mechanism, or because they provided useful counterexamples.
 
 Countries are not treated as equivalent evidence.
 
@@ -33,9 +36,9 @@ Ghana, Botswana, Thailand
 
 ## Why the larger design matters
 
-The purpose of DDR-01 was not to collect fifteen examples pointing in the same direction.
+The purpose of DDR-01 is not to collect fifteen examples pointing in the same direction.
 
-It was to test whether the proposed mechanism survived across different evidentiary conditions.
+It tests whether the proposed mechanisms survive across different evidentiary conditions.
 
 Some countries support the direct mechanism.
 
@@ -53,7 +56,7 @@ That heterogeneity is part of the result.
 
 **Direct channel:** ROBUST
 
-Demographic change can enter electoral competition through eligibility, citizenship, registration, turnout, preference, geography and institutional conversion.
+Demographic change can enter electoral competition through citizenship, eligibility, registration, turnout, preference, geography and institutional conversion.
 
 **Indirect channel:** SUPPORTED / EVIDENCE-CONCENTRATED
 
@@ -63,11 +66,13 @@ Demographic and immigration-related issues can alter wider political competition
 
 The evidence does not support a universal rule that demographic change automatically benefits one political side.
 
-## Critical nulls
+## Mixed and partial evidence
+
+Italy is a mixed case: a 2006–2018 study found a causal positive effect of immigration on support for Lega, while a later 2022 study found a more geographically varied pattern with no universal positive relationship.
 
 Chile has strong register evidence but unresolved party-direction evidence.
 
-France has strong demographic and participation data but lacks a sufficiently comparable party-choice series for DDR-01.
+France has strong participation evidence but lacks a sufficiently comparable party-choice series for DDR-01.
 
 Costa Rica has naturalised-voter data but unresolved party linkage.
 
@@ -79,7 +84,7 @@ None of these are converted into a “no effect” finding.
 
 Ghana, Botswana and Thailand are retained because they test portability.
 
-Their electoral competition is structured by cleavage systems that differ materially from the core Western immigration-demography cases.
+Their electoral competition is structured by cleavage systems that differ materially from the core immigration-demography cases.
 
 They are classified as:
 
@@ -91,19 +96,17 @@ not:
 
 ## Sweden
 
-Sweden remains the final completed national-election validation case.
+Sweden remains the completed national-election validation case.
 
-DDR-01 classification:
-
-**MATERIAL, NOT CAUSALLY DECISIVE**
-
-The 2026 election result is an observation inside the framework, not proof of demographic causation.
+The 2026 result is used as a completed observation, not as proof that demographic change caused the national outcome.
 
 ## Germany
 
-Germany's September 2026 state-election sequence remains incorporated in v1.2.
+Germany's September 2026 state-election sequence remains incorporated as an observational layer.
 
-It strengthens the case against a fixed directional model while remaining insufficient for demographic causal attribution.
+Saxony-Anhalt showed strong AfD support. Preliminary results in Mecklenburg-Vorpommern and Berlin showed sharply different regional outcomes.
+
+DDR-01 treats this as evidence of regional variation, not as proof that demographics or any single campaign issue caused the differences.
 
 ## Final classification
 
@@ -116,6 +119,8 @@ It strengthens the case against a fixed directional model while remaining insuff
 **UNIVERSAL CAUSAL MAGNITUDE:** UNRESOLVED  
 **SIGNAL STATUS:** NOT A SIGNAL
 
+DDR-01 remains **NOT A SIGNAL** because it identifies known political mechanisms but does not demonstrate a new structural break, a persistent departure from historical baseline, or an established relationship behaving fundamentally differently.
+
 > Mechanism confirmed.  
 > Direction unresolved.  
 > Structural break absent.
@@ -124,6 +129,6 @@ It strengthens the case against a fixed directional model while remaining insuff
 
 v1.0 and v1.1 remain preserved.
 
-v1.2 is the current reference version and restores the complete original 15-country design.
+v1.2 is frozen as of **21 September 2026** and is the current reference version.
 
 Future material revisions must be versioned explicitly.
