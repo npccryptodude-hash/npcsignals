@@ -37,7 +37,8 @@ or are we
 **Current version:** v1.2  
 **v1.0 freeze point:** 19 September 2026  
 **v1.1 update:** Germany 2026 state-election addendum  
-**v1.2 update:** Full 15-country ledger restored  
+**v1.2 freeze point:** 21 September 2026  
+**v1.2 update:** Scope expanded to the full 15-country comparative stress test  
 **Classification:** NOT A SIGNAL
 
 DDR-01 is a 15-country stress test of whether demographic change enters electoral competition through observable mechanisms, while separating direct electoral participation, indirect political reaction, partial evidence, null/insufficient cases, and non-comparable cleavage systems.
