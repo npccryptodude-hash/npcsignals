@@ -5,16 +5,19 @@
 **Version:** 1.2  
 **v1.0 freeze point:** 19 September 2026  
 **v1.1 update:** Germany 2026 state-election addendum  
-**v1.2 update:** Full 15-country scope restored  
+**v1.2 freeze point:** 21 September 2026  
+**v1.2 update:** Scope expanded to the full 15-country comparative stress test  
 **Signal classification:** NOT A SIGNAL
 
 ## Version note
 
-v1.2 corrects the scope presentation of v1.1 by restoring the full 15-country design used in DDR-01.
+v1.2 expands DDR-01 into the full 15-country comparative stress test used as the current reference version.
 
 Earlier versions remain preserved.
 
 The test does **not** claim that all 15 countries provide the same type or strength of evidence. Their roles differ deliberately.
+
+The 15 countries are **not a representative global sample**. They were selected because relevant evidence was available, because they tested specific parts of the proposed mechanism, or because they provided useful counterexamples.
 
 ## Research question
 
@@ -32,11 +35,7 @@ DDR-01 separates:
 
 Evidence is variable-specific.
 
-A country can have:
-
-- strong population or register data,
-- strong turnout data,
-- but unresolved party-choice evidence.
+A country can have strong population or register data and strong turnout data while still lacking robust party-choice evidence.
 
 DDR-01 therefore avoids converting one strong variable into a stronger overall causal claim.
 
@@ -50,21 +49,21 @@ Neither means “no effect.”
 
 | Country | Role in DDR-01 | Evidence status | Core finding |
 |---|---|---|---|
-| Sweden | Main direct + final validation | COMPLETE | Direct participation mechanism observable; 2026 national result incorporated as material but not causally decisive. |
+| Sweden | Main direct + final validation | COMPLETE | Direct participation mechanism observable; 2026 national result incorporated as a completed observation, not as proof of demographic causation. |
 | Norway | Main direct | COMPLETE | Participation differs by immigrant background; turnout and preference must be separated from population share. |
-| Germany | Main direct + indirect + 2026 update | COMPLETE | Migration-background electorate is heterogeneous; 2026 state elections reinforce regional and issue-specific variation. |
+| Germany | Main direct + indirect + 2026 update | COMPLETE | Migration-background electorate is heterogeneous; September 2026 state-election results show regional variation but do not isolate a demographic cause. |
 | United Kingdom | Main direct | COMPLETE | Minority-origin voting is internally heterogeneous and geographically mediated. |
 | United States | Main direct | COMPLETE | Naturalisation, registration, turnout and geography form distinct conversion stages. |
 | Denmark | Main indirect | COMPLETE FOR INDIRECT CHANNEL | Population share and electorate share diverge sharply; immigration also enters wider party competition. |
-| Italy | Main indirect / falsification | COMPLETE FOR INDIRECT CHANNEL | Immigration-related electoral effects vary by place; no universal rightward direction. |
-| Chile | Partial core | PARTIAL | Strong register/participation evidence; partisan-direction linkage unresolved. |
-| France | Partial | PARTIAL | Strong demographic and participation evidence; no sufficiently comparable party-choice series for DDR-01. |
-| Costa Rica | Partial | PARTIAL | Naturalised-voter data available by birthplace; robust party linkage unresolved. |
-| Poland | Null / insufficient direct | INSUFFICIENT DIRECT EVIDENCE | Relevant migration/diaspora evidence exists, but not enough to assign the DDR-01 direct mechanism in the same form. |
-| Japan | Null / insufficient direct | INSUFFICIENT DIRECT EVIDENCE | Foreign-resident suffrage constraints prevent direct comparability; retained as a watch / null case. |
-| Ghana | Separate cleavage track | NON-COMPARABLE | Ethno-regional, local and socioeconomic cleavages structure voting; migration-demography frame is not directly portable. |
-| Botswana | Separate cleavage track | NON-COMPARABLE | Social cleavages, incumbency, economic performance and party-system dynamics dominate the relevant literature. |
-| Thailand | Separate cleavage track | NON-COMPARABLE | Age, ideology, centre-periphery, class and institutional conflict form stronger electoral cleavages than the DDR-01 immigration frame. |
+| Italy | Main indirect / mixed evidence | MIXED | Studies across different periods and geographies find different relationships between immigration and right-party support; no universal directional effect is established. |
+| Chile | Partial core | PARTIAL | Strong register/eligibility evidence; partisan-direction linkage unresolved. |
+| France | Partial | PARTIAL | Strong participation evidence; no sufficiently comparable party-choice series for DDR-01. |
+| Costa Rica | Partial | PARTIAL | Naturalised-voter data available; robust party linkage unresolved. |
+| Poland | Null / insufficient direct | INSUFFICIENT DIRECT EVIDENCE | Diaspora-voting evidence is not equivalent to immigrant-origin electoral incorporation inside Poland. |
+| Japan | Null / insufficient direct | INSUFFICIENT DIRECT EVIDENCE | Citizenship-based national suffrage limits direct comparability with the core mechanism. |
+| Ghana | Separate cleavage track | NON-COMPARABLE | Ethno-regional and local geographic cleavages structure voting; the core immigration-demography frame is not directly portable. |
+| Botswana | Separate cleavage track | NON-COMPARABLE | Economic decline, unemployment, governance and party-system dynamics are more informative for the 2024 turnover than migration. |
+| Thailand | Separate cleavage track | NON-COMPARABLE | Age and ideology are major electoral cleavages; the core immigration-demography frame is not directly portable. |
 
 ## Tier A — Main direct-channel cases
 
@@ -74,43 +73,43 @@ Sweden served as the final live national-election validation case.
 
 The Swedish Election Authority established the final Riksdag result on 19 September 2026.
 
-DDR-01 classification:
+The result is incorporated as a completed observation. DDR-01 does **not** treat it as proof that demographic change caused the national result.
 
-**DDR7 — MATERIAL, NOT CAUSALLY DECISIVE**
-
-The result is incorporated as a completed observation. It is not treated as proof that demographic change caused the national result.
-
-Official source:
+Official source:  
 https://www.val.se/servicelankar/servicelankar/pressrum/nyheter--pressmeddelanden/pressmeddelande-nya/2026-09-19-riksdag-election-results-2026-established
 
 ### Norway
 
 Statistics Norway's analysis of the 2025 parliamentary election provides direct evidence on eligibility, turnout and participation by immigrant background.
 
-DDR-01 uses Norway to show that population share and participating electorate are not equivalent.
+Turnout was 56% among immigrants, 60% among Norwegian-born people with immigrant parents, and 83% among people without an immigrant background.
 
-Source:
+Source:  
 https://www.ssb.no/en/valg/stortingsvalg/artikler/immigrants-and-the-general-election-2025
 
 ### Germany
 
-Germany supports both the direct and indirect mechanisms.
+Germany supports both direct and indirect mechanisms.
 
-Research on the 2025 Bundestag election showed substantial heterogeneity among voters with migration backgrounds rather than one unified “migrant vote.”
+DeZIM estimated that around 13% of eligible voters ahead of the 2025 Bundestag election had a migration background. Research on the election also showed substantial heterogeneity among voters with migration backgrounds rather than one unified “migrant vote.”
 
-Sources:
-https://www.dezim-institut.de/presse/pressemitteilungen/wie-waehlen-menschen-mit-migrationshintergrund/
+Sources:  
+https://www.dezim-institut.de/presse/pressemitteilungen/wie-waehlen-menschen-mit-migrationshintergrund/  
 https://www.dezim-institut.de/presse/welche-parteien-haben-waehlerinnen-mit-migrationshintergrund-bei-der-bundestagswahl-gewaehlt/
 
 #### Germany 2026 addendum
 
-The September 2026 state-election sequence is treated as a completed observation layer:
+September 2026 state-election results are treated as an observational layer, not as a causal test of demographic change.
 
-- Saxony-Anhalt — 6 September
-- Berlin — 20 September
-- Mecklenburg-Vorpommern — 20 September
+- Saxony-Anhalt — AfD close to 44%
+- Mecklenburg-Vorpommern — preliminary result on 21 September: AfD around 38%, SPD around 35%
+- Berlin — preliminary result: Die Linke 25.7% of second votes, AfD 16.3%
 
-The three elections produced sharply different regional outcomes. DDR-01 treats them as a falsification environment for simple directional claims, not as proof of demographic causation.
+The results show substantial regional variation within one national system. They do **not** establish why those regions voted differently.
+
+Sources:  
+https://www.laiv-mv.de/Wahlen/Landtagswahlen/2026/Ergebnisse/  
+https://www.wahlen-berlin.de/wahlen/BE2026/Afspraes/agh/ergebnisse.html
 
 ### United Kingdom
 
@@ -118,7 +117,7 @@ UK evidence supports a direct channel while also showing large internal differen
 
 The category “minority voter” is therefore not treated as a single bloc.
 
-Source:
+Source:  
 https://media.ukandeu.ac.uk/wp-content/uploads/2024/10/UKICE-FOCALDATA-MINORITIES-REPORT-081024-FINAL.pdf
 
 ### United States
@@ -127,9 +126,9 @@ The United States demonstrates the conversion chain:
 
 **migration → naturalisation → registration → turnout → preference → geography → institutional conversion**
 
-Naturalised citizens represented about one in ten eligible voters in Pew's 2024 estimate.
+Naturalised citizens represented about one in ten eligible voters in Pew's estimate based on 2022 data.
 
-Source:
+Source:  
 https://www.pewresearch.org/short-reads/2024/09/19/1-in-10-eligible-voters-in-the-u-s-are-naturalized-citizens/
 
 ## Tier B — Main indirect-channel cases
@@ -138,20 +137,24 @@ https://www.pewresearch.org/short-reads/2024/09/19/1-in-10-eligible-voters-in-th
 
 Statistics Denmark provides a clear distinction between population composition and electoral eligibility.
 
-Ahead of the 2026 parliamentary election, immigrants and descendants represented a much larger share of the population than of eligible parliamentary voters.
+Ahead of the 2026 parliamentary election, immigrants and descendants were estimated to make up 17.1% of the population but 5.9% of eligible parliamentary voters.
 
-Source:
+Source:  
 https://www.dst.dk/da/presse/Pressemeddelelser/2026/2026-03-02-stemmeberettigede-til-folketingsvalget-24-marts
-
-DDR-01 also uses Denmark as an indirect-channel case because immigration-related issues can reshape party competition beyond the immigrant-origin electorate itself.
 
 ### Italy
 
-Italy is retained as a falsification case against simple directional claims.
+Italy is classified as a **mixed evidence case**.
 
-Research has found that the relationship between immigrant presence and support for right-wing parties varies by geography and period rather than operating uniformly.
+A study using municipal election data from 2006–2018 found a causal positive effect of immigration on support for Lega.
 
-DDR-01 therefore treats the indirect mechanism as real but conditional.
+A later study of the 2022 election across 7,890 municipalities and 7,823 smaller geographic units found no significant positive relationship — and in some places negative relationships — between immigrant share and support for Lega and Fratelli d'Italia across much of the country, with a different pattern in Southern Italy.
+
+The two findings are not treated as mutually exclusive. They cover different periods, political environments and geographic structures.
+
+Sources:  
+https://www.sciencedirect.com/science/article/pii/S0176268022000647  
+https://www.sciencedirect.com/science/article/pii/S1757780225000447
 
 ## Tier C — Partial / conditional cases
 
@@ -159,28 +162,19 @@ DDR-01 therefore treats the indirect mechanism as real but conditional.
 
 Chile is classified as **PARTIAL CORE**.
 
-For the 2025 presidential and parliamentary election, Chile's electoral service reported a provisional roll of **15,791,056** eligible voters, including **886,190 foreign citizens**.
+For the 2025 presidential and parliamentary election, Chile's electoral service reported a provisional roll of **15,791,056** eligible voters, including **886,190 foreign citizens** — about **5.6%** of the provisional electorate.
 
-This is about **5.6%** of the provisional electorate.
+DDR-01 does **not** assign a partisan direction because a robust comparable party-choice linkage was not established.
 
-That is strong evidence for the register / eligibility component.
-
-DDR-01 does **not** assign a partisan direction because a robust comparable party-choice linkage was not established in the test.
-
-Source:
+Source:  
 https://www-qa.servel.cl/2025/07/22/padron-electoral-provisorio-2025/
 
 ### France
 
-France has strong demographic and participation evidence.
+France has strong participation evidence, but DDR-01 does not have a sufficiently comparable party-choice series to assign a directional classification.
 
-INSEE reports substantial registration and participation information for immigrants and descendants of immigrants, including high reported presidential participation among registered French citizens with immigrant backgrounds.
-
-DDR-01 does not treat this as sufficient for a comparable party-choice classification because the required cross-group party-choice series was not established to the same evidentiary standard.
-
-Sources:
-https://www.insee.fr/fr/statistiques/6793298?sommaire=6793391
-https://www.insee.fr/fr/statistiques/1281060
+Source:  
+https://www.insee.fr/fr/statistiques/6658145
 
 Classification:
 
@@ -188,13 +182,11 @@ Classification:
 
 ### Costa Rica
 
-Costa Rica's Supreme Electoral Tribunal provides disaggregated information on naturalised voters, including birthplace.
+Costa Rica's Supreme Electoral Tribunal provides detailed information on naturalised voters, including origin and demographic characteristics.
 
-This supports the eligibility/composition layer.
+This supports the eligibility/composition layer, but DDR-01 did not establish a robust comparable party-choice linkage.
 
-DDR-01 did not establish a robust comparable party-choice linkage for naturalised voters.
-
-Source:
+Source:  
 https://www.tse.go.cr/comunicado1128.html
 
 Classification:
@@ -205,15 +197,11 @@ Classification:
 
 ### Poland
 
-Poland is retained as an explicit null / insufficient case.
+Poland is retained as an explicit insufficient case.
 
-There is strong work on the electoral participation of Polish citizens abroad and diaspora mobilisation.
+Research on Polish citizens voting from abroad concerns diaspora participation, which is not the same mechanism as immigrant-origin electoral incorporation inside Poland.
 
-That is not the same mechanism as immigrant-origin electoral incorporation inside Poland.
-
-DDR-01 therefore does not infer a direct immigrant-demography effect from diaspora evidence.
-
-Source:
+Source:  
 https://www.migracje.uw.edu.pl/publikacje/participation-and-voting-behavior-of-poles-abroad-in-home-country-elections-the-case-of-poles-in-the-us-and-canada-in-comparative-perspective/
 
 Classification:
@@ -222,15 +210,12 @@ Classification:
 
 ### Japan
 
-Japan remains an explicit null / watch case.
+Japan remains an explicit watch / insufficient case.
 
-National voting rights are tied to Japanese citizenship. Foreign-resident voting rights, including at local level, have remained a longstanding unresolved legal and political question.
+National voting rights are tied to Japanese citizenship, making the direct DDR-01 immigrant-electorate channel institutionally non-equivalent to the core cases.
 
-That makes the direct DDR-01 immigrant-electorate channel structurally non-equivalent to countries where long-term foreign residents can enter the electorate through broader suffrage arrangements.
-
-Sources:
+Source:  
 https://www.mofa.go.jp/mofaj/toko/senkyo/abroad.html
-https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002754841
 
 Classification:
 
@@ -242,23 +227,13 @@ No partisan direction is assigned.
 
 These cases are not classified as “no effect.”
 
-They are classified as **NON-COMPARABLE UNDER THE CORE DDR-01 FRAME** because the dominant political cleavages differ materially from the Western immigration-demography structure being tested.
+They are classified as **NON-COMPARABLE UNDER THE CORE DDR-01 FRAME** because dominant political cleavages differ materially from the core immigration-demography structure being tested.
 
 ### Ghana
 
-Research on Ghana shows that electoral behaviour is shaped by combinations of:
+Research by Nahomi Ichino and Noah Nathan shows that local ethnic geography can change how ethnic identity translates into voting behaviour.
 
-- ethno-regional alignment,
-- local geography,
-- candidate identity,
-- economic conditions,
-- party organisation,
-- and policy considerations.
-
-The relationship between ethnicity and vote choice is real but not mechanically deterministic.
-
-Sources:
-https://www.cambridge.org/core/journals/journal-of-modern-african-studies/article/abs/ghanas-political-parties-how-ethnoregional-variations-sustain-the-national-twoparty-system/80B90DD7D83AF8424B657F1BFB6067D9
+Source:  
 https://www.cambridge.org/core/journals/american-political-science-review/article/abs/crossing-the-line-local-ethnic-geography-and-voting-in-ghana/56C747D7ED1F6B3374438F346DA42A17
 
 Classification:
@@ -267,14 +242,11 @@ Classification:
 
 ### Botswana
 
-Botswana is also a separate cleavage case.
+Botswana is retained as a separate cleavage case.
 
-Research on the long-dominant BDP system identifies social cleavages, incumbency, electoral-system effects and party mobilisation. Analysis of the 2024 turnover additionally emphasises unemployment, governance problems and internal party conflict.
+Analysis of the 2024 turnover emphasises economic decline, unemployment, governance problems, corruption, service delivery and internal party conflict. Migration is not treated as the primary explanatory variable.
 
-These mechanisms are not reducible to the immigration-demography model used in the core DDR-01 cases.
-
-Sources:
-https://journals.ub.bw/index.php/bnr/article/view/1380
+Source:  
 https://academic.oup.com/afraf/article/125/499/323/8499740
 
 Classification:
@@ -285,13 +257,10 @@ Classification:
 
 Thailand provides a particularly useful non-comparable case.
 
-Research on the 2023 election identifies **age and ideology** as major cleavages, while earlier work emphasises centre-periphery, class, royalist/anti-royalist and military/institutional conflict.
+Research on the 2023 election identifies **age and ideology** as major cleavages.
 
-This is a different cleavage structure from the core immigration-demography model.
-
-Sources:
+Source:  
 https://ink.library.smu.edu.sg/soss_research/3911/
-https://www.cambridge.org/core/journals/modern-asian-studies/article/religion-political-parties-and-thailands-2019-election-cosmopolitan-royalism-and-its-rivals/7B7119F8D43CA9CE8363C60D0A7ABE31
 
 Classification:
 
@@ -321,7 +290,7 @@ Population share cannot substitute for eligibility, turnout, preference, geograp
 
 **REJECTED**
 
-Ghana, Botswana and Thailand demonstrate that different electoral systems can be organised around cleavage structures that are not directly comparable to the Western immigration-demography frame.
+Ghana, Botswana and Thailand demonstrate that different electoral systems can be organised around cleavage structures that are not directly comparable to the core immigration-demography frame.
 
 ### H5 — Absence of party-choice evidence means no effect
 
@@ -367,12 +336,16 @@ UNRESOLVED
 **SIGNAL STATUS**  
 NOT A SIGNAL
 
+## Signal rule
+
+DDR-01 remains **NOT A SIGNAL** because the analysis identifies known political mechanisms but does not demonstrate a new structural break, a persistent departure from historical baseline, or an established relationship beginning to behave fundamentally differently.
+
 ## Archive rule
 
-v1.0 remains the original frozen record.
+v1.0 remains preserved with its 19 September 2026 freeze point.
 
 v1.1 remains preserved as the Germany addendum.
 
-v1.2 restores the complete 15-country scope and is the current reference version.
+v1.2 is the current reference version and is frozen as of **21 September 2026**.
 
 Future material revisions must be released as a new version rather than silently overwriting prior records.
