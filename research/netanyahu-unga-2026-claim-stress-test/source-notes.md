@@ -56,3 +56,50 @@ Thus, a cumulative figure exceeding one million administered doses is plausible,
 - WHO / UNICEF — Gaza polio vaccination campaign, 2024
 
 This is a first-pass ledger. Claims left on HOLD are deliberately not forced into the denominator.
+
+
+## Second-pass resolutions — 25 September 2026
+
+### Remaining hostages
+
+Contemporary reporting states that the October 2025 ceasefire led to the release of all remaining living hostages and that the final hostage body was recovered in January 2026. The outcome is therefore real. Attribution solely to Israel and the United States is too narrow because Hamas, Qatar, Egypt and other mediators were part of the negotiating and implementation chain.
+
+### Civilian-warning counts
+
+Israeli government records report more than 15 million text messages, more than 12 million pre-recorded calls, more than 4.5 million leaflets and more than 45,000 individual calls by December 2023. This supports the speech's millions-level warning claim, while the audit preserves that these are principally Israeli self-reported operational totals.
+
+### Gaza food tonnage
+
+Israeli-published figures include more than two million tons of total aid in one cumulative series and approximately 1.78 million tons of food in a later ceasefire-period series. These are not one continuous, independently weighed dataset and cannot be mechanically combined. The claim therefore has a substantial factual core but compresses category, period and measurement differences.
+
+### New York Jewish safety
+
+NYPD-linked reporting for 2026 shows anti-Jewish hate crimes remained the largest hate-crime category and rose year over year in the first eight months. That supports a deterioration in one measurable safety indicator. It does not establish that Mayor Mamdani caused the increase.
+
+### Holy Land Five
+
+Mamdani released lyrics expressing support for the Holy Land Five. The five defendants had been convicted in federal court of offenses including providing material support to Hamas. The audit treats the factual core as supported while separating the existence of the lyric from broader political characterisations.
+
+### Motaz Azaiza
+
+Reporting documents that Mamdani hosted Gazan photojournalist Motaz Azaiza at Gracie Mansion. In a September 2026 interview, Azaiza said he filmed Israeli captives being beaten after their abduction on October 7 and deliberately withheld the footage because he feared Israel would identify and kill the Palestinians shown. This supports the factual core of the speech claim.
+
+### Rama Duwaji social-media activity
+
+Jewish Insider reported preserved social-media evidence showing that Rama Duwaji liked multiple posts that celebrated or positively framed the October 7 attack. The additional allegation involving a post saying Tel Aviv should not exist was not independently verified in this second pass and remains unconfirmed.
+
+### Genocide legal status
+
+The South Africa v. Israel genocide case remains pending before the International Court of Justice. In May 2026 the ICJ set deadlines extending written proceedings into 2027 and 2029. No final merits judgment existed as of the evidence freeze. The speech's genocide conclusion therefore remains outside the ordinary factual denominator.
+
+## Claims deliberately left on HOLD / EXCLUDED
+
+The following remain unresolved by design rather than through lack of effort:
+
+- NET26-02 — counterfactual death claim
+- NET26-06 — non-standard "seven-front" definition
+- NET26-09 — attack count depends heavily on incident definition
+- NET26-15 — personal attribution of thousands of Kurdish civilian deaths requires a defensible attribution framework
+- NET26-24 — historical military superlative
+- NET26-25 — genocide legal conclusion; merits case pending
+- NET26-26 — counterfactual/legal claim
