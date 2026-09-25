@@ -2,6 +2,21 @@
 
 All material changes to the NPCsignals **Presidential Claim Stress Test 2025–2026** are recorded here.
 
+## v1.1-supplement — 2026-09-25
+
+### United Nations General Assembly speech update
+
+- Added `UNGA-2026-SPEECH-SUPPLEMENT.md` covering President Trump's September 22, 2026 U.N. General Assembly address.
+- Extracted 15 prominent empirical, definition-sensitive and evaluative claims from the speech.
+- Preserved HOLD / EXCLUDED classifications where the wording did not provide a stable denominator or falsifiable benchmark.
+- Benchmarked poverty and household-income claims against the U.S. Census Bureau.
+- Benchmarked violent-crime and murder-rate claims against the FBI's 2025 national crime data.
+- Preserved the historical-comparability caveat on the "lowest murder rate in 125 years" formulation.
+- Compared the speech's U.N. budget claim with U.N. revised estimates and later reporting on the final 2026 Secretariat reduction.
+- The supplement is **not merged into the frozen 78-claim high-salience denominator** and therefore does not change the published accuracy, CAI or inter-rater statistics.
+
+---
+
 ## v1.0-audit — 2026-09-03
 
 ### Source and denominator cleanup
