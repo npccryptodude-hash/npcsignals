@@ -3,45 +3,31 @@
 ## A speech-level audit of evidence, attribution, causality and scope
 
 **NPCsignals Research**  
-**Evidence freeze: 25 September 2026**
+**Evidence freeze: September 25, 2026**
 
-This is not an audit of the Israel–Palestine conflict.
-
-It is not an assessment of Israeli policy as a whole, Hamas, Palestinian conduct, or the legal merits of the wider war.
+This is not an audit of the Israel–Palestine conflict. It is not an assessment of Israeli policy as a whole, Hamas, Palestinian conduct, or the legal merits of the wider war.
 
 It is an audit of one speech.
 
-On 24 September 2026, Israeli Prime Minister Benjamin Netanyahu addressed the 81st United Nations General Assembly.
+On September 24, 2026, Israeli Prime Minister Benjamin Netanyahu addressed the 81st United Nations General Assembly. The speech contained historical claims, military claims, quantitative claims, causal claims, legal conclusions and political rhetoric.
 
-The speech contained historical claims, military claims, quantitative claims, causal claims, legal conclusions and political rhetoric.
-
-NPCsignals extracted **30 claim families** and asked a narrower question:
+NPCsignals extracted **30 claim families** and asked one narrow question:
 
 > **How closely does each claim remain attached to the strongest available evidence?**
 
-The full frozen ledger, methodology, contradiction log and source notes are available in the **[GitHub evidence archive](https://github.com/npccryptodude-hash/npcsignals/tree/main/research/netanyahu-unga-2026-claim-stress-test)**.
+The complete methodology, source notes, contradiction log and frozen claim ledger are preserved in the **[GitHub evidence archive](https://github.com/npccryptodude-hash/npcsignals/tree/main/research/netanyahu-unga-2026-claim-stress-test)**.
+
+The speech transcript used for claim extraction is available in the **[published transcript of Netanyahu's UN address](https://www.jns.org/news/israel-news/full-text-netanyahus-address-at-the-u-n-general-assembly)**.
 
 ---
 
-# One speech, not one verdict
+## One speech. Not one verdict.
 
-Political speeches create a methodological problem.
+Political speeches are difficult to audit because not every sentence is the same kind of claim. Some can be checked directly. Others contain several empirical steps compressed into one statement. Some depend on definitions, some are counterfactual, and some are legal conclusions that cannot responsibly be reduced to a normal TRUE/FALSE row.
 
-Some sentences can be checked directly.
+For that reason, this audit does not assign Netanyahu — or the speech — a single factual-accuracy score.
 
-Others contain several claims compressed into one.
-
-Some depend on definitions.
-
-Some are counterfactual.
-
-Some are legal conclusions that cannot responsibly be reduced to a normal TRUE/FALSE row.
-
-So we did not assign Netanyahu, or the speech, a single factual-accuracy score.
-
-Seven of the 30 claim families remain **HOLD / EXCLUDED** because they cannot be scored cleanly without first changing the question.
-
-Among the remaining 23 adjudicable claim families:
+Seven of the 30 claim families remain **HOLD / EXCLUDED** because they cannot be scored cleanly without first changing the question. Among the remaining 23 adjudicable claim families:
 
 | Evidence outcome | Claim families |
 |---|---:|
@@ -50,297 +36,146 @@ Among the remaining 23 adjudicable claim families:
 | Unsupported by available evidence | 4 |
 | Contradicted by available evidence | 2 |
 
-These numbers describe this selected speech ledger.
-
-They are not a rating of Netanyahu, Israel, Palestinians or the conflict.
+These numbers describe this selected speech ledger. They are not a rating of Netanyahu, Israel, Palestinians or the conflict.
 
 The more interesting result was structural.
 
 ---
 
-# Iran: damage is observable. Prevention is not.
+## Iran: damage is observable. Prevention is not.
 
-Netanyahu said that Israel and the United States had crushed Iran's military capabilities and nuclear facilities, and argued that the strikes prevented Iran from developing nuclear weapons.
+Netanyahu opened by returning to Iran's nuclear programme. After describing the strikes on Iranian nuclear facilities, he said that without them, **“we'd all be dead.”**
 
-Those are not the same claim.
+The physical part of the claim can be tested. Severe damage to declared Iranian nuclear facilities was documented after U.S. and Israeli strikes. But the second part is a different kind of proposition. Damage to a facility does not, by itself, prove what would have happened in an alternative future.
 
-The physical damage is observable.
+The evidence therefore supports the observable layer — major physical damage — but cannot independently establish that Iran would otherwise have produced a nuclear weapon, let alone the broader counterfactual consequence expressed in the speech.
 
-Reuters and other reporting documented severe damage to declared Iranian nuclear facilities after U.S. and Israeli strikes.
-
-But a damaged facility does not by itself prove a counterfactual future:
-
-> **Iran would otherwise have developed a nuclear weapon.**
-
-That requires an additional causal step.
-
-So the audit separated the two.
-
-**Severe physical damage:** supported.
-
-**A future nuclear weapon was definitively prevented:** not established by the damage evidence alone.
-
-This distinction appears repeatedly in the speech.
+This is the first example of a pattern that recurs throughout the address: a documented event remains intact, while the conclusion requires an additional evidentiary step.
 
 ---
 
-# 1967: history and interpretation
+## 1967: historical fact and historical interpretation
 
-Netanyahu also returned to the 1967 war.
+Netanyahu also returned to the Six-Day War. The territorial history is straightforward: before June 1967, Israel did not control the West Bank, Gaza Strip or Golan Heights, and it captured those territories during the war.
 
-The historical core is straightforward.
+The speech then moves to a stronger interpretation: that three Arab armies were about to invade Israel.
 
-Before June 1967, Israel did not control the West Bank, Gaza Strip or Golan Heights. Israel captured those territories during the war.
+The pre-war crisis itself is well documented. Egyptian forces mobilised, the Strait of Tiran was closed, regional military preparations intensified and Israelis prepared for a potentially catastrophic war. U.S. historical records also state that Israel initiated military action on June 5.
 
-That is well established in the historical record.
-
-But Netanyahu moved from that fact to a stronger description of three Arab armies being about to invade Israel.
-
-The pre-war crisis was real: Egyptian forces mobilised, the Strait of Tiran was closed, regional military preparations intensified and the threat environment was severe.
-
-At the same time, U.S. historical records state that Israel initiated military action on 5 June.
-
-Whether a coordinated three-army invasion was immediately about to occur remains historically contested.
-
-The factual core survives.
-
-The stronger interpretation requires qualification.
+The audit therefore treats the territorial claim as strongly supported while preserving the historical dispute around how imminent a coordinated three-army invasion actually was. The factual core does not disappear, but the stronger interpretation needs context that the speech does not provide.
 
 ---
 
-# Settler violence: one claim did not survive
+## Settler violence: a direct contradiction
 
-One of the clearest contradictions concerned settler violence in the West Bank.
+One of the clearest contradictions concerns settler violence in the West Bank. Netanyahu described the phenomenon as involving roughly 150 offenders and, on fatalities, said **“Maybe two or three.”**
 
-Netanyahu presented the problem as involving roughly 150 offenders and suggested a death toll of only two or three.
+That figure does not survive comparison with the UN Office for the Coordination of Humanitarian Affairs. By May 11, 2026, OCHA had recorded **12 Palestinians killed by Israeli settlers during 2026**, with another two killed in settler attacks where responsibility between settlers and Israeli forces remained unresolved. OCHA also documented more than 800 settler attacks causing casualties, property damage, or both by that point in the year.
 
-The **UN Office for the Coordination of Humanitarian Affairs** reported that, by 11 May 2026 alone, **12 Palestinians had been killed by Israeli settlers**, with another two deaths in settler attacks where responsibility between settlers and Israeli forces was unresolved.
+The two parts of Netanyahu's claim need different treatment. The estimate of roughly 150 offenders remains **unsupported**, because incident data cannot tell us how many unique perpetrators were involved. The fatality claim, however, is **contradicted** by the available OCHA record.
 
-OCHA also recorded a sharp increase in settler attacks and injuries during 2026.
-
-That produces two different outcomes.
-
-The claim that only around 150 people were responsible remains **unsupported**, because incident counts cannot tell us how many unique offenders exist.
-
-But the claim limiting the death toll to two or three is **contradicted** by the available OCHA record.
-
-Source: [UN OCHA, 15 May 2026](https://www.ochaopt.org/content/humanitarian-situation-report-15-may-2026)
+[UN OCHA — Humanitarian Situation Report, May 15, 2026](https://www.ochaopt.org/content/humanitarian-situation-report-15-may-2026)
 
 ---
 
-# Gaza aid: evidence must work in both directions
+## Gaza aid: the evidence does not support either absolute
 
-Netanyahu said Hamas had stolen much of the food entering Gaza.
+Netanyahu said Hamas **“stole much of the food”** entering Gaza.
 
-That is testable.
+An internal USAID review examined **156 incidents involving lost or stolen U.S.-funded humanitarian supplies** between October 2023 and May 2025 and found no evidence that Hamas had systematically benefited from those goods.
 
-An internal USAID review examined **156 aid-loss incidents** between October 2023 and May 2025 and found no evidence of systematic Hamas diversion of U.S.-funded humanitarian assistance.
+That finding does not prove that diversion never occurred. The review itself did not make that claim. But it also does not support the much stronger statement that Hamas stole *much* of the food entering Gaza.
 
-That does not prove that Hamas never stole aid.
+The appropriate adjudication is therefore narrow: the strong claim is unsupported by the reviewed evidence, while the opposite absolute claim — that Hamas never diverted aid — would also exceed what the evidence can establish.
 
-The review itself did not make that claim.
+[Reuters — USAID analysis found no evidence of systematic Hamas theft of U.S.-funded Gaza aid](https://www.reuters.com/world/middle-east/usaid-analysis-found-no-evidence-massive-hamas-theft-gaza-aid-2025-07-25/)
 
-But it also does not support the much stronger formulation that Hamas stole **much of the food** entering Gaza.
-
-So the audit does not replace one absolute claim with another.
-
-**“Hamas stole much of the food”: unsupported by the reviewed evidence.**
-
-**“Hamas never diverted aid”: also not established.**
-
-Source: [Reuters, 25 July 2025](https://www.reuters.com/world/middle-east/usaid-analysis-found-no-evidence-massive-hamas-theft-gaza-aid-2025-07-25/)
-
-This is a core NPCsignals rule:
-
-> **Evidence against a strong claim is not permission to invent the opposite strong claim.**
+> **Evidence against one strong claim is not permission to invent the opposite strong claim.**
 
 ---
 
-# One million polio vaccinations
+## One million polio vaccinations: the number survives, the attribution changes
 
-Another statement sounded easier.
+Netanyahu asked what genocidal regime **“gives a million polio vaccinations”** to the enemy population.
 
-Netanyahu asked what genocidal regime would give one million polio vaccinations to the enemy population.
+The scale of the vaccination campaign is well supported. UNICEF and WHO reported that more than half a million children received a first dose, followed by **556,774 children** receiving a second dose. Across the two rounds, more than one million vaccine doses were administered.
 
-The number has a substantial factual core.
+The attribution is more complicated. The campaign was coordinated by the Palestinian Ministry of Health, WHO, UNICEF, UNRWA and other partners, while area-specific humanitarian pauses were required to make the operation possible.
 
-WHO and UNICEF documented a campaign in which more than half a million children received a first dose, followed by more than half a million receiving a second dose.
+So the number survives the stress test. The ownership claim does not survive unchanged. More than one million doses were administered, but describing the campaign simply as Israel giving one million vaccinations compresses a multi-actor humanitarian operation into a single actor.
 
-Across the two rounds, more than one million vaccine doses were administered.
-
-But the attribution is more complicated.
-
-The campaign was coordinated by **WHO, UNICEF, UNRWA, the Palestinian Ministry of Health and other partners**, while Israel agreed to area-specific humanitarian pauses that enabled vaccination activity.
-
-So:
-
-**More than one million vaccine doses were administered:** supported.
-
-**Israel gave those vaccinations:** materially compressed attribution.
-
-Source: [UNICEF, 12 December 2024](https://www.unicef.org/sop/stories/gazas-children-protected-poliovirus-outbreak-after-challenging-vaccine-campaign)
-
-The event is real.
-
-The delivery chain is multi-actor.
-
-The speech turns that chain into a single actor.
+[UNICEF and WHO — Second round of Gaza polio campaign](https://www.unicef.org/press-releases/second-round-polio-campaign-gaza-completed-amid-ongoing-conflict-and-attacks-unicef)
 
 ---
 
-# Qatar: money does not prove motive
+## Qatar: documented funding, unproven motive
 
-Netanyahu also accused Qatar of spending billions of dollars to influence young Americans against Israel, the United States and the West.
+Netanyahu said Qatar had spent heavily on American universities and media and then stated: **“Their goal was clear.”** He described that goal as influencing young people against Israel, America and the West.
 
-The funding component has strong evidence behind it.
+The funding component is measurable. The U.S. Department of Education reported that American universities disclosed more than **$1.1 billion in reportable gifts and contracts from Qatari sources in 2025 alone**, making Qatar the largest foreign source in that year's disclosures.
 
-The U.S. Department of Education reported that American universities disclosed more than **$1.1 billion in reportable gifts and contracts from Qatar in 2025 alone**.
+That establishes the existence of very large Qatari financial flows into U.S. higher education. It does not establish the motive Netanyahu assigns to those flows.
 
-That makes the existence of very large Qatari financial flows into U.S. higher education difficult to dispute.
+A funding record can show who paid, how much was reported and which institutions received money. It cannot, by itself, prove a political purpose. The financial claim therefore has a strong factual core; the motive claim remains unsupported by the funding data alone.
 
-But the next step is different.
-
-The funding totals do not establish that the purpose of the money was to make young people hate Israel, America or the West.
-
-That is a motive claim.
-
-The audit therefore split the statement:
-
-**Large Qatari university funding:** supported.
-
-**The stated political motive:** unsupported by the funding data alone.
-
-Source: [U.S. Department of Education](https://www.ed.gov/about/news/press-release/us-department-of-education-releases-latest-foreign-funding-disclosures-federally-funded-american-universities)
+[U.S. Department of Education — 2025 foreign funding disclosures](https://www.ed.gov/about/news/press-release/us-department-of-education-releases-latest-foreign-funding-disclosures-federally-funded-american-universities)
 
 ---
 
-# Some claims should remain unresolved
+## Some claims should remain unresolved
 
-A claim stress test should not reward itself for producing a classification.
+A claim stress test should not reward itself for producing a classification. Sometimes the correct result is **HOLD**.
 
-Sometimes the correct result is HOLD.
+Netanyahu argued that Israel had done more to prevent civilian casualties than any military in history. There is no stable historical dataset capable of comparing every war, army, doctrine, battlefield, population density, evacuation system and weapons environment under one reproducible metric. A historical superlative of that kind cannot be scored cleanly.
 
-Netanyahu said that Israel had done more to prevent civilian casualties than any military in history.
+The same problem applies to counterfactual claims about what would have happened had the strikes on Iran not occurred. There is no observable alternative timeline against which the claim can be measured.
 
-There is no stable historical metric capable of testing that superlative across wars, militaries, doctrines, weapons, geographies and reporting systems.
-
-So it stays outside the denominator.
-
-The same applies to the statement that, without strikes on Iran, “we'd all be dead.”
-
-It is counterfactual.
-
-There is no observable version of history in which the strikes did not occur and the result can be measured.
-
-The genocide claim requires another kind of restraint.
-
-The South Africa v. Israel case remains before the International Court of Justice. As of the evidence freeze, there was no final merits judgment.
-
-NPCsignals therefore does not turn:
-
-**“Israel committed genocide”**
-
-or
-
-**“Israel did not commit genocide”**
-
-into an ordinary completed factual row.
+Legal claims require another kind of restraint. The South Africa v. Israel genocide case remains before the International Court of Justice, and no final merits judgment existed at the evidence freeze. This audit therefore does not convert either **“Israel committed genocide”** or **“Israel did not commit genocide”** into an ordinary completed fact-check row.
 
 A legal conclusion belongs in its legal process.
 
 ---
 
-# The structural finding
+## The structural finding: Evidence Compression
 
 After the contradiction pass, one pattern appeared repeatedly:
 
-**documented fact → compressed attribution or scope → stronger conclusion**
+> **documented fact → compressed attribution or scope → stronger conclusion**
 
-We use the working term:
-
-## Evidence Compression
+NPCsignals uses the working term **Evidence Compression** for this pattern.
 
 > **Evidence Compression occurs when several evidentiary steps — fact, attribution, causality, scope or legal conclusion — are compressed into a single statement, making the final claim stronger than the evidence directly establishes.**
 
-Examples from the speech include:
+The Iran section begins with observable damage and moves toward a counterfactual future. The polio claim begins with a real vaccination total and compresses a multi-actor delivery chain into one actor. The Qatar claim begins with documented financial flows and moves from amount to motive.
 
-**Damage to Iranian nuclear facilities**  
-→ **Iran's future nuclear weapon was prevented**
+The factual anchor remains. What changes is the number of evidentiary steps carried by a single sentence.
 
-**More than one million polio doses administered**  
-→ **Israel gave one million vaccinations**
-
-**Large Qatari university funding**  
-→ **the purpose was to make young Americans hate Israel and the West**
-
-**Rising antisemitic incidents in New York**  
-→ **a particular mayor caused the deterioration**
-
-This is not the same signal NPCsignals found in the Ibrahim Traoré audit.
-
-There, **Narrative Inflation** described a documented event becoming progressively stronger through online retelling and amplification.
-
-Here, the compression can occur inside a single sentence.
-
-No reposting is required.
-
-No AI-generated video is required.
-
-No social-media network is required.
-
-The transformation happens at the point of presentation.
+This differs from the **Narrative Inflation** observed in the Ibrahim Traoré audit. There, a documented event became progressively stronger through online repetition, amplification and synthetic content. Evidence Compression does not require a distribution network. It can occur at the point of presentation, inside a single political statement.
 
 ---
 
-# What survives the stress test
+## What survives the stress test?
 
-Several claims in Netanyahu's speech have strong factual cores.
+Several claims in Netanyahu's speech have strong factual cores. Some survive with relatively little qualification. Others remain recognizable only after attribution, scope or causality is separated from the underlying fact. A smaller number are unsupported or directly contradicted by the evidence reviewed, while several cannot be scored responsibly at all.
 
-Some survive with little qualification.
+That result is deliberately narrower than declaring the speech “true” or “false.”
 
-Others survive only after attribution, scope or causality is separated from the underlying fact.
+The signal is this:
 
-A smaller number are unsupported or contradicted by the strongest evidence reviewed.
+> **A political statement can remain anchored to real evidence while its conclusion becomes stronger than that evidence directly establishes.**
 
-And several should not be scored at all.
-
-That is the result.
-
-Not:
-
-**Netanyahu's speech was true.**
-
-Not:
-
-**Netanyahu's speech was false.**
-
-But:
-
-> **A political statement can remain anchored to real evidence while the conclusion becomes stronger than that evidence directly establishes.**
-
-That is why claim structure matters.
-
-And that is why the unit of analysis should sometimes be smaller than the sentence.
+That is why claim structure matters — and why the unit of analysis sometimes needs to be smaller than the sentence.
 
 ---
 
-# Evidence archive
+## Evidence archive
 
 The complete frozen research record is public:
 
-**[Netanyahu UNGA 2026 Claim Stress Test — GitHub](https://github.com/npccryptodude-hash/npcsignals/tree/main/research/netanyahu-unga-2026-claim-stress-test)**
+**[Netanyahu UNGA 2026 Claim Stress Test — GitHub evidence archive](https://github.com/npccryptodude-hash/npcsignals/tree/main/research/netanyahu-unga-2026-claim-stress-test)**
 
-It contains:
+It contains the methodology, first-pass claim ledger, final evidence ledger, source notes, contradiction log and frozen findings.
 
-- methodology
-- first-pass claim ledger
-- final evidence ledger
-- source notes
-- contradiction log
-- frozen findings
-
-Later evidence may be appended or versioned.
-
-The original record will not be silently rewritten.
+Later evidence may be appended or versioned. The original record will not be silently rewritten.
 
 **NPCsignals — Evidence over velocity.**
