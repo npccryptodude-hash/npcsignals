@@ -1,9 +1,11 @@
 # Ibrahim Traoré and Narrative Inflation
 
-## Where does the documented record end and the online narrative begin?
+## Where the documented record ends — and the online narrative begins to outrun the evidence
 
 **NPCsignals Research**  
 **Evidence freeze: 25 September 2026**
+
+*This is not an assessment of whether Ibrahim Traoré is a good or bad political leader. It is an evidence audit of claims made about him and Burkina Faso.*
 
 Ibrahim Traoré has become something larger than the military leader of Burkina Faso.
 
@@ -43,7 +45,7 @@ The critical transition occurs when:
 
 Burkina Faso has experienced measurable economic and industrial changes during Traoré's rule.
 
-The IMF reported real GDP growth of **5.3 percent in 2025** and public debt of approximately **53.4 percent of GDP** at the end of that year.
+The IMF reported real GDP growth of **5.3 percent in 2025**. Its 2026 debt sustainability analysis put public debt at **53.4 percent of GDP** at the end of 2025.
 
 That separates two claims immediately:
 
@@ -563,8 +565,7 @@ He is interesting because enough of it is true to make the false parts easier to
 
 The frozen methodology, evidence ledger, contradiction log and sample summaries are available here:
 
-**GitHub:**  
-https://github.com/npccryptodude-hash/npcsignals/tree/main/research/traore-narrative-audit-2026
+**[GitHub evidence archive](https://github.com/npccryptodude-hash/npcsignals/tree/main/research/traore-narrative-audit-2026)**
 
 The archive preserves the distinction between **confirmed**, **partially supported**, **unverified**, **contradicted** and **unresolved** claims.
 
@@ -572,7 +573,7 @@ Original classifications are not silently rewritten after freeze.
 
 ---
 
-# Sources
+# Sources and evidence trail
 
 **International Monetary Fund** — *Burkina Faso: 2026 Article IV Consultation and Fifth Review under the Extended Credit Facility*  
 https://www.imf.org/en/news/articles/2026/06/26/pr26226-burkina-faso-imf-concl-2026-aiv-consult-5th-rev-ecf-arrgmnt-app-aug-comp-1st-rev-rsf
@@ -610,5 +611,14 @@ https://www.reuters.com/world/africa/forget-democracy-burkina-faso-military-lead
 ---
 
 **Evidence freeze: 25 September 2026**
+
+**NPCsignals — Evidence over velocity.**
+
+
+---
+
+## Publication note
+
+This article is based on a frozen research archive rather than a live-running narrative count. Later evidence may produce annotations, corrections or new sensitivity analysis, but the original frozen classifications will remain visible in the GitHub record.
 
 **NPCsignals — Evidence over velocity.**
