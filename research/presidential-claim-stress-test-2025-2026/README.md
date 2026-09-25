@@ -10,7 +10,9 @@ Control sample: 50 mechanically selected falsifiable claims from complete presid
 
 High-salience layer: 78 scoreable claim families after source validation and claim-definition cleanup.
 
-Dataset window: January 2025 – September 3, 2026.
+Core dataset window: January 2025 – September 3, 2026.
+
+Supplemental archive window: through September 22, 2026. The UNGA speech supplement is archived separately and does not alter the frozen 78-claim high-salience denominator.
 
 Unit of analysis: one claim family counts once toward factual accuracy. Repetitions are tracked separately.
 
@@ -115,6 +117,9 @@ Main source ledger, audit classifications, CAI reconstruction, persistence evide
 
 NPCsignals_Presidential_Claim_Stress_Test_Blind_Second_Pass.xlsx
 Blind scoring packet containing claims, sources, and benchmark evidence without NPCsignals' original scores.
+
+UNGA-2026-SPEECH-SUPPLEMENT.md
+Supplemental claim screen for President Trump's September 22, 2026 United Nations General Assembly address. This file does not alter the frozen main denominator.
 
 CHANGELOG.md
 Version history and material audit corrections.
