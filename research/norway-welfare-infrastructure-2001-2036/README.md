@@ -12,9 +12,9 @@ Can Norway finance and execute a ten-year restoration of education, hospital and
 
 ## Core finding
 
-The available evidence does not support a simple explanation based on insufficient national financial resources.
+The available evidence does not support **aggregate national financial scarcity** as a sufficient primary explanation.
 
-A stronger interpretation is that Norway combines high national financial capacity and substantial public investment with fragmented asset responsibility, uneven lifecycle maintenance, competing operating demands and increasing demographic pressure.
+Local and sector-specific scarcity can still be real because Norway combines high national financial capacity with fragmented asset responsibility, uneven lifecycle maintenance, competing operating demands and increasing demographic pressure.
 
 > **The problem appears less about whether Norway has money, and more about whether the system preserves public capital efficiently over time.**
 
@@ -39,6 +39,9 @@ Programme logic:
 - [evidence-ledger.csv](evidence-ledger.csv)
 - [sources.md](sources.md)
 - [unresolved.md](unresolved.md)
+- [contradiction-log.md](contradiction-log.md)
+- [model-derivation-and-macro-scale.md](model-derivation-and-macro-scale.md)
+- [external-review-notes-2026-09-30.md](external-review-notes-2026-09-30.md)
 
 ## Evidence labels
 
