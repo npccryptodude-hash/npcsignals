@@ -65,18 +65,20 @@ RIF anslår omtrent:
 - **168 mrd. kroner** i oppgraderingsbehov for kommunale og fylkeskommunale bygg
 - **67 mrd. kroner** for sykehus
 
-Dette er brutto tekniske anslag, ikke direkte nye statsbudsjettbehov.
+Dette er brutto tekniske anslag, ikke direkte nye statsbudsjettbehov. RIF er bransjeforeningen for rådgivende ingeniørbedrifter, og tallene behandles derfor som **eksterne bransjeestimater**, ikke som nøytral offentlig statistikk eller budsjettkrav.
 
 SSB viser at kommunene i 2025 brukte omtrent:
 
 - **3,7 mrd. kroner på vedlikehold**
 - **30,3 mrd. kroner på brutto bygningsinvesteringer**
 
-At store investeringer og stort etterslep eksisterer samtidig er sentralt i analysen.
+Sammenligningen er beskrivende og ikke et direkte mål på et vedlikeholdsgap. KOSTRA skiller mellom vedlikehold som opprettholder eksisterende standard og standardhevende påkostninger som kan føres som investering. Større rehabilitering kan derfor ligge i investeringsregnskapet.
+
+At store investeringer og stort etterslep eksisterer samtidig er fortsatt sentralt, men 3,7 mot 30,3 må tolkes som **klassifikasjonssensitivt**.
 
 ## 6. Vedlikeholdsmekanismen
 
-Den sterkeste gjentakende mekanismen er:
+En viktig mekanisme som støttes av evidensen er:
 
 > **vedlikehold utsettes → teknisk gjeld bygges opp → rehabilitering blir dyrere senere**
 
@@ -90,7 +92,7 @@ Den smalere konklusjonen er at utilstrekkelig livsløpsvedlikehold ser ut til å
 
 PISA 2025 dokumenterer en betydelig resultatnedgang.
 
-Norge lå under OECD-gjennomsnittet i lesing, matematikk og naturfag.
+Norge lå under OECD-gjennomsnittet i lesing, matematikk og naturfag. OECD oppgir samtidig en samlet eksklusjonsrate på **10,4 %**, opp fra **7,3 % i 2022**, og advarer om at den høye eksklusjonsraten kan trekke de rapporterte resultatene oppover. Retningen på nedgangen er fortsatt tydelig, men nivåene må leses med dette datakvalitetsforbeholdet.
 
 Men:
 
@@ -145,20 +147,15 @@ Arbeidet tester en maksimal tiårsramme på:
 
 Dette er ikke et dokumentert etterslep.
 
-Det er et planleggingstak som kan romme:
+Rammen er nå koblet til et eksplisitt intervall. En avledet brutto restaureringskjerne ligger rundt **167–192 mrd. kroner**. En ren størrelsesberegning for om lag 18 000 flere heldøgnsplasser gir **76,9–87,9 mrd. kroner** ved Husbankens maksimale godkjente anleggskostnader i 2026. Med **5–10 mrd. kroner** til utstyr/teknisk reserve blir full brutto skala omtrent **249–290 mrd. kroner**.
 
-- restaurering
-- erstatning
-- framtidig kapasitet
-- modernisering
-- utstyr
-- reserve
-
-Eksisterende investeringsprogrammer overlapper allerede deler av behovet.
+Dette betyr **ikke** at 249–290 mrd. må være nye penger. Eksisterende investeringer overlapper, omsorgsberegningen er en skala-test og faktisk tjenestemiks vil påvirke kostnaden.
 
 Derfor:
 
 > **brutto programramme ≠ nytt finansieringsbehov**
+
+Se [model-derivation-and-macro-scale.md](model-derivation-and-macro-scale.md).
 
 ## 11. Programlogikk
 
@@ -176,6 +173,19 @@ En modellert arbeidsfordeling er:
 | Lokal/fylkeskommunal egenandel | 5 % |
 
 Dette er **MODELLED**, ikke en endelig anbefaling.
+
+## 12A. Makroøkonomisk størrelsesorden
+
+Revidert nasjonalbudsjett 2026 anslår et strukturelt oljekorrigert underskudd på rundt **579 mrd. kroner**, tilsvarende **12,6 % av trend-BNP for Fastlands-Norge** og **2,7 % av SPU**.
+
+Et jevnt tiårsgjennomsnitt på 25 mrd. kroner ville mekanisk tilsvare omtrent:
+
+- **0,54 % av trend-BNP for Fastlands-Norge**
+- **4,3 % av det strukturelle oljekorrigerte underskuddet i 2026**
+
+Med den modellerte statlige kapitalandelen på 55 % blir gjennomsnittlig direkte statlig kapital 13,75 mrd. kroner årlig, rundt **0,30 % av trend-BNP**.
+
+Dette er størrelsessammenligninger, ikke prognoser. Faktisk makroeffekt avhenger av tempo, fradrag for eksisterende investeringer, budsjettmessige omprioriteringer, finansieringsmiks, arbeidskraft, byggekapasitet, inflasjon og typen utgifter.
 
 ## 13. Stresstester
 
@@ -250,9 +260,11 @@ Analysen fastslår ikke at:
 
 ## 19. Foreløpig konklusjon
 
-Historikken passer dårlig med en enkel forklaring om nasjonal pengemangel.
+Historikken passer dårlig med **samlet nasjonal pengemangel som hovedforklaring**.
 
-Den sterkere tolkningen er strukturell:
+Det utelukker ikke reell knapphet lokalt eller i enkeltsektorer. Kommuner og helseaktører kan ha reelle finansieringsbegrensninger selv om statens balanse er sterk.
+
+Den sterkere tolkningen er derfor en kombinasjon av nasjonal kapasitet, lokal knapphet og institusjonell struktur:
 
 > **Norge har vært svært effektivt til å bygge finansiell formue og i stand til å finansiere store investeringer, men mindre konsekvent i å bevare deler av den offentlige realkapitalen gjennom hele livsløpet.**
 
