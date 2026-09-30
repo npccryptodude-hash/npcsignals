@@ -2,17 +2,17 @@
 
 Freeze date: **2026-09-30**
 
-This file records claims that were tested and either contradicted, weakened or left unestablished. They are retained so rejected narratives do not silently disappear from the audit trail.
+This file records claims that were tested and either contradicted, weakened or left unestablished. Rejected narratives remain visible so the audit trail does not erase failed hypotheses.
 
 ## C-01 — “Norway stopped investing in public buildings”
 
 **Status: CONTRADICTED as a general claim**
 
-Statistics Norway reports more than **NOK 30.28 billion** in municipal gross building investment in 2025, plus **NOK 5.69 billion** in county building investment.
+Statistics Norway reports more than **NOK 30.28 billion** in municipal gross building investment in 2025, plus approximately **NOK 5.69 billion** in county building investment.
 
 This does not prove investment is sufficient or optimally allocated.
 
-It does contradict the broad claim that public-building investment has stopped.
+It contradicts the broad claim that public-building investment stopped.
 
 Source:  
 https://www.ssb.no/offentlig-sektor/offentlig-forvaltning/statistikk/eiendomsforvaltning-i-kommunesektoren
@@ -25,14 +25,17 @@ https://www.ssb.no/offentlig-sektor/offentlig-forvaltning/statistikk/eiendomsfor
 
 PISA 2025 confirms substantial deterioration in mathematics, reading and science.
 
-The research also documents infrastructure problems.
+Infrastructure problems are also documented.
 
 However, no national causal identification has been established between building condition and the PISA decline.
 
+OECD also reports a Norwegian PISA 2025 exclusion rate of **10.4%**, which introduces an additional data-quality caveat.
+
 Two real problems do not automatically form a proven causal chain.
 
-Source:  
-https://www.udir.no/tall-og-forskning/finn-forskning/rapporter/2026/pisa-2025-kompetanse-naturfag-lesing-matematikk/
+Sources:  
+https://www.udir.no/tall-og-forskning/finn-forskning/rapporter/2026/pisa-2025-kompetanse-naturfag-lesing-matematikk/  
+https://www.oecd.org/en/publications/pisa-2025-results-volume-i_73451bc5-en/full-report/reader-s-guide_0364240f.html
 
 ---
 
@@ -40,7 +43,7 @@ https://www.udir.no/tall-og-forskning/finn-forskning/rapporter/2026/pisa-2025-ko
 
 **Status: NOT SUPPORTED**
 
-Deferred lifecycle maintenance appears to be an important contributor.
+Deferred lifecycle maintenance is **SUPPORTED AS A MATERIAL CONTRIBUTOR**.
 
 But current upgrade needs can also reflect:
 
@@ -70,7 +73,7 @@ Hospital investment portfolios combine:
 - ICT
 - structural reorganisation
 
-Only project-level matching can identify how much of planned investment reduces the existing technical backlog.
+Only project-level matching can identify how much planned investment reduces the existing technical backlog.
 
 ---
 
@@ -78,13 +81,25 @@ Only project-level matching can identify how much of planned investment reduces 
 
 **Status: NOT ESTABLISHED**
 
-NOK 250 billion is a **maximum planning envelope** used for stress testing.
+NOK 250 billion is a **maximum planning envelope**.
 
-It includes possible restoration, future capacity, modernisation and contingency.
+The revised model derives:
 
-The exact incremental need remains unresolved.
+- gross restoration core: **NOK 167–192bn**
+- future care-capacity scale: **NOK 76.9–87.9bn**
+- equipment / technical reserve: **NOK 5–10bn**
 
-> **Ceiling, not target.**
+Combined gross scope:
+
+> **approximately NOK 249–290bn before baseline subtraction**
+
+NOK 250bn therefore sits near the lower end of a full gross-scope scenario.
+
+It remains:
+
+> **ceiling, not target**
+
+See: [model-derivation-and-macro-scale.md](model-derivation-and-macro-scale.md)
 
 ---
 
@@ -108,7 +123,7 @@ The unresolved issue is the size of the subtraction.
 
 Fund value, economic conditions and fiscal-policy requirements change over time.
 
-A large fall in the GPFG can materially change the measured percentage of fund use.
+A large fall in GPFG can materially change the measured percentage of fund use.
 
 The programme should therefore be treated as a long-term budget priority rather than as a claim on temporary percentage-point headroom.
 
@@ -149,3 +164,53 @@ Building types, technical systems, age, condition and use differ substantially.
 A lifecycle-maintenance floor is supported as a principle.
 
 One universal rate is not.
+
+---
+
+## C-11 — “NOK 3.7bn maintenance vs. NOK 30.3bn investment directly measures the maintenance gap”
+
+**Status: NOT ESTABLISHED**
+
+KOSTRA accounting separates ordinary maintenance from standard-enhancing investment.
+
+Major rehabilitation may therefore appear in the investment account.
+
+The comparison demonstrates that the flows are economically and accounting-wise different.
+
+It does **not** directly measure lifecycle underfunding.
+
+---
+
+## C-12 — “National financial capacity means municipalities do not face real scarcity”
+
+**Status: CONTRADICTED**
+
+National and local scarcity are not mutually exclusive.
+
+The sovereign state can have high aggregate financial capacity while municipalities or sector entities face:
+
+- borrowing constraints
+- debt-service pressure
+- competing statutory obligations
+- limited free revenues
+
+The revised finding is:
+
+> **aggregate national financial scarcity is not a sufficient primary explanation, while local and sector-specific scarcity can remain real.**
+
+---
+
+## C-13 — “RIF estimates are official public-sector needs assessments”
+
+**Status: CONTRADICTED**
+
+RIF is an industry association for consulting engineering firms.
+
+Its technical estimates are retained because they are methodologically useful, but they are classified as:
+
+> **external industry estimates**
+
+—not official budget requirements or neutral government statistics.
+
+Source:  
+https://rif.no/om-rif
