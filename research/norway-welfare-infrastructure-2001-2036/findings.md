@@ -6,7 +6,7 @@
 
 Norway’s public financial capacity expanded dramatically over the 2001–2025 period while substantial public investment continued.
 
-This does not mean every desirable project could have been financed at once. It means a simple national “lack of money” explanation fits the evidence poorly.
+This does not mean every desirable project could have been financed at once. It means **aggregate national financial scarcity** fits poorly as the primary explanation. Local and sector-specific scarcity can remain real because financial capacity and asset responsibility are distributed differently across the system.
 
 ## Finding 2 — Large investment and technical backlog can coexist
 
@@ -24,7 +24,7 @@ The relevant distinction is between:
 
 ## Finding 3 — Deferred maintenance is an important contributing mechanism
 
-**Status: STRONGLY SUPPORTED AS CONTRIBUTOR**
+**Status: SUPPORTED AS A MATERIAL CONTRIBUTOR**
 
 The evidence is consistent with the following mechanism:
 
@@ -52,7 +52,11 @@ The research does not establish that school-building condition caused the nation
 
 The figure is used to stress-test whether a ten-year programme could fit within Norway’s existing fiscal architecture.
 
-It is not a demonstrated bill and should never become a spending target.
+A derived gross restoration core is approximately **NOK 167–192 billion**. Adding a pure-scale estimate for 18,000 future round-the-clock care places and a small equipment reserve produces a full gross-scope scale of approximately **NOK 249–290 billion**. Existing funded programmes must then be deducted.
+
+This is why NOK 250 billion is retained as a ceiling near the lower end of the full gross-scope scenario — not as a demonstrated bill or spending target.
+
+See [model-derivation-and-macro-scale.md](model-derivation-and-macro-scale.md).
 
 ## Finding 7 — Preservation is as important as restoration
 
