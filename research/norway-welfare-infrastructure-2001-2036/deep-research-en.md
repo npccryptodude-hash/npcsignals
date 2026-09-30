@@ -63,18 +63,20 @@ RIF's *Norges tilstand 2025* estimates approximately:
 - **NOK 168 billion** in upgrade need for municipal and county buildings
 - **NOK 67 billion** for hospitals
 
-These are gross technical estimates, not direct state-budget bills.
+These are gross technical estimates, not direct state-budget bills. RIF is the industry association for consulting engineering firms, so the figures are treated as **external industry estimates**, not neutral official statistics or budget requirements.
 
 Statistics Norway reports that municipalities in 2025 spent about:
 
 - **NOK 3.7 billion on maintenance activities**
 - **NOK 30.3 billion on gross building investment**
 
-The coexistence of large investment and large upgrade needs is central to the research question.
+This comparison is descriptive rather than a direct measure of a maintenance gap. KOSTRA accounting distinguishes maintenance that preserves existing standard from standard-enhancing improvements that can be recorded as investment. Major rehabilitation may therefore appear in investment expenditure.
+
+The coexistence of large investment and large upgrade needs remains central to the research question, but the 3.7-to-30.3 comparison is **classification-sensitive**.
 
 ## 6. The maintenance mechanism
 
-The strongest recurring mechanism is:
+A material mechanism supported by the evidence is:
 
 > **maintenance is deferred → technical debt accumulates → rehabilitation becomes more expensive later**
 
@@ -88,7 +90,7 @@ The claim is narrower: insufficient lifecycle maintenance appears to be an impor
 
 PISA 2025 confirms a significant deterioration in Norwegian educational outcomes.
 
-Norway was below the OECD average in reading, mathematics and science.
+Norway was below the OECD average in reading, mathematics and science. OECD also reports that Norway's overall exclusion rate was **10.4%**, up from **7.3% in 2022**, and warns that the high exclusion rate may bias performance results upwards. The direction of deterioration remains clear, but exact mean levels require this data-quality caveat.
 
 However:
 
@@ -145,20 +147,15 @@ The research tests a maximum ten-year programme envelope of:
 
 This figure is not a documented backlog.
 
-It is a planning ceiling that can accommodate:
+The ceiling is now anchored to a transparent range. A derived gross restoration core is approximately **NOK 167–192 billion**. A pure-scale calculation for the projected need for about 18,000 additional round-the-clock care places adds roughly **NOK 76.9–87.9 billion** at 2026 Husbanken maximum approved project-cost levels. Adding a **NOK 5–10 billion** equipment/technical reserve produces a full gross-scope scale of approximately **NOK 249–290 billion**.
 
-- restoration
-- replacement
-- future capacity
-- modernisation
-- equipment
-- contingency
-
-Existing investment programmes already overlap with part of the need.
+This does **not** mean that NOK 249–290 billion must be newly financed. Existing investment programmes already overlap with part of the need, the care-place calculation is a scale test rather than a forecast, and actual service mix matters.
 
 Therefore:
 
 > **gross programme size ≠ incremental funding requirement**
+
+See [model-derivation-and-macro-scale.md](model-derivation-and-macro-scale.md).
 
 ## 11. Programme logic
 
@@ -196,6 +193,19 @@ A modelled financing mix tested in the research is:
 This is a **MODELLED** structure, not a final recommendation.
 
 The purpose is to test whether the programme can be carried without turning a national infrastructure problem into a municipal-debt problem.
+
+## 12A. Macro scale
+
+Using the Revised National Budget 2026 as a reference, the structural non-oil deficit is approximately **NOK 579 billion**, equal to **12.6% of trend mainland GDP** and **2.7% of GPFG value**.
+
+An even ten-year average of NOK 25 billion would correspond mechanically to about:
+
+- **0.54% of trend mainland GDP**
+- **4.3% of the 2026 structural non-oil deficit**
+
+Under the modelled 55% direct-state-capital share, average direct state capital would be NOK 13.75 billion per year, approximately **0.30% of trend mainland GDP**.
+
+These are scale comparisons, not forecasts. Actual macro effects depend on phasing, baseline subtraction, offsets, financing mix, labour and construction capacity, inflation and the composition of spending.
 
 ## 13. Stress tests
 
@@ -291,9 +301,11 @@ The evidence does not establish that:
 
 ## 19. Interim conclusion
 
-The 2001–2025 record fits poorly with a simple national-financial-scarcity explanation.
+The 2001–2025 record fits poorly with **aggregate national financial scarcity as the primary explanation**.
 
-The stronger interpretation is structural:
+That does not eliminate local or sector-specific scarcity. Municipalities and health-sector entities can face real financing constraints even when the sovereign balance sheet is strong.
+
+The stronger interpretation is therefore a combination of national capacity, local scarcity and institutional structure:
 
 > **Norway has been highly successful at accumulating financial wealth and capable of funding major investment, but less consistently successful at preserving parts of its public physical capital through the full lifecycle.**
 
