@@ -40,6 +40,20 @@ Brutto restaureringskjerne er omtrent **167–192 mrd. kroner**. Med framtidig o
 
 Derfor beholdes 250 mrd. som et tak nær nedre del av fullskala-scenarioet, ikke som dokumentert regning.
 
+## Funn 6A — Sparing har alternativkostnad, men utsettelse kan også ha det
+
+**Status: SUPPORTED AS A DECISION FRAMEWORK**
+
+Alternativkostnaden ved å bruke penger er reell: kapital brukt i dag gir avkall på framtidig finansiell avkastning.
+
+For nødvendig infrastruktur kan utsettelse samtidig gi en sammensatt kostnad gjennom dyrere framtidig rehabilitering, sekundærskader, kortere levetid, høyere drift og tjenesteavbrudd.
+
+Den riktige sammenligningen er derfor ikke bare «spare mot bruke», men:
+
+> **finansiell rentes rente mot teknisk gjeld som vokser over tid**
+
+Store prosjekter bør ha en eksplisitt **Cost of Delay**-vurdering sammen med tapt finansiell avkastning.
+
 ## Funn 7 — Bevaring er like viktig som restaurering
 
 **Status: STRONG PROGRAMME REQUIREMENT**
