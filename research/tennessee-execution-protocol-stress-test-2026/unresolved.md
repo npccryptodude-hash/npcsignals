@@ -54,3 +54,9 @@ The following questions should remain unresolved until official records, medical
 Absence of evidence is not filled with mechanism speculation.
 
 **No causal finding until the evidence supports one.**
+
+### Search status — 2026-10-01
+
+A targeted search of the U.S. Supreme Court docket, Pike's appendices, indexed court filings, and contemporary reporting located **Pike's Request for Admission No. 7**, but did **not** locate TDOC's signed written response to that request. Until the response itself is found, the audit must not describe the request as admitted by Tennessee.
+
+Additional evidence located during the search: the August 11, 2026 evidentiary-hearing transcript contains sworn testimony from Riverbend Warden Kenneth Nelson that he had not been involved in discussions about contingency plans such as a central line for Pike. The same hearing reflects the State's position that post-execution resuscitation testimony was irrelevant to the matters then being heard. These facts strengthen the pre-execution notice/contingency record but do not answer Request for Admission No. 7.
