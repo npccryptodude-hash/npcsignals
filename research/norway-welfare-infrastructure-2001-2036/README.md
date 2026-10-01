@@ -42,6 +42,17 @@ Programme logic:
 - [contradiction-log.md](contradiction-log.md)
 - [model-derivation-and-macro-scale.md](model-derivation-and-macro-scale.md)
 - [external-review-notes-2026-09-30.md](external-review-notes-2026-09-30.md)
+- [README-no.md](README-no.md)
+- [methodology-no.md](methodology-no.md)
+- [findings-no.md](findings-no.md)
+- [deep-research-no.md](deep-research-no.md)
+- [evidence-ledger-no.csv](evidence-ledger-no.csv)
+- [sources-no.md](sources-no.md)
+- [unresolved-no.md](unresolved-no.md)
+- [contradiction-log-no.md](contradiction-log-no.md)
+- [model-derivation-and-macro-scale-no.md](model-derivation-and-macro-scale-no.md)
+- [article/medium-en.md](article/medium-en.md)
+- [article/medium-no.md](article/medium-no.md)
 
 ## Evidence labels
 
