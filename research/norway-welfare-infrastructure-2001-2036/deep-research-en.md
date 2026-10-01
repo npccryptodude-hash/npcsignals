@@ -207,6 +207,34 @@ Under the modelled 55% direct-state-capital share, average direct state capital 
 
 These are scale comparisons, not forecasts. Actual macro effects depend on phasing, baseline subtraction, offsets, financing mix, labour and construction capacity, inflation and the composition of spending.
 
+## 12B. Saving versus public capital
+
+A further stress test addresses the opportunity cost of spending.
+
+A recent public argument from Finance Minister Jens Stoltenberg is that petroleum revenue saved rather than spent in the 1990s has multiplied substantially inside the sovereign wealth fund.
+
+That argument is economically important: spending today can mean giving up decades of financial return.
+
+But for public infrastructure, the comparison is incomplete if the alternative investment is assumed to produce no lasting value.
+
+The relevant comparison is:
+
+> **save capital → financial asset + future investment return**
+
+versus
+
+> **invest in necessary public capital → physical asset + avoided deterioration + possible operating savings + service value − foregone financial return**
+
+The audit therefore does not treat saving as passive or public investment as automatically superior.
+
+Instead, major projects should include an explicit **Cost of Delay** calculation covering current rehabilitation cost, expected future cost if delayed, secondary damage, useful-life extension, operating costs, service disruption, foregone financial return and current capacity constraints.
+
+This reframes the question from “save or spend?” to:
+
+> **Which use of capital creates the stronger long-term public balance sheet?**
+
+See [opportunity-cost-stress-test.md](opportunity-cost-stress-test.md).
+
 ## 13. Stress tests
 
 The programme is tested against:
