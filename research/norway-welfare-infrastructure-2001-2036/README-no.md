@@ -42,3 +42,5 @@ Programlogikk:
 - [model-derivation-and-macro-scale-no.md](model-derivation-and-macro-scale-no.md)
 - [external-review-notes-2026-09-30-no.md](external-review-notes-2026-09-30-no.md)
 - [article/medium-no.md](article/medium-no.md)
+
+- [opportunity-cost-stress-test.md](opportunity-cost-stress-test.md)
