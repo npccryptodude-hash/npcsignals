@@ -75,3 +75,10 @@ Claims in the audit should be phrased according to the strongest available sourc
 https://www.supremecourt.gov/DocketPDF/26/26-5696/425730/20260925185931216_5.%20Appendix%20B%20-%20Evid%20Hrg%20Transcripts.pdf
 
 Key relevance: Riverbend Maximum Security Institution Warden Kenneth Nelson testified under oath that he was familiar with the lethal-injection protocol, had overseen four executions, supervised the execution process, and had not been involved in discussions about contingency plans such as placement of a central line for Pike. The transcript also shows the State objecting that expert testimony concerning post-execution resuscitation was irrelevant to the hearing. This does not substitute for TDOC's written response to Request for Admission No. 7, which has not yet been located.
+
+### Tennessee Supreme Court — substantive ruling on resuscitation claim
+
+**Order denying stay — 2026-09-23**  
+https://wpln.org/wp-content/uploads/sites/7/2026/09/Pike-execution-stay-denial-Tennessee-Supreme-Court-092326.pdf
+
+Key relevance: the court expressly addressed Pike's claim that the lethal-injection protocol lacked a resuscitation provision. The court held that Pike was unlikely to succeed on that claim and cited Tennessee precedent for the proposition that the State is under no obligation to attempt revival after an execution attempt. This confirms that the post-failure/resuscitation issue was squarely litigated before the failed execution, even though TDOC's written discovery response to Request for Admission No. 7 has not been located.
