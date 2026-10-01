@@ -68,3 +68,10 @@ https://tennesseelookout.com/2026/10/01/tennessee-governor-orders-third-party-re
 5. Commentary
 
 Claims in the audit should be phrased according to the strongest available source, not the most dramatic account.
+
+### Evidentiary hearing transcript — 2026-08-11
+
+**Appendix B — Evidentiary Hearing Transcripts, U.S. Supreme Court docket 26-5696**  
+https://www.supremecourt.gov/DocketPDF/26/26-5696/425730/20260925185931216_5.%20Appendix%20B%20-%20Evid%20Hrg%20Transcripts.pdf
+
+Key relevance: Riverbend Maximum Security Institution Warden Kenneth Nelson testified under oath that he was familiar with the lethal-injection protocol, had overseen four executions, supervised the execution process, and had not been involved in discussions about contingency plans such as placement of a central line for Pike. The transcript also shows the State objecting that expert testimony concerning post-execution resuscitation was irrelevant to the hearing. This does not substitute for TDOC's written response to Request for Admission No. 7, which has not yet been located.
