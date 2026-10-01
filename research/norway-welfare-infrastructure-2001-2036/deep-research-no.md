@@ -187,6 +187,34 @@ Med den modellerte statlige kapitalandelen på 55 % blir gjennomsnittlig direkte
 
 Dette er størrelsessammenligninger, ikke prognoser. Faktisk makroeffekt avhenger av tempo, fradrag for eksisterende investeringer, budsjettmessige omprioriteringer, finansieringsmiks, arbeidskraft, byggekapasitet, inflasjon og typen utgifter.
 
+## 12B. Sparing mot offentlig realkapital
+
+En egen stresstest handler om alternativkostnaden ved å bruke penger.
+
+Et nylig offentlig argument fra finansminister Jens Stoltenberg er at oljeinntekter Norge valgte å spare framfor å bruke på 1990-tallet har vokst betydelig gjennom avkastning i fondet.
+
+Det er et viktig økonomisk poeng: bruker man kapital i dag, gir man avkall på framtidig finansiell avkastning.
+
+Men for offentlig infrastruktur blir sammenligningen ufullstendig dersom alternativ bruk behandles som om den skaper null varig verdi.
+
+Den relevante sammenligningen er:
+
+> **spare kapital → finansiell eiendel + framtidig avkastning**
+
+mot
+
+> **investere i nødvendig offentlig realkapital → fysisk verdi + unngått forfall + mulig lavere drift + tjenesteverdi − tapt finansiell avkastning**
+
+Auditen antar derfor verken at sparing er passiv eller at offentlig investering automatisk er bedre.
+
+Store prosjekter bør i stedet få en eksplisitt **Cost of Delay**-beregning som inkluderer dagens rehabiliteringskostnad, forventet framtidig kostnad ved utsettelse, sekundærskader, levetidsforlengelse, driftskostnader, tjenesteavbrudd, alternativ finansiell avkastning og kapasitetsforhold.
+
+Spørsmålet blir dermed ikke bare «spare eller bruke?», men:
+
+> **Hvilken bruk av kapital gir den sterkeste langsiktige offentlige balansen?**
+
+Se [opportunity-cost-stress-test.md](opportunity-cost-stress-test.md).
+
 ## 13. Stresstester
 
 Programmet er testet mot:
