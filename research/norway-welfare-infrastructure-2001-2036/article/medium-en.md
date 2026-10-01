@@ -80,7 +80,7 @@ But the basic economics of deferred maintenance are hard to escape: saving money
 
 Norway's PISA 2025 results were weak.
 
-Norwegian students scored below the OECD average in reading, mathematics and science. The share of students below proficiency level 2 also rose sharply compared with 2015. Udir reports 38% below level 2 in mathematics, 34% in reading and 29% in science. citeturn589706search5
+Norwegian students scored below the OECD average in reading, mathematics and science. The share of students below proficiency level 2 also rose sharply compared with 2015. Udir reports 38% below level 2 in mathematics, 34% in reading and 29% in science. ([Udir, PISA 2025](https://www.udir.no/tall-og-forskning/finn-forskning/rapporter/2026/pisa-2025-kompetanse-naturfag-lesing-matematikk/))
 
 But that does not mean poor school buildings caused the decline.
 
@@ -146,7 +146,7 @@ That final number is still unresolved.
 
 ## Is the programme macroeconomically plausible?
 
-The Revised National Budget 2026 estimates structural non-oil spending at about **NOK 579 billion**, equal to **12.6% of trend mainland GDP** and **2.7% of the Government Pension Fund Global**. citeturn589706search0
+The Revised National Budget 2026 estimates structural non-oil spending at about **NOK 579 billion**, equal to **12.6% of trend mainland GDP** and **2.7% of the Government Pension Fund Global**. ([Ministry of Finance, Revised National Budget 2026](https://www.regjeringen.no/en/whats-new/key-figures-in-the-revised-national-budget-2026/id3158931/))
 
 If a NOK 250 billion programme were spread evenly over ten years, the arithmetic average would be:
 
@@ -264,3 +264,12 @@ That may be the most important finding in the entire audit.
 https://github.com/npccryptodude-hash/npcsignals/tree/main/research/norway-welfare-infrastructure-2001-2036
 
 **NPCsignals methodology:** evidence over velocity, explicit uncertainty, contradiction checks and open ledgers.
+
+
+## Medium topics
+
+- Norway
+- Public Policy
+- Infrastructure
+- Economics
+- Research
