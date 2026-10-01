@@ -62,3 +62,5 @@ Programme logic:
 **MODELLED** — scenario or planning assumption.  
 **UNRESOLVED** — insufficient evidence to close the question.  
 **CONTRADICTED / NOT ESTABLISHED** — evidence conflicts with the claim or causality has not been shown.
+
+- [opportunity-cost-stress-test.md](opportunity-cost-stress-test.md)
