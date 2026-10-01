@@ -16,3 +16,4 @@ TEP-014,"IV infiltration or IV failure caused the unsuccessful execution.",UNRES
 TEP-015,"Drug preparation or potency caused the unsuccessful execution.",UNRESOLVED,None,"Pending investigation","Hypothesis only."
 TEP-016,"An unusual physiological response caused the unsuccessful execution.",UNRESOLVED,None,"Pending investigation","Hypothesis only."
 TEP-017,"Pentobarbital itself was pharmacologically ineffective.",NOT ESTABLISHED,None,"No sufficient evidence","Do not claim."
+TEP-018,"Before the execution, the Tennessee Supreme Court decision expressly identified Pike's challenge that the protocol did not provide medical care or resuscitation in the event of a failed execution.",CONFIRMED,Court decision,"Tennessee Supreme Court stay denial 2026-09-23","Confirms the issue was litigated before 2026-09-30; does not itself establish the merits of Pike's constitutional claim."
