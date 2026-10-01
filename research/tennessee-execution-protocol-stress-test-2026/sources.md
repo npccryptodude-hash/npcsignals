@@ -18,6 +18,13 @@ https://files.deathpenaltyinfo.org/documents/Secrecy-protocols-and-regulations/T
 
 Key relevance: Primary Set A, Backup Set B, drug quantities and decision sequence.
 
+### Tennessee Supreme Court — Pike stay decision
+
+**Order denying stay — 2026-09-23 (court document mirror)**  
+https://wpln.org/wp-content/uploads/sites/7/2026/09/Pike-execution-stay-denial-Tennessee-Supreme-Court-092326.pdf
+
+Key relevance: the court's decision expressly identifies Pike's facial challenge alleging that the protocol did not provide medical care or resuscitation in the event of a failed execution. This confirms that the issue was before the courts before 2026-09-30.
+
 ### U.S. Supreme Court — Pike litigation
 
 **Docket 26-5696, Christa Gail Pike v. Tennessee**  
