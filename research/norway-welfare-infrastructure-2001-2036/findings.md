@@ -58,6 +58,20 @@ This is why NOK 250 billion is retained as a ceiling near the lower end of the f
 
 See [model-derivation-and-macro-scale.md](model-derivation-and-macro-scale.md).
 
+## Finding 6A — Saving has an opportunity cost, but so can delay
+
+**Status: SUPPORTED AS A DECISION FRAMEWORK**
+
+The opportunity cost of spending is real: capital used today gives up future financial returns.
+
+For necessary infrastructure, however, delay can also carry a compounding cost through higher future rehabilitation expense, secondary damage, shorter useful life, higher operating costs and service disruption.
+
+The correct comparison is therefore not “save versus spend”, but:
+
+> **financial compounding versus technical compounding**
+
+Major projects should include an explicit **Cost of Delay** assessment alongside foregone financial return.
+
 ## Finding 7 — Preservation is as important as restoration
 
 **Status: STRONG PROGRAMME REQUIREMENT**
