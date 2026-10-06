@@ -26,7 +26,7 @@ No figure has been regenerated or substituted. The assets remain the received or
 
 ## Packaging changes
 
-README now supplies working relative navigation and the FACv mint. Stale “figures not rendered” packaging language has been corrected. SOURCE_INTEGRITY.json is refreshed only for packaging changes/additions; original hashes remain in SOURCE_INTEGRITY_UPLOADED.json. Public-link Medium copy changes link markup only, once the GitHub evidence path is available.
+README now supplies working relative navigation and the FACv mint. Stale “figures not rendered” packaging language has been corrected. SOURCE_INTEGRITY.json is refreshed only for packaging changes/additions; original hashes remain in SOURCE_INTEGRITY_UPLOADED.json. MEDIUM_READY_PUBLIC_LINKS.md uses commit-pinned GitHub evidence links. Removing only inserted link markup reproduces MEDIUM_READY.md. The repository path is research/zyrox-investigation in npccryptodude-hash/npcsignals.
 
 ## Before Medium publication
 

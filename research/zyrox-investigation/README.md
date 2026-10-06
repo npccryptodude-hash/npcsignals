@@ -18,7 +18,7 @@ This repository documents the FACv/ZYROX launch, case-related sales, control sig
 - [Promises vs observed facts](report/PROMISES_VS_FACTS.md)
 - [Figures](figures/) and [specifications](figures/FIGURE_SPECIFICATIONS.md)
 - [Data](data/), including [cumulative sale receipts](data/figure_3_cumulative_proceeds.csv)
-- [Medium handoff](report/MEDIUM_READY.md) and [publication plan](PUBLICATION_PLAN.md)
+- [Medium handoff](report/MEDIUM_READY.md) and [public evidence-link edition](report/MEDIUM_READY_PUBLIC_LINKS.md) and [publication plan](PUBLICATION_PLAN.md)
 - [Package manifest](PACKAGE_MANIFEST.md) and [source integrity](SOURCE_INTEGRITY.json)
 
 ## Evidence standards

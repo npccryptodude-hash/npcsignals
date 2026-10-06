@@ -12,7 +12,7 @@
 - [x] Medium article formatting copy and inline tx links prepared.
 - [x] Evidence appendix / repository layout and README prepared.
 - [ ] Correct the included figure exports per REPOSITORY_QA.md and inspect at mobile width.
-- [ ] Establish durable public repository/web evidence URLs, then replace internal section references with stable links where appropriate.
+- [x] Public evidence path established in npccryptodude-hash/npcsignals/research/zyrox-investigation. MEDIUM_READY_PUBLIC_LINKS.md uses commit-pinned GitHub links; visible article wording is unchanged.
 - [ ] If needed at publication, confirm that prepared explorer links resolve; no new page availability testing was done here.
 - [ ] Paste the article into Medium and inspect headings, images, captions and tables in mobile preview. Markdown is a handoff format, not a guarantee of Medium paste rendering.
 - [ ] Separate the internal forensic verification appendix from the published article.

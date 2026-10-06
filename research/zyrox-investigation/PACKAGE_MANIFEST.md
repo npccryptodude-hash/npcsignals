@@ -28,5 +28,6 @@ Evidence repository preparation; see REPOSITORY_QA.md for publication blockers.
 - `figures/figure_5_where_money_can_be_documented.png`
 - `figures/figure_5_where_money_can_be_documented.svg`
 - `report/MEDIUM_READY.md`
+- `report/MEDIUM_READY_PUBLIC_LINKS.md`
 - `report/PROMISES_VS_FACTS.md`
 - `report/ZYROX_Main_Report_v1_1_Verified.md`
