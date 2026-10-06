@@ -1,0 +1,109 @@
+{
+  "package": "NPCsignals ZYROX publication package",
+  "evidence_basis": "ZYROX technical report v0.114 / U453",
+  "locked_main_text": "ZYROX_Main_Report_v1_1_Verified.md",
+  "generated_on": "2026-10-06",
+  "notes": [
+    "No new research is introduced by this package.",
+    "Figure 1-5 files are deterministic publication renderings based on frozen evidence/specifications.",
+    "Explorer URLs are signature-derived links and are not represented here as independently archived explorer captures."
+  ],
+  "files": {
+    "PUBLICATION_PLAN.md": {
+      "sha256": "c5dc63ecc476d17c86c36af66f04a514409be935c457cad04874d2c431853564",
+      "bytes": 6488
+    },
+    "README.md": {
+      "sha256": "f9778d8993b99c2a557231e4b9edf6d48acc5cf06b85b77480b7124846cc520c",
+      "bytes": 2757
+    },
+    "data/figure_3_cumulative_proceeds.csv": {
+      "sha256": "962b5be1f701e6e42e9d2946ccc1062bbec65891b8146932387309d84b34a096",
+      "bytes": 5407
+    },
+    "data/frozen_35_sale_manifest.csv": {
+      "sha256": "61b67a02a9652e6db53ab10164e2de9726cb990afdc4badec00844364387bb57",
+      "bytes": 8456
+    },
+    "data/publication_transaction_links.csv": {
+      "sha256": "2566fdfbcc6e19c88bacfa0bfa97dc8ad8ab256d93a361a0054f6a3399f31ac1",
+      "bytes": 2583
+    },
+    "evidence/TRANSACTION_LINKS.md": {
+      "sha256": "de60b2febdf9c2d6d1952e2767d1ada28a4b3a39d535ef317361681b96a59fed",
+      "bytes": 3209
+    },
+    "evidence/ZYROX_Devsold_verification_v0_2.md": {
+      "sha256": "9c569229f4a5fa7a6cc37e0c674e32b3c94ad5aee5538a72727d5d143c426760",
+      "bytes": 1548495
+    },
+    "evidence/claims/CAPTIONS.md": {
+      "sha256": "44974efc2ea23cd68030d9abc2d2eadbbd01061804cc27a95f208ad0f46b0eaa",
+      "bytes": 906
+    },
+    "evidence/claims/IMG_4204.jpeg": {
+      "sha256": "9ce769d40c5d13f17147cb7a6ea5c44e800b410cb0a46fa72784979ab6d4017b",
+      "bytes": 276481
+    },
+    "evidence/claims/IMG_4205.jpeg": {
+      "sha256": "7b68659a160d60228001b60cf987fcc6adeabbaf623f0281e5eac2a0051a93bd",
+      "bytes": 387601
+    },
+    "figures/FIGURE_SPECIFICATIONS.md": {
+      "sha256": "ae04abae2fbbc7ff514238a5ac9dcdb0397139b11adc4ca51fdd3a20964490f8",
+      "bytes": 6600
+    },
+    "figures/figure_1_first_60_seconds.png": {
+      "sha256": "995c2f9f620412cf75efb50143adb1948431d3584963508b755db4540147c4c7",
+      "bytes": 381534
+    },
+    "figures/figure_1_first_60_seconds.svg": {
+      "sha256": "d36bbc4d23ea2b2a627ece50b021a502c6b9a84fe0f8f627dabf27b6fd14bb54",
+      "bytes": 129094
+    },
+    "figures/figure_2_consolidation_control.png": {
+      "sha256": "92e1ed23bd1a2c7d40724ef9da83d32fea3eba3a4a6c2e123e4c9e57cbef5532",
+      "bytes": 541599
+    },
+    "figures/figure_2_consolidation_control.svg": {
+      "sha256": "9893d0075377f2240638cbfaae70e081f911955cc406e00678d8daa9b0aa611c",
+      "bytes": 195177
+    },
+    "figures/figure_3_cumulative_proceeds.png": {
+      "sha256": "391095c1188e55e3ffc4dd0648003866fdbcaa8266bba96e39aef662a7de8138",
+      "bytes": 228929
+    },
+    "figures/figure_3_cumulative_proceeds.svg": {
+      "sha256": "ba1f96cbefcaa13d5a7cd200ef76ea894824a3d8bb80e13baf8f73eb6e742264",
+      "bytes": 101978
+    },
+    "figures/figure_4_market_value_vs_target.png": {
+      "sha256": "a642cd78d61b6a167716111438bda8c5ecdf0bea44aaa382b8265690562d3982",
+      "bytes": 472857
+    },
+    "figures/figure_4_market_value_vs_target.svg": {
+      "sha256": "e39506354f2c317050df5f5c0124d46b2b9936b7edbf09fb00283422b51996aa",
+      "bytes": 197030
+    },
+    "figures/figure_5_where_money_can_be_documented.png": {
+      "sha256": "90cdaa962dc04a11e86117fc669f49c44f3051004393038e2277facd3d06a370",
+      "bytes": 508772
+    },
+    "figures/figure_5_where_money_can_be_documented.svg": {
+      "sha256": "d451becb8304703768f3e3e393274bb650e2147cb40626130be85e40b7771a37",
+      "bytes": 189886
+    },
+    "report/MEDIUM_READY.md": {
+      "sha256": "333f36102a1cdeaea9f07de7007650e5e884b133a543fc521b6365b2fca27038",
+      "bytes": 29694
+    },
+    "report/PROMISES_VS_FACTS.md": {
+      "sha256": "16a61d40ea5ebfb585dc1fd7c4ecdaf6dd8697405572ee092dec8931878f6473",
+      "bytes": 2513
+    },
+    "report/ZYROX_Main_Report_v1_1_Verified.md": {
+      "sha256": "59d84000a3ec87ec834a024d8bd925b15dfa672332a7f054826379289ddf2186",
+      "bytes": 40980
+    }
+  }
+}
