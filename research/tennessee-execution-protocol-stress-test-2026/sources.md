@@ -1,6 +1,6 @@
 # Sources
 
-**Freeze:** 2026-10-01
+**Freeze:** 2026-10-07
 
 ## Primary sources
 
@@ -82,3 +82,45 @@ Key relevance: Riverbend Maximum Security Institution Warden Kenneth Nelson test
 https://wpln.org/wp-content/uploads/sites/7/2026/09/Pike-execution-stay-denial-Tennessee-Supreme-Court-092326.pdf
 
 Key relevance: the court expressly addressed Pike's claim that the lethal-injection protocol lacked a resuscitation provision. The court held that Pike was unlikely to succeed on that claim and cited Tennessee precedent for the proposition that the State is under no obligation to attempt revival after an execution attempt. This confirms that the post-failure/resuscitation issue was squarely litigated before the failed execution, even though TDOC's written discovery response to Request for Admission No. 7 has not been located.
+
+## Update sources — 2026-10-07
+
+### Associated Press — recovery and medical hypotheses
+
+**Christa Pike is angry and confused after surviving execution attempt, attorney says**  
+https://apnews.com/article/bb47b2ff362d989f642d9f498413aed9
+
+Key relevance: attorney-reported return of consciousness, current complications, evidence-preservation litigation, and ongoing uncertainty.
+
+**Christa Pike survived 2 doses of an execution drug. How is that possible?**  
+https://apnews.com/article/a91e8c3959e8e456c859cef94605de22
+
+Key relevance: expert hypotheses regarding IV placement/drug delivery; does not establish causation.
+
+### Tennessee Lookout — preservation order
+
+**Nashville court rules state must preserve all records from botched Tennessee execution — 2026-10-07**  
+https://tennesseelookout.com/2026/10/07/nashville-court-rules-state-must-preserve-all-records-from-botched-tennessee-execution/
+
+Key relevance: Davidson County Chancery Court preservation order; attorney-reported medical update; Ed Stanton identified as review lead.
+
+### Associated Press — leadership change
+
+**Tennessee's prisons chief is resigning after failed execution of Christa Pike — 2026-10-03**  
+https://apnews.com/article/456e4c5e3e203be44744bcf839c11d4f
+
+Key relevance: Commissioner Frank Strada resignation and independent-review leadership.
+
+### Tennessee Lookout — legislative response
+
+**Tenn. Republicans: Legislature to investigate other execution methods after failed lethal injections — 2026-10-07**  
+https://tennesseelookout.com/2026/10/07/tenn-republicans-legislature-to-investigate-other-execution-methods-after-failed-lethal-injections/
+
+Key relevance: announced legislative review of lethal-injection reliability and possible alternative methods.
+
+### Associated Press — interstate legal spillover
+
+**Lawyers seek to block Texas man's execution, citing failed execution of Christa Pike — 2026-10-07**  
+https://apnews.com/article/feb0077b1cbf42e2fd49464da30fcb33
+
+Key relevance: Pike's failed execution cited in Texas stay litigation; request denied by Texas Court of Criminal Appeals.
