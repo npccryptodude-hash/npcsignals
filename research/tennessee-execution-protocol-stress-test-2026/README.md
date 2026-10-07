@@ -1,7 +1,7 @@
 # Tennessee Execution Protocol Stress Test — Christa Pike (2026)
 
 **Status:** DRAFT  
-**Freeze:** 2026-10-01  
+**Freeze:** 2026-10-07  
 **Scope:** Tennessee's published lethal-injection protocol, the failed execution attempt of Christa Pike on 2026-09-30, and the protocol endpoint reached after the backup procedure was used.
 
 ## Research question
@@ -18,6 +18,16 @@ The strongest documented system-level finding is therefore narrow:
 
 This does **not** establish why the execution failed.
 
+## Update — 2026-10-07
+
+Pike's attorneys report that she regained consciousness on 2026-10-06 and was speaking, though she remained hospitalized with serious complications including a blood clot, pneumonia, and severe swelling in her arms and hands. These medical details are currently attorney-reported and should not be treated as independent hospital records.
+
+A Davidson County Chancery judge ordered Tennessee officials to preserve all evidence related to the failed execution. The State told the court it had already planned to preserve the evidence and would work with Pike's attorneys.
+
+Former U.S. Attorney Ed Stanton has been named to lead the independent review. Tennessee Department of Correction Commissioner Frank Strada is resigning this month. Republican legislative leaders have also said they will examine lethal-injection reliability and alternative execution methods in the next legislative session.
+
+AP reporting now identifies improperly placed IV lines as a leading expert hypothesis, but the causal mechanism remains **UNRESOLVED** pending primary evidence and the independent review.
+
 ## Classification
 
 - **CONFIRMED:** Tennessee used a single-drug pentobarbital protocol.
@@ -28,7 +38,8 @@ This does **not** establish why the execution failed.
 - **CONFIRMED:** Pike was transported to an off-site medical facility.
 - **UNRESOLVED:** Why the drug procedure failed.
 - **UNRESOLVED:** Whether the full intended dose reached systemic circulation as intended.
-- **UNRESOLVED:** Whether IV access, drug preparation, administration, physiology, or another factor explains the outcome.
+- **SUPPORTED / NOT CONFIRMED:** IV placement or drug delivery failure is now a leading expert hypothesis reported by AP.
+- **UNRESOLVED:** Whether IV access, drug preparation, administration, physiology, or another factor ultimately explains the outcome.
 - **NOT ESTABLISHED:** That pentobarbital itself was ineffective.
 
 ## Important distinction
