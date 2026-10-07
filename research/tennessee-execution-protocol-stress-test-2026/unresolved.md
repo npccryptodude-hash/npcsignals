@@ -1,6 +1,6 @@
 # Unresolved Questions
 
-**Freeze:** 2026-10-01  
+**Freeze:** 2026-10-07  
 **Status:** OPEN
 
 The following questions should remain unresolved until official records, medical evidence or the third-party review provide support.
@@ -60,3 +60,21 @@ Absence of evidence is not filled with mechanism speculation.
 A targeted search of the U.S. Supreme Court docket, Pike's appendices, indexed court filings, and contemporary reporting located **Pike's Request for Admission No. 7**, but did **not** locate TDOC's signed written response to that request. Until the response itself is found, the audit must not describe the request as admitted by Tennessee.
 
 Additional evidence located during the search: the August 11, 2026 evidentiary-hearing transcript contains sworn testimony from Riverbend Warden Kenneth Nelson that he had not been involved in discussions about contingency plans such as a central line for Pike. The same hearing reflects the State's position that post-execution resuscitation testimony was irrelevant to the matters then being heard. These facts strengthen the pre-execution notice/contingency record but do not answer Request for Admission No. 7.
+
+## Update — 2026-10-07
+
+New reporting makes **IV placement / drug delivery failure** a stronger hypothesis than it was at the 2026-10-01 freeze. AP reports that medical experts see improper IV placement as a plausible explanation for survival and for reported injuries to Pike's arms. This remains **SUPPORTED**, not CONFIRMED.
+
+New unresolved questions:
+
+27. What do the preserved IV materials, tubing, syringes, drug remnants, video, photographs and execution-room records show?
+28. Will the court preservation order produce records that clarify IV placement and patency?
+29. Will hospital records document extravasation, tissue injury, pentobarbital levels or another delivery failure?
+30. What did the independent review led by Ed Stanton conclude about drug delivery, staffing, supervision and protocol design?
+31. Will Pike's current medical records become available through litigation or review?
+32. Will Tennessee revise or replace lethal injection before executions resume?
+33. What legal effect, if any, will Pike's survival have on any future attempt to carry out her death sentence?
+
+### Evidentiary caution
+
+Attorney statements that Pike had been considered brain dead before awakening are significant but are not independently verified here through hospital records. The audit should attribute that claim to counsel unless primary medical documentation becomes available.
