@@ -1,6 +1,6 @@
 # Timeline
 
-**Freeze:** 2026-10-01  
+**Freeze:** 2026-10-07  
 **Status:** DRAFT
 
 ## 2024–2025
@@ -38,6 +38,25 @@ At **11:15 p.m.**, TDOC issued a media advisory stating that it had followed eve
 ## 2026-10-01
 
 Governor Bill Lee ordered a comprehensive third-party review and halted remaining Tennessee executions for the rest of 2026.
+
+
+## 2026-10-03
+
+Gov. Bill Lee announced that TDOC Commissioner Frank Strada would resign this month. Former U.S. Attorney Ed Stanton was named to lead the independent review.
+
+## 2026-10-06
+
+According to Pike's attorneys, she regained consciousness and began speaking after several days in critical condition.
+
+## 2026-10-07
+
+Pike's attorneys said she was awake but confused and angry, and reported a blood clot, pneumonia, and severe swelling in her arms and hands.
+
+A Davidson County Chancery judge ordered Tennessee officials to preserve all evidence related to the failed execution. The Tennessee Attorney General's Office told the court the State was already planning to preserve the evidence and would work with Pike's attorneys.
+
+Republican leaders in the Tennessee General Assembly said they intend to investigate the reliability of lethal injection and consider alternative execution methods during the next legislative session.
+
+In Texas, attorneys for death-row prisoner Jamaal Howard cited Pike's failed pentobarbital execution in seeking a stay. The Texas Court of Criminal Appeals rejected the request.
 
 ## Timeline limitations
 
