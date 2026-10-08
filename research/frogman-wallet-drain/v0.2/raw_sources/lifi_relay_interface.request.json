@@ -1,0 +1,8 @@
+{
+  "url": "https://raw.githubusercontent.com/lifinance/contracts/main/src/Interfaces/IRelayDepository.sol",
+  "requested_at_UTC": "2026-10-08T07:06:42.302945+00:00",
+  "method": "GET",
+  "request": null,
+  "HTTP_status": 200,
+  "response_file": "lifi_relay_interface.response.json"
+}

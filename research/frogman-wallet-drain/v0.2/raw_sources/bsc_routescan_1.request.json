@@ -1,0 +1,8 @@
+{
+  "url": "https://api.routescan.io/v2/network/mainnet/evm/56/etherscan/api?module=account&action=txlist&address=0x427C4b37de0714821B09C4FC655a713AbbCfbA83&startblock=0&endblock=999999999&sort=asc",
+  "requested_at_UTC": "2026-10-08T07:08:49.360787+00:00",
+  "method": "GET",
+  "request": null,
+  "HTTP_status": 200,
+  "response_file": "bsc_routescan_1.response.json"
+}

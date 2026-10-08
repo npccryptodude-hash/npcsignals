@@ -1,0 +1,8 @@
+{
+  "url": "https://api.relay.link/requests/v2?hash=0x05aa98a030faf4e61ef1794b5adacb1ea5c35e499c26bb07cd1fc4fc776037e7&limit=20",
+  "requested_at_UTC": "2026-10-08T07:01:18.387341+00:00",
+  "method": "GET",
+  "request": null,
+  "HTTP_status": 200,
+  "response_file": "relay_request_sample.response.json"
+}

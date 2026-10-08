@@ -1,0 +1,8 @@
+{
+  "url": "https://api.relay.link/requests/v2?orderId=0x2c47553052b3b340a4de189d123121346e15dbbb77b5f121b35b2223010b1a2c&includeOrderData=true&limit=20",
+  "requested_at_UTC": "2026-10-08T07:07:33.807116+00:00",
+  "method": "GET",
+  "request": null,
+  "HTTP_status": 200,
+  "response_file": "relay_order_0x2c47553052b3b340a4de189d123121346e15dbbb77b5f121b35b2223010b1a2c.response.json"
+}

@@ -1,0 +1,7 @@
+{
+  "confirmed_pairs": 6,
+  "deposited_ETH": "212.499",
+  "received_USDC": "561850.214994",
+  "receiving_chain_id": 42161,
+  "notes": "Exact same protocol order ID appears in source deposit call/log and destination transfer calldata; API supplies independently reproduced fill hash. This verifies an order-level exchange, not identical coin continuity or common beneficial ownership."
+}

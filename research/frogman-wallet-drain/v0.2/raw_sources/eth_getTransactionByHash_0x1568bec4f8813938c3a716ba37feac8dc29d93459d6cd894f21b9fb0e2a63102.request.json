@@ -1,0 +1,15 @@
+{
+  "url": "https://ethereum-rpc.publicnode.com",
+  "requested_at_UTC": "2026-10-08T07:04:36.844585+00:00",
+  "method": "POST",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_getTransactionByHash",
+    "params": [
+      "0x1568bec4f8813938c3a716ba37feac8dc29d93459d6cd894f21b9fb0e2a63102"
+    ]
+  },
+  "HTTP_status": 200,
+  "response_file": "eth_getTransactionByHash_0x1568bec4f8813938c3a716ba37feac8dc29d93459d6cd894f21b9fb0e2a63102.response.json"
+}

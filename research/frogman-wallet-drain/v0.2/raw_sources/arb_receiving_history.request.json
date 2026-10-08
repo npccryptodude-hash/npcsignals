@@ -1,0 +1,7 @@
+{
+  "url": "https://arbitrum.blockscout.com/api/v2/addresses/0xd7efd720adf271b7173dd01a9b81668892bee6b1/token-transfers",
+  "requested_at_UTC": "2026-10-08T07:09:24.288172+00:00",
+  "method": "GET",
+  "request": null,
+  "error": "HTTP Error 403: Forbidden"
+}

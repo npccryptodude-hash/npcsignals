@@ -1,0 +1,15 @@
+{
+  "url": "https://eth.drpc.org",
+  "requested_at_UTC": "2026-10-08T07:09:48.761046+00:00",
+  "method": "POST",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "trace_transaction",
+    "params": [
+      "0xa7da5d044b2a34fd2105862dfed7b947254bd7ff12d7567e91be48d649f18d3c"
+    ]
+  },
+  "HTTP_status": 200,
+  "response_file": "relay_source_trace_0xa7da5d044b2a34fd2105862dfed7b947254bd7ff12d7567e91be48d649f18d3c.response.json"
+}

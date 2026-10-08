@@ -1,0 +1,22 @@
+{
+  "url": "https://rpc.mainnet.chain.robinhood.com",
+  "requested_at_UTC": "2026-10-08T07:10:21.638391+00:00",
+  "method": "POST",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_getLogs",
+    "params": [
+      {
+        "fromBlock": "0x0",
+        "toBlock": "latest",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x000000000000000000000000427c4b37de0714821b09c4fc655a713abbcfba83"
+        ]
+      }
+    ]
+  },
+  "HTTP_status": 200,
+  "response_file": "rh_all_transfer_logs_1.response.json"
+}
