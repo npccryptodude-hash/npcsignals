@@ -1,0 +1,19 @@
+{
+  "research_commit": "62cb1c1265fd81668d5cadd3c9b18118f3245273",
+  "inspected_starting_commit": "8543f9e964089612c0a1a3f52b26709e12f6f95b",
+  "incremental_checkpoint": "ac9e53e94bcf4cfe7e23ee8604c0056125dd4dfb",
+  "verification_method": "Public Git fetch and git show retrieval, byte comparison against local evidence, SHA256 index validation, frozen-path Git diff and ledger identifier continuity checks",
+  "retrieved_v0_2_package_files": 1496,
+  "index_entries_verified": 1495,
+  "supplement_files": 178,
+  "byte_mismatches": [],
+  "index_mismatches": [],
+  "SHA256SUMS_mismatches": [],
+  "frozen_v0_1_files_changed_since_starting_commit": [],
+  "timeline_records": 425,
+  "new_ledger_range": ["F0207", "F0425"],
+  "next_available_ledger_ID": "F0426",
+  "new_source_request_records": 76,
+  "commit_signature": "unsigned; content checks do not establish a cryptographic commit signature",
+  "scope": "Verification of saved evidence, not new identity, beneficiary, compromise-vector or recovery evidence. No article written."
+}
