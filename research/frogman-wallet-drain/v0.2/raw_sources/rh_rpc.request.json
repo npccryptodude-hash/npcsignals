@@ -1,0 +1,14 @@
+{
+  "requested_at_UTC": "2026-10-08T06:41:03.707332+00:00",
+  "url": "https://rpc.mainnet.chain.robinhood.com",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_getTransactionCount",
+    "params": [
+      "0x427C4b37de0714821B09C4FC655a713AbbCfbA83",
+      "latest"
+    ]
+  },
+  "error": "HTTP Error 403: Forbidden"
+}

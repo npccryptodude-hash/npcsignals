@@ -1,0 +1,14 @@
+{
+  "url": "https://bsc-dataseed.binance.org",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 4,
+    "method": "eth_getBalance",
+    "params": [
+      "0x427C4b37de0714821B09C4FC655a713AbbCfbA83",
+      "latest"
+    ]
+  },
+  "requested_at_UTC": "2026-10-08T06:43:23.523570+00:00",
+  "response_file": "bsc_balance_0x427C4b37de0714821B09C4FC655a713AbbCfbA83.response.json"
+}

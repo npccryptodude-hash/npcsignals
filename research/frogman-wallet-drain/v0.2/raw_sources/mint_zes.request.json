@@ -1,0 +1,18 @@
+{
+  "requested_at_UTC": "2026-10-08T06:40:58.890073+00:00",
+  "url": "https://api.mainnet-beta.solana.com",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "getAccountInfo",
+    "params": [
+      "ZesMGYmokFiEuDvNzWeMhB7jxF6eUW8c512vwSKSTNK",
+      {
+        "encoding": "jsonParsed",
+        "commitment": "finalized"
+      }
+    ]
+  },
+  "status": 200,
+  "response_file": "mint_zes.response.json"
+}

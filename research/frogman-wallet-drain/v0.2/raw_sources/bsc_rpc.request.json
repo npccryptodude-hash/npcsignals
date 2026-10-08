@@ -1,0 +1,15 @@
+{
+  "requested_at_UTC": "2026-10-08T06:41:04.094148+00:00",
+  "url": "https://bsc-dataseed.binance.org",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_getTransactionCount",
+    "params": [
+      "0x427C4b37de0714821B09C4FC655a713AbbCfbA83",
+      "latest"
+    ]
+  },
+  "status": 200,
+  "response_file": "bsc_rpc.response.json"
+}

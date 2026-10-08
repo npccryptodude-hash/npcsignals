@@ -1,0 +1,27 @@
+{
+  "wire_signature_count": 2,
+  "wire_header": [
+    2,
+    0,
+    6
+  ],
+  "static_account_count": 12,
+  "wire_signers": [
+    "Grr9WnZdcetQywtFXog81UhqmnJyvFhb4AT3ipw44mZP",
+    "69FnU8vszZSZF6DZCT6VHdsvm3DvvojDgbwqzHJ4cCFS"
+  ],
+  "wire_static_keys": [
+    "Grr9WnZdcetQywtFXog81UhqmnJyvFhb4AT3ipw44mZP",
+    "69FnU8vszZSZF6DZCT6VHdsvm3DvvojDgbwqzHJ4cCFS",
+    "4dbQGq7vUHdoRvF5g8mTu8eeah68M15PfX2MK1rhCAJL",
+    "8Ti6AMEkfZnFjKTa3kJw9mNsyjgKC5vwCxViqgViMj9S",
+    "Bukt1ztP1AetQPdfHKUjFp7cVJPFusCNi98bvZcL7Ug5",
+    "HMnB7bHSFLfo2k4GdGQ2c6inb6eLt3Wpx8SbXgzwnaU2",
+    "11111111111111111111111111111111",
+    "ComputeBudget111111111111111111111111111111",
+    "So11111111111111111111111111111111111111112",
+    "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "61DFfeTKM7trxYcPQCM78bJ794ddZprZpAwAnLiwTpYH",
+    "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "BP_gross_WSOL_receipts_SOL": "13060.251206492",
+  "BP_native_balance_increases_SOL": "13053.563922993",
+  "BP_network_fees_SOL": "0.000931486",
+  "BP_routing_deductions_SOL": "6.686352013",
+  "Zes_native_balance_increase_SOL": "122.212870496",
+  "USDC_RFQ_native_balance_increase_SOL": "64.925550449",
+  "initial_case_SOL_transfer": "0.293808325",
+  "third_party_native_SOL": "0.000001000",
+  "receiving_wallet_native_inflow_total_SOL": "13240.996153263",
+  "Privacy_Cash_deposits_SOL": "13240.9737809",
+  "deposit_network_fees_SOL": "0.002050",
+  "deposit_new_account_allocations_SOL": "0.01391920",
+  "final_incident_receipt_balance_SOL": "0.006403163",
+  "accounting_residual_SOL": "0E-9",
+  "third_party_USDC": "0.001200"
+}

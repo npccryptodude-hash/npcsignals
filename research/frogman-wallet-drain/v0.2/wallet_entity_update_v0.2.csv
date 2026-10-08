@@ -1,0 +1,4 @@
+address,chain,role,classification,control_evidence,identity,notes
+Grr9WnZdcetQywtFXog81UhqmnJyvFhb4AT3ipw44mZP,Solana,RFQ settlement counterparty; signer and fee payer,CONFIRMED,One transaction co-signed with H; inventory exchange reproduced,NOT ESTABLISHED,Registered market-maker identity not independently established; recent 1000-signature page did not reach incident.
+69FnU8vszZSZF6DZCT6VHdsvm3DvvojDgbwqzHJ4cCFS,Solana,case receiving wallet; RFQ taker and verified co-signer,CONFIRMED,Wire Ed25519 signature verifies; v0.1 parsed flag corrected,NOT ESTABLISHED,Operational pairing does not establish shared beneficial ownership.
+61DFfeTKM7trxYcPQCM78bJ794ddZprZpAwAnLiwTpYH,Solana,Jupiter order engine program,CONFIRMED,First-party mainnet ID plus incident invocation,"protocol, not human",Current source/interface matched; historic deployed build equivalence not verified.

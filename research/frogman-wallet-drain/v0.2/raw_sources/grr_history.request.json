@@ -1,0 +1,18 @@
+{
+  "requested_at_UTC": "2026-10-08T06:40:58.893915+00:00",
+  "url": "https://api.mainnet-beta.solana.com",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "getSignaturesForAddress",
+    "params": [
+      "Grr9WnZdcetQywtFXog81UhqmnJyvFhb4AT3ipw44mZP",
+      {
+        "limit": 1000,
+        "commitment": "finalized"
+      }
+    ]
+  },
+  "status": 200,
+  "response_file": "grr_history.response.json"
+}

@@ -1,0 +1,14 @@
+{
+  "url": "https://bsc-dataseed.binance.org",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_getTransactionCount",
+    "params": [
+      "0x14AA2A71dbb5eF87b81F92205E2699AA4aa65794",
+      "latest"
+    ]
+  },
+  "requested_at_UTC": "2026-10-08T06:43:04.044192+00:00",
+  "response_file": "bsc_nonce_0x14AA2A71dbb5eF87b81F92205E2699AA4aa65794.response.json"
+}

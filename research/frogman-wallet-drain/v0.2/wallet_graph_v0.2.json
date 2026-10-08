@@ -1,0 +1,33 @@
+{
+  "version": "v0.2",
+  "frozen_ledger": "F0001-F0102 unchanged",
+  "edges": [
+    {
+      "source": "69FnU8vszZSZF6DZCT6VHdsvm3DvvojDgbwqzHJ4cCFS",
+      "destination": "Grr9WnZdcetQywtFXog81UhqmnJyvFhb4AT3ipw44mZP",
+      "asset": "USDC",
+      "amount": "7859.975842",
+      "signature": "5fFLUqvsAJLEn1cPnypjzfKi8iioUYCnaCgR8QonKtE2U3xf6nk8RduhjURrjLP32yX1pzTT9vy9bXHXfQyNA87t",
+      "classification": "CONFIRMED",
+      "provenance": "mixed",
+      "relationship": "paired RFQ settlement; source instruction unchanged"
+    },
+    {
+      "source": "Grr9WnZdcetQywtFXog81UhqmnJyvFhb4AT3ipw44mZP",
+      "destination": "69FnU8vszZSZF6DZCT6VHdsvm3DvvojDgbwqzHJ4cCFS",
+      "asset": "SOL/WSOL",
+      "amount": "64.925550449",
+      "signature": "5fFLUqvsAJLEn1cPnypjzfKi8iioUYCnaCgR8QonKtE2U3xf6nk8RduhjURrjLP32yX1pzTT9vy9bXHXfQyNA87t",
+      "classification": "CONFIRMED",
+      "provenance": "deterministic paired exchange; output from existing counterparty inventory",
+      "relationship": "temporary WSOL account unwrap and native payment"
+    },
+    {
+      "source": "69FnU8vszZSZF6DZCT6VHdsvm3DvvojDgbwqzHJ4cCFS",
+      "destination": "Grr9WnZdcetQywtFXog81UhqmnJyvFhb4AT3ipw44mZP",
+      "signature": "5fFLUqvsAJLEn1cPnypjzfKi8iioUYCnaCgR8QonKtE2U3xf6nk8RduhjURrjLP32yX1pzTT9vy9bXHXfQyNA87t",
+      "classification": "CONFIRMED",
+      "relationship": "both keys cryptographically sign same execution; no shared human ownership established"
+    }
+  ]
+}

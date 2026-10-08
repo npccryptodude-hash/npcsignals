@@ -1,0 +1,11 @@
+{
+  "url": "https://eth.drpc.org",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_chainId",
+    "params": []
+  },
+  "requested_at_UTC": "2026-10-08T06:45:33.973953+00:00",
+  "error": "HTTP Error 403: Forbidden"
+}

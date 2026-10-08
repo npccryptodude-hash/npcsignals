@@ -1,0 +1,14 @@
+{
+  "url": "https://bsc-dataseed.binance.org",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 30,
+    "method": "eth_getBlockByNumber",
+    "params": [
+      "0x7847152",
+      false
+    ]
+  },
+  "requested_at_UTC": "2026-10-08T06:46:00.322598+00:00",
+  "response_file": "bsc_start_24.response.json"
+}

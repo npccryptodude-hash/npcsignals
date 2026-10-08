@@ -1,0 +1,11 @@
+{
+  "url": "https://rpc.ankr.com/eth",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_chainId",
+    "params": []
+  },
+  "requested_at_UTC": "2026-10-08T06:45:33.976470+00:00",
+  "response_file": "eth_ankr.response.json"
+}
