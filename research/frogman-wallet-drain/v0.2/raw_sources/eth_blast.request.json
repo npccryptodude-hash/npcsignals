@@ -1,0 +1,16 @@
+{
+  "url": "https://eth-mainnet.public.blastapi.io",
+  "requested_at_UTC": "2026-10-08T06:57:30.972526+00:00",
+  "method": "POST",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_getTransactionCount",
+    "params": [
+      "0x427C4b37de0714821B09C4FC655a713AbbCfbA83",
+      "latest"
+    ]
+  },
+  "HTTP_status": 200,
+  "response_file": "eth_blast.response.json"
+}

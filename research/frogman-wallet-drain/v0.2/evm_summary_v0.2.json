@@ -1,0 +1,9 @@
+{
+  "confirmed_outgoing_transactions": 15,
+  "ledger_ID_range": "F0113-F0127",
+  "outgoing_ETH": "362.262907164350756807",
+  "network_fees_ETH": "0.000910467051228",
+  "current_balance_ETH": "0.000113694482353",
+  "balance_snapshot_request_record": "raw_sources/eth_current_eth_getBalance.request.json",
+  "scope": "All 15 outgoing Ethereum nonces 0 through 14 reproduced; affected-wallet source and cross-chain destinations not yet reproduced."
+}

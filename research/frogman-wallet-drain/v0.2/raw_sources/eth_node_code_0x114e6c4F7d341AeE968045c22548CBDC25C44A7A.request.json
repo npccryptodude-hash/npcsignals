@@ -1,0 +1,16 @@
+{
+  "url": "https://ethereum-rpc.publicnode.com",
+  "requested_at_UTC": "2026-10-08T06:58:50.863326+00:00",
+  "method": "POST",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_getCode",
+    "params": [
+      "0x114e6c4F7d341AeE968045c22548CBDC25C44A7A",
+      "latest"
+    ]
+  },
+  "HTTP_status": 200,
+  "response_file": "eth_node_code_0x114e6c4F7d341AeE968045c22548CBDC25C44A7A.response.json"
+}

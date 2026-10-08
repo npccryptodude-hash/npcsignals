@@ -1,0 +1,22 @@
+{
+  "url": "https://bsc-dataseed.binance.org",
+  "requested_at_UTC": "2026-10-08T06:57:34.960782+00:00",
+  "method": "POST",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_getLogs",
+    "params": [
+      {
+        "fromBlock": "0x7847151",
+        "toBlock": "0x7847538",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x00000000000000000000000014aa2a71dbb5ef87b81f92205e2699aa4aa65794"
+        ]
+      }
+    ]
+  },
+  "HTTP_status": 200,
+  "response_file": "bsc_small_logs_0.response.json"
+}

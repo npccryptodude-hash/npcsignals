@@ -1,0 +1,8 @@
+{
+  "url": "https://api.relay.link/requests/v2?user=0x427C4b37de0714821B09C4FC655a713AbbCfbA83&limit=50",
+  "method": "GET",
+  "requested_at_UTC": null,
+  "response_file": "relay_v2_1.response.json",
+  "HTTP_status": 200,
+  "notes": "Successful initial response retained. Its initial request metadata was overwritten by a failed duplicate attempt before append-only collector was introduced; exact successful retrieval time is NOT ESTABLISHED. Failed attempt metadata is separately preserved."
+}

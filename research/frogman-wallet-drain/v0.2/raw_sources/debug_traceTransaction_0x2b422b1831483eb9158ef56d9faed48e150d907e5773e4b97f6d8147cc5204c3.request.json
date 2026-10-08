@@ -1,0 +1,18 @@
+{
+  "url": "https://ethereum-rpc.publicnode.com",
+  "requested_at_UTC": "2026-10-08T07:00:23.996309+00:00",
+  "method": "POST",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "debug_traceTransaction",
+    "params": [
+      "0x2b422b1831483eb9158ef56d9faed48e150d907e5773e4b97f6d8147cc5204c3",
+      {
+        "tracer": "callTracer"
+      }
+    ]
+  },
+  "HTTP_status": 200,
+  "response_file": "debug_traceTransaction_0x2b422b1831483eb9158ef56d9faed48e150d907e5773e4b97f6d8147cc5204c3.response.json"
+}

@@ -1,0 +1,8 @@
+{
+  "url": "https://eth.blockscout.com/api/v2/addresses/0x40763715B95AdD68342a982a8EC7859709b612bd/transactions",
+  "requested_at_UTC": "2026-10-08T06:58:56.998331+00:00",
+  "method": "GET",
+  "request": null,
+  "HTTP_status": 200,
+  "response_file": "eth_node_0x40763715B95AdD68342a982a8EC7859709b612bd.response.json"
+}
