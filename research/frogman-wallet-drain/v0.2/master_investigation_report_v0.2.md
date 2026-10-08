@@ -94,3 +94,15 @@ No matched Privacy Cash withdrawal, ultimate beneficiary, shared beneficial owne
 Publication readiness: suitable for a clearly scoped research checkpoint; not mature for a comprehensive incident article or identity/compromise attribution. No article has been written or published.
 
 Attention is not evidence. Visibility is not evidence of relevance. A transaction path is not proof of identity. A fund-flow reconstruction is not proof of compromise method.
+
+## Continuation from verified head 8543f9e — Arbitrum mixed-fund boundary
+
+The saved head was inspected before new research. It contained the above findings through F0206 and retrieval verification, not unfinished unsaved findings. See `continuation_2026_10_08/README.md` for the precise saved-state inspection and supplemental evidence inventory.
+
+CONFIRMED: the Arbitrum consolidation address `0x2df1c51e09aecf9cacb7bc98cb1742757f163df7` has deployed contract code. At block 512881298, timestamp 2026-10-08T12:31:48Z, its USDC balance was 393259622.336699. This is not an incident-only balance, recovery or identification of an exchange.
+
+F0207 reproduces an additional 51 USDC inflow at 2026-10-07T01:51:25Z. F0208 reproduces a 150395.42 USDC outflow at 2026-10-07T01:53:56Z. Successful transaction receipts, token events, matching block hashes and transaction inclusion independently confirm both context events. They are not counted as new incident losses. Exact hashes and authority distinctions are in `continuation_2026_10_08/transaction_ledger_F0207_F0208.csv`.
+
+Scoped USDC logs over blocks 512422000–512881298 reproduce substantial other inflows and outflows. Provenance at this contract is mixed. Assignment of any particular outflow to the six case-related deposits is NOT ESTABLISHED. No timing-only or accounting convention is substituted for deterministic linkage. Contract operator, permissions, exchange identity, full lifetime funding, ultimate beneficiary and compromise method remain UNRESOLVED. Historical opening balance was unavailable from the examined provider.
+
+The supplemental inventory and checksums are additive to the earlier saved v0.2 checkpoint inventory. Original v0.1 and original transaction/classification records are unchanged. The supplemental ledger extends unique IDs through F0208; no previous ledger entry is renumbered. Publication assessment remains a scoped research checkpoint, not a mature comprehensive article.

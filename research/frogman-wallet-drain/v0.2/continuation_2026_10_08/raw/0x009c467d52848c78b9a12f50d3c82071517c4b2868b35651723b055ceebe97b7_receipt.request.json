@@ -1,0 +1,15 @@
+{
+  "url": "https://arb1.arbitrum.io/rpc",
+  "requested_at_UTC": "2026-10-08T12:33:07.779980+00:00",
+  "method": "POST",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_getTransactionReceipt",
+    "params": [
+      "0x009c467d52848c78b9a12f50d3c82071517c4b2868b35651723b055ceebe97b7"
+    ]
+  },
+  "HTTP_status": 200,
+  "response_file": "0x009c467d52848c78b9a12f50d3c82071517c4b2868b35651723b055ceebe97b7_receipt.response.json"
+}

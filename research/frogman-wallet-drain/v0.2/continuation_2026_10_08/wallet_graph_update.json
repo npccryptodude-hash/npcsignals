@@ -1,0 +1,60 @@
+{
+  "nodes": [
+    {
+      "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+      "chain": 42161,
+      "role": "mixed-fund receiving contract",
+      "classification": "CONFIRMED",
+      "control_evidence": "NOT ESTABLISHED"
+    }
+  ],
+  "edges": [
+    {
+      "ID": "F0207",
+      "timestamp": "2026-10-07T01:51:25Z",
+      "chain": "Arbitrum (42161)",
+      "tx/signature": "0x4919141b0ae81c4abfc4ac8fd0674184086a647432a920cc24f7249e686984ce",
+      "source": "0x1c5e083e60fd0143eab8f162d49941e885beae8a",
+      "destination": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+      "asset": "USDC",
+      "amount": "51",
+      "USD value if available": "",
+      "action": "token transfer event",
+      "protocol": "UNRESOLVED",
+      "signer/authority if known": "0x1c5e083e60fd0143eab8f162d49941e885beae8a (transaction sender only)",
+      "provenance status": "mixed; no exclusive incident allocation to onward outflow",
+      "classification": "CONFIRMED",
+      "source_record": "raw/0x4919141b0ae81c4abfc4ac8fd0674184086a647432a920cc24f7249e686984ce_receipt.response.json",
+      "notes": "Context event, not an additional incident loss. Sender identity, common ownership and linkage to a particular Relay deposit are NOT ESTABLISHED.",
+      "token_contract": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+      "raw_token_units": "51000000",
+      "log_index": 0,
+      "block_number": 512422444,
+      "network_fee_ETH": "0.000000926415516"
+    },
+    {
+      "ID": "F0208",
+      "timestamp": "2026-10-07T01:53:56Z",
+      "chain": "Arbitrum (42161)",
+      "tx/signature": "0x5d0803e0bfa074fad49f000d7a8e387c6e20ec2ebbabcd336b412648b71db86a",
+      "source": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+      "destination": "0x023a3d058020fb76cca98f01b3c48c8938a22355",
+      "asset": "USDC",
+      "amount": "150395.42",
+      "USD value if available": "",
+      "action": "token transfer event",
+      "protocol": "UNRESOLVED",
+      "signer/authority if known": "0x58e1b0e63c905d5982324fcd9108582623b8132e (transaction sender only)",
+      "provenance status": "mixed; no exclusive incident allocation to onward outflow",
+      "classification": "CONFIRMED",
+      "source_record": "raw/0x5d0803e0bfa074fad49f000d7a8e387c6e20ec2ebbabcd336b412648b71db86a_receipt.response.json",
+      "notes": "Context event, not an additional incident loss. Sender identity, common ownership and linkage to a particular Relay deposit are NOT ESTABLISHED.",
+      "token_contract": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+      "raw_token_units": "150395420000",
+      "log_index": 3,
+      "block_number": 512423012,
+      "network_fee_ETH": "0.0000022638825"
+    }
+  ],
+  "boundary": "Case-specific exclusive allocation stops at collector; no particular onward event is matched to a case deposit."
+}
