@@ -1,0 +1,10 @@
+{
+  "commit": "ac9e53e94bcf4cfe7e23ee8604c0056125dd4dfb",
+  "parent": "8543f9e964089612c0a1a3f52b26709e12f6f95b",
+  "method": "Public Git fetch and git show byte comparison of every changed file against its local evidence bytes",
+  "changed_files_retrieved": 118,
+  "byte_mismatches": [],
+  "frozen_v0_1_paths_changed": [],
+  "commit_signature": "unsigned; content integrity verification is not cryptographic commit signature verification",
+  "scope": "Verification of the F0207–F0208 checkpoint. Later Hyperliquid account-ledger additions require their own post-commit verification."
+}

@@ -27,3 +27,25 @@ Scoped RPC log reproduction returned 4264 positive USDC events over blocks 51242
 Provenance is **mixed** at this contract. The specific association between a case deposit and any later outflow is NOT ESTABLISHED. No FIFO, timing-only, equal-amount or proportional allocation is applied. The opening balance query failed with historical state unavailable. Complete lifetime, other-token funding, contract permissions, exchange identity and ultimate beneficiary remain UNRESOLVED.
 
 `verify_collector.py` reproduces F0207–F0208 and scoped totals; `collector_summary.json` and `wallet_graph_update.json` preserve the boundary. `evidence_index.json` and `SHA256SUMS.txt` inventory this supplement only. Previously saved v0.2 indexes remain historical checkpoint inventories, not an assertion that later additions are absent. Partial receipt collection was stopped after the high-traffic scope became evident; its already retrieved records are retained but not promoted into new findings.
+
+## Hyperliquid account association and spot execution
+
+SUPPORTED protocol identification: first-party [USDC bridge documentation](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/usdc) identifies this exact contract as the legacy bridge. Historical deployed-bytecode/source equivalence and authority relationships were not audited. The earlier unresolved identification is advanced only on this newly retrieved primary documentation, not on address proximity.
+
+CONFIRMED first-party API observations: all six account-ledger deposit records have the exact Arbitrum deposit transaction hashes and amounts previously verified in F0190–F0195, totaling 561850.214994 USDC. These are deterministic deposit/account associations, not automatic physical-fund continuity. Six internal account-class transfers with `toPerp=false` total 561850.19 USDC. The 0.024994 difference remains UNRESOLVED and is not assigned to a fee or loss. Twelve account-ledger records are F0209–F0220.
+
+CONFIRMED first-party API observations: 205 spot buy fills, F0221–F0425, in market @260. Current first-party spot metadata maps it to XMR1 token index 404 against USDC index 0. Gross purchases total 998.65 XMR1. Fees total 0.699055 XMR1. Net holdings total 997.950945 XMR1. Exact USDC execution cost totals 561824.8582. Separately queried spot states reconcile each account's gross purchases minus token fees to its XMR1 holdings, and internal spot credit minus execution cost to the remaining spot USDC, totaling 25.3318. Every fill preserves hash, millisecond timestamp, price, size, order ID, trade ID, client order ID and fee token/amount. Multiple fills sharing a hash are distinct trade records, not additional bridge transfers.
+
+These classifications are confined to reproduced first-party API records and arithmetic. Independent HyperCore consensus inclusion, transaction signatures, beneficial ownership and complete lifetime funding are NOT ESTABLISHED. Query endTime 1791464400000 is a requested upper bound; retrieval timestamps in the source records are the actual observation cutoffs. No future-period completeness is implied. Returned fill counts per account are below 2000, but this is not a proof of lifetime history completeness.
+
+**XMR1 is not a native Monero receipt.** No redemption, native-chain output, external withdrawal or beneficiary is established. It remains an observable Hyperliquid spot token/account endpoint in this examination. The unrelated F0208 bridge outflow is not a matched case payout.
+
+Primary sources are preserved as `raw/hl_bridge_docs.response.json`, `raw/hl_info_docs.response.json`, `raw/hl_spot_meta.response.json` and six account-specific responses per query type. The documentation files contain their original retrieved Markdown bytes despite the response filename suffix. `verify_hyperliquid.py` and `verify_spot_fills.py` reproduce the new account record checks. `audit_csv.mjs` performed read-only CSV import and identifier checks without altering source values or exporting a workbook.
+
+The continuation includes a combined chronological JSON timeline through F0425, wallet/entity and graph updates, source inventory and supplemental SHA256 checksums. F0001–F0206 retain their saved values and classifications. Do not sum transfers, credits and executions as separate incident losses.
+
+## Negative findings and next priorities
+
+Robinhood Chain `trace_transaction` and `debug_traceTransaction` for the first CASHCAT sale returned method unavailable. No native unwrap recipient or Robinhood-to-Ethereum bridge match is promoted on these failures.
+
+Highest priorities: independently match Robinhood deposits to Ethereum Across/Relay credits; establish XMR1 issuance/redemption mechanics and any actual subsequent account movement; finish Chainflip, Across, Mayan and NEAR destination verification. No new public recovery/freeze or compromise-vector review was completed in this continuation. No recovery, beneficiary or attack vector is established. This checkpoint is publishable as scoped research, not mature for a comprehensive incident article.

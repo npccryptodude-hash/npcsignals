@@ -1,0 +1,136 @@
+[
+  {
+    "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+    "chain": "Arbitrum (42161)",
+    "role": "Hyperliquid legacy USDC bridge (first-party documentation); mixed custody",
+    "classification": "SUPPORTED",
+    "control_evidence": "NOT ESTABLISHED: no historical bytecode/source or operator/permission audit",
+    "notes": "Six case transfers and matching first-party deposit credits reproduced. Arbitrary bridge outflows are not linked to particular case deposits."
+  },
+  {
+    "address": "0xd7efd720adf271b7173dd01a9b81668892bee6b1",
+    "chain": "Hyperliquid account ledger",
+    "role": "Account with exact-hash matched deposit, internal spot transfer and reproduced buy fills",
+    "classification": "CONFIRMED",
+    "funding_source": "Previously reproduced Arbitrum transfer and first-party deposit credit",
+    "outflows": "Internal account transfer and spot executions; external withdrawal NOT ESTABLISHED",
+    "known_protocol_interaction": "Hyperliquid @260 spot market, XMR1/USDC current metadata",
+    "control_evidence": "NOT ESTABLISHED: API account attribution is not signer or beneficial-owner proof",
+    "notes": {
+      "address": "0xd7efd720adf271b7173dd01a9b81668892bee6b1",
+      "fill_count": 13,
+      "gross_XMR1": "179.35",
+      "fees_XMR1": "0.125545",
+      "net_XMR1": "179.224455",
+      "USDC_cost": "100536.3094",
+      "remaining_spot_USDC": "5.9906",
+      "classification": "CONFIRMED",
+      "scope": "First-party API execution records and separately retrieved current spot-state arithmetic. Not a native Monero receipt, external withdrawal, signer or beneficial-owner proof."
+    }
+  },
+  {
+    "address": "0x68d6e20a28f9d50ebf798ccf9fae9e3d5e4f1ac4",
+    "chain": "Hyperliquid account ledger",
+    "role": "Account with exact-hash matched deposit, internal spot transfer and reproduced buy fills",
+    "classification": "CONFIRMED",
+    "funding_source": "Previously reproduced Arbitrum transfer and first-party deposit credit",
+    "outflows": "Internal account transfer and spot executions; external withdrawal NOT ESTABLISHED",
+    "known_protocol_interaction": "Hyperliquid @260 spot market, XMR1/USDC current metadata",
+    "control_evidence": "NOT ESTABLISHED: API account attribution is not signer or beneficial-owner proof",
+    "notes": {
+      "address": "0x68d6e20a28f9d50ebf798ccf9fae9e3d5e4f1ac4",
+      "fill_count": 22,
+      "gross_XMR1": "166.78",
+      "fees_XMR1": "0.116746",
+      "net_XMR1": "166.663254",
+      "USDC_cost": "93730.7698",
+      "remaining_spot_USDC": "7.5102",
+      "classification": "CONFIRMED",
+      "scope": "First-party API execution records and separately retrieved current spot-state arithmetic. Not a native Monero receipt, external withdrawal, signer or beneficial-owner proof."
+    }
+  },
+  {
+    "address": "0x888795f84f5f81352a7639f1254662ae5897e223",
+    "chain": "Hyperliquid account ledger",
+    "role": "Account with exact-hash matched deposit, internal spot transfer and reproduced buy fills",
+    "classification": "CONFIRMED",
+    "funding_source": "Previously reproduced Arbitrum transfer and first-party deposit credit",
+    "outflows": "Internal account transfer and spot executions; external withdrawal NOT ESTABLISHED",
+    "known_protocol_interaction": "Hyperliquid @260 spot market, XMR1/USDC current metadata",
+    "control_evidence": "NOT ESTABLISHED: API account attribution is not signer or beneficial-owner proof",
+    "notes": {
+      "address": "0x888795f84f5f81352a7639f1254662ae5897e223",
+      "fill_count": 28,
+      "gross_XMR1": "166.38",
+      "fees_XMR1": "0.116466",
+      "net_XMR1": "166.263534",
+      "USDC_cost": "93548.0313",
+      "remaining_spot_USDC": "1.5887",
+      "classification": "CONFIRMED",
+      "scope": "First-party API execution records and separately retrieved current spot-state arithmetic. Not a native Monero receipt, external withdrawal, signer or beneficial-owner proof."
+    }
+  },
+  {
+    "address": "0x4079067aa1bdff060c6c45155966d81c79e754e9",
+    "chain": "Hyperliquid account ledger",
+    "role": "Account with exact-hash matched deposit, internal spot transfer and reproduced buy fills",
+    "classification": "CONFIRMED",
+    "funding_source": "Previously reproduced Arbitrum transfer and first-party deposit credit",
+    "outflows": "Internal account transfer and spot executions; external withdrawal NOT ESTABLISHED",
+    "known_protocol_interaction": "Hyperliquid @260 spot market, XMR1/USDC current metadata",
+    "control_evidence": "NOT ESTABLISHED: API account attribution is not signer or beneficial-owner proof",
+    "notes": {
+      "address": "0x4079067aa1bdff060c6c45155966d81c79e754e9",
+      "fill_count": 52,
+      "gross_XMR1": "163.17",
+      "fees_XMR1": "0.114219",
+      "net_XMR1": "163.055781",
+      "USDC_cost": "91348.5392",
+      "remaining_spot_USDC": "4.8408",
+      "classification": "CONFIRMED",
+      "scope": "First-party API execution records and separately retrieved current spot-state arithmetic. Not a native Monero receipt, external withdrawal, signer or beneficial-owner proof."
+    }
+  },
+  {
+    "address": "0x68b3a77db46418905c7eaf63324d4adcce06a680",
+    "chain": "Hyperliquid account ledger",
+    "role": "Account with exact-hash matched deposit, internal spot transfer and reproduced buy fills",
+    "classification": "CONFIRMED",
+    "funding_source": "Previously reproduced Arbitrum transfer and first-party deposit credit",
+    "outflows": "Internal account transfer and spot executions; external withdrawal NOT ESTABLISHED",
+    "known_protocol_interaction": "Hyperliquid @260 spot market, XMR1/USDC current metadata",
+    "control_evidence": "NOT ESTABLISHED: API account attribution is not signer or beneficial-owner proof",
+    "notes": {
+      "address": "0x68b3a77db46418905c7eaf63324d4adcce06a680",
+      "fill_count": 41,
+      "gross_XMR1": "162.44",
+      "fees_XMR1": "0.113708",
+      "net_XMR1": "162.326292",
+      "USDC_cost": "91280.4645",
+      "remaining_spot_USDC": "3.3855",
+      "classification": "CONFIRMED",
+      "scope": "First-party API execution records and separately retrieved current spot-state arithmetic. Not a native Monero receipt, external withdrawal, signer or beneficial-owner proof."
+    }
+  },
+  {
+    "address": "0xd9249de6224382ce7791600d1d1f9e5fdf633abb",
+    "chain": "Hyperliquid account ledger",
+    "role": "Account with exact-hash matched deposit, internal spot transfer and reproduced buy fills",
+    "classification": "CONFIRMED",
+    "funding_source": "Previously reproduced Arbitrum transfer and first-party deposit credit",
+    "outflows": "Internal account transfer and spot executions; external withdrawal NOT ESTABLISHED",
+    "known_protocol_interaction": "Hyperliquid @260 spot market, XMR1/USDC current metadata",
+    "control_evidence": "NOT ESTABLISHED: API account attribution is not signer or beneficial-owner proof",
+    "notes": {
+      "address": "0xd9249de6224382ce7791600d1d1f9e5fdf633abb",
+      "fill_count": 49,
+      "gross_XMR1": "160.53",
+      "fees_XMR1": "0.112371",
+      "net_XMR1": "160.417629",
+      "USDC_cost": "91380.7440",
+      "remaining_spot_USDC": "2.016",
+      "classification": "CONFIRMED",
+      "scope": "First-party API execution records and separately retrieved current spot-state arithmetic. Not a native Monero receipt, external withdrawal, signer or beneficial-owner proof."
+    }
+  }
+]

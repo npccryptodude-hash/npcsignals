@@ -106,3 +106,17 @@ F0207 reproduces an additional 51 USDC inflow at 2026-10-07T01:51:25Z. F0208 rep
 Scoped USDC logs over blocks 512422000–512881298 reproduce substantial other inflows and outflows. Provenance at this contract is mixed. Assignment of any particular outflow to the six case-related deposits is NOT ESTABLISHED. No timing-only or accounting convention is substituted for deterministic linkage. Contract operator, permissions, exchange identity, full lifetime funding, ultimate beneficiary and compromise method remain UNRESOLVED. Historical opening balance was unavailable from the examined provider.
 
 The supplemental inventory and checksums are additive to the earlier saved v0.2 checkpoint inventory. Original v0.1 and original transaction/classification records are unchanged. The supplemental ledger extends unique IDs through F0208; no previous ledger entry is renumbered. Publication assessment remains a scoped research checkpoint, not a mature comprehensive article.
+
+## Further reproduced Relay downstream association: Hyperliquid spot accounts
+
+New primary evidence advances the receiving-contract protocol identification to SUPPORTED: Hyperliquid's official USDC documentation identifies this exact Arbitrum address as its legacy bridge. Historical bytecode/source equivalence and operator permissions were not audited. Saved contract-identity uncertainty is not silently replaced by an ownership assertion.
+
+CONFIRMED, within first-party API scope: six deposit records have the exact hashes and exact amounts of the already reproduced Arbitrum transfers, totaling **561850.214994 USDC**. Each credits the account corresponding to that transfer's token sender. This reproduces deterministic deposit/account association despite physically mixed bridge custody. Arbitrary bridge withdrawals still cannot be assigned to these deposits.
+
+Six internal transfers to spot accounts total **561850.19 USDC**. The difference **0.024994 USDC** remains UNRESOLVED, not an asserted fee, loss or retained balance. F0209–F0220 preserve the twelve deposit and internal account updates.
+
+The same six accounts return **205 spot buy fills**, F0221–F0425. Current first-party metadata identifies market @260 as XMR1 token index 404 against USDC index 0. Exact execution costs total **561824.8582 USDC**, gross purchases **998.65 XMR1**, token fees **0.699055 XMR1**, and net **997.950945 XMR1**. Separately queried spot balances reconcile per account exactly to gross purchases less fees, and spot credits less costs reconcile to **25.3318 USDC** remaining in spot.
+
+These are reproduced first-party account/execution observations, not independently verified HyperCore consensus inclusion or signatures. **XMR1 is not evidence of a native Monero receipt, redemption or withdrawal.** No human owner, beneficiary, compromise method or recovery is established. Exact millisecond timestamps, hashes, order/trade IDs, fees, source records and limitations are in the supplemental ledgers and report. No transfers or account credits are double-counted as new losses.
+
+The new unique ledger range is F0207–F0425. A combined chronological JSON view preserves all F0001–F0206 unchanged. Checkpoint ac9e53e was retrieved and all 118 changed files were byte-exact; frozen v0.1 paths were unchanged. This continuation's report, indexes, wallet/entity graph, source inventory, scripts and negative findings are in `continuation_2026_10_08/`.

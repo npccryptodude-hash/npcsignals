@@ -1,0 +1,8 @@
+{
+  "url": "https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/info-endpoint/perpetuals",
+  "requested_at_UTC": "2026-10-08T12:38:37.703944+00:00",
+  "method": "GET",
+  "request": null,
+  "HTTP_status": 200,
+  "response_file": "hl_info_docs.response.json"
+}

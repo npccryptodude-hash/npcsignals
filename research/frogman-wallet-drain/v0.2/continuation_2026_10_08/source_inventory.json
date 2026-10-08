@@ -1,0 +1,1411 @@
+{
+  "scope": "Read-only primary requests for this supplement, including failed and partial collection. No source identifiers from earlier checkpoints are renumbered.",
+  "sources": [
+    {
+      "url": "https://arb1.arbitrum.io/rpc",
+      "requested_at_UTC": "2026-10-08T12:32:38.778675+00:00",
+      "method": "POST",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getTransactionReceipt",
+        "params": [
+          "0x000fa9d6f10354e2d883eeaf2b6e37f3ed49cf4cad0328c0dddd08915ebff93d"
+        ]
+      },
+      "HTTP_status": 200,
+      "response_file": "0x000fa9d6f10354e2d883eeaf2b6e37f3ed49cf4cad0328c0dddd08915ebff93d_receipt.response.json",
+      "ID": "CONT0001",
+      "request_record": "raw/0x000fa9d6f10354e2d883eeaf2b6e37f3ed49cf4cad0328c0dddd08915ebff93d_receipt.request.json",
+      "response_sha256": "f5e01137a01a18fe07c805be296cfc5dd77dd052bf55e7f9ea3af7a58a5872d5"
+    },
+    {
+      "url": "https://arb1.arbitrum.io/rpc",
+      "requested_at_UTC": "2026-10-08T12:32:38.774935+00:00",
+      "method": "POST",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getTransactionByHash",
+        "params": [
+          "0x000fa9d6f10354e2d883eeaf2b6e37f3ed49cf4cad0328c0dddd08915ebff93d"
+        ]
+      },
+      "HTTP_status": 200,
+      "response_file": "0x000fa9d6f10354e2d883eeaf2b6e37f3ed49cf4cad0328c0dddd08915ebff93d_tx.response.json",
+      "ID": "CONT0002",
+      "request_record": "raw/0x000fa9d6f10354e2d883eeaf2b6e37f3ed49cf4cad0328c0dddd08915ebff93d_tx.request.json",
+      "response_sha256": "fdcf88eb80a18f2ffb8644f5c771e7c0e856cf75470d11d069e10ed7f54cf87b"
+    },
+    {
+      "url": "https://arb1.arbitrum.io/rpc",
+      "requested_at_UTC": "2026-10-08T12:32:38.784799+00:00",
+      "method": "POST",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getTransactionReceipt",
+        "params": [
+          "0x0023d5212f648b1a26f0bfbec301665b9b4515fafa85393edb62d1ca9a2378f2"
+        ]
+      },
+      "HTTP_status": 200,
+      "response_file": "0x0023d5212f648b1a26f0bfbec301665b9b4515fafa85393edb62d1ca9a2378f2_receipt.response.json",
+      "ID": "CONT0003",
+      "request_record": "raw/0x0023d5212f648b1a26f0bfbec301665b9b4515fafa85393edb62d1ca9a2378f2_receipt.request.json",
+      "response_sha256": "5bed1f63cc649c9b2c04e952fb70d90427a3c537a0b2a14fab32455fe90caa8b"
+    },
+    {
+      "url": "https://arb1.arbitrum.io/rpc",
+      "requested_at_UTC": "2026-10-08T12:32:38.778321+00:00",
+      "method": "POST",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getTransactionByHash",
+        "params": [
+          "0x0023d5212f648b1a26f0bfbec301665b9b4515fafa85393edb62d1ca9a2378f2"
+        ]
+      },
+      "HTTP_status": 200,
+      "response_file": "0x0023d5212f648b1a26f0bfbec301665b9b4515fafa85393edb62d1ca9a2378f2_tx.response.json",
+      "ID": "CONT0004",
+      "request_record": "raw/0x0023d5212f648b1a26f0bfbec301665b9b4515fafa85393edb62d1ca9a2378f2_tx.request.json",
+      "response_sha256": "6423777dc067b3be1defb4ae186cb1150d61eea3fce4c5b230f5dd0fd1a1b331"
+    },
+    {
+      "url": "https://arb1.arbitrum.io/rpc",
+      "requested_at_UTC": "2026-10-08T12:32:46.181402+00:00",
+      "method": "POST",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getTransactionReceipt",
+        "params": [
+          "0x003260b45c073755c3bd8aec25bbd224ce7cd7062816cc844f2dd89bd0c6a47a"
+        ]
+      },
+      "HTTP_status": 200,
+      "response_file": "0x003260b45c073755c3bd8aec25bbd224ce7cd7062816cc844f2dd89bd0c6a47a_receipt.response.json",
+      "ID": "CONT0005",
+      "request_record": "raw/0x003260b45c073755c3bd8aec25bbd224ce7cd7062816cc844f2dd89bd0c6a47a_receipt.request.json",
+      "response_sha256": "6d5beaf6c7ee02f08c5c3a42ea5924d25626d76b2a7f1915a87d2aec8bb0cecf"
+    },
+    {
+      "url": "https://arb1.arbitrum.io/rpc",
+      "requested_at_UTC": "2026-10-08T12:32:46.133729+00:00",
+      "method": "POST",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getTransactionByHash",
+        "params": [
+          "0x003260b45c073755c3bd8aec25bbd224ce7cd7062816cc844f2dd89bd0c6a47a"
+        ]
+      },
+      "HTTP_status": 200,
+      "response_file": "0x003260b45c073755c3bd8aec25bbd224ce7cd7062816cc844f2dd89bd0c6a47a_tx.response.json",
+      "ID": "CONT0006",
+      "request_record": "raw/0x003260b45c073755c3bd8aec25bbd224ce7cd7062816cc844f2dd89bd0c6a47a_tx.request.json",
+      "response_sha256": "9f17be75c27dc364d5860c4d4e5d44eb22a4a48af7b6bf667f3e2f53cc511660"
+    },
+    {
+      "url": "https://arb1.arbitrum.io/rpc",
+      "requested_at_UTC": "2026-10-08T12:32:46.191749+00:00",
+      "method": "POST",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getTransactionReceipt",
+        "params": [
+          "0x0044c932ed1e7e51f9a052acfffed54bcf6e5f2f450ff1035a4cb857eec40c60"
+        ]
+      },
+      "HTTP_status": 200,
+      "response_file": "0x0044c932ed1e7e51f9a052acfffed54bcf6e5f2f450ff1035a4cb857eec40c60_receipt.response.json",
+      "ID": "CONT0007",
+      "request_record": "raw/0x0044c932ed1e7e51f9a052acfffed54bcf6e5f2f450ff1035a4cb857eec40c60_receipt.request.json",
+      "response_sha256": "5dee31d949bfad0681f90572d9c8d52e1592333d27a54eaa0ac632875fa43118"
+    },
+    {
+      "url": "https://arb1.arbitrum.io/rpc",
+      "requested_at_UTC": "2026-10-08T12:32:46.188020+00:00",
+      "method": "POST",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getTransactionByHash",
+        "params": [
+          "0x0044c932ed1e7e51f9a052acfffed54bcf6e5f2f450ff1035a4cb857eec40c60"
+        ]
+      },
+      "HTTP_status": 200,
+      "response_file": "0x0044c932ed1e7e51f9a052acfffed54bcf6e5f2f450ff1035a4cb857eec40c60_tx.response.json",
+      "ID": "CONT0008",
+      "request_record": "raw/0x0044c932ed1e7e51f9a052acfffed54bcf6e5f2f450ff1035a4cb857eec40c60_tx.request.json",
+      "response_sha256": "33bce8e71215802686b88046677c047b453ce746b5b24b69a88797806b627b7e"
+    },
+    {
+      "url": "https://arb1.arbitrum.io/rpc",
+      "requested_at_UTC": "2026-10-08T12:32:52.390284+00:00",
+      "method": "POST",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getTransactionReceipt",
+        "params": [
+          "0x005187a0d63dd40ad0eadb30e4bfa71867bcbb4413f165d3095092c229c3d0fd"
+        ]
+      },
+      "HTTP_status": 200,
+      "response_file": "0x005187a0d63dd40ad0eadb30e4bfa71867bcbb4413f165d3095092c229c3d0fd_receipt.response.json",
+      "ID": "CONT0009",
+      "request_record": "raw/0x005187a0d63dd40ad0eadb30e4bfa71867bcbb4413f165d3095092c229c3d0fd_receipt.request.json",
+      "response_sha256": "fce6cee8776967479e8eba44ec72981b9d98d4e8c9c08747eb04d607e2e80d68"
+    },
+    {
+      "url": "https://arb1.arbitrum.io/rpc",
+      "requested_at_UTC": "2026-10-08T12:32:52.385552+00:00",
+      "method": "POST",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getTransactionByHash",
+        "params": [
+          "0x005187a0d63dd40ad0eadb30e4bfa71867bcbb4413f165d3095092c229c3d0fd"
+        ]
+      },
+      "HTTP_status": 200,
+      "response_file": "0x005187a0d63dd40ad0eadb30e4bfa71867bcbb4413f165d3095092c229c3d0fd_tx.response.json",
+      "ID": "CONT0010",
+      "request_record": "raw/0x005187a0d63dd40ad0eadb30e4bfa71867bcbb4413f165d3095092c229c3d0fd_tx.request.json",
+      "response_sha256": "b844b12f5b0037b57918dd9bb928a67e916350999d0b77074a086f4b3a79025f"
+    },
+    {
+      "url": "https://arb1.arbitrum.io/rpc",
+      "requested_at_UTC": "2026-10-08T12:32:52.402094+00:00",
+      "method": "POST",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getTransactionReceipt",
+        "params": [
+          "0x005857ffba7593ece6bb90a83e0ceb2850d219221261fedf12042b6a8b8b8c92"
+        ]
+      },
+      "HTTP_status": 200,
+      "response_file": "0x005857ffba7593ece6bb90a83e0ceb2850d219221261fedf12042b6a8b8b8c92_receipt.response.json",
+      "ID": "CONT0011",
+      "request_record": "raw/0x005857ffba7593ece6bb90a83e0ceb2850d219221261fedf12042b6a8b8b8c92_receipt.request.json",
+      "response_sha256": "d13b81f79f0aaa423cb9dc5298e726d2b603d714d2a5a5e2ef757efa3e2f4972"
+    },
+    {
+      "url": "https://arb1.arbitrum.io/rpc",
+      "requested_at_UTC": "2026-10-08T12:32:52.396613+00:00",
+      "method": "POST",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getTransactionByHash",
+        "params": [
+          "0x005857ffba7593ece6bb90a83e0ceb2850d219221261fedf12042b6a8b8b8c92"
+        ]
+      },
+      "HTTP_status": 200,
+      "response_file": "0x005857ffba7593ece6bb90a83e0ceb2850d219221261fedf12042b6a8b8b8c92_tx.response.json",
+      "ID": "CONT0012",
+      "request_record": "raw/0x005857ffba7593ece6bb90a83e0ceb2850d219221261fedf12042b6a8b8b8c92_tx.request.json",
+      "response_sha256": "a23c82c454a0c4b78ea4b755190df110b05a85a1328203357528dbb9e55f2d7c"
+    },
+    {
+      "url": "https://arb1.arbitrum.io/rpc",
+      "requested_at_UTC": "2026-10-08T12:32:59.225251+00:00",
+      "method": "POST",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getTransactionReceipt",
+        "params": [
+          "0x005fef6e8d3240d765cffb93027b04856b96b5e7313d50f14bf3e887837c4b49"
+        ]
+      },
+      "HTTP_status": 200,
+      "response_file": "0x005fef6e8d3240d765cffb93027b04856b96b5e7313d50f14bf3e887837c4b49_receipt.response.json",
+      "ID": "CONT0013",
+      "request_record": "raw/0x005fef6e8d3240d765cffb93027b04856b96b5e7313d50f14bf3e887837c4b49_receipt.request.json",
+      "response_sha256": "6a1040538bb5ec96a222bfc9bd0a9fb08cb8e2f4b987361e7ad42c5ce4d6163f"
+    },
+    {
+      "url": "https://arb1.arbitrum.io/rpc",
+      "requested_at_UTC": "2026-10-08T12:32:59.218574+00:00",
+      "method": "POST",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getTransactionByHash",
+        "params": [
+          "0x005fef6e8d3240d765cffb93027b04856b96b5e7313d50f14bf3e887837c4b49"
+        ]
+      },
+      "HTTP_status": 200,
+      "response_file": "0x005fef6e8d3240d765cffb93027b04856b96b5e7313d50f14bf3e887837c4b49_tx.response.json",
+      "ID": "CONT0014",
+      "request_record": "raw/0x005fef6e8d3240d765cffb93027b04856b96b5e7313d50f14bf3e887837c4b49_tx.request.json",
+      "response_sha256": "3dc42fa3e9118d283db01123c46b7df996fbb0487d6c272b4c4a5977c227cd22"
+    },
+    {
+      "url": "https://arb1.arbitrum.io/rpc",
+      "requested_at_UTC": "2026-10-08T12:32:59.247567+00:00",
+      "method": "POST",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getTransactionReceipt",
+        "params": [
+          "0x007aaf109b1c96cf04b145969339768b52a357b6a86b61a05b3fd81cc36a306c"
+        ]
+      },
+      "HTTP_status": 200,
+      "response_file": "0x007aaf109b1c96cf04b145969339768b52a357b6a86b61a05b3fd81cc36a306c_receipt.response.json",
+      "ID": "CONT0015",
+      "request_record": "raw/0x007aaf109b1c96cf04b145969339768b52a357b6a86b61a05b3fd81cc36a306c_receipt.request.json",
+      "response_sha256": "1e3e75bd88407a6ebd0a89ac27067fd267db6ad1d6a23b2f180b962b9ced613a"
+    },
+    {
+      "url": "https://arb1.arbitrum.io/rpc",
+      "requested_at_UTC": "2026-10-08T12:32:59.228751+00:00",
+      "method": "POST",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getTransactionByHash",
+        "params": [
+          "0x007aaf109b1c96cf04b145969339768b52a357b6a86b61a05b3fd81cc36a306c"
+        ]
+      },
+      "HTTP_status": 200,
+      "response_file": "0x007aaf109b1c96cf04b145969339768b52a357b6a86b61a05b3fd81cc36a306c_tx.response.json",
+      "ID": "CONT0016",
+      "request_record": "raw/0x007aaf109b1c96cf04b145969339768b52a357b6a86b61a05b3fd81cc36a306c_tx.request.json",
+      "response_sha256": "41d0605a1478e15f1b73643b58f3271dcb874d926e5016c042320d53e0d8d263"
+    },
+    {
+      "url": "https://arb1.arbitrum.io/rpc",
+      "requested_at_UTC": "2026-10-08T12:33:07.746725+00:00",
+      "method": "POST",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getTransactionReceipt",
+        "params": [
+          "0x0094cecc4413c50fa56c4481dad1bc32efc3ec452ff853cef3a68082f7053b0e"
+        ]
+      },
+      "HTTP_status": 200,
+      "response_file": "0x0094cecc4413c50fa56c4481dad1bc32efc3ec452ff853cef3a68082f7053b0e_receipt.response.json",
+      "ID": "CONT0017",
+      "request_record": "raw/0x0094cecc4413c50fa56c4481dad1bc32efc3ec452ff853cef3a68082f7053b0e_receipt.request.json",
+      "response_sha256": "1049e5cb6177071bd92cb7ab7312663ef53b47da27e750c41e2f5fefc3bf8fd5"
+    },
+    {
+      "url": "https://arb1.arbitrum.io/rpc",
+      "requested_at_UTC": "2026-10-08T12:33:07.696468+00:00",
+      "method": "POST",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getTransactionByHash",
+        "params": [
+          "0x0094cecc4413c50fa56c4481dad1bc32efc3ec452ff853cef3a68082f7053b0e"
+        ]
+      },
+      "HTTP_status": 200,
+      "response_file": "0x0094cecc4413c50fa56c4481dad1bc32efc3ec452ff853cef3a68082f7053b0e_tx.response.json",
+      "ID": "CONT0018",
+      "request_record": "raw/0x0094cecc4413c50fa56c4481dad1bc32efc3ec452ff853cef3a68082f7053b0e_tx.request.json",
+      "response_sha256": "a631b0e3f8b53569ee6ba6ee63887babfc8c40ee9e210f002e55a5a96cbcabef"
+    },
+    {
+      "url": "https://arb1.arbitrum.io/rpc",
+      "requested_at_UTC": "2026-10-08T12:33:07.779980+00:00",
+      "method": "POST",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getTransactionReceipt",
+        "params": [
+          "0x009c467d52848c78b9a12f50d3c82071517c4b2868b35651723b055ceebe97b7"
+        ]
+      },
+      "HTTP_status": 200,
+      "response_file": "0x009c467d52848c78b9a12f50d3c82071517c4b2868b35651723b055ceebe97b7_receipt.response.json",
+      "ID": "CONT0019",
+      "request_record": "raw/0x009c467d52848c78b9a12f50d3c82071517c4b2868b35651723b055ceebe97b7_receipt.request.json",
+      "response_sha256": "d825c424916bfa77f469a748ae1cd5cdf8c8662788c1b324f314d7510dd70bbd"
+    },
+    {
+      "url": "https://arb1.arbitrum.io/rpc",
+      "requested_at_UTC": "2026-10-08T12:33:07.747500+00:00",
+      "method": "POST",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getTransactionByHash",
+        "params": [
+          "0x009c467d52848c78b9a12f50d3c82071517c4b2868b35651723b055ceebe97b7"
+        ]
+      },
+      "HTTP_status": 200,
+      "response_file": "0x009c467d52848c78b9a12f50d3c82071517c4b2868b35651723b055ceebe97b7_tx.response.json",
+      "ID": "CONT0020",
+      "request_record": "raw/0x009c467d52848c78b9a12f50d3c82071517c4b2868b35651723b055ceebe97b7_tx.request.json",
+      "response_sha256": "80b335fa5b7020c41c89589243da611505d36921c57938c94764982dccb6e1e7"
+    },
+    {
+      "url": "https://arb1.arbitrum.io/rpc",
+      "requested_at_UTC": "2026-10-08T12:33:14.537723+00:00",
+      "method": "POST",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getTransactionReceipt",
+        "params": [
+          "0x009dd2930fc4e14c04bc3eb84ca829b81f75049f7642fdeabaea1fc1f7e7c383"
+        ]
+      },
+      "HTTP_status": 200,
+      "response_file": "0x009dd2930fc4e14c04bc3eb84ca829b81f75049f7642fdeabaea1fc1f7e7c383_receipt.response.json",
+      "ID": "CONT0021",
+      "request_record": "raw/0x009dd2930fc4e14c04bc3eb84ca829b81f75049f7642fdeabaea1fc1f7e7c383_receipt.request.json",
+      "response_sha256": "c6156c7244c60aa001d9ec053d03f0b8d18c035b73f6ff4f35a13a971fe923e7"
+    },
+    {
+      "url": "https://arb1.arbitrum.io/rpc",
+      "requested_at_UTC": "2026-10-08T12:33:14.482814+00:00",
+      "method": "POST",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getTransactionByHash",
+        "params": [
+          "0x009dd2930fc4e14c04bc3eb84ca829b81f75049f7642fdeabaea1fc1f7e7c383"
+        ]
+      },
+      "HTTP_status": 200,
+      "response_file": "0x009dd2930fc4e14c04bc3eb84ca829b81f75049f7642fdeabaea1fc1f7e7c383_tx.response.json",
+      "ID": "CONT0022",
+      "request_record": "raw/0x009dd2930fc4e14c04bc3eb84ca829b81f75049f7642fdeabaea1fc1f7e7c383_tx.request.json",
+      "response_sha256": "9111e597bef04a3e114552f4048db89a28fc929a6a5e48fb40c7d88f335278a1"
+    },
+    {
+      "url": "https://arb1.arbitrum.io/rpc",
+      "requested_at_UTC": "2026-10-08T12:33:14.583601+00:00",
+      "method": "POST",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getTransactionReceipt",
+        "params": [
+          "0x00a0fc29b3d15c5e790fa32d89c13ef94f21c73c9702ccc8196057c7c7e76d25"
+        ]
+      },
+      "HTTP_status": 200,
+      "response_file": "0x00a0fc29b3d15c5e790fa32d89c13ef94f21c73c9702ccc8196057c7c7e76d25_receipt.response.json",
+      "ID": "CONT0023",
+      "request_record": "raw/0x00a0fc29b3d15c5e790fa32d89c13ef94f21c73c9702ccc8196057c7c7e76d25_receipt.request.json",
+      "response_sha256": "8b0292631c72dba81f56077f4a563a19f7038406d34565a31556afe1f41f0448"
+    },
+    {
+      "url": "https://arb1.arbitrum.io/rpc",
+      "requested_at_UTC": "2026-10-08T12:33:14.539271+00:00",
+      "method": "POST",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getTransactionByHash",
+        "params": [
+          "0x00a0fc29b3d15c5e790fa32d89c13ef94f21c73c9702ccc8196057c7c7e76d25"
+        ]
+      },
+      "HTTP_status": 200,
+      "response_file": "0x00a0fc29b3d15c5e790fa32d89c13ef94f21c73c9702ccc8196057c7c7e76d25_tx.response.json",
+      "ID": "CONT0024",
+      "request_record": "raw/0x00a0fc29b3d15c5e790fa32d89c13ef94f21c73c9702ccc8196057c7c7e76d25_tx.request.json",
+      "response_sha256": "f4d93f69378cbcd722d5526a6c9ff5b261335d5e669e9a9de396dfbc8bb588e1"
+    },
+    {
+      "url": "https://arb1.arbitrum.io/rpc",
+      "requested_at_UTC": "2026-10-08T12:33:21.870555+00:00",
+      "method": "POST",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getTransactionReceipt",
+        "params": [
+          "0x00c95dbeb0d694055e0f6f6e958e198bf0a52bccc6083194a347b9820578ff31"
+        ]
+      },
+      "HTTP_status": 200,
+      "response_file": "0x00c95dbeb0d694055e0f6f6e958e198bf0a52bccc6083194a347b9820578ff31_receipt.response.json",
+      "ID": "CONT0025",
+      "request_record": "raw/0x00c95dbeb0d694055e0f6f6e958e198bf0a52bccc6083194a347b9820578ff31_receipt.request.json",
+      "response_sha256": "831cb71b7d199f9a1dd4fe06071b790b39c3f53fa9349ba74562138cf34e8bdd"
+    },
+    {
+      "url": "https://arb1.arbitrum.io/rpc",
+      "requested_at_UTC": "2026-10-08T12:33:21.867123+00:00",
+      "method": "POST",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getTransactionByHash",
+        "params": [
+          "0x00c95dbeb0d694055e0f6f6e958e198bf0a52bccc6083194a347b9820578ff31"
+        ]
+      },
+      "HTTP_status": 200,
+      "response_file": "0x00c95dbeb0d694055e0f6f6e958e198bf0a52bccc6083194a347b9820578ff31_tx.response.json",
+      "ID": "CONT0026",
+      "request_record": "raw/0x00c95dbeb0d694055e0f6f6e958e198bf0a52bccc6083194a347b9820578ff31_tx.request.json",
+      "response_sha256": "0db081128c952d6a18292a5ff8747a7658f11b5f2279e21faec6117b97bb4089"
+    },
+    {
+      "url": "https://arb1.arbitrum.io/rpc",
+      "requested_at_UTC": "2026-10-08T12:33:21.882462+00:00",
+      "method": "POST",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getTransactionReceipt",
+        "params": [
+          "0x00d4b3e134431c58c962ad9ba2241d1c5b6887963c9227904ce8010e44b71987"
+        ]
+      },
+      "HTTP_status": 200,
+      "response_file": "0x00d4b3e134431c58c962ad9ba2241d1c5b6887963c9227904ce8010e44b71987_receipt.response.json",
+      "ID": "CONT0027",
+      "request_record": "raw/0x00d4b3e134431c58c962ad9ba2241d1c5b6887963c9227904ce8010e44b71987_receipt.request.json",
+      "response_sha256": "a09905bc5389210d6f7300fa03704dd2591b05f815beba1634cece1a1151c837"
+    },
+    {
+      "url": "https://arb1.arbitrum.io/rpc",
+      "requested_at_UTC": "2026-10-08T12:33:21.879515+00:00",
+      "method": "POST",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getTransactionByHash",
+        "params": [
+          "0x00d4b3e134431c58c962ad9ba2241d1c5b6887963c9227904ce8010e44b71987"
+        ]
+      },
+      "HTTP_status": 200,
+      "response_file": "0x00d4b3e134431c58c962ad9ba2241d1c5b6887963c9227904ce8010e44b71987_tx.response.json",
+      "ID": "CONT0028",
+      "request_record": "raw/0x00d4b3e134431c58c962ad9ba2241d1c5b6887963c9227904ce8010e44b71987_tx.request.json",
+      "response_sha256": "8a044e537b1a4fc9990d457f8cf74977f05e72fbc7a2e8cbb01ee79a3b83fe5a"
+    },
+    {
+      "url": "https://arb1.arbitrum.io/rpc",
+      "requested_at_UTC": "2026-10-08T12:33:13.313405+00:00",
+      "method": "POST",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getTransactionReceipt",
+        "params": [
+          "0x4919141b0ae81c4abfc4ac8fd0674184086a647432a920cc24f7249e686984ce"
+        ]
+      },
+      "HTTP_status": 200,
+      "response_file": "0x4919141b0ae81c4abfc4ac8fd0674184086a647432a920cc24f7249e686984ce_receipt.response.json",
+      "ID": "CONT0029",
+      "request_record": "raw/0x4919141b0ae81c4abfc4ac8fd0674184086a647432a920cc24f7249e686984ce_receipt.request.json",
+      "response_sha256": "84cd0029b3dbe984caa2bfe98de42127bbc1a0af38b9a771a2ca2b448a0f113c"
+    },
+    {
+      "url": "https://arb1.arbitrum.io/rpc",
+      "requested_at_UTC": "2026-10-08T12:33:13.312224+00:00",
+      "method": "POST",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getTransactionByHash",
+        "params": [
+          "0x4919141b0ae81c4abfc4ac8fd0674184086a647432a920cc24f7249e686984ce"
+        ]
+      },
+      "HTTP_status": 200,
+      "response_file": "0x4919141b0ae81c4abfc4ac8fd0674184086a647432a920cc24f7249e686984ce_tx.response.json",
+      "ID": "CONT0030",
+      "request_record": "raw/0x4919141b0ae81c4abfc4ac8fd0674184086a647432a920cc24f7249e686984ce_tx.request.json",
+      "response_sha256": "36ca59d8a23ef6dd6cf5eb067293a572cbd1540d048d3c4440c7cc6baedc9dd9"
+    },
+    {
+      "url": "https://arb1.arbitrum.io/rpc",
+      "requested_at_UTC": "2026-10-08T12:33:13.314057+00:00",
+      "method": "POST",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getTransactionReceipt",
+        "params": [
+          "0x5d0803e0bfa074fad49f000d7a8e387c6e20ec2ebbabcd336b412648b71db86a"
+        ]
+      },
+      "HTTP_status": 200,
+      "response_file": "0x5d0803e0bfa074fad49f000d7a8e387c6e20ec2ebbabcd336b412648b71db86a_receipt.response.json",
+      "ID": "CONT0031",
+      "request_record": "raw/0x5d0803e0bfa074fad49f000d7a8e387c6e20ec2ebbabcd336b412648b71db86a_receipt.request.json",
+      "response_sha256": "9d621e1ffcab106cfbbe751dfbbaf03f56606f2e03572720df220ef8b142d755"
+    },
+    {
+      "url": "https://arb1.arbitrum.io/rpc",
+      "requested_at_UTC": "2026-10-08T12:33:13.313005+00:00",
+      "method": "POST",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getTransactionByHash",
+        "params": [
+          "0x5d0803e0bfa074fad49f000d7a8e387c6e20ec2ebbabcd336b412648b71db86a"
+        ]
+      },
+      "HTTP_status": 200,
+      "response_file": "0x5d0803e0bfa074fad49f000d7a8e387c6e20ec2ebbabcd336b412648b71db86a_tx.response.json",
+      "ID": "CONT0032",
+      "request_record": "raw/0x5d0803e0bfa074fad49f000d7a8e387c6e20ec2ebbabcd336b412648b71db86a_tx.request.json",
+      "response_sha256": "59955217f0095e1fbc0e5a4d8abcf8933cfc4a36ebae15cbe48f88af863a73eb"
+    },
+    {
+      "url": "https://arb1.arbitrum.io/rpc",
+      "requested_at_UTC": "2026-10-08T12:31:49.009710+00:00",
+      "method": "POST",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_chainId",
+        "params": []
+      },
+      "HTTP_status": 200,
+      "response_file": "arb_chain.response.json",
+      "ID": "CONT0033",
+      "request_record": "raw/arb_chain.request.json",
+      "response_sha256": "937de275b7fc223f33af3b5fdcef1c024e5cf8b2665ad8161096c7e6f9e1733d"
+    },
+    {
+      "url": "https://arb1.arbitrum.io/rpc",
+      "requested_at_UTC": "2026-10-08T12:31:40.893096+00:00",
+      "method": "POST",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_blockNumber",
+        "params": []
+      },
+      "HTTP_status": 200,
+      "response_file": "arb_latest.response.json",
+      "ID": "CONT0034",
+      "request_record": "raw/arb_latest.request.json",
+      "response_sha256": "3aed080a8631bc2b1fd2c0a597f515462922035f8bc216c3b673129d2988f499"
+    },
+    {
+      "url": "https://arb1.arbitrum.io/rpc",
+      "requested_at_UTC": "2026-10-08T12:33:19.824409+00:00",
+      "method": "POST",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getBlockByNumber",
+        "params": [
+          "0x1e8af22c",
+          false
+        ]
+      },
+      "HTTP_status": 200,
+      "response_file": "block_0x1e8af22c.response.json",
+      "ID": "CONT0035",
+      "request_record": "raw/block_0x1e8af22c.request.json",
+      "response_sha256": "782be17900a5abf20eaeed2de43efc821d829a89ec2c5f34707ac37b8138e49b"
+    },
+    {
+      "url": "https://arb1.arbitrum.io/rpc",
+      "requested_at_UTC": "2026-10-08T12:33:19.833248+00:00",
+      "method": "POST",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getBlockByNumber",
+        "params": [
+          "0x1e8af464",
+          false
+        ]
+      },
+      "HTTP_status": 200,
+      "response_file": "block_0x1e8af464.response.json",
+      "ID": "CONT0036",
+      "request_record": "raw/block_0x1e8af464.request.json",
+      "response_sha256": "de5a10c8646319fd5acd2594f3361c9e8ca5b4369b1e2ae43166b7e66d609f5c"
+    },
+    {
+      "url": "https://arb1.arbitrum.io/rpc",
+      "requested_at_UTC": "2026-10-08T12:33:19.838098+00:00",
+      "method": "POST",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getBlockByNumber",
+        "params": [
+          "0x1e91f292",
+          false
+        ]
+      },
+      "HTTP_status": 200,
+      "response_file": "block_0x1e91f292.response.json",
+      "ID": "CONT0037",
+      "request_record": "raw/block_0x1e91f292.request.json",
+      "response_sha256": "06c9d7b42c87eaae1237adc358df09a0dcb33fd63af8bfb3362add04926c10a7"
+    },
+    {
+      "url": "https://arb1.arbitrum.io/rpc",
+      "requested_at_UTC": "2026-10-08T12:35:12.480679+00:00",
+      "method": "POST",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getCode",
+        "params": [
+          "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+          "0x1e91f292"
+        ]
+      },
+      "HTTP_status": 200,
+      "response_file": "collector_code.response.json",
+      "ID": "CONT0038",
+      "request_record": "raw/collector_code.request.json",
+      "response_sha256": "7d3d97f9d04c568fe022244a5ed2e979c606e7a80a98fb7bf40c462c599f58bb"
+    },
+    {
+      "url": "https://arb1.arbitrum.io/rpc",
+      "requested_at_UTC": "2026-10-08T12:32:17.033089+00:00",
+      "method": "POST",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getLogs",
+        "params": [
+          {
+            "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "fromBlock": "0x1e8af070",
+            "toBlock": "0x1e8c770f",
+            "topics": [
+              "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+              null,
+              "0x0000000000000000000000002df1c51e09aecf9cacb7bc98cb1742757f163df7"
+            ]
+          }
+        ]
+      },
+      "HTTP_status": 200,
+      "response_file": "collector_in_512422000_512521999.response.json",
+      "ID": "CONT0039",
+      "request_record": "raw/collector_in_512422000_512521999.request.json",
+      "response_sha256": "b9a59aa3aea6f7cb98d79d218c299842220854058355e0f8f416a0d8c15f0640"
+    },
+    {
+      "url": "https://arb1.arbitrum.io/rpc",
+      "requested_at_UTC": "2026-10-08T12:32:17.034574+00:00",
+      "method": "POST",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getLogs",
+        "params": [
+          {
+            "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "fromBlock": "0x1e8c7710",
+            "toBlock": "0x1e8dfdaf",
+            "topics": [
+              "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+              null,
+              "0x0000000000000000000000002df1c51e09aecf9cacb7bc98cb1742757f163df7"
+            ]
+          }
+        ]
+      },
+      "HTTP_status": 200,
+      "response_file": "collector_in_512522000_512621999.response.json",
+      "ID": "CONT0040",
+      "request_record": "raw/collector_in_512522000_512621999.request.json",
+      "response_sha256": "117b5c9f3e5311d6acefd13ab44fffc2713ebbbe56de475c72fe3ab2a408be00"
+    },
+    {
+      "url": "https://arb1.arbitrum.io/rpc",
+      "requested_at_UTC": "2026-10-08T12:32:23.814547+00:00",
+      "method": "POST",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getLogs",
+        "params": [
+          {
+            "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "fromBlock": "0x1e8dfdb0",
+            "toBlock": "0x1e8f844f",
+            "topics": [
+              "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+              null,
+              "0x0000000000000000000000002df1c51e09aecf9cacb7bc98cb1742757f163df7"
+            ]
+          }
+        ]
+      },
+      "HTTP_status": 200,
+      "response_file": "collector_in_512622000_512721999.response.json",
+      "ID": "CONT0041",
+      "request_record": "raw/collector_in_512622000_512721999.request.json",
+      "response_sha256": "2f0a8a1db2fe786753be1b7790fef81e3a4401cdb3d3d0246cdf682aa32a7873"
+    },
+    {
+      "url": "https://arb1.arbitrum.io/rpc",
+      "requested_at_UTC": "2026-10-08T12:32:23.881635+00:00",
+      "method": "POST",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getLogs",
+        "params": [
+          {
+            "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "fromBlock": "0x1e8f8450",
+            "toBlock": "0x1e910aef",
+            "topics": [
+              "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+              null,
+              "0x0000000000000000000000002df1c51e09aecf9cacb7bc98cb1742757f163df7"
+            ]
+          }
+        ]
+      },
+      "HTTP_status": 200,
+      "response_file": "collector_in_512722000_512821999.response.json",
+      "ID": "CONT0042",
+      "request_record": "raw/collector_in_512722000_512821999.request.json",
+      "response_sha256": "78e1261796be20926999bc0f6f88a400a30c5b4ffb8b3846a5bc7db30069905d"
+    },
+    {
+      "url": "https://arb1.arbitrum.io/rpc",
+      "requested_at_UTC": "2026-10-08T12:32:31.319159+00:00",
+      "method": "POST",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getLogs",
+        "params": [
+          {
+            "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "fromBlock": "0x1e910af0",
+            "toBlock": "0x1e91f292",
+            "topics": [
+              "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+              null,
+              "0x0000000000000000000000002df1c51e09aecf9cacb7bc98cb1742757f163df7"
+            ]
+          }
+        ]
+      },
+      "HTTP_status": 200,
+      "response_file": "collector_in_512822000_512881298.response.json",
+      "ID": "CONT0043",
+      "request_record": "raw/collector_in_512822000_512881298.request.json",
+      "response_sha256": "ddf1fa1acf0514adf79eb3dca82fa71c824338d984b604e94cdf4c821bca8796"
+    },
+    {
+      "url": "https://arb1.arbitrum.io/rpc",
+      "requested_at_UTC": "2026-10-08T12:32:03.788937+00:00",
+      "method": "POST",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getBalance",
+        "params": [
+          "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+          "0x1e91f292"
+        ]
+      },
+      "HTTP_status": 200,
+      "response_file": "collector_native_balance.response.json",
+      "ID": "CONT0044",
+      "request_record": "raw/collector_native_balance.request.json",
+      "response_sha256": "b2f1f2440efe85b924be1f873fb1ccd6f3ef9c6bfeef3cfef6bb70ae6ddcb3fc"
+    },
+    {
+      "url": "https://arb1.arbitrum.io/rpc",
+      "requested_at_UTC": "2026-10-08T12:32:10.217271+00:00",
+      "method": "POST",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getTransactionCount",
+        "params": [
+          "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+          "0x1e91f292"
+        ]
+      },
+      "HTTP_status": 200,
+      "response_file": "collector_nonce.response.json",
+      "ID": "CONT0045",
+      "request_record": "raw/collector_nonce.request.json",
+      "response_sha256": "b43152453e04548bbfdd3e3194c604cdbc2af0afb7f433ec663d8e53f722f7b5"
+    },
+    {
+      "url": "https://arb1.arbitrum.io/rpc",
+      "requested_at_UTC": "2026-10-08T12:35:04.732360+00:00",
+      "method": "POST",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_call",
+        "params": [
+          {
+            "to": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "data": "0x70a082310000000000000000000000002df1c51e09aecf9cacb7bc98cb1742757f163df7"
+          },
+          "0x1e8af06f"
+        ]
+      },
+      "HTTP_status": 200,
+      "response_file": "collector_opening_usdc_balance.response.json",
+      "ID": "CONT0046",
+      "request_record": "raw/collector_opening_usdc_balance.request.json",
+      "response_sha256": "826096b1d329f53df3692d368c70cc9a44bab84ea9dd097b6e937cb083506a1d"
+    },
+    {
+      "url": "https://arb1.arbitrum.io/rpc",
+      "requested_at_UTC": "2026-10-08T12:32:17.032692+00:00",
+      "method": "POST",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getLogs",
+        "params": [
+          {
+            "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "fromBlock": "0x1e8af070",
+            "toBlock": "0x1e8c770f",
+            "topics": [
+              "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+              "0x0000000000000000000000002df1c51e09aecf9cacb7bc98cb1742757f163df7"
+            ]
+          }
+        ]
+      },
+      "HTTP_status": 200,
+      "response_file": "collector_out_512422000_512521999.response.json",
+      "ID": "CONT0047",
+      "request_record": "raw/collector_out_512422000_512521999.request.json",
+      "response_sha256": "62c47cdd1e483d9adee4fa7ef88d48065144030b97084ca2d5cd3d3d7afcdc41"
+    },
+    {
+      "url": "https://arb1.arbitrum.io/rpc",
+      "requested_at_UTC": "2026-10-08T12:32:17.033853+00:00",
+      "method": "POST",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getLogs",
+        "params": [
+          {
+            "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "fromBlock": "0x1e8c7710",
+            "toBlock": "0x1e8dfdaf",
+            "topics": [
+              "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+              "0x0000000000000000000000002df1c51e09aecf9cacb7bc98cb1742757f163df7"
+            ]
+          }
+        ]
+      },
+      "HTTP_status": 200,
+      "response_file": "collector_out_512522000_512621999.response.json",
+      "ID": "CONT0048",
+      "request_record": "raw/collector_out_512522000_512621999.request.json",
+      "response_sha256": "8feb044c6560c15892db1e724050015164f666dcf3a7f36aeb354c208d475cec"
+    },
+    {
+      "url": "https://arb1.arbitrum.io/rpc",
+      "requested_at_UTC": "2026-10-08T12:32:23.768421+00:00",
+      "method": "POST",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getLogs",
+        "params": [
+          {
+            "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "fromBlock": "0x1e8dfdb0",
+            "toBlock": "0x1e8f844f",
+            "topics": [
+              "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+              "0x0000000000000000000000002df1c51e09aecf9cacb7bc98cb1742757f163df7"
+            ]
+          }
+        ]
+      },
+      "HTTP_status": 200,
+      "response_file": "collector_out_512622000_512721999.response.json",
+      "ID": "CONT0049",
+      "request_record": "raw/collector_out_512622000_512721999.request.json",
+      "response_sha256": "50a31d0f2a43b778d313c13d5b9e65b127dec1c550d106501da1b459e92732da"
+    },
+    {
+      "url": "https://arb1.arbitrum.io/rpc",
+      "requested_at_UTC": "2026-10-08T12:32:23.866895+00:00",
+      "method": "POST",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getLogs",
+        "params": [
+          {
+            "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "fromBlock": "0x1e8f8450",
+            "toBlock": "0x1e910aef",
+            "topics": [
+              "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+              "0x0000000000000000000000002df1c51e09aecf9cacb7bc98cb1742757f163df7"
+            ]
+          }
+        ]
+      },
+      "HTTP_status": 200,
+      "response_file": "collector_out_512722000_512821999.response.json",
+      "ID": "CONT0050",
+      "request_record": "raw/collector_out_512722000_512821999.request.json",
+      "response_sha256": "cb101843f9c75f47158000c215acff38265cbe8f5e62959823d23fce01c2f137"
+    },
+    {
+      "url": "https://arb1.arbitrum.io/rpc",
+      "requested_at_UTC": "2026-10-08T12:32:31.313907+00:00",
+      "method": "POST",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getLogs",
+        "params": [
+          {
+            "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "fromBlock": "0x1e910af0",
+            "toBlock": "0x1e91f292",
+            "topics": [
+              "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+              "0x0000000000000000000000002df1c51e09aecf9cacb7bc98cb1742757f163df7"
+            ]
+          }
+        ]
+      },
+      "HTTP_status": 200,
+      "response_file": "collector_out_512822000_512881298.response.json",
+      "ID": "CONT0051",
+      "request_record": "raw/collector_out_512822000_512881298.request.json",
+      "response_sha256": "ebcfc3f50cfc290fbca213b3d1dafa452b997d6cdc47a64694166b96731b8a90"
+    },
+    {
+      "url": "https://arb1.arbitrum.io/rpc",
+      "requested_at_UTC": "2026-10-08T12:31:57.666545+00:00",
+      "method": "POST",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_call",
+        "params": [
+          {
+            "to": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+            "data": "0x70a082310000000000000000000000002df1c51e09aecf9cacb7bc98cb1742757f163df7"
+          },
+          "0x1e91f292"
+        ]
+      },
+      "HTTP_status": 200,
+      "response_file": "collector_usdc_balance.response.json",
+      "ID": "CONT0052",
+      "request_record": "raw/collector_usdc_balance.request.json",
+      "response_sha256": "536336a8e5c462689bdb1c175987c0acd70488b579906d9280bbb5eaff44207d"
+    },
+    {
+      "url": "https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/bridge2",
+      "requested_at_UTC": "2026-10-08T12:38:37.647570+00:00",
+      "method": "GET",
+      "request": null,
+      "HTTP_status": 200,
+      "response_file": "hl_bridge_docs.response.json",
+      "ID": "CONT0053",
+      "request_record": "raw/hl_bridge_docs.request.json",
+      "response_sha256": "ea71f20ba80294f49bd36c4b9ac08f878a30d8b5c36ee143826fdf089252fffd"
+    },
+    {
+      "url": "https://api.hyperliquid.xyz/info",
+      "requested_at_UTC": "2026-10-08T12:39:53.407259+00:00",
+      "method": "POST",
+      "request": {
+        "type": "userFillsByTime",
+        "user": "0x4079067aa1bdff060c6c45155966d81c79e754e9",
+        "startTime": 1791317400000,
+        "endTime": 1791464400000,
+        "aggregateByTime": false
+      },
+      "HTTP_status": 200,
+      "response_file": "hl_fills_0x4079067aa1bdff060c6c45155966d81c79e754e9.response.json",
+      "ID": "CONT0054",
+      "request_record": "raw/hl_fills_0x4079067aa1bdff060c6c45155966d81c79e754e9.request.json",
+      "response_sha256": "45fbc080f5f5a239d257be6f607b1c85d1fc372948732b7c1399546f5adce163"
+    },
+    {
+      "url": "https://api.hyperliquid.xyz/info",
+      "requested_at_UTC": "2026-10-08T12:39:53.450737+00:00",
+      "method": "POST",
+      "request": {
+        "type": "userFillsByTime",
+        "user": "0x68b3a77db46418905c7eaf63324d4adcce06a680",
+        "startTime": 1791317400000,
+        "endTime": 1791464400000,
+        "aggregateByTime": false
+      },
+      "HTTP_status": 200,
+      "response_file": "hl_fills_0x68b3a77db46418905c7eaf63324d4adcce06a680.response.json",
+      "ID": "CONT0055",
+      "request_record": "raw/hl_fills_0x68b3a77db46418905c7eaf63324d4adcce06a680.request.json",
+      "response_sha256": "0cf830ba92533e483f20aa793b19af6dfab49eab0e417e40539b5aa1e561ac76"
+    },
+    {
+      "url": "https://api.hyperliquid.xyz/info",
+      "requested_at_UTC": "2026-10-08T12:39:46.188722+00:00",
+      "method": "POST",
+      "request": {
+        "type": "userFillsByTime",
+        "user": "0x68d6e20a28f9d50ebf798ccf9fae9e3d5e4f1ac4",
+        "startTime": 1791317400000,
+        "endTime": 1791464400000,
+        "aggregateByTime": false
+      },
+      "HTTP_status": 200,
+      "response_file": "hl_fills_0x68d6e20a28f9d50ebf798ccf9fae9e3d5e4f1ac4.response.json",
+      "ID": "CONT0056",
+      "request_record": "raw/hl_fills_0x68d6e20a28f9d50ebf798ccf9fae9e3d5e4f1ac4.request.json",
+      "response_sha256": "0caf70aa1987bf2e44794693c2997747f2f13ef331f50211c87757cc03916f6b"
+    },
+    {
+      "url": "https://api.hyperliquid.xyz/info",
+      "requested_at_UTC": "2026-10-08T12:39:46.188379+00:00",
+      "method": "POST",
+      "request": {
+        "type": "userFillsByTime",
+        "user": "0x888795f84f5f81352a7639f1254662ae5897e223",
+        "startTime": 1791317400000,
+        "endTime": 1791464400000,
+        "aggregateByTime": false
+      },
+      "HTTP_status": 200,
+      "response_file": "hl_fills_0x888795f84f5f81352a7639f1254662ae5897e223.response.json",
+      "ID": "CONT0057",
+      "request_record": "raw/hl_fills_0x888795f84f5f81352a7639f1254662ae5897e223.request.json",
+      "response_sha256": "3bbfde6bf50f4ff6fb3d676f8877f7be48807a803603be27c2e45ef48d68b556"
+    },
+    {
+      "url": "https://api.hyperliquid.xyz/info",
+      "requested_at_UTC": "2026-10-08T12:39:46.187707+00:00",
+      "method": "POST",
+      "request": {
+        "type": "userFillsByTime",
+        "user": "0xd7efd720adf271b7173dd01a9b81668892bee6b1",
+        "startTime": 1791317400000,
+        "endTime": 1791464400000,
+        "aggregateByTime": false
+      },
+      "HTTP_status": 200,
+      "response_file": "hl_fills_0xd7efd720adf271b7173dd01a9b81668892bee6b1.response.json",
+      "ID": "CONT0058",
+      "request_record": "raw/hl_fills_0xd7efd720adf271b7173dd01a9b81668892bee6b1.request.json",
+      "response_sha256": "343a155a3ca9cc087487203f20d2ee80dd57bd629c14ab8aa8fec6de592547aa"
+    },
+    {
+      "url": "https://api.hyperliquid.xyz/info",
+      "requested_at_UTC": "2026-10-08T12:39:53.451324+00:00",
+      "method": "POST",
+      "request": {
+        "type": "userFillsByTime",
+        "user": "0xd9249de6224382ce7791600d1d1f9e5fdf633abb",
+        "startTime": 1791317400000,
+        "endTime": 1791464400000,
+        "aggregateByTime": false
+      },
+      "HTTP_status": 200,
+      "response_file": "hl_fills_0xd9249de6224382ce7791600d1d1f9e5fdf633abb.response.json",
+      "ID": "CONT0059",
+      "request_record": "raw/hl_fills_0xd9249de6224382ce7791600d1d1f9e5fdf633abb.request.json",
+      "response_sha256": "4dd8f0b88e194117ce3e8b7693623b6b0dfda9c2e3df943ae54171721cf4e06e"
+    },
+    {
+      "url": "https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/info-endpoint/perpetuals",
+      "requested_at_UTC": "2026-10-08T12:38:37.703944+00:00",
+      "method": "GET",
+      "request": null,
+      "HTTP_status": 200,
+      "response_file": "hl_info_docs.response.json",
+      "ID": "CONT0060",
+      "request_record": "raw/hl_info_docs.request.json",
+      "response_sha256": "1b9d14665c030b68d257a29f365489be3074bb3a0e57a83069966174cbe790ae"
+    },
+    {
+      "url": "https://api.hyperliquid.xyz/info",
+      "requested_at_UTC": "2026-10-08T12:38:27.462549+00:00",
+      "method": "POST",
+      "request": {
+        "type": "userNonFundingLedgerUpdates",
+        "user": "0x4079067aa1bdff060c6c45155966d81c79e754e9",
+        "startTime": 1791317400000,
+        "endTime": 1791464400000
+      },
+      "HTTP_status": 200,
+      "response_file": "hl_ledger_0x4079067aa1bdff060c6c45155966d81c79e754e9.response.json",
+      "ID": "CONT0061",
+      "request_record": "raw/hl_ledger_0x4079067aa1bdff060c6c45155966d81c79e754e9.request.json",
+      "response_sha256": "1078f422b67db120b727971ba0c8235ac9b77c973f74fe0714ba29ee64f0691a"
+    },
+    {
+      "url": "https://api.hyperliquid.xyz/info",
+      "requested_at_UTC": "2026-10-08T12:38:27.486375+00:00",
+      "method": "POST",
+      "request": {
+        "type": "userNonFundingLedgerUpdates",
+        "user": "0x68b3a77db46418905c7eaf63324d4adcce06a680",
+        "startTime": 1791317400000,
+        "endTime": 1791464400000
+      },
+      "HTTP_status": 200,
+      "response_file": "hl_ledger_0x68b3a77db46418905c7eaf63324d4adcce06a680.response.json",
+      "ID": "CONT0062",
+      "request_record": "raw/hl_ledger_0x68b3a77db46418905c7eaf63324d4adcce06a680.request.json",
+      "response_sha256": "724f54e11fb35b88e8b9dafc9f206656af5441613b3c57ce18561da32380f6ab"
+    },
+    {
+      "url": "https://api.hyperliquid.xyz/info",
+      "requested_at_UTC": "2026-10-08T12:38:09.826528+00:00",
+      "method": "POST",
+      "request": {
+        "type": "userNonFundingLedgerUpdates",
+        "user": "0x68d6e20a28f9d50ebf798ccf9fae9e3d5e4f1ac4",
+        "startTime": 1791317400000,
+        "endTime": 1791464400000
+      },
+      "HTTP_status": 200,
+      "response_file": "hl_ledger_0x68d6e20a28f9d50ebf798ccf9fae9e3d5e4f1ac4.response.json",
+      "ID": "CONT0063",
+      "request_record": "raw/hl_ledger_0x68d6e20a28f9d50ebf798ccf9fae9e3d5e4f1ac4.request.json",
+      "response_sha256": "f4253b1f8eb1bceeb3ecc4eca47cefbf8b5755e6732b910e7cf8973d897890f2"
+    },
+    {
+      "url": "https://api.hyperliquid.xyz/info",
+      "requested_at_UTC": "2026-10-08T12:38:09.827308+00:00",
+      "method": "POST",
+      "request": {
+        "type": "userNonFundingLedgerUpdates",
+        "user": "0x888795f84f5f81352a7639f1254662ae5897e223",
+        "startTime": 1791317400000,
+        "endTime": 1791464400000
+      },
+      "HTTP_status": 200,
+      "response_file": "hl_ledger_0x888795f84f5f81352a7639f1254662ae5897e223.response.json",
+      "ID": "CONT0064",
+      "request_record": "raw/hl_ledger_0x888795f84f5f81352a7639f1254662ae5897e223.request.json",
+      "response_sha256": "f2d0833f776514b11af5f4f46d7309ca88cabefc2918fce45e91e49ac71607cd"
+    },
+    {
+      "url": "https://api.hyperliquid.xyz/info",
+      "requested_at_UTC": "2026-10-08T12:38:09.825592+00:00",
+      "method": "POST",
+      "request": {
+        "type": "userNonFundingLedgerUpdates",
+        "user": "0xd7efd720adf271b7173dd01a9b81668892bee6b1",
+        "startTime": 1791317400000,
+        "endTime": 1791464400000
+      },
+      "HTTP_status": 200,
+      "response_file": "hl_ledger_0xd7efd720adf271b7173dd01a9b81668892bee6b1.response.json",
+      "ID": "CONT0065",
+      "request_record": "raw/hl_ledger_0xd7efd720adf271b7173dd01a9b81668892bee6b1.request.json",
+      "response_sha256": "17d91041401593b5c75af037fcbbc45ad738d578311e2f381dab314f60cd6051"
+    },
+    {
+      "url": "https://api.hyperliquid.xyz/info",
+      "requested_at_UTC": "2026-10-08T12:38:27.492550+00:00",
+      "method": "POST",
+      "request": {
+        "type": "userNonFundingLedgerUpdates",
+        "user": "0xd9249de6224382ce7791600d1d1f9e5fdf633abb",
+        "startTime": 1791317400000,
+        "endTime": 1791464400000
+      },
+      "HTTP_status": 200,
+      "response_file": "hl_ledger_0xd9249de6224382ce7791600d1d1f9e5fdf633abb.response.json",
+      "ID": "CONT0066",
+      "request_record": "raw/hl_ledger_0xd9249de6224382ce7791600d1d1f9e5fdf633abb.request.json",
+      "response_sha256": "76834c7be7c803479a21ebe00a766e76d8cbd66a744179eefff6a01e995d8795"
+    },
+    {
+      "url": "https://api.hyperliquid.xyz/info",
+      "requested_at_UTC": "2026-10-08T12:40:45.855646+00:00",
+      "method": "POST",
+      "request": {
+        "type": "spotMeta"
+      },
+      "HTTP_status": 200,
+      "response_file": "hl_spot_meta.response.json",
+      "ID": "CONT0067",
+      "request_record": "raw/hl_spot_meta.request.json",
+      "response_sha256": "a84545ef4addc99185c5124f216902af6375ea43e8c64637bb546e3738863fc5"
+    },
+    {
+      "url": "https://api.hyperliquid.xyz/info",
+      "requested_at_UTC": "2026-10-08T12:40:15.957165+00:00",
+      "method": "POST",
+      "request": {
+        "type": "spotClearinghouseState",
+        "user": "0x4079067aa1bdff060c6c45155966d81c79e754e9"
+      },
+      "HTTP_status": 200,
+      "response_file": "hl_spot_state_0x4079067aa1bdff060c6c45155966d81c79e754e9.response.json",
+      "ID": "CONT0068",
+      "request_record": "raw/hl_spot_state_0x4079067aa1bdff060c6c45155966d81c79e754e9.request.json",
+      "response_sha256": "c5607d16882d8c05a7b15ef5bc400793ee57d98043f05cdf47647f764c25c521"
+    },
+    {
+      "url": "https://api.hyperliquid.xyz/info",
+      "requested_at_UTC": "2026-10-08T12:40:15.962327+00:00",
+      "method": "POST",
+      "request": {
+        "type": "spotClearinghouseState",
+        "user": "0x68b3a77db46418905c7eaf63324d4adcce06a680"
+      },
+      "HTTP_status": 200,
+      "response_file": "hl_spot_state_0x68b3a77db46418905c7eaf63324d4adcce06a680.response.json",
+      "ID": "CONT0069",
+      "request_record": "raw/hl_spot_state_0x68b3a77db46418905c7eaf63324d4adcce06a680.request.json",
+      "response_sha256": "6d08e89e0e049cd8d30d979984d0a018664961756f6df1ae847e2afa36e649cc"
+    },
+    {
+      "url": "https://api.hyperliquid.xyz/info",
+      "requested_at_UTC": "2026-10-08T12:40:02.174008+00:00",
+      "method": "POST",
+      "request": {
+        "type": "spotClearinghouseState",
+        "user": "0x68d6e20a28f9d50ebf798ccf9fae9e3d5e4f1ac4"
+      },
+      "HTTP_status": 200,
+      "response_file": "hl_spot_state_0x68d6e20a28f9d50ebf798ccf9fae9e3d5e4f1ac4.response.json",
+      "ID": "CONT0070",
+      "request_record": "raw/hl_spot_state_0x68d6e20a28f9d50ebf798ccf9fae9e3d5e4f1ac4.request.json",
+      "response_sha256": "e318f8d3f40bdb37d33b9b19913777fe139046d78da2c2d456a3bd86376afb6e"
+    },
+    {
+      "url": "https://api.hyperliquid.xyz/info",
+      "requested_at_UTC": "2026-10-08T12:40:02.181322+00:00",
+      "method": "POST",
+      "request": {
+        "type": "spotClearinghouseState",
+        "user": "0x888795f84f5f81352a7639f1254662ae5897e223"
+      },
+      "HTTP_status": 200,
+      "response_file": "hl_spot_state_0x888795f84f5f81352a7639f1254662ae5897e223.response.json",
+      "ID": "CONT0071",
+      "request_record": "raw/hl_spot_state_0x888795f84f5f81352a7639f1254662ae5897e223.request.json",
+      "response_sha256": "f6c7478f822f37626f5447df015d991dcf29cc46c45b9c8f60ce85f8c5adb4df"
+    },
+    {
+      "url": "https://api.hyperliquid.xyz/info",
+      "requested_at_UTC": "2026-10-08T12:40:02.136129+00:00",
+      "method": "POST",
+      "request": {
+        "type": "spotClearinghouseState",
+        "user": "0xd7efd720adf271b7173dd01a9b81668892bee6b1"
+      },
+      "HTTP_status": 200,
+      "response_file": "hl_spot_state_0xd7efd720adf271b7173dd01a9b81668892bee6b1.response.json",
+      "ID": "CONT0072",
+      "request_record": "raw/hl_spot_state_0xd7efd720adf271b7173dd01a9b81668892bee6b1.request.json",
+      "response_sha256": "4ad2069caa35d695919a2c24e9b06a41e79cf0400b1ea03baba344b4a1827295"
+    },
+    {
+      "url": "https://api.hyperliquid.xyz/info",
+      "requested_at_UTC": "2026-10-08T12:40:16.019046+00:00",
+      "method": "POST",
+      "request": {
+        "type": "spotClearinghouseState",
+        "user": "0xd9249de6224382ce7791600d1d1f9e5fdf633abb"
+      },
+      "HTTP_status": 200,
+      "response_file": "hl_spot_state_0xd9249de6224382ce7791600d1d1f9e5fdf633abb.response.json",
+      "ID": "CONT0073",
+      "request_record": "raw/hl_spot_state_0xd9249de6224382ce7791600d1d1f9e5fdf633abb.request.json",
+      "response_sha256": "533415615d12a1bb05cd6d15401b5b7d43ee38a9fb90499c43cf298fd1de9b52"
+    },
+    {
+      "url": "https://arb1.arbitrum.io/rpc",
+      "requested_at_UTC": "2026-10-08T12:35:19.713259+00:00",
+      "method": "POST",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "eth_getBlockByNumber",
+        "params": [
+          "0x1e8af06f",
+          false
+        ]
+      },
+      "HTTP_status": 200,
+      "response_file": "opening_block.response.json",
+      "ID": "CONT0074",
+      "request_record": "raw/opening_block.request.json",
+      "response_sha256": "64743904c034bd18751cf557303fc90d0537ece7b480bc01348154e0fa5485d4"
+    },
+    {
+      "url": "https://rpc.mainnet.chain.robinhood.com",
+      "requested_at_UTC": "2026-10-08T12:40:10.104102+00:00",
+      "method": "POST",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "debug_traceTransaction",
+        "params": [
+          "0x44a5ad893f64a338d607045068dc02e59ddea4e0d6d64ef186b72f0e3e861bc7",
+          {
+            "tracer": "callTracer"
+          }
+        ]
+      },
+      "HTTP_status": 200,
+      "response_file": "rh_first_cashcat_debug.response.json",
+      "ID": "CONT0075",
+      "request_record": "raw/rh_first_cashcat_debug.request.json",
+      "response_sha256": "d136bfda1c2a1903d51ab0231dc7570735c4972511a688dde8ec43533d0111ba"
+    },
+    {
+      "url": "https://rpc.mainnet.chain.robinhood.com",
+      "requested_at_UTC": "2026-10-08T12:40:05.582885+00:00",
+      "method": "POST",
+      "request": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "method": "trace_transaction",
+        "params": [
+          "0x44a5ad893f64a338d607045068dc02e59ddea4e0d6d64ef186b72f0e3e861bc7"
+        ]
+      },
+      "HTTP_status": 200,
+      "response_file": "rh_first_cashcat_trace.response.json",
+      "ID": "CONT0076",
+      "request_record": "raw/rh_first_cashcat_trace.request.json",
+      "response_sha256": "78ac3a8a21766803917ed32014801fb8567f04a02fa366cc4c6893bb7cccce77"
+    }
+  ]
+}

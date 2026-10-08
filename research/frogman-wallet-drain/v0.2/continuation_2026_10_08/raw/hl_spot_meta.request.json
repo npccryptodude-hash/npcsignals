@@ -1,0 +1,10 @@
+{
+  "url": "https://api.hyperliquid.xyz/info",
+  "requested_at_UTC": "2026-10-08T12:40:45.855646+00:00",
+  "method": "POST",
+  "request": {
+    "type": "spotMeta"
+  },
+  "HTTP_status": 200,
+  "response_file": "hl_spot_meta.response.json"
+}
