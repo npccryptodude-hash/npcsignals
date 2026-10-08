@@ -1,0 +1,16 @@
+{
+  "verified_research_commit": "6d681dd5ae57d6629c3f0582a606512035f72020",
+  "verification_date_UTC": "2026-10-08",
+  "method": "Fetch public GitHub commit with git; retrieve every v0.2 path with git show; compare exact bytes against prepared evidence files; independently recompute indexed SHA256 values; compare frozen paths with frozen archive commit; check ledger identifiers in aligned timeline.",
+  "v0_2_files_retrieved": 1318,
+  "byte_mismatches": [],
+  "index_hash_mismatches": [],
+  "frozen_files_changed_since_29732dcb": [],
+  "timeline_rows": 206,
+  "unique_ledger_identifiers": 206,
+  "ledger_range_complete": "F0001-F0206",
+  "new_v0_2_ledger_range": "F0103-F0206",
+  "next_available_ledger_identifier": "F0207",
+  "cryptographic_commit_signature_verified": false,
+  "notes": "Content integrity verified; not a claim of a signed commit. This verification file is outside the v0.2 evidence directory so it does not change the verified package or its checksum index. No frozen v0.1 file was modified. No article was written or published."
+}
