@@ -1,0 +1,11 @@
+claim,reported_amount,asset,public_classification,reproduction,reason,source
+EVM ingress,362.26,ETH,CLAIMED,UNRESOLVED,No case EVM receipt independently retrieved,https://www.sotwe.com/sprunky_eth
+Relay,212.5,ETH,CLAIMED,UNRESOLVED,No case EVM receipt independently retrieved,https://www.sotwe.com/sprunky_eth
+Chainflip,37,ETH,CLAIMED,UNRESOLVED,No case EVM receipt independently retrieved,https://www.sotwe.com/sprunky_eth
+Across,35,ETH,CLAIMED,UNRESOLVED,No case EVM receipt independently retrieved,https://www.sotwe.com/sprunky_eth
+Mayan,34.75,ETH,CLAIMED,UNRESOLVED,No case EVM receipt independently retrieved,https://www.sotwe.com/sprunky_eth
+unlabeled collector,37,ETH,CLAIMED,UNRESOLVED,No case EVM receipt independently retrieved,https://www.sotwe.com/sprunky_eth
+NEAR Intents,2,ETH,CLAIMED,UNRESOLVED,No case EVM receipt independently retrieved,https://www.sotwe.com/sprunky_eth
+live wallet,4,ETH,CLAIMED,UNRESOLVED,No case EVM receipt independently retrieved,https://www.sotwe.com/sprunky_eth
+Privacy Cash deposits,13241,SOL,CLAIMED,CONFIRMED,10 direct RPC receipts; exact total 13240.973780900,privacy_cash_deposits.csv
+No matched withdrawals in analyst scan,,SOL,CLAIMED,UNRESOLVED,Independent pool-wide scan not performed,https://www.sotwe.com/sprunky_eth

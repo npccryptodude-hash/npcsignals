@@ -1,22 +1,32 @@
 # Frogman wallet-drain investigation
 
-**Status:** Active research. **Latest research cutoff:** 2026-10-08. **Evidence version:** v0.1.
+Status: Active research. Documentation language: English.
 
-[Read the frozen v0.1 investigation report](./master_investigation_report_v0.1.md).
+## Frozen v0.1 archive
 
-The report covers a 46-minute Solana incident window backed by 28 finalized transaction receipts and a 102-row instruction/fee ledger (F0001–F0102). The EVM branch and cross-chain exits have **not** yet been independently reproduced. The compromise method, operator and ultimate beneficiary remain unresolved.
+The complete original package is preserved under [frogman_research_v0_1/](./frogman_research_v0_1/), with original filenames, directory structure and bytes. The 57-file ZIP was located in ChatGPT Library. All 56 SHA256SUMS entries verified; the checksum file itself is the 57th file. No separate original manifest was present.
 
-## Evidence archive
+| Evidence category | Files |
+|---|---:|
+| Finalized Solana transaction receipts | 28 |
+| Address-history JSON responses | 2 |
+| CSV records | 8 |
+| Research/methodology/reproducibility Markdown | 4 |
+| Python scripts | 2 |
+| Calculated summary JSON | 1 |
+| Access-error text records | 8 |
+| Retrieved raw source responses | 3 |
+| SHA256SUMS.txt | 1 |
+| Total | 57 |
 
-The original `NPCsignals_Frogman_Research_Package_v0_1.zip` (57 files, including raw JSON-RPC receipts, CSVs, scripts, SHA256SUMS.txt and the report) is preserved in the user's ChatGPT Library as of 2026-10-08. **Only the report is committed to GitHub so far**; this GitHub directory is not yet a self-contained reproducibility archive. Upload the untouched evidence package contents in a subsequent Work session, preserving exact bytes and checksums.
+CSVs: transaction_ledger, asset_disposal, privacy_cash_deposits, timeline, token_account_authorities, wallet_entity_table, source_log and public_claim_tests. The ledger is F0001–F0102; ten verified Privacy Cash deposits total 13,240.973780900 SOL. The 28 receipts include failed and third-party transactions, not 28 unauthorized transfers.
 
-## Methodological boundaries
+[Complete file inventory](./evidence_inventory_v0.1.json). [Frozen source report](./frogman_research_v0_1/master_investigation_report.md). [Existing report](./master_investigation_report_v0.1.md).
 
-- Wallet attribution to Frogman: SUPPORTED, not independently established by underlying attribution receipts.
-- Solana transaction paths and ten Privacy Cash deposits: reproduced from finalized receipts within documented scope.
-- Privacy Cash withdrawal recipients: UNRESOLVED; deterministic provenance stops at deposits.
-- EVM 362.26 ETH, Relay and other exits: public CLAIMS requiring independent reproduction.
-- Do not infer attack vector, beneficial ownership or criminal identity from transaction paths.
-- Never describe unobserved transactions as confirmed.
+The existing report is text-equivalent to the frozen source but lacks its final newline. It remains unchanged. The byte-exact source is preserved inside the archive directory. Original ZIP SHA256: `3fc70011e6e03ee4c6561981050ad9f1a77f1995f69dc2608aa94123694447d9`.
 
-No Medium article has been prepared from this evidence version.
+To verify after retrieving a repository checkout, run `sha256sum -c SHA256SUMS.txt` from `frogman_research_v0_1/`. Preserve these originals; run analysis scripts in a copy if regeneration changes serialization.
+
+## Evidence boundaries
+
+Wallet attribution remains SUPPORTED. The Solana transaction/deposit record is reproduced within its documented scope. Mixed balances are preserved. Privacy Cash withdrawal recipients are not established. EVM claims require independent receipt and bridge-fill verification. Neither fund flow nor a signer/fee payer identifies a human operator or compromise method. No Medium article has been written.

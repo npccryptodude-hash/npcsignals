@@ -1,0 +1,12 @@
+{
+  "raw_receipts": 28,
+  "ledger_rows": 102,
+  "deposit_count": 10,
+  "privacy_deposits_SOL": "13240.9737809",
+  "BP_sent": "1429939.158705563",
+  "BP_disposed": "1429939.15870556",
+  "BP_remaining_raw_units": 3,
+  "sale_count": 6,
+  "capture_date": "2026-10-08",
+  "rpc": "https://api.mainnet-beta.solana.com"
+}

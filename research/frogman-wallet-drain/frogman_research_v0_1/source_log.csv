@@ -1,0 +1,14 @@
+ID,URL,type,scope_and_limit,retrieval_date
+S01,https://api.mainnet-beta.solana.com,primary RPC,Two address histories and 28 finalized receipts captured; exact facts in raw_transactions/,2026-10-08
+S02,https://www.lookonchain.com/feeds/75671,analyst publication,Reported wallet attribution and approximate assets/loss; no independently validated hashes on page,2026-10-08
+S03,https://www.sotwe.com/frogmanhaha,mirror of subject statements,Subject reports loss during sleep and unknown access method; phone/mail checks are self-reported,2026-10-08
+S04,https://www.sotwe.com/sprunky_eth,mirror of analyst trace,"Reported EVM branches, SOL pool claim, negative scan; shortened receipt links unresolved",2026-10-08
+S05,https://telemetr.io/es/channels/2203893277-onchainlens,mirror of analyst channel,Reported two downstream addresses and original post URL,2026-10-08
+S06,https://x.com/OnchainLens/status/2107720182298980406,original post pointer,Direct fetch 403; content seen only in channel mirror,2026-10-08
+S07,https://x.com/frogmanhaha/status/2107702850679943584,original post pointer,Direct fetch 403; do not claim direct retrieval,2026-10-08
+S08,https://provadata.com/traders/frogmanhaha,attribution directory,Abbreviated matching wallets; underlying proof not obtained,2026-10-08
+S09,https://github.com/Privacy-Cash/privacy-cash,primary protocol repository,Mainnet program and commitment/withdrawal design,2026-10-08
+S10,https://raw.githubusercontent.com/Privacy-Cash/privacy-cash/main/anchor/programs/zkcash/src/lib.rs,primary source code,Mainnet declare_id matched; snapshot access/privacy_lib.raw,2026-10-08
+S11,https://docs.robinhood.com/chain/connecting/,primary chain docs,Mainnet network/RPC documentation; queried RPC timed out,2026-10-08
+S12,https://pump.fun/coin/ZesMGYmokFiEuDvNzWeMhB7jxF6eUW8c512vwSKSTNK,token listing,Supports name Just a Backpack,2026-10-08
+S13,https://www.kucoin.com/news/flash/crypto-trader-loses-4m-in-singapore-event-security-breach,secondary report,Search results suggest theories and freeze advice; no executed recovery action reproduced,2026-10-08
