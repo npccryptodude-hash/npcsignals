@@ -1,0 +1,16 @@
+{
+  "url": "https://ethereum-rpc.publicnode.com",
+  "requested_at_UTC": "2026-10-08T08:00:44.734208+00:00",
+  "method": "POST",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_getBalance",
+    "params": [
+      "0x1d68935c108b380CBb86198b002bC4D4A13c89F2",
+      "latest"
+    ]
+  },
+  "HTTP_status": 200,
+  "response_file": "eth_remaining_balance_0x1d68935c108b380CBb86198b002bC4D4A13c89F2.response.json"
+}

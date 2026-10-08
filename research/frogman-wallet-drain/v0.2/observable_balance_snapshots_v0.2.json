@@ -1,0 +1,29 @@
+[
+  {
+    "address": "0x1d68935c108b380CBb86198b002bC4D4A13c89F2",
+    "chain": "Ethereum (1)",
+    "balance_ETH": "0",
+    "requested_at_UTC": "2026-10-08T08:00:44.734208+00:00",
+    "classification": "CONFIRMED",
+    "scope": "Latest-state snapshot only; future retention/control NOT ESTABLISHED",
+    "source_file": "raw_sources/eth_remaining_balance_0x1d68935c108b380CBb86198b002bC4D4A13c89F2.response.json"
+  },
+  {
+    "address": "0x4521eF4Df51A7689d4DB5d8FC598685CB226fF58",
+    "chain": "Ethereum (1)",
+    "balance_ETH": "4",
+    "requested_at_UTC": "2026-10-08T08:00:44.735748+00:00",
+    "classification": "CONFIRMED",
+    "scope": "Latest-state snapshot only; future retention/control NOT ESTABLISHED",
+    "source_file": "raw_sources/eth_remaining_balance_0x4521eF4Df51A7689d4DB5d8FC598685CB226fF58.response.json"
+  },
+  {
+    "address": "0x4bf5bb54C43E3ADDc3F62AB5ec943E16F3806ad0",
+    "chain": "Ethereum (1)",
+    "balance_ETH": "0",
+    "requested_at_UTC": "2026-10-08T08:00:44.735126+00:00",
+    "classification": "CONFIRMED",
+    "scope": "Latest-state snapshot only; future retention/control NOT ESTABLISHED",
+    "source_file": "raw_sources/eth_remaining_balance_0x4bf5bb54C43E3ADDc3F62AB5ec943E16F3806ad0.response.json"
+  }
+]

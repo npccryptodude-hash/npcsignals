@@ -1,0 +1,16 @@
+{
+  "url": "https://arb1.arbitrum.io/rpc",
+  "requested_at_UTC": "2026-10-08T08:02:57.863609+00:00",
+  "method": "POST",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_getBlockByNumber",
+    "params": [
+      "0x1e8b0aea",
+      false
+    ]
+  },
+  "HTTP_status": 200,
+  "response_file": "arb_block_512428778.response.json"
+}

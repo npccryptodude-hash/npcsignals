@@ -30,3 +30,13 @@ To verify after retrieving a repository checkout, run `sha256sum -c SHA256SUMS.t
 ## Evidence boundaries
 
 Wallet attribution remains SUPPORTED. The Solana transaction/deposit record is reproduced within its documented scope. Mixed balances are preserved. Privacy Cash withdrawal recipients are not established. EVM claims require independent receipt and bridge-fill verification. Neither fund flow nor a signer/fee payer identifies a human operator or compromise method. No Medium article has been written.
+
+## v0.2 investigation updates
+
+The archive and v0.1 reports above remain frozen. New English-language research is in [v0.2](./v0.2/), with [master report](./v0.2/master_investigation_report_v0.2.md), [evidence index](./v0.2/evidence_index_v0.2.json), [Relay matched pairs](./v0.2/relay_verified_pairs_v0.2.csv), and [reproducibility methodology](./v0.2/methodology_and_reproducibility_v0.2.md).
+
+New unique ledger range F0103–F0206 spans four CSVs: transaction_ledger_v0.2 (evidence enrichments), evm_transaction_ledger_v0.2 (15 Ethereum outgoing transactions), evm_extended_ledger_v0.2 (funding, internal credits, onward routing and Relay fills), and chain_extension_ledger_v0.2 (Robinhood transfers and Arbitrum consolidation). Do not add amounts across successive hops or count repeated per-transaction fees per event.
+
+Narrow CONFIRMED findings include 362.262907164350756807 ETH sent from the Ethereum routing address; six Relay deposits totaling 212.499 ETH matched to 561850.214994 USDC on Arbitrum; and six subsequent USDC transfers to one consolidation recipient. Three Robinhood token transfers from the affected address to the receiving address are reproduced at 2026-10-06T20:14:00Z within the examined window. The Robinhood-to-Ethereum bridge origin match, downstream recipient ownership and compromise method remain UNRESOLVED.
+
+Supporting files include raw request/response records, execution traces, token-state snapshots, zero-value event exclusions, wallet/entity tables, graph data, scoped EVM timelines and verification scripts. See the index for a complete path/size/checksum inventory and unresolved_questions_v0.2.md for next nodes. No article has been written or published.

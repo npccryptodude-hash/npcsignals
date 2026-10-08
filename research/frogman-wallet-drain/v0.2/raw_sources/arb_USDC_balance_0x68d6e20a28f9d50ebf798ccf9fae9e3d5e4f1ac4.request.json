@@ -1,0 +1,19 @@
+{
+  "url": "https://arb1.arbitrum.io/rpc",
+  "requested_at_UTC": "2026-10-08T07:57:15.204499+00:00",
+  "method": "POST",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_call",
+    "params": [
+      {
+        "to": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+        "data": "0x70a0823100000000000000000000000068d6e20a28f9d50ebf798ccf9fae9e3d5e4f1ac4"
+      },
+      "latest"
+    ]
+  },
+  "HTTP_status": 200,
+  "response_file": "arb_USDC_balance_0x68d6e20a28f9d50ebf798ccf9fae9e3d5e4f1ac4.response.json"
+}

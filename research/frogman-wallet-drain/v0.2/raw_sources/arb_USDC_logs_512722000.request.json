@@ -1,0 +1,30 @@
+{
+  "url": "https://arb1.arbitrum.io/rpc",
+  "requested_at_UTC": "2026-10-08T08:00:03.428852+00:00",
+  "method": "POST",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_getLogs",
+    "params": [
+      {
+        "fromBlock": "0x1e8f8450",
+        "toBlock": "0x1e9105ae",
+        "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          [
+            "0x0000000000000000000000004079067aa1bdff060c6c45155966d81c79e754e9",
+            "0x00000000000000000000000068b3a77db46418905c7eaf63324d4adcce06a680",
+            "0x00000000000000000000000068d6e20a28f9d50ebf798ccf9fae9e3d5e4f1ac4",
+            "0x000000000000000000000000888795f84f5f81352a7639f1254662ae5897e223",
+            "0x000000000000000000000000d7efd720adf271b7173dd01a9b81668892bee6b1",
+            "0x000000000000000000000000d9249de6224382ce7791600d1d1f9e5fdf633abb"
+          ]
+        ]
+      }
+    ]
+  },
+  "HTTP_status": 200,
+  "response_file": "arb_USDC_logs_512722000.response.json"
+}

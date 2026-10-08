@@ -1,0 +1,44 @@
+[
+  {
+    "tx": "0xf194412af54f714b85e9e732ffdef2e214651391a26cd052c230d74f5a33b76e",
+    "token_sender_in_event": "0xd7efd720adf271b7173dd01a9b81668892bee6b1",
+    "destination": "0x2df1df582d0a1efc7178fd78b2bcd9aa08a73df7",
+    "transaction_sender": "0xdd202e6b7107a849fb50ed928f1756a2f60e4a04",
+    "notes": "Zero-value event, not a monetary outflow; token sender is not necessarily transaction signer."
+  },
+  {
+    "tx": "0x16e6f266fcd0427f8ba145415acce0a5bf82fd7b0aa6a0f82805ca3ace3f6aec",
+    "token_sender_in_event": "0x68d6e20a28f9d50ebf798ccf9fae9e3d5e4f1ac4",
+    "destination": "0x2df1df582d0a1efc7178fd78b2bcd9aa08a73df7",
+    "transaction_sender": "0xdd202e6b7107a849fb50ed928f1756a2f60e4a04",
+    "notes": "Zero-value event, not a monetary outflow; token sender is not necessarily transaction signer."
+  },
+  {
+    "tx": "0x87bad7a36e11964c8cc2f794b9c92cd81e5dabfa195f09bfcec7dfbc95d913f2",
+    "token_sender_in_event": "0x888795f84f5f81352a7639f1254662ae5897e223",
+    "destination": "0x2df1df582d0a1efc7178fd78b2bcd9aa08a73df7",
+    "transaction_sender": "0xdd202e6b7107a849fb50ed928f1756a2f60e4a04",
+    "notes": "Zero-value event, not a monetary outflow; token sender is not necessarily transaction signer."
+  },
+  {
+    "tx": "0xdc8c606b8f029eb7db15e16c92fa120745a9ecf0f04c129c7c7908d76ffdcf67",
+    "token_sender_in_event": "0x4079067aa1bdff060c6c45155966d81c79e754e9",
+    "destination": "0x2df1df582d0a1efc7178fd78b2bcd9aa08a73df7",
+    "transaction_sender": "0xdd202e6b7107a849fb50ed928f1756a2f60e4a04",
+    "notes": "Zero-value event, not a monetary outflow; token sender is not necessarily transaction signer."
+  },
+  {
+    "tx": "0xac0ff9a5efb732d3e13f4506970ffb9e46cd6cfdb4771e8d9fdf26e53144062d",
+    "token_sender_in_event": "0x68b3a77db46418905c7eaf63324d4adcce06a680",
+    "destination": "0x2df1df582d0a1efc7178fd78b2bcd9aa08a73df7",
+    "transaction_sender": "0xdd202e6b7107a849fb50ed928f1756a2f60e4a04",
+    "notes": "Zero-value event, not a monetary outflow; token sender is not necessarily transaction signer."
+  },
+  {
+    "tx": "0xf4918ef7084cbae5611f408234d390df99b7ecc5d2e656d41451bc1f63a2d1c3",
+    "token_sender_in_event": "0xd9249de6224382ce7791600d1d1f9e5fdf633abb",
+    "destination": "0x2df1df582d0a1efc7178fd78b2bcd9aa08a73df7",
+    "transaction_sender": "0xdd202e6b7107a849fb50ed928f1756a2f60e4a04",
+    "notes": "Zero-value event, not a monetary outflow; token sender is not necessarily transaction signer."
+  }
+]
