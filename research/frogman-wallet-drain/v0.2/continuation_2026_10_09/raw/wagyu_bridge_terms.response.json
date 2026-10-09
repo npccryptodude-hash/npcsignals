@@ -1,0 +1,1 @@
+{"fees":{"depositFeeRate":0,"withdrawalFeeRate":0.02,"withdrawalFlat":{"xmr":0,"trx":0,"zec":0},"withdrawalFlatXmr":0,"withdrawalFlatTrx":0},"minimums":{"xmr":0.01,"trx":5,"zec":0.0001},"assets":[{"key":"xmr","deposit":true,"withdraw":true},{"key":"trx","deposit":false,"withdraw":false},{"key":"zec","deposit":true,"withdraw":true}]}

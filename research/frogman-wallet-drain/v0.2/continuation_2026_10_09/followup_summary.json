@@ -1,0 +1,77 @@
+{
+  "classification": "CONFIRMED",
+  "starting_commit": "8ae2af0c9e3e58f4cb3c0f92a28c5406b7752a33",
+  "previous_last_ID": "F0425",
+  "new_ID_range": [
+    "F0426",
+    "F0431"
+  ],
+  "query_cutoff": {
+    "endTime_ms": 1791529488870
+  },
+  "perpetual_balance_total": "0.024994",
+  "accounts": [
+    {
+      "address": "0xd7efd720adf271b7173dd01a9b81668892bee6b1",
+      "new_returned_nonfunding_updates": 0,
+      "new_returned_fills": 0,
+      "XMR1_snapshot": "179.224455",
+      "spot_USDC_snapshot": "5.9906",
+      "perpetual_raw_USD_balance": "0.004581",
+      "classification": "CONFIRMED",
+      "notes": "Returned API observations only; not proof of complete funding history, no funding-rate review, consensus inclusion, signer or beneficial owner."
+    },
+    {
+      "address": "0x68d6e20a28f9d50ebf798ccf9fae9e3d5e4f1ac4",
+      "new_returned_nonfunding_updates": 0,
+      "new_returned_fills": 0,
+      "XMR1_snapshot": "166.663254",
+      "spot_USDC_snapshot": "7.5102",
+      "perpetual_raw_USD_balance": "0.009817",
+      "classification": "CONFIRMED",
+      "notes": "Returned API observations only; not proof of complete funding history, no funding-rate review, consensus inclusion, signer or beneficial owner."
+    },
+    {
+      "address": "0x888795f84f5f81352a7639f1254662ae5897e223",
+      "new_returned_nonfunding_updates": 0,
+      "new_returned_fills": 0,
+      "XMR1_snapshot": "166.263534",
+      "spot_USDC_snapshot": "1.5887",
+      "perpetual_raw_USD_balance": "0.000787",
+      "classification": "CONFIRMED",
+      "notes": "Returned API observations only; not proof of complete funding history, no funding-rate review, consensus inclusion, signer or beneficial owner."
+    },
+    {
+      "address": "0x4079067aa1bdff060c6c45155966d81c79e754e9",
+      "new_returned_nonfunding_updates": 0,
+      "new_returned_fills": 0,
+      "XMR1_snapshot": "163.055781",
+      "spot_USDC_snapshot": "4.8408",
+      "perpetual_raw_USD_balance": "0.001339",
+      "classification": "CONFIRMED",
+      "notes": "Returned API observations only; not proof of complete funding history, no funding-rate review, consensus inclusion, signer or beneficial owner."
+    },
+    {
+      "address": "0x68b3a77db46418905c7eaf63324d4adcce06a680",
+      "new_returned_nonfunding_updates": 0,
+      "new_returned_fills": 0,
+      "XMR1_snapshot": "162.326292",
+      "spot_USDC_snapshot": "3.3855",
+      "perpetual_raw_USD_balance": "0.005105",
+      "classification": "CONFIRMED",
+      "notes": "Returned API observations only; not proof of complete funding history, no funding-rate review, consensus inclusion, signer or beneficial owner."
+    },
+    {
+      "address": "0xd9249de6224382ce7791600d1d1f9e5fdf633abb",
+      "new_returned_nonfunding_updates": 0,
+      "new_returned_fills": 0,
+      "XMR1_snapshot": "160.417629",
+      "spot_USDC_snapshot": "2.016",
+      "perpetual_raw_USD_balance": "0.003365",
+      "classification": "CONFIRMED",
+      "notes": "Returned API observations only; not proof of complete funding history, no funding-rate review, consensus inclusion, signer or beneficial owner."
+    }
+  ],
+  "negative_finding_scope": "Six users, two history endpoints from incident start to explicit cutoff, plus separately timed spot/perpetual snapshots. No new returned fills or non-funding updates relative to saved responses; unchanged XMR1 spot balances. Not a claim of absolute absence of withdrawals, undisclosed orders or other-chain activity.",
+  "provenance": "No native Monero output or matched Wagyu withdrawal is established."
+}

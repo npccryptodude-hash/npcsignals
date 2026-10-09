@@ -1,0 +1,8 @@
+{
+  "url": "https://app.across.to/api/deposit/status?originChainId=8453&depositId=6301830",
+  "requested_at_UTC": "2026-10-09T07:08:05.618785+00:00",
+  "method": "GET",
+  "request": null,
+  "HTTP_status": 200,
+  "response_file": "across_deposit_status_hint.response.json"
+}

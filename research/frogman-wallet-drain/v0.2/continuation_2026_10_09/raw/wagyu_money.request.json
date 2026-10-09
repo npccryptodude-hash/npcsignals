@@ -1,0 +1,8 @@
+{
+  "url": "https://docs.wagyu.xyz/money-and-settlement",
+  "requested_at_UTC": "2026-10-09T07:05:55.717929+00:00",
+  "method": "GET",
+  "request": null,
+  "HTTP_status": 200,
+  "response_file": "wagyu_money.response.json"
+}

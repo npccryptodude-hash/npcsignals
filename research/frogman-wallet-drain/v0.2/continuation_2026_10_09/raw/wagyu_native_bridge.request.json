@@ -1,0 +1,8 @@
+{
+  "url": "https://docs.wagyu.xyz/native-bridge",
+  "requested_at_UTC": "2026-10-09T07:05:44.875688+00:00",
+  "method": "GET",
+  "request": null,
+  "HTTP_status": 200,
+  "response_file": "wagyu_native_bridge.response.json"
+}

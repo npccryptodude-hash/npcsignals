@@ -1,0 +1,11 @@
+{
+  "url": "https://api.hyperliquid.xyz/info",
+  "requested_at_UTC": "2026-10-09T07:05:14.664302+00:00",
+  "method": "POST",
+  "request": {
+    "type": "clearinghouseState",
+    "user": "0x68b3a77db46418905c7eaf63324d4adcce06a680"
+  },
+  "HTTP_status": 200,
+  "response_file": "clearinghouseState_0x68b3a77db46418905c7eaf63324d4adcce06a680.response.json"
+}
