@@ -1,0 +1,16 @@
+{
+  "url": "https://mainnet.base.org",
+  "requested_at_UTC": "2026-10-09T07:25:47.738495+00:00",
+  "method": "POST",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_getBlockByNumber",
+    "params": [
+      "0x31d94f7",
+      false
+    ]
+  },
+  "HTTP_status": 200,
+  "response_file": "base_official_origin_block.response.txt"
+}

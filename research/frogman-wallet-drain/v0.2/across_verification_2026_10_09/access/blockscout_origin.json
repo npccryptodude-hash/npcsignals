@@ -1,0 +1,9 @@
+{
+  "url": "https://base.blockscout.com/api/v2/transactions/0x2310d627c3c369a73b480bd1bb6bdcffd26615ba84ce02a0f36858722890d366",
+  "requested_at_UTC": "2026-10-09T07:24:58.917949+00:00",
+  "method": "GET",
+  "request": null,
+  "HTTP_status": 403,
+  "error": "HTTP Error 403: Forbidden",
+  "limitation": "Access rejected; no transaction or chain conclusion follows."
+}

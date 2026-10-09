@@ -1,0 +1,16 @@
+{
+  "url": "https://base-rpc.publicnode.com",
+  "requested_at_UTC": "2026-10-09T07:24:57.012108+00:00",
+  "method": "POST",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_getTransactionReceipt",
+    "params": [
+      "0x2310d627c3c369a73b480bd1bb6bdcffd26615ba84ce02a0f36858722890d366"
+    ]
+  },
+  "HTTP_status": 403,
+  "error": "HTTP Error 403: Forbidden",
+  "limitation": "Access rejected; no transaction or chain conclusion follows."
+}

@@ -1,0 +1,38 @@
+{
+  "ID": "F0434",
+  "classification": "CONFIRMED",
+  "record_type": "cross_chain_edge; association only, not additional transfer/loss",
+  "origin_transaction": "0x2310d627c3c369a73b480bd1bb6bdcffd26615ba84ce02a0f36858722890d366",
+  "origin_chain_id": 8453,
+  "destination_transaction": "0x5d6b414f8b7ecdcee5ffdb378ceb3de228cec732037437d759900ed7b34d1b1a",
+  "destination_chain_id": 1,
+  "deposit_id": 6301830,
+  "origin_amount_wei": "43625009525741763214",
+  "destination_amount_wei": "43614308988719623177",
+  "sender": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+  "destination_recipient": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+  "bridge": "Across deposit/fill protocol event correspondence",
+  "matched_parameters": [
+    "origin chain",
+    "destination chain",
+    "deposit ID",
+    "depositor",
+    "recipient",
+    "input token",
+    "output token",
+    "input amount",
+    "output amount",
+    "exclusive relayer",
+    "fill deadline",
+    "exclusivity deadline",
+    "empty origin message and zero fill message hash"
+  ],
+  "evidence": [
+    "F0432",
+    "F0433",
+    "continuation_2026_10_09/raw/across_deposit_status_hint.response.json"
+  ],
+  "input_output_difference_token_units": "0.010700537022140037",
+  "fee_limitation": "Exact difference established; division among bridge/relayer/LP fees unresolved.",
+  "provenance_boundary": "Deterministic protocol linkage through mixed bridge liquidity. No common owner, final beneficiary, prior funding source or Robinhood association inferred."
+}
