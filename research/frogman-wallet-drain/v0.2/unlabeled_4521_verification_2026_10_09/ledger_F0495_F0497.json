@@ -1,0 +1,70 @@
+[
+  {
+    "ID": "F0495",
+    "classification": "CONFIRMED",
+    "record_type": "Fresh reproduction of F0156; not additional loss",
+    "chain": "Ethereum (1)",
+    "source_transaction": "0xe002d973edd8363629247cad55588e5a49cdb7bd5c089d2da0de32766b12c8f8",
+    "source_wallet": "0x3b749498a5155f0c5e603b2867d72f95786eee9a",
+    "destination_wallet": "0x4521ef4df51a7689d4db5d8fc598685cb226ff58",
+    "asset": "ETH",
+    "amount": "4",
+    "block_number": 26137048,
+    "timestamp_UTC": "2026-10-07T00:53:11+00:00",
+    "status": "success",
+    "gas_fee_wei": "44650051446000",
+    "protocol_events": [],
+    "evidence_files": [
+      "access/inbound_tx.response.txt",
+      "access/inbound_receipt.response.txt",
+      "access/inbound_block.response.txt"
+    ],
+    "attribution_significance": "Native transfer only; no bridge, named service, control or beneficiary attribution."
+  },
+  {
+    "ID": "F0496",
+    "classification": "CONFIRMED",
+    "record_type": "Account type at case and fixed current block",
+    "address": "0x4521ef4df51a7689d4db5d8fc598685cb226ff58",
+    "chain": "Ethereum (1)",
+    "account_type": "Ordinary EOA with no observed signed outflow",
+    "code_at_case_block": "0x",
+    "pre_case_balance_wei": "0",
+    "pre_case_nonce": 0,
+    "snapshot_block": 26153663,
+    "snapshot_UTC": "2026-10-09T08:29:47+00:00",
+    "snapshot_balance_wei": "4000000000000000000",
+    "snapshot_nonce": 0,
+    "snapshot_code": "0x",
+    "functional_classification": "EOA holding boundary",
+    "service_identity_classification": "UNRESOLVED",
+    "evidence_files": [
+      "access/destination_code.response.txt",
+      "access/destination_balance_pre.response.txt",
+      "access/destination_nonce_pre.response.txt",
+      "access/head.response.txt",
+      "access/destination_snapshot_balance.response.txt",
+      "access/destination_snapshot_nonce.response.txt",
+      "access/destination_snapshot_code.response.txt"
+    ],
+    "attribution_significance": "No contract code, no sent-transaction nonce and retained 4 ETH at snapshot. Does not identify control or beneficiary."
+  },
+  {
+    "ID": "F0497",
+    "classification": "UNRESOLVED",
+    "record_type": "Service identity and continuation closed at present evidence",
+    "address": "0x4521ef4df51a7689d4db5d8fc598685cb226ff58",
+    "chain": "Ethereum (1)",
+    "finding": "No independently verified exchange, custody, router, bridge or other named service; no reproduced onward edge",
+    "bounded_negative": "Retrieved Blockscout ordinary history has one case inbound and no next page; internal and token histories empty. Fixed-block RPC balance is 4 ETH and nonce zero. Snapshot is dated, not a prediction or chain-wide exclusion of every possible mechanism.",
+    "evidence_files": [
+      "access/destination_metadata.response.txt",
+      "access/destination_transactions.response.txt",
+      "access/destination_internal-transactions.response.txt",
+      "access/destination_token-transfers.response.txt",
+      "access/destination_snapshot_balance.response.txt",
+      "access/destination_snapshot_nonce.response.txt"
+    ],
+    "attribution_significance": "Stop. No external conversion or case withdrawal, beneficiary, loss addition or Privacy Cash linkage established."
+  }
+]
