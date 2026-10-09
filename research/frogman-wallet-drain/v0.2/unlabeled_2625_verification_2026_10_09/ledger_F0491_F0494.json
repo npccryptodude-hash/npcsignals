@@ -1,0 +1,100 @@
+[
+  {
+    "ID": "F0491",
+    "classification": "CONFIRMED",
+    "record_type": "Fresh reproduction of F0153",
+    "chain": "Ethereum (1)",
+    "source_transaction": "0x6af96ed173b572ab313de0e061c94572d7c4db07552c770d1b583a692269526f",
+    "source_wallet": "0xffd7a4656e6f44876d5c30da800686894e9d4ab3",
+    "destination_wallet": "0x2625857ea267f4a1a150f6c9d6491b69d3bab324",
+    "asset": "ETH",
+    "amount": "18.5",
+    "amount_wei": "18500000000000000000",
+    "block_number": 26136700,
+    "timestamp_UTC": "2026-10-06T23:43:23+00:00",
+    "status": "success",
+    "network_fee_ETH": "0.000050229239865",
+    "protocol_events": [],
+    "attribution_significance": "Direct transaction confirmed. No shared owner, custody or beneficiary. Routed assets do not add losses.",
+    "evidence_files": [
+      "access/inbound_tx.response.txt",
+      "access/inbound_receipt.response.txt",
+      "access/inbound_block.response.txt"
+    ]
+  },
+  {
+    "ID": "F0492",
+    "classification": "CONFIRMED",
+    "record_type": "Fresh reproduction of F0155",
+    "chain": "Ethereum (1)",
+    "source_transaction": "0x1568bec4f8813938c3a716ba37feac8dc29d93459d6cd894f21b9fb0e2a63102",
+    "source_wallet": "0x2625857ea267f4a1a150f6c9d6491b69d3bab324",
+    "destination_wallet": "0x0b3e9b8c79a59832bdff3bc63ca6a1c024e658a0",
+    "asset": "ETH",
+    "amount": "18.499984748348312",
+    "amount_wei": "18499984748348312000",
+    "block_number": 26136706,
+    "timestamp_UTC": "2026-10-06T23:44:35+00:00",
+    "status": "success",
+    "network_fee_ETH": "0.000006806178435",
+    "protocol_events": [],
+    "attribution_significance": "Direct transaction confirmed. No shared owner, custody or beneficiary. Routed assets do not add losses.",
+    "evidence_files": [
+      "access/outbound_tx.response.txt",
+      "access/outbound_receipt.response.txt",
+      "access/outbound_block.response.txt"
+    ],
+    "account_type": "Ordinary EOA / observed forwarder CONFIRMED; service identity UNRESOLVED",
+    "pre_case_balance_ETH": "0"
+  },
+  {
+    "ID": "F0493",
+    "classification": "CONFIRMED",
+    "record_type": "New direct collector outflow; case-specific amount attribution UNRESOLVED",
+    "chain": "Ethereum (1)",
+    "source_transaction": "0x76f120513f7af9f19ae67c6aefe146402c6149beb67fa0c14d947e7c999b13d8",
+    "source_wallet": "0x0b3e9b8c79a59832bdff3bc63ca6a1c024e658a0",
+    "destination_wallet": "0x9be5b8a7314552fa47feb1355cd5b4adc7bb7516",
+    "asset": "ETH",
+    "amount": "18.499988909840297",
+    "amount_wei": "18499988909840297000",
+    "block_number": 26136712,
+    "timestamp_UTC": "2026-10-06T23:45:47+00:00",
+    "status": "success",
+    "network_fee_ETH": "0.000040452630078",
+    "protocol_events": [],
+    "attribution_significance": "Direct transaction confirmed. No shared owner, custody or beneficiary. Routed assets do not add losses.",
+    "evidence_files": [
+      "access/onward_tx.response.txt",
+      "access/onward_receipt.response.txt",
+      "access/onward_block.response.txt"
+    ],
+    "pre_case_balance_ETH": "0.000049308433335",
+    "outflow_minus_case_inflow_ETH": "0.000004161491985",
+    "case_specific_amount_classification": "UNRESOLVED; do not assign the entire outflow to the case"
+  },
+  {
+    "ID": "F0494",
+    "classification": "CONFIRMED",
+    "record_type": "EOA mixed-flow collector and attribution limit",
+    "address": "0x0b3e9b8c79a59832bdff3bc63ca6a1c024e658a0",
+    "chain": "Ethereum (1)",
+    "code_at_case_block": "0x",
+    "account_type": "Ordinary EOA",
+    "functional_classification": "Multi-inflow forwarding / pooled native balance",
+    "service_identity_classification": "UNRESOLVED",
+    "pre_case_balance_ETH": "0.000049308433335",
+    "pre_case_sender_nonce": 292,
+    "post_outflow_balance_ETH": "0.000004694311272",
+    "attribution_significance": "CONFIRMED behavior, not a named service. Case arrival and exact subsequent transfer share this account, but the outflow consumes pooled ETH and exceeds case receipt. Stop at existing F0490 boundary 0x9be5b8a7314552fa47feb1355cd5b4adc7bb7516. No control or beneficiary linkage.",
+    "evidence_files": [
+      "access/collector_code.response.txt",
+      "access/collector_inbound_pre_balance.response.txt",
+      "access/collector_nonce_pre.response.txt",
+      "access/collector_onward_pre_balance.response.txt",
+      "access/collector_onward_post_balance.response.txt",
+      "access/collector_transactions.response.txt",
+      "access/onward_receipt.response.txt"
+    ]
+  }
+]
