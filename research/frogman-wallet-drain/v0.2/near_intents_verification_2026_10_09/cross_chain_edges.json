@@ -1,0 +1,85 @@
+[
+  {
+    "classification": "CONFIRMED",
+    "protocol_identifier": "NEAR Intents 1Click / OMFT / OmniBridge",
+    "intent_hash": "B6K3ESzy61mufynMNqXT3hezs5FAjuX1YZMqPTFFG6N3",
+    "correlation_id": "9dfbff7b-657b-49de-8cfa-1f0a9babe5c6",
+    "attribution_significance": "Exact protocol/account roles and publicly documented treasury endpoint only. Solver account labels do not identify a human or business operator, common control, custody relationship or final beneficiary. Internal case account is not independently assigned to the origin wallet owner.",
+    "edge_type": "Ethereum \u2192 NEAR deposit credit",
+    "source_transaction": "0xedfd6d0be46db66dcf6f3e9d60875c766ec164f1a3339408fe703bc5e9427ce5",
+    "destination_transaction": "7SgVFAvXE5t9Fvo4B6oTnnfQdv6KACWJukyWGzy1A889",
+    "source_chain": "Ethereum (1)",
+    "destination_chain": "NEAR mainnet",
+    "source_wallet": "0x114e6c4f7d341aee968045c22548cbdc25c44a7a",
+    "source_deposit_address": "0xbe8647262afcee826c55135e272eb13d81cade3f",
+    "destination_protocol": "intents.near",
+    "destination_wallet": "b303273a5d9c81dd6fc7e2552698b9bda2c96cf996b05197382b4cd9d6545081",
+    "asset_in": "native ETH",
+    "amount_in": "2",
+    "asset_out": "nep141:eth.omft.near",
+    "amount_out": "2",
+    "protocol_role": "OMFT deposit manager explicitly records original Ethereum transaction in BRIDGED_FROM memo; mint credits exact case account",
+    "fees": "Ethereum execution gas separately recorded; no credit deduction observed"
+  },
+  {
+    "classification": "CONFIRMED",
+    "protocol_identifier": "NEAR Intents 1Click / OMFT / OmniBridge",
+    "intent_hash": "B6K3ESzy61mufynMNqXT3hezs5FAjuX1YZMqPTFFG6N3",
+    "correlation_id": "9dfbff7b-657b-49de-8cfa-1f0a9babe5c6",
+    "attribution_significance": "Exact protocol/account roles and publicly documented treasury endpoint only. Solver account labels do not identify a human or business operator, common control, custody relationship or final beneficiary. Internal case account is not independently assigned to the origin wallet owner.",
+    "edge_type": "NEAR \u2192 Solana withdrawal finalization",
+    "source_transaction": "2H4dQdGGq1kvKVsFhBXVEy1HmV9UeFtBTnUkgysrpkQe",
+    "destination_transaction": "664ymqCCGaTribMUr5Ezix1L8b5DdXSeRFx48qu1PpNUGjZSTZdy7YEqVbhSCdYZfzBCQGCj16iFMt1f19tmVweK",
+    "source_chain": "NEAR mainnet",
+    "destination_chain": "Solana mainnet",
+    "source_wallet": "b303273a5d9c81dd6fc7e2552698b9bda2c96cf996b05197382b4cd9d6545081",
+    "source_protocol": "intents.near \u2192 omni.bridge.near",
+    "destination_wallet": "JA3iQS6ZSv6L2jhnKR2XMCJThJVorvNydUmYDf6Bwhs6",
+    "asset_in": "nep141:sol.omft.near",
+    "amount_in": "44.473890045",
+    "asset_out": "native SOL",
+    "amount_out": "44.473890045",
+    "origin_nonce": 606162,
+    "destination_nonce": 437739,
+    "solver_accounts": [
+      "crux-solver.near",
+      "solver-priv-liq.near"
+    ],
+    "protocol_role": "OmniBridge signed transfer payload matches both protocol nonces, amount and recipient",
+    "fees": {
+      "input_ETH_allocation": [
+        {
+          "recipient": "7066024d3f20f94de601c003163367873cca78507eeca4df66d9be645f197f05",
+          "raw": "1989000000000"
+        },
+        {
+          "recipient": "dde5bb6ba7cee1b4343211a31b4ee3809fac0ca13b38a398c8ec401df658ccdc",
+          "raw": "1000000000000000"
+        },
+        {
+          "recipient": "b2d6d5dfb2c2ead9f0ced70886c91b8cc32a12640e897b878a7d74afe0ca6a14",
+          "raw": "10000000000000000"
+        },
+        {
+          "recipient": "crux-solver.near",
+          "raw": "1988998011000000000"
+        }
+      ],
+      "app_fee_total_ETH": "0.011",
+      "app_fee_basis_points": 55,
+      "case_ETH_protocol_fee_raw": "1989000000000",
+      "case_ETH_protocol_fee": "0.000001989",
+      "SOL_received_in_case_token_diff_raw": "44473976022",
+      "SOL_spent_for_withdrawal_funding_raw": "85977",
+      "SOL_native_output_raw": "44473890045",
+      "NEAR_native_fee_parameter_yocto": "1953125000128365688403",
+      "NEAR_native_fee_parameter": "0.001953125000128365688403",
+      "withdraw_fee_API_quote_lamports": "86107",
+      "refund_fee_API_quote_wei": "35000000000000",
+      "Solana_transaction_network_fee_lamports": 5000,
+      "Ethereum_deposit_gas_fee_wei": "46160343033000",
+      "Ethereum_sweep_gas_fee_wei": "14340052650000",
+      "limitation": "Quote withdrawal fee 86107 lamports differs from observed SOL funding debit 85977; do not force equality. Native storage/bridge funding parameter is not independently proved fully consumed. No independent market spread or USD loss is asserted."
+    }
+  }
+]

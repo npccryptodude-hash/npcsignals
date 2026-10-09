@@ -1,0 +1,9 @@
+{
+  "url": "https://1click.chaindefuser.com/v0/status?depositAddress=0x2cff890f0378a11913b6129b2e97417a2c302680",
+  "requested_at_UTC": "2026-10-09T08:04:53.316934+00:00",
+  "method": "GET",
+  "request": null,
+  "HTTP_status": 404,
+  "error": "HTTP Error 404: Not Found",
+  "limitation": "Access rejected; no transaction or chain conclusion follows."
+}

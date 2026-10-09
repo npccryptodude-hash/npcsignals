@@ -1,0 +1,15 @@
+{
+  "url": "https://archival-rpc.mainnet.near.org",
+  "requested_at_UTC": "2026-10-09T08:07:24.700481+00:00",
+  "method": "POST",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "block",
+    "params": {
+      "block_id": "7Qc13QKu1TojC774wrPZoc9BMHw7HWMeK68R1eLumNgC"
+    }
+  },
+  "HTTP_status": 200,
+  "response_file": "near_block_7Qc13QKu1TojC774wrPZoc9BMHw7HWMeK68R1eLumNgC.response.txt"
+}

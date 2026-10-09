@@ -1,0 +1,18 @@
+{
+  "latest_ID": "F0486",
+  "origin_reproduced": true,
+  "destination_reproduced": true,
+  "classification": "CONFIRMED",
+  "composite_routes": 1,
+  "underlying_cross_chain_edges": 2,
+  "ETH_input": "2",
+  "SOL_output": "44.473890045",
+  "canonical_NEAR_execution_reproduced": true,
+  "both_OmniBridge_nonces_match": true,
+  "prior_rows_unchanged": true,
+  "remaining_gaps": [
+    "Complete upstream provenance and owner/control/custody/beneficiary attribution unresolved.",
+    "Solver account roles verified without independent human/business identity.",
+    "Standalone quote, signed-intent and MPC signature validation, deployed bytecode audit and consensus inclusion proof not performed."
+  ]
+}

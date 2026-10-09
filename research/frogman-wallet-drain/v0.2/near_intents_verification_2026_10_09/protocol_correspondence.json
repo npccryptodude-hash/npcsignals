@@ -1,0 +1,481 @@
+{
+  "api_correlation_id": "9dfbff7b-657b-49de-8cfa-1f0a9babe5c6",
+  "intent_hash": "B6K3ESzy61mufynMNqXT3hezs5FAjuX1YZMqPTFFG6N3",
+  "deposit_address": "0xbe8647262afcee826c55135e272eb13d81cade3f",
+  "Ethereum_origin_transaction": "0xedfd6d0be46db66dcf6f3e9d60875c766ec164f1a3339408fe703bc5e9427ce5",
+  "Ethereum_sweep_transaction": "0xcb2039fffcaa68d8526f2bce2d492bbd595168d9bc3c73c9dcf7d8b27561df77",
+  "deposit_manager": "bridge-mng.near",
+  "NEAR_bridge_contract": "omft.near",
+  "NEAR_asset_contract": "eth.omft.near",
+  "NEAR_verifier": "intents.near",
+  "NEAR_case_account": "b303273a5d9c81dd6fc7e2552698b9bda2c96cf996b05197382b4cd9d6545081",
+  "NEAR_deposit_transaction": "7SgVFAvXE5t9Fvo4B6oTnnfQdv6KACWJukyWGzy1A889",
+  "NEAR_settlement_transaction": "2H4dQdGGq1kvKVsFhBXVEy1HmV9UeFtBTnUkgysrpkQe",
+  "NEAR_transaction_submitter": "intents.near",
+  "primary_solver_account": "crux-solver.near",
+  "withdrawal_funding_solver_account": "solver-priv-liq.near",
+  "NEAR_withdrawal_contract": "omni.bridge.near",
+  "OmniBridge_transfer": {
+    "origin_nonce": 606162,
+    "token": "near:sol.omft.near",
+    "amount": "44473890045",
+    "recipient": "sol:JA3iQS6ZSv6L2jhnKR2XMCJThJVorvNydUmYDf6Bwhs6",
+    "fee": {
+      "fee": "0",
+      "native_fee": "1953125000128365688403"
+    },
+    "sender": "near:intents.near",
+    "msg": "",
+    "destination_nonce": 437739,
+    "origin_transfer_id": null
+  },
+  "Solana_program": "dahPEoZGXfyV58JqqH85okdHmpN8U2q8owgPUXSCPxe",
+  "Solana_signature": "664ymqCCGaTribMUr5Ezix1L8b5DdXSeRFx48qu1PpNUGjZSTZdy7YEqVbhSCdYZfzBCQGCj16iFMt1f19tmVweK",
+  "Solana_decoded_instruction": {
+    "origin_chain_enum": 1,
+    "origin_nonce": 606162,
+    "destination_nonce": 437739,
+    "amount_lamports": 44473890045,
+    "fee_recipient_account": "omni-relayer.bridge.near",
+    "signature_hex": "8c1bf73e18fb24f273ecbf8d4ca3a3fc2759ed9ee2ac98029d80ec7105791ebf2ce2353bdc54be7d48dd95e916eb0af52679dbdcf3d09909fc2f94d72ed72cb701"
+  },
+  "Solana_transfer": {
+    "destination": "JA3iQS6ZSv6L2jhnKR2XMCJThJVorvNydUmYDf6Bwhs6",
+    "lamports": 44473890045,
+    "source": "6tckHFBpiJ8YgYN8FUskvtvTpXQZ55g5LHeo1kvELoDQ"
+  },
+  "Solana_payer": "DuSs7rCr7oTLHjM29QQ8NwDViaahTU58qqxaJVyAkgbn",
+  "Solana_vault": "6tckHFBpiJ8YgYN8FUskvtvTpXQZ55g5LHeo1kvELoDQ",
+  "Solana_destination": "JA3iQS6ZSv6L2jhnKR2XMCJThJVorvNydUmYDf6Bwhs6",
+  "Solana_slot": 454072421,
+  "Solana_timestamp_UTC": "2026-10-07T01:15:35Z",
+  "NEAR_credit_block": {
+    "hash": "DdFpoV58QKh6MM3RdsGSzfMp1PABBYRRqfzH4FhDEaBX",
+    "height": 218869115,
+    "timestamp_nanosec": "1791335715526325197",
+    "timestamp_UTC": "2026-10-07T01:15:15Z"
+  },
+  "NEAR_settlement_block": {
+    "hash": "EyoxGj2KKc9hz4hhkQfws59zfpcrMyHUSk1MM8qDLcQR",
+    "height": 218869123,
+    "timestamp_nanosec": "1791335720219477950",
+    "timestamp_UTC": "2026-10-07T01:15:20Z"
+  },
+  "NEAR_withdrawal_block": {
+    "hash": "7hdwPGXDNjPQjmd1LvfnS6vEyGtppSRa3LiU1bH5fday",
+    "height": 218869125,
+    "timestamp_nanosec": "1791335721212103231",
+    "timestamp_UTC": "2026-10-07T01:15:21Z"
+  },
+  "input_transaction_block": 26137150,
+  "input_transaction_timestamp_UTC": "2026-10-07T01:13:59Z",
+  "sweep_transaction_block": 26137155,
+  "sweep_timestamp_UTC": "2026-10-07T01:14:59Z",
+  "fees": {
+    "input_ETH_allocation": [
+      {
+        "recipient": "7066024d3f20f94de601c003163367873cca78507eeca4df66d9be645f197f05",
+        "raw": "1989000000000"
+      },
+      {
+        "recipient": "dde5bb6ba7cee1b4343211a31b4ee3809fac0ca13b38a398c8ec401df658ccdc",
+        "raw": "1000000000000000"
+      },
+      {
+        "recipient": "b2d6d5dfb2c2ead9f0ced70886c91b8cc32a12640e897b878a7d74afe0ca6a14",
+        "raw": "10000000000000000"
+      },
+      {
+        "recipient": "crux-solver.near",
+        "raw": "1988998011000000000"
+      }
+    ],
+    "app_fee_total_ETH": "0.011",
+    "app_fee_basis_points": 55,
+    "case_ETH_protocol_fee_raw": "1989000000000",
+    "case_ETH_protocol_fee": "0.000001989",
+    "SOL_received_in_case_token_diff_raw": "44473976022",
+    "SOL_spent_for_withdrawal_funding_raw": "85977",
+    "SOL_native_output_raw": "44473890045",
+    "NEAR_native_fee_parameter_yocto": "1953125000128365688403",
+    "NEAR_native_fee_parameter": "0.001953125000128365688403",
+    "withdraw_fee_API_quote_lamports": "86107",
+    "refund_fee_API_quote_wei": "35000000000000",
+    "Solana_transaction_network_fee_lamports": 5000,
+    "Ethereum_deposit_gas_fee_wei": "46160343033000",
+    "Ethereum_sweep_gas_fee_wei": "14340052650000",
+    "limitation": "Quote withdrawal fee 86107 lamports differs from observed SOL funding debit 85977; do not force equality. Native storage/bridge funding parameter is not independently proved fully consumed. No independent market spread or USD loss is asserted."
+  },
+  "NEAR_deposit_events": [
+    {
+      "executor_id": "intents.near",
+      "receipt_id": "5HGAsxWM8zLTwD8JY86tP5Fk6tzRmUBpLAjwKgVp9BjM",
+      "block_hash": "DdFpoV58QKh6MM3RdsGSzfMp1PABBYRRqfzH4FhDEaBX",
+      "standard": "nep245",
+      "version": "1.0.0",
+      "event": "mt_mint",
+      "data": [
+        {
+          "owner_id": "b303273a5d9c81dd6fc7e2552698b9bda2c96cf996b05197382b4cd9d6545081",
+          "token_ids": [
+            "nep141:eth.omft.near"
+          ],
+          "amounts": [
+            "2000000000000000000"
+          ],
+          "memo": "deposit"
+        }
+      ]
+    },
+    {
+      "executor_id": "eth.omft.near",
+      "receipt_id": "4mx2B6GqScKYt35uZWi5VhjJqt2bKWZPxjxt1pxVsfw9",
+      "block_hash": "CJeM6YVqGWJaSqS5abTD6wPS1jSjNGDe4kzyDBhPVzaP",
+      "standard": "nep141",
+      "version": "1.0.0",
+      "event": "ft_transfer",
+      "data": [
+        {
+          "old_owner_id": "omft.near",
+          "new_owner_id": "intents.near",
+          "amount": "2000000000000000000",
+          "memo": "BRIDGED_FROM:{\"networkType\":\"eth\",\"chainId\":\"1\",\"txHash\":\"0xedfd6d0be46db66dcf6f3e9d60875c766ec164f1a3339408fe703bc5e9427ce5\"}"
+        }
+      ]
+    }
+  ],
+  "NEAR_execution_events": [
+    {
+      "executor_id": "intents.near",
+      "receipt_id": "6ju9hsZ2xDnikfNFtFnDa51qJ9gpyykqZwaFcVyMLoMn",
+      "block_hash": "EyoxGj2KKc9hz4hhkQfws59zfpcrMyHUSk1MM8qDLcQR",
+      "standard": "dip4",
+      "version": "0.4.3",
+      "event": "token_diff",
+      "data": [
+        {
+          "intent_hash": "B6K3ESzy61mufynMNqXT3hezs5FAjuX1YZMqPTFFG6N3",
+          "account_id": "b303273a5d9c81dd6fc7e2552698b9bda2c96cf996b05197382b4cd9d6545081",
+          "diff": {
+            "nep141:eth.omft.near": "-1989000000000000000",
+            "nep141:sol.omft.near": "44473976022"
+          },
+          "referral": "1click-swapkit",
+          "fees_collected": {
+            "nep141:eth.omft.near": "1989000000000"
+          }
+        }
+      ]
+    },
+    {
+      "executor_id": "intents.near",
+      "receipt_id": "6ju9hsZ2xDnikfNFtFnDa51qJ9gpyykqZwaFcVyMLoMn",
+      "block_hash": "EyoxGj2KKc9hz4hhkQfws59zfpcrMyHUSk1MM8qDLcQR",
+      "standard": "dip4",
+      "version": "0.4.3",
+      "event": "transfer",
+      "data": [
+        {
+          "intent_hash": "B6K3ESzy61mufynMNqXT3hezs5FAjuX1YZMqPTFFG6N3",
+          "account_id": "b303273a5d9c81dd6fc7e2552698b9bda2c96cf996b05197382b4cd9d6545081",
+          "receiver_id": "b2d6d5dfb2c2ead9f0ced70886c91b8cc32a12640e897b878a7d74afe0ca6a14",
+          "tokens": {
+            "nep141:eth.omft.near": "10000000000000000"
+          }
+        }
+      ]
+    },
+    {
+      "executor_id": "intents.near",
+      "receipt_id": "6ju9hsZ2xDnikfNFtFnDa51qJ9gpyykqZwaFcVyMLoMn",
+      "block_hash": "EyoxGj2KKc9hz4hhkQfws59zfpcrMyHUSk1MM8qDLcQR",
+      "standard": "dip4",
+      "version": "0.4.3",
+      "event": "transfer",
+      "data": [
+        {
+          "intent_hash": "B6K3ESzy61mufynMNqXT3hezs5FAjuX1YZMqPTFFG6N3",
+          "account_id": "b303273a5d9c81dd6fc7e2552698b9bda2c96cf996b05197382b4cd9d6545081",
+          "receiver_id": "dde5bb6ba7cee1b4343211a31b4ee3809fac0ca13b38a398c8ec401df658ccdc",
+          "tokens": {
+            "nep141:eth.omft.near": "1000000000000000"
+          }
+        }
+      ]
+    },
+    {
+      "executor_id": "intents.near",
+      "receipt_id": "6ju9hsZ2xDnikfNFtFnDa51qJ9gpyykqZwaFcVyMLoMn",
+      "block_hash": "EyoxGj2KKc9hz4hhkQfws59zfpcrMyHUSk1MM8qDLcQR",
+      "standard": "dip4",
+      "version": "0.4.3",
+      "event": "token_diff",
+      "data": [
+        {
+          "intent_hash": "B6K3ESzy61mufynMNqXT3hezs5FAjuX1YZMqPTFFG6N3",
+          "account_id": "b303273a5d9c81dd6fc7e2552698b9bda2c96cf996b05197382b4cd9d6545081",
+          "diff": {
+            "nep141:sol.omft.near": "-85977",
+            "nep141:wrap.near": "1953125000128365688403"
+          },
+          "referral": "1click-swapkit",
+          "fees_collected": {
+            "nep141:sol.omft.near": "1"
+          }
+        }
+      ]
+    },
+    {
+      "executor_id": "intents.near",
+      "receipt_id": "6ju9hsZ2xDnikfNFtFnDa51qJ9gpyykqZwaFcVyMLoMn",
+      "block_hash": "EyoxGj2KKc9hz4hhkQfws59zfpcrMyHUSk1MM8qDLcQR",
+      "standard": "dip4",
+      "version": "0.4.3",
+      "event": "storage_deposit",
+      "data": [
+        {
+          "intent_hash": "B6K3ESzy61mufynMNqXT3hezs5FAjuX1YZMqPTFFG6N3",
+          "account_id": "b303273a5d9c81dd6fc7e2552698b9bda2c96cf996b05197382b4cd9d6545081",
+          "contract_id": "omni.bridge.near",
+          "deposit_for_account_id": "29653ae6008966c8509cfb093758bb3e547d125fda0869a3d937c038b0d8dfc7",
+          "amount": "1953125000128365688403"
+        }
+      ]
+    },
+    {
+      "executor_id": "intents.near",
+      "receipt_id": "6ju9hsZ2xDnikfNFtFnDa51qJ9gpyykqZwaFcVyMLoMn",
+      "block_hash": "EyoxGj2KKc9hz4hhkQfws59zfpcrMyHUSk1MM8qDLcQR",
+      "standard": "dip4",
+      "version": "0.4.3",
+      "event": "ft_withdraw",
+      "data": [
+        {
+          "intent_hash": "B6K3ESzy61mufynMNqXT3hezs5FAjuX1YZMqPTFFG6N3",
+          "account_id": "b303273a5d9c81dd6fc7e2552698b9bda2c96cf996b05197382b4cd9d6545081",
+          "token": "sol.omft.near",
+          "receiver_id": "omni.bridge.near",
+          "amount": "44473890045",
+          "msg": "{\"recipient\":\"sol:JA3iQS6ZSv6L2jhnKR2XMCJThJVorvNydUmYDf6Bwhs6\",\"fee\":\"0\",\"native_token_fee\":\"1953125000128365688403\",\"external_id\":\"46a08ded-a2b9-44ad-ac30-ab5614d0434b\"}",
+          "min_gas": "37400000000000"
+        }
+      ]
+    },
+    {
+      "executor_id": "intents.near",
+      "receipt_id": "6ju9hsZ2xDnikfNFtFnDa51qJ9gpyykqZwaFcVyMLoMn",
+      "block_hash": "EyoxGj2KKc9hz4hhkQfws59zfpcrMyHUSk1MM8qDLcQR",
+      "standard": "dip4",
+      "version": "0.4.3",
+      "event": "intents_executed",
+      "data": [
+        {
+          "intent_hash": "7AaPeZSbYVocrAuucabnQLycoqgpDGbWmLswkTAyVX4G",
+          "account_id": "crux-solver.near",
+          "nonce": "WC+d2qkRKDduz6rw9sF7AfxwH0yoHIPfoRfKDLofg7g="
+        },
+        {
+          "intent_hash": "8CrRkHuqn2nQwErosPbaYuC8WVh8zqGVEvcbDjub5B2U",
+          "account_id": "solver-priv-liq.near",
+          "nonce": "dZAD5CwpgrgvlrX8C3Z8U72Amx7s5HXSM2Vj5/yGMkM="
+        },
+        {
+          "intent_hash": "QbZDtKrP1PPcVxaPZDxkXBx3RRmJvpvvnJP2VkSwnmn",
+          "account_id": "solver-priv-liq.near",
+          "nonce": "7ezrm9F/awJJTAwcHt3GngmCRSlW0DX9wruvmztmNCo="
+        },
+        {
+          "intent_hash": "B6K3ESzy61mufynMNqXT3hezs5FAjuX1YZMqPTFFG6N3",
+          "account_id": "b303273a5d9c81dd6fc7e2552698b9bda2c96cf996b05197382b4cd9d6545081",
+          "nonce": "Vij2xgAlKBKzgKW+eoIa3Bgu2N7UWgF1UUEZFHBcB7c="
+        }
+      ]
+    }
+  ],
+  "signed_intent_messages": [
+    {
+      "signer_id": "crux-solver.near",
+      "deadline": "2026-10-07T01:15:34.326Z",
+      "intents": [
+        {
+          "intent": "token_diff",
+          "diff": {
+            "nep141:eth.omft.near": "1988998011000000000",
+            "nep141:sol.omft.near": "-44474020497"
+          }
+        }
+      ]
+    },
+    {
+      "signer_id": "solver-priv-liq.near",
+      "deadline": "2026-10-07T01:16:27.800Z",
+      "intents": [
+        {
+          "intent": "token_diff",
+          "diff": {
+            "nep141:eth-0xdac17f958d2ee523a2206206994597c13d831ec7.omft.near": "10105",
+            "nep141:wrap.near": "-1953126953255318943722"
+          }
+        }
+      ]
+    },
+    {
+      "signer_id": "solver-priv-liq.near",
+      "deadline": "2026-10-07T01:16:27.821Z",
+      "intents": [
+        {
+          "intent": "token_diff",
+          "diff": {
+            "nep141:sol.omft.near": "85976",
+            "nep141:eth-0xdac17f958d2ee523a2206206994597c13d831ec7.omft.near": "-10106"
+          }
+        }
+      ]
+    },
+    {
+      "deadline": "2026-10-07T01:17:19.494Z",
+      "intents": [
+        {
+          "intent": "token_diff",
+          "diff": {
+            "nep141:eth.omft.near": "-1989000000000000000",
+            "nep141:sol.omft.near": "44473976022"
+          },
+          "referral": "1click-swapkit"
+        },
+        {
+          "intent": "transfer",
+          "tokens": {
+            "nep141:eth.omft.near": "10000000000000000"
+          },
+          "receiver_id": "b2d6d5dfb2c2ead9f0ced70886c91b8cc32a12640e897b878a7d74afe0ca6a14"
+        },
+        {
+          "intent": "transfer",
+          "tokens": {
+            "nep141:eth.omft.near": "1000000000000000"
+          },
+          "receiver_id": "dde5bb6ba7cee1b4343211a31b4ee3809fac0ca13b38a398c8ec401df658ccdc"
+        },
+        {
+          "intent": "token_diff",
+          "diff": {
+            "nep141:sol.omft.near": "-85977",
+            "nep141:wrap.near": "1953125000128365688403"
+          },
+          "referral": "1click-swapkit"
+        },
+        {
+          "deposit_for_account_id": "29653ae6008966c8509cfb093758bb3e547d125fda0869a3d937c038b0d8dfc7",
+          "amount": "1953125000128365688403",
+          "contract_id": "omni.bridge.near",
+          "intent": "storage_deposit"
+        },
+        {
+          "intent": "ft_withdraw",
+          "token": "sol.omft.near",
+          "receiver_id": "omni.bridge.near",
+          "amount": "44473890045",
+          "msg": "{\"recipient\":\"sol:JA3iQS6ZSv6L2jhnKR2XMCJThJVorvNydUmYDf6Bwhs6\",\"fee\":\"0\",\"native_token_fee\":\"1953125000128365688403\",\"external_id\":\"46a08ded-a2b9-44ad-ac30-ab5614d0434b\"}",
+          "min_gas": "37400000000000"
+        }
+      ],
+      "signer_id": "b303273a5d9c81dd6fc7e2552698b9bda2c96cf996b05197382b4cd9d6545081"
+    }
+  ],
+  "NEAR_mt_transfers": [
+    {
+      "old_owner_id": "solver-priv-liq.near",
+      "new_owner_id": "b303273a5d9c81dd6fc7e2552698b9bda2c96cf996b05197382b4cd9d6545081",
+      "token_ids": [
+        "nep141:wrap.near"
+      ],
+      "amounts": [
+        "1953125000128365688403"
+      ]
+    },
+    {
+      "old_owner_id": "solver-priv-liq.near",
+      "new_owner_id": "7066024d3f20f94de601c003163367873cca78507eeca4df66d9be645f197f05",
+      "token_ids": [
+        "nep141:eth-0xdac17f958d2ee523a2206206994597c13d831ec7.omft.near",
+        "nep141:wrap.near"
+      ],
+      "amounts": [
+        "1",
+        "1953126953255319"
+      ]
+    },
+    {
+      "old_owner_id": "crux-solver.near",
+      "new_owner_id": "7066024d3f20f94de601c003163367873cca78507eeca4df66d9be645f197f05",
+      "token_ids": [
+        "nep141:sol.omft.near"
+      ],
+      "amounts": [
+        "44476"
+      ]
+    },
+    {
+      "old_owner_id": "crux-solver.near",
+      "new_owner_id": "b303273a5d9c81dd6fc7e2552698b9bda2c96cf996b05197382b4cd9d6545081",
+      "token_ids": [
+        "nep141:sol.omft.near"
+      ],
+      "amounts": [
+        "44473890045"
+      ]
+    },
+    {
+      "old_owner_id": "crux-solver.near",
+      "new_owner_id": "solver-priv-liq.near",
+      "token_ids": [
+        "nep141:sol.omft.near"
+      ],
+      "amounts": [
+        "85976"
+      ]
+    },
+    {
+      "old_owner_id": "b303273a5d9c81dd6fc7e2552698b9bda2c96cf996b05197382b4cd9d6545081",
+      "new_owner_id": "7066024d3f20f94de601c003163367873cca78507eeca4df66d9be645f197f05",
+      "token_ids": [
+        "nep141:eth.omft.near"
+      ],
+      "amounts": [
+        "1989000000000"
+      ]
+    },
+    {
+      "old_owner_id": "b303273a5d9c81dd6fc7e2552698b9bda2c96cf996b05197382b4cd9d6545081",
+      "new_owner_id": "dde5bb6ba7cee1b4343211a31b4ee3809fac0ca13b38a398c8ec401df658ccdc",
+      "token_ids": [
+        "nep141:eth.omft.near"
+      ],
+      "amounts": [
+        "1000000000000000"
+      ]
+    },
+    {
+      "old_owner_id": "b303273a5d9c81dd6fc7e2552698b9bda2c96cf996b05197382b4cd9d6545081",
+      "new_owner_id": "b2d6d5dfb2c2ead9f0ced70886c91b8cc32a12640e897b878a7d74afe0ca6a14",
+      "token_ids": [
+        "nep141:eth.omft.near"
+      ],
+      "amounts": [
+        "10000000000000000"
+      ]
+    },
+    {
+      "old_owner_id": "b303273a5d9c81dd6fc7e2552698b9bda2c96cf996b05197382b4cd9d6545081",
+      "new_owner_id": "crux-solver.near",
+      "token_ids": [
+        "nep141:eth.omft.near"
+      ],
+      "amounts": [
+        "1988998011000000000"
+      ]
+    }
+  ],
+  "attribution_significance": "Exact protocol/account roles and publicly documented treasury endpoint only. Solver account labels do not identify a human or business operator, common control, custody relationship or final beneficiary. Internal case account is not independently assigned to the origin wallet owner."
+}

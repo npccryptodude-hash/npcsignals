@@ -1,0 +1,16 @@
+{
+  "url": "https://archival-rpc.mainnet.near.org",
+  "requested_at_UTC": "2026-10-09T08:07:30.215304+00:00",
+  "method": "POST",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "block",
+    "params": {
+      "block_id": "Dr2GCRqzCeX7dj7ntqwkqj4HSGE7if6EeJ8EzamitgzB"
+    }
+  },
+  "HTTP_status": 429,
+  "error": "HTTP Error 429: Too Many Requests",
+  "limitation": "Access rejected; no transaction or chain conclusion follows."
+}

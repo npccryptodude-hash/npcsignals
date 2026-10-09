@@ -1,0 +1,8 @@
+{
+  "url": "https://docs.near-intents.org/api-reference/oneclick/check-swap-execution-status",
+  "requested_at_UTC": "2026-10-09T08:05:11.245040+00:00",
+  "method": "GET",
+  "request": null,
+  "HTTP_status": 200,
+  "response_file": "docs_status.response.txt"
+}

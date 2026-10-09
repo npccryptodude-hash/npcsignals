@@ -1,0 +1,8 @@
+{
+  "url": "https://1click.chaindefuser.com/v0/status?depositAddress=0xbe8647262afcee826c55135e272eb13d81cade3f",
+  "requested_at_UTC": "2026-10-09T08:05:11.242708+00:00",
+  "method": "GET",
+  "request": null,
+  "HTTP_status": 200,
+  "response_file": "origin_address_status.response.txt"
+}
