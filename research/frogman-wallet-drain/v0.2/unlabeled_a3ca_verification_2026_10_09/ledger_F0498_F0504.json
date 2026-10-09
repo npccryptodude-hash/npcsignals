@@ -1,0 +1,265 @@
+[
+  {
+    "ID": "F0498",
+    "classification": "CONFIRMED",
+    "chain": "Ethereum (1)",
+    "source_transaction": "0x1845f4786137bfca9b6dbcaff87e95b867e02c0c79aca1e158f475f61747690f",
+    "transaction_sender": "0xdb5f641f9b335f48c550cd7023c2268b70a76ec7",
+    "transaction_recipient": "0xa3ca6199d8692ec40d0287e615b48d0e8cde9abe",
+    "native_value_wei": "35000000000000000000",
+    "block_number": 26137384,
+    "timestamp_UTC": "2026-10-07T02:00:59+00:00",
+    "status": "success",
+    "network_fee_paid_wei": "65299112088000",
+    "evidence_files": [
+      "access/inbound_tx.response.txt",
+      "access/inbound_receipt.response.txt",
+      "access/inbound_block.response.txt"
+    ],
+    "attribution_significance": "Transaction/protocol roles only. No common owner, private custody, operator identity or final beneficiary. Routing does not add losses.",
+    "record_type": "Fresh F0169 reproduction",
+    "source_wallet": "0xdb5f641f9b335f48c550cd7023c2268b70a76ec7",
+    "destination_wallet": "0xa3ca6199d8692ec40d0287e615b48d0e8cde9abe",
+    "asset": "ETH",
+    "amount": "35",
+    "account_type": "Ordinary EOA at origin case block",
+    "service_identity_classification": "UNRESOLVED"
+  },
+  {
+    "ID": "F0499",
+    "classification": "CONFIRMED",
+    "chain": "Ethereum (1)",
+    "source_transaction": "0x321064d6fcab77a911a2af5d452269588e621c590796716f5fa9f7528dd7f32a",
+    "transaction_sender": "0xa3ca6199d8692ec40d0287e615b48d0e8cde9abe",
+    "transaction_recipient": "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae",
+    "native_value_wei": "35000000000000000000",
+    "block_number": 26137398,
+    "timestamp_UTC": "2026-10-07T02:03:47+00:00",
+    "status": "success",
+    "network_fee_paid_wei": "6514479974916996",
+    "evidence_files": [
+      "access/router_tx.response.txt",
+      "access/router_receipt.response.txt",
+      "access/router_block.response.txt"
+    ],
+    "attribution_significance": "Transaction/protocol roles only. No common owner, private custody, operator identity or final beneficiary. Routing does not add losses.",
+    "record_type": "Fresh F0170 reproduction; LI.FI swap and Across deposit",
+    "asset_in": "ETH",
+    "amount_in": "35",
+    "bridge_input_asset": "USDC Ethereum",
+    "bridge_input_token": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+    "bridge_input_amount": "91241.354058",
+    "deposit_id": 4737420,
+    "destination_chain_id": 42161,
+    "event_contract": "0x5c7bcd6e7de5423a257d81b442095a1a6ced35c5",
+    "protocol_native_event": {
+      "address": "0x5c7bcd6e7de5423a257d81b442095a1a6ced35c5",
+      "topics": [
+        "0x32ed1a409ef04c7b0227189c3a103dc5ac10e775a15b785dcc510201f7c25ad3",
+        "0x000000000000000000000000000000000000000000000000000000000000a4b1",
+        "0x000000000000000000000000000000000000000000000000000000000048498c",
+        "0x000000000000000000000000a3ca6199d8692ec40d0287e615b48d0e8cde9abe"
+      ],
+      "data": "0x000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48000000000000000000000000af88d065e77c8cc2239327c5edb3a432268e5831000000000000000000000000000000000000000000000000000000153e68934a000000000000000000000000000000000000000000000000000000153ddd25c1000000000000000000000000000000000000000000000000000000006ac5a7ab000000000000000000000000000000000000000000000000000000006ac5cb5a0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a3ca6199d8692ec40d0287e615b48d0e8cde9abe000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001400000000000000000000000000000000000000000000000000000000000000000",
+      "blockNumber": "0x18ed336",
+      "transactionHash": "0x321064d6fcab77a911a2af5d452269588e621c590796716f5fa9f7528dd7f32a",
+      "transactionIndex": "0x14f",
+      "blockHash": "0xd71578ff3cfc04654078293a290e8c63b3b747102dbb3251fce80e33ea2fa735",
+      "blockTimestamp": "0x6ac5a883",
+      "logIndex": "0x351",
+      "removed": false
+    },
+    "protocol_roles": {
+      "router": "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae / verified LiFiDiamond",
+      "swap_router": "0x6131b5fae19ea4f9d964eac0408e4408b66337b5 / verified MetaAggregationRouterV2; LI.FI identifies KyberSwap",
+      "bridge": "Across / Ethereum SpokePool",
+      "integrator_string": "Cow; routing metadata, not operator identity"
+    }
+  },
+  {
+    "ID": "F0500",
+    "classification": "CONFIRMED",
+    "chain": "Arbitrum (42161)",
+    "source_transaction": "0xed65e3a6b4d1eedcfeaced2a4162d650a19cf7b15fc85a548103263467059801",
+    "transaction_sender": "0xef1ec136931ab5728b0783fd87d109c9d15d31f1",
+    "transaction_recipient": "0xe35e9842fceaca96570b734083f4a58e8f7c5f2a",
+    "native_value_wei": "0",
+    "block_number": 512425436,
+    "timestamp_UTC": "2026-10-07T02:04:13+00:00",
+    "status": "success",
+    "network_fee_paid_wei": "412586456605455",
+    "evidence_files": [
+      "access/fill_tx.response.txt",
+      "access/fill_receipt.response.txt",
+      "access/fill_block.response.txt"
+    ],
+    "attribution_significance": "Transaction/protocol roles only. No common owner, private custody, operator identity or final beneficiary. Routing does not add losses.",
+    "record_type": "Across Arbitrum fill",
+    "origin_chain_id": 1,
+    "deposit_id": 4737420,
+    "asset_out": "USDC Arbitrum",
+    "output_token": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+    "amount_out": "91232.216513",
+    "recipient": "0xa3ca6199d8692ec40d0287e615b48d0e8cde9abe",
+    "relayer": "0xef1ec136931ab5728b0783fd87d109c9d15d31f1",
+    "repayment_chain_id": 1,
+    "protocol_native_event": {
+      "address": "0xe35e9842fceaca96570b734083f4a58e8f7c5f2a",
+      "topics": [
+        "0x44b559f101f8fbcc8a0ea43fa91a05a729a5ea6e14a7c75aa750374690137208",
+        "0x0000000000000000000000000000000000000000000000000000000000000001",
+        "0x000000000000000000000000000000000000000000000000000000000048498c",
+        "0x000000000000000000000000ef1ec136931ab5728b0783fd87d109c9d15d31f1"
+      ],
+      "data": "0x000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48000000000000000000000000af88d065e77c8cc2239327c5edb3a432268e5831000000000000000000000000000000000000000000000000000000153e68934a000000000000000000000000000000000000000000000000000000153ddd25c10000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000006ac5cb5a00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a3ca6199d8692ec40d0287e615b48d0e8cde9abe000000000000000000000000a3ca6199d8692ec40d0287e615b48d0e8cde9abe0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a3ca6199d8692ec40d0287e615b48d0e8cde9abe0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000153ddd25c10000000000000000000000000000000000000000000000000000000000000000",
+      "blockNumber": "0x1e8afddc",
+      "transactionHash": "0xed65e3a6b4d1eedcfeaced2a4162d650a19cf7b15fc85a548103263467059801",
+      "transactionIndex": "0xa",
+      "blockHash": "0x009fea202726c9c67752d13005bd80fc419c36392ef8312f7ef2c344b739cfbb",
+      "blockTimestamp": "0x6ac5a89d",
+      "logIndex": "0x7",
+      "removed": false
+    }
+  },
+  {
+    "ID": "F0501",
+    "classification": "CONFIRMED",
+    "record_type": "New cross-chain edge; Ethereum swap plus Across settlement",
+    "source_chain": "Ethereum (1)",
+    "destination_chain": "Arbitrum (42161)",
+    "source_transaction": "0x321064d6fcab77a911a2af5d452269588e621c590796716f5fa9f7528dd7f32a",
+    "destination_transaction": "0xed65e3a6b4d1eedcfeaced2a4162d650a19cf7b15fc85a548103263467059801",
+    "source_wallet": "0xa3ca6199d8692ec40d0287e615b48d0e8cde9abe",
+    "destination_wallet": "0xa3ca6199d8692ec40d0287e615b48d0e8cde9abe",
+    "protocol_identifier": "Across deposit 4737420; LI.FI transaction 0x826df7bd14f91dddadf7c51b69ec96b3c1b940e61531ef03adfe7d77d3b8c062",
+    "asset_in": "ETH",
+    "amount_in": "35",
+    "bridge_input_USDC": "91241.354058",
+    "asset_out": "USDC",
+    "amount_out": "91232.216513",
+    "bridge_input_output_difference_USDC": "9.137545",
+    "fee_limitations": "Exact USDC input/output difference 9.137545 established. LI.FI feeCosts are quoted metadata; no independent relayer/LP/gas split or market spread asserted. Ethereum gas separately paid; no loss addition.",
+    "matched_parameters": [
+      "origin/destination chain",
+      "deposit ID",
+      "depositor",
+      "recipient",
+      "input/output token",
+      "input/output amount",
+      "fill deadline",
+      "exclusivity deadline",
+      "exclusive relayer",
+      "empty message and zero hash",
+      "unchanged output and recipient on fill"
+    ],
+    "evidence_files": [
+      "access/router_receipt.response.txt",
+      "access/fill_receipt.response.txt",
+      "access/across_status.response.txt",
+      "access/lifi_status.response.txt",
+      "access/across_interface.response.txt",
+      "access/spoke_implementation.response.txt"
+    ],
+    "attribution_significance": "Confirms routing, not common control or complete upstream provenance from affected wallet."
+  },
+  {
+    "ID": "F0502",
+    "classification": "CONFIRMED",
+    "chain": "Arbitrum (42161)",
+    "source_transaction": "0x107db810fd86893dc4cf8df03c1753236e04fc2d7b3f17304b34dfb840c1fa51",
+    "transaction_sender": "0xa3ca6199d8692ec40d0287e615b48d0e8cde9abe",
+    "transaction_recipient": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+    "native_value_wei": "0",
+    "block_number": 512425661,
+    "timestamp_UTC": "2026-10-07T02:05:09+00:00",
+    "status": "success",
+    "network_fee_paid_wei": "2925141678000",
+    "evidence_files": [
+      "access/onward_tx.response.txt",
+      "access/onward_receipt.response.txt",
+      "access/onward_block.response.txt"
+    ],
+    "attribution_significance": "Transaction/protocol roles only. No common owner, private custody, operator identity or final beneficiary. Routing does not add losses.",
+    "record_type": "Confirmed onward USDC transfer to Hyperliquid deposit boundary",
+    "source_wallet": "0xa3ca6199d8692ec40d0287e615b48d0e8cde9abe",
+    "destination_wallet": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+    "asset": "USDC Arbitrum",
+    "amount": "91232.216513",
+    "token": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+    "allocation_limitation": "Exact transfer and matching deposit credit confirmed. Historical USDC balance calls unavailable; exclusive lifetime provenance of the sender balance is not asserted."
+  },
+  {
+    "ID": "F0503",
+    "classification": "CONFIRMED",
+    "record_type": "Hyperliquid protocol-native deposit credit",
+    "protocol": "Hyperliquid",
+    "account": "0xa3ca6199d8692ec40d0287e615b48d0e8cde9abe",
+    "source_transaction": "0x107db810fd86893dc4cf8df03c1753236e04fc2d7b3f17304b34dfb840c1fa51",
+    "asset": "USDC",
+    "amount": "91232.216513",
+    "credit_time_ms": 1791338722171,
+    "protocol_native_record": {
+      "time": 1791338722171,
+      "hash": "0x107db810fd86893dc4cf8df03c1753236e04fc2d7b3f17304b34dfb840c1fa51",
+      "delta": {
+        "type": "deposit",
+        "usdc": "91232.216513"
+      }
+    },
+    "subsequent_account_class_transfer_API_record": [
+      {
+        "time": 1791338730041,
+        "hash": "0x7e19b9d45b95bca17f93044601c4e50209c000b9f698db7321e265271a99968c",
+        "delta": {
+          "type": "accountClassTransfer",
+          "usdc": "91232.21",
+          "toPerp": false
+        }
+      }
+    ],
+    "evidence_files": [
+      "access/hyperliquid_deposit_credit.response.txt",
+      "access/onward_receipt.response.txt",
+      "access/hl_bridge_docs.response.txt"
+    ],
+    "attribution_significance": "Named protocol deposit/account boundary verified by identical hash and amount in Hyperliquid API. Internal accountClassTransfer is not an external withdrawal or XMR1 redemption. Account holder and private custody relationship remain unresolved. Separate from six Relay accounts; their existing figures are unchanged."
+  },
+  {
+    "ID": "F0504",
+    "classification": "UNRESOLVED",
+    "record_type": "Scoped destination closure and remaining boundaries",
+    "examined_origin_destination": "0xa3ca6199d8692ec40d0287e615b48d0e8cde9abe",
+    "confirmed_roles": [
+      "Origin EOA",
+      "LI.FI contract/router",
+      "KyberSwap routing metadata plus verified swap router",
+      "Across deposit/fill protocol",
+      "Arbitrum recipient sender account; current snapshot empty code",
+      "Hyperliquid deposit credit account"
+    ],
+    "supported_roles": [
+      "Historical deployed implementation/operator audit not performed; verified explorer implementation metadata is a dated current snapshot"
+    ],
+    "unresolved": [
+      "Complete affected-wallet upstream provenance",
+      "Funding/operator identity",
+      "Private custody/common control/final beneficiary",
+      "Historical recipient USDC balances unavailable from attempted RPCs",
+      "Case-specific external withdrawal or conversion after Hyperliquid credit",
+      "Arbitrum recipient historical code lookup unavailable"
+    ],
+    "negative_scope": "Explorer 403s, historical-state errors and archive-access failures are saved as limitations, not absence evidence. USDC logs cover only fill through first onward plus a 10000-block outbound window. Zero-value lookalike-destination event is not a funds edge.",
+    "remaining_service_identity_boundaries": [
+      "0x9be5b8a7314552fa47feb1355cd5b4adc7bb7516",
+      "0x0b3e9b8c79a59832bdff3bc63ca6a1c024e658a0",
+      "0x4521ef4df51a7689d4db5d8fc598685cb226ff58"
+    ],
+    "next_highest_priority": "Remaining Robinhood funding / disposal gaps; no broad fan-out or Privacy Cash reopening",
+    "attribution_significance": "Named protocol endpoint improves routing/service-boundary evidence only; beneficiary attribution has not advanced.",
+    "evidence_files": [
+      "access/arb_recipient_snapshot_code.response.txt",
+      "access/arb_head.response.txt",
+      "access/arb_recipient_case_code.response.txt"
+    ]
+  }
+]

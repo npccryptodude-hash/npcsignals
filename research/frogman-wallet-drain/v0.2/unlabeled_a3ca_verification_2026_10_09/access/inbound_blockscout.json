@@ -1,0 +1,8 @@
+{
+  "url": "https://eth.blockscout.com/api/v2/transactions/0x1845f4786137bfca9b6dbcaff87e95b867e02c0c79aca1e158f475f61747690f",
+  "requested_at_UTC": "2026-10-09T08:31:38.401455+00:00",
+  "method": "GET",
+  "request": null,
+  "HTTP_status": 200,
+  "response_file": "inbound_blockscout.response.txt"
+}

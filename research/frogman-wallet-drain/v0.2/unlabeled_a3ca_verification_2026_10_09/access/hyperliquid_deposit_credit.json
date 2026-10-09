@@ -1,0 +1,13 @@
+{
+  "url": "https://api.hyperliquid.xyz/info",
+  "requested_at_UTC": "2026-10-09T08:34:29.256034+00:00",
+  "method": "POST",
+  "request": {
+    "type": "userNonFundingLedgerUpdates",
+    "user": "0xa3ca6199d8692ec40d0287e615b48d0e8cde9abe",
+    "startTime": 1791338400000,
+    "endTime": 1791532800000
+  },
+  "HTTP_status": 200,
+  "response_file": "hyperliquid_deposit_credit.response.txt"
+}

@@ -1,0 +1,8 @@
+{
+  "url": "https://eth.blockscout.com/api/v2/smart-contracts/0x5c7bcd6e7de5423a257d81b442095a1a6ced35c5",
+  "requested_at_UTC": "2026-10-09T08:32:24.642040+00:00",
+  "method": "GET",
+  "request": null,
+  "HTTP_status": 200,
+  "response_file": "spoke_metadata.response.txt"
+}
