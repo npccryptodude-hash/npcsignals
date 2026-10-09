@@ -1,0 +1,23 @@
+{
+  "url": "https://rpc.mainnet.chain.robinhood.com",
+  "requested_at_UTC": "2026-10-09T07:30:42.745668+00:00",
+  "method": "POST",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_getLogs",
+    "params": [
+      {
+        "fromBlock": "0x4e3e460",
+        "toBlock": "0x4e4598f",
+        "topics": [
+          null,
+          null,
+          "0x000000000000000000000000427c4b37de0714821b09c4fc655a713abbcfba83"
+        ]
+      }
+    ]
+  },
+  "HTTP_status": 200,
+  "response_file": "candidate_topic_2_82044000.response.txt"
+}

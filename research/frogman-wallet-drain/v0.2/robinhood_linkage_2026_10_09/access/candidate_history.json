@@ -1,0 +1,9 @@
+{
+  "url": "https://explorer.robinhood.com/api/v2/addresses/0x427c4b37de0714821b09c4fc655a713abbcfba83/transactions",
+  "requested_at_UTC": "2026-10-09T07:29:02.267748+00:00",
+  "method": "GET",
+  "request": null,
+  "HTTP_status": 502,
+  "error": "HTTP Error 502: Bad Gateway",
+  "limitation": "Access rejected; no transaction or chain conclusion follows."
+}

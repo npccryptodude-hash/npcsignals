@@ -1,0 +1,16 @@
+{
+  "classification": "CONFIRMED",
+  "new_ID_range": [
+    "F0435",
+    "F0464"
+  ],
+  "matched_routes": 15,
+  "origin_ETH": "213.215761888326838512",
+  "destination_ETH": "213.164462838697324465",
+  "origin_senders": [
+    "0x07ae8551be970cb1cca11dd7a11f47ae82e70e67",
+    "0x427c4b37de0714821b09c4fc655a713abbcfba83"
+  ],
+  "service_or_owner_attribution": "NOT ESTABLISHED",
+  "limits": "15 routes only; does not establish all 23 Ethereum credits came from Robinhood or all origin deposits derive from affected-wallet assets."
+}

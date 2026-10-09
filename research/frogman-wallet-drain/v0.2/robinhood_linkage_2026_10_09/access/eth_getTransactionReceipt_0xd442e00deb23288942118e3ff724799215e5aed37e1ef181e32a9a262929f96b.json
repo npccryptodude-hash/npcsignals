@@ -1,0 +1,15 @@
+{
+  "url": "https://rpc.mainnet.chain.robinhood.com",
+  "requested_at_UTC": "2026-10-09T07:31:36.948287+00:00",
+  "method": "POST",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_getTransactionReceipt",
+    "params": [
+      "0xd442e00deb23288942118e3ff724799215e5aed37e1ef181e32a9a262929f96b"
+    ]
+  },
+  "HTTP_status": 200,
+  "response_file": "eth_getTransactionReceipt_0xd442e00deb23288942118e3ff724799215e5aed37e1ef181e32a9a262929f96b.response.txt"
+}
