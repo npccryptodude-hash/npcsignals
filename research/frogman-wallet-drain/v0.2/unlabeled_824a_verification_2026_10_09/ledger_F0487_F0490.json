@@ -1,0 +1,99 @@
+[
+  {
+    "ID": "F0487",
+    "classification": "CONFIRMED",
+    "record_type": "Fresh reproduction of F0152; not a new loss",
+    "chain": "Ethereum (1)",
+    "source_transaction": "0xbee5625019a5eabaefb69384016b22b4db5ab65a1e2fb3233b84528127b1a44e",
+    "source_wallet": "0x13afa986366ab4cd731ea6cc4b4c185527a1a48a",
+    "destination_wallet": "0x824a50d903e13661f879a1055c3eb64583a2cebe",
+    "asset": "ETH",
+    "amount": "18.5",
+    "amount_wei": "18500000000000000000",
+    "block_number": 26136697,
+    "timestamp_UTC": "2026-10-06T23:42:47+00:00",
+    "status": "success",
+    "network_fee_ETH": "0.000049630627767",
+    "protocol_events": [],
+    "attribution_significance": "Direct native transfer only; no shared owner, custody relationship or beneficiary identified. Routed assets are not additional losses.",
+    "evidence_files": [
+      "access/inbound_eth_getTransactionByHash.response.txt",
+      "access/inbound_eth_getTransactionReceipt.response.txt",
+      "access/inbound_eth_getBlockByNumber.response.txt"
+    ]
+  },
+  {
+    "ID": "F0488",
+    "classification": "CONFIRMED",
+    "record_type": "Fresh reproduction of F0154 and EOA forwarding classification",
+    "chain": "Ethereum (1)",
+    "source_transaction": "0xffa889a9c07aebbe1a74d9398cd418beaf7f624036b875613105502fc0d2c6de",
+    "source_wallet": "0x824a50d903e13661f879a1055c3eb64583a2cebe",
+    "destination_wallet": "0x7da9dc31a143452ab40d3a8fb670eb5cd43c7226",
+    "asset": "ETH",
+    "amount": "18.499983905037284",
+    "amount_wei": "18499983905037284000",
+    "block_number": 26136703,
+    "timestamp_UTC": "2026-10-06T23:43:59+00:00",
+    "status": "success",
+    "network_fee_ETH": "0.000007759968741",
+    "protocol_events": [],
+    "attribution_significance": "Direct native transfer only; no shared owner, custody relationship or beneficiary identified. Routed assets are not additional losses.",
+    "evidence_files": [
+      "access/outbound_eth_getTransactionByHash.response.txt",
+      "access/outbound_eth_getTransactionReceipt.response.txt",
+      "access/outbound_eth_getBlockByNumber.response.txt"
+    ],
+    "account_classification": "Ordinary EOA, observed native forwarding role CONFIRMED; service identity UNRESOLVED",
+    "residue_ETH": "0.000008334993975"
+  },
+  {
+    "ID": "F0489",
+    "classification": "CONFIRMED",
+    "record_type": "New confirmed onward native edge",
+    "chain": "Ethereum (1)",
+    "source_transaction": "0x018e86921bf7287d71a1e71b2cb3cf32de0194651656f14b0f0aa59c1fb0c5bb",
+    "source_wallet": "0x7da9dc31a143452ab40d3a8fb670eb5cd43c7226",
+    "destination_wallet": "0x9be5b8a7314552fa47feb1355cd5b4adc7bb7516",
+    "asset": "ETH",
+    "amount": "18.499938758095934",
+    "amount_wei": "18499938758095934000",
+    "block_number": 26136710,
+    "timestamp_UTC": "2026-10-06T23:45:23+00:00",
+    "status": "success",
+    "network_fee_ETH": "0.000040493227887",
+    "protocol_events": [],
+    "attribution_significance": "Direct native transfer only; no shared owner, custody relationship or beneficiary identified. Routed assets are not additional losses.",
+    "evidence_files": [
+      "access/onward_tx.response.txt",
+      "access/onward_receipt.response.txt",
+      "access/onward_block.response.txt"
+    ],
+    "account_classification": "Ordinary EOA, observed native forwarding role CONFIRMED; service identity UNRESOLVED",
+    "pre_transfer_balance_ETH": "18.499983905037284",
+    "post_transfer_balance_ETH": "0.000004653713463"
+  },
+  {
+    "ID": "F0490",
+    "classification": "CONFIRMED",
+    "record_type": "Account-type and pooled-balance boundary",
+    "chain": "Ethereum (1)",
+    "address": "0x9be5b8a7314552fa47feb1355cd5b4adc7bb7516",
+    "account_type": "EOA at reproduced historical block; empty code and nonzero sender nonce",
+    "code": "0x",
+    "snapshot_block": 26136709,
+    "pre_transfer_balance_ETH": "374.223931729559747579",
+    "pre_transfer_nonce": 24218,
+    "functional_classification": "Existing funded EOA / pooled-balance boundary",
+    "service_identity_classification": "UNRESOLVED",
+    "attribution_significance": "Case transfer arrives into an already funded account. No specific subsequent debit assigned to case assets. No exchange, custody service, common owner, operator or final beneficiary independently identified. No sanctions or third-party risk label adopted.",
+    "evidence_files": [
+      "access/boundary_onward_pre_balance.response.txt",
+      "access/boundary_onward_pre_nonce.response.txt",
+      "access/boundary_onward_code.response.txt",
+      "access/boundary_metadata.response.txt",
+      "access/onward_tx.response.txt",
+      "access/onward_receipt.response.txt"
+    ]
+  }
+]

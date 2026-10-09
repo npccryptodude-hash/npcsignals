@@ -1,0 +1,8 @@
+{
+  "url": "https://eth.blockscout.com/api/v2/addresses/0x7da9dc31a143452ab40d3a8fb670eb5cd43c7226/internal-transactions",
+  "requested_at_UTC": "2026-10-09T08:20:24.225101+00:00",
+  "method": "GET",
+  "request": null,
+  "HTTP_status": 200,
+  "response_file": "collector_blockscout_internal-transactions.response.txt"
+}
