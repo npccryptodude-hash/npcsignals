@@ -1,0 +1,31 @@
+{
+  "url": "https://rpc.mainnet.chain.robinhood.com",
+  "requested_at_UTC": "2026-10-09T09:01:39.709005+00:00",
+  "method": "POST",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_getLogs",
+    "params": [
+      {
+        "address": "0x794dbdbdbfd3f8a3b887f4513bf5ff29edd04a94",
+        "fromBlock": "0x4e2a36b",
+        "toBlock": "0x4e31899",
+        "topics": [
+          null,
+          [
+            "0x820be5f37d9ab1d221c6816f07e786aa3aa55409093ffbd1413ea9ba3916888c",
+            "0x45b5f1ed4f752efe075629ae70c7cbf780874742b4f21de950dfce966ecbedf7",
+            "0x7c82536abee861a8cd0fca68781706d23201c6e3cfb50350436e12100aac7bff",
+            "0xe8149c3c979ee8a6c249b9a246faf6971c9bc3e4ec37ecc4b458f3f4a54d0709",
+            "0x0d886b8c7e3cd1997909b810144a5bb05fc1db2712e32591dd846b80b106e648",
+            "0xdfc0f8400e98ff138b2027478b0d6551da90ba6399e510db054080ce60fbf33e",
+            "0x15d7620ca65ba59d98b9f8e70d1dc60cc984f3b67f3c31e22e15430675d04c71"
+          ]
+        ]
+      }
+    ]
+  },
+  "HTTP_status": 200,
+  "response_file": "escrow_step_logs_81961835.response.txt"
+}
