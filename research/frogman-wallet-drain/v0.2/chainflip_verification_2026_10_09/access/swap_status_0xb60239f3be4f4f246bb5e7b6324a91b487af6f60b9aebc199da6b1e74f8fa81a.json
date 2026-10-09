@@ -1,0 +1,8 @@
+{
+  "url": "https://chainflip-swap.chainflip.io/v2/swaps/0xb60239f3be4f4f246bb5e7b6324a91b487af6f60b9aebc199da6b1e74f8fa81a",
+  "requested_at_UTC": "2026-10-09T07:42:49.360526+00:00",
+  "method": "GET",
+  "request": null,
+  "HTTP_status": 200,
+  "response_file": "swap_status_0xb60239f3be4f4f246bb5e7b6324a91b487af6f60b9aebc199da6b1e74f8fa81a.response.txt"
+}

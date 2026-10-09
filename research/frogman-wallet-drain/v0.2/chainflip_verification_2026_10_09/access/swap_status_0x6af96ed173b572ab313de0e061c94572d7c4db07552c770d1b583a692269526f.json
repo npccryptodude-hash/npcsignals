@@ -1,0 +1,9 @@
+{
+  "url": "https://chainflip-swap.chainflip.io/v2/swaps/0x6af96ed173b572ab313de0e061c94572d7c4db07552c770d1b583a692269526f",
+  "requested_at_UTC": "2026-10-09T07:42:09.279825+00:00",
+  "method": "GET",
+  "request": null,
+  "HTTP_status": 404,
+  "error": "HTTP Error 404: Not Found",
+  "limitation": "Access rejected; no transaction or chain conclusion follows."
+}

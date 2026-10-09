@@ -1,0 +1,8 @@
+{
+  "url": "https://docs.chainflip.io/protocol/supported-chains-assets/mainnet-addresses",
+  "requested_at_UTC": "2026-10-09T07:41:31.949171+00:00",
+  "method": "GET",
+  "request": null,
+  "HTTP_status": 200,
+  "response_file": "mainnet_contracts.response.txt"
+}

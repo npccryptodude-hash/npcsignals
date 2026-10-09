@@ -1,0 +1,14 @@
+{
+  "latest_ID": "F0470",
+  "origin_reproduced": true,
+  "destination_reproduced": true,
+  "confirmed_edges": 2,
+  "ETH_input_total": "37",
+  "SOL_output_total": "822.367182496",
+  "prior_rows_unchanged": true,
+  "limitations": [
+    "State Chain event indices are API-reported; independent consensus inclusion not reproduced.",
+    "No owner, custody relationship, beneficiary or complete affected-wallet provenance established.",
+    "Publicnode Ethereum RPC attempts timed out. Alternate dRPC independently returned both transactions, receipts, blocks and mainnet chain ID; exact source paths are listed per edge."
+  ]
+}

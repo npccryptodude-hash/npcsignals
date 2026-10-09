@@ -1,0 +1,13 @@
+{
+  "url": "https://api.mainnet-beta.solana.com",
+  "requested_at_UTC": "2026-10-09T07:43:32.249415+00:00",
+  "method": "POST",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "getGenesisHash",
+    "params": []
+  },
+  "HTTP_status": 200,
+  "response_file": "solana_genesis.response.txt"
+}

@@ -1,0 +1,152 @@
+[
+  {
+    "swap_id": "1894600",
+    "channel_id": "15137950-Ethereum-676",
+    "source_chain": "Ethereum (1)",
+    "source_transaction": "0xb60239f3be4f4f246bb5e7b6324a91b487af6f60b9aebc199da6b1e74f8fa81a",
+    "source_block": 26137189,
+    "source_timestamp_UTC": "2026-10-07T01:21:47Z",
+    "source_wallet": "0xc25c9880835ebb46a5777ac156e681eaa1e4a9a9",
+    "deposit_address": "0x4bf5bb54c43e3addc3f62ab5ec943e16f3806ad0",
+    "asset_in": "ETH",
+    "amount_in": "18.5",
+    "destination_chain": "Solana mainnet",
+    "destination_transaction": "2bxR5jTgWTaoSHKRJNJfHCA7kqLu5jPVjmHtokckvm6ezm9Z1NKMEnM4d1EtMfxPuot2vH3csfFQWrTcExTcbn42",
+    "destination_slot": 454074616,
+    "destination_timestamp_UTC": "2026-10-07T01:25:26Z",
+    "destination_wallet": "DDh1FPHoo63kxEs4FA2jRbfRWTdpNf3gixizpxmd7z3C",
+    "egress_source_payer": "AYVYJRA4FMtSbf16MwdZnaKsxonQGtyeWFGwnevv4En3",
+    "asset_out": "SOL",
+    "amount_out": "410.977610441",
+    "classification": "CONFIRMED",
+    "origin_transaction_status": "success",
+    "destination_transaction_status": "finalized success",
+    "fees_as_reported_by_protocol": [
+      {
+        "chain": "Ethereum",
+        "asset": "USDC",
+        "type": "NETWORK",
+        "amount": "49721646"
+      },
+      {
+        "chain": "Ethereum",
+        "asset": "USDC",
+        "type": "BROKER",
+        "amount": "273195587"
+      },
+      {
+        "chain": "Ethereum",
+        "asset": "ETH",
+        "type": "INGRESS",
+        "amount": "54306997050000"
+      },
+      {
+        "chain": "Solana",
+        "asset": "SOL",
+        "type": "EGRESS",
+        "amount": "14000"
+      }
+    ],
+    "ethereum_execution_gas_fee_wei": "72797053730870",
+    "brokers": [
+      {
+        "account": "cFNwtr2mPhpUEB5AyJq38DqMKMkSdzaL9548hajN2DRTwh7Mq",
+        "commissionBps": 5
+      },
+      {
+        "account": "cFLdvBS9Gq9iqB8Zdb5cmnWgmhqvEojQYGMBquDz7xRiSvsJV",
+        "commissionBps": 50
+      }
+    ],
+    "protocol_event_indices": {
+      "deposit": "15137963-1784",
+      "egress_scheduled": "15137969-1771",
+      "egress_witnessed": "15137993-1272"
+    },
+    "evidence": [
+      "chainflip_verification_2026_10_09/access/drpc_eth_getTransactionByHash_1894600.response.txt",
+      "chainflip_verification_2026_10_09/access/drpc_eth_getTransactionReceipt_1894600.response.txt",
+      "chainflip_verification_2026_10_09/access/drpc_eth_getBlockByNumber_1894600.response.txt",
+      "chainflip_verification_2026_10_09/access/status_id_1894600.response.txt",
+      "chainflip_verification_2026_10_09/access/status_channel_1894600.response.txt",
+      "chainflip_verification_2026_10_09/access/swap_status_0xb60239f3be4f4f246bb5e7b6324a91b487af6f60b9aebc199da6b1e74f8fa81a.response.txt",
+      "chainflip_verification_2026_10_09/access/solana_tx_1894600.response.txt"
+    ],
+    "attribution_significance": "Exact Chainflip routing and case-specific egress payer role only; no shared owner, custody relationship or beneficiary established."
+  },
+  {
+    "swap_id": "1894627",
+    "channel_id": "15138057-Ethereum-2572",
+    "source_chain": "Ethereum (1)",
+    "source_transaction": "0x80ab8c8f7bd7441f929a6a56a3fc54a08c6c8f3f226f7ae9a63620d376e94edd",
+    "source_block": 26137244,
+    "source_timestamp_UTC": "2026-10-07T01:32:47Z",
+    "source_wallet": "0x40763715b95add68342a982a8ec7859709b612bd",
+    "deposit_address": "0x1d68935c108b380cbb86198b002bc4d4a13c89f2",
+    "asset_in": "ETH",
+    "amount_in": "18.5",
+    "destination_chain": "Solana mainnet",
+    "destination_transaction": "tkpT4GkPas3ojx13TyvkmQgopNhgdzMxpJw2ahYM2ss8Ubm88UGHvzMYaSZkt61XFeSTaVuvpue5u3b57GVEgbn",
+    "destination_slot": 454077123,
+    "destination_timestamp_UTC": "2026-10-07T01:36:39Z",
+    "destination_wallet": "FvJs45KtyE6B4dUAhoFSGvSyFHa3JbSoxkLpSa63PjkB",
+    "egress_source_payer": "AYVYJRA4FMtSbf16MwdZnaKsxonQGtyeWFGwnevv4En3",
+    "asset_out": "SOL",
+    "amount_out": "411.389572055",
+    "classification": "CONFIRMED",
+    "origin_transaction_status": "success",
+    "destination_transaction_status": "finalized success",
+    "fees_as_reported_by_protocol": [
+      {
+        "chain": "Ethereum",
+        "asset": "USDC",
+        "type": "NETWORK",
+        "amount": "49706343"
+      },
+      {
+        "chain": "Ethereum",
+        "asset": "USDC",
+        "type": "BROKER",
+        "amount": "273111501"
+      },
+      {
+        "chain": "Ethereum",
+        "asset": "ETH",
+        "type": "INGRESS",
+        "amount": "37013312400000"
+      },
+      {
+        "chain": "Solana",
+        "asset": "SOL",
+        "type": "EGRESS",
+        "amount": "14000"
+      }
+    ],
+    "ethereum_execution_gas_fee_wei": "70741561923748",
+    "brokers": [
+      {
+        "account": "cFNwtr2mPhpUEB5AyJq38DqMKMkSdzaL9548hajN2DRTwh7Mq",
+        "commissionBps": 5
+      },
+      {
+        "account": "cFLdvBS9Gq9iqB8Zdb5cmnWgmhqvEojQYGMBquDz7xRiSvsJV",
+        "commissionBps": 50
+      }
+    ],
+    "protocol_event_indices": {
+      "deposit": "15138070-1507",
+      "egress_scheduled": "15138076-1825",
+      "egress_witnessed": "15138099-1226"
+    },
+    "evidence": [
+      "chainflip_verification_2026_10_09/access/drpc_eth_getTransactionByHash_1894627.response.txt",
+      "chainflip_verification_2026_10_09/access/drpc_eth_getTransactionReceipt_1894627.response.txt",
+      "chainflip_verification_2026_10_09/access/drpc_eth_getBlockByNumber_1894627.response.txt",
+      "chainflip_verification_2026_10_09/access/status_id_1894627.response.txt",
+      "chainflip_verification_2026_10_09/access/status_channel_1894627.response.txt",
+      "chainflip_verification_2026_10_09/access/swap_status_0x80ab8c8f7bd7441f929a6a56a3fc54a08c6c8f3f226f7ae9a63620d376e94edd.response.txt",
+      "chainflip_verification_2026_10_09/access/solana_tx_1894627.response.txt"
+    ],
+    "attribution_significance": "Exact Chainflip routing and case-specific egress payer role only; no shared owner, custody relationship or beneficiary established."
+  }
+]
