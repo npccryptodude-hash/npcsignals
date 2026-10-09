@@ -1,0 +1,8 @@
+{
+  "url": "https://eth.blockscout.com/api/v2/addresses/0x3e2d81f7a5659e4760ba929ef88eed40ef6640a1",
+  "requested_at_UTC": "2026-10-09T09:12:27.656917+00:00",
+  "method": "GET",
+  "request": null,
+  "HTTP_status": 200,
+  "response_file": "onward_metadata.response.txt"
+}

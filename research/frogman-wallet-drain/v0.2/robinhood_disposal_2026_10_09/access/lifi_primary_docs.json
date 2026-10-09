@@ -1,0 +1,8 @@
+{
+  "url": "https://docs.li.fi/agents/reference/endpoint-specs",
+  "requested_at_UTC": "2026-10-09T09:13:50.961600+00:00",
+  "method": "GET",
+  "request": null,
+  "HTTP_status": 200,
+  "response_file": "lifi_primary_docs.response.txt"
+}

@@ -1,0 +1,720 @@
+[
+  {
+    "ID": "F0539",
+    "classification": "CONFIRMED",
+    "record_type": "Ethereum callback native credit; enrichment of existing cross-chain edge, not additional loss",
+    "chain": "Ethereum (1)",
+    "transaction_hash": "0x7873e900cc196ea94a7c671f7f299fe6842412e6048fac07411655e1161ec9cf",
+    "existing_cross_chain_ID": "F0452",
+    "existing_origin_ID": "F0451",
+    "protocol_identifier": "67033726195928630216308893234162437855205988275682709386645897816336343159976",
+    "outer_sender_relayer": "0x07ae8551be970cb1cca11dd7a11f47ae82e70e67",
+    "callback_contract": "0x4216e5ae6021c523aae05b6ac6824f3c096cf905",
+    "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+    "asset": "native ETH after WETH unwrap",
+    "amount_wei": "18874470654663653144",
+    "amount_ETH": "18.874470654663653144",
+    "block_number": 26136759,
+    "timestamp_UTC": "2026-10-06T23:55:23+00:00",
+    "status": "success",
+    "fill_event": {
+      "address": "0x5c7bcd6e7de5423a257d81b442095a1a6ced35c5",
+      "topics": [
+        "0x44b559f101f8fbcc8a0ea43fa91a05a729a5ea6e14a7c75aa750374690137208",
+        "0x0000000000000000000000000000000000000000000000000000000000001237",
+        "0x9433be97182751d8544de1fcd9473a3e3ccb16ea278b59f90b53dd1d9a7ad4a8",
+        "0x00000000000000000000000007ae8551be970cb1cca11dd7a11f47ae82e70e67"
+      ],
+      "data": "0x0000000000000000000000000bd7d308f8e1639fab988df18a8011f41eacad73000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc200000000000000000000000000000000000000000000000105f43282642b27f000000000000000000000000000000000000000000000000105ef970f26c2f7180000000000000000000000000000000000000000000000000000000000001237000000000000000000000000000000000000000000000000000000006ac59d2200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000427c4b37de0714821b09c4fc655a713abbcfba830000000000000000000000004216e5ae6021c523aae05b6ac6824f3c096cf905066d924925b374a5ad3518fade0cd6494fbe28ec29cafeb281df04e39e93f0280000000000000000000000004216e5ae6021c523aae05b6ac6824f3c096cf905000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000105ef970f26c2f7180000000000000000000000000000000000000000000000000000000000000000",
+      "blockNumber": "0x18ed0b7",
+      "transactionHash": "0x7873e900cc196ea94a7c671f7f299fe6842412e6048fac07411655e1161ec9cf",
+      "transactionIndex": "0xbd",
+      "blockHash": "0x262d96a4286f922a2c4a370013d8d2b7ff9d2ba4c27d56703a880d723adf003a",
+      "blockTimestamp": "0x6ac58a6b",
+      "logIndex": "0x31d",
+      "removed": false
+    },
+    "native_unwrap_call": {
+      "from": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "gas": "0x8fc",
+      "gasUsed": "0x3e",
+      "to": "0x4216e5ae6021c523aae05b6ac6824f3c096cf905",
+      "input": "0x",
+      "value": "0x105ef970f26c2f718",
+      "type": "CALL"
+    },
+    "native_credit_call": {
+      "from": "0x4216e5ae6021c523aae05b6ac6824f3c096cf905",
+      "gas": "0x10280",
+      "gasUsed": "0x0",
+      "to": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+      "input": "0x",
+      "value": "0x105ef970f26c2f718",
+      "type": "CALL"
+    },
+    "evidence_files": [
+      "access/F0451_fill_tx.response.txt",
+      "access/F0451_fill_receipt.response.txt",
+      "access/F0451_fill_block.response.txt",
+      "access/F0451_callback_trace.response.txt"
+    ],
+    "attribution_significance": "Exact same-transaction call trace closes callback-to-routing-wallet credit. Does not establish upstream affected-fund allocation, common ownership with relayer, or beneficiary."
+  },
+  {
+    "ID": "F0540",
+    "classification": "CONFIRMED",
+    "record_type": "Ethereum callback native credit; enrichment of existing cross-chain edge, not additional loss",
+    "chain": "Ethereum (1)",
+    "transaction_hash": "0x794649aaa990c10f12c40b94d4d198280abb2645e134bf5a4fcede4cb098a405",
+    "existing_cross_chain_ID": "F0454",
+    "existing_origin_ID": "F0453",
+    "protocol_identifier": "57815438382678763271966292993936030676727359591805186053508345382920161775588",
+    "outer_sender_relayer": "0x07ae8551be970cb1cca11dd7a11f47ae82e70e67",
+    "callback_contract": "0x4216e5ae6021c523aae05b6ac6824f3c096cf905",
+    "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+    "asset": "native ETH after WETH unwrap",
+    "amount_wei": "32497970839479074400",
+    "amount_ETH": "32.4979708394790744",
+    "block_number": 26136761,
+    "timestamp_UTC": "2026-10-06T23:55:47+00:00",
+    "status": "success",
+    "fill_event": {
+      "address": "0x5c7bcd6e7de5423a257d81b442095a1a6ced35c5",
+      "topics": [
+        "0x44b559f101f8fbcc8a0ea43fa91a05a729a5ea6e14a7c75aa750374690137208",
+        "0x0000000000000000000000000000000000000000000000000000000000001237",
+        "0x7fd260e489870c22204f79789e7cde9e0299b6ef1f7e2fcf282e79d31f4acfe4",
+        "0x00000000000000000000000007ae8551be970cb1cca11dd7a11f47ae82e70e67"
+      ],
+      "data": "0x0000000000000000000000000bd7d308f8e1639fab988df18a8011f41eacad73000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2000000000000000000000000000000000000000000000001c3073ab772af7000000000000000000000000000000000000000000000000001c2fffc4c00273e600000000000000000000000000000000000000000000000000000000000001237000000000000000000000000000000000000000000000000000000006ac59d4600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000427c4b37de0714821b09c4fc655a713abbcfba830000000000000000000000004216e5ae6021c523aae05b6ac6824f3c096cf90542c1358b4773e76d6f80ae288aaa3bbd012c4f556f749fbd1eb0e7fea3c6aa800000000000000000000000004216e5ae6021c523aae05b6ac6824f3c096cf9050000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001c2fffc4c00273e600000000000000000000000000000000000000000000000000000000000000000",
+      "blockNumber": "0x18ed0b9",
+      "transactionHash": "0x794649aaa990c10f12c40b94d4d198280abb2645e134bf5a4fcede4cb098a405",
+      "transactionIndex": "0xce",
+      "blockHash": "0xbcb5363b4ea2ae2bb8d4f61f3ce6226589bd859e01406592604d0c9a4adfc500",
+      "blockTimestamp": "0x6ac58a83",
+      "logIndex": "0x28e",
+      "removed": false
+    },
+    "native_unwrap_call": {
+      "from": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "gas": "0x8fc",
+      "gasUsed": "0x3e",
+      "to": "0x4216e5ae6021c523aae05b6ac6824f3c096cf905",
+      "input": "0x",
+      "value": "0x1c2fffc4c00273e60",
+      "type": "CALL"
+    },
+    "native_credit_call": {
+      "from": "0x4216e5ae6021c523aae05b6ac6824f3c096cf905",
+      "gas": "0x11423",
+      "gasUsed": "0x0",
+      "to": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+      "input": "0x",
+      "value": "0x1c2fffc4c00273e60",
+      "type": "CALL"
+    },
+    "evidence_files": [
+      "access/F0453_fill_tx.response.txt",
+      "access/F0453_fill_receipt.response.txt",
+      "access/F0453_fill_block.response.txt",
+      "access/F0453_callback_trace.response.txt"
+    ],
+    "attribution_significance": "Exact same-transaction call trace closes callback-to-routing-wallet credit. Does not establish upstream affected-fund allocation, common ownership with relayer, or beneficiary."
+  },
+  {
+    "ID": "F0541",
+    "classification": "CONFIRMED",
+    "record_type": "Ethereum callback native credit; enrichment of existing cross-chain edge, not additional loss",
+    "chain": "Ethereum (1)",
+    "transaction_hash": "0x3b55306138fd68b7a3863aa8ac29cdf786f4807deb4e36ed237671b59220d988",
+    "existing_cross_chain_ID": "F0456",
+    "existing_origin_ID": "F0455",
+    "protocol_identifier": "51186736588371543228015455905660134181311303988817094865662461874170250212889",
+    "outer_sender_relayer": "0x07ae8551be970cb1cca11dd7a11f47ae82e70e67",
+    "callback_contract": "0x4216e5ae6021c523aae05b6ac6824f3c096cf905",
+    "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+    "asset": "native ETH after WETH unwrap",
+    "amount_wei": "24373434305384634707",
+    "amount_ETH": "24.373434305384634707",
+    "block_number": 26136770,
+    "timestamp_UTC": "2026-10-06T23:57:35+00:00",
+    "status": "success",
+    "fill_event": {
+      "address": "0x5c7bcd6e7de5423a257d81b442095a1a6ced35c5",
+      "topics": [
+        "0x44b559f101f8fbcc8a0ea43fa91a05a729a5ea6e14a7c75aa750374690137208",
+        "0x0000000000000000000000000000000000000000000000000000000000001237",
+        "0x712aaa8ddf3e68c76501ab8530d7e0826bec1e50b279c237712639baf5e93619",
+        "0x00000000000000000000000007ae8551be970cb1cca11dd7a11f47ae82e70e67"
+      ],
+      "data": "0x0000000000000000000000000bd7d308f8e1639fab988df18a8011f41eacad73000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc200000000000000000000000000000000000000000000000152456bd38d8ba3c0000000000000000000000000000000000000000000000001523fd55d60c559530000000000000000000000000000000000000000000000000000000000001237000000000000000000000000000000000000000000000000000000006ac59daf00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000427c4b37de0714821b09c4fc655a713abbcfba830000000000000000000000004216e5ae6021c523aae05b6ac6824f3c096cf905256c7481af2b9255421d7603f27b499177a7ebc5961935715d98c73b2116d2f50000000000000000000000004216e5ae6021c523aae05b6ac6824f3c096cf9050000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001523fd55d60c559530000000000000000000000000000000000000000000000000000000000000000",
+      "blockNumber": "0x18ed0c2",
+      "transactionHash": "0x3b55306138fd68b7a3863aa8ac29cdf786f4807deb4e36ed237671b59220d988",
+      "transactionIndex": "0x89",
+      "blockHash": "0x6ce6e50c2b988dbde516c27a004da4ae2996c83d369a8446539a6a0e3d4cc9de",
+      "blockTimestamp": "0x6ac58aef",
+      "logIndex": "0x1bc",
+      "removed": false
+    },
+    "native_unwrap_call": {
+      "from": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "gas": "0x8fc",
+      "gasUsed": "0x3e",
+      "to": "0x4216e5ae6021c523aae05b6ac6824f3c096cf905",
+      "input": "0x",
+      "value": "0x1523fd55d60c55953",
+      "type": "CALL"
+    },
+    "native_credit_call": {
+      "from": "0x4216e5ae6021c523aae05b6ac6824f3c096cf905",
+      "gas": "0x1142a",
+      "gasUsed": "0x0",
+      "to": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+      "input": "0x",
+      "value": "0x1523fd55d60c55953",
+      "type": "CALL"
+    },
+    "evidence_files": [
+      "access/F0455_fill_tx.response.txt",
+      "access/F0455_fill_receipt.response.txt",
+      "access/F0455_fill_block.response.txt",
+      "access/F0455_callback_trace.response.txt"
+    ],
+    "attribution_significance": "Exact same-transaction call trace closes callback-to-routing-wallet credit. Does not establish upstream affected-fund allocation, common ownership with relayer, or beneficiary."
+  },
+  {
+    "ID": "F0542",
+    "classification": "CONFIRMED",
+    "record_type": "Ethereum callback native credit; enrichment of existing cross-chain edge, not additional loss",
+    "chain": "Ethereum (1)",
+    "transaction_hash": "0x2b422b1831483eb9158ef56d9faed48e150d907e5773e4b97f6d8147cc5204c3",
+    "existing_cross_chain_ID": "F0458",
+    "existing_origin_ID": "F0457",
+    "protocol_identifier": "73907657215318960826826586042195306903822966354904620178524296337951452136055",
+    "outer_sender_relayer": "0x07ae8551be970cb1cca11dd7a11f47ae82e70e67",
+    "callback_contract": "0x4216e5ae6021c523aae05b6ac6824f3c096cf905",
+    "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+    "asset": "native ETH after WETH unwrap",
+    "amount_wei": "18280017451009445335",
+    "amount_ETH": "18.280017451009445335",
+    "block_number": 26136772,
+    "timestamp_UTC": "2026-10-06T23:57:59+00:00",
+    "status": "success",
+    "fill_event": {
+      "address": "0x5c7bcd6e7de5423a257d81b442095a1a6ced35c5",
+      "topics": [
+        "0x44b559f101f8fbcc8a0ea43fa91a05a729a5ea6e14a7c75aa750374690137208",
+        "0x0000000000000000000000000000000000000000000000000000000000001237",
+        "0xa3664067427445c69e4416317d6847e6dc74600760d4bfd6500a883911b58277",
+        "0x00000000000000000000000007ae8551be970cb1cca11dd7a11f47ae82e70e67"
+      ],
+      "data": "0x0000000000000000000000000bd7d308f8e1639fab988df18a8011f41eacad73000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2000000000000000000000000000000000000000000000000fdb410a8a0511b50000000000000000000000000000000000000000000000000fdafab051f5c0dd70000000000000000000000000000000000000000000000000000000000001237000000000000000000000000000000000000000000000000000000006ac59dc700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000427c4b37de0714821b09c4fc655a713abbcfba830000000000000000000000004216e5ae6021c523aae05b6ac6824f3c096cf905741fac55fe4b48347508a4747b3c34570832cbc725be8fc064dddc8f042c57480000000000000000000000004216e5ae6021c523aae05b6ac6824f3c096cf9050000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000fdafab051f5c0dd70000000000000000000000000000000000000000000000000000000000000000",
+      "blockHash": "0x4a49d232aa35aab6fd7f7afd369e6ddfccc22304ca9a92858708f2349ab6f168",
+      "blockNumber": "0x18ed0c4",
+      "blockTimestamp": "0x6ac58b07",
+      "transactionHash": "0x2b422b1831483eb9158ef56d9faed48e150d907e5773e4b97f6d8147cc5204c3",
+      "transactionIndex": "0xc8",
+      "logIndex": "0x390",
+      "removed": false
+    },
+    "native_unwrap_call": {
+      "from": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "gas": "0x8fc",
+      "gasUsed": "0x3e",
+      "to": "0x4216e5ae6021c523aae05b6ac6824f3c096cf905",
+      "input": "0x",
+      "value": "0xfdafab051f5c0dd7",
+      "type": "CALL"
+    },
+    "native_credit_call": {
+      "from": "0x4216e5ae6021c523aae05b6ac6824f3c096cf905",
+      "gas": "0x1141b",
+      "gasUsed": "0x0",
+      "to": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+      "input": "0x",
+      "value": "0xfdafab051f5c0dd7",
+      "type": "CALL"
+    },
+    "evidence_files": [
+      "access/F0457_fill_tx.response.txt",
+      "access/F0457_fill_receipt.response.txt",
+      "access/F0457_fill_block.response.txt",
+      "access/F0457_callback_trace.response.txt"
+    ],
+    "attribution_significance": "Exact same-transaction call trace closes callback-to-routing-wallet credit. Does not establish upstream affected-fund allocation, common ownership with relayer, or beneficiary."
+  },
+  {
+    "ID": "F0543",
+    "classification": "CONFIRMED",
+    "record_type": "Ethereum callback native credit; enrichment of existing cross-chain edge, not additional loss",
+    "chain": "Ethereum (1)",
+    "transaction_hash": "0x7768d5b0506bf88fbc4c5d94f51eb8fff49dc67d55fd1d632811f8ce78087b8c",
+    "existing_cross_chain_ID": "F0460",
+    "existing_origin_ID": "F0459",
+    "protocol_identifier": "101104710525852001247589399511744625390917331875154523063360226199472465523618",
+    "outer_sender_relayer": "0x07ae8551be970cb1cca11dd7a11f47ae82e70e67",
+    "callback_contract": "0x4216e5ae6021c523aae05b6ac6824f3c096cf905",
+    "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+    "asset": "native ETH after WETH unwrap",
+    "amount_wei": "13709954811149920040",
+    "amount_ETH": "13.70995481114992004",
+    "block_number": 26136774,
+    "timestamp_UTC": "2026-10-06T23:58:23+00:00",
+    "status": "success",
+    "fill_event": {
+      "address": "0x5c7bcd6e7de5423a257d81b442095a1a6ced35c5",
+      "topics": [
+        "0x44b559f101f8fbcc8a0ea43fa91a05a729a5ea6e14a7c75aa750374690137208",
+        "0x0000000000000000000000000000000000000000000000000000000000001237",
+        "0xdf873cfd75a95705d1b3bf5ec3a961da8ab8c78d85d29396faca32902db033a2",
+        "0x00000000000000000000000007ae8551be970cb1cca11dd7a11f47ae82e70e67"
+      ],
+      "data": "0x0000000000000000000000000bd7d308f8e1639fab988df18a8011f41eacad73000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2000000000000000000000000000000000000000000000000be470c48a55896fc000000000000000000000000000000000000000000000000be438b43253fa7280000000000000000000000000000000000000000000000000000000000001237000000000000000000000000000000000000000000000000000000006ac59dda00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000427c4b37de0714821b09c4fc655a713abbcfba830000000000000000000000004216e5ae6021c523aae05b6ac6824f3c096cf9053ef8454d263dea9f749cf8ff84a2e239608672983a4d03c4d7a04408fa8aacea0000000000000000000000004216e5ae6021c523aae05b6ac6824f3c096cf9050000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000be438b43253fa7280000000000000000000000000000000000000000000000000000000000000000",
+      "blockNumber": "0x18ed0c6",
+      "transactionHash": "0x7768d5b0506bf88fbc4c5d94f51eb8fff49dc67d55fd1d632811f8ce78087b8c",
+      "transactionIndex": "0x5d",
+      "blockHash": "0x5574649f06a46dd6ee86c8cb0c995168d02f7f85f83005fdb3848ae6bc1fbd65",
+      "blockTimestamp": "0x6ac58b1f",
+      "logIndex": "0x1eb",
+      "removed": false
+    },
+    "native_unwrap_call": {
+      "from": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "gas": "0x8fc",
+      "gasUsed": "0x3e",
+      "to": "0x4216e5ae6021c523aae05b6ac6824f3c096cf905",
+      "input": "0x",
+      "value": "0xbe438b43253fa728",
+      "type": "CALL"
+    },
+    "native_credit_call": {
+      "from": "0x4216e5ae6021c523aae05b6ac6824f3c096cf905",
+      "gas": "0x1141b",
+      "gasUsed": "0x0",
+      "to": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+      "input": "0x",
+      "value": "0xbe438b43253fa728",
+      "type": "CALL"
+    },
+    "evidence_files": [
+      "access/F0459_fill_tx.response.txt",
+      "access/F0459_fill_receipt.response.txt",
+      "access/F0459_fill_block.response.txt",
+      "access/F0459_callback_trace.response.txt"
+    ],
+    "attribution_significance": "Exact same-transaction call trace closes callback-to-routing-wallet credit. Does not establish upstream affected-fund allocation, common ownership with relayer, or beneficiary."
+  },
+  {
+    "ID": "F0544",
+    "classification": "CONFIRMED",
+    "record_type": "Ethereum callback native credit; enrichment of existing cross-chain edge, not additional loss",
+    "chain": "Ethereum (1)",
+    "transaction_hash": "0x3d417a0ebec865a9889dd5469fd14532a48a0b36c3a145e54230364532944252",
+    "existing_cross_chain_ID": "F0462",
+    "existing_origin_ID": "F0461",
+    "protocol_identifier": "109664563626262295222338511983393877185916273095627171660694390659360267338302",
+    "outer_sender_relayer": "0x07ae8551be970cb1cca11dd7a11f47ae82e70e67",
+    "callback_contract": "0x4216e5ae6021c523aae05b6ac6824f3c096cf905",
+    "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+    "asset": "native ETH after WETH unwrap",
+    "amount_wei": "20565046696727485944",
+    "amount_ETH": "20.565046696727485944",
+    "block_number": 26136775,
+    "timestamp_UTC": "2026-10-06T23:58:35+00:00",
+    "status": "success",
+    "fill_event": {
+      "address": "0x5c7bcd6e7de5423a257d81b442095a1a6ced35c5",
+      "topics": [
+        "0x44b559f101f8fbcc8a0ea43fa91a05a729a5ea6e14a7c75aa750374690137208",
+        "0x0000000000000000000000000000000000000000000000000000000000001237",
+        "0xf273f183265c071c77c463b86806206bcca3e09d782d1fa8f08be7068d82823e",
+        "0x00000000000000000000000007ae8551be970cb1cca11dd7a11f47ae82e70e67"
+      ],
+      "data": "0x0000000000000000000000000bd7d308f8e1639fab988df18a8011f41eacad73000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc20000000000000000000000000000000000000000000000011d6a9201916de4fa0000000000000000000000000000000000000000000000011d65b9032bc31df80000000000000000000000000000000000000000000000000000000000001237000000000000000000000000000000000000000000000000000000006ac59dee00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000427c4b37de0714821b09c4fc655a713abbcfba830000000000000000000000004216e5ae6021c523aae05b6ac6824f3c096cf905019db6e72d27cfb2480d9edd6d1e801144ae58a3cc9c24d422e837f728ad4d040000000000000000000000004216e5ae6021c523aae05b6ac6824f3c096cf90500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011d65b9032bc31df80000000000000000000000000000000000000000000000000000000000000000",
+      "blockNumber": "0x18ed0c7",
+      "transactionHash": "0x3d417a0ebec865a9889dd5469fd14532a48a0b36c3a145e54230364532944252",
+      "transactionIndex": "0xcf",
+      "blockHash": "0xb1c8e623849e9596b04d19ac340fe568feba275ffa7f3284f6b1ad383a57dfcb",
+      "blockTimestamp": "0x6ac58b2b",
+      "logIndex": "0x31c",
+      "removed": false
+    },
+    "native_unwrap_call": {
+      "from": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "gas": "0x8fc",
+      "gasUsed": "0x3e",
+      "to": "0x4216e5ae6021c523aae05b6ac6824f3c096cf905",
+      "input": "0x",
+      "value": "0x11d65b9032bc31df8",
+      "type": "CALL"
+    },
+    "native_credit_call": {
+      "from": "0x4216e5ae6021c523aae05b6ac6824f3c096cf905",
+      "gas": "0x1142d",
+      "gasUsed": "0x0",
+      "to": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+      "input": "0x",
+      "value": "0x11d65b9032bc31df8",
+      "type": "CALL"
+    },
+    "evidence_files": [
+      "access/F0461_fill_tx.response.txt",
+      "access/F0461_fill_receipt.response.txt",
+      "access/F0461_fill_block.response.txt",
+      "access/F0461_callback_trace.response.txt"
+    ],
+    "attribution_significance": "Exact same-transaction call trace closes callback-to-routing-wallet credit. Does not establish upstream affected-fund allocation, common ownership with relayer, or beneficiary."
+  },
+  {
+    "ID": "F0545",
+    "classification": "CONFIRMED",
+    "record_type": "Ethereum callback native credit; enrichment of existing cross-chain edge, not additional loss",
+    "chain": "Ethereum (1)",
+    "transaction_hash": "0x82baf0241ef2cbaa4d05cf1a5279705a330ec2cb27054f782f3b602697475d8f",
+    "existing_cross_chain_ID": "F0464",
+    "existing_origin_ID": "F0463",
+    "protocol_identifier": "43559051496448855174455007078549672089791175722440296752124861710822805949301",
+    "outer_sender_relayer": "0x07ae8551be970cb1cca11dd7a11f47ae82e70e67",
+    "callback_contract": "0x4216e5ae6021c523aae05b6ac6824f3c096cf905",
+    "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+    "asset": "native ETH after WETH unwrap",
+    "amount_wei": "20565005635314339628",
+    "amount_ETH": "20.565005635314339628",
+    "block_number": 26136776,
+    "timestamp_UTC": "2026-10-06T23:58:47+00:00",
+    "status": "success",
+    "fill_event": {
+      "address": "0x5c7bcd6e7de5423a257d81b442095a1a6ced35c5",
+      "topics": [
+        "0x44b559f101f8fbcc8a0ea43fa91a05a729a5ea6e14a7c75aa750374690137208",
+        "0x0000000000000000000000000000000000000000000000000000000000001237",
+        "0x604d8ca94991e14bf4ad3085598976d62e85bc67694aceaa4dab208ff6e54b75",
+        "0x00000000000000000000000007ae8551be970cb1cca11dd7a11f47ae82e70e67"
+      ],
+      "data": "0x0000000000000000000000000bd7d308f8e1639fab988df18a8011f41eacad73000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc20000000000000000000000000000000000000000000000011d6a6ca8afde15fa0000000000000000000000000000000000000000000000011d6593aad0d14f2c0000000000000000000000000000000000000000000000000000000000001237000000000000000000000000000000000000000000000000000000006ac59dfe00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000427c4b37de0714821b09c4fc655a713abbcfba830000000000000000000000004216e5ae6021c523aae05b6ac6824f3c096cf90552d1baaf3ed79802442063c855a8c23b5ab5912f295014b314f57e1556b5f1660000000000000000000000004216e5ae6021c523aae05b6ac6824f3c096cf90500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011d6593aad0d14f2c0000000000000000000000000000000000000000000000000000000000000000",
+      "blockNumber": "0x18ed0c8",
+      "transactionHash": "0x82baf0241ef2cbaa4d05cf1a5279705a330ec2cb27054f782f3b602697475d8f",
+      "transactionIndex": "0xc3",
+      "blockHash": "0x66bb9e687353aa7cb4c4b822b1ca07774135fef7f19787262172c02940c86611",
+      "blockTimestamp": "0x6ac58b37",
+      "logIndex": "0x279",
+      "removed": false
+    },
+    "native_unwrap_call": {
+      "from": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "gas": "0x8fc",
+      "gasUsed": "0x3e",
+      "to": "0x4216e5ae6021c523aae05b6ac6824f3c096cf905",
+      "input": "0x",
+      "value": "0x11d6593aad0d14f2c",
+      "type": "CALL"
+    },
+    "native_credit_call": {
+      "from": "0x4216e5ae6021c523aae05b6ac6824f3c096cf905",
+      "gas": "0x1142d",
+      "gasUsed": "0x0",
+      "to": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+      "input": "0x",
+      "value": "0x11d6593aad0d14f2c",
+      "type": "CALL"
+    },
+    "evidence_files": [
+      "access/F0463_fill_tx.response.txt",
+      "access/F0463_fill_receipt.response.txt",
+      "access/F0463_fill_block.response.txt",
+      "access/F0463_callback_trace.response.txt"
+    ],
+    "attribution_significance": "Exact same-transaction call trace closes callback-to-routing-wallet credit. Does not establish upstream affected-fund allocation, common ownership with relayer, or beneficiary."
+  },
+  {
+    "ID": "F0546",
+    "classification": "CONFIRMED",
+    "record_type": "Already-funded Ethereum pool and sender-role separation",
+    "routing_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+    "balance_before_first_Robinhood_fill_wei": "6649055109527091301",
+    "balance_before_F0127_wei": "10252150638721469807",
+    "funding_provenance": "MIXED / pooled boundary; particular Robinhood-to-disposal allocation UNRESOLVED",
+    "account_overlap": "Seven Ethereum fill transactions freshly reproduced from 0x07ae; same full transaction-sender address as seven Robinhood zero-value submissions. This is an account-level sender observation, not common ownership with 0x427c, operator identity or custody.",
+    "limitation": "Nonzero pre-first-fill balance proves prior native liquidity, not its ownership or origin. Earlier verified Base and Robinhood routes remain separate. No FIFO/exact-amount attribution imposed.",
+    "evidence_files": [
+      "access/routing_wallet_pre_first_fill_balance.response.txt",
+      "access/routing_wallet_pre_terminal_balance.response.txt"
+    ],
+    "attribution_significance": "Identifies an allocation boundary; does not add losses."
+  },
+  {
+    "ID": "F0547",
+    "classification": "CONFIRMED",
+    "record_type": "Fresh reproduction of existing F0127 disposal",
+    "chain": "Ethereum (1)",
+    "transaction_hash": "0x204c2bf7375b0d44cc648f630a09a9c32e93fe8cedc416f6587012c2afa7cc99",
+    "source_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+    "destination_address": "0xec96957de4ececf24abd382090026e9b5c647405",
+    "asset": "native ETH",
+    "amount_wei": "10251907164350756807",
+    "amount_ETH": "10.251907164350756807",
+    "block_number": 26137469,
+    "timestamp_UTC": "2026-10-07T02:18:11+00:00",
+    "sender_nonce": 14,
+    "status": "success",
+    "network_fee_wei": "129783888360000",
+    "input": "0x",
+    "evidence_files": [
+      "access/terminal_tx.response.txt",
+      "access/terminal_receipt.response.txt",
+      "access/terminal_block.response.txt",
+      "access/terminal_case_code.response.txt",
+      "access/forwarder_pre_incoming_balance.response.txt"
+    ],
+    "attribution_significance": "Direct account-level edge, not owner identity or additional loss; specific allocation of Robinhood funds remains unresolved.",
+    "existing_ID": "F0127",
+    "recipient_account_type": "EOA at case block",
+    "case_code": "0x",
+    "recipient_balance_before_incoming_wei": "0",
+    "funding_provenance": "PARTIAL / RE-ESTABLISHED local receiving boundary; Ethereum routing wallet pooled upstream"
+  },
+  {
+    "ID": "F0548",
+    "classification": "CONFIRMED",
+    "record_type": "New confirmed EOA onward edge",
+    "chain": "Ethereum (1)",
+    "transaction_hash": "0x33590b022e2f09bc824f0d6c94a6586941096faca9c21f497004ee20f4c61f62",
+    "source_wallet": "0xec96957de4ececf24abd382090026e9b5c647405",
+    "destination_address": "0x3e2d81f7a5659e4760ba929ef88eed40ef6640a1",
+    "asset": "native ETH",
+    "amount_wei": "10251000000000000000",
+    "amount_ETH": "10.251",
+    "block_number": 26137474,
+    "timestamp_UTC": "2026-10-07T02:19:11+00:00",
+    "sender_nonce": 0,
+    "status": "success",
+    "network_fee_wei": "124222018830000",
+    "input": "0x",
+    "evidence_files": [
+      "access/onward_tx.response.txt",
+      "access/onward_receipt.response.txt",
+      "access/onward_block.response.txt",
+      "access/forwarder_pre_onward_balance.response.txt",
+      "access/onward_recipient_pre_balance.response.txt",
+      "access/onward_case_code.response.txt",
+      "access/terminal_transactions.response.txt",
+      "access/terminal_internal-transactions.response.txt"
+    ],
+    "attribution_significance": "Direct account-level edge, not owner identity or additional loss; specific allocation of Robinhood funds remains unresolved.",
+    "source_account_type": "EOA at incoming case block",
+    "destination_account_type": "EOA at onward case block",
+    "destination_case_code": "0x",
+    "source_pre_onward_balance_wei": "10251907164350756807",
+    "destination_pre_incoming_balance_wei": "0",
+    "funding_provenance": "PARTIAL / RE-ESTABLISHED local forwarder: zero prior balance, matching incoming balance before nonce-zero outward transfer; pooled Robinhood allocation not repaired"
+  },
+  {
+    "ID": "F0549",
+    "classification": "CONFIRMED",
+    "record_type": "New confirmed supplemental funding into second EOA",
+    "chain": "Ethereum (1)",
+    "transaction_hash": "0x48ccd6181b3c6357ba9f29ffd238c20fc129f09b5a5cc1330dbb07ea23c864a6",
+    "source_wallet": "0xae06669dfd3e932476f00ea49fce82e5e63f83bf",
+    "destination_address": "0x3e2d81f7a5659e4760ba929ef88eed40ef6640a1",
+    "asset": "native ETH",
+    "amount_wei": "6351494583150900",
+    "amount_ETH": "0.0063514945831509",
+    "block_number": 26137479,
+    "timestamp_UTC": "2026-10-07T02:20:11+00:00",
+    "sender_nonce": 5518,
+    "status": "success",
+    "network_fee_wei": "73056328674000",
+    "input": "0x",
+    "evidence_files": [
+      "access/supplement_tx.response.txt",
+      "access/supplement_receipt.response.txt",
+      "access/supplement_block.response.txt",
+      "access/onward_recipient_pre_router_balance.response.txt"
+    ],
+    "attribution_significance": "Direct account-level edge, not owner identity or additional loss; specific allocation of Robinhood funds remains unresolved.",
+    "funding_role": "Additional native liquidity before router call; gas-funding interpretation SUPPORTED, not owner/control attribution"
+  },
+  {
+    "ID": "F0550",
+    "classification": "CONFIRMED",
+    "record_type": "New confirmed native input into verified LI.FI router",
+    "chain": "Ethereum (1)",
+    "transaction_hash": "0xefa46658dead085751916c1368ed2590d72fa34dce36abf5c6b5a8cbcfc0d624",
+    "source_wallet": "0x3e2d81f7a5659e4760ba929ef88eed40ef6640a1",
+    "destination_address": "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae",
+    "asset": "native ETH",
+    "amount_wei": "10251000000000000000",
+    "amount_ETH": "10.251",
+    "block_number": 26137480,
+    "timestamp_UTC": "2026-10-07T02:20:23+00:00",
+    "sender_nonce": 0,
+    "status": "success",
+    "network_fee_wei": "1157294241859464",
+    "input": "0xb48752920000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000020076b9be437acfe060e06a1cc7c43177615c14406153ec2221664862d08c38063000000000000000000000000000000000000000000000000000000000000001400000000000000000000000000000000000000000000000000000000000000180000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003e2d81f7a5659e4760ba929ef88eed40ef6640a10000000000000000000000000000000000000000000000008e42de3018878000000000000000000000000000000000000000000000000000000000000000a4b10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000056d6179616e0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003436f7700000000000000000000000000000000000000000000000000000000000000000000000000000000003e2d81f7a5659e4760ba929ef88eed40ef6640a100000000000000000000000040ffe85a28dc9993541449464d7529a9221429600000000000000000000000000000000000000000000000000000000000000120000000000000000000000000529863940bf6065d8c122a550c2ff37c1cfefa1600000000000000000000000000000000000000000000000000000000000003a0000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc20000000000000000000000000000000000000000000000008df8b2708a646c000000000000000000000000003e2d81f7a5659e4760ba929ef88eed40ef6640a10000000000000000000000000000000000000000000000008e42de30188780000000000000000000000000000000000000000000000000000000000000000244a3a3083400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008e42de301887800000000000000000000000000000000000000000000000000000000000000000010000000000000000000000003e2d81f7a5659e4760ba929ef88eed40ef6640a10000000000000000000000003e2d81f7a5659e4760ba929ef88eed40ef6640a10000000000000000000000000000000000000000000000000000000000000017000000000000000000000000a5aa6e2171b416e1d27ec53ca8c13db3f91a89cd000000000000000000000000af88d065e77c8cc2239327c5edb3a432268e5831000000000000000000000000000000000000000000000000000000061ecfdcd2000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000d40000000000000000000000000000000000000000000000000000000000006055000000000000000000000000000000000000000000000000000000006ac5b22b00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002afe2e953bc1269d23e5e720878b259bb19f2c721e839d8980e5d9d7c3a8c03ef00000000000000000000000000000000000000000000000000000000000002200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004d46eb11900000000000000000000000000000000000000000000000000000000",
+    "evidence_files": [
+      "access/router_tx.response.txt",
+      "access/router_receipt.response.txt",
+      "access/router_block.response.txt",
+      "access/router_metadata.response.txt",
+      "access/router_case_code.response.txt",
+      "access/lifi_primary_docs.response.txt",
+      "access/onward_recipient_pre_router_balance.response.txt"
+    ],
+    "attribution_significance": "Direct account-level edge, not owner identity or additional loss; specific allocation of Robinhood funds remains unresolved.",
+    "protocol": "LI.FI Diamond",
+    "protocol_contract": "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae",
+    "protocol_metadata_name": "LiFiDiamond",
+    "protocol_metadata_verified": true,
+    "case_code_nonempty": true,
+    "source_pre_router_balance_wei": "10257351494583150900",
+    "funding_provenance": "MIXED at two-inflow EOA; transaction amount is verified, exclusive previous-inflow allocation not asserted",
+    "protocol_events": [
+      {
+        "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "topics": [
+          "0xe1fffcc4923d04b559f4d29a8bfc6cda04eb5b0d3c460751c2402c5c5cc9109c",
+          "0x000000000000000000000000529863940bf6065d8c122a550c2ff37c1cfefa16"
+        ],
+        "data": "0x0000000000000000000000000000000000000000000000008e42de3018878000",
+        "blockNumber": "0x18ed388",
+        "transactionHash": "0xefa46658dead085751916c1368ed2590d72fa34dce36abf5c6b5a8cbcfc0d624",
+        "transactionIndex": "0x115",
+        "blockHash": "0x7b2c8830be61a5b1f6dd840f7bbd3cc909174c8c73c1288a018ecb8c56e383e2",
+        "blockTimestamp": "0x6ac5ac67",
+        "logIndex": "0x1c4",
+        "removed": false
+      },
+      {
+        "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x000000000000000000000000529863940bf6065d8c122a550c2ff37c1cfefa16",
+          "0x000000000000000000000000337685fdab40d39bd02028545a4ffa7d287cc3e2"
+        ],
+        "data": "0x0000000000000000000000000000000000000000000000008e42de3018878000",
+        "blockNumber": "0x18ed388",
+        "transactionHash": "0xefa46658dead085751916c1368ed2590d72fa34dce36abf5c6b5a8cbcfc0d624",
+        "transactionIndex": "0x115",
+        "blockHash": "0x7b2c8830be61a5b1f6dd840f7bbd3cc909174c8c73c1288a018ecb8c56e383e2",
+        "blockTimestamp": "0x6ac5ac67",
+        "logIndex": "0x1c5",
+        "removed": false
+      },
+      {
+        "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x000000000000000000000000337685fdab40d39bd02028545a4ffa7d287cc3e2",
+          "0x00000000000000000000000040ffe85a28dc9993541449464d7529a922142960"
+        ],
+        "data": "0x0000000000000000000000000000000000000000000000008e42de3018878000",
+        "blockNumber": "0x18ed388",
+        "transactionHash": "0xefa46658dead085751916c1368ed2590d72fa34dce36abf5c6b5a8cbcfc0d624",
+        "transactionIndex": "0x115",
+        "blockHash": "0x7b2c8830be61a5b1f6dd840f7bbd3cc909174c8c73c1288a018ecb8c56e383e2",
+        "blockTimestamp": "0x6ac5ac67",
+        "logIndex": "0x1c6",
+        "removed": false
+      },
+      {
+        "address": "0x54914a963c4197172130c26d496a367bd6609d88",
+        "topics": [
+          "0xe188a18138f4f3ddbaea4a8e8b9a7241e53aecf8f1c9cb7200371a199a7267e6"
+        ],
+        "data": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "blockNumber": "0x18ed388",
+        "transactionHash": "0xefa46658dead085751916c1368ed2590d72fa34dce36abf5c6b5a8cbcfc0d624",
+        "transactionIndex": "0x115",
+        "blockHash": "0x7b2c8830be61a5b1f6dd840f7bbd3cc909174c8c73c1288a018ecb8c56e383e2",
+        "blockTimestamp": "0x6ac5ac67",
+        "logIndex": "0x1c7",
+        "removed": false
+      },
+      {
+        "address": "0x40ffe85a28dc9993541449464d7529a922142960",
+        "topics": [
+          "0x918554b6bd6e2895ce6553de5de0e1a69db5289aa0e4fe193a0dcd1f14347477"
+        ],
+        "data": "0x8bf9dc549b8556ca011f2399a9a893eb53699af88bd2f8323bfdcc5fea2e6e5a",
+        "blockNumber": "0x18ed388",
+        "transactionHash": "0xefa46658dead085751916c1368ed2590d72fa34dce36abf5c6b5a8cbcfc0d624",
+        "transactionIndex": "0x115",
+        "blockHash": "0x7b2c8830be61a5b1f6dd840f7bbd3cc909174c8c73c1288a018ecb8c56e383e2",
+        "blockTimestamp": "0x6ac5ac67",
+        "logIndex": "0x1c8",
+        "removed": false
+      },
+      {
+        "address": "0x337685fdab40d39bd02028545a4ffa7d287cc3e2",
+        "topics": [
+          "0x7cbff921ae1f3ea71284120d2aabde13587df067f2bb5c831ea6e35d7a9242ac"
+        ],
+        "data": "0x0000000000000000000000000000000000000000000000008e42de3018878000000000000000000000000000529863940bf6065d8c122a550c2ff37c1cfefa16000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc20000000000000000000000000000000000000000000000008e42de301887800000000000000000000000000040ffe85a28dc9993541449464d7529a92214296000000000000000000000000000000000000000000000000000000000000000c00000000000000000000000000000000000000000000000000000000000000244a3a3083400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008e42de301887800000000000000000000000000000000000000000000000000000000000000000010000000000000000000000003e2d81f7a5659e4760ba929ef88eed40ef6640a10000000000000000000000003e2d81f7a5659e4760ba929ef88eed40ef6640a10000000000000000000000000000000000000000000000000000000000000017000000000000000000000000a5aa6e2171b416e1d27ec53ca8c13db3f91a89cd000000000000000000000000af88d065e77c8cc2239327c5edb3a432268e5831000000000000000000000000000000000000000000000000000000061ecfdcd2000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000d40000000000000000000000000000000000000000000000000000000000006055000000000000000000000000000000000000000000000000000000006ac5b22b00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002afe2e953bc1269d23e5e720878b259bb19f2c721e839d8980e5d9d7c3a8c03ef0000000000000000000000000000000000000000000000000000000000000220000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "blockNumber": "0x18ed388",
+        "transactionHash": "0xefa46658dead085751916c1368ed2590d72fa34dce36abf5c6b5a8cbcfc0d624",
+        "transactionIndex": "0x115",
+        "blockHash": "0x7b2c8830be61a5b1f6dd840f7bbd3cc909174c8c73c1288a018ecb8c56e383e2",
+        "blockTimestamp": "0x6ac5ac67",
+        "logIndex": "0x1c9",
+        "removed": false
+      },
+      {
+        "address": "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae",
+        "topics": [
+          "0xcba69f43792f9f399347222505213b55af8e0b0b54b893085c2e27ecbe1644f1"
+        ],
+        "data": "0x000000000000000000000000000000000000000000000000000000000000002076b9be437acfe060e06a1cc7c43177615c14406153ec2221664862d08c38063000000000000000000000000000000000000000000000000000000000000001400000000000000000000000000000000000000000000000000000000000000180000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003e2d81f7a5659e4760ba929ef88eed40ef6640a10000000000000000000000000000000000000000000000008e42de3018878000000000000000000000000000000000000000000000000000000000000000a4b10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000056d6179616e0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003436f770000000000000000000000000000000000000000000000000000000000",
+        "blockNumber": "0x18ed388",
+        "transactionHash": "0xefa46658dead085751916c1368ed2590d72fa34dce36abf5c6b5a8cbcfc0d624",
+        "transactionIndex": "0x115",
+        "blockHash": "0x7b2c8830be61a5b1f6dd840f7bbd3cc909174c8c73c1288a018ecb8c56e383e2",
+        "blockTimestamp": "0x6ac5ac67",
+        "logIndex": "0x1ca",
+        "removed": false
+      }
+    ],
+    "service_boundary": "CONFIRMED LI.FI router; no private custody or exchange-account holder identified"
+  },
+  {
+    "ID": "F0551",
+    "classification": "SUPPORTED",
+    "record_type": "Transaction-specific protocol API downstream lead, not yet independently verified destination settlement",
+    "source_transaction": "0xefa46658dead085751916c1368ed2590d72fa34dce36abf5c6b5a8cbcfc0d624",
+    "protocol_identifier": "0x76b9be437acfe060e06a1cc7c43177615c14406153ec2221664862d08c380630",
+    "underlying_protocol_reported": "mayan",
+    "destination_chain_id_reported": 42161,
+    "destination_transaction_reported": "0x6e0e5363e1d9665fd9d6360655c1ffd7a66f397fab0731fe65d06e8d630bfb6f",
+    "destination_asset_reported": "USDC",
+    "destination_amount_base_units_reported": "26823206875",
+    "destination_recipient_reported": "0x3e2d81f7a5659e4760ba929ef88eed40ef6640a1",
+    "API_status": "DONE",
+    "integrator_string": "Cow",
+    "fee_limit": "Empty API feeCosts is not proof of zero protocol fees or spread. Native transaction gas separately reproduced.",
+    "evidence_files": [
+      "access/router_lifi_status.response.txt",
+      "access/router_receipt.response.txt"
+    ],
+    "attribution_significance": "Primary LI.FI response gives exact Mayan Ethereum-to-Arbitrum candidate. Destination receipt, matching Mayan order and downstream disposal not independently reproduced in this block. Cow is an integrator string, not named operator/owner evidence."
+  },
+  {
+    "ID": "F0552",
+    "classification": "UNRESOLVED",
+    "record_type": "Funding/disposal limits and next target",
+    "funding_summary": "Eight direct origin bridge entries remain UNRESOLVED upstream; seven Gateway prefunds are PARTIAL / RE-ESTABLISHED last-hop funding. No complete CLEAN affected-wallet native provenance. Ethereum routing account is already-funded pooled boundary; second disposal EOA receives supplemental liquidity.",
+    "beneficiary_attribution_advanced": false,
+    "new_private_custody_or_exchange_attribution": false,
+    "lookalike_warning": "Later dust sender 0x3e2df1a63dd295891663bb1697375e3df46d40a1 is distinct from actual forwarder 0x3e2d81f7a5659e4760ba929ef88eed40ef6640a1; no identity/control finding from address resemblance.",
+    "remaining_gaps": [
+      "Robinhood token-sale native payout traces and historical balances",
+      "Complete native upstream allocation and earlier fee funding",
+      "User authorization/control and independent service identities",
+      "Independent Mayan destination settlement for new exact LI.FI API candidate"
+    ],
+    "next_highest_priority_target": "Reproduce exact new Mayan destination hash and order correspondence from the 10.251 ETH disposal; do not assign individual pooled Robinhood deposits without native provenance.",
+    "preservation": "Six Relay routes/totals unchanged; old bridge routes not counted as new losses. Privacy Cash separate. No article; no identity/custody/common-owner findings.",
+    "evidence_files": [
+      "access/terminal_transactions.response.txt",
+      "access/onward_transactions.response.txt"
+    ]
+  }
+]

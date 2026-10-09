@@ -1,0 +1,8 @@
+{
+  "url": "https://eth.blockscout.com/api/v2/smart-contracts/0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae",
+  "requested_at_UTC": "2026-10-09T09:13:14.623528+00:00",
+  "method": "GET",
+  "request": null,
+  "HTTP_status": 200,
+  "response_file": "router_metadata.response.txt"
+}

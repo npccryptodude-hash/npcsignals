@@ -1,0 +1,8 @@
+{
+  "url": "https://li.quest/v1/status?txHash=0xefa46658dead085751916c1368ed2590d72fa34dce36abf5c6b5a8cbcfc0d624&fromChain=1",
+  "requested_at_UTC": "2026-10-09T09:13:56.517501+00:00",
+  "method": "GET",
+  "request": null,
+  "HTTP_status": 200,
+  "response_file": "router_lifi_status.response.txt"
+}
