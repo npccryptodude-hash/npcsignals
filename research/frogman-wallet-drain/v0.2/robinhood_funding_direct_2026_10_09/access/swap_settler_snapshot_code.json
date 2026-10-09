@@ -1,0 +1,16 @@
+{
+  "url": "https://rpc.mainnet.chain.robinhood.com",
+  "requested_at_UTC": "2026-10-09T08:54:14.725503+00:00",
+  "method": "POST",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_getCode",
+    "params": [
+      "0x40132e775e14ef3a946fa5624468715456fa0be4",
+      "0x50234fd"
+    ]
+  },
+  "HTTP_status": 200,
+  "response_file": "swap_settler_snapshot_code.response.txt"
+}

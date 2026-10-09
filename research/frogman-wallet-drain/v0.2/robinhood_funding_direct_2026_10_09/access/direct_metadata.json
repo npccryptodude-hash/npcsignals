@@ -1,0 +1,8 @@
+{
+  "url": "https://explorer.robinhood.com/api/v2/addresses/0x427c4b37de0714821b09c4fc655a713abbcfba83",
+  "requested_at_UTC": "2026-10-09T08:50:48.105144+00:00",
+  "method": "GET",
+  "request": null,
+  "error": "HTTP Error 502: Bad Gateway",
+  "HTTP_status": 502
+}

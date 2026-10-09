@@ -1,0 +1,910 @@
+[
+  {
+    "ID": "F0505",
+    "classification": "CONFIRMED",
+    "record_type": "Direct Robinhood bridge-input reproduction; funding state unresolved",
+    "chain": "Robinhood Chain (4663)",
+    "existing_origin_ID": "F0435",
+    "source_transaction": "0xd5d15936a30c21415cbf4e39f14ac50bb6936d3f6ad4cdd57c808c1732a4cfd5",
+    "sender": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+    "recipient": "0xd29c85f15df544ba632c9e25829fd29d767d7978",
+    "deposit_id": "430112",
+    "block_number": 82031134,
+    "timestamp_UTC": "2026-10-06T23:51:02+00:00",
+    "asset": "native ETH \u2192 wrapped-native Across input",
+    "input_amount_wei": "8000000000000000000",
+    "input_amount_ETH": "8",
+    "status": "success",
+    "funding_provenance": "UNRESOLVED",
+    "case_attributable_amount": "UNRESOLVED; no deterministic allocation from prior native balance",
+    "prior_balance_observation": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "error": {
+        "code": -32000,
+        "message": "historical state 072096f0eb4851201e88c018dcf2bce252b99cbe35b543466b5b301cd0020c39 is not available"
+      }
+    },
+    "post_balance_observation": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "error": {
+        "code": -32000,
+        "message": "historical state 767fac1fc288698fc0f849d6184b84f4693b656218bd4ba55ba1e2b5b812de47 is not available"
+      }
+    },
+    "prior_nonce_observation": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "error": {
+        "code": -32000,
+        "message": "historical state 072096f0eb4851201e88c018dcf2bce252b99cbe35b543466b5b301cd0020c39 is not available"
+      }
+    },
+    "fee_wei": "1510017240000",
+    "evidence_files": [
+      "access/F0435_receipt.response.txt",
+      "access/F0435_pre_balance.response.txt",
+      "access/F0435_post_balance.response.txt",
+      "access/F0435_pre_nonce.response.txt"
+    ],
+    "attribution_significance": "Same direct transaction sender and native value role, not ownership of any other sender, complete affected-wallet provenance or extra loss."
+  },
+  {
+    "ID": "F0506",
+    "classification": "CONFIRMED",
+    "record_type": "Direct Robinhood bridge-input reproduction; funding state unresolved",
+    "chain": "Robinhood Chain (4663)",
+    "existing_origin_ID": "F0437",
+    "source_transaction": "0xc5a4dcdecb4cee5e6be83fa1adc2982c7cd69d879838d285c42c84880014edfa",
+    "sender": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+    "recipient": "0xd29c85f15df544ba632c9e25829fd29d767d7978",
+    "deposit_id": "430113",
+    "block_number": 82031216,
+    "timestamp_UTC": "2026-10-06T23:51:11+00:00",
+    "asset": "native ETH \u2192 wrapped-native Across input",
+    "input_amount_wei": "8000000000000000000",
+    "input_amount_ETH": "8",
+    "status": "success",
+    "funding_provenance": "UNRESOLVED",
+    "case_attributable_amount": "UNRESOLVED; no deterministic allocation from prior native balance",
+    "prior_balance_observation": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "error": {
+        "code": -32000,
+        "message": "historical state f581be66e0bf1272c8a43fadeee0b1dbec59afc2efc1a1b98913637f672f488f is not available"
+      }
+    },
+    "post_balance_observation": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "error": {
+        "code": -32000,
+        "message": "historical state a072f932ca97635be8e46765cebdd9dd6310460f658c74e18ea2562b0e6f6edc is not available"
+      }
+    },
+    "prior_nonce_observation": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "error": {
+        "code": -32000,
+        "message": "historical state f581be66e0bf1272c8a43fadeee0b1dbec59afc2efc1a1b98913637f672f488f is not available"
+      }
+    },
+    "fee_wei": "1501787040000",
+    "evidence_files": [
+      "access/F0437_receipt.response.txt",
+      "access/F0437_pre_balance.response.txt",
+      "access/F0437_post_balance.response.txt",
+      "access/F0437_pre_nonce.response.txt"
+    ],
+    "attribution_significance": "Same direct transaction sender and native value role, not ownership of any other sender, complete affected-wallet provenance or extra loss."
+  },
+  {
+    "ID": "F0507",
+    "classification": "CONFIRMED",
+    "record_type": "Direct Robinhood bridge-input reproduction; funding state unresolved",
+    "chain": "Robinhood Chain (4663)",
+    "existing_origin_ID": "F0439",
+    "source_transaction": "0x9680e837c5b4cc6c7a59f2244e8a399e73ecdde3ee03e9cd74f3c6d272a9f689",
+    "sender": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+    "recipient": "0xd29c85f15df544ba632c9e25829fd29d767d7978",
+    "deposit_id": "430114",
+    "block_number": 82031296,
+    "timestamp_UTC": "2026-10-06T23:51:19+00:00",
+    "asset": "native ETH \u2192 wrapped-native Across input",
+    "input_amount_wei": "8000000000000000000",
+    "input_amount_ETH": "8",
+    "status": "success",
+    "funding_provenance": "UNRESOLVED",
+    "case_attributable_amount": "UNRESOLVED; no deterministic allocation from prior native balance",
+    "prior_balance_observation": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "error": {
+        "code": -32000,
+        "message": "historical state 5cc81b7c5781d47920128dcb6d7a71cf8dac86309bdabddf6d054f8ee1bb700e is not available"
+      }
+    },
+    "post_balance_observation": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "error": {
+        "code": -32000,
+        "message": "historical state 860987b05cc9eaeaa3606203e76d43947e2f7148f4d87f01b70101dcfe9ec17d is not available"
+      }
+    },
+    "prior_nonce_observation": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "error": {
+        "code": -32000,
+        "message": "historical state 5cc81b7c5781d47920128dcb6d7a71cf8dac86309bdabddf6d054f8ee1bb700e is not available"
+      }
+    },
+    "fee_wei": "1509867600000",
+    "evidence_files": [
+      "access/F0439_receipt.response.txt",
+      "access/F0439_pre_balance.response.txt",
+      "access/F0439_post_balance.response.txt",
+      "access/F0439_pre_nonce.response.txt"
+    ],
+    "attribution_significance": "Same direct transaction sender and native value role, not ownership of any other sender, complete affected-wallet provenance or extra loss."
+  },
+  {
+    "ID": "F0508",
+    "classification": "CONFIRMED",
+    "record_type": "Direct Robinhood bridge-input reproduction; funding state unresolved",
+    "chain": "Robinhood Chain (4663)",
+    "existing_origin_ID": "F0441",
+    "source_transaction": "0x79bdbf44da9909e691bf34fb2edc7828b9dad69e8579378473b2aeb03cfdfe17",
+    "sender": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+    "recipient": "0xd29c85f15df544ba632c9e25829fd29d767d7978",
+    "deposit_id": "430115",
+    "block_number": 82031358,
+    "timestamp_UTC": "2026-10-06T23:51:26+00:00",
+    "asset": "native ETH \u2192 wrapped-native Across input",
+    "input_amount_wei": "8000000000000000000",
+    "input_amount_ETH": "8",
+    "status": "success",
+    "funding_provenance": "UNRESOLVED",
+    "case_attributable_amount": "UNRESOLVED; no deterministic allocation from prior native balance",
+    "prior_balance_observation": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "error": {
+        "code": -32000,
+        "message": "historical state 39d5cd714a113d64b6e9dca00408c221c1b8d2d9560803321a54e7e994f7e60b is not available"
+      }
+    },
+    "post_balance_observation": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "error": {
+        "code": -32000,
+        "message": "historical state 8f2f46c86b227d81438190470a09eb4c39f9be7ca8304fd47c66da10977bcf72 is not available"
+      }
+    },
+    "prior_nonce_observation": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "error": {
+        "code": -32000,
+        "message": "historical state 39d5cd714a113d64b6e9dca00408c221c1b8d2d9560803321a54e7e994f7e60b is not available"
+      }
+    },
+    "fee_wei": "1505976960000",
+    "evidence_files": [
+      "access/F0441_receipt.response.txt",
+      "access/F0441_pre_balance.response.txt",
+      "access/F0441_post_balance.response.txt",
+      "access/F0441_pre_nonce.response.txt"
+    ],
+    "attribution_significance": "Same direct transaction sender and native value role, not ownership of any other sender, complete affected-wallet provenance or extra loss."
+  },
+  {
+    "ID": "F0509",
+    "classification": "CONFIRMED",
+    "record_type": "Direct Robinhood bridge-input reproduction; funding state unresolved",
+    "chain": "Robinhood Chain (4663)",
+    "existing_origin_ID": "F0443",
+    "source_transaction": "0xd442e00deb23288942118e3ff724799215e5aed37e1ef181e32a9a262929f96b",
+    "sender": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+    "recipient": "0xd29c85f15df544ba632c9e25829fd29d767d7978",
+    "deposit_id": "430116",
+    "block_number": 82031564,
+    "timestamp_UTC": "2026-10-06T23:51:47+00:00",
+    "asset": "native ETH \u2192 wrapped-native Across input",
+    "input_amount_wei": "8000000000000000000",
+    "input_amount_ETH": "8",
+    "status": "success",
+    "funding_provenance": "UNRESOLVED",
+    "case_attributable_amount": "UNRESOLVED; no deterministic allocation from prior native balance",
+    "prior_balance_observation": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "error": {
+        "code": -32000,
+        "message": "historical state 2e6ff2298d859480ad6d51a1d36860f1298897ad04e4cd576d21fa579dd67d76 is not available"
+      }
+    },
+    "post_balance_observation": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "error": {
+        "code": -32000,
+        "message": "historical state 413c8cf75c57e489e7950cd1bce504b2f0b02b3d4ab513c6ab196308f208010a is not available"
+      }
+    },
+    "prior_nonce_observation": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "error": {
+        "code": -32000,
+        "message": "historical state 2e6ff2298d859480ad6d51a1d36860f1298897ad04e4cd576d21fa579dd67d76 is not available"
+      }
+    },
+    "fee_wei": "1502235960000",
+    "evidence_files": [
+      "access/F0443_receipt.response.txt",
+      "access/F0443_pre_balance.response.txt",
+      "access/F0443_post_balance.response.txt",
+      "access/F0443_pre_nonce.response.txt"
+    ],
+    "attribution_significance": "Same direct transaction sender and native value role, not ownership of any other sender, complete affected-wallet provenance or extra loss."
+  },
+  {
+    "ID": "F0510",
+    "classification": "CONFIRMED",
+    "record_type": "Direct Robinhood bridge-input reproduction; funding state unresolved",
+    "chain": "Robinhood Chain (4663)",
+    "existing_origin_ID": "F0445",
+    "source_transaction": "0x4906396cfabba1bbb8d92b1883cf42e814f137075eb1aa65180bedf5aca7ad8d",
+    "sender": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+    "recipient": "0xd29c85f15df544ba632c9e25829fd29d767d7978",
+    "deposit_id": "430117",
+    "block_number": 82031648,
+    "timestamp_UTC": "2026-10-06T23:51:56+00:00",
+    "asset": "native ETH \u2192 wrapped-native Across input",
+    "input_amount_wei": "8000000000000000000",
+    "input_amount_ETH": "8",
+    "status": "success",
+    "funding_provenance": "UNRESOLVED",
+    "case_attributable_amount": "UNRESOLVED; no deterministic allocation from prior native balance",
+    "prior_balance_observation": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "error": {
+        "code": -32000,
+        "message": "historical state 681c0130a3600104954f30662d5d55f1c40080d55fc4f281dc194b2fba1603df is not available"
+      }
+    },
+    "post_balance_observation": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "error": {
+        "code": -32000,
+        "message": "historical state eb0a5899d04f7a4b94ecba814943fda3e79d79ce4c1aecd2571311a054712d66 is not available"
+      }
+    },
+    "prior_nonce_observation": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "error": {
+        "code": -32000,
+        "message": "historical state 681c0130a3600104954f30662d5d55f1c40080d55fc4f281dc194b2fba1603df is not available"
+      }
+    },
+    "fee_wei": "1496400000000",
+    "evidence_files": [
+      "access/F0445_receipt.response.txt",
+      "access/F0445_pre_balance.response.txt",
+      "access/F0445_post_balance.response.txt",
+      "access/F0445_pre_nonce.response.txt"
+    ],
+    "attribution_significance": "Same direct transaction sender and native value role, not ownership of any other sender, complete affected-wallet provenance or extra loss."
+  },
+  {
+    "ID": "F0511",
+    "classification": "CONFIRMED",
+    "record_type": "Direct Robinhood bridge-input reproduction; funding state unresolved",
+    "chain": "Robinhood Chain (4663)",
+    "existing_origin_ID": "F0447",
+    "source_transaction": "0xc0b7f45cd5cdbf2c923302ec240dbbd315331343df75bdd04f5e31b263d29b15",
+    "sender": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+    "recipient": "0xd29c85f15df544ba632c9e25829fd29d767d7978",
+    "deposit_id": "430122",
+    "block_number": 82031961,
+    "timestamp_UTC": "2026-10-06T23:52:29+00:00",
+    "asset": "native ETH \u2192 wrapped-native Across input",
+    "input_amount_wei": "8340000000000000000",
+    "input_amount_ETH": "8.34",
+    "status": "success",
+    "funding_provenance": "UNRESOLVED",
+    "case_attributable_amount": "UNRESOLVED; no deterministic allocation from prior native balance",
+    "prior_balance_observation": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "error": {
+        "code": -32000,
+        "message": "historical state 73ada61799fccafa233affc659c7579749d1914a62a738703fda633bade35dda is not available"
+      }
+    },
+    "post_balance_observation": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "error": {
+        "code": -32000,
+        "message": "historical state 8c3f2e2e4bde8745c36b69b50ef29ca0dfe342085e510be2a56ef0168a0460ca is not available"
+      }
+    },
+    "prior_nonce_observation": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "error": {
+        "code": -32000,
+        "message": "historical state 73ada61799fccafa233affc659c7579749d1914a62a738703fda633bade35dda is not available"
+      }
+    },
+    "fee_wei": "1516152480000",
+    "evidence_files": [
+      "access/F0447_receipt.response.txt",
+      "access/F0447_pre_balance.response.txt",
+      "access/F0447_post_balance.response.txt",
+      "access/F0447_pre_nonce.response.txt"
+    ],
+    "attribution_significance": "Same direct transaction sender and native value role, not ownership of any other sender, complete affected-wallet provenance or extra loss."
+  },
+  {
+    "ID": "F0512",
+    "classification": "CONFIRMED",
+    "record_type": "Direct Robinhood bridge-input reproduction; funding state unresolved",
+    "chain": "Robinhood Chain (4663)",
+    "existing_origin_ID": "F0449",
+    "source_transaction": "0xea927aad2489ff07fe9e2e476d406ebd8ce55d9a0152a0cbda4acabf86fc06f4",
+    "sender": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+    "recipient": "0xd29c85f15df544ba632c9e25829fd29d767d7978",
+    "deposit_id": "430124",
+    "block_number": 82032267,
+    "timestamp_UTC": "2026-10-06T23:53:01+00:00",
+    "asset": "native ETH \u2192 wrapped-native Across input",
+    "input_amount_wei": "8000000000000000000",
+    "input_amount_ETH": "8",
+    "status": "success",
+    "funding_provenance": "UNRESOLVED",
+    "case_attributable_amount": "UNRESOLVED; no deterministic allocation from prior native balance",
+    "prior_balance_observation": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "error": {
+        "code": -32000,
+        "message": "historical state acbe1952c171e5381bb8ff12e81c808820c8343db64613c28a1bc75154e9f8e7 is not available"
+      }
+    },
+    "post_balance_observation": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "error": {
+        "code": -32000,
+        "message": "historical state 72e4268143e8df21757f0e399f71bff2ac0d88b945fd69e879244ce4c8344202 is not available"
+      }
+    },
+    "prior_nonce_observation": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "error": {
+        "code": -32000,
+        "message": "historical state acbe1952c171e5381bb8ff12e81c808820c8343db64613c28a1bc75154e9f8e7 is not available"
+      }
+    },
+    "fee_wei": "1504181280000",
+    "evidence_files": [
+      "access/F0449_receipt.response.txt",
+      "access/F0449_pre_balance.response.txt",
+      "access/F0449_post_balance.response.txt",
+      "access/F0449_pre_nonce.response.txt"
+    ],
+    "attribution_significance": "Same direct transaction sender and native value role, not ownership of any other sender, complete affected-wallet provenance or extra loss."
+  },
+  {
+    "ID": "F0513",
+    "classification": "CONFIRMED",
+    "record_type": "Fresh affected-wallet token funding reproduction; existing transfer not new loss",
+    "existing_ID": "F0187",
+    "chain": "Robinhood Chain (4663)",
+    "source_transaction": "0x49e05a92a0b08841fac2b475877cd02732e957412d0e1a3cad706f489641c596",
+    "transaction_sender": "0x14aa2a71dbb5ef87b81f92205e2699aa4aa65794",
+    "source_wallet": "0x14aa2a71dbb5ef87b81f92205e2699aa4aa65794",
+    "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+    "token": "0x020bfc650a365f8bb26819deaabf3e21291018b4",
+    "asset_label": "CASHCAT (prior metadata)",
+    "raw_amount": "3700227867433114634814141",
+    "amount_18_decimals": "3700227.867433114634814141",
+    "block_number": 81904175,
+    "timestamp_UTC": "2026-10-06T20:14:00+00:00",
+    "funding_provenance": "PARTIAL / RE-ESTABLISHED at token transfer only",
+    "prior_token_balance": "UNRESOLVED; historical state unavailable",
+    "attribution_significance": "Direct token edge from the reported affected address is reproduced; does not assign its whole subsequent balance to incident funds. Wallet identity/compromise method are not re-established here.",
+    "evidence_files": [
+      "access/0x49e05a92a0b08841fac2b475877cd02732e957412d0e1a3cad706f489641c596_tx.response.txt",
+      "access/0x49e05a92a0b08841fac2b475877cd02732e957412d0e1a3cad706f489641c596_receipt.response.txt",
+      "access/block_0x4e1c22f.response.txt"
+    ]
+  },
+  {
+    "ID": "F0514",
+    "classification": "CONFIRMED",
+    "record_type": "Fresh affected-wallet token funding reproduction; existing transfer not new loss",
+    "existing_ID": "F0188",
+    "chain": "Robinhood Chain (4663)",
+    "source_transaction": "0xbf1158177a2f350f092b2426025b339bfeeaa77923e4e51c6bb216d3292b8171",
+    "transaction_sender": "0x14aa2a71dbb5ef87b81f92205e2699aa4aa65794",
+    "source_wallet": "0x14aa2a71dbb5ef87b81f92205e2699aa4aa65794",
+    "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+    "token": "0xc60ba256b44334a0cd2c7242e98b88f031abb006",
+    "asset_label": "V4 (prior metadata)",
+    "raw_amount": "13705666431273061609772002",
+    "amount_18_decimals": "13705666.431273061609772002",
+    "block_number": 81904175,
+    "timestamp_UTC": "2026-10-06T20:14:00+00:00",
+    "funding_provenance": "PARTIAL / RE-ESTABLISHED at token transfer only",
+    "prior_token_balance": "UNRESOLVED; historical state unavailable",
+    "attribution_significance": "Direct token edge from the reported affected address is reproduced; does not assign its whole subsequent balance to incident funds. Wallet identity/compromise method are not re-established here.",
+    "evidence_files": [
+      "access/0xbf1158177a2f350f092b2426025b339bfeeaa77923e4e51c6bb216d3292b8171_tx.response.txt",
+      "access/0xbf1158177a2f350f092b2426025b339bfeeaa77923e4e51c6bb216d3292b8171_receipt.response.txt",
+      "access/block_0x4e1c22f.response.txt"
+    ]
+  },
+  {
+    "ID": "F0515",
+    "classification": "CONFIRMED",
+    "record_type": "Fresh affected-wallet token funding reproduction; existing transfer not new loss",
+    "existing_ID": "F0189",
+    "chain": "Robinhood Chain (4663)",
+    "source_transaction": "0xa71e132f397b427cc6f1bb58252a5c56b2e0a5dde14733c840103ec3552456a7",
+    "transaction_sender": "0x14aa2a71dbb5ef87b81f92205e2699aa4aa65794",
+    "source_wallet": "0x14aa2a71dbb5ef87b81f92205e2699aa4aa65794",
+    "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+    "token": "0x0bd7d308f8e1639fab988df18a8011f41eacad73",
+    "asset_label": "wrapped native (prior metadata)",
+    "raw_amount": "500012122639901441",
+    "amount_18_decimals": "0.500012122639901441",
+    "block_number": 81904175,
+    "timestamp_UTC": "2026-10-06T20:14:00+00:00",
+    "funding_provenance": "PARTIAL / RE-ESTABLISHED at token transfer only",
+    "prior_token_balance": "UNRESOLVED; historical state unavailable",
+    "attribution_significance": "Direct token edge from the reported affected address is reproduced; does not assign its whole subsequent balance to incident funds. Wallet identity/compromise method are not re-established here.",
+    "evidence_files": [
+      "access/0xa71e132f397b427cc6f1bb58252a5c56b2e0a5dde14733c840103ec3552456a7_tx.response.txt",
+      "access/0xa71e132f397b427cc6f1bb58252a5c56b2e0a5dde14733c840103ec3552456a7_receipt.response.txt",
+      "access/block_0x4e1c22f.response.txt"
+    ]
+  },
+  {
+    "ID": "F0516",
+    "classification": "CONFIRMED",
+    "record_type": "New V4 disposal token debits and wrapped-native burns; native payout allocation unresolved",
+    "chain": "Robinhood Chain (4663)",
+    "source_transaction": "0x38ccc85e35a54234662a915df3c21b875f5d3e0adac5d9caa9eb44cc9fabf5eb",
+    "transaction_sender": "0x8d10551fbb0da1eadf34b25210fe75f278fa9321",
+    "transaction_recipient": "0x40132e775e14ef3a946fa5624468715456fa0be4",
+    "nonce": 10972,
+    "selector": "0x085c8c5e",
+    "block_number": 81947043,
+    "timestamp_UTC": "2026-10-06T21:27:13+00:00",
+    "V4_source_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+    "V4_token": "0xc60ba256b44334a0cd2c7242e98b88f031abb006",
+    "V4_raw_debit": "6852833215636530804886001",
+    "V4_amount": "6852833.215636530804886001",
+    "token_debit_events": [
+      {
+        "address": "0xc60ba256b44334a0cd2c7242e98b88f031abb006",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x000000000000000000000000427c4b37de0714821b09c4fc655a713abbcfba83",
+          "0x00000000000000000000000040132e775e14ef3a946fa5624468715456fa0be4"
+        ],
+        "data": "0x00000000000000000000000000000000000000000005ab24d53fbaf6a21d09f1",
+        "blockNumber": "0x4e269a3",
+        "transactionHash": "0x38ccc85e35a54234662a915df3c21b875f5d3e0adac5d9caa9eb44cc9fabf5eb",
+        "transactionIndex": "0x7",
+        "blockHash": "0xfe6f9631e47b291b9b0de6c36a8bf7c8ba0005eda1d38ca09c94669c351180f1",
+        "blockTimestamp": "0x6ac567b1",
+        "logIndex": "0x2",
+        "removed": false
+      }
+    ],
+    "wrapped_native_burn_amount": "12.435733791211368507",
+    "wrapped_native_burn_events": [
+      {
+        "address": "0x0bd7d308f8e1639fab988df18a8011f41eacad73",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x00000000000000000000000040132e775e14ef3a946fa5624468715456fa0be4",
+          "0x0000000000000000000000000000000000000000000000000000000000000000"
+        ],
+        "data": "0x000000000000000000000000000000000000000000000000ac9499feea79b03b",
+        "blockNumber": "0x4e269a3",
+        "transactionHash": "0x38ccc85e35a54234662a915df3c21b875f5d3e0adac5d9caa9eb44cc9fabf5eb",
+        "transactionIndex": "0x7",
+        "blockHash": "0xfe6f9631e47b291b9b0de6c36a8bf7c8ba0005eda1d38ca09c94669c351180f1",
+        "blockTimestamp": "0x6ac567b1",
+        "logIndex": "0x1e",
+        "removed": false
+      }
+    ],
+    "funding_provenance": "PARTIAL / RE-ESTABLISHED token-level disposal; bridge-input provenance UNRESOLVED",
+    "native_payout_recipient": "UNRESOLVED; no call trace or historical balances",
+    "service_attribution": "Contract-mediated swap behavior; named operator/custody not independently identified for this Robinhood deployment",
+    "evidence_files": [
+      "access/0x38ccc85e35a54234662a915df3c21b875f5d3e0adac5d9caa9eb44cc9fabf5eb_tx.response.txt",
+      "access/0x38ccc85e35a54234662a915df3c21b875f5d3e0adac5d9caa9eb44cc9fabf5eb_receipt.response.txt",
+      "access/block_0x4e269a3.response.txt"
+    ],
+    "attribution_significance": "Token-debit source and outer sender remain distinct. Native burn is not silently recorded as a verified native credit to the case sender."
+  },
+  {
+    "ID": "F0517",
+    "classification": "CONFIRMED",
+    "record_type": "New V4 disposal token debits and wrapped-native burns; native payout allocation unresolved",
+    "chain": "Robinhood Chain (4663)",
+    "source_transaction": "0xae6a813e60f259eb90516ecc2fd26680d86bb0cab9a1b5b18c660c737fd68c8f",
+    "transaction_sender": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+    "transaction_recipient": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+    "nonce": 7,
+    "selector": "0xe9ae5c53",
+    "block_number": 81949922,
+    "timestamp_UTC": "2026-10-06T21:32:05+00:00",
+    "V4_source_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+    "V4_token": "0xc60ba256b44334a0cd2c7242e98b88f031abb006",
+    "V4_raw_debit": "3852833215636530804886001",
+    "V4_amount": "3852833.215636530804886001",
+    "token_debit_events": [
+      {
+        "address": "0xc60ba256b44334a0cd2c7242e98b88f031abb006",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x000000000000000000000000427c4b37de0714821b09c4fc655a713abbcfba83",
+          "0x000000000000000000000000647d6b700c120398dbbff556abce98c35c192e77"
+        ],
+        "data": "0x000000000000000000000000000000000000000000005196402ebb9e2cb61a98",
+        "blockNumber": "0x4e274e2",
+        "transactionHash": "0xae6a813e60f259eb90516ecc2fd26680d86bb0cab9a1b5b18c660c737fd68c8f",
+        "transactionIndex": "0x5",
+        "blockHash": "0x7108854d386069e4c5b7364918dbf0cabc3e1102ca495a5a8385238d26dd0375",
+        "blockTimestamp": "0x6ac568d5",
+        "logIndex": "0xc",
+        "removed": false
+      },
+      {
+        "address": "0xc60ba256b44334a0cd2c7242e98b88f031abb006",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x000000000000000000000000427c4b37de0714821b09c4fc655a713abbcfba83",
+          "0x0000000000000000000000008366a39cc670b4001a1121b8f6a443a643e40951"
+        ],
+        "data": "0x0000000000000000000000000000000000000000000028cb20175dcf165b0d4c",
+        "blockNumber": "0x4e274e2",
+        "transactionHash": "0xae6a813e60f259eb90516ecc2fd26680d86bb0cab9a1b5b18c660c737fd68c8f",
+        "transactionIndex": "0x5",
+        "blockHash": "0x7108854d386069e4c5b7364918dbf0cabc3e1102ca495a5a8385238d26dd0375",
+        "blockTimestamp": "0x6ac568d5",
+        "logIndex": "0x10",
+        "removed": false
+      },
+      {
+        "address": "0xc60ba256b44334a0cd2c7242e98b88f031abb006",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x000000000000000000000000427c4b37de0714821b09c4fc655a713abbcfba83",
+          "0x0000000000000000000000008366a39cc670b4001a1121b8f6a443a643e40951"
+        ],
+        "data": "0x0000000000000000000000000000000000000000000028cb20175dcf165b0d4c",
+        "blockNumber": "0x4e274e2",
+        "transactionHash": "0xae6a813e60f259eb90516ecc2fd26680d86bb0cab9a1b5b18c660c737fd68c8f",
+        "transactionIndex": "0x5",
+        "blockHash": "0x7108854d386069e4c5b7364918dbf0cabc3e1102ca495a5a8385238d26dd0375",
+        "blockTimestamp": "0x6ac568d5",
+        "logIndex": "0x15",
+        "removed": false
+      },
+      {
+        "address": "0xc60ba256b44334a0cd2c7242e98b88f031abb006",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x000000000000000000000000427c4b37de0714821b09c4fc655a713abbcfba83",
+          "0x0000000000000000000000008366a39cc670b4001a1121b8f6a443a643e40951"
+        ],
+        "data": "0x00000000000000000000000000000000000000000001e985811865b50c449f90",
+        "blockNumber": "0x4e274e2",
+        "transactionHash": "0xae6a813e60f259eb90516ecc2fd26680d86bb0cab9a1b5b18c660c737fd68c8f",
+        "transactionIndex": "0x5",
+        "blockHash": "0x7108854d386069e4c5b7364918dbf0cabc3e1102ca495a5a8385238d26dd0375",
+        "blockTimestamp": "0x6ac568d5",
+        "logIndex": "0x17",
+        "removed": false
+      },
+      {
+        "address": "0xc60ba256b44334a0cd2c7242e98b88f031abb006",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x000000000000000000000000427c4b37de0714821b09c4fc655a713abbcfba83",
+          "0x0000000000000000000000008366a39cc670b4001a1121b8f6a443a643e40951"
+        ],
+        "data": "0x00000000000000000000000000000000000000000000a32c805d773c596c3531",
+        "blockNumber": "0x4e274e2",
+        "transactionHash": "0xae6a813e60f259eb90516ecc2fd26680d86bb0cab9a1b5b18c660c737fd68c8f",
+        "transactionIndex": "0x5",
+        "blockHash": "0x7108854d386069e4c5b7364918dbf0cabc3e1102ca495a5a8385238d26dd0375",
+        "blockTimestamp": "0x6ac568d5",
+        "logIndex": "0x1e",
+        "removed": false
+      }
+    ],
+    "wrapped_native_burn_amount": "6.643500634823265966",
+    "wrapped_native_burn_events": [
+      {
+        "address": "0x0bd7d308f8e1639fab988df18a8011f41eacad73",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x000000000000000000000000204faca1764b154221e35c0d20abb3c525710498",
+          "0x0000000000000000000000000000000000000000000000000000000000000000"
+        ],
+        "data": "0x0000000000000000000000000000000000000000000000005c3274a0ebb90eae",
+        "blockNumber": "0x4e274e2",
+        "transactionHash": "0xae6a813e60f259eb90516ecc2fd26680d86bb0cab9a1b5b18c660c737fd68c8f",
+        "transactionIndex": "0x5",
+        "blockHash": "0x7108854d386069e4c5b7364918dbf0cabc3e1102ca495a5a8385238d26dd0375",
+        "blockTimestamp": "0x6ac568d5",
+        "logIndex": "0x24",
+        "removed": false
+      }
+    ],
+    "funding_provenance": "PARTIAL / RE-ESTABLISHED token-level disposal; bridge-input provenance UNRESOLVED",
+    "native_payout_recipient": "UNRESOLVED; no call trace or historical balances",
+    "service_attribution": "Contract-mediated swap behavior; named operator/custody not independently identified for this Robinhood deployment",
+    "evidence_files": [
+      "access/0xae6a813e60f259eb90516ecc2fd26680d86bb0cab9a1b5b18c660c737fd68c8f_tx.response.txt",
+      "access/0xae6a813e60f259eb90516ecc2fd26680d86bb0cab9a1b5b18c660c737fd68c8f_receipt.response.txt",
+      "access/block_0x4e274e2.response.txt"
+    ],
+    "attribution_significance": "Token-debit source and outer sender remain distinct. Native burn is not silently recorded as a verified native credit to the case sender."
+  },
+  {
+    "ID": "F0518",
+    "classification": "CONFIRMED",
+    "record_type": "New V4 disposal token debits and wrapped-native burns; native payout allocation unresolved",
+    "chain": "Robinhood Chain (4663)",
+    "source_transaction": "0x2b65933dc34cd4283fbe1d5a0c90d2e82a07ea88b96a7acbe639560eae8887a8",
+    "transaction_sender": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+    "transaction_recipient": "0x204faca1764b154221e35c0d20abb3c525710498",
+    "nonce": 8,
+    "selector": "0x3593564c",
+    "block_number": 81952445,
+    "timestamp_UTC": "2026-10-06T21:36:24+00:00",
+    "V4_source_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+    "V4_token": "0xc60ba256b44334a0cd2c7242e98b88f031abb006",
+    "V4_raw_debit": "3000000000000000000000000",
+    "V4_amount": "3000000",
+    "token_debit_events": [
+      {
+        "address": "0xc60ba256b44334a0cd2c7242e98b88f031abb006",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x000000000000000000000000427c4b37de0714821b09c4fc655a713abbcfba83",
+          "0x000000000000000000000000647d6b700c120398dbbff556abce98c35c192e77"
+        ],
+        "data": "0x000000000000000000000000000000000000000000005f4a8c8375d155400000",
+        "blockNumber": "0x4e27ebd",
+        "transactionHash": "0x2b65933dc34cd4283fbe1d5a0c90d2e82a07ea88b96a7acbe639560eae8887a8",
+        "transactionIndex": "0x5",
+        "blockHash": "0xe545e21b25f7e73dc7fb6f1c8bd1009685c09644ebd7f1254d1d9793a2c58acb",
+        "blockTimestamp": "0x6ac569d8",
+        "logIndex": "0x4",
+        "removed": false
+      },
+      {
+        "address": "0xc60ba256b44334a0cd2c7242e98b88f031abb006",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x000000000000000000000000427c4b37de0714821b09c4fc655a713abbcfba83",
+          "0x0000000000000000000000008366a39cc670b4001a1121b8f6a443a643e40951"
+        ],
+        "data": "0x000000000000000000000000000000000000000000003f870857a3e0e3800000",
+        "blockNumber": "0x4e27ebd",
+        "transactionHash": "0x2b65933dc34cd4283fbe1d5a0c90d2e82a07ea88b96a7acbe639560eae8887a8",
+        "transactionIndex": "0x5",
+        "blockHash": "0xe545e21b25f7e73dc7fb6f1c8bd1009685c09644ebd7f1254d1d9793a2c58acb",
+        "blockTimestamp": "0x6ac569d8",
+        "logIndex": "0x6",
+        "removed": false
+      },
+      {
+        "address": "0xc60ba256b44334a0cd2c7242e98b88f031abb006",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x000000000000000000000000427c4b37de0714821b09c4fc655a713abbcfba83",
+          "0x0000000000000000000000008366a39cc670b4001a1121b8f6a443a643e40951"
+        ],
+        "data": "0x000000000000000000000000000000000000000000015d66ade20554e3400000",
+        "blockNumber": "0x4e27ebd",
+        "transactionHash": "0x2b65933dc34cd4283fbe1d5a0c90d2e82a07ea88b96a7acbe639560eae8887a8",
+        "transactionIndex": "0x5",
+        "blockHash": "0xe545e21b25f7e73dc7fb6f1c8bd1009685c09644ebd7f1254d1d9793a2c58acb",
+        "blockTimestamp": "0x6ac569d8",
+        "logIndex": "0xc",
+        "removed": false
+      },
+      {
+        "address": "0xc60ba256b44334a0cd2c7242e98b88f031abb006",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x000000000000000000000000427c4b37de0714821b09c4fc655a713abbcfba83",
+          "0x0000000000000000000000008366a39cc670b4001a1121b8f6a443a643e40951"
+        ],
+        "data": "0x000000000000000000000000000000000000000000007f0e10af47c1c7000000",
+        "blockNumber": "0x4e27ebd",
+        "transactionHash": "0x2b65933dc34cd4283fbe1d5a0c90d2e82a07ea88b96a7acbe639560eae8887a8",
+        "transactionIndex": "0x5",
+        "blockHash": "0xe545e21b25f7e73dc7fb6f1c8bd1009685c09644ebd7f1254d1d9793a2c58acb",
+        "blockTimestamp": "0x6ac569d8",
+        "logIndex": "0x13",
+        "removed": false
+      }
+    ],
+    "wrapped_native_burn_amount": "5.070932600792816593",
+    "wrapped_native_burn_events": [
+      {
+        "address": "0x0bd7d308f8e1639fab988df18a8011f41eacad73",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x000000000000000000000000204faca1764b154221e35c0d20abb3c525710498",
+          "0x0000000000000000000000000000000000000000000000000000000000000000"
+        ],
+        "data": "0x000000000000000000000000000000000000000000000000465f92555e341bd1",
+        "blockNumber": "0x4e27ebd",
+        "transactionHash": "0x2b65933dc34cd4283fbe1d5a0c90d2e82a07ea88b96a7acbe639560eae8887a8",
+        "transactionIndex": "0x5",
+        "blockHash": "0xe545e21b25f7e73dc7fb6f1c8bd1009685c09644ebd7f1254d1d9793a2c58acb",
+        "blockTimestamp": "0x6ac569d8",
+        "logIndex": "0x19",
+        "removed": false
+      }
+    ],
+    "funding_provenance": "PARTIAL / RE-ESTABLISHED token-level disposal; bridge-input provenance UNRESOLVED",
+    "native_payout_recipient": "UNRESOLVED; no call trace or historical balances",
+    "service_attribution": "Contract-mediated swap behavior; named operator/custody not independently identified for this Robinhood deployment",
+    "evidence_files": [
+      "access/0x2b65933dc34cd4283fbe1d5a0c90d2e82a07ea88b96a7acbe639560eae8887a8_tx.response.txt",
+      "access/0x2b65933dc34cd4283fbe1d5a0c90d2e82a07ea88b96a7acbe639560eae8887a8_receipt.response.txt",
+      "access/block_0x4e27ebd.response.txt"
+    ],
+    "attribution_significance": "Token-debit source and outer sender remain distinct. Native burn is not silently recorded as a verified native credit to the case sender."
+  },
+  {
+    "ID": "F0519",
+    "classification": "CONFIRMED",
+    "record_type": "New exact wrapped-native withdraw call and burn",
+    "chain": "Robinhood Chain (4663)",
+    "source_transaction": "0x16d4895a9cf3a1e415c908b38108c7cdb271b87496c3199bde8eb7b544465f47",
+    "sender": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+    "contract": "0x0bd7d308f8e1639fab988df18a8011f41eacad73",
+    "nonce": 9,
+    "withdraw_call_amount": "0.500012122639901441",
+    "withdraw_call_amount_wei": "500012122639901441",
+    "block_number": 81953431,
+    "timestamp_UTC": "2026-10-06T21:38:04+00:00",
+    "burn_event": {
+      "address": "0x0bd7d308f8e1639fab988df18a8011f41eacad73",
+      "topics": [
+        "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+        "0x000000000000000000000000427c4b37de0714821b09c4fc655a713abbcfba83",
+        "0x0000000000000000000000000000000000000000000000000000000000000000"
+      ],
+      "data": "0x00000000000000000000000000000000000000000000000006f0666059572301",
+      "blockNumber": "0x4e28297",
+      "transactionHash": "0x16d4895a9cf3a1e415c908b38108c7cdb271b87496c3199bde8eb7b544465f47",
+      "transactionIndex": "0xa",
+      "blockHash": "0x8ed133d059c52fe4f769df76c884fa113b8c771af950a396b6d51858e8edbfbe",
+      "blockTimestamp": "0x6ac56a3c",
+      "logIndex": "0x3",
+      "removed": false
+    },
+    "funding_provenance": "PARTIAL / RE-ESTABLISHED withdrawal action; exclusive affected-wallet allocation and bridge deposit linkage UNRESOLVED",
+    "native_payout_trace": "Unavailable; native balance reconciliation not independently performed",
+    "evidence_files": [
+      "access/0x16d4895a9cf3a1e415c908b38108c7cdb271b87496c3199bde8eb7b544465f47_tx.response.txt",
+      "access/0x16d4895a9cf3a1e415c908b38108c7cdb271b87496c3199bde8eb7b544465f47_receipt.response.txt",
+      "access/block_0x4e28297.response.txt",
+      "access/unwrap_trace.response.txt"
+    ]
+  },
+  {
+    "ID": "F0520",
+    "classification": "CONFIRMED",
+    "record_type": "Fresh F0196 CASHCAT disposal and newly recorded wrapped-native burn",
+    "chain": "Robinhood Chain (4663)",
+    "source_transaction": "0x44a5ad893f64a338d607045068dc02e59ddea4e0d6d64ef186b72f0e3e861bc7",
+    "transaction_sender": "0xf3f8d708caca1227af61e6de7b8cb6980ef87ad0",
+    "transaction_recipient": "0xc0b6f994c0f0462e2599afc8cd01dcae2625b0df",
+    "CASHCAT_source_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+    "CASHCAT_amount": "1100227.867433114634814141",
+    "wrapped_native_burn_amount": "56.829682146234507264",
+    "wrapped_native_burn_events": [
+      {
+        "address": "0x0bd7d308f8e1639fab988df18a8011f41eacad73",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x000000000000000000000000c0b6f994c0f0462e2599afc8cd01dcae2625b0df",
+          "0x0000000000000000000000000000000000000000000000000000000000000000"
+        ],
+        "data": "0x00000000000000000000000000000000000000000000000314ab96d0c0aaa000",
+        "blockNumber": "0x4e1e90b",
+        "transactionHash": "0x44a5ad893f64a338d607045068dc02e59ddea4e0d6d64ef186b72f0e3e861bc7",
+        "transactionIndex": "0x4",
+        "blockHash": "0xf70950d4bc598fcdb0edfea4b106c2b7a5535cd52f9a645af47f5c3504213ddc",
+        "blockTimestamp": "0x6ac55a84",
+        "logIndex": "0x7",
+        "removed": false
+      }
+    ],
+    "block_number": 81914123,
+    "timestamp_UTC": "2026-10-06T20:31:00+00:00",
+    "funding_provenance": "PARTIAL / RE-ESTABLISHED token disposal; native payout and subsequent bridge allocation UNRESOLVED",
+    "evidence_files": [
+      "access/first_cashcat_tx.response.txt",
+      "access/first_cashcat_receipt.response.txt",
+      "access/first_cashcat_block.response.txt",
+      "access/first_cashcat_trace.response.txt"
+    ],
+    "attribution_significance": "A swap/burn observation, not a clean provenance reconstruction or assignment of outer sender control to the token owner."
+  },
+  {
+    "ID": "F0521",
+    "classification": "CONFIRMED",
+    "record_type": "Dated EIP-7702 delegation-designator snapshot",
+    "address": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+    "chain": "Robinhood Chain (4663)",
+    "block_number": 84030717,
+    "timestamp_UTC": "2026-10-09T08:54:13+00:00",
+    "account_code": "0xef010063c0c19a282a1b52b07dd5a65b58948a07dae32b",
+    "delegation_target": "0x63c0c19a282a1b52b07dd5a65b58948a07dae32b",
+    "target_framework_association": "SUPPORTED: MetaMask first-party deployment list names EIP7702StatelessDeleGatorImpl at this address. No Robinhood target bytecode/deployment audit or historical-code proof.",
+    "case_control_limit": "A self-addressed successful V4 transaction contains token/pool effects; current delegation snapshot cannot establish when delegation began, wallet software used, key ownership or compromise. No shared-owner link to 0x07ae\u20260e67.",
+    "evidence_files": [
+      "access/direct_snapshot_code.response.txt",
+      "access/snapshot_block.response.txt",
+      "access/direct_case_code.response.txt",
+      "access/metamask_deployments.response.txt",
+      "access/eip7702_spec.response.txt"
+    ]
+  },
+  {
+    "ID": "F0522",
+    "classification": "UNRESOLVED",
+    "record_type": "Direct-role funding closure and evidence limits",
+    "direct_origin_routes": 8,
+    "exact_direct_bridge_input_ETH": "64.34",
+    "V4_total_debit": "13705666.431273061609772002",
+    "V4_total_wrapped_native_burn": "24.150167026827451066",
+    "funding_provenance": "UNRESOLVED into all eight native bridge entries; PARTIAL token-source/disposal reconstruction only",
+    "missing": [
+      "Historical native/token balances",
+      "Complete native inflow history",
+      "Native payout call traces",
+      "Fee-funder identity/transaction reconstruction",
+      "Deterministic case-funds allocation to each bridge input"
+    ],
+    "state_observation_note": "All attempted historical balance/nonce reads and sample debug traces failed. Successful HTTP status is not successful RPC state retrieval. Explorer failures are not absence evidence.",
+    "bounded_log_window": [
+      81901837,
+      82032267
+    ],
+    "scope": "Indexed-topic searches at positions 1/2 only, not all internal/native activity or earlier account history. Exact token-debit totals equal observed affected inbound totals but equality alone does not prove exclusive provenance.",
+    "other_sender_group": "Seven zero-value 0x07ae\u20260e67 routes remain separate; preliminary shared state/trace attempts are saved without allocating its balance to case assets.",
+    "next_target": "Contract-mediated order/asset-source reconstruction for the seven zero-value outer transactions",
+    "attribution_significance": "No CLEAN origin, common fee funder, common owner/operator, private custody or final beneficiary established; routing and new observations do not add loss amounts."
+  }
+]

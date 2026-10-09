@@ -1,0 +1,13 @@
+{
+  "funding_provenance": "UNRESOLVED",
+  "token_level_provenance": "PARTIAL / RE-ESTABLISHED",
+  "direct_bridge_input_ETH": "64.34",
+  "V4_debit": "13705666.431273061609772002",
+  "V4_burn": "24.150167026827451066",
+  "new_ID_range": [
+    "F0505",
+    "F0522"
+  ],
+  "new_native_credit_edges": 0,
+  "beneficiary_attribution_advanced": false
+}

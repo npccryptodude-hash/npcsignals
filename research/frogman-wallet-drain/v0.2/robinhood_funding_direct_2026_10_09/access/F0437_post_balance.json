@@ -1,0 +1,16 @@
+{
+  "url": "https://rpc.mainnet.chain.robinhood.com",
+  "requested_at_UTC": "2026-10-09T08:50:53.483822+00:00",
+  "method": "POST",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_getBalance",
+    "params": [
+      "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+      "0x4e3b270"
+    ]
+  },
+  "HTTP_status": 200,
+  "response_file": "F0437_post_balance.response.txt"
+}
