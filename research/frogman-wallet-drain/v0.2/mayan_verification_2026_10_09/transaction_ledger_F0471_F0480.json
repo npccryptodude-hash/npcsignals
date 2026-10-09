@@ -1,0 +1,1973 @@
+[
+  {
+    "ID": "F0471",
+    "record_type": "origin enrichment (existing F0162; no additional loss)",
+    "source_transaction": "0xc6be781b6e8f3da34d4e6d6bf3311af39b61cd8681666dd08585c797b795dceb",
+    "source_chain": "Ethereum (EVM 1; Wormhole 2)",
+    "source_block": 26137303,
+    "source_timestamp_UTC": "2026-10-07T01:44:47Z",
+    "source_wallet": "0x9cb119168265469a849e1864c87a57999a4bc01f",
+    "origin_outer_router": "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae",
+    "mayan_forwarder": "0x337685fdab40d39bd02028545a4ffa7d287cc3e2",
+    "mayan_source_contract": "0x40ffe85a28dc9993541449464d7529a922142960",
+    "input_asset": "ETH (locked as WETH)",
+    "input_amount": "22.5",
+    "input_raw": "22500000000000000000",
+    "destination_transaction": "0x41f31bb139e4bab0f04cfce19f05d75a015cb544160aab6999fc517083765131",
+    "destination_chain": "Arbitrum One (EVM 42161; Wormhole 23)",
+    "destination_block": 512421055,
+    "destination_timestamp_UTC": "2026-10-07T01:45:17Z",
+    "destination_wallet": "0x9cb119168265469a849e1864c87a57999a4bc01f",
+    "output_asset": "USDC",
+    "output_token_contract": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+    "output_amount": "60416.783132",
+    "output_raw": "60416783132",
+    "mayan_destination_contract": "0xd78d199f8c402e7b5cc2abe278df0412400a3bae",
+    "fulfillment_outer_router": "0x3e07be15370d8b12d80a159a7ef14b9e51869497",
+    "order_id": "SWIFT_V2_0x911a6366dbe71b41327c8da71a1707ed3d1785db78d6688dec9dd46a44319f13",
+    "order_hash": "0x911a6366dbe71b41327c8da71a1707ed3d1785db78d6688dec9dd46a44319f13",
+    "service": "Mayan Swift V2",
+    "classification": "CONFIRMED",
+    "transaction_status": "origin, fulfillment, publication and unlock successful",
+    "protocol_role": "LI.FI outer routing; Mayan Swift input lock and destination fulfillment; Wormhole batch message; case-specific driver reimbursement",
+    "driver_fulfiller": "0x754dcfb2861547015b221e963b4133a71dbdc024",
+    "auction_address_API_only": "9bh7SPjkNPgmq7HHWQxgCFJEnMPvAPdLcBEQL1FSG1YR",
+    "auction_state_API_only": "D8cJRpXaCWVK8c3doDq7Ymoz2XE4WyhFhbgNytWwqptA",
+    "auction_winner_status": "API driver and on-chain fulfiller reproduced; independent Solana auction competition/winner event not decoded",
+    "relayer_address_API": null,
+    "wormhole_message_id": "23/000000000000000000000000d78d199f8c402e7b5cc2abe278df0412400a3bae/8323",
+    "shared_unlock_transaction": "0xf788968ccc5365380bdd27dc6b8e26151f910af0118a90e9090f3d0154188afd",
+    "batch_unlock_index": 0,
+    "unlock_receiver": "0x754dcfb2861547015b221e963b4133a71dbdc024",
+    "reimbursement_asset": "WETH",
+    "reimbursement_amount": "22.5",
+    "fees": {
+      "protocol_bps": 0,
+      "referrer_bps": 0,
+      "protocol_fee_USD_API": 0,
+      "bridge_fee_API": "0",
+      "redeem_relayer_fee_API": "0.00000208",
+      "refund_relayer_fee_API": "0.00005886",
+      "origin_execution_gas_wei": "280454880834484",
+      "fulfillment_execution_gas_wei": "23101220000000",
+      "limitation": "API fee fields and cancellation/refund parameters are not an independently proved deduction from this successful output. Shared transaction gas is not allocated per order. No independent market spread asserted."
+    },
+    "decoded_order_parameters": {
+      "input_token_parameter": "0x0000000000000000000000000000000000000000",
+      "input_amount_raw": "22500000000000000000",
+      "payloadType": 1,
+      "trader": "0x9cb119168265469a849e1864c87a57999a4bc01f",
+      "destination": "0x9cb119168265469a849e1864c87a57999a4bc01f",
+      "destination_Wormhole_chain_id": 23,
+      "referrer": "0xa5aa6e2171b416e1d27ec53ca8c13db3f91a89cd",
+      "output_token": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+      "min_output_raw": "59208447469",
+      "gas_drop_raw": "0",
+      "cancel_fee_parameter_raw": "208",
+      "refund_fee_parameter_raw": "5886",
+      "deadline_UTC": "2026-10-07T02:09:09Z",
+      "referrer_bps": 0,
+      "auction_mode": 2,
+      "random_key": "0xa0d510d382edecd28fcc6d1ffcfc85fd3330c5a97ed06afe90d8ba145847fdef"
+    },
+    "events": {
+      "origin_created": {
+        "address": "0x40ffe85a28dc9993541449464d7529a922142960",
+        "topics": [
+          "0x918554b6bd6e2895ce6553de5de0e1a69db5289aa0e4fe193a0dcd1f14347477"
+        ],
+        "data": "0x911a6366dbe71b41327c8da71a1707ed3d1785db78d6688dec9dd46a44319f13",
+        "blockNumber": "0x18ed2d7",
+        "transactionHash": "0xc6be781b6e8f3da34d4e6d6bf3311af39b61cd8681666dd08585c797b795dceb",
+        "transactionIndex": "0xab",
+        "blockHash": "0x0c54e3e3a1005aa9bdc0625f66c51d64e81525dd4209e2f55babfce7e2ab747a",
+        "logIndex": "0x185",
+        "removed": false,
+        "blockTimestamp": "0x6ac5a40f"
+      },
+      "destination_fulfilled": {
+        "address": "0xd78d199f8c402e7b5cc2abe278df0412400a3bae",
+        "topics": [
+          "0x6ec9b1b5a9f54d929394f18dac4ba1b1cc79823f2266c2d09cab8a3b4700b40b"
+        ],
+        "data": "0x911a6366dbe71b41327c8da71a1707ed3d1785db78d6688dec9dd46a44319f1300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e111ef31c",
+        "blockNumber": "0x1e8aecbf",
+        "transactionHash": "0x41f31bb139e4bab0f04cfce19f05d75a015cb544160aab6999fc517083765131",
+        "transactionIndex": "0x8",
+        "blockHash": "0x837dfb4c32b28e392e9465c8dfb88d6a6331bf51f47754eea7f3b419685bf557",
+        "blockTimestamp": "0x6ac5a42d",
+        "logIndex": "0x31",
+        "removed": false
+      },
+      "destination_USDC_transfer": {
+        "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x000000000000000000000000d78d199f8c402e7b5cc2abe278df0412400a3bae",
+          "0x0000000000000000000000009cb119168265469a849e1864c87a57999a4bc01f"
+        ],
+        "data": "0x0000000000000000000000000000000000000000000000000000000e111ef31c",
+        "blockNumber": "0x1e8aecbf",
+        "transactionHash": "0x41f31bb139e4bab0f04cfce19f05d75a015cb544160aab6999fc517083765131",
+        "transactionIndex": "0x8",
+        "blockHash": "0x837dfb4c32b28e392e9465c8dfb88d6a6331bf51f47754eea7f3b419685bf557",
+        "blockTimestamp": "0x6ac5a42d",
+        "logIndex": "0x30",
+        "removed": false
+      },
+      "origin_wrap": {
+        "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "topics": [
+          "0xe1fffcc4923d04b559f4d29a8bfc6cda04eb5b0d3c460751c2402c5c5cc9109c",
+          "0x000000000000000000000000529863940bf6065d8c122a550c2ff37c1cfefa16"
+        ],
+        "data": "0x00000000000000000000000000000000000000000000000138400eca364a0000",
+        "blockNumber": "0x18ed2d7",
+        "transactionHash": "0xc6be781b6e8f3da34d4e6d6bf3311af39b61cd8681666dd08585c797b795dceb",
+        "transactionIndex": "0xab",
+        "blockHash": "0x0c54e3e3a1005aa9bdc0625f66c51d64e81525dd4209e2f55babfce7e2ab747a",
+        "logIndex": "0x181",
+        "removed": false,
+        "blockTimestamp": "0x6ac5a40f"
+      },
+      "origin_WETH_path": [
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x000000000000000000000000529863940bf6065d8c122a550c2ff37c1cfefa16",
+            "0x000000000000000000000000337685fdab40d39bd02028545a4ffa7d287cc3e2"
+          ],
+          "data": "0x00000000000000000000000000000000000000000000000138400eca364a0000",
+          "blockNumber": "0x18ed2d7",
+          "transactionHash": "0xc6be781b6e8f3da34d4e6d6bf3311af39b61cd8681666dd08585c797b795dceb",
+          "transactionIndex": "0xab",
+          "blockHash": "0x0c54e3e3a1005aa9bdc0625f66c51d64e81525dd4209e2f55babfce7e2ab747a",
+          "logIndex": "0x182",
+          "removed": false,
+          "blockTimestamp": "0x6ac5a40f"
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x000000000000000000000000337685fdab40d39bd02028545a4ffa7d287cc3e2",
+            "0x00000000000000000000000040ffe85a28dc9993541449464d7529a922142960"
+          ],
+          "data": "0x00000000000000000000000000000000000000000000000138400eca364a0000",
+          "blockNumber": "0x18ed2d7",
+          "transactionHash": "0xc6be781b6e8f3da34d4e6d6bf3311af39b61cd8681666dd08585c797b795dceb",
+          "transactionIndex": "0xab",
+          "blockHash": "0x0c54e3e3a1005aa9bdc0625f66c51d64e81525dd4209e2f55babfce7e2ab747a",
+          "logIndex": "0x183",
+          "removed": false,
+          "blockTimestamp": "0x6ac5a40f"
+        }
+      ],
+      "source_unlocked": {
+        "address": "0x40ffe85a28dc9993541449464d7529a922142960",
+        "topics": [
+          "0x4bdcff348c4d11383c487afb95f732f243d93fbfc478aa736a4981cf6a640911"
+        ],
+        "data": "0x911a6366dbe71b41327c8da71a1707ed3d1785db78d6688dec9dd46a44319f13",
+        "blockNumber": "0x18ed3df",
+        "transactionHash": "0xf788968ccc5365380bdd27dc6b8e26151f910af0118a90e9090f3d0154188afd",
+        "transactionIndex": "0x1e",
+        "blockHash": "0x87746bcf0f031c4dece3ee6d6dc313a5d0beb00e17027d704084e4beef5b1e1c",
+        "logIndex": "0xfb",
+        "removed": false,
+        "blockTimestamp": "0x6ac5b07b"
+      },
+      "WETH_reimbursement": {
+        "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x00000000000000000000000040ffe85a28dc9993541449464d7529a922142960",
+          "0x000000000000000000000000754dcfb2861547015b221e963b4133a71dbdc024"
+        ],
+        "data": "0x00000000000000000000000000000000000000000000000138400eca364a0000",
+        "blockNumber": "0x18ed3df",
+        "transactionHash": "0xf788968ccc5365380bdd27dc6b8e26151f910af0118a90e9090f3d0154188afd",
+        "transactionIndex": "0x1e",
+        "blockHash": "0x87746bcf0f031c4dece3ee6d6dc313a5d0beb00e17027d704084e4beef5b1e1c",
+        "logIndex": "0xfa",
+        "removed": false,
+        "blockTimestamp": "0x6ac5b07b"
+      }
+    },
+    "evidence": [
+      "access/mayan_status_0.response.txt",
+      "access/origin_eth_getTransactionByHash_0.response.txt",
+      "access/origin_eth_getTransactionReceipt_0.response.txt",
+      "access/origin_eth_getBlockByNumber_0.response.txt",
+      "access/dest_eth_getTransactionByHash_0.response.txt",
+      "access/dest_eth_getTransactionReceipt_0.response.txt",
+      "access/dest_block_0.response.txt",
+      "access/unlock_eth_getTransactionByHash.response.txt",
+      "access/unlock_eth_getTransactionReceipt.response.txt",
+      "access/unlock_block.response.txt",
+      "access/wormhole_vaa_8323.response.txt",
+      "access/publish_eth_getTransactionByHash.response.txt",
+      "access/publish_eth_getTransactionReceipt.response.txt",
+      "access/publish_block.response.txt",
+      "access/swift_v2_artifact.response.txt"
+    ],
+    "attribution_significance": "Protocol routing and driver reimbursement only. Same literal address across chains is a routing observation, not independent common-control proof. No custody firm, human owner or final beneficiary identified."
+  },
+  {
+    "ID": "F0472",
+    "record_type": "destination settlement",
+    "source_transaction": "0xc6be781b6e8f3da34d4e6d6bf3311af39b61cd8681666dd08585c797b795dceb",
+    "source_chain": "Ethereum (EVM 1; Wormhole 2)",
+    "source_block": 26137303,
+    "source_timestamp_UTC": "2026-10-07T01:44:47Z",
+    "source_wallet": "0x9cb119168265469a849e1864c87a57999a4bc01f",
+    "origin_outer_router": "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae",
+    "mayan_forwarder": "0x337685fdab40d39bd02028545a4ffa7d287cc3e2",
+    "mayan_source_contract": "0x40ffe85a28dc9993541449464d7529a922142960",
+    "input_asset": "ETH (locked as WETH)",
+    "input_amount": "22.5",
+    "input_raw": "22500000000000000000",
+    "destination_transaction": "0x41f31bb139e4bab0f04cfce19f05d75a015cb544160aab6999fc517083765131",
+    "destination_chain": "Arbitrum One (EVM 42161; Wormhole 23)",
+    "destination_block": 512421055,
+    "destination_timestamp_UTC": "2026-10-07T01:45:17Z",
+    "destination_wallet": "0x9cb119168265469a849e1864c87a57999a4bc01f",
+    "output_asset": "USDC",
+    "output_token_contract": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+    "output_amount": "60416.783132",
+    "output_raw": "60416783132",
+    "mayan_destination_contract": "0xd78d199f8c402e7b5cc2abe278df0412400a3bae",
+    "fulfillment_outer_router": "0x3e07be15370d8b12d80a159a7ef14b9e51869497",
+    "order_id": "SWIFT_V2_0x911a6366dbe71b41327c8da71a1707ed3d1785db78d6688dec9dd46a44319f13",
+    "order_hash": "0x911a6366dbe71b41327c8da71a1707ed3d1785db78d6688dec9dd46a44319f13",
+    "service": "Mayan Swift V2",
+    "classification": "CONFIRMED",
+    "transaction_status": "origin, fulfillment, publication and unlock successful",
+    "protocol_role": "LI.FI outer routing; Mayan Swift input lock and destination fulfillment; Wormhole batch message; case-specific driver reimbursement",
+    "driver_fulfiller": "0x754dcfb2861547015b221e963b4133a71dbdc024",
+    "auction_address_API_only": "9bh7SPjkNPgmq7HHWQxgCFJEnMPvAPdLcBEQL1FSG1YR",
+    "auction_state_API_only": "D8cJRpXaCWVK8c3doDq7Ymoz2XE4WyhFhbgNytWwqptA",
+    "auction_winner_status": "API driver and on-chain fulfiller reproduced; independent Solana auction competition/winner event not decoded",
+    "relayer_address_API": null,
+    "wormhole_message_id": "23/000000000000000000000000d78d199f8c402e7b5cc2abe278df0412400a3bae/8323",
+    "shared_unlock_transaction": "0xf788968ccc5365380bdd27dc6b8e26151f910af0118a90e9090f3d0154188afd",
+    "batch_unlock_index": 0,
+    "unlock_receiver": "0x754dcfb2861547015b221e963b4133a71dbdc024",
+    "reimbursement_asset": "WETH",
+    "reimbursement_amount": "22.5",
+    "fees": {
+      "protocol_bps": 0,
+      "referrer_bps": 0,
+      "protocol_fee_USD_API": 0,
+      "bridge_fee_API": "0",
+      "redeem_relayer_fee_API": "0.00000208",
+      "refund_relayer_fee_API": "0.00005886",
+      "origin_execution_gas_wei": "280454880834484",
+      "fulfillment_execution_gas_wei": "23101220000000",
+      "limitation": "API fee fields and cancellation/refund parameters are not an independently proved deduction from this successful output. Shared transaction gas is not allocated per order. No independent market spread asserted."
+    },
+    "decoded_order_parameters": {
+      "input_token_parameter": "0x0000000000000000000000000000000000000000",
+      "input_amount_raw": "22500000000000000000",
+      "payloadType": 1,
+      "trader": "0x9cb119168265469a849e1864c87a57999a4bc01f",
+      "destination": "0x9cb119168265469a849e1864c87a57999a4bc01f",
+      "destination_Wormhole_chain_id": 23,
+      "referrer": "0xa5aa6e2171b416e1d27ec53ca8c13db3f91a89cd",
+      "output_token": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+      "min_output_raw": "59208447469",
+      "gas_drop_raw": "0",
+      "cancel_fee_parameter_raw": "208",
+      "refund_fee_parameter_raw": "5886",
+      "deadline_UTC": "2026-10-07T02:09:09Z",
+      "referrer_bps": 0,
+      "auction_mode": 2,
+      "random_key": "0xa0d510d382edecd28fcc6d1ffcfc85fd3330c5a97ed06afe90d8ba145847fdef"
+    },
+    "events": {
+      "origin_created": {
+        "address": "0x40ffe85a28dc9993541449464d7529a922142960",
+        "topics": [
+          "0x918554b6bd6e2895ce6553de5de0e1a69db5289aa0e4fe193a0dcd1f14347477"
+        ],
+        "data": "0x911a6366dbe71b41327c8da71a1707ed3d1785db78d6688dec9dd46a44319f13",
+        "blockNumber": "0x18ed2d7",
+        "transactionHash": "0xc6be781b6e8f3da34d4e6d6bf3311af39b61cd8681666dd08585c797b795dceb",
+        "transactionIndex": "0xab",
+        "blockHash": "0x0c54e3e3a1005aa9bdc0625f66c51d64e81525dd4209e2f55babfce7e2ab747a",
+        "logIndex": "0x185",
+        "removed": false,
+        "blockTimestamp": "0x6ac5a40f"
+      },
+      "destination_fulfilled": {
+        "address": "0xd78d199f8c402e7b5cc2abe278df0412400a3bae",
+        "topics": [
+          "0x6ec9b1b5a9f54d929394f18dac4ba1b1cc79823f2266c2d09cab8a3b4700b40b"
+        ],
+        "data": "0x911a6366dbe71b41327c8da71a1707ed3d1785db78d6688dec9dd46a44319f1300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e111ef31c",
+        "blockNumber": "0x1e8aecbf",
+        "transactionHash": "0x41f31bb139e4bab0f04cfce19f05d75a015cb544160aab6999fc517083765131",
+        "transactionIndex": "0x8",
+        "blockHash": "0x837dfb4c32b28e392e9465c8dfb88d6a6331bf51f47754eea7f3b419685bf557",
+        "blockTimestamp": "0x6ac5a42d",
+        "logIndex": "0x31",
+        "removed": false
+      },
+      "destination_USDC_transfer": {
+        "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x000000000000000000000000d78d199f8c402e7b5cc2abe278df0412400a3bae",
+          "0x0000000000000000000000009cb119168265469a849e1864c87a57999a4bc01f"
+        ],
+        "data": "0x0000000000000000000000000000000000000000000000000000000e111ef31c",
+        "blockNumber": "0x1e8aecbf",
+        "transactionHash": "0x41f31bb139e4bab0f04cfce19f05d75a015cb544160aab6999fc517083765131",
+        "transactionIndex": "0x8",
+        "blockHash": "0x837dfb4c32b28e392e9465c8dfb88d6a6331bf51f47754eea7f3b419685bf557",
+        "blockTimestamp": "0x6ac5a42d",
+        "logIndex": "0x30",
+        "removed": false
+      },
+      "origin_wrap": {
+        "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "topics": [
+          "0xe1fffcc4923d04b559f4d29a8bfc6cda04eb5b0d3c460751c2402c5c5cc9109c",
+          "0x000000000000000000000000529863940bf6065d8c122a550c2ff37c1cfefa16"
+        ],
+        "data": "0x00000000000000000000000000000000000000000000000138400eca364a0000",
+        "blockNumber": "0x18ed2d7",
+        "transactionHash": "0xc6be781b6e8f3da34d4e6d6bf3311af39b61cd8681666dd08585c797b795dceb",
+        "transactionIndex": "0xab",
+        "blockHash": "0x0c54e3e3a1005aa9bdc0625f66c51d64e81525dd4209e2f55babfce7e2ab747a",
+        "logIndex": "0x181",
+        "removed": false,
+        "blockTimestamp": "0x6ac5a40f"
+      },
+      "origin_WETH_path": [
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x000000000000000000000000529863940bf6065d8c122a550c2ff37c1cfefa16",
+            "0x000000000000000000000000337685fdab40d39bd02028545a4ffa7d287cc3e2"
+          ],
+          "data": "0x00000000000000000000000000000000000000000000000138400eca364a0000",
+          "blockNumber": "0x18ed2d7",
+          "transactionHash": "0xc6be781b6e8f3da34d4e6d6bf3311af39b61cd8681666dd08585c797b795dceb",
+          "transactionIndex": "0xab",
+          "blockHash": "0x0c54e3e3a1005aa9bdc0625f66c51d64e81525dd4209e2f55babfce7e2ab747a",
+          "logIndex": "0x182",
+          "removed": false,
+          "blockTimestamp": "0x6ac5a40f"
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x000000000000000000000000337685fdab40d39bd02028545a4ffa7d287cc3e2",
+            "0x00000000000000000000000040ffe85a28dc9993541449464d7529a922142960"
+          ],
+          "data": "0x00000000000000000000000000000000000000000000000138400eca364a0000",
+          "blockNumber": "0x18ed2d7",
+          "transactionHash": "0xc6be781b6e8f3da34d4e6d6bf3311af39b61cd8681666dd08585c797b795dceb",
+          "transactionIndex": "0xab",
+          "blockHash": "0x0c54e3e3a1005aa9bdc0625f66c51d64e81525dd4209e2f55babfce7e2ab747a",
+          "logIndex": "0x183",
+          "removed": false,
+          "blockTimestamp": "0x6ac5a40f"
+        }
+      ],
+      "source_unlocked": {
+        "address": "0x40ffe85a28dc9993541449464d7529a922142960",
+        "topics": [
+          "0x4bdcff348c4d11383c487afb95f732f243d93fbfc478aa736a4981cf6a640911"
+        ],
+        "data": "0x911a6366dbe71b41327c8da71a1707ed3d1785db78d6688dec9dd46a44319f13",
+        "blockNumber": "0x18ed3df",
+        "transactionHash": "0xf788968ccc5365380bdd27dc6b8e26151f910af0118a90e9090f3d0154188afd",
+        "transactionIndex": "0x1e",
+        "blockHash": "0x87746bcf0f031c4dece3ee6d6dc313a5d0beb00e17027d704084e4beef5b1e1c",
+        "logIndex": "0xfb",
+        "removed": false,
+        "blockTimestamp": "0x6ac5b07b"
+      },
+      "WETH_reimbursement": {
+        "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x00000000000000000000000040ffe85a28dc9993541449464d7529a922142960",
+          "0x000000000000000000000000754dcfb2861547015b221e963b4133a71dbdc024"
+        ],
+        "data": "0x00000000000000000000000000000000000000000000000138400eca364a0000",
+        "blockNumber": "0x18ed3df",
+        "transactionHash": "0xf788968ccc5365380bdd27dc6b8e26151f910af0118a90e9090f3d0154188afd",
+        "transactionIndex": "0x1e",
+        "blockHash": "0x87746bcf0f031c4dece3ee6d6dc313a5d0beb00e17027d704084e4beef5b1e1c",
+        "logIndex": "0xfa",
+        "removed": false,
+        "blockTimestamp": "0x6ac5b07b"
+      }
+    },
+    "evidence": [
+      "access/mayan_status_0.response.txt",
+      "access/origin_eth_getTransactionByHash_0.response.txt",
+      "access/origin_eth_getTransactionReceipt_0.response.txt",
+      "access/origin_eth_getBlockByNumber_0.response.txt",
+      "access/dest_eth_getTransactionByHash_0.response.txt",
+      "access/dest_eth_getTransactionReceipt_0.response.txt",
+      "access/dest_block_0.response.txt",
+      "access/unlock_eth_getTransactionByHash.response.txt",
+      "access/unlock_eth_getTransactionReceipt.response.txt",
+      "access/unlock_block.response.txt",
+      "access/wormhole_vaa_8323.response.txt",
+      "access/publish_eth_getTransactionByHash.response.txt",
+      "access/publish_eth_getTransactionReceipt.response.txt",
+      "access/publish_block.response.txt",
+      "access/swift_v2_artifact.response.txt"
+    ],
+    "attribution_significance": "Protocol routing and driver reimbursement only. Same literal address across chains is a routing observation, not independent common-control proof. No custody firm, human owner or final beneficiary identified."
+  },
+  {
+    "ID": "F0473",
+    "record_type": "cross-chain edge",
+    "source_transaction": "0xc6be781b6e8f3da34d4e6d6bf3311af39b61cd8681666dd08585c797b795dceb",
+    "source_chain": "Ethereum (EVM 1; Wormhole 2)",
+    "source_block": 26137303,
+    "source_timestamp_UTC": "2026-10-07T01:44:47Z",
+    "source_wallet": "0x9cb119168265469a849e1864c87a57999a4bc01f",
+    "origin_outer_router": "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae",
+    "mayan_forwarder": "0x337685fdab40d39bd02028545a4ffa7d287cc3e2",
+    "mayan_source_contract": "0x40ffe85a28dc9993541449464d7529a922142960",
+    "input_asset": "ETH (locked as WETH)",
+    "input_amount": "22.5",
+    "input_raw": "22500000000000000000",
+    "destination_transaction": "0x41f31bb139e4bab0f04cfce19f05d75a015cb544160aab6999fc517083765131",
+    "destination_chain": "Arbitrum One (EVM 42161; Wormhole 23)",
+    "destination_block": 512421055,
+    "destination_timestamp_UTC": "2026-10-07T01:45:17Z",
+    "destination_wallet": "0x9cb119168265469a849e1864c87a57999a4bc01f",
+    "output_asset": "USDC",
+    "output_token_contract": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+    "output_amount": "60416.783132",
+    "output_raw": "60416783132",
+    "mayan_destination_contract": "0xd78d199f8c402e7b5cc2abe278df0412400a3bae",
+    "fulfillment_outer_router": "0x3e07be15370d8b12d80a159a7ef14b9e51869497",
+    "order_id": "SWIFT_V2_0x911a6366dbe71b41327c8da71a1707ed3d1785db78d6688dec9dd46a44319f13",
+    "order_hash": "0x911a6366dbe71b41327c8da71a1707ed3d1785db78d6688dec9dd46a44319f13",
+    "service": "Mayan Swift V2",
+    "classification": "CONFIRMED",
+    "transaction_status": "origin, fulfillment, publication and unlock successful",
+    "protocol_role": "LI.FI outer routing; Mayan Swift input lock and destination fulfillment; Wormhole batch message; case-specific driver reimbursement",
+    "driver_fulfiller": "0x754dcfb2861547015b221e963b4133a71dbdc024",
+    "auction_address_API_only": "9bh7SPjkNPgmq7HHWQxgCFJEnMPvAPdLcBEQL1FSG1YR",
+    "auction_state_API_only": "D8cJRpXaCWVK8c3doDq7Ymoz2XE4WyhFhbgNytWwqptA",
+    "auction_winner_status": "API driver and on-chain fulfiller reproduced; independent Solana auction competition/winner event not decoded",
+    "relayer_address_API": null,
+    "wormhole_message_id": "23/000000000000000000000000d78d199f8c402e7b5cc2abe278df0412400a3bae/8323",
+    "shared_unlock_transaction": "0xf788968ccc5365380bdd27dc6b8e26151f910af0118a90e9090f3d0154188afd",
+    "batch_unlock_index": 0,
+    "unlock_receiver": "0x754dcfb2861547015b221e963b4133a71dbdc024",
+    "reimbursement_asset": "WETH",
+    "reimbursement_amount": "22.5",
+    "fees": {
+      "protocol_bps": 0,
+      "referrer_bps": 0,
+      "protocol_fee_USD_API": 0,
+      "bridge_fee_API": "0",
+      "redeem_relayer_fee_API": "0.00000208",
+      "refund_relayer_fee_API": "0.00005886",
+      "origin_execution_gas_wei": "280454880834484",
+      "fulfillment_execution_gas_wei": "23101220000000",
+      "limitation": "API fee fields and cancellation/refund parameters are not an independently proved deduction from this successful output. Shared transaction gas is not allocated per order. No independent market spread asserted."
+    },
+    "decoded_order_parameters": {
+      "input_token_parameter": "0x0000000000000000000000000000000000000000",
+      "input_amount_raw": "22500000000000000000",
+      "payloadType": 1,
+      "trader": "0x9cb119168265469a849e1864c87a57999a4bc01f",
+      "destination": "0x9cb119168265469a849e1864c87a57999a4bc01f",
+      "destination_Wormhole_chain_id": 23,
+      "referrer": "0xa5aa6e2171b416e1d27ec53ca8c13db3f91a89cd",
+      "output_token": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+      "min_output_raw": "59208447469",
+      "gas_drop_raw": "0",
+      "cancel_fee_parameter_raw": "208",
+      "refund_fee_parameter_raw": "5886",
+      "deadline_UTC": "2026-10-07T02:09:09Z",
+      "referrer_bps": 0,
+      "auction_mode": 2,
+      "random_key": "0xa0d510d382edecd28fcc6d1ffcfc85fd3330c5a97ed06afe90d8ba145847fdef"
+    },
+    "events": {
+      "origin_created": {
+        "address": "0x40ffe85a28dc9993541449464d7529a922142960",
+        "topics": [
+          "0x918554b6bd6e2895ce6553de5de0e1a69db5289aa0e4fe193a0dcd1f14347477"
+        ],
+        "data": "0x911a6366dbe71b41327c8da71a1707ed3d1785db78d6688dec9dd46a44319f13",
+        "blockNumber": "0x18ed2d7",
+        "transactionHash": "0xc6be781b6e8f3da34d4e6d6bf3311af39b61cd8681666dd08585c797b795dceb",
+        "transactionIndex": "0xab",
+        "blockHash": "0x0c54e3e3a1005aa9bdc0625f66c51d64e81525dd4209e2f55babfce7e2ab747a",
+        "logIndex": "0x185",
+        "removed": false,
+        "blockTimestamp": "0x6ac5a40f"
+      },
+      "destination_fulfilled": {
+        "address": "0xd78d199f8c402e7b5cc2abe278df0412400a3bae",
+        "topics": [
+          "0x6ec9b1b5a9f54d929394f18dac4ba1b1cc79823f2266c2d09cab8a3b4700b40b"
+        ],
+        "data": "0x911a6366dbe71b41327c8da71a1707ed3d1785db78d6688dec9dd46a44319f1300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e111ef31c",
+        "blockNumber": "0x1e8aecbf",
+        "transactionHash": "0x41f31bb139e4bab0f04cfce19f05d75a015cb544160aab6999fc517083765131",
+        "transactionIndex": "0x8",
+        "blockHash": "0x837dfb4c32b28e392e9465c8dfb88d6a6331bf51f47754eea7f3b419685bf557",
+        "blockTimestamp": "0x6ac5a42d",
+        "logIndex": "0x31",
+        "removed": false
+      },
+      "destination_USDC_transfer": {
+        "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x000000000000000000000000d78d199f8c402e7b5cc2abe278df0412400a3bae",
+          "0x0000000000000000000000009cb119168265469a849e1864c87a57999a4bc01f"
+        ],
+        "data": "0x0000000000000000000000000000000000000000000000000000000e111ef31c",
+        "blockNumber": "0x1e8aecbf",
+        "transactionHash": "0x41f31bb139e4bab0f04cfce19f05d75a015cb544160aab6999fc517083765131",
+        "transactionIndex": "0x8",
+        "blockHash": "0x837dfb4c32b28e392e9465c8dfb88d6a6331bf51f47754eea7f3b419685bf557",
+        "blockTimestamp": "0x6ac5a42d",
+        "logIndex": "0x30",
+        "removed": false
+      },
+      "origin_wrap": {
+        "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "topics": [
+          "0xe1fffcc4923d04b559f4d29a8bfc6cda04eb5b0d3c460751c2402c5c5cc9109c",
+          "0x000000000000000000000000529863940bf6065d8c122a550c2ff37c1cfefa16"
+        ],
+        "data": "0x00000000000000000000000000000000000000000000000138400eca364a0000",
+        "blockNumber": "0x18ed2d7",
+        "transactionHash": "0xc6be781b6e8f3da34d4e6d6bf3311af39b61cd8681666dd08585c797b795dceb",
+        "transactionIndex": "0xab",
+        "blockHash": "0x0c54e3e3a1005aa9bdc0625f66c51d64e81525dd4209e2f55babfce7e2ab747a",
+        "logIndex": "0x181",
+        "removed": false,
+        "blockTimestamp": "0x6ac5a40f"
+      },
+      "origin_WETH_path": [
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x000000000000000000000000529863940bf6065d8c122a550c2ff37c1cfefa16",
+            "0x000000000000000000000000337685fdab40d39bd02028545a4ffa7d287cc3e2"
+          ],
+          "data": "0x00000000000000000000000000000000000000000000000138400eca364a0000",
+          "blockNumber": "0x18ed2d7",
+          "transactionHash": "0xc6be781b6e8f3da34d4e6d6bf3311af39b61cd8681666dd08585c797b795dceb",
+          "transactionIndex": "0xab",
+          "blockHash": "0x0c54e3e3a1005aa9bdc0625f66c51d64e81525dd4209e2f55babfce7e2ab747a",
+          "logIndex": "0x182",
+          "removed": false,
+          "blockTimestamp": "0x6ac5a40f"
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x000000000000000000000000337685fdab40d39bd02028545a4ffa7d287cc3e2",
+            "0x00000000000000000000000040ffe85a28dc9993541449464d7529a922142960"
+          ],
+          "data": "0x00000000000000000000000000000000000000000000000138400eca364a0000",
+          "blockNumber": "0x18ed2d7",
+          "transactionHash": "0xc6be781b6e8f3da34d4e6d6bf3311af39b61cd8681666dd08585c797b795dceb",
+          "transactionIndex": "0xab",
+          "blockHash": "0x0c54e3e3a1005aa9bdc0625f66c51d64e81525dd4209e2f55babfce7e2ab747a",
+          "logIndex": "0x183",
+          "removed": false,
+          "blockTimestamp": "0x6ac5a40f"
+        }
+      ],
+      "source_unlocked": {
+        "address": "0x40ffe85a28dc9993541449464d7529a922142960",
+        "topics": [
+          "0x4bdcff348c4d11383c487afb95f732f243d93fbfc478aa736a4981cf6a640911"
+        ],
+        "data": "0x911a6366dbe71b41327c8da71a1707ed3d1785db78d6688dec9dd46a44319f13",
+        "blockNumber": "0x18ed3df",
+        "transactionHash": "0xf788968ccc5365380bdd27dc6b8e26151f910af0118a90e9090f3d0154188afd",
+        "transactionIndex": "0x1e",
+        "blockHash": "0x87746bcf0f031c4dece3ee6d6dc313a5d0beb00e17027d704084e4beef5b1e1c",
+        "logIndex": "0xfb",
+        "removed": false,
+        "blockTimestamp": "0x6ac5b07b"
+      },
+      "WETH_reimbursement": {
+        "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x00000000000000000000000040ffe85a28dc9993541449464d7529a922142960",
+          "0x000000000000000000000000754dcfb2861547015b221e963b4133a71dbdc024"
+        ],
+        "data": "0x00000000000000000000000000000000000000000000000138400eca364a0000",
+        "blockNumber": "0x18ed3df",
+        "transactionHash": "0xf788968ccc5365380bdd27dc6b8e26151f910af0118a90e9090f3d0154188afd",
+        "transactionIndex": "0x1e",
+        "blockHash": "0x87746bcf0f031c4dece3ee6d6dc313a5d0beb00e17027d704084e4beef5b1e1c",
+        "logIndex": "0xfa",
+        "removed": false,
+        "blockTimestamp": "0x6ac5b07b"
+      }
+    },
+    "evidence": [
+      "access/mayan_status_0.response.txt",
+      "access/origin_eth_getTransactionByHash_0.response.txt",
+      "access/origin_eth_getTransactionReceipt_0.response.txt",
+      "access/origin_eth_getBlockByNumber_0.response.txt",
+      "access/dest_eth_getTransactionByHash_0.response.txt",
+      "access/dest_eth_getTransactionReceipt_0.response.txt",
+      "access/dest_block_0.response.txt",
+      "access/unlock_eth_getTransactionByHash.response.txt",
+      "access/unlock_eth_getTransactionReceipt.response.txt",
+      "access/unlock_block.response.txt",
+      "access/wormhole_vaa_8323.response.txt",
+      "access/publish_eth_getTransactionByHash.response.txt",
+      "access/publish_eth_getTransactionReceipt.response.txt",
+      "access/publish_block.response.txt",
+      "access/swift_v2_artifact.response.txt"
+    ],
+    "attribution_significance": "Protocol routing and driver reimbursement only. Same literal address across chains is a routing observation, not independent common-control proof. No custody firm, human owner or final beneficiary identified."
+  },
+  {
+    "ID": "F0474",
+    "record_type": "origin enrichment (existing F0178; no additional loss)",
+    "source_transaction": "0x02a75634730a041464e30360893b715991640231af5f55ab28435a5a7f3f3a18",
+    "source_chain": "Ethereum (EVM 1; Wormhole 2)",
+    "source_block": 26137471,
+    "source_timestamp_UTC": "2026-10-07T02:18:35Z",
+    "source_wallet": "0xd8d06aecfb5de45d0dcb655de57650d0231b0ef5",
+    "origin_outer_router": "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae",
+    "mayan_forwarder": "0x337685fdab40d39bd02028545a4ffa7d287cc3e2",
+    "mayan_source_contract": "0x40ffe85a28dc9993541449464d7529a922142960",
+    "input_asset": "ETH (locked as WETH)",
+    "input_amount": "1.999",
+    "input_raw": "1999000000000000000",
+    "destination_transaction": "0x5c69d22124abf5f1c83f0b529346feec1b6b614b36595cf1ff1b18d7c1329cda",
+    "destination_chain": "Arbitrum One (EVM 42161; Wormhole 23)",
+    "destination_block": 512429025,
+    "destination_timestamp_UTC": "2026-10-07T02:19:03Z",
+    "destination_wallet": "0xd8d06aecfb5de45d0dcb655de57650d0231b0ef5",
+    "output_asset": "USDC",
+    "output_token_contract": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+    "output_amount": "5228.747925",
+    "output_raw": "5228747925",
+    "mayan_destination_contract": "0xd78d199f8c402e7b5cc2abe278df0412400a3bae",
+    "fulfillment_outer_router": "0x3e07be15370d8b12d80a159a7ef14b9e51869497",
+    "order_id": "SWIFT_V2_0x42a2fd8e8464527d2d0d58fb05e721b50691b0c280cd0c1785d44322047a9f32",
+    "order_hash": "0x42a2fd8e8464527d2d0d58fb05e721b50691b0c280cd0c1785d44322047a9f32",
+    "service": "Mayan Swift V2",
+    "classification": "CONFIRMED",
+    "transaction_status": "origin, fulfillment, publication and unlock successful",
+    "protocol_role": "LI.FI outer routing; Mayan Swift input lock and destination fulfillment; Wormhole batch message; case-specific driver reimbursement",
+    "driver_fulfiller": "0x754dcfb2861547015b221e963b4133a71dbdc024",
+    "auction_address_API_only": "9bh7SPjkNPgmq7HHWQxgCFJEnMPvAPdLcBEQL1FSG1YR",
+    "auction_state_API_only": "D8cJRpXaCWVK8c3doDq7Ymoz2XE4WyhFhbgNytWwqptA",
+    "auction_winner_status": "API driver and on-chain fulfiller reproduced; independent Solana auction competition/winner event not decoded",
+    "relayer_address_API": null,
+    "wormhole_message_id": "23/000000000000000000000000d78d199f8c402e7b5cc2abe278df0412400a3bae/8323",
+    "shared_unlock_transaction": "0xf788968ccc5365380bdd27dc6b8e26151f910af0118a90e9090f3d0154188afd",
+    "batch_unlock_index": 2,
+    "unlock_receiver": "0x754dcfb2861547015b221e963b4133a71dbdc024",
+    "reimbursement_asset": "WETH",
+    "reimbursement_amount": "1.999",
+    "fees": {
+      "protocol_bps": 0,
+      "referrer_bps": 0,
+      "protocol_fee_USD_API": 0,
+      "bridge_fee_API": "0",
+      "redeem_relayer_fee_API": "0.00000212",
+      "refund_relayer_fee_API": "0.00028211",
+      "origin_execution_gas_wei": "1395875775585438",
+      "fulfillment_execution_gas_wei": "78387995426000",
+      "limitation": "API fee fields and cancellation/refund parameters are not an independently proved deduction from this successful output. Shared transaction gas is not allocated per order. No independent market spread asserted."
+    },
+    "decoded_order_parameters": {
+      "input_token_parameter": "0x0000000000000000000000000000000000000000",
+      "input_amount_raw": "1999000000000000000",
+      "payloadType": 1,
+      "trader": "0xd8d06aecfb5de45d0dcb655de57650d0231b0ef5",
+      "destination": "0xd8d06aecfb5de45d0dcb655de57650d0231b0ef5",
+      "destination_Wormhole_chain_id": 23,
+      "referrer": "0xa5aa6e2171b416e1d27ec53ca8c13db3f91a89cd",
+      "output_token": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+      "min_output_raw": "5124172966",
+      "gas_drop_raw": "0",
+      "cancel_fee_parameter_raw": "212",
+      "refund_fee_parameter_raw": "28211",
+      "deadline_UTC": "2026-10-07T02:43:19Z",
+      "referrer_bps": 0,
+      "auction_mode": 2,
+      "random_key": "0x8c472228cf560a2c1dd3f8b30aebdef56b0941116c8311e247e25316e72da0b8"
+    },
+    "events": {
+      "origin_created": {
+        "address": "0x40ffe85a28dc9993541449464d7529a922142960",
+        "topics": [
+          "0x918554b6bd6e2895ce6553de5de0e1a69db5289aa0e4fe193a0dcd1f14347477"
+        ],
+        "data": "0x42a2fd8e8464527d2d0d58fb05e721b50691b0c280cd0c1785d44322047a9f32",
+        "blockHash": "0x47d3752ecf3ad528411a603ad8ed24a769751fb8def731bf75ca07309c051699",
+        "blockNumber": "0x18ed37f",
+        "blockTimestamp": "0x6ac5abfb",
+        "transactionHash": "0x02a75634730a041464e30360893b715991640231af5f55ab28435a5a7f3f3a18",
+        "transactionIndex": "0xe0",
+        "logIndex": "0x457",
+        "removed": false
+      },
+      "destination_fulfilled": {
+        "address": "0xd78d199f8c402e7b5cc2abe278df0412400a3bae",
+        "topics": [
+          "0x6ec9b1b5a9f54d929394f18dac4ba1b1cc79823f2266c2d09cab8a3b4700b40b"
+        ],
+        "data": "0x42a2fd8e8464527d2d0d58fb05e721b50691b0c280cd0c1785d44322047a9f3200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000137a85c95",
+        "blockNumber": "0x1e8b0be1",
+        "transactionHash": "0x5c69d22124abf5f1c83f0b529346feec1b6b614b36595cf1ff1b18d7c1329cda",
+        "transactionIndex": "0x6",
+        "blockHash": "0xd7dbc12e5d8b69756d9cb3f250e8c342dc2a2f1ab512c55bb93f5bacdba2f28d",
+        "blockTimestamp": "0x6ac5ac17",
+        "logIndex": "0x71",
+        "removed": false
+      },
+      "destination_USDC_transfer": {
+        "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x000000000000000000000000d78d199f8c402e7b5cc2abe278df0412400a3bae",
+          "0x000000000000000000000000d8d06aecfb5de45d0dcb655de57650d0231b0ef5"
+        ],
+        "data": "0x0000000000000000000000000000000000000000000000000000000137a85c95",
+        "blockNumber": "0x1e8b0be1",
+        "transactionHash": "0x5c69d22124abf5f1c83f0b529346feec1b6b614b36595cf1ff1b18d7c1329cda",
+        "transactionIndex": "0x6",
+        "blockHash": "0xd7dbc12e5d8b69756d9cb3f250e8c342dc2a2f1ab512c55bb93f5bacdba2f28d",
+        "blockTimestamp": "0x6ac5ac17",
+        "logIndex": "0x70",
+        "removed": false
+      },
+      "origin_wrap": {
+        "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "topics": [
+          "0xe1fffcc4923d04b559f4d29a8bfc6cda04eb5b0d3c460751c2402c5c5cc9109c",
+          "0x000000000000000000000000529863940bf6065d8c122a550c2ff37c1cfefa16"
+        ],
+        "data": "0x0000000000000000000000000000000000000000000000001bbddfe8aa018000",
+        "blockHash": "0x47d3752ecf3ad528411a603ad8ed24a769751fb8def731bf75ca07309c051699",
+        "blockNumber": "0x18ed37f",
+        "blockTimestamp": "0x6ac5abfb",
+        "transactionHash": "0x02a75634730a041464e30360893b715991640231af5f55ab28435a5a7f3f3a18",
+        "transactionIndex": "0xe0",
+        "logIndex": "0x453",
+        "removed": false
+      },
+      "origin_WETH_path": [
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x000000000000000000000000529863940bf6065d8c122a550c2ff37c1cfefa16",
+            "0x000000000000000000000000337685fdab40d39bd02028545a4ffa7d287cc3e2"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000001bbddfe8aa018000",
+          "blockHash": "0x47d3752ecf3ad528411a603ad8ed24a769751fb8def731bf75ca07309c051699",
+          "blockNumber": "0x18ed37f",
+          "blockTimestamp": "0x6ac5abfb",
+          "transactionHash": "0x02a75634730a041464e30360893b715991640231af5f55ab28435a5a7f3f3a18",
+          "transactionIndex": "0xe0",
+          "logIndex": "0x454",
+          "removed": false
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x000000000000000000000000337685fdab40d39bd02028545a4ffa7d287cc3e2",
+            "0x00000000000000000000000040ffe85a28dc9993541449464d7529a922142960"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000001bbddfe8aa018000",
+          "blockHash": "0x47d3752ecf3ad528411a603ad8ed24a769751fb8def731bf75ca07309c051699",
+          "blockNumber": "0x18ed37f",
+          "blockTimestamp": "0x6ac5abfb",
+          "transactionHash": "0x02a75634730a041464e30360893b715991640231af5f55ab28435a5a7f3f3a18",
+          "transactionIndex": "0xe0",
+          "logIndex": "0x455",
+          "removed": false
+        }
+      ],
+      "source_unlocked": {
+        "address": "0x40ffe85a28dc9993541449464d7529a922142960",
+        "topics": [
+          "0x4bdcff348c4d11383c487afb95f732f243d93fbfc478aa736a4981cf6a640911"
+        ],
+        "data": "0x42a2fd8e8464527d2d0d58fb05e721b50691b0c280cd0c1785d44322047a9f32",
+        "blockNumber": "0x18ed3df",
+        "transactionHash": "0xf788968ccc5365380bdd27dc6b8e26151f910af0118a90e9090f3d0154188afd",
+        "transactionIndex": "0x1e",
+        "blockHash": "0x87746bcf0f031c4dece3ee6d6dc313a5d0beb00e17027d704084e4beef5b1e1c",
+        "logIndex": "0xff",
+        "removed": false,
+        "blockTimestamp": "0x6ac5b07b"
+      },
+      "WETH_reimbursement": {
+        "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x00000000000000000000000040ffe85a28dc9993541449464d7529a922142960",
+          "0x000000000000000000000000754dcfb2861547015b221e963b4133a71dbdc024"
+        ],
+        "data": "0x0000000000000000000000000000000000000000000000001bbddfe8aa018000",
+        "blockNumber": "0x18ed3df",
+        "transactionHash": "0xf788968ccc5365380bdd27dc6b8e26151f910af0118a90e9090f3d0154188afd",
+        "transactionIndex": "0x1e",
+        "blockHash": "0x87746bcf0f031c4dece3ee6d6dc313a5d0beb00e17027d704084e4beef5b1e1c",
+        "logIndex": "0xfe",
+        "removed": false,
+        "blockTimestamp": "0x6ac5b07b"
+      }
+    },
+    "evidence": [
+      "access/mayan_status_1.response.txt",
+      "access/origin_eth_getTransactionByHash_1.response.txt",
+      "access/origin_eth_getTransactionReceipt_1.response.txt",
+      "access/origin_eth_getBlockByNumber_1.response.txt",
+      "access/dest_eth_getTransactionByHash_1.response.txt",
+      "access/dest_eth_getTransactionReceipt_1.response.txt",
+      "access/dest_block_1.response.txt",
+      "access/unlock_eth_getTransactionByHash.response.txt",
+      "access/unlock_eth_getTransactionReceipt.response.txt",
+      "access/unlock_block.response.txt",
+      "access/wormhole_vaa_8323.response.txt",
+      "access/publish_eth_getTransactionByHash.response.txt",
+      "access/publish_eth_getTransactionReceipt.response.txt",
+      "access/publish_block.response.txt",
+      "access/swift_v2_artifact.response.txt"
+    ],
+    "attribution_significance": "Protocol routing and driver reimbursement only. Same literal address across chains is a routing observation, not independent common-control proof. No custody firm, human owner or final beneficiary identified."
+  },
+  {
+    "ID": "F0475",
+    "record_type": "destination settlement",
+    "source_transaction": "0x02a75634730a041464e30360893b715991640231af5f55ab28435a5a7f3f3a18",
+    "source_chain": "Ethereum (EVM 1; Wormhole 2)",
+    "source_block": 26137471,
+    "source_timestamp_UTC": "2026-10-07T02:18:35Z",
+    "source_wallet": "0xd8d06aecfb5de45d0dcb655de57650d0231b0ef5",
+    "origin_outer_router": "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae",
+    "mayan_forwarder": "0x337685fdab40d39bd02028545a4ffa7d287cc3e2",
+    "mayan_source_contract": "0x40ffe85a28dc9993541449464d7529a922142960",
+    "input_asset": "ETH (locked as WETH)",
+    "input_amount": "1.999",
+    "input_raw": "1999000000000000000",
+    "destination_transaction": "0x5c69d22124abf5f1c83f0b529346feec1b6b614b36595cf1ff1b18d7c1329cda",
+    "destination_chain": "Arbitrum One (EVM 42161; Wormhole 23)",
+    "destination_block": 512429025,
+    "destination_timestamp_UTC": "2026-10-07T02:19:03Z",
+    "destination_wallet": "0xd8d06aecfb5de45d0dcb655de57650d0231b0ef5",
+    "output_asset": "USDC",
+    "output_token_contract": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+    "output_amount": "5228.747925",
+    "output_raw": "5228747925",
+    "mayan_destination_contract": "0xd78d199f8c402e7b5cc2abe278df0412400a3bae",
+    "fulfillment_outer_router": "0x3e07be15370d8b12d80a159a7ef14b9e51869497",
+    "order_id": "SWIFT_V2_0x42a2fd8e8464527d2d0d58fb05e721b50691b0c280cd0c1785d44322047a9f32",
+    "order_hash": "0x42a2fd8e8464527d2d0d58fb05e721b50691b0c280cd0c1785d44322047a9f32",
+    "service": "Mayan Swift V2",
+    "classification": "CONFIRMED",
+    "transaction_status": "origin, fulfillment, publication and unlock successful",
+    "protocol_role": "LI.FI outer routing; Mayan Swift input lock and destination fulfillment; Wormhole batch message; case-specific driver reimbursement",
+    "driver_fulfiller": "0x754dcfb2861547015b221e963b4133a71dbdc024",
+    "auction_address_API_only": "9bh7SPjkNPgmq7HHWQxgCFJEnMPvAPdLcBEQL1FSG1YR",
+    "auction_state_API_only": "D8cJRpXaCWVK8c3doDq7Ymoz2XE4WyhFhbgNytWwqptA",
+    "auction_winner_status": "API driver and on-chain fulfiller reproduced; independent Solana auction competition/winner event not decoded",
+    "relayer_address_API": null,
+    "wormhole_message_id": "23/000000000000000000000000d78d199f8c402e7b5cc2abe278df0412400a3bae/8323",
+    "shared_unlock_transaction": "0xf788968ccc5365380bdd27dc6b8e26151f910af0118a90e9090f3d0154188afd",
+    "batch_unlock_index": 2,
+    "unlock_receiver": "0x754dcfb2861547015b221e963b4133a71dbdc024",
+    "reimbursement_asset": "WETH",
+    "reimbursement_amount": "1.999",
+    "fees": {
+      "protocol_bps": 0,
+      "referrer_bps": 0,
+      "protocol_fee_USD_API": 0,
+      "bridge_fee_API": "0",
+      "redeem_relayer_fee_API": "0.00000212",
+      "refund_relayer_fee_API": "0.00028211",
+      "origin_execution_gas_wei": "1395875775585438",
+      "fulfillment_execution_gas_wei": "78387995426000",
+      "limitation": "API fee fields and cancellation/refund parameters are not an independently proved deduction from this successful output. Shared transaction gas is not allocated per order. No independent market spread asserted."
+    },
+    "decoded_order_parameters": {
+      "input_token_parameter": "0x0000000000000000000000000000000000000000",
+      "input_amount_raw": "1999000000000000000",
+      "payloadType": 1,
+      "trader": "0xd8d06aecfb5de45d0dcb655de57650d0231b0ef5",
+      "destination": "0xd8d06aecfb5de45d0dcb655de57650d0231b0ef5",
+      "destination_Wormhole_chain_id": 23,
+      "referrer": "0xa5aa6e2171b416e1d27ec53ca8c13db3f91a89cd",
+      "output_token": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+      "min_output_raw": "5124172966",
+      "gas_drop_raw": "0",
+      "cancel_fee_parameter_raw": "212",
+      "refund_fee_parameter_raw": "28211",
+      "deadline_UTC": "2026-10-07T02:43:19Z",
+      "referrer_bps": 0,
+      "auction_mode": 2,
+      "random_key": "0x8c472228cf560a2c1dd3f8b30aebdef56b0941116c8311e247e25316e72da0b8"
+    },
+    "events": {
+      "origin_created": {
+        "address": "0x40ffe85a28dc9993541449464d7529a922142960",
+        "topics": [
+          "0x918554b6bd6e2895ce6553de5de0e1a69db5289aa0e4fe193a0dcd1f14347477"
+        ],
+        "data": "0x42a2fd8e8464527d2d0d58fb05e721b50691b0c280cd0c1785d44322047a9f32",
+        "blockHash": "0x47d3752ecf3ad528411a603ad8ed24a769751fb8def731bf75ca07309c051699",
+        "blockNumber": "0x18ed37f",
+        "blockTimestamp": "0x6ac5abfb",
+        "transactionHash": "0x02a75634730a041464e30360893b715991640231af5f55ab28435a5a7f3f3a18",
+        "transactionIndex": "0xe0",
+        "logIndex": "0x457",
+        "removed": false
+      },
+      "destination_fulfilled": {
+        "address": "0xd78d199f8c402e7b5cc2abe278df0412400a3bae",
+        "topics": [
+          "0x6ec9b1b5a9f54d929394f18dac4ba1b1cc79823f2266c2d09cab8a3b4700b40b"
+        ],
+        "data": "0x42a2fd8e8464527d2d0d58fb05e721b50691b0c280cd0c1785d44322047a9f3200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000137a85c95",
+        "blockNumber": "0x1e8b0be1",
+        "transactionHash": "0x5c69d22124abf5f1c83f0b529346feec1b6b614b36595cf1ff1b18d7c1329cda",
+        "transactionIndex": "0x6",
+        "blockHash": "0xd7dbc12e5d8b69756d9cb3f250e8c342dc2a2f1ab512c55bb93f5bacdba2f28d",
+        "blockTimestamp": "0x6ac5ac17",
+        "logIndex": "0x71",
+        "removed": false
+      },
+      "destination_USDC_transfer": {
+        "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x000000000000000000000000d78d199f8c402e7b5cc2abe278df0412400a3bae",
+          "0x000000000000000000000000d8d06aecfb5de45d0dcb655de57650d0231b0ef5"
+        ],
+        "data": "0x0000000000000000000000000000000000000000000000000000000137a85c95",
+        "blockNumber": "0x1e8b0be1",
+        "transactionHash": "0x5c69d22124abf5f1c83f0b529346feec1b6b614b36595cf1ff1b18d7c1329cda",
+        "transactionIndex": "0x6",
+        "blockHash": "0xd7dbc12e5d8b69756d9cb3f250e8c342dc2a2f1ab512c55bb93f5bacdba2f28d",
+        "blockTimestamp": "0x6ac5ac17",
+        "logIndex": "0x70",
+        "removed": false
+      },
+      "origin_wrap": {
+        "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "topics": [
+          "0xe1fffcc4923d04b559f4d29a8bfc6cda04eb5b0d3c460751c2402c5c5cc9109c",
+          "0x000000000000000000000000529863940bf6065d8c122a550c2ff37c1cfefa16"
+        ],
+        "data": "0x0000000000000000000000000000000000000000000000001bbddfe8aa018000",
+        "blockHash": "0x47d3752ecf3ad528411a603ad8ed24a769751fb8def731bf75ca07309c051699",
+        "blockNumber": "0x18ed37f",
+        "blockTimestamp": "0x6ac5abfb",
+        "transactionHash": "0x02a75634730a041464e30360893b715991640231af5f55ab28435a5a7f3f3a18",
+        "transactionIndex": "0xe0",
+        "logIndex": "0x453",
+        "removed": false
+      },
+      "origin_WETH_path": [
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x000000000000000000000000529863940bf6065d8c122a550c2ff37c1cfefa16",
+            "0x000000000000000000000000337685fdab40d39bd02028545a4ffa7d287cc3e2"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000001bbddfe8aa018000",
+          "blockHash": "0x47d3752ecf3ad528411a603ad8ed24a769751fb8def731bf75ca07309c051699",
+          "blockNumber": "0x18ed37f",
+          "blockTimestamp": "0x6ac5abfb",
+          "transactionHash": "0x02a75634730a041464e30360893b715991640231af5f55ab28435a5a7f3f3a18",
+          "transactionIndex": "0xe0",
+          "logIndex": "0x454",
+          "removed": false
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x000000000000000000000000337685fdab40d39bd02028545a4ffa7d287cc3e2",
+            "0x00000000000000000000000040ffe85a28dc9993541449464d7529a922142960"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000001bbddfe8aa018000",
+          "blockHash": "0x47d3752ecf3ad528411a603ad8ed24a769751fb8def731bf75ca07309c051699",
+          "blockNumber": "0x18ed37f",
+          "blockTimestamp": "0x6ac5abfb",
+          "transactionHash": "0x02a75634730a041464e30360893b715991640231af5f55ab28435a5a7f3f3a18",
+          "transactionIndex": "0xe0",
+          "logIndex": "0x455",
+          "removed": false
+        }
+      ],
+      "source_unlocked": {
+        "address": "0x40ffe85a28dc9993541449464d7529a922142960",
+        "topics": [
+          "0x4bdcff348c4d11383c487afb95f732f243d93fbfc478aa736a4981cf6a640911"
+        ],
+        "data": "0x42a2fd8e8464527d2d0d58fb05e721b50691b0c280cd0c1785d44322047a9f32",
+        "blockNumber": "0x18ed3df",
+        "transactionHash": "0xf788968ccc5365380bdd27dc6b8e26151f910af0118a90e9090f3d0154188afd",
+        "transactionIndex": "0x1e",
+        "blockHash": "0x87746bcf0f031c4dece3ee6d6dc313a5d0beb00e17027d704084e4beef5b1e1c",
+        "logIndex": "0xff",
+        "removed": false,
+        "blockTimestamp": "0x6ac5b07b"
+      },
+      "WETH_reimbursement": {
+        "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x00000000000000000000000040ffe85a28dc9993541449464d7529a922142960",
+          "0x000000000000000000000000754dcfb2861547015b221e963b4133a71dbdc024"
+        ],
+        "data": "0x0000000000000000000000000000000000000000000000001bbddfe8aa018000",
+        "blockNumber": "0x18ed3df",
+        "transactionHash": "0xf788968ccc5365380bdd27dc6b8e26151f910af0118a90e9090f3d0154188afd",
+        "transactionIndex": "0x1e",
+        "blockHash": "0x87746bcf0f031c4dece3ee6d6dc313a5d0beb00e17027d704084e4beef5b1e1c",
+        "logIndex": "0xfe",
+        "removed": false,
+        "blockTimestamp": "0x6ac5b07b"
+      }
+    },
+    "evidence": [
+      "access/mayan_status_1.response.txt",
+      "access/origin_eth_getTransactionByHash_1.response.txt",
+      "access/origin_eth_getTransactionReceipt_1.response.txt",
+      "access/origin_eth_getBlockByNumber_1.response.txt",
+      "access/dest_eth_getTransactionByHash_1.response.txt",
+      "access/dest_eth_getTransactionReceipt_1.response.txt",
+      "access/dest_block_1.response.txt",
+      "access/unlock_eth_getTransactionByHash.response.txt",
+      "access/unlock_eth_getTransactionReceipt.response.txt",
+      "access/unlock_block.response.txt",
+      "access/wormhole_vaa_8323.response.txt",
+      "access/publish_eth_getTransactionByHash.response.txt",
+      "access/publish_eth_getTransactionReceipt.response.txt",
+      "access/publish_block.response.txt",
+      "access/swift_v2_artifact.response.txt"
+    ],
+    "attribution_significance": "Protocol routing and driver reimbursement only. Same literal address across chains is a routing observation, not independent common-control proof. No custody firm, human owner or final beneficiary identified."
+  },
+  {
+    "ID": "F0476",
+    "record_type": "cross-chain edge",
+    "source_transaction": "0x02a75634730a041464e30360893b715991640231af5f55ab28435a5a7f3f3a18",
+    "source_chain": "Ethereum (EVM 1; Wormhole 2)",
+    "source_block": 26137471,
+    "source_timestamp_UTC": "2026-10-07T02:18:35Z",
+    "source_wallet": "0xd8d06aecfb5de45d0dcb655de57650d0231b0ef5",
+    "origin_outer_router": "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae",
+    "mayan_forwarder": "0x337685fdab40d39bd02028545a4ffa7d287cc3e2",
+    "mayan_source_contract": "0x40ffe85a28dc9993541449464d7529a922142960",
+    "input_asset": "ETH (locked as WETH)",
+    "input_amount": "1.999",
+    "input_raw": "1999000000000000000",
+    "destination_transaction": "0x5c69d22124abf5f1c83f0b529346feec1b6b614b36595cf1ff1b18d7c1329cda",
+    "destination_chain": "Arbitrum One (EVM 42161; Wormhole 23)",
+    "destination_block": 512429025,
+    "destination_timestamp_UTC": "2026-10-07T02:19:03Z",
+    "destination_wallet": "0xd8d06aecfb5de45d0dcb655de57650d0231b0ef5",
+    "output_asset": "USDC",
+    "output_token_contract": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+    "output_amount": "5228.747925",
+    "output_raw": "5228747925",
+    "mayan_destination_contract": "0xd78d199f8c402e7b5cc2abe278df0412400a3bae",
+    "fulfillment_outer_router": "0x3e07be15370d8b12d80a159a7ef14b9e51869497",
+    "order_id": "SWIFT_V2_0x42a2fd8e8464527d2d0d58fb05e721b50691b0c280cd0c1785d44322047a9f32",
+    "order_hash": "0x42a2fd8e8464527d2d0d58fb05e721b50691b0c280cd0c1785d44322047a9f32",
+    "service": "Mayan Swift V2",
+    "classification": "CONFIRMED",
+    "transaction_status": "origin, fulfillment, publication and unlock successful",
+    "protocol_role": "LI.FI outer routing; Mayan Swift input lock and destination fulfillment; Wormhole batch message; case-specific driver reimbursement",
+    "driver_fulfiller": "0x754dcfb2861547015b221e963b4133a71dbdc024",
+    "auction_address_API_only": "9bh7SPjkNPgmq7HHWQxgCFJEnMPvAPdLcBEQL1FSG1YR",
+    "auction_state_API_only": "D8cJRpXaCWVK8c3doDq7Ymoz2XE4WyhFhbgNytWwqptA",
+    "auction_winner_status": "API driver and on-chain fulfiller reproduced; independent Solana auction competition/winner event not decoded",
+    "relayer_address_API": null,
+    "wormhole_message_id": "23/000000000000000000000000d78d199f8c402e7b5cc2abe278df0412400a3bae/8323",
+    "shared_unlock_transaction": "0xf788968ccc5365380bdd27dc6b8e26151f910af0118a90e9090f3d0154188afd",
+    "batch_unlock_index": 2,
+    "unlock_receiver": "0x754dcfb2861547015b221e963b4133a71dbdc024",
+    "reimbursement_asset": "WETH",
+    "reimbursement_amount": "1.999",
+    "fees": {
+      "protocol_bps": 0,
+      "referrer_bps": 0,
+      "protocol_fee_USD_API": 0,
+      "bridge_fee_API": "0",
+      "redeem_relayer_fee_API": "0.00000212",
+      "refund_relayer_fee_API": "0.00028211",
+      "origin_execution_gas_wei": "1395875775585438",
+      "fulfillment_execution_gas_wei": "78387995426000",
+      "limitation": "API fee fields and cancellation/refund parameters are not an independently proved deduction from this successful output. Shared transaction gas is not allocated per order. No independent market spread asserted."
+    },
+    "decoded_order_parameters": {
+      "input_token_parameter": "0x0000000000000000000000000000000000000000",
+      "input_amount_raw": "1999000000000000000",
+      "payloadType": 1,
+      "trader": "0xd8d06aecfb5de45d0dcb655de57650d0231b0ef5",
+      "destination": "0xd8d06aecfb5de45d0dcb655de57650d0231b0ef5",
+      "destination_Wormhole_chain_id": 23,
+      "referrer": "0xa5aa6e2171b416e1d27ec53ca8c13db3f91a89cd",
+      "output_token": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+      "min_output_raw": "5124172966",
+      "gas_drop_raw": "0",
+      "cancel_fee_parameter_raw": "212",
+      "refund_fee_parameter_raw": "28211",
+      "deadline_UTC": "2026-10-07T02:43:19Z",
+      "referrer_bps": 0,
+      "auction_mode": 2,
+      "random_key": "0x8c472228cf560a2c1dd3f8b30aebdef56b0941116c8311e247e25316e72da0b8"
+    },
+    "events": {
+      "origin_created": {
+        "address": "0x40ffe85a28dc9993541449464d7529a922142960",
+        "topics": [
+          "0x918554b6bd6e2895ce6553de5de0e1a69db5289aa0e4fe193a0dcd1f14347477"
+        ],
+        "data": "0x42a2fd8e8464527d2d0d58fb05e721b50691b0c280cd0c1785d44322047a9f32",
+        "blockHash": "0x47d3752ecf3ad528411a603ad8ed24a769751fb8def731bf75ca07309c051699",
+        "blockNumber": "0x18ed37f",
+        "blockTimestamp": "0x6ac5abfb",
+        "transactionHash": "0x02a75634730a041464e30360893b715991640231af5f55ab28435a5a7f3f3a18",
+        "transactionIndex": "0xe0",
+        "logIndex": "0x457",
+        "removed": false
+      },
+      "destination_fulfilled": {
+        "address": "0xd78d199f8c402e7b5cc2abe278df0412400a3bae",
+        "topics": [
+          "0x6ec9b1b5a9f54d929394f18dac4ba1b1cc79823f2266c2d09cab8a3b4700b40b"
+        ],
+        "data": "0x42a2fd8e8464527d2d0d58fb05e721b50691b0c280cd0c1785d44322047a9f3200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000137a85c95",
+        "blockNumber": "0x1e8b0be1",
+        "transactionHash": "0x5c69d22124abf5f1c83f0b529346feec1b6b614b36595cf1ff1b18d7c1329cda",
+        "transactionIndex": "0x6",
+        "blockHash": "0xd7dbc12e5d8b69756d9cb3f250e8c342dc2a2f1ab512c55bb93f5bacdba2f28d",
+        "blockTimestamp": "0x6ac5ac17",
+        "logIndex": "0x71",
+        "removed": false
+      },
+      "destination_USDC_transfer": {
+        "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x000000000000000000000000d78d199f8c402e7b5cc2abe278df0412400a3bae",
+          "0x000000000000000000000000d8d06aecfb5de45d0dcb655de57650d0231b0ef5"
+        ],
+        "data": "0x0000000000000000000000000000000000000000000000000000000137a85c95",
+        "blockNumber": "0x1e8b0be1",
+        "transactionHash": "0x5c69d22124abf5f1c83f0b529346feec1b6b614b36595cf1ff1b18d7c1329cda",
+        "transactionIndex": "0x6",
+        "blockHash": "0xd7dbc12e5d8b69756d9cb3f250e8c342dc2a2f1ab512c55bb93f5bacdba2f28d",
+        "blockTimestamp": "0x6ac5ac17",
+        "logIndex": "0x70",
+        "removed": false
+      },
+      "origin_wrap": {
+        "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "topics": [
+          "0xe1fffcc4923d04b559f4d29a8bfc6cda04eb5b0d3c460751c2402c5c5cc9109c",
+          "0x000000000000000000000000529863940bf6065d8c122a550c2ff37c1cfefa16"
+        ],
+        "data": "0x0000000000000000000000000000000000000000000000001bbddfe8aa018000",
+        "blockHash": "0x47d3752ecf3ad528411a603ad8ed24a769751fb8def731bf75ca07309c051699",
+        "blockNumber": "0x18ed37f",
+        "blockTimestamp": "0x6ac5abfb",
+        "transactionHash": "0x02a75634730a041464e30360893b715991640231af5f55ab28435a5a7f3f3a18",
+        "transactionIndex": "0xe0",
+        "logIndex": "0x453",
+        "removed": false
+      },
+      "origin_WETH_path": [
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x000000000000000000000000529863940bf6065d8c122a550c2ff37c1cfefa16",
+            "0x000000000000000000000000337685fdab40d39bd02028545a4ffa7d287cc3e2"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000001bbddfe8aa018000",
+          "blockHash": "0x47d3752ecf3ad528411a603ad8ed24a769751fb8def731bf75ca07309c051699",
+          "blockNumber": "0x18ed37f",
+          "blockTimestamp": "0x6ac5abfb",
+          "transactionHash": "0x02a75634730a041464e30360893b715991640231af5f55ab28435a5a7f3f3a18",
+          "transactionIndex": "0xe0",
+          "logIndex": "0x454",
+          "removed": false
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x000000000000000000000000337685fdab40d39bd02028545a4ffa7d287cc3e2",
+            "0x00000000000000000000000040ffe85a28dc9993541449464d7529a922142960"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000001bbddfe8aa018000",
+          "blockHash": "0x47d3752ecf3ad528411a603ad8ed24a769751fb8def731bf75ca07309c051699",
+          "blockNumber": "0x18ed37f",
+          "blockTimestamp": "0x6ac5abfb",
+          "transactionHash": "0x02a75634730a041464e30360893b715991640231af5f55ab28435a5a7f3f3a18",
+          "transactionIndex": "0xe0",
+          "logIndex": "0x455",
+          "removed": false
+        }
+      ],
+      "source_unlocked": {
+        "address": "0x40ffe85a28dc9993541449464d7529a922142960",
+        "topics": [
+          "0x4bdcff348c4d11383c487afb95f732f243d93fbfc478aa736a4981cf6a640911"
+        ],
+        "data": "0x42a2fd8e8464527d2d0d58fb05e721b50691b0c280cd0c1785d44322047a9f32",
+        "blockNumber": "0x18ed3df",
+        "transactionHash": "0xf788968ccc5365380bdd27dc6b8e26151f910af0118a90e9090f3d0154188afd",
+        "transactionIndex": "0x1e",
+        "blockHash": "0x87746bcf0f031c4dece3ee6d6dc313a5d0beb00e17027d704084e4beef5b1e1c",
+        "logIndex": "0xff",
+        "removed": false,
+        "blockTimestamp": "0x6ac5b07b"
+      },
+      "WETH_reimbursement": {
+        "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x00000000000000000000000040ffe85a28dc9993541449464d7529a922142960",
+          "0x000000000000000000000000754dcfb2861547015b221e963b4133a71dbdc024"
+        ],
+        "data": "0x0000000000000000000000000000000000000000000000001bbddfe8aa018000",
+        "blockNumber": "0x18ed3df",
+        "transactionHash": "0xf788968ccc5365380bdd27dc6b8e26151f910af0118a90e9090f3d0154188afd",
+        "transactionIndex": "0x1e",
+        "blockHash": "0x87746bcf0f031c4dece3ee6d6dc313a5d0beb00e17027d704084e4beef5b1e1c",
+        "logIndex": "0xfe",
+        "removed": false,
+        "blockTimestamp": "0x6ac5b07b"
+      }
+    },
+    "evidence": [
+      "access/mayan_status_1.response.txt",
+      "access/origin_eth_getTransactionByHash_1.response.txt",
+      "access/origin_eth_getTransactionReceipt_1.response.txt",
+      "access/origin_eth_getBlockByNumber_1.response.txt",
+      "access/dest_eth_getTransactionByHash_1.response.txt",
+      "access/dest_eth_getTransactionReceipt_1.response.txt",
+      "access/dest_block_1.response.txt",
+      "access/unlock_eth_getTransactionByHash.response.txt",
+      "access/unlock_eth_getTransactionReceipt.response.txt",
+      "access/unlock_block.response.txt",
+      "access/wormhole_vaa_8323.response.txt",
+      "access/publish_eth_getTransactionByHash.response.txt",
+      "access/publish_eth_getTransactionReceipt.response.txt",
+      "access/publish_block.response.txt",
+      "access/swift_v2_artifact.response.txt"
+    ],
+    "attribution_significance": "Protocol routing and driver reimbursement only. Same literal address across chains is a routing observation, not independent common-control proof. No custody firm, human owner or final beneficiary identified."
+  },
+  {
+    "ID": "F0477",
+    "record_type": "origin enrichment (existing F0180; no additional loss)",
+    "source_transaction": "0xefa46658dead085751916c1368ed2590d72fa34dce36abf5c6b5a8cbcfc0d624",
+    "source_chain": "Ethereum (EVM 1; Wormhole 2)",
+    "source_block": 26137480,
+    "source_timestamp_UTC": "2026-10-07T02:20:23Z",
+    "source_wallet": "0x3e2d81f7a5659e4760ba929ef88eed40ef6640a1",
+    "origin_outer_router": "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae",
+    "mayan_forwarder": "0x337685fdab40d39bd02028545a4ffa7d287cc3e2",
+    "mayan_source_contract": "0x40ffe85a28dc9993541449464d7529a922142960",
+    "input_asset": "ETH (locked as WETH)",
+    "input_amount": "10.251",
+    "input_raw": "10251000000000000000",
+    "destination_transaction": "0x6e0e5363e1d9665fd9d6360655c1ffd7a66f397fab0731fe65d06e8d630bfb6f",
+    "destination_chain": "Arbitrum One (EVM 42161; Wormhole 23)",
+    "destination_block": 512429436,
+    "destination_timestamp_UTC": "2026-10-07T02:20:52Z",
+    "destination_wallet": "0x3e2d81f7a5659e4760ba929ef88eed40ef6640a1",
+    "output_asset": "USDC",
+    "output_token_contract": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+    "output_amount": "26823.206875",
+    "output_raw": "26823206875",
+    "mayan_destination_contract": "0xd78d199f8c402e7b5cc2abe278df0412400a3bae",
+    "fulfillment_outer_router": "0x3e07be15370d8b12d80a159a7ef14b9e51869497",
+    "order_id": "SWIFT_V2_0x8bf9dc549b8556ca011f2399a9a893eb53699af88bd2f8323bfdcc5fea2e6e5a",
+    "order_hash": "0x8bf9dc549b8556ca011f2399a9a893eb53699af88bd2f8323bfdcc5fea2e6e5a",
+    "service": "Mayan Swift V2",
+    "classification": "CONFIRMED",
+    "transaction_status": "origin, fulfillment, publication and unlock successful",
+    "protocol_role": "LI.FI outer routing; Mayan Swift input lock and destination fulfillment; Wormhole batch message; case-specific driver reimbursement",
+    "driver_fulfiller": "0x754dcfb2861547015b221e963b4133a71dbdc024",
+    "auction_address_API_only": "9bh7SPjkNPgmq7HHWQxgCFJEnMPvAPdLcBEQL1FSG1YR",
+    "auction_state_API_only": "D8cJRpXaCWVK8c3doDq7Ymoz2XE4WyhFhbgNytWwqptA",
+    "auction_winner_status": "API driver and on-chain fulfiller reproduced; independent Solana auction competition/winner event not decoded",
+    "relayer_address_API": null,
+    "wormhole_message_id": "23/000000000000000000000000d78d199f8c402e7b5cc2abe278df0412400a3bae/8323",
+    "shared_unlock_transaction": "0xf788968ccc5365380bdd27dc6b8e26151f910af0118a90e9090f3d0154188afd",
+    "batch_unlock_index": 1,
+    "unlock_receiver": "0x754dcfb2861547015b221e963b4133a71dbdc024",
+    "reimbursement_asset": "WETH",
+    "reimbursement_amount": "10.251",
+    "fees": {
+      "protocol_bps": 0,
+      "referrer_bps": 0,
+      "protocol_fee_USD_API": 0,
+      "bridge_fee_API": "0",
+      "redeem_relayer_fee_API": "0.00000212",
+      "refund_relayer_fee_API": "0.00024661",
+      "origin_execution_gas_wei": "1157294241859464",
+      "fulfillment_execution_gas_wei": "57405940792000",
+      "limitation": "API fee fields and cancellation/refund parameters are not an independently proved deduction from this successful output. Shared transaction gas is not allocated per order. No independent market spread asserted."
+    },
+    "decoded_order_parameters": {
+      "input_token_parameter": "0x0000000000000000000000000000000000000000",
+      "input_amount_raw": "10251000000000000000",
+      "payloadType": 1,
+      "trader": "0x3e2d81f7a5659e4760ba929ef88eed40ef6640a1",
+      "destination": "0x3e2d81f7a5659e4760ba929ef88eed40ef6640a1",
+      "destination_Wormhole_chain_id": 23,
+      "referrer": "0xa5aa6e2171b416e1d27ec53ca8c13db3f91a89cd",
+      "output_token": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+      "min_output_raw": "26286742738",
+      "gas_drop_raw": "0",
+      "cancel_fee_parameter_raw": "212",
+      "refund_fee_parameter_raw": "24661",
+      "deadline_UTC": "2026-10-07T02:44:59Z",
+      "referrer_bps": 0,
+      "auction_mode": 2,
+      "random_key": "0xafe2e953bc1269d23e5e720878b259bb19f2c721e839d8980e5d9d7c3a8c03ef"
+    },
+    "events": {
+      "origin_created": {
+        "address": "0x40ffe85a28dc9993541449464d7529a922142960",
+        "topics": [
+          "0x918554b6bd6e2895ce6553de5de0e1a69db5289aa0e4fe193a0dcd1f14347477"
+        ],
+        "data": "0x8bf9dc549b8556ca011f2399a9a893eb53699af88bd2f8323bfdcc5fea2e6e5a",
+        "blockHash": "0x7b2c8830be61a5b1f6dd840f7bbd3cc909174c8c73c1288a018ecb8c56e383e2",
+        "blockNumber": "0x18ed388",
+        "blockTimestamp": "0x6ac5ac67",
+        "transactionHash": "0xefa46658dead085751916c1368ed2590d72fa34dce36abf5c6b5a8cbcfc0d624",
+        "transactionIndex": "0x115",
+        "logIndex": "0x1c8",
+        "removed": false
+      },
+      "destination_fulfilled": {
+        "address": "0xd78d199f8c402e7b5cc2abe278df0412400a3bae",
+        "topics": [
+          "0x6ec9b1b5a9f54d929394f18dac4ba1b1cc79823f2266c2d09cab8a3b4700b40b"
+        ],
+        "data": "0x8bf9dc549b8556ca011f2399a9a893eb53699af88bd2f8323bfdcc5fea2e6e5a0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000063ec9a7db",
+        "blockNumber": "0x1e8b0d7c",
+        "transactionHash": "0x6e0e5363e1d9665fd9d6360655c1ffd7a66f397fab0731fe65d06e8d630bfb6f",
+        "transactionIndex": "0x6",
+        "blockHash": "0xa180ddb67db8b00df75c0adc381b9b533324654e8e0a7ea02a10d219e69bef51",
+        "blockTimestamp": "0x6ac5ac84",
+        "logIndex": "0x42",
+        "removed": false
+      },
+      "destination_USDC_transfer": {
+        "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x000000000000000000000000d78d199f8c402e7b5cc2abe278df0412400a3bae",
+          "0x0000000000000000000000003e2d81f7a5659e4760ba929ef88eed40ef6640a1"
+        ],
+        "data": "0x000000000000000000000000000000000000000000000000000000063ec9a7db",
+        "blockNumber": "0x1e8b0d7c",
+        "transactionHash": "0x6e0e5363e1d9665fd9d6360655c1ffd7a66f397fab0731fe65d06e8d630bfb6f",
+        "transactionIndex": "0x6",
+        "blockHash": "0xa180ddb67db8b00df75c0adc381b9b533324654e8e0a7ea02a10d219e69bef51",
+        "blockTimestamp": "0x6ac5ac84",
+        "logIndex": "0x41",
+        "removed": false
+      },
+      "origin_wrap": {
+        "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "topics": [
+          "0xe1fffcc4923d04b559f4d29a8bfc6cda04eb5b0d3c460751c2402c5c5cc9109c",
+          "0x000000000000000000000000529863940bf6065d8c122a550c2ff37c1cfefa16"
+        ],
+        "data": "0x0000000000000000000000000000000000000000000000008e42de3018878000",
+        "blockHash": "0x7b2c8830be61a5b1f6dd840f7bbd3cc909174c8c73c1288a018ecb8c56e383e2",
+        "blockNumber": "0x18ed388",
+        "blockTimestamp": "0x6ac5ac67",
+        "transactionHash": "0xefa46658dead085751916c1368ed2590d72fa34dce36abf5c6b5a8cbcfc0d624",
+        "transactionIndex": "0x115",
+        "logIndex": "0x1c4",
+        "removed": false
+      },
+      "origin_WETH_path": [
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x000000000000000000000000529863940bf6065d8c122a550c2ff37c1cfefa16",
+            "0x000000000000000000000000337685fdab40d39bd02028545a4ffa7d287cc3e2"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000008e42de3018878000",
+          "blockHash": "0x7b2c8830be61a5b1f6dd840f7bbd3cc909174c8c73c1288a018ecb8c56e383e2",
+          "blockNumber": "0x18ed388",
+          "blockTimestamp": "0x6ac5ac67",
+          "transactionHash": "0xefa46658dead085751916c1368ed2590d72fa34dce36abf5c6b5a8cbcfc0d624",
+          "transactionIndex": "0x115",
+          "logIndex": "0x1c5",
+          "removed": false
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x000000000000000000000000337685fdab40d39bd02028545a4ffa7d287cc3e2",
+            "0x00000000000000000000000040ffe85a28dc9993541449464d7529a922142960"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000008e42de3018878000",
+          "blockHash": "0x7b2c8830be61a5b1f6dd840f7bbd3cc909174c8c73c1288a018ecb8c56e383e2",
+          "blockNumber": "0x18ed388",
+          "blockTimestamp": "0x6ac5ac67",
+          "transactionHash": "0xefa46658dead085751916c1368ed2590d72fa34dce36abf5c6b5a8cbcfc0d624",
+          "transactionIndex": "0x115",
+          "logIndex": "0x1c6",
+          "removed": false
+        }
+      ],
+      "source_unlocked": {
+        "address": "0x40ffe85a28dc9993541449464d7529a922142960",
+        "topics": [
+          "0x4bdcff348c4d11383c487afb95f732f243d93fbfc478aa736a4981cf6a640911"
+        ],
+        "data": "0x8bf9dc549b8556ca011f2399a9a893eb53699af88bd2f8323bfdcc5fea2e6e5a",
+        "blockNumber": "0x18ed3df",
+        "transactionHash": "0xf788968ccc5365380bdd27dc6b8e26151f910af0118a90e9090f3d0154188afd",
+        "transactionIndex": "0x1e",
+        "blockHash": "0x87746bcf0f031c4dece3ee6d6dc313a5d0beb00e17027d704084e4beef5b1e1c",
+        "logIndex": "0xfd",
+        "removed": false,
+        "blockTimestamp": "0x6ac5b07b"
+      },
+      "WETH_reimbursement": {
+        "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x00000000000000000000000040ffe85a28dc9993541449464d7529a922142960",
+          "0x000000000000000000000000754dcfb2861547015b221e963b4133a71dbdc024"
+        ],
+        "data": "0x0000000000000000000000000000000000000000000000008e42de3018878000",
+        "blockNumber": "0x18ed3df",
+        "transactionHash": "0xf788968ccc5365380bdd27dc6b8e26151f910af0118a90e9090f3d0154188afd",
+        "transactionIndex": "0x1e",
+        "blockHash": "0x87746bcf0f031c4dece3ee6d6dc313a5d0beb00e17027d704084e4beef5b1e1c",
+        "logIndex": "0xfc",
+        "removed": false,
+        "blockTimestamp": "0x6ac5b07b"
+      }
+    },
+    "evidence": [
+      "access/mayan_status_2.response.txt",
+      "access/origin_eth_getTransactionByHash_2.response.txt",
+      "access/origin_eth_getTransactionReceipt_2.response.txt",
+      "access/origin_eth_getBlockByNumber_2.response.txt",
+      "access/dest_eth_getTransactionByHash_2.response.txt",
+      "access/dest_eth_getTransactionReceipt_2.response.txt",
+      "access/dest_block_2.response.txt",
+      "access/unlock_eth_getTransactionByHash.response.txt",
+      "access/unlock_eth_getTransactionReceipt.response.txt",
+      "access/unlock_block.response.txt",
+      "access/wormhole_vaa_8323.response.txt",
+      "access/publish_eth_getTransactionByHash.response.txt",
+      "access/publish_eth_getTransactionReceipt.response.txt",
+      "access/publish_block.response.txt",
+      "access/swift_v2_artifact.response.txt"
+    ],
+    "attribution_significance": "Protocol routing and driver reimbursement only. Same literal address across chains is a routing observation, not independent common-control proof. No custody firm, human owner or final beneficiary identified."
+  },
+  {
+    "ID": "F0478",
+    "record_type": "destination settlement",
+    "source_transaction": "0xefa46658dead085751916c1368ed2590d72fa34dce36abf5c6b5a8cbcfc0d624",
+    "source_chain": "Ethereum (EVM 1; Wormhole 2)",
+    "source_block": 26137480,
+    "source_timestamp_UTC": "2026-10-07T02:20:23Z",
+    "source_wallet": "0x3e2d81f7a5659e4760ba929ef88eed40ef6640a1",
+    "origin_outer_router": "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae",
+    "mayan_forwarder": "0x337685fdab40d39bd02028545a4ffa7d287cc3e2",
+    "mayan_source_contract": "0x40ffe85a28dc9993541449464d7529a922142960",
+    "input_asset": "ETH (locked as WETH)",
+    "input_amount": "10.251",
+    "input_raw": "10251000000000000000",
+    "destination_transaction": "0x6e0e5363e1d9665fd9d6360655c1ffd7a66f397fab0731fe65d06e8d630bfb6f",
+    "destination_chain": "Arbitrum One (EVM 42161; Wormhole 23)",
+    "destination_block": 512429436,
+    "destination_timestamp_UTC": "2026-10-07T02:20:52Z",
+    "destination_wallet": "0x3e2d81f7a5659e4760ba929ef88eed40ef6640a1",
+    "output_asset": "USDC",
+    "output_token_contract": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+    "output_amount": "26823.206875",
+    "output_raw": "26823206875",
+    "mayan_destination_contract": "0xd78d199f8c402e7b5cc2abe278df0412400a3bae",
+    "fulfillment_outer_router": "0x3e07be15370d8b12d80a159a7ef14b9e51869497",
+    "order_id": "SWIFT_V2_0x8bf9dc549b8556ca011f2399a9a893eb53699af88bd2f8323bfdcc5fea2e6e5a",
+    "order_hash": "0x8bf9dc549b8556ca011f2399a9a893eb53699af88bd2f8323bfdcc5fea2e6e5a",
+    "service": "Mayan Swift V2",
+    "classification": "CONFIRMED",
+    "transaction_status": "origin, fulfillment, publication and unlock successful",
+    "protocol_role": "LI.FI outer routing; Mayan Swift input lock and destination fulfillment; Wormhole batch message; case-specific driver reimbursement",
+    "driver_fulfiller": "0x754dcfb2861547015b221e963b4133a71dbdc024",
+    "auction_address_API_only": "9bh7SPjkNPgmq7HHWQxgCFJEnMPvAPdLcBEQL1FSG1YR",
+    "auction_state_API_only": "D8cJRpXaCWVK8c3doDq7Ymoz2XE4WyhFhbgNytWwqptA",
+    "auction_winner_status": "API driver and on-chain fulfiller reproduced; independent Solana auction competition/winner event not decoded",
+    "relayer_address_API": null,
+    "wormhole_message_id": "23/000000000000000000000000d78d199f8c402e7b5cc2abe278df0412400a3bae/8323",
+    "shared_unlock_transaction": "0xf788968ccc5365380bdd27dc6b8e26151f910af0118a90e9090f3d0154188afd",
+    "batch_unlock_index": 1,
+    "unlock_receiver": "0x754dcfb2861547015b221e963b4133a71dbdc024",
+    "reimbursement_asset": "WETH",
+    "reimbursement_amount": "10.251",
+    "fees": {
+      "protocol_bps": 0,
+      "referrer_bps": 0,
+      "protocol_fee_USD_API": 0,
+      "bridge_fee_API": "0",
+      "redeem_relayer_fee_API": "0.00000212",
+      "refund_relayer_fee_API": "0.00024661",
+      "origin_execution_gas_wei": "1157294241859464",
+      "fulfillment_execution_gas_wei": "57405940792000",
+      "limitation": "API fee fields and cancellation/refund parameters are not an independently proved deduction from this successful output. Shared transaction gas is not allocated per order. No independent market spread asserted."
+    },
+    "decoded_order_parameters": {
+      "input_token_parameter": "0x0000000000000000000000000000000000000000",
+      "input_amount_raw": "10251000000000000000",
+      "payloadType": 1,
+      "trader": "0x3e2d81f7a5659e4760ba929ef88eed40ef6640a1",
+      "destination": "0x3e2d81f7a5659e4760ba929ef88eed40ef6640a1",
+      "destination_Wormhole_chain_id": 23,
+      "referrer": "0xa5aa6e2171b416e1d27ec53ca8c13db3f91a89cd",
+      "output_token": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+      "min_output_raw": "26286742738",
+      "gas_drop_raw": "0",
+      "cancel_fee_parameter_raw": "212",
+      "refund_fee_parameter_raw": "24661",
+      "deadline_UTC": "2026-10-07T02:44:59Z",
+      "referrer_bps": 0,
+      "auction_mode": 2,
+      "random_key": "0xafe2e953bc1269d23e5e720878b259bb19f2c721e839d8980e5d9d7c3a8c03ef"
+    },
+    "events": {
+      "origin_created": {
+        "address": "0x40ffe85a28dc9993541449464d7529a922142960",
+        "topics": [
+          "0x918554b6bd6e2895ce6553de5de0e1a69db5289aa0e4fe193a0dcd1f14347477"
+        ],
+        "data": "0x8bf9dc549b8556ca011f2399a9a893eb53699af88bd2f8323bfdcc5fea2e6e5a",
+        "blockHash": "0x7b2c8830be61a5b1f6dd840f7bbd3cc909174c8c73c1288a018ecb8c56e383e2",
+        "blockNumber": "0x18ed388",
+        "blockTimestamp": "0x6ac5ac67",
+        "transactionHash": "0xefa46658dead085751916c1368ed2590d72fa34dce36abf5c6b5a8cbcfc0d624",
+        "transactionIndex": "0x115",
+        "logIndex": "0x1c8",
+        "removed": false
+      },
+      "destination_fulfilled": {
+        "address": "0xd78d199f8c402e7b5cc2abe278df0412400a3bae",
+        "topics": [
+          "0x6ec9b1b5a9f54d929394f18dac4ba1b1cc79823f2266c2d09cab8a3b4700b40b"
+        ],
+        "data": "0x8bf9dc549b8556ca011f2399a9a893eb53699af88bd2f8323bfdcc5fea2e6e5a0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000063ec9a7db",
+        "blockNumber": "0x1e8b0d7c",
+        "transactionHash": "0x6e0e5363e1d9665fd9d6360655c1ffd7a66f397fab0731fe65d06e8d630bfb6f",
+        "transactionIndex": "0x6",
+        "blockHash": "0xa180ddb67db8b00df75c0adc381b9b533324654e8e0a7ea02a10d219e69bef51",
+        "blockTimestamp": "0x6ac5ac84",
+        "logIndex": "0x42",
+        "removed": false
+      },
+      "destination_USDC_transfer": {
+        "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x000000000000000000000000d78d199f8c402e7b5cc2abe278df0412400a3bae",
+          "0x0000000000000000000000003e2d81f7a5659e4760ba929ef88eed40ef6640a1"
+        ],
+        "data": "0x000000000000000000000000000000000000000000000000000000063ec9a7db",
+        "blockNumber": "0x1e8b0d7c",
+        "transactionHash": "0x6e0e5363e1d9665fd9d6360655c1ffd7a66f397fab0731fe65d06e8d630bfb6f",
+        "transactionIndex": "0x6",
+        "blockHash": "0xa180ddb67db8b00df75c0adc381b9b533324654e8e0a7ea02a10d219e69bef51",
+        "blockTimestamp": "0x6ac5ac84",
+        "logIndex": "0x41",
+        "removed": false
+      },
+      "origin_wrap": {
+        "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "topics": [
+          "0xe1fffcc4923d04b559f4d29a8bfc6cda04eb5b0d3c460751c2402c5c5cc9109c",
+          "0x000000000000000000000000529863940bf6065d8c122a550c2ff37c1cfefa16"
+        ],
+        "data": "0x0000000000000000000000000000000000000000000000008e42de3018878000",
+        "blockHash": "0x7b2c8830be61a5b1f6dd840f7bbd3cc909174c8c73c1288a018ecb8c56e383e2",
+        "blockNumber": "0x18ed388",
+        "blockTimestamp": "0x6ac5ac67",
+        "transactionHash": "0xefa46658dead085751916c1368ed2590d72fa34dce36abf5c6b5a8cbcfc0d624",
+        "transactionIndex": "0x115",
+        "logIndex": "0x1c4",
+        "removed": false
+      },
+      "origin_WETH_path": [
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x000000000000000000000000529863940bf6065d8c122a550c2ff37c1cfefa16",
+            "0x000000000000000000000000337685fdab40d39bd02028545a4ffa7d287cc3e2"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000008e42de3018878000",
+          "blockHash": "0x7b2c8830be61a5b1f6dd840f7bbd3cc909174c8c73c1288a018ecb8c56e383e2",
+          "blockNumber": "0x18ed388",
+          "blockTimestamp": "0x6ac5ac67",
+          "transactionHash": "0xefa46658dead085751916c1368ed2590d72fa34dce36abf5c6b5a8cbcfc0d624",
+          "transactionIndex": "0x115",
+          "logIndex": "0x1c5",
+          "removed": false
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x000000000000000000000000337685fdab40d39bd02028545a4ffa7d287cc3e2",
+            "0x00000000000000000000000040ffe85a28dc9993541449464d7529a922142960"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000008e42de3018878000",
+          "blockHash": "0x7b2c8830be61a5b1f6dd840f7bbd3cc909174c8c73c1288a018ecb8c56e383e2",
+          "blockNumber": "0x18ed388",
+          "blockTimestamp": "0x6ac5ac67",
+          "transactionHash": "0xefa46658dead085751916c1368ed2590d72fa34dce36abf5c6b5a8cbcfc0d624",
+          "transactionIndex": "0x115",
+          "logIndex": "0x1c6",
+          "removed": false
+        }
+      ],
+      "source_unlocked": {
+        "address": "0x40ffe85a28dc9993541449464d7529a922142960",
+        "topics": [
+          "0x4bdcff348c4d11383c487afb95f732f243d93fbfc478aa736a4981cf6a640911"
+        ],
+        "data": "0x8bf9dc549b8556ca011f2399a9a893eb53699af88bd2f8323bfdcc5fea2e6e5a",
+        "blockNumber": "0x18ed3df",
+        "transactionHash": "0xf788968ccc5365380bdd27dc6b8e26151f910af0118a90e9090f3d0154188afd",
+        "transactionIndex": "0x1e",
+        "blockHash": "0x87746bcf0f031c4dece3ee6d6dc313a5d0beb00e17027d704084e4beef5b1e1c",
+        "logIndex": "0xfd",
+        "removed": false,
+        "blockTimestamp": "0x6ac5b07b"
+      },
+      "WETH_reimbursement": {
+        "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x00000000000000000000000040ffe85a28dc9993541449464d7529a922142960",
+          "0x000000000000000000000000754dcfb2861547015b221e963b4133a71dbdc024"
+        ],
+        "data": "0x0000000000000000000000000000000000000000000000008e42de3018878000",
+        "blockNumber": "0x18ed3df",
+        "transactionHash": "0xf788968ccc5365380bdd27dc6b8e26151f910af0118a90e9090f3d0154188afd",
+        "transactionIndex": "0x1e",
+        "blockHash": "0x87746bcf0f031c4dece3ee6d6dc313a5d0beb00e17027d704084e4beef5b1e1c",
+        "logIndex": "0xfc",
+        "removed": false,
+        "blockTimestamp": "0x6ac5b07b"
+      }
+    },
+    "evidence": [
+      "access/mayan_status_2.response.txt",
+      "access/origin_eth_getTransactionByHash_2.response.txt",
+      "access/origin_eth_getTransactionReceipt_2.response.txt",
+      "access/origin_eth_getBlockByNumber_2.response.txt",
+      "access/dest_eth_getTransactionByHash_2.response.txt",
+      "access/dest_eth_getTransactionReceipt_2.response.txt",
+      "access/dest_block_2.response.txt",
+      "access/unlock_eth_getTransactionByHash.response.txt",
+      "access/unlock_eth_getTransactionReceipt.response.txt",
+      "access/unlock_block.response.txt",
+      "access/wormhole_vaa_8323.response.txt",
+      "access/publish_eth_getTransactionByHash.response.txt",
+      "access/publish_eth_getTransactionReceipt.response.txt",
+      "access/publish_block.response.txt",
+      "access/swift_v2_artifact.response.txt"
+    ],
+    "attribution_significance": "Protocol routing and driver reimbursement only. Same literal address across chains is a routing observation, not independent common-control proof. No custody firm, human owner or final beneficiary identified."
+  },
+  {
+    "ID": "F0479",
+    "record_type": "cross-chain edge",
+    "source_transaction": "0xefa46658dead085751916c1368ed2590d72fa34dce36abf5c6b5a8cbcfc0d624",
+    "source_chain": "Ethereum (EVM 1; Wormhole 2)",
+    "source_block": 26137480,
+    "source_timestamp_UTC": "2026-10-07T02:20:23Z",
+    "source_wallet": "0x3e2d81f7a5659e4760ba929ef88eed40ef6640a1",
+    "origin_outer_router": "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae",
+    "mayan_forwarder": "0x337685fdab40d39bd02028545a4ffa7d287cc3e2",
+    "mayan_source_contract": "0x40ffe85a28dc9993541449464d7529a922142960",
+    "input_asset": "ETH (locked as WETH)",
+    "input_amount": "10.251",
+    "input_raw": "10251000000000000000",
+    "destination_transaction": "0x6e0e5363e1d9665fd9d6360655c1ffd7a66f397fab0731fe65d06e8d630bfb6f",
+    "destination_chain": "Arbitrum One (EVM 42161; Wormhole 23)",
+    "destination_block": 512429436,
+    "destination_timestamp_UTC": "2026-10-07T02:20:52Z",
+    "destination_wallet": "0x3e2d81f7a5659e4760ba929ef88eed40ef6640a1",
+    "output_asset": "USDC",
+    "output_token_contract": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+    "output_amount": "26823.206875",
+    "output_raw": "26823206875",
+    "mayan_destination_contract": "0xd78d199f8c402e7b5cc2abe278df0412400a3bae",
+    "fulfillment_outer_router": "0x3e07be15370d8b12d80a159a7ef14b9e51869497",
+    "order_id": "SWIFT_V2_0x8bf9dc549b8556ca011f2399a9a893eb53699af88bd2f8323bfdcc5fea2e6e5a",
+    "order_hash": "0x8bf9dc549b8556ca011f2399a9a893eb53699af88bd2f8323bfdcc5fea2e6e5a",
+    "service": "Mayan Swift V2",
+    "classification": "CONFIRMED",
+    "transaction_status": "origin, fulfillment, publication and unlock successful",
+    "protocol_role": "LI.FI outer routing; Mayan Swift input lock and destination fulfillment; Wormhole batch message; case-specific driver reimbursement",
+    "driver_fulfiller": "0x754dcfb2861547015b221e963b4133a71dbdc024",
+    "auction_address_API_only": "9bh7SPjkNPgmq7HHWQxgCFJEnMPvAPdLcBEQL1FSG1YR",
+    "auction_state_API_only": "D8cJRpXaCWVK8c3doDq7Ymoz2XE4WyhFhbgNytWwqptA",
+    "auction_winner_status": "API driver and on-chain fulfiller reproduced; independent Solana auction competition/winner event not decoded",
+    "relayer_address_API": null,
+    "wormhole_message_id": "23/000000000000000000000000d78d199f8c402e7b5cc2abe278df0412400a3bae/8323",
+    "shared_unlock_transaction": "0xf788968ccc5365380bdd27dc6b8e26151f910af0118a90e9090f3d0154188afd",
+    "batch_unlock_index": 1,
+    "unlock_receiver": "0x754dcfb2861547015b221e963b4133a71dbdc024",
+    "reimbursement_asset": "WETH",
+    "reimbursement_amount": "10.251",
+    "fees": {
+      "protocol_bps": 0,
+      "referrer_bps": 0,
+      "protocol_fee_USD_API": 0,
+      "bridge_fee_API": "0",
+      "redeem_relayer_fee_API": "0.00000212",
+      "refund_relayer_fee_API": "0.00024661",
+      "origin_execution_gas_wei": "1157294241859464",
+      "fulfillment_execution_gas_wei": "57405940792000",
+      "limitation": "API fee fields and cancellation/refund parameters are not an independently proved deduction from this successful output. Shared transaction gas is not allocated per order. No independent market spread asserted."
+    },
+    "decoded_order_parameters": {
+      "input_token_parameter": "0x0000000000000000000000000000000000000000",
+      "input_amount_raw": "10251000000000000000",
+      "payloadType": 1,
+      "trader": "0x3e2d81f7a5659e4760ba929ef88eed40ef6640a1",
+      "destination": "0x3e2d81f7a5659e4760ba929ef88eed40ef6640a1",
+      "destination_Wormhole_chain_id": 23,
+      "referrer": "0xa5aa6e2171b416e1d27ec53ca8c13db3f91a89cd",
+      "output_token": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+      "min_output_raw": "26286742738",
+      "gas_drop_raw": "0",
+      "cancel_fee_parameter_raw": "212",
+      "refund_fee_parameter_raw": "24661",
+      "deadline_UTC": "2026-10-07T02:44:59Z",
+      "referrer_bps": 0,
+      "auction_mode": 2,
+      "random_key": "0xafe2e953bc1269d23e5e720878b259bb19f2c721e839d8980e5d9d7c3a8c03ef"
+    },
+    "events": {
+      "origin_created": {
+        "address": "0x40ffe85a28dc9993541449464d7529a922142960",
+        "topics": [
+          "0x918554b6bd6e2895ce6553de5de0e1a69db5289aa0e4fe193a0dcd1f14347477"
+        ],
+        "data": "0x8bf9dc549b8556ca011f2399a9a893eb53699af88bd2f8323bfdcc5fea2e6e5a",
+        "blockHash": "0x7b2c8830be61a5b1f6dd840f7bbd3cc909174c8c73c1288a018ecb8c56e383e2",
+        "blockNumber": "0x18ed388",
+        "blockTimestamp": "0x6ac5ac67",
+        "transactionHash": "0xefa46658dead085751916c1368ed2590d72fa34dce36abf5c6b5a8cbcfc0d624",
+        "transactionIndex": "0x115",
+        "logIndex": "0x1c8",
+        "removed": false
+      },
+      "destination_fulfilled": {
+        "address": "0xd78d199f8c402e7b5cc2abe278df0412400a3bae",
+        "topics": [
+          "0x6ec9b1b5a9f54d929394f18dac4ba1b1cc79823f2266c2d09cab8a3b4700b40b"
+        ],
+        "data": "0x8bf9dc549b8556ca011f2399a9a893eb53699af88bd2f8323bfdcc5fea2e6e5a0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000063ec9a7db",
+        "blockNumber": "0x1e8b0d7c",
+        "transactionHash": "0x6e0e5363e1d9665fd9d6360655c1ffd7a66f397fab0731fe65d06e8d630bfb6f",
+        "transactionIndex": "0x6",
+        "blockHash": "0xa180ddb67db8b00df75c0adc381b9b533324654e8e0a7ea02a10d219e69bef51",
+        "blockTimestamp": "0x6ac5ac84",
+        "logIndex": "0x42",
+        "removed": false
+      },
+      "destination_USDC_transfer": {
+        "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x000000000000000000000000d78d199f8c402e7b5cc2abe278df0412400a3bae",
+          "0x0000000000000000000000003e2d81f7a5659e4760ba929ef88eed40ef6640a1"
+        ],
+        "data": "0x000000000000000000000000000000000000000000000000000000063ec9a7db",
+        "blockNumber": "0x1e8b0d7c",
+        "transactionHash": "0x6e0e5363e1d9665fd9d6360655c1ffd7a66f397fab0731fe65d06e8d630bfb6f",
+        "transactionIndex": "0x6",
+        "blockHash": "0xa180ddb67db8b00df75c0adc381b9b533324654e8e0a7ea02a10d219e69bef51",
+        "blockTimestamp": "0x6ac5ac84",
+        "logIndex": "0x41",
+        "removed": false
+      },
+      "origin_wrap": {
+        "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "topics": [
+          "0xe1fffcc4923d04b559f4d29a8bfc6cda04eb5b0d3c460751c2402c5c5cc9109c",
+          "0x000000000000000000000000529863940bf6065d8c122a550c2ff37c1cfefa16"
+        ],
+        "data": "0x0000000000000000000000000000000000000000000000008e42de3018878000",
+        "blockHash": "0x7b2c8830be61a5b1f6dd840f7bbd3cc909174c8c73c1288a018ecb8c56e383e2",
+        "blockNumber": "0x18ed388",
+        "blockTimestamp": "0x6ac5ac67",
+        "transactionHash": "0xefa46658dead085751916c1368ed2590d72fa34dce36abf5c6b5a8cbcfc0d624",
+        "transactionIndex": "0x115",
+        "logIndex": "0x1c4",
+        "removed": false
+      },
+      "origin_WETH_path": [
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x000000000000000000000000529863940bf6065d8c122a550c2ff37c1cfefa16",
+            "0x000000000000000000000000337685fdab40d39bd02028545a4ffa7d287cc3e2"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000008e42de3018878000",
+          "blockHash": "0x7b2c8830be61a5b1f6dd840f7bbd3cc909174c8c73c1288a018ecb8c56e383e2",
+          "blockNumber": "0x18ed388",
+          "blockTimestamp": "0x6ac5ac67",
+          "transactionHash": "0xefa46658dead085751916c1368ed2590d72fa34dce36abf5c6b5a8cbcfc0d624",
+          "transactionIndex": "0x115",
+          "logIndex": "0x1c5",
+          "removed": false
+        },
+        {
+          "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x000000000000000000000000337685fdab40d39bd02028545a4ffa7d287cc3e2",
+            "0x00000000000000000000000040ffe85a28dc9993541449464d7529a922142960"
+          ],
+          "data": "0x0000000000000000000000000000000000000000000000008e42de3018878000",
+          "blockHash": "0x7b2c8830be61a5b1f6dd840f7bbd3cc909174c8c73c1288a018ecb8c56e383e2",
+          "blockNumber": "0x18ed388",
+          "blockTimestamp": "0x6ac5ac67",
+          "transactionHash": "0xefa46658dead085751916c1368ed2590d72fa34dce36abf5c6b5a8cbcfc0d624",
+          "transactionIndex": "0x115",
+          "logIndex": "0x1c6",
+          "removed": false
+        }
+      ],
+      "source_unlocked": {
+        "address": "0x40ffe85a28dc9993541449464d7529a922142960",
+        "topics": [
+          "0x4bdcff348c4d11383c487afb95f732f243d93fbfc478aa736a4981cf6a640911"
+        ],
+        "data": "0x8bf9dc549b8556ca011f2399a9a893eb53699af88bd2f8323bfdcc5fea2e6e5a",
+        "blockNumber": "0x18ed3df",
+        "transactionHash": "0xf788968ccc5365380bdd27dc6b8e26151f910af0118a90e9090f3d0154188afd",
+        "transactionIndex": "0x1e",
+        "blockHash": "0x87746bcf0f031c4dece3ee6d6dc313a5d0beb00e17027d704084e4beef5b1e1c",
+        "logIndex": "0xfd",
+        "removed": false,
+        "blockTimestamp": "0x6ac5b07b"
+      },
+      "WETH_reimbursement": {
+        "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x00000000000000000000000040ffe85a28dc9993541449464d7529a922142960",
+          "0x000000000000000000000000754dcfb2861547015b221e963b4133a71dbdc024"
+        ],
+        "data": "0x0000000000000000000000000000000000000000000000008e42de3018878000",
+        "blockNumber": "0x18ed3df",
+        "transactionHash": "0xf788968ccc5365380bdd27dc6b8e26151f910af0118a90e9090f3d0154188afd",
+        "transactionIndex": "0x1e",
+        "blockHash": "0x87746bcf0f031c4dece3ee6d6dc313a5d0beb00e17027d704084e4beef5b1e1c",
+        "logIndex": "0xfc",
+        "removed": false,
+        "blockTimestamp": "0x6ac5b07b"
+      }
+    },
+    "evidence": [
+      "access/mayan_status_2.response.txt",
+      "access/origin_eth_getTransactionByHash_2.response.txt",
+      "access/origin_eth_getTransactionReceipt_2.response.txt",
+      "access/origin_eth_getBlockByNumber_2.response.txt",
+      "access/dest_eth_getTransactionByHash_2.response.txt",
+      "access/dest_eth_getTransactionReceipt_2.response.txt",
+      "access/dest_block_2.response.txt",
+      "access/unlock_eth_getTransactionByHash.response.txt",
+      "access/unlock_eth_getTransactionReceipt.response.txt",
+      "access/unlock_block.response.txt",
+      "access/wormhole_vaa_8323.response.txt",
+      "access/publish_eth_getTransactionByHash.response.txt",
+      "access/publish_eth_getTransactionReceipt.response.txt",
+      "access/publish_block.response.txt",
+      "access/swift_v2_artifact.response.txt"
+    ],
+    "attribution_significance": "Protocol routing and driver reimbursement only. Same literal address across chains is a routing observation, not independent common-control proof. No custody firm, human owner or final beneficiary identified."
+  },
+  {
+    "ID": "F0480",
+    "record_type": "shared protocol reimbursement observation; not additional loss",
+    "classification": "CONFIRMED",
+    "transaction": "0xf788968ccc5365380bdd27dc6b8e26151f910af0118a90e9090f3d0154188afd",
+    "source": "0x40ffe85a28dc9993541449464d7529a922142960",
+    "recipient": "0x754dcfb2861547015b221e963b4133a71dbdc024",
+    "case_asset": "WETH",
+    "case_amount": "34.75",
+    "case_orders": [
+      {
+        "order_hash": "0x911a6366dbe71b41327c8da71a1707ed3d1785db78d6688dec9dd46a44319f13",
+        "batch_index": 0,
+        "WETH_amount": "22.5",
+        "recipient": "0x754dcfb2861547015b221e963b4133a71dbdc024",
+        "transfer_log_index": "0xfa"
+      },
+      {
+        "order_hash": "0x42a2fd8e8464527d2d0d58fb05e721b50691b0c280cd0c1785d44322047a9f32",
+        "batch_index": 2,
+        "WETH_amount": "1.999",
+        "recipient": "0x754dcfb2861547015b221e963b4133a71dbdc024",
+        "transfer_log_index": "0xfe"
+      },
+      {
+        "order_hash": "0x8bf9dc549b8556ca011f2399a9a893eb53699af88bd2f8323bfdcc5fea2e6e5a",
+        "batch_index": 1,
+        "WETH_amount": "10.251",
+        "recipient": "0x754dcfb2861547015b221e963b4133a71dbdc024",
+        "transfer_log_index": "0xfc"
+      }
+    ],
+    "batch_total_orders": 8,
+    "message_id": "23/000000000000000000000000d78d199f8c402e7b5cc2abe278df0412400a3bae/8323",
+    "attribution_significance": "Only three case orders assigned here; remaining five batch orders are unrelated/unattributed. Driver reimbursement endpoint does not establish a final beneficiary."
+  }
+]

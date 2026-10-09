@@ -1,0 +1,70 @@
+---
+title: "Mayan Forwarder Contract"
+description: "Unified entry point for secure cross-chain swaps across EVM networks."
+sidebarTitle: "Forwarder Contract"
+---
+
+## Overview
+
+Mayan Forwarder serves as the unified entry point for interacting with Mayan’s cross-chain swap methods: Swift, MCTP, and Wormhole Swap. It streamlines integration by providing a single, secure interface and maintains a whitelist of trusted protocol addresses to mitigate risks from compromised quote data.
+
+The Forwarder contract is deployed across multiple EVM-compatible chains, including Ethereum, Arbitrum, Base, Optimism, Avalanche, Polygon, BSC, Unichain, Linea, HyperEVM and Monad. All share the same contract address:
+
+```js
+0x337685fdaB40D39bd02028545a4FfA7D287cC3E2
+```
+
+### Swap From EVM
+
+To initiate a swap using an ERC20 token as input, you must first approve the required allowance for the Mayan Forwarder contract or alternatively provide a permit object to enable spending.
+
+```js
+tokenContract.approve(forwarderContract, amountIn);
+```
+
+After approval, you can generate the complete transaction payload using the `getSwapFromEvmTxPayload` function from the [Mayan SDK](https://github.com/mayan-finance/swap-sdk) and then pass it to the Mayan Forwarder contract.
+
+If you need to build the payload manually and use Mayan Forwarder, you should choose the right method based on your input token:
+
+- `forwardERC20`: For input tokens that are ERC-20.
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tokenIn | address | Input token address |
+| amountIn | uint256 | Input amount |
+| permitParams | PermitParams | Signed permission (eip-2612) Pass zero for all values if you don't want to use it |
+| mayanProtocol | address | Address of Mayan final contract |
+| protocolData | bytes | Bytes data for Mayan final contract |
+
+- `swapAndForwardERC20`: Same as `forwardERC20` but performs a swap on the source chain before bridging.
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tokenIn | address | Input token address |
+| amountIn | uint256 | Input amount |
+| permitParams | PermitParams | Signed permission (eip-2612) Pass zero for all values if you don't want to use it |
+| swapProtocol | address | Contract address of swap protocol |
+| swapData | bytes | Bytes data that is needed by swap protocol |
+| middleToken | address | The output token of swap protocol |
+| minMiddleAmount | uint256 | Minimum output of swap step or the transaction will revert |
+| mayanProtocol | address | Address of Mayan final contract |
+| mayanData | bytes | Bytes data for Mayan final contract |
+
+- `forwardEth`: For input tokens that are native tokens of the chain.
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| mayanProtocol | address | Address of Mayan final contract |
+| mayanData | bytes | Bytes data for Mayan final contract |
+
+- `swapAndForwardEth`: Similar to `forwardEth` but performs a swap before bridging.
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| amountIn | uint256 | Input amount of native token |
+| swapProtocol | address | Contract address of swap protocol |
+| swapData | bytes | Data that is needed by swap protocol |
+| middleToken | address | The output token of swap protocol |
+| minMiddleAmount | uint256 | Minimum output of swap step or the transaction will revert |
+| mayanProtocol | address | Address of Mayan final contract |
+| mayanData | bytes | Bytes data for Mayan final contract |

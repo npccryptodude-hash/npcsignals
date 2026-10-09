@@ -1,0 +1,17 @@
+{
+  "latest_ID": "F0480",
+  "origin_reproduced": true,
+  "destination_reproduced": true,
+  "classification": "CONFIRMED",
+  "new_edges": 3,
+  "input_total_ETH": "34.75",
+  "output_total_USDC": "92468.737932",
+  "Wormhole_message": "23/000000000000000000000000d78d199f8c402e7b5cc2abe278df0412400a3bae/8323",
+  "source_driver_reimbursement_WETH": "34.75",
+  "prior_rows_unchanged": true,
+  "remaining_gaps": [
+    "Standalone guardian signature validation and deployed bytecode audit not performed.",
+    "Solana auction competition/winner events not independently decoded.",
+    "Complete upstream provenance, common control, custody identity and final beneficiary remain unresolved."
+  ]
+}

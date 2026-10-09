@@ -1,0 +1,13 @@
+{
+  "url": "https://eth.drpc.org",
+  "requested_at_UTC": "2026-10-09T07:53:20.966665+00:00",
+  "method": "POST",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_chainId",
+    "params": []
+  },
+  "HTTP_status": 200,
+  "response_file": "eth_chain.response.txt"
+}

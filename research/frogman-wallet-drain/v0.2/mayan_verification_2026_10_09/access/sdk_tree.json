@@ -1,0 +1,8 @@
+{
+  "url": "https://api.github.com/repos/mayan-finance/swap-sdk/git/trees/main?recursive=1",
+  "requested_at_UTC": "2026-10-09T07:53:40.436947+00:00",
+  "method": "GET",
+  "request": null,
+  "HTTP_status": 200,
+  "response_file": "sdk_tree.response.txt"
+}

@@ -1,0 +1,78 @@
+---
+title: "Explorer API"
+description: "Track the full lifecycle and details of your Mayan transactions with the Explorer API."
+---
+
+## Overview
+
+The Mayan Explorer API provides a powerful interface to track and monitor cross-chain swaps executed on the Mayan protocol. It delivers comprehensive transaction data for users and developers seeking detailed insights into swap lifecycle and status.
+
+## Interactive API Documentation
+
+For users and developers who want to explore and test the Mayan API endpoints directly, we provide a [**Swagger UI**](https://price-api.mayan.finance/swagger) portal. This user-friendly interface allows you to view all available endpoints, try out queries in real-time, and understand request and response formats without writing any code.
+
+<Card title="Swagger UI" icon="circle-s" color="#83E72E" horizontal href="https://price-api.mayan.finance/swagger">
+  
+</Card>
+
+## Querying Transaction Status
+
+Using the Explorer API, you can query transaction progress and details by providing the swap transaction hash. The API returns current statuses reflecting each step of the swap process.
+
+## Real-Time Monitoring and Auditing
+
+This API enables real-time visibility into the entire swap journey, supporting auditing, error handling, and enriched user experience for frontends or backend integrations.
+
+### Example API Request
+
+Here’s a sample request illustrating how to retrieve swap details using a transaction hash:
+
+```powershell
+curl 'https://explorer-api.mayan.finance/v3/swap/trx/0x232bf1d5dd6e340a2e036ed0b58dbb444b56d3770d5543c7d55fecebbf0ad65e'
+```
+
+## Detailed Swap Information
+
+The API response includes all relevant fields such as swap status, involved tokens and chains, amounts transferred, timestamps, fees, and verification receipts. Null values are omitted for cleaner data consumption.
+
+```json
+{
+   "id":"a8054a9c-6141-491a-80c3-8dd7ff88e638",
+   "trader":"0xeE1A58EafE1977A3D2ae59E2897Bb815054f6D58",
+   "sourceTxHash":"0x232bf1d5dd6e340a2e036ed0b58dbb444b56d3770d5543c7d55fecebbf0ad65e",
+   "sourceTxBlockNo":34244833,
+   "status":"SETTLED_ON_SOLANA",
+   "transferSequence":"77090",
+   "swapSequence":"0",
+   "deadline":"2022-10-12T09:27:45.000Z",
+   "sourceChain":"5",
+   "swapChain":"1",
+   "destChain":"1",
+   "destAddress":"EU8z368kxJ4VzLfdpNG774L6DpAnav9d9cBBpbyH9Rr2",
+   "fromTokenAddress":"0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+   "fromTokenChain":"5",
+   "fromTokenSymbol":"WMATIC",
+   "fromAmount":"9.99611386",
+   "toTokenAddress":"mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So",
+   "toTokenChain":"1",
+   "toTokenSymbol":"MSOL",
+   "toAmount":"0.231",
+   "transferSignedVaa":"01000000020d00aab8719f49c4c8bb89e6d705d279fc9a8ee7a35e4ff8cce223e2c97970c19c3405e7fd0f938c4e626284dff68bb21381979053b8415a201ed1d0a6e74c18aef001028027fa1479db229ba36a73801754f23a1cafb72a51d6d542ae50971233193aa966ea1c358bebd11cda30616b8ba54abf980f7cac2945e75442cfca0dace2d2a901032add4e30f42d1f8a7259887d6a66a3c84d70dc6069873d99b089263566b95da519259abe330aa736cfd626ce4e18c0e8bc4ee1c4b37d50b8f4d790f5395761fe01044f38137d47f85156d9cb0151a6aba6e9ef04499bea96737ec8a4674916e55689742867f2b7bc90101b22943e1c5ede43346318dae7b8ba38b5d884ecf4d0b2590106168151effac6eecc77a930dfc3b53a30f6ca5ce513449ae11bec0380626324b3624c3ada89b7a5fc736ae2505cedb330abafee60a712df5101098960e101ccb20007f796a00e8c3514551dd526265aebf558b4b03b72cdeb7a9b0ba3ccc399133f162a2f84260aabc6158ea8e6b69ccb19ea99011e576c84b26cef71563b24f12cf6010ac14e56b157b625404aee331233f8c658d8edd4879815b197245e9501d05f89e910685955d9f6330e42f609d1caaf445e27f0ded0064f386c013e0a3983cd33fd000b3f4aec5c048486620b2558d16a3d11cff060fe50ad5e2f89ba105c62b1f00e33064cd41824ad2916d217a0f9e6bd334804434dc26491387843da14da6b8fd2e7000ca44a8bacf1107b08158b301188126508377716bd37f6d0062231ab73594f7999151efd117138f3b5c7fc33122c7f2cfc4c5f65c4b91e8e1b9579f964daf14529000d1a3159f13eba61ce37a45e5e0c56c1c5c75e44dcd9bd9511955ebd5367fccbcc7ada7f68241454edb504d3d2b8f33384b64a688a88bee66e044cdf155f20d021000eb617d77ae2b498591bec60ff3a89c9a25d8854850ed6b3793cbbdae803ec2e43776f029ec6e31c2f0a1973bb8fa220bf3206c0c0c148120ace02cb06b35366cf0011979eea8ec0b1fa9a80a96981441eda2d3d760d39c103d4de440e45d917c7d9c526c2163aadfc1892cdb35e50629fef15651c65e4546215f65ba9cc0722db4a550112ac48a08541a9fd14d0eae20bb80e910b332dc117556ab2da9caa7c0b177e5a5d534baa50dac75715df918bc6f9185dfff37485ffb49a6badb3f7d6884e4b4953016346819500012af700050000000000000000000000005a58505a96d1dbf8df91cb21b54419fc36e93fde0000000000012d220f01000000000000000000000000000000000000000000000000000000003b94dbfa0000000000000000000000000d500b1d8e8ef31e21c99d1db9a6444d3adf127000057290becfd5df48290fc36fc8597f04cc79c7c122a5389214ee897f3557cd30ba00010000000000000000000000000000000000000000000000000000000000000000",
+   "swapSignedVaa":"01000000020d003cb77de662828e1455a9ae190ed928eb6c89f7a99e2b4599c7e7c96286461cbe518f1f51624abe5ae129e22607f69b467fe1f37cc0639eefa5d679c22bad6fea0002ca3095e347aa3efed7136169130f34f848fd0bf930c6e234926371dee73c396d003bc747d93a359adc697abacd372882955dfd1eea6f3b1cda83566b34a854a90003b3b500b752b99c36c81d1a3e05e930167d21471bf0b414049c1f4615c22b52826e41c46adace3bf86ec7541d00576235db1a297bd48234d81f841cf899da94570104ea6cdd63d2cd5eae3cd3ead80fea8656617ea15c6354817fc4a437c49028e6bf690782d95f2c37d921d841d86fe7b8e3e13809359436d1d78747b3361ea896ed0106959131aec94f6e26c46e1755a1ba18bf5f2c6f73f02276d97b46e547f52a9dfe05d807435797969bb3678b2334b0513fb5f42f1c590d87d9dc7489b0b1d2caa201071fca6db97d946efb454ad7e88c58dbf1a18f5dbb31842f3711aaafaadeac97834ae99bf5274a3802757eac7495513e980c9cbec9b7ba898eb4994089bfd3492c010885ab047bf6bd72f9760b60e246a835457dc0b0cf8240dd6ef810a6951623a8f84690f280b7861e45d5885ab9726cd5a0fb47eaf87dc692465cb1caea6a171457010aebb44ec2fa0ed1b6a2a7f1485d9887e1c158bfe479f741055b15b5ba9034f81453d6c8d91a14ed90dc324e64a7645170d7ea8bd7b67c42193c895ff7e3e68595000b8e1acd9c77f642bdf5114becfddec283f80f199cd7b1ba0a47fcea3bee669dbe4e0c4e0ec02a02b78a3c09023b46ba4777498efeb6439f044cc9d86f4f64db42000c6d363a69cbeac8d037aa8e5cb802102473d0dc61d2b102bf3cd3d4f2ae2cdde56b096372fd52e7088cda9050a25acb67371d67c6f6d89553f28b9b385c36a50a000d1193dd6415f01bb5b21b5a2207134a7f13be5d3c762c01bb64e5a08dcf22a3425f6439f63f33ec9eed3a6d72d2405f982057793456becad61e32ce490f9bfc2b01113ac90f24dff1d129f8bf8030cea54fee37fc522a2e1cecd425da254de1374e8543fe907e60e336e48bf77c04e0603672bd16592857a22dea9879434277791061001284150c97369be0f71316be004db4604ea7c666747eca0dd1b18314a7d35ac9171f46456a82f73081baa6adfd749bad936cba9a2b5bb83651f917449d4d2b61ba006346819500012af80005000000000000000000000000eae8425c60b12d09d12d02ff981f85b34f2dcfcc00000000000000000f01000000000000000000000000000000000000000000000000000000003b94dbfa0b62ba074f722c9d4114f2d8f70a00c66002337b9bf90c873657a6d201db4c800001c81ba38362db3567aaf37cb0e8ff25e91c669c2f17fbf5c872f847c8c1a7bfbb0001000000000000000000000000ee1a58eafe1977a3d2ae59e2897bb815054f6d5800050000000000012d220000000000000000000000000000000000000000000000000000000001504dc0000000006346889100000000012b3efa000000000000000000000000000a8751",
+   "savedAt":"2022-10-12T08:57:59.565Z",
+   "initiatedAt":"2022-10-12T08:57:57.000Z",
+   "completedAt":"2022-10-12T09:16:26.852Z",
+   "insufficientFees":false,
+   "retries":0,
+   "swapRelayerFee":"0.19611386",
+   "redeemRelayerFee":"0.0",
+   "refundRelayerFee":"0.00690001",
+   "statusUpdatedAt":"2022-10-12T09:16:26.852Z",
+   "bridgeFee":"0",
+   "sourceTxFee":"4915861714160382",
+   "fromTokenLogoUri":"https://assets.coingecko.com/coins/images/14073/small/matic.png?1628852392",
+   "toTokenLogoUri":"https://assets.coingecko.com/coins/images/17752/small/mSOL.png?1644541955",
+   "fromTokenScannerUrl":"https://polygonscan.com/token/0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+   "toTokenScanner":"https://solscan.io/token/mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So"
+}
+```

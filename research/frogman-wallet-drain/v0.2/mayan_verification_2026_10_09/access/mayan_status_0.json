@@ -1,0 +1,8 @@
+{
+  "url": "https://explorer-api.mayan.finance/v3/swap/trx/0xc6be781b6e8f3da34d4e6d6bf3311af39b61cd8681666dd08585c797b795dceb",
+  "requested_at_UTC": "2026-10-09T07:53:15.567702+00:00",
+  "method": "GET",
+  "request": null,
+  "HTTP_status": 200,
+  "response_file": "mayan_status_0.response.txt"
+}

@@ -1,0 +1,8 @@
+{
+  "url": "https://api.github.com/repos/mayan-finance/docs/git/trees/main?recursive=1",
+  "requested_at_UTC": "2026-10-09T07:55:15.857884+00:00",
+  "method": "GET",
+  "request": null,
+  "HTTP_status": 200,
+  "response_file": "mayan_docs_tree.response.txt"
+}
