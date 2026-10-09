@@ -1,0 +1,13 @@
+{
+  "url": "https://api.hyperliquid.xyz/info",
+  "requested_at_UTC": "2026-10-09T10:24:21.484982+00:00",
+  "method": "POST",
+  "request": {
+    "type": "userNonFundingLedgerUpdates",
+    "user": "0x3e2d81f7a5659e4760ba929ef88eed40ef6640a1",
+    "startTime": 1791324000000,
+    "endTime": 1791339900000
+  },
+  "HTTP_status": 200,
+  "response_file": "hyperliquid_credit.response.txt"
+}

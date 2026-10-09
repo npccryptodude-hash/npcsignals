@@ -1,0 +1,15 @@
+{
+  "url": "https://eth.drpc.org",
+  "requested_at_UTC": "2026-10-09T10:25:28.033812+00:00",
+  "method": "POST",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_getTransactionByHash",
+    "params": [
+      "0xd660af041faddd964b1d59cecc709beeb9e425282ab93a4d8f229455af69ff37"
+    ]
+  },
+  "HTTP_status": 200,
+  "response_file": "0xd660af041faddd964b1d59cecc709beeb9e425282ab93a4d8f229455af69ff37_tx.response.txt"
+}

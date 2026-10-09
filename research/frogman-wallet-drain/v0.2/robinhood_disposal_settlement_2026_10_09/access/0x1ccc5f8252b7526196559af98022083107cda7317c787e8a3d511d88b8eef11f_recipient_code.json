@@ -1,0 +1,16 @@
+{
+  "url": "https://eth.drpc.org",
+  "requested_at_UTC": "2026-10-09T10:30:30.458656+00:00",
+  "method": "POST",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_getCode",
+    "params": [
+      "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae",
+      "0x18ed2fc"
+    ]
+  },
+  "HTTP_status": 200,
+  "response_file": "0x1ccc5f8252b7526196559af98022083107cda7317c787e8a3d511d88b8eef11f_recipient_code.response.txt"
+}

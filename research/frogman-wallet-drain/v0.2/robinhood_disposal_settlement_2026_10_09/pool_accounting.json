@@ -1,0 +1,2371 @@
+{
+  "summary": {
+    "classification": "CONFIRMED",
+    "record_type": "Scoped native pool reconciliation, not complete affected-wallet provenance",
+    "routing_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+    "scope_UTC": [
+      "2026-10-06T20:19:35Z",
+      "2026-10-07T02:18:11Z"
+    ],
+    "prior_balance_wei": "0",
+    "ordinary_inbound_count": 35,
+    "internal_inbound_count": 27,
+    "native_inflow_wei": "362263931321884337807",
+    "native_inflow_ETH": "362.263931321884337807",
+    "native_outflow_count": 15,
+    "native_principal_out_wei": "362262907164350756807",
+    "native_principal_out_ETH": "362.262907164350756807",
+    "wallet_paid_gas_wei": "910467051228000",
+    "wallet_paid_gas_ETH": "0.000910467051228",
+    "end_balance_wei": "113690482353000",
+    "end_balance_ETH": "0.000113690482353",
+    "residual_wei": "0",
+    "funding_provenance": "MIXED / pooled; affected-wallet origin unresolved",
+    "inbound_edges": [
+      {
+        "source_wallet": "0x40ac6f2efbc0f8aba34151f18ee72aded559b811",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0xda86eeb6b0ad2ba8482bd919b37267e3d972316f3fab79e0a76d51cf76e64908",
+        "asset": "native ETH",
+        "amount_wei": "1000000000",
+        "block_number": 26137324,
+        "timestamp_UTC": "2026-10-07T01:48:59+00:00",
+        "record_type": "ordinary credit",
+        "upstream_provenance": "UNRESOLVED / case-unassigned; no ownership inferred",
+        "evidence_files": [
+          "access/0xda86eeb6b0ad2ba8482bd919b37267e3d972316f3fab79e0a76d51cf76e64908_tx.response.txt",
+          "access/0xda86eeb6b0ad2ba8482bd919b37267e3d972316f3fab79e0a76d51cf76e64908_receipt.response.txt",
+          "access/block_0x18ed2ec.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0x3b7410d687df040b4572ce39c98daa1d7021ee9a",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0xf4cb4a200897fdf99c5ff676af017c2e7ea3d1bffd92fe114aca9fa0cc3e2f60",
+        "asset": "native ETH",
+        "amount_wei": "1000000000",
+        "block_number": 26137189,
+        "timestamp_UTC": "2026-10-07T01:21:47+00:00",
+        "record_type": "ordinary credit",
+        "upstream_provenance": "UNRESOLVED / case-unassigned; no ownership inferred",
+        "evidence_files": [
+          "access/0xf4cb4a200897fdf99c5ff676af017c2e7ea3d1bffd92fe114aca9fa0cc3e2f60_tx.response.txt",
+          "access/0xf4cb4a200897fdf99c5ff676af017c2e7ea3d1bffd92fe114aca9fa0cc3e2f60_receipt.response.txt",
+          "access/block_0x18ed265.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0x3b7858121af7106300949be936f69583ff2eee9a",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0xe813bb1285078b0fc4adc9c330c3ecebc80ab2117800bc08421c16d505606497",
+        "asset": "native ETH",
+        "amount_wei": "1000000000",
+        "block_number": 26137140,
+        "timestamp_UTC": "2026-10-07T01:11:59+00:00",
+        "record_type": "ordinary credit",
+        "upstream_provenance": "UNRESOLVED / case-unassigned; no ownership inferred",
+        "evidence_files": [
+          "access/0xe813bb1285078b0fc4adc9c330c3ecebc80ab2117800bc08421c16d505606497_tx.response.txt",
+          "access/0xe813bb1285078b0fc4adc9c330c3ecebc80ab2117800bc08421c16d505606497_receipt.response.txt",
+          "access/block_0x18ed234.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0xc25c69693a931ca2a3bf75e2d610b8452f84a9a9",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0x253c1b760a9871f3d869987b57adbe55aaec860240a1ad991882b0f26b249158",
+        "asset": "native ETH",
+        "amount_wei": "1000000000",
+        "block_number": 26137026,
+        "timestamp_UTC": "2026-10-07T00:48:47+00:00",
+        "record_type": "ordinary credit",
+        "upstream_provenance": "UNRESOLVED / case-unassigned; no ownership inferred",
+        "evidence_files": [
+          "access/0x253c1b760a9871f3d869987b57adbe55aaec860240a1ad991882b0f26b249158_tx.response.txt",
+          "access/0x253c1b760a9871f3d869987b57adbe55aaec860240a1ad991882b0f26b249158_receipt.response.txt",
+          "access/block_0x18ed1c2.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0x407604b81d17a87bd4e3b9929b52e970564612bd",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0xe7a73442c21e50df4e3562b8ab83b16dee2d523bce2e844f9d8294638dc9b51b",
+        "asset": "native ETH",
+        "amount_wei": "1000000000",
+        "block_number": 26137026,
+        "timestamp_UTC": "2026-10-07T00:48:47+00:00",
+        "record_type": "ordinary credit",
+        "upstream_provenance": "UNRESOLVED / case-unassigned; no ownership inferred",
+        "evidence_files": [
+          "access/0xe7a73442c21e50df4e3562b8ab83b16dee2d523bce2e844f9d8294638dc9b51b_tx.response.txt",
+          "access/0xe7a73442c21e50df4e3562b8ab83b16dee2d523bce2e844f9d8294638dc9b51b_receipt.response.txt",
+          "access/block_0x18ed1c2.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0xc25c5b7e4f8cb4454bc65b5a1d2053403e24a9a9",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0xdb4f30f7027d7a7ef5b952295d6318bb757152721aa8fe9e1173ef0cffdfebf6",
+        "asset": "native ETH",
+        "amount_wei": "1000000000",
+        "block_number": 26137013,
+        "timestamp_UTC": "2026-10-07T00:46:11+00:00",
+        "record_type": "ordinary credit",
+        "upstream_provenance": "UNRESOLVED / case-unassigned; no ownership inferred",
+        "evidence_files": [
+          "access/0xdb4f30f7027d7a7ef5b952295d6318bb757152721aa8fe9e1173ef0cffdfebf6_tx.response.txt",
+          "access/0xdb4f30f7027d7a7ef5b952295d6318bb757152721aa8fe9e1173ef0cffdfebf6_receipt.response.txt",
+          "access/block_0x18ed1b5.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0x4076ee189c393df2f56fae7045e6fb4db2f112bd",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0x60cc1e7320306d265ba385bdd750fe4f74f66f327d3004d01425bb3e070a9c99",
+        "asset": "native ETH",
+        "amount_wei": "1000000000",
+        "block_number": 26137013,
+        "timestamp_UTC": "2026-10-07T00:46:11+00:00",
+        "record_type": "ordinary credit",
+        "upstream_provenance": "UNRESOLVED / case-unassigned; no ownership inferred",
+        "evidence_files": [
+          "access/0x60cc1e7320306d265ba385bdd750fe4f74f66f327d3004d01425bb3e070a9c99_tx.response.txt",
+          "access/0x60cc1e7320306d265ba385bdd750fe4f74f66f327d3004d01425bb3e070a9c99_receipt.response.txt",
+          "access/block_0x18ed1b5.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0x13af35880136e14f7ea47e549349774d0d07a48a",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0x27730980a68af6604260739701ad16b3224b4dc33e1e7c836712c70642ba09f4",
+        "asset": "native ETH",
+        "amount_wei": "1000000000",
+        "block_number": 26136907,
+        "timestamp_UTC": "2026-10-07T00:24:59+00:00",
+        "record_type": "ordinary credit",
+        "upstream_provenance": "UNRESOLVED / case-unassigned; no ownership inferred",
+        "evidence_files": [
+          "access/0x27730980a68af6604260739701ad16b3224b4dc33e1e7c836712c70642ba09f4_tx.response.txt",
+          "access/0x27730980a68af6604260739701ad16b3224b4dc33e1e7c836712c70642ba09f4_receipt.response.txt",
+          "access/block_0x18ed14b.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0xffd7f1ca741fe90523c376b242e8e907e2bb4ab3",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0x3e72b8ba652b4a836e0333c2cab66882ecfcfff3b3d9eeef35fc560174e0c8d7",
+        "asset": "native ETH",
+        "amount_wei": "1000000000",
+        "block_number": 26136907,
+        "timestamp_UTC": "2026-10-07T00:24:59+00:00",
+        "record_type": "ordinary credit",
+        "upstream_provenance": "UNRESOLVED / case-unassigned; no ownership inferred",
+        "evidence_files": [
+          "access/0x3e72b8ba652b4a836e0333c2cab66882ecfcfff3b3d9eeef35fc560174e0c8d7_tx.response.txt",
+          "access/0x3e72b8ba652b4a836e0333c2cab66882ecfcfff3b3d9eeef35fc560174e0c8d7_receipt.response.txt",
+          "access/block_0x18ed14b.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0xffd790edb1090fc26c2fac9f042d566b73f08ab3",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0x9f30f257c86579d840b409c57977a745bb7bc8b1e107abf475554359851a1507",
+        "asset": "native ETH",
+        "amount_wei": "1000000000",
+        "block_number": 26136893,
+        "timestamp_UTC": "2026-10-07T00:22:11+00:00",
+        "record_type": "ordinary credit",
+        "upstream_provenance": "UNRESOLVED / case-unassigned; no ownership inferred",
+        "evidence_files": [
+          "access/0x9f30f257c86579d840b409c57977a745bb7bc8b1e107abf475554359851a1507_tx.response.txt",
+          "access/0x9f30f257c86579d840b409c57977a745bb7bc8b1e107abf475554359851a1507_receipt.response.txt",
+          "access/block_0x18ed13d.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0x13afbebccd6ac7a27bb155b23e9f9c4d67c2a48a",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0x7b903057d5a54d60c46e101a47f473a41a17641b61f291f63b83e887a56e6acb",
+        "asset": "native ETH",
+        "amount_wei": "1000000000",
+        "block_number": 26136893,
+        "timestamp_UTC": "2026-10-07T00:22:11+00:00",
+        "record_type": "ordinary credit",
+        "upstream_provenance": "UNRESOLVED / case-unassigned; no ownership inferred",
+        "evidence_files": [
+          "access/0x7b903057d5a54d60c46e101a47f473a41a17641b61f291f63b83e887a56e6acb_tx.response.txt",
+          "access/0x7b903057d5a54d60c46e101a47f473a41a17641b61f291f63b83e887a56e6acb_receipt.response.txt",
+          "access/block_0x18ed13d.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0xc25c69693a931ca2a3bf75e2d610b8452f84a9a9",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0x211ebd0fd57ad7aa1587aada4819e73386b7f5b9d32b02ec5b0976b79236aeb8",
+        "asset": "native ETH",
+        "amount_wei": "1000000000",
+        "block_number": 26136816,
+        "timestamp_UTC": "2026-10-07T00:06:47+00:00",
+        "record_type": "ordinary credit",
+        "upstream_provenance": "UNRESOLVED / case-unassigned; no ownership inferred",
+        "evidence_files": [
+          "access/0x211ebd0fd57ad7aa1587aada4819e73386b7f5b9d32b02ec5b0976b79236aeb8_tx.response.txt",
+          "access/0x211ebd0fd57ad7aa1587aada4819e73386b7f5b9d32b02ec5b0976b79236aeb8_receipt.response.txt",
+          "access/block_0x18ed0f0.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0x407604b81d17a87bd4e3b9929b52e970564612bd",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0xcada356718afb66ddf6bbe65badd106a036ebe135d64ba929efbaeecd3b9302d",
+        "asset": "native ETH",
+        "amount_wei": "1000000000",
+        "block_number": 26136816,
+        "timestamp_UTC": "2026-10-07T00:06:47+00:00",
+        "record_type": "ordinary credit",
+        "upstream_provenance": "UNRESOLVED / case-unassigned; no ownership inferred",
+        "evidence_files": [
+          "access/0xcada356718afb66ddf6bbe65badd106a036ebe135d64ba929efbaeecd3b9302d_tx.response.txt",
+          "access/0xcada356718afb66ddf6bbe65badd106a036ebe135d64ba929efbaeecd3b9302d_receipt.response.txt",
+          "access/block_0x18ed0f0.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0x13af35880136e14f7ea47e549349774d0d07a48a",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0xc8161216d822ab95eeb186a009d2c18253b3bf9d5b08e433101146af5e568b4a",
+        "asset": "native ETH",
+        "amount_wei": "1000000000",
+        "block_number": 26136801,
+        "timestamp_UTC": "2026-10-07T00:03:47+00:00",
+        "record_type": "ordinary credit",
+        "upstream_provenance": "UNRESOLVED / case-unassigned; no ownership inferred",
+        "evidence_files": [
+          "access/0xc8161216d822ab95eeb186a009d2c18253b3bf9d5b08e433101146af5e568b4a_tx.response.txt",
+          "access/0xc8161216d822ab95eeb186a009d2c18253b3bf9d5b08e433101146af5e568b4a_receipt.response.txt",
+          "access/block_0x18ed0e1.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0x13af05ba8958f43dcb6781caf138aca6f1f7a48a",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0xd528e9329bcf1569da5be572312288c4773893e7af3a8e5c540bf0131344e380",
+        "asset": "native ETH",
+        "amount_wei": "180000000000",
+        "block_number": 26136790,
+        "timestamp_UTC": "2026-10-07T00:01:35+00:00",
+        "record_type": "ordinary credit",
+        "upstream_provenance": "UNRESOLVED / case-unassigned; no ownership inferred",
+        "evidence_files": [
+          "access/0xd528e9329bcf1569da5be572312288c4773893e7af3a8e5c540bf0131344e380_tx.response.txt",
+          "access/0xd528e9329bcf1569da5be572312288c4773893e7af3a8e5c540bf0131344e380_receipt.response.txt",
+          "access/block_0x18ed0d6.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0x13af35880136e14f7ea47e549349774d0d07a48a",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0xcc29f3ba901bca29644aa3127b68aa0309e570eaae6010e707a1288522c6c120",
+        "asset": "native ETH",
+        "amount_wei": "1000000000",
+        "block_number": 26136788,
+        "timestamp_UTC": "2026-10-07T00:01:11+00:00",
+        "record_type": "ordinary credit",
+        "upstream_provenance": "UNRESOLVED / case-unassigned; no ownership inferred",
+        "evidence_files": [
+          "access/0xcc29f3ba901bca29644aa3127b68aa0309e570eaae6010e707a1288522c6c120_tx.response.txt",
+          "access/0xcc29f3ba901bca29644aa3127b68aa0309e570eaae6010e707a1288522c6c120_receipt.response.txt",
+          "access/block_0x18ed0d4.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0x13af05ba8958f43dcb6781caf138aca6f1f7a48a",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0x44b59e27c0ab3e646df8812d5328c37307d7c2cfb15f04c2568fb28dbb04beff",
+        "asset": "native ETH",
+        "amount_wei": "180000000000",
+        "block_number": 26136781,
+        "timestamp_UTC": "2026-10-06T23:59:47+00:00",
+        "record_type": "ordinary credit",
+        "upstream_provenance": "UNRESOLVED / case-unassigned; no ownership inferred",
+        "evidence_files": [
+          "access/0x44b59e27c0ab3e646df8812d5328c37307d7c2cfb15f04c2568fb28dbb04beff_tx.response.txt",
+          "access/0x44b59e27c0ab3e646df8812d5328c37307d7c2cfb15f04c2568fb28dbb04beff_receipt.response.txt",
+          "access/block_0x18ed0cd.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0x13af05ba8958f43dcb6781caf138aca6f1f7a48a",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0x097631d1f21eea1fd1cb962ba72408fd8649544be131da65dfc00a9bac50de75",
+        "asset": "native ETH",
+        "amount_wei": "180000000000",
+        "block_number": 26136777,
+        "timestamp_UTC": "2026-10-06T23:58:59+00:00",
+        "record_type": "ordinary credit",
+        "upstream_provenance": "UNRESOLVED / case-unassigned; no ownership inferred",
+        "evidence_files": [
+          "access/0x097631d1f21eea1fd1cb962ba72408fd8649544be131da65dfc00a9bac50de75_tx.response.txt",
+          "access/0x097631d1f21eea1fd1cb962ba72408fd8649544be131da65dfc00a9bac50de75_receipt.response.txt",
+          "access/block_0x18ed0c9.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0x13af05ba8958f43dcb6781caf138aca6f1f7a48a",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0x442762473ddcc4646f2e4ed7d85d6a9e863d5bdc6ea36bdec08005f24f41bfe7",
+        "asset": "native ETH",
+        "amount_wei": "180000000000",
+        "block_number": 26136774,
+        "timestamp_UTC": "2026-10-06T23:58:23+00:00",
+        "record_type": "ordinary credit",
+        "upstream_provenance": "UNRESOLVED / case-unassigned; no ownership inferred",
+        "evidence_files": [
+          "access/0x442762473ddcc4646f2e4ed7d85d6a9e863d5bdc6ea36bdec08005f24f41bfe7_tx.response.txt",
+          "access/0x442762473ddcc4646f2e4ed7d85d6a9e863d5bdc6ea36bdec08005f24f41bfe7_receipt.response.txt",
+          "access/block_0x18ed0c6.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0x13af05ba8958f43dcb6781caf138aca6f1f7a48a",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0x266ad92254c1998dda47728107123e80f0195f49d06820cec3895077663dc61b",
+        "asset": "native ETH",
+        "amount_wei": "180000000000",
+        "block_number": 26136770,
+        "timestamp_UTC": "2026-10-06T23:57:35+00:00",
+        "record_type": "ordinary credit",
+        "upstream_provenance": "UNRESOLVED / case-unassigned; no ownership inferred",
+        "evidence_files": [
+          "access/0x266ad92254c1998dda47728107123e80f0195f49d06820cec3895077663dc61b_tx.response.txt",
+          "access/0x266ad92254c1998dda47728107123e80f0195f49d06820cec3895077663dc61b_receipt.response.txt",
+          "access/block_0x18ed0c2.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0x13af35880136e14f7ea47e549349774d0d07a48a",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0x6b173fa88e3abb86892033973751ec0d950c3b2de15470d0a4926b5d1a6ab272",
+        "asset": "native ETH",
+        "amount_wei": "1000000000",
+        "block_number": 26136767,
+        "timestamp_UTC": "2026-10-06T23:56:59+00:00",
+        "record_type": "ordinary credit",
+        "upstream_provenance": "UNRESOLVED / case-unassigned; no ownership inferred",
+        "evidence_files": [
+          "access/0x6b173fa88e3abb86892033973751ec0d950c3b2de15470d0a4926b5d1a6ab272_tx.response.txt",
+          "access/0x6b173fa88e3abb86892033973751ec0d950c3b2de15470d0a4926b5d1a6ab272_receipt.response.txt",
+          "access/block_0x18ed0bf.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0x13af05ba8958f43dcb6781caf138aca6f1f7a48a",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0x8bf43ab26eab557ed0ddf8041a45c0748043295f6e2c1181476378da9825d840",
+        "asset": "native ETH",
+        "amount_wei": "180000000000",
+        "block_number": 26136761,
+        "timestamp_UTC": "2026-10-06T23:55:47+00:00",
+        "record_type": "ordinary credit",
+        "upstream_provenance": "UNRESOLVED / case-unassigned; no ownership inferred",
+        "evidence_files": [
+          "access/0x8bf43ab26eab557ed0ddf8041a45c0748043295f6e2c1181476378da9825d840_tx.response.txt",
+          "access/0x8bf43ab26eab557ed0ddf8041a45c0748043295f6e2c1181476378da9825d840_receipt.response.txt",
+          "access/block_0x18ed0b9.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0x13af05ba8958f43dcb6781caf138aca6f1f7a48a",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0x226f7c85485b1e3d6420b2d7203e1b60ab9be6d546227704d86e17881a9c857d",
+        "asset": "native ETH",
+        "amount_wei": "180000000000",
+        "block_number": 26136755,
+        "timestamp_UTC": "2026-10-06T23:54:23+00:00",
+        "record_type": "ordinary credit",
+        "upstream_provenance": "UNRESOLVED / case-unassigned; no ownership inferred",
+        "evidence_files": [
+          "access/0x226f7c85485b1e3d6420b2d7203e1b60ab9be6d546227704d86e17881a9c857d_tx.response.txt",
+          "access/0x226f7c85485b1e3d6420b2d7203e1b60ab9be6d546227704d86e17881a9c857d_receipt.response.txt",
+          "access/block_0x18ed0b3.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0x13af35880136e14f7ea47e549349774d0d07a48a",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0xe048906407fc334888c592e3562af6acdecefcf3cd4f2403a791cd784779ed8d",
+        "asset": "native ETH",
+        "amount_wei": "1000000000",
+        "block_number": 26136753,
+        "timestamp_UTC": "2026-10-06T23:53:59+00:00",
+        "record_type": "ordinary credit",
+        "upstream_provenance": "UNRESOLVED / case-unassigned; no ownership inferred",
+        "evidence_files": [
+          "access/0xe048906407fc334888c592e3562af6acdecefcf3cd4f2403a791cd784779ed8d_tx.response.txt",
+          "access/0xe048906407fc334888c592e3562af6acdecefcf3cd4f2403a791cd784779ed8d_receipt.response.txt",
+          "access/block_0x18ed0b1.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0x13af05ba8958f43dcb6781caf138aca6f1f7a48a",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0xd60ec65df11c71fdc1aa393c7f2cbbd6e66fc0060cea3ec4e52f611b71a7bd15",
+        "asset": "native ETH",
+        "amount_wei": "180000000000",
+        "block_number": 26136751,
+        "timestamp_UTC": "2026-10-06T23:53:35+00:00",
+        "record_type": "ordinary credit",
+        "upstream_provenance": "UNRESOLVED / case-unassigned; no ownership inferred",
+        "evidence_files": [
+          "access/0xd60ec65df11c71fdc1aa393c7f2cbbd6e66fc0060cea3ec4e52f611b71a7bd15_tx.response.txt",
+          "access/0xd60ec65df11c71fdc1aa393c7f2cbbd6e66fc0060cea3ec4e52f611b71a7bd15_receipt.response.txt",
+          "access/block_0x18ed0af.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0x13af05ba8958f43dcb6781caf138aca6f1f7a48a",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0x3331dbb971f7421bef299e0bbed9f67655bccd583560954a145a038b56b697d5",
+        "asset": "native ETH",
+        "amount_wei": "180000000000",
+        "block_number": 26136746,
+        "timestamp_UTC": "2026-10-06T23:52:35+00:00",
+        "record_type": "ordinary credit",
+        "upstream_provenance": "UNRESOLVED / case-unassigned; no ownership inferred",
+        "evidence_files": [
+          "access/0x3331dbb971f7421bef299e0bbed9f67655bccd583560954a145a038b56b697d5_tx.response.txt",
+          "access/0x3331dbb971f7421bef299e0bbed9f67655bccd583560954a145a038b56b697d5_receipt.response.txt",
+          "access/block_0x18ed0aa.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0x13af05ba8958f43dcb6781caf138aca6f1f7a48a",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0x7277f51c5e0a6e8d9f0f562d0b407ef4dffd355e55a76292085ad712f125fb5f",
+        "asset": "native ETH",
+        "amount_wei": "180000000000",
+        "block_number": 26136739,
+        "timestamp_UTC": "2026-10-06T23:51:11+00:00",
+        "record_type": "ordinary credit",
+        "upstream_provenance": "UNRESOLVED / case-unassigned; no ownership inferred",
+        "evidence_files": [
+          "access/0x7277f51c5e0a6e8d9f0f562d0b407ef4dffd355e55a76292085ad712f125fb5f_tx.response.txt",
+          "access/0x7277f51c5e0a6e8d9f0f562d0b407ef4dffd355e55a76292085ad712f125fb5f_receipt.response.txt",
+          "access/block_0x18ed0a3.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0x13af35880136e14f7ea47e549349774d0d07a48a",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0xcc24f29bbd20814dae9f15257f319996bdbef5ca076679412950088911d74e17",
+        "asset": "native ETH",
+        "amount_wei": "1000000000",
+        "block_number": 26136736,
+        "timestamp_UTC": "2026-10-06T23:50:35+00:00",
+        "record_type": "ordinary credit",
+        "upstream_provenance": "UNRESOLVED / case-unassigned; no ownership inferred",
+        "evidence_files": [
+          "access/0xcc24f29bbd20814dae9f15257f319996bdbef5ca076679412950088911d74e17_tx.response.txt",
+          "access/0xcc24f29bbd20814dae9f15257f319996bdbef5ca076679412950088911d74e17_receipt.response.txt",
+          "access/block_0x18ed0a0.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0x13af05ba8958f43dcb6781caf138aca6f1f7a48a",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0x5ba36c0da17bf7db022d9cd7a15db8c919afc32567881cb3a74fcce1810a3dfe",
+        "asset": "native ETH",
+        "amount_wei": "180000000000",
+        "block_number": 26136717,
+        "timestamp_UTC": "2026-10-06T23:46:47+00:00",
+        "record_type": "ordinary credit",
+        "upstream_provenance": "UNRESOLVED / case-unassigned; no ownership inferred",
+        "evidence_files": [
+          "access/0x5ba36c0da17bf7db022d9cd7a15db8c919afc32567881cb3a74fcce1810a3dfe_tx.response.txt",
+          "access/0x5ba36c0da17bf7db022d9cd7a15db8c919afc32567881cb3a74fcce1810a3dfe_receipt.response.txt",
+          "access/block_0x18ed08d.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0x13af35880136e14f7ea47e549349774d0d07a48a",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0x7c6fbd13617d6d51b5c70ceb503e25405d67158ae17133ae1c58f8fad7eaf303",
+        "asset": "native ETH",
+        "amount_wei": "1000000000",
+        "block_number": 26136714,
+        "timestamp_UTC": "2026-10-06T23:46:11+00:00",
+        "record_type": "ordinary credit",
+        "upstream_provenance": "UNRESOLVED / case-unassigned; no ownership inferred",
+        "evidence_files": [
+          "access/0x7c6fbd13617d6d51b5c70ceb503e25405d67158ae17133ae1c58f8fad7eaf303_tx.response.txt",
+          "access/0x7c6fbd13617d6d51b5c70ceb503e25405d67158ae17133ae1c58f8fad7eaf303_receipt.response.txt",
+          "access/block_0x18ed08a.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0x13af05ba8958f43dcb6781caf138aca6f1f7a48a",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0x94fdf85a2f1771175bf8dd571dc8c3c2d8a1939542b50ac585a0f68154999c16",
+        "asset": "native ETH",
+        "amount_wei": "180000000000",
+        "block_number": 26136703,
+        "timestamp_UTC": "2026-10-06T23:43:59+00:00",
+        "record_type": "ordinary credit",
+        "upstream_provenance": "UNRESOLVED / case-unassigned; no ownership inferred",
+        "evidence_files": [
+          "access/0x94fdf85a2f1771175bf8dd571dc8c3c2d8a1939542b50ac585a0f68154999c16_tx.response.txt",
+          "access/0x94fdf85a2f1771175bf8dd571dc8c3c2d8a1939542b50ac585a0f68154999c16_receipt.response.txt",
+          "access/block_0x18ed07f.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0x13af35880136e14f7ea47e549349774d0d07a48a",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0x8806b4e98b5e814616dfd3c2b208b94c0168b5c895d4e71f9d0bdfa9a4b583e5",
+        "asset": "native ETH",
+        "amount_wei": "1000000000",
+        "block_number": 26136701,
+        "timestamp_UTC": "2026-10-06T23:43:35+00:00",
+        "record_type": "ordinary credit",
+        "upstream_provenance": "UNRESOLVED / case-unassigned; no ownership inferred",
+        "evidence_files": [
+          "access/0x8806b4e98b5e814616dfd3c2b208b94c0168b5c895d4e71f9d0bdfa9a4b583e5_tx.response.txt",
+          "access/0x8806b4e98b5e814616dfd3c2b208b94c0168b5c895d4e71f9d0bdfa9a4b583e5_receipt.response.txt",
+          "access/block_0x18ed07d.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0xffd7f1ca741fe90523c376b242e8e907e2bb4ab3",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0x2a0a0614907a1546cb20ac8ccea4cd836da698b3d46da03c0b8c35b5b8f01939",
+        "asset": "native ETH",
+        "amount_wei": "1000000000",
+        "block_number": 26136701,
+        "timestamp_UTC": "2026-10-06T23:43:35+00:00",
+        "record_type": "ordinary credit",
+        "upstream_provenance": "UNRESOLVED / case-unassigned; no ownership inferred",
+        "evidence_files": [
+          "access/0x2a0a0614907a1546cb20ac8ccea4cd836da698b3d46da03c0b8c35b5b8f01939_tx.response.txt",
+          "access/0x2a0a0614907a1546cb20ac8ccea4cd836da698b3d46da03c0b8c35b5b8f01939_receipt.response.txt",
+          "access/block_0x18ed07d.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0x13af05ba8958f43dcb6781caf138aca6f1f7a48a",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0xce5536bd38d78c38829b081154c21b034934fd2b5aeeda123eb7df38df2be31c",
+        "asset": "native ETH",
+        "amount_wei": "180000000000",
+        "block_number": 26136693,
+        "timestamp_UTC": "2026-10-06T23:41:59+00:00",
+        "record_type": "ordinary credit",
+        "upstream_provenance": "UNRESOLVED / case-unassigned; no ownership inferred",
+        "evidence_files": [
+          "access/0xce5536bd38d78c38829b081154c21b034934fd2b5aeeda123eb7df38df2be31c_tx.response.txt",
+          "access/0xce5536bd38d78c38829b081154c21b034934fd2b5aeeda123eb7df38df2be31c_receipt.response.txt",
+          "access/block_0x18ed075.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0xf65954d6d6f877963bace359e44c1f01d3b11c2a",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0xb644bf8e644a1195ad838180fd015f88938a8664128b9e0ad1e7b4a5eebe2198",
+        "asset": "native ETH",
+        "amount_wei": "36847749668146124",
+        "block_number": 26135682,
+        "timestamp_UTC": "2026-10-06T20:19:35+00:00",
+        "record_type": "ordinary credit",
+        "upstream_provenance": "UNRESOLVED / case-unassigned; no ownership inferred",
+        "evidence_files": [
+          "access/0xb644bf8e644a1195ad838180fd015f88938a8664128b9e0ad1e7b4a5eebe2198_tx.response.txt",
+          "access/0xb644bf8e644a1195ad838180fd015f88938a8664128b9e0ad1e7b4a5eebe2198_receipt.response.txt",
+          "access/block_0x18ecc82.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0x40a8adcad5c0c44d4a9678908a0a96387a34b811",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0xcfd5a68c2b37ca438490eef9c7c9738e39b5ed934e7da2f702d62273ee786839",
+        "asset": "native ETH",
+        "amount_wei": "100000000",
+        "block_number": 26137327,
+        "timestamp_UTC": "2026-10-07T01:49:35+00:00",
+        "record_type": "native execution credit",
+        "matched_call": {
+          "from": "0x40a8adcad5c0c44d4a9678908a0a96387a34b811",
+          "gas": "0x1dab2",
+          "gasUsed": "0x0",
+          "to": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+          "input": "0x",
+          "value": "0x5f5e100",
+          "type": "CALL"
+        },
+        "existing_Robinhood_edge": null,
+        "upstream_provenance": "Separate protocol/dust credit; no origin-chain claim made here",
+        "evidence_files": [
+          "access/0xcfd5a68c2b37ca438490eef9c7c9738e39b5ed934e7da2f702d62273ee786839_tx.response.txt",
+          "access/0xcfd5a68c2b37ca438490eef9c7c9738e39b5ed934e7da2f702d62273ee786839_receipt.response.txt",
+          "access/0xcfd5a68c2b37ca438490eef9c7c9738e39b5ed934e7da2f702d62273ee786839_trace.response.txt",
+          "access/block_0x18ed2ef.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0x40a8adcad5c0c44d4a9678908a0a96387a34b811",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0xc91408c8e986adfadd773337d056dc59ffc3983a789abc88deb4c2568f470e09",
+        "asset": "native ETH",
+        "amount_wei": "100000000",
+        "block_number": 26137316,
+        "timestamp_UTC": "2026-10-07T01:47:23+00:00",
+        "record_type": "native execution credit",
+        "matched_call": {
+          "from": "0x40a8adcad5c0c44d4a9678908a0a96387a34b811",
+          "gas": "0x14a3b",
+          "gasUsed": "0x0",
+          "to": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+          "input": "0x",
+          "value": "0x5f5e100",
+          "type": "CALL"
+        },
+        "existing_Robinhood_edge": null,
+        "upstream_provenance": "Separate protocol/dust credit; no origin-chain claim made here",
+        "evidence_files": [
+          "access/0xc91408c8e986adfadd773337d056dc59ffc3983a789abc88deb4c2568f470e09_tx.response.txt",
+          "access/0xc91408c8e986adfadd773337d056dc59ffc3983a789abc88deb4c2568f470e09_receipt.response.txt",
+          "access/0xc91408c8e986adfadd773337d056dc59ffc3983a789abc88deb4c2568f470e09_trace.response.txt",
+          "access/block_0x18ed2e4.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0x40a8adcad5c0c44d4a9678908a0a96387a34b811",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0x92a72a65796a2027d70ebbea019387bf3602bbad5533bcb929911d0438fda0b7",
+        "asset": "native ETH",
+        "amount_wei": "100000000",
+        "block_number": 26137301,
+        "timestamp_UTC": "2026-10-07T01:44:23+00:00",
+        "record_type": "native execution credit",
+        "matched_call": {
+          "from": "0x40a8adcad5c0c44d4a9678908a0a96387a34b811",
+          "gas": "0x2145d",
+          "gasUsed": "0x0",
+          "to": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+          "input": "0x",
+          "value": "0x5f5e100",
+          "type": "CALL"
+        },
+        "existing_Robinhood_edge": null,
+        "upstream_provenance": "Separate protocol/dust credit; no origin-chain claim made here",
+        "evidence_files": [
+          "access/0x92a72a65796a2027d70ebbea019387bf3602bbad5533bcb929911d0438fda0b7_tx.response.txt",
+          "access/0x92a72a65796a2027d70ebbea019387bf3602bbad5533bcb929911d0438fda0b7_receipt.response.txt",
+          "access/0x92a72a65796a2027d70ebbea019387bf3602bbad5533bcb929911d0438fda0b7_trace.response.txt",
+          "access/block_0x18ed2d5.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0x4216e5ae6021c523aae05b6ac6824f3c096cf905",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0x0b6a877380470ecac266e5246f6c975a530ffb1c153845771b60068761363b80",
+        "asset": "native ETH",
+        "amount_wei": "14788872230878871277",
+        "block_number": 26136894,
+        "timestamp_UTC": "2026-10-07T00:22:23+00:00",
+        "record_type": "native execution credit",
+        "matched_call": {
+          "from": "0x4216e5ae6021c523aae05b6ac6824f3c096cf905",
+          "gas": "0x10265",
+          "gasUsed": "0x0",
+          "to": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+          "input": "0x",
+          "value": "0xcd3ca0f06e2c7eed",
+          "type": "CALL"
+        },
+        "existing_Robinhood_edge": null,
+        "upstream_provenance": "Separate protocol/dust credit; no origin-chain claim made here",
+        "evidence_files": [
+          "access/0x0b6a877380470ecac266e5246f6c975a530ffb1c153845771b60068761363b80_tx.response.txt",
+          "access/0x0b6a877380470ecac266e5246f6c975a530ffb1c153845771b60068761363b80_receipt.response.txt",
+          "access/0x0b6a877380470ecac266e5246f6c975a530ffb1c153845771b60068761363b80_trace.response.txt",
+          "access/block_0x18ed13e.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0x4216e5ae6021c523aae05b6ac6824f3c096cf905",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0xebe14ec7d07afca402f002199e0334725f7db87ade15e97790a97b155d75acbe",
+        "asset": "native ETH",
+        "amount_wei": "14789341164862850675",
+        "block_number": 26136891,
+        "timestamp_UTC": "2026-10-07T00:21:47+00:00",
+        "record_type": "native execution credit",
+        "matched_call": {
+          "from": "0x4216e5ae6021c523aae05b6ac6824f3c096cf905",
+          "gas": "0x11413",
+          "gasUsed": "0x0",
+          "to": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+          "input": "0x",
+          "value": "0xcd3e4b6ea1b64673",
+          "type": "CALL"
+        },
+        "existing_Robinhood_edge": null,
+        "upstream_provenance": "Separate protocol/dust credit; no origin-chain claim made here",
+        "evidence_files": [
+          "access/0xebe14ec7d07afca402f002199e0334725f7db87ade15e97790a97b155d75acbe_tx.response.txt",
+          "access/0xebe14ec7d07afca402f002199e0334725f7db87ade15e97790a97b155d75acbe_receipt.response.txt",
+          "access/0xebe14ec7d07afca402f002199e0334725f7db87ade15e97790a97b155d75acbe_trace.response.txt",
+          "access/block_0x18ed13b.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0x4216e5ae6021c523aae05b6ac6824f3c096cf905",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0x74fde4a6ce17dc1628fd6f3dd7099e86037aba987d74e9b189df2d25b6e2b06f",
+        "asset": "native ETH",
+        "amount_wei": "9860983615165879612",
+        "block_number": 26136888,
+        "timestamp_UTC": "2026-10-07T00:21:11+00:00",
+        "record_type": "native execution credit",
+        "matched_call": {
+          "from": "0x4216e5ae6021c523aae05b6ac6824f3c096cf905",
+          "gas": "0x11413",
+          "gasUsed": "0x0",
+          "to": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+          "input": "0x",
+          "value": "0x88d9405a2de8d53c",
+          "type": "CALL"
+        },
+        "existing_Robinhood_edge": null,
+        "upstream_provenance": "Separate protocol/dust credit; no origin-chain claim made here",
+        "evidence_files": [
+          "access/0x74fde4a6ce17dc1628fd6f3dd7099e86037aba987d74e9b189df2d25b6e2b06f_tx.response.txt",
+          "access/0x74fde4a6ce17dc1628fd6f3dd7099e86037aba987d74e9b189df2d25b6e2b06f_receipt.response.txt",
+          "access/0x74fde4a6ce17dc1628fd6f3dd7099e86037aba987d74e9b189df2d25b6e2b06f_trace.response.txt",
+          "access/block_0x18ed138.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0x4216e5ae6021c523aae05b6ac6824f3c096cf905",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0xeeea9c1a1aef96812de9e651032492397148eef17949df9b27c0f62fad2ebc2c",
+        "asset": "native ETH",
+        "amount_wei": "13149234641484499913",
+        "block_number": 26136885,
+        "timestamp_UTC": "2026-10-07T00:20:35+00:00",
+        "record_type": "native execution credit",
+        "matched_call": {
+          "from": "0x4216e5ae6021c523aae05b6ac6824f3c096cf905",
+          "gas": "0x11413",
+          "gasUsed": "0x0",
+          "to": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+          "input": "0x",
+          "value": "0xb67b773d21f1cbc9",
+          "type": "CALL"
+        },
+        "existing_Robinhood_edge": null,
+        "upstream_provenance": "Separate protocol/dust credit; no origin-chain claim made here",
+        "evidence_files": [
+          "access/0xeeea9c1a1aef96812de9e651032492397148eef17949df9b27c0f62fad2ebc2c_tx.response.txt",
+          "access/0xeeea9c1a1aef96812de9e651032492397148eef17949df9b27c0f62fad2ebc2c_receipt.response.txt",
+          "access/0xeeea9c1a1aef96812de9e651032492397148eef17949df9b27c0f62fad2ebc2c_trace.response.txt",
+          "access/block_0x18ed135.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0x4216e5ae6021c523aae05b6ac6824f3c096cf905",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0xb3681554b8220d486dd3990666dd35115f3df6b7b409705bacfe334fa4bc05e8",
+        "asset": "native ETH",
+        "amount_wei": "17535434110789254738",
+        "block_number": 26136881,
+        "timestamp_UTC": "2026-10-07T00:19:47+00:00",
+        "record_type": "native execution credit",
+        "matched_call": {
+          "from": "0x4216e5ae6021c523aae05b6ac6824f3c096cf905",
+          "gas": "0x11410",
+          "gasUsed": "0x0",
+          "to": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+          "input": "0x",
+          "value": "0xf35a606ac3dc7e52",
+          "type": "CALL"
+        },
+        "existing_Robinhood_edge": null,
+        "upstream_provenance": "Separate protocol/dust credit; no origin-chain claim made here",
+        "evidence_files": [
+          "access/0xb3681554b8220d486dd3990666dd35115f3df6b7b409705bacfe334fa4bc05e8_tx.response.txt",
+          "access/0xb3681554b8220d486dd3990666dd35115f3df6b7b409705bacfe334fa4bc05e8_receipt.response.txt",
+          "access/0xb3681554b8220d486dd3990666dd35115f3df6b7b409705bacfe334fa4bc05e8_trace.response.txt",
+          "access/block_0x18ed131.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0x4216e5ae6021c523aae05b6ac6824f3c096cf905",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0x6a0ea3e332600ed01ce57d9d25e2f7ac117b411b084011906038cc8b48f39ae2",
+        "asset": "native ETH",
+        "amount_wei": "23385325363002855348",
+        "block_number": 26136876,
+        "timestamp_UTC": "2026-10-07T00:18:47+00:00",
+        "record_type": "native execution credit",
+        "matched_call": {
+          "from": "0x4216e5ae6021c523aae05b6ac6824f3c096cf905",
+          "gas": "0x11423",
+          "gasUsed": "0x0",
+          "to": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+          "input": "0x",
+          "value": "0x144895d8452b7cfb4",
+          "type": "CALL"
+        },
+        "existing_Robinhood_edge": null,
+        "upstream_provenance": "Separate protocol/dust credit; no origin-chain claim made here",
+        "evidence_files": [
+          "access/0x6a0ea3e332600ed01ce57d9d25e2f7ac117b411b084011906038cc8b48f39ae2_tx.response.txt",
+          "access/0x6a0ea3e332600ed01ce57d9d25e2f7ac117b411b084011906038cc8b48f39ae2_receipt.response.txt",
+          "access/0x6a0ea3e332600ed01ce57d9d25e2f7ac117b411b084011906038cc8b48f39ae2_trace.response.txt",
+          "access/block_0x18ed12c.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0x4216e5ae6021c523aae05b6ac6824f3c096cf905",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0xe92d9f816ec06f36e69c38d17f818a9ca466127049595147a77009a9d4f4e6a3",
+        "asset": "native ETH",
+        "amount_wei": "11938400392589668652",
+        "block_number": 26136873,
+        "timestamp_UTC": "2026-10-07T00:18:11+00:00",
+        "record_type": "native execution credit",
+        "matched_call": {
+          "from": "0x4216e5ae6021c523aae05b6ac6824f3c096cf905",
+          "gas": "0x11410",
+          "gasUsed": "0x0",
+          "to": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+          "input": "0x",
+          "value": "0xa5adb7e79ab0f12c",
+          "type": "CALL"
+        },
+        "existing_Robinhood_edge": null,
+        "upstream_provenance": "Separate protocol/dust credit; no origin-chain claim made here",
+        "evidence_files": [
+          "access/0xe92d9f816ec06f36e69c38d17f818a9ca466127049595147a77009a9d4f4e6a3_tx.response.txt",
+          "access/0xe92d9f816ec06f36e69c38d17f818a9ca466127049595147a77009a9d4f4e6a3_receipt.response.txt",
+          "access/0xe92d9f816ec06f36e69c38d17f818a9ca466127049595147a77009a9d4f4e6a3_trace.response.txt",
+          "access/block_0x18ed129.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0x4216e5ae6021c523aae05b6ac6824f3c096cf905",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0xbbe310b6f4159b7391d6f9e782eb3946c65fa74805109f970086a637dbf510e4",
+        "asset": "native ETH",
+        "amount_wei": "717864725363826",
+        "block_number": 26136779,
+        "timestamp_UTC": "2026-10-06T23:59:23+00:00",
+        "record_type": "native execution credit",
+        "matched_call": {
+          "from": "0x4216e5ae6021c523aae05b6ac6824f3c096cf905",
+          "gas": "0xd966",
+          "gasUsed": "0x0",
+          "to": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+          "input": "0x",
+          "value": "0x28ce4e7f3bc72",
+          "type": "CALL"
+        },
+        "existing_Robinhood_edge": null,
+        "upstream_provenance": "Separate protocol/dust credit; no origin-chain claim made here",
+        "evidence_files": [
+          "access/0xbbe310b6f4159b7391d6f9e782eb3946c65fa74805109f970086a637dbf510e4_tx.response.txt",
+          "access/0xbbe310b6f4159b7391d6f9e782eb3946c65fa74805109f970086a637dbf510e4_receipt.response.txt",
+          "access/0xbbe310b6f4159b7391d6f9e782eb3946c65fa74805109f970086a637dbf510e4_trace.response.txt",
+          "access/block_0x18ed0cb.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0x4216e5ae6021c523aae05b6ac6824f3c096cf905",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0x82baf0241ef2cbaa4d05cf1a5279705a330ec2cb27054f782f3b602697475d8f",
+        "asset": "native ETH",
+        "amount_wei": "20565005635314339628",
+        "block_number": 26136776,
+        "timestamp_UTC": "2026-10-06T23:58:47+00:00",
+        "record_type": "native execution credit",
+        "matched_call": {
+          "from": "0x4216e5ae6021c523aae05b6ac6824f3c096cf905",
+          "gas": "0x1142d",
+          "gasUsed": "0x0",
+          "to": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+          "input": "0x",
+          "value": "0x11d6593aad0d14f2c",
+          "type": "CALL"
+        },
+        "existing_Robinhood_edge": "F0464",
+        "upstream_provenance": "Known Robinhood bridge credit; affected-wallet upstream unresolved",
+        "evidence_files": [
+          "access/0x82baf0241ef2cbaa4d05cf1a5279705a330ec2cb27054f782f3b602697475d8f_tx.response.txt",
+          "access/0x82baf0241ef2cbaa4d05cf1a5279705a330ec2cb27054f782f3b602697475d8f_receipt.response.txt",
+          "access/0x82baf0241ef2cbaa4d05cf1a5279705a330ec2cb27054f782f3b602697475d8f_trace.response.txt",
+          "access/block_0x18ed0c8.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0x4216e5ae6021c523aae05b6ac6824f3c096cf905",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0x3d417a0ebec865a9889dd5469fd14532a48a0b36c3a145e54230364532944252",
+        "asset": "native ETH",
+        "amount_wei": "20565046696727485944",
+        "block_number": 26136775,
+        "timestamp_UTC": "2026-10-06T23:58:35+00:00",
+        "record_type": "native execution credit",
+        "matched_call": {
+          "from": "0x4216e5ae6021c523aae05b6ac6824f3c096cf905",
+          "gas": "0x1142d",
+          "gasUsed": "0x0",
+          "to": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+          "input": "0x",
+          "value": "0x11d65b9032bc31df8",
+          "type": "CALL"
+        },
+        "existing_Robinhood_edge": "F0462",
+        "upstream_provenance": "Known Robinhood bridge credit; affected-wallet upstream unresolved",
+        "evidence_files": [
+          "access/0x3d417a0ebec865a9889dd5469fd14532a48a0b36c3a145e54230364532944252_tx.response.txt",
+          "access/0x3d417a0ebec865a9889dd5469fd14532a48a0b36c3a145e54230364532944252_receipt.response.txt",
+          "access/0x3d417a0ebec865a9889dd5469fd14532a48a0b36c3a145e54230364532944252_trace.response.txt",
+          "access/block_0x18ed0c7.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0x4216e5ae6021c523aae05b6ac6824f3c096cf905",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0x7768d5b0506bf88fbc4c5d94f51eb8fff49dc67d55fd1d632811f8ce78087b8c",
+        "asset": "native ETH",
+        "amount_wei": "13709954811149920040",
+        "block_number": 26136774,
+        "timestamp_UTC": "2026-10-06T23:58:23+00:00",
+        "record_type": "native execution credit",
+        "matched_call": {
+          "from": "0x4216e5ae6021c523aae05b6ac6824f3c096cf905",
+          "gas": "0x1141b",
+          "gasUsed": "0x0",
+          "to": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+          "input": "0x",
+          "value": "0xbe438b43253fa728",
+          "type": "CALL"
+        },
+        "existing_Robinhood_edge": "F0460",
+        "upstream_provenance": "Known Robinhood bridge credit; affected-wallet upstream unresolved",
+        "evidence_files": [
+          "access/0x7768d5b0506bf88fbc4c5d94f51eb8fff49dc67d55fd1d632811f8ce78087b8c_tx.response.txt",
+          "access/0x7768d5b0506bf88fbc4c5d94f51eb8fff49dc67d55fd1d632811f8ce78087b8c_receipt.response.txt",
+          "access/0x7768d5b0506bf88fbc4c5d94f51eb8fff49dc67d55fd1d632811f8ce78087b8c_trace.response.txt",
+          "access/block_0x18ed0c6.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0x4216e5ae6021c523aae05b6ac6824f3c096cf905",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0x2b422b1831483eb9158ef56d9faed48e150d907e5773e4b97f6d8147cc5204c3",
+        "asset": "native ETH",
+        "amount_wei": "18280017451009445335",
+        "block_number": 26136772,
+        "timestamp_UTC": "2026-10-06T23:57:59+00:00",
+        "record_type": "native execution credit",
+        "matched_call": {
+          "from": "0x4216e5ae6021c523aae05b6ac6824f3c096cf905",
+          "gas": "0x1141b",
+          "gasUsed": "0x0",
+          "to": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+          "input": "0x",
+          "value": "0xfdafab051f5c0dd7",
+          "type": "CALL"
+        },
+        "existing_Robinhood_edge": "F0458",
+        "upstream_provenance": "Known Robinhood bridge credit; affected-wallet upstream unresolved",
+        "evidence_files": [
+          "access/0x2b422b1831483eb9158ef56d9faed48e150d907e5773e4b97f6d8147cc5204c3_tx.response.txt",
+          "access/0x2b422b1831483eb9158ef56d9faed48e150d907e5773e4b97f6d8147cc5204c3_receipt.response.txt",
+          "access/0x2b422b1831483eb9158ef56d9faed48e150d907e5773e4b97f6d8147cc5204c3_trace.response.txt",
+          "access/block_0x18ed0c4.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0x4216e5ae6021c523aae05b6ac6824f3c096cf905",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0x3b55306138fd68b7a3863aa8ac29cdf786f4807deb4e36ed237671b59220d988",
+        "asset": "native ETH",
+        "amount_wei": "24373434305384634707",
+        "block_number": 26136770,
+        "timestamp_UTC": "2026-10-06T23:57:35+00:00",
+        "record_type": "native execution credit",
+        "matched_call": {
+          "from": "0x4216e5ae6021c523aae05b6ac6824f3c096cf905",
+          "gas": "0x1142a",
+          "gasUsed": "0x0",
+          "to": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+          "input": "0x",
+          "value": "0x1523fd55d60c55953",
+          "type": "CALL"
+        },
+        "existing_Robinhood_edge": "F0456",
+        "upstream_provenance": "Known Robinhood bridge credit; affected-wallet upstream unresolved",
+        "evidence_files": [
+          "access/0x3b55306138fd68b7a3863aa8ac29cdf786f4807deb4e36ed237671b59220d988_tx.response.txt",
+          "access/0x3b55306138fd68b7a3863aa8ac29cdf786f4807deb4e36ed237671b59220d988_receipt.response.txt",
+          "access/0x3b55306138fd68b7a3863aa8ac29cdf786f4807deb4e36ed237671b59220d988_trace.response.txt",
+          "access/block_0x18ed0c2.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0x4216e5ae6021c523aae05b6ac6824f3c096cf905",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0x794649aaa990c10f12c40b94d4d198280abb2645e134bf5a4fcede4cb098a405",
+        "asset": "native ETH",
+        "amount_wei": "32497970839479074400",
+        "block_number": 26136761,
+        "timestamp_UTC": "2026-10-06T23:55:47+00:00",
+        "record_type": "native execution credit",
+        "matched_call": {
+          "from": "0x4216e5ae6021c523aae05b6ac6824f3c096cf905",
+          "gas": "0x11423",
+          "gasUsed": "0x0",
+          "to": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+          "input": "0x",
+          "value": "0x1c2fffc4c00273e60",
+          "type": "CALL"
+        },
+        "existing_Robinhood_edge": "F0454",
+        "upstream_provenance": "Known Robinhood bridge credit; affected-wallet upstream unresolved",
+        "evidence_files": [
+          "access/0x794649aaa990c10f12c40b94d4d198280abb2645e134bf5a4fcede4cb098a405_tx.response.txt",
+          "access/0x794649aaa990c10f12c40b94d4d198280abb2645e134bf5a4fcede4cb098a405_receipt.response.txt",
+          "access/0x794649aaa990c10f12c40b94d4d198280abb2645e134bf5a4fcede4cb098a405_trace.response.txt",
+          "access/block_0x18ed0b9.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0x4216e5ae6021c523aae05b6ac6824f3c096cf905",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0x7873e900cc196ea94a7c671f7f299fe6842412e6048fac07411655e1161ec9cf",
+        "asset": "native ETH",
+        "amount_wei": "18874470654663653144",
+        "block_number": 26136759,
+        "timestamp_UTC": "2026-10-06T23:55:23+00:00",
+        "record_type": "native execution credit",
+        "matched_call": {
+          "from": "0x4216e5ae6021c523aae05b6ac6824f3c096cf905",
+          "gas": "0x10280",
+          "gasUsed": "0x0",
+          "to": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+          "input": "0x",
+          "value": "0x105ef970f26c2f718",
+          "type": "CALL"
+        },
+        "existing_Robinhood_edge": "F0452",
+        "upstream_provenance": "Known Robinhood bridge credit; affected-wallet upstream unresolved",
+        "evidence_files": [
+          "access/0x7873e900cc196ea94a7c671f7f299fe6842412e6048fac07411655e1161ec9cf_tx.response.txt",
+          "access/0x7873e900cc196ea94a7c671f7f299fe6842412e6048fac07411655e1161ec9cf_receipt.response.txt",
+          "access/0x7873e900cc196ea94a7c671f7f299fe6842412e6048fac07411655e1161ec9cf_trace.response.txt",
+          "access/block_0x18ed0b7.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0x5c7bcd6e7de5423a257d81b442095a1a6ced35c5",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0x5ae46f2541d52f0f1b907c6a02ebe6cd71f3525a4ee3e6bbfe8d8341661f7ce9",
+        "asset": "native ETH",
+        "amount_wei": "7994855953276813640",
+        "block_number": 26136751,
+        "timestamp_UTC": "2026-10-06T23:53:35+00:00",
+        "record_type": "native execution credit",
+        "matched_call": {
+          "from": "0x5c7bcd6e7de5423a257d81b442095a1a6ced35c5",
+          "gas": "0x13137",
+          "gasUsed": "0x0",
+          "to": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+          "input": "0x",
+          "value": "0x6ef36f21857b4148",
+          "type": "CALL"
+        },
+        "existing_Robinhood_edge": "F0450",
+        "upstream_provenance": "Known Robinhood bridge credit; affected-wallet upstream unresolved",
+        "evidence_files": [
+          "access/0x5ae46f2541d52f0f1b907c6a02ebe6cd71f3525a4ee3e6bbfe8d8341661f7ce9_tx.response.txt",
+          "access/0x5ae46f2541d52f0f1b907c6a02ebe6cd71f3525a4ee3e6bbfe8d8341661f7ce9_receipt.response.txt",
+          "access/0x5ae46f2541d52f0f1b907c6a02ebe6cd71f3525a4ee3e6bbfe8d8341661f7ce9_trace.response.txt",
+          "access/block_0x18ed0af.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0x5c7bcd6e7de5423a257d81b442095a1a6ced35c5",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0xaedc189291428449d48139f7e9866653f2d3c7ff6bb6150836ffc4b135369e2e",
+        "asset": "native ETH",
+        "amount_wei": "8334586201987309819",
+        "block_number": 26136749,
+        "timestamp_UTC": "2026-10-06T23:53:11+00:00",
+        "record_type": "native execution credit",
+        "matched_call": {
+          "from": "0x5c7bcd6e7de5423a257d81b442095a1a6ced35c5",
+          "gas": "0x13137",
+          "gasUsed": "0x0",
+          "to": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+          "input": "0x",
+          "value": "0x73aa65fdff5360fb",
+          "type": "CALL"
+        },
+        "existing_Robinhood_edge": "F0448",
+        "upstream_provenance": "Known Robinhood bridge credit; affected-wallet upstream unresolved",
+        "evidence_files": [
+          "access/0xaedc189291428449d48139f7e9866653f2d3c7ff6bb6150836ffc4b135369e2e_tx.response.txt",
+          "access/0xaedc189291428449d48139f7e9866653f2d3c7ff6bb6150836ffc4b135369e2e_receipt.response.txt",
+          "access/0xaedc189291428449d48139f7e9866653f2d3c7ff6bb6150836ffc4b135369e2e_trace.response.txt",
+          "access/block_0x18ed0ad.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0x5c7bcd6e7de5423a257d81b442095a1a6ced35c5",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0xa8b7de369a499a844c12f59905ef4c52386272b10aac66d9e3aeeaa9d02a145b",
+        "asset": "native ETH",
+        "amount_wei": "7994854522359981440",
+        "block_number": 26136746,
+        "timestamp_UTC": "2026-10-06T23:52:35+00:00",
+        "record_type": "native execution credit",
+        "matched_call": {
+          "from": "0x5c7bcd6e7de5423a257d81b442095a1a6ced35c5",
+          "gas": "0x12895",
+          "gasUsed": "0x0",
+          "to": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+          "input": "0x",
+          "value": "0x6ef36dd45c312580",
+          "type": "CALL"
+        },
+        "existing_Robinhood_edge": "F0446",
+        "upstream_provenance": "Known Robinhood bridge credit; affected-wallet upstream unresolved",
+        "evidence_files": [
+          "access/0xa8b7de369a499a844c12f59905ef4c52386272b10aac66d9e3aeeaa9d02a145b_tx.response.txt",
+          "access/0xa8b7de369a499a844c12f59905ef4c52386272b10aac66d9e3aeeaa9d02a145b_receipt.response.txt",
+          "access/0xa8b7de369a499a844c12f59905ef4c52386272b10aac66d9e3aeeaa9d02a145b_trace.response.txt",
+          "access/block_0x18ed0aa.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0x5c7bcd6e7de5423a257d81b442095a1a6ced35c5",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0x5b8ab3e41fe8eb1ababc70fee036100af41e9afa9588c8a53ba99bec25c3530b",
+        "asset": "native ETH",
+        "amount_wei": "7994853879122892392",
+        "block_number": 26136745,
+        "timestamp_UTC": "2026-10-06T23:52:23+00:00",
+        "record_type": "native execution credit",
+        "matched_call": {
+          "from": "0x5c7bcd6e7de5423a257d81b442095a1a6ced35c5",
+          "gas": "0x13137",
+          "gasUsed": "0x0",
+          "to": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+          "input": "0x",
+          "value": "0x6ef36d3e98461668",
+          "type": "CALL"
+        },
+        "existing_Robinhood_edge": "F0444",
+        "upstream_provenance": "Known Robinhood bridge credit; affected-wallet upstream unresolved",
+        "evidence_files": [
+          "access/0x5b8ab3e41fe8eb1ababc70fee036100af41e9afa9588c8a53ba99bec25c3530b_tx.response.txt",
+          "access/0x5b8ab3e41fe8eb1ababc70fee036100af41e9afa9588c8a53ba99bec25c3530b_receipt.response.txt",
+          "access/0x5b8ab3e41fe8eb1ababc70fee036100af41e9afa9588c8a53ba99bec25c3530b_trace.response.txt",
+          "access/block_0x18ed0a9.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0x5c7bcd6e7de5423a257d81b442095a1a6ced35c5",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0xd660af041faddd964b1d59cecc709beeb9e425282ab93a4d8f229455af69ff37",
+        "asset": "native ETH",
+        "amount_wei": "7994852363662127816",
+        "block_number": 26136744,
+        "timestamp_UTC": "2026-10-06T23:52:11+00:00",
+        "record_type": "native execution credit",
+        "matched_call": {
+          "from": "0x5c7bcd6e7de5423a257d81b442095a1a6ced35c5",
+          "gas": "0xc04",
+          "gasUsed": "0x0",
+          "to": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+          "input": "0x",
+          "value": "0x6ef36bddbfc5f2c8",
+          "type": "CALL"
+        },
+        "existing_Robinhood_edge": "F0442",
+        "upstream_provenance": "Known Robinhood bridge credit; affected-wallet upstream unresolved",
+        "evidence_files": [
+          "access/0xd660af041faddd964b1d59cecc709beeb9e425282ab93a4d8f229455af69ff37_tx.response.txt",
+          "access/0xd660af041faddd964b1d59cecc709beeb9e425282ab93a4d8f229455af69ff37_receipt.response.txt",
+          "access/0xd660af041faddd964b1d59cecc709beeb9e425282ab93a4d8f229455af69ff37_trace.response.txt",
+          "access/block_0x18ed0a8.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0x5c7bcd6e7de5423a257d81b442095a1a6ced35c5",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0x7934a9f4945e9a8499d7967a922ccf8bd54f5c38c642d22b506c34edf24dd663",
+        "asset": "native ETH",
+        "amount_wei": "7994854152497038032",
+        "block_number": 26136740,
+        "timestamp_UTC": "2026-10-06T23:51:23+00:00",
+        "record_type": "native execution credit",
+        "matched_call": {
+          "from": "0x5c7bcd6e7de5423a257d81b442095a1a6ced35c5",
+          "gas": "0x3ebb",
+          "gasUsed": "0x0",
+          "to": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+          "input": "0x",
+          "value": "0x6ef36d7e3ea482d0",
+          "type": "CALL"
+        },
+        "existing_Robinhood_edge": "F0438",
+        "upstream_provenance": "Known Robinhood bridge credit; affected-wallet upstream unresolved",
+        "evidence_files": [
+          "access/0x7934a9f4945e9a8499d7967a922ccf8bd54f5c38c642d22b506c34edf24dd663_tx.response.txt",
+          "access/0x7934a9f4945e9a8499d7967a922ccf8bd54f5c38c642d22b506c34edf24dd663_receipt.response.txt",
+          "access/0x7934a9f4945e9a8499d7967a922ccf8bd54f5c38c642d22b506c34edf24dd663_trace.response.txt",
+          "access/block_0x18ed0a4.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0x5c7bcd6e7de5423a257d81b442095a1a6ced35c5",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0x85ac8c0202089c79a04a9f91a7e17b37144b4c1b74af4295da23e2969d4b352a",
+        "asset": "native ETH",
+        "amount_wei": "7994852363662127816",
+        "block_number": 26136740,
+        "timestamp_UTC": "2026-10-06T23:51:23+00:00",
+        "record_type": "native execution credit",
+        "matched_call": {
+          "from": "0x5c7bcd6e7de5423a257d81b442095a1a6ced35c5",
+          "gas": "0x128ce",
+          "gasUsed": "0x0",
+          "to": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+          "input": "0x",
+          "value": "0x6ef36bddbfc5f2c8",
+          "type": "CALL"
+        },
+        "existing_Robinhood_edge": "F0440",
+        "upstream_provenance": "Known Robinhood bridge credit; affected-wallet upstream unresolved",
+        "evidence_files": [
+          "access/0x85ac8c0202089c79a04a9f91a7e17b37144b4c1b74af4295da23e2969d4b352a_tx.response.txt",
+          "access/0x85ac8c0202089c79a04a9f91a7e17b37144b4c1b74af4295da23e2969d4b352a_receipt.response.txt",
+          "access/0x85ac8c0202089c79a04a9f91a7e17b37144b4c1b74af4295da23e2969d4b352a_trace.response.txt",
+          "access/block_0x18ed0a4.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0x5c7bcd6e7de5423a257d81b442095a1a6ced35c5",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0xcff34a0c22261839ef69e4039ad6726e01fc95663bdc192d21bf35699d7883a3",
+        "asset": "native ETH",
+        "amount_wei": "7994853008400480312",
+        "block_number": 26136739,
+        "timestamp_UTC": "2026-10-06T23:51:11+00:00",
+        "record_type": "native execution credit",
+        "matched_call": {
+          "from": "0x5c7bcd6e7de5423a257d81b442095a1a6ced35c5",
+          "gas": "0x128ce",
+          "gasUsed": "0x0",
+          "to": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+          "input": "0x",
+          "value": "0x6ef36c73dd2c7838",
+          "type": "CALL"
+        },
+        "existing_Robinhood_edge": "F0436",
+        "upstream_provenance": "Known Robinhood bridge credit; affected-wallet upstream unresolved",
+        "evidence_files": [
+          "access/0xcff34a0c22261839ef69e4039ad6726e01fc95663bdc192d21bf35699d7883a3_tx.response.txt",
+          "access/0xcff34a0c22261839ef69e4039ad6726e01fc95663bdc192d21bf35699d7883a3_receipt.response.txt",
+          "access/0xcff34a0c22261839ef69e4039ad6726e01fc95663bdc192d21bf35699d7883a3_trace.response.txt",
+          "access/block_0x18ed0a3.response.txt"
+        ]
+      },
+      {
+        "source_wallet": "0x5c7bcd6e7de5423a257d81b442095a1a6ced35c5",
+        "destination_wallet": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+        "transaction_hash": "0x5d6b414f8b7ecdcee5ffdb378ceb3de228cec732037437d759900ed7b34d1b1a",
+        "asset": "native ETH",
+        "amount_wei": "43614308988719623177",
+        "block_number": 26136684,
+        "timestamp_UTC": "2026-10-06T23:40:11+00:00",
+        "record_type": "native execution credit",
+        "matched_call": {
+          "from": "0x5c7bcd6e7de5423a257d81b442095a1a6ced35c5",
+          "gas": "0x42db",
+          "gasUsed": "0x0",
+          "to": "0x427c4b37de0714821b09c4fc655a713abbcfba83",
+          "input": "0x",
+          "value": "0x25d4526f25cc26c09",
+          "type": "CALL"
+        },
+        "existing_Robinhood_edge": null,
+        "upstream_provenance": "Separate protocol/dust credit; no origin-chain claim made here",
+        "evidence_files": [
+          "access/0x5d6b414f8b7ecdcee5ffdb378ceb3de228cec732037437d759900ed7b34d1b1a_tx.response.txt",
+          "access/0x5d6b414f8b7ecdcee5ffdb378ceb3de228cec732037437d759900ed7b34d1b1a_receipt.response.txt",
+          "access/0x5d6b414f8b7ecdcee5ffdb378ceb3de228cec732037437d759900ed7b34d1b1a_trace.response.txt",
+          "access/block_0x18ed06c.response.txt"
+        ]
+      }
+    ],
+    "indexed_history_pagination": "Two ordinary pages and one internal page exhausted; RPC receipts/traces/blocks and end balance independently reconcile scope. No assertion about later or every lifetime event.",
+    "evidence_files": [
+      "access/routing_transactions.response.txt",
+      "access/routing_transactions_page_1.response.txt",
+      "access/routing_internal-transactions.response.txt",
+      "access/routing_pre_initial_balance.response.txt",
+      "access/0x204c2bf7375b0d44cc648f630a09a9c32e93fe8cedc416f6587012c2afa7cc99_post_balance.response.txt"
+    ],
+    "attribution_significance": "Balance accounting closes scoped native inventory. Tiny distinct-address credits are case-unassigned, not owner evidence. Complete Robinhood native origin and individual fill attribution remain unresolved."
+  },
+  "chronological_events": [
+    {
+      "block_number": 26135682,
+      "transaction_index": 60,
+      "kind": "in",
+      "tx": "0xb644bf8e644a1195ad838180fd015f88938a8664128b9e0ad1e7b4a5eebe2198",
+      "amount": 36847749668146124,
+      "rh15": false,
+      "seven": false,
+      "balance_before_wei": "0",
+      "balance_after_wei": "36847749668146124"
+    },
+    {
+      "block_number": 26136684,
+      "transaction_index": 58,
+      "kind": "in",
+      "tx": "0x5d6b414f8b7ecdcee5ffdb378ceb3de228cec732037437d759900ed7b34d1b1a",
+      "amount": 43614308988719623177,
+      "rh15": false,
+      "seven": false,
+      "balance_before_wei": "36847749668146124",
+      "balance_after_wei": "43651156738387769301"
+    },
+    {
+      "block_number": 26136690,
+      "transaction_index": 158,
+      "kind": "out",
+      "tx": "0x34fa1689d4c5f1536fa1d31a2551999de672a0433d06f2a04297c3ac4c105ca0",
+      "amount": 18501000000000000000,
+      "fee": 50862323400000,
+      "balance_before_wei": "43651156738387769301",
+      "balance_after_wei": "25150105876064369301"
+    },
+    {
+      "block_number": 26136691,
+      "transaction_index": 86,
+      "kind": "out",
+      "tx": "0x60f111e77801bdfa77b897903cb5b586562adcb34de9ba3cac72bd96bd25240c",
+      "amount": 18501000000000000000,
+      "fee": 51310537278000,
+      "balance_before_wei": "25150105876064369301",
+      "balance_after_wei": "6649054565527091301"
+    },
+    {
+      "block_number": 26136693,
+      "transaction_index": 143,
+      "kind": "in",
+      "tx": "0xce5536bd38d78c38829b081154c21b034934fd2b5aeeda123eb7df38df2be31c",
+      "amount": 180000000000,
+      "rh15": false,
+      "seven": false,
+      "balance_before_wei": "6649054565527091301",
+      "balance_after_wei": "6649054745527091301"
+    },
+    {
+      "block_number": 26136701,
+      "transaction_index": 173,
+      "kind": "in",
+      "tx": "0x2a0a0614907a1546cb20ac8ccea4cd836da698b3d46da03c0b8c35b5b8f01939",
+      "amount": 1000000000,
+      "rh15": false,
+      "seven": false,
+      "balance_before_wei": "6649054745527091301",
+      "balance_after_wei": "6649054746527091301"
+    },
+    {
+      "block_number": 26136701,
+      "transaction_index": 176,
+      "kind": "in",
+      "tx": "0x8806b4e98b5e814616dfd3c2b208b94c0168b5c895d4e71f9d0bdfa9a4b583e5",
+      "amount": 1000000000,
+      "rh15": false,
+      "seven": false,
+      "balance_before_wei": "6649054746527091301",
+      "balance_after_wei": "6649054747527091301"
+    },
+    {
+      "block_number": 26136703,
+      "transaction_index": 129,
+      "kind": "in",
+      "tx": "0x94fdf85a2f1771175bf8dd571dc8c3c2d8a1939542b50ac585a0f68154999c16",
+      "amount": 180000000000,
+      "rh15": false,
+      "seven": false,
+      "balance_before_wei": "6649054747527091301",
+      "balance_after_wei": "6649054927527091301"
+    },
+    {
+      "block_number": 26136714,
+      "transaction_index": 140,
+      "kind": "in",
+      "tx": "0x7c6fbd13617d6d51b5c70ceb503e25405d67158ae17133ae1c58f8fad7eaf303",
+      "amount": 1000000000,
+      "rh15": false,
+      "seven": false,
+      "balance_before_wei": "6649054927527091301",
+      "balance_after_wei": "6649054928527091301"
+    },
+    {
+      "block_number": 26136717,
+      "transaction_index": 150,
+      "kind": "in",
+      "tx": "0x5ba36c0da17bf7db022d9cd7a15db8c919afc32567881cb3a74fcce1810a3dfe",
+      "amount": 180000000000,
+      "rh15": false,
+      "seven": false,
+      "balance_before_wei": "6649054928527091301",
+      "balance_after_wei": "6649055108527091301"
+    },
+    {
+      "block_number": 26136736,
+      "transaction_index": 205,
+      "kind": "in",
+      "tx": "0xcc24f29bbd20814dae9f15257f319996bdbef5ca076679412950088911d74e17",
+      "amount": 1000000000,
+      "rh15": false,
+      "seven": false,
+      "balance_before_wei": "6649055108527091301",
+      "balance_after_wei": "6649055109527091301"
+    },
+    {
+      "block_number": 26136739,
+      "transaction_index": 131,
+      "kind": "in",
+      "tx": "0x7277f51c5e0a6e8d9f0f562d0b407ef4dffd355e55a76292085ad712f125fb5f",
+      "amount": 180000000000,
+      "rh15": false,
+      "seven": false,
+      "balance_before_wei": "6649055109527091301",
+      "balance_after_wei": "6649055289527091301"
+    },
+    {
+      "block_number": 26136739,
+      "transaction_index": 133,
+      "kind": "in",
+      "tx": "0xcff34a0c22261839ef69e4039ad6726e01fc95663bdc192d21bf35699d7883a3",
+      "amount": 7994853008400480312,
+      "rh15": true,
+      "seven": false,
+      "balance_before_wei": "6649055289527091301",
+      "balance_after_wei": "14643908297927571613"
+    },
+    {
+      "block_number": 26136740,
+      "transaction_index": 233,
+      "kind": "in",
+      "tx": "0x85ac8c0202089c79a04a9f91a7e17b37144b4c1b74af4295da23e2969d4b352a",
+      "amount": 7994852363662127816,
+      "rh15": true,
+      "seven": false,
+      "balance_before_wei": "14643908297927571613",
+      "balance_after_wei": "22638760661589699429"
+    },
+    {
+      "block_number": 26136740,
+      "transaction_index": 244,
+      "kind": "in",
+      "tx": "0x7934a9f4945e9a8499d7967a922ccf8bd54f5c38c642d22b506c34edf24dd663",
+      "amount": 7994854152497038032,
+      "rh15": true,
+      "seven": false,
+      "balance_before_wei": "22638760661589699429",
+      "balance_after_wei": "30633614814086737461"
+    },
+    {
+      "block_number": 26136744,
+      "transaction_index": 18,
+      "kind": "in",
+      "tx": "0xd660af041faddd964b1d59cecc709beeb9e425282ab93a4d8f229455af69ff37",
+      "amount": 7994852363662127816,
+      "rh15": true,
+      "seven": false,
+      "balance_before_wei": "30633614814086737461",
+      "balance_after_wei": "38628467177748865277"
+    },
+    {
+      "block_number": 26136745,
+      "transaction_index": 5,
+      "kind": "in",
+      "tx": "0x5b8ab3e41fe8eb1ababc70fee036100af41e9afa9588c8a53ba99bec25c3530b",
+      "amount": 7994853879122892392,
+      "rh15": true,
+      "seven": false,
+      "balance_before_wei": "38628467177748865277",
+      "balance_after_wei": "46623321056871757669"
+    },
+    {
+      "block_number": 26136746,
+      "transaction_index": 50,
+      "kind": "in",
+      "tx": "0xa8b7de369a499a844c12f59905ef4c52386272b10aac66d9e3aeeaa9d02a145b",
+      "amount": 7994854522359981440,
+      "rh15": true,
+      "seven": false,
+      "balance_before_wei": "46623321056871757669",
+      "balance_after_wei": "54618175579231739109"
+    },
+    {
+      "block_number": 26136746,
+      "transaction_index": 216,
+      "kind": "in",
+      "tx": "0x3331dbb971f7421bef299e0bbed9f67655bccd583560954a145a038b56b697d5",
+      "amount": 180000000000,
+      "rh15": false,
+      "seven": false,
+      "balance_before_wei": "54618175579231739109",
+      "balance_after_wei": "54618175759231739109"
+    },
+    {
+      "block_number": 26136749,
+      "transaction_index": 1,
+      "kind": "in",
+      "tx": "0xaedc189291428449d48139f7e9866653f2d3c7ff6bb6150836ffc4b135369e2e",
+      "amount": 8334586201987309819,
+      "rh15": true,
+      "seven": false,
+      "balance_before_wei": "54618175759231739109",
+      "balance_after_wei": "62952761961219048928"
+    },
+    {
+      "block_number": 26136751,
+      "transaction_index": 9,
+      "kind": "in",
+      "tx": "0x5ae46f2541d52f0f1b907c6a02ebe6cd71f3525a4ee3e6bbfe8d8341661f7ce9",
+      "amount": 7994855953276813640,
+      "rh15": true,
+      "seven": false,
+      "balance_before_wei": "62952761961219048928",
+      "balance_after_wei": "70947617914495862568"
+    },
+    {
+      "block_number": 26136751,
+      "transaction_index": 330,
+      "kind": "in",
+      "tx": "0xd60ec65df11c71fdc1aa393c7f2cbbd6e66fc0060cea3ec4e52f611b71a7bd15",
+      "amount": 180000000000,
+      "rh15": false,
+      "seven": false,
+      "balance_before_wei": "70947617914495862568",
+      "balance_after_wei": "70947618094495862568"
+    },
+    {
+      "block_number": 26136753,
+      "transaction_index": 130,
+      "kind": "in",
+      "tx": "0xe048906407fc334888c592e3562af6acdecefcf3cd4f2403a791cd784779ed8d",
+      "amount": 1000000000,
+      "rh15": false,
+      "seven": false,
+      "balance_before_wei": "70947618094495862568",
+      "balance_after_wei": "70947618095495862568"
+    },
+    {
+      "block_number": 26136755,
+      "transaction_index": 59,
+      "kind": "in",
+      "tx": "0x226f7c85485b1e3d6420b2d7203e1b60ab9be6d546227704d86e17881a9c857d",
+      "amount": 180000000000,
+      "rh15": false,
+      "seven": false,
+      "balance_before_wei": "70947618095495862568",
+      "balance_after_wei": "70947618275495862568"
+    },
+    {
+      "block_number": 26136759,
+      "transaction_index": 189,
+      "kind": "in",
+      "tx": "0x7873e900cc196ea94a7c671f7f299fe6842412e6048fac07411655e1161ec9cf",
+      "amount": 18874470654663653144,
+      "rh15": true,
+      "seven": true,
+      "balance_before_wei": "70947618275495862568",
+      "balance_after_wei": "89822088930159515712"
+    },
+    {
+      "block_number": 26136761,
+      "transaction_index": 166,
+      "kind": "in",
+      "tx": "0x8bf43ab26eab557ed0ddf8041a45c0748043295f6e2c1181476378da9825d840",
+      "amount": 180000000000,
+      "rh15": false,
+      "seven": false,
+      "balance_before_wei": "89822088930159515712",
+      "balance_after_wei": "89822089110159515712"
+    },
+    {
+      "block_number": 26136761,
+      "transaction_index": 206,
+      "kind": "in",
+      "tx": "0x794649aaa990c10f12c40b94d4d198280abb2645e134bf5a4fcede4cb098a405",
+      "amount": 32497970839479074400,
+      "rh15": true,
+      "seven": true,
+      "balance_before_wei": "89822089110159515712",
+      "balance_after_wei": "122320059949638590112"
+    },
+    {
+      "block_number": 26136767,
+      "transaction_index": 163,
+      "kind": "in",
+      "tx": "0x6b173fa88e3abb86892033973751ec0d950c3b2de15470d0a4926b5d1a6ab272",
+      "amount": 1000000000,
+      "rh15": false,
+      "seven": false,
+      "balance_before_wei": "122320059949638590112",
+      "balance_after_wei": "122320059950638590112"
+    },
+    {
+      "block_number": 26136770,
+      "transaction_index": 129,
+      "kind": "in",
+      "tx": "0x266ad92254c1998dda47728107123e80f0195f49d06820cec3895077663dc61b",
+      "amount": 180000000000,
+      "rh15": false,
+      "seven": false,
+      "balance_before_wei": "122320059950638590112",
+      "balance_after_wei": "122320060130638590112"
+    },
+    {
+      "block_number": 26136770,
+      "transaction_index": 137,
+      "kind": "in",
+      "tx": "0x3b55306138fd68b7a3863aa8ac29cdf786f4807deb4e36ed237671b59220d988",
+      "amount": 24373434305384634707,
+      "rh15": true,
+      "seven": true,
+      "balance_before_wei": "122320060130638590112",
+      "balance_after_wei": "146693494436023224819"
+    },
+    {
+      "block_number": 26136772,
+      "transaction_index": 200,
+      "kind": "in",
+      "tx": "0x2b422b1831483eb9158ef56d9faed48e150d907e5773e4b97f6d8147cc5204c3",
+      "amount": 18280017451009445335,
+      "rh15": true,
+      "seven": true,
+      "balance_before_wei": "146693494436023224819",
+      "balance_after_wei": "164973511887032670154"
+    },
+    {
+      "block_number": 26136774,
+      "transaction_index": 93,
+      "kind": "in",
+      "tx": "0x7768d5b0506bf88fbc4c5d94f51eb8fff49dc67d55fd1d632811f8ce78087b8c",
+      "amount": 13709954811149920040,
+      "rh15": true,
+      "seven": true,
+      "balance_before_wei": "164973511887032670154",
+      "balance_after_wei": "178683466698182590194"
+    },
+    {
+      "block_number": 26136774,
+      "transaction_index": 95,
+      "kind": "in",
+      "tx": "0x442762473ddcc4646f2e4ed7d85d6a9e863d5bdc6ea36bdec08005f24f41bfe7",
+      "amount": 180000000000,
+      "rh15": false,
+      "seven": false,
+      "balance_before_wei": "178683466698182590194",
+      "balance_after_wei": "178683466878182590194"
+    },
+    {
+      "block_number": 26136775,
+      "transaction_index": 207,
+      "kind": "in",
+      "tx": "0x3d417a0ebec865a9889dd5469fd14532a48a0b36c3a145e54230364532944252",
+      "amount": 20565046696727485944,
+      "rh15": true,
+      "seven": true,
+      "balance_before_wei": "178683466878182590194",
+      "balance_after_wei": "199248513574910076138"
+    },
+    {
+      "block_number": 26136776,
+      "transaction_index": 195,
+      "kind": "in",
+      "tx": "0x82baf0241ef2cbaa4d05cf1a5279705a330ec2cb27054f782f3b602697475d8f",
+      "amount": 20565005635314339628,
+      "rh15": true,
+      "seven": true,
+      "balance_before_wei": "199248513574910076138",
+      "balance_after_wei": "219813519210224415766"
+    },
+    {
+      "block_number": 26136777,
+      "transaction_index": 96,
+      "kind": "in",
+      "tx": "0x097631d1f21eea1fd1cb962ba72408fd8649544be131da65dfc00a9bac50de75",
+      "amount": 180000000000,
+      "rh15": false,
+      "seven": false,
+      "balance_before_wei": "219813519210224415766",
+      "balance_after_wei": "219813519390224415766"
+    },
+    {
+      "block_number": 26136779,
+      "transaction_index": 104,
+      "kind": "in",
+      "tx": "0xbbe310b6f4159b7391d6f9e782eb3946c65fa74805109f970086a637dbf510e4",
+      "amount": 717864725363826,
+      "rh15": false,
+      "seven": false,
+      "balance_before_wei": "219813519390224415766",
+      "balance_after_wei": "219814237254949779592"
+    },
+    {
+      "block_number": 26136781,
+      "transaction_index": 42,
+      "kind": "in",
+      "tx": "0x44b59e27c0ab3e646df8812d5328c37307d7c2cfb15f04c2568fb28dbb04beff",
+      "amount": 180000000000,
+      "rh15": false,
+      "seven": false,
+      "balance_before_wei": "219814237254949779592",
+      "balance_after_wei": "219814237434949779592"
+    },
+    {
+      "block_number": 26136788,
+      "transaction_index": 196,
+      "kind": "in",
+      "tx": "0xcc29f3ba901bca29644aa3127b68aa0309e570eaae6010e707a1288522c6c120",
+      "amount": 1000000000,
+      "rh15": false,
+      "seven": false,
+      "balance_before_wei": "219814237434949779592",
+      "balance_after_wei": "219814237435949779592"
+    },
+    {
+      "block_number": 26136790,
+      "transaction_index": 148,
+      "kind": "in",
+      "tx": "0xd528e9329bcf1569da5be572312288c4773893e7af3a8e5c540bf0131344e380",
+      "amount": 180000000000,
+      "rh15": false,
+      "seven": false,
+      "balance_before_wei": "219814237435949779592",
+      "balance_after_wei": "219814237615949779592"
+    },
+    {
+      "block_number": 26136796,
+      "transaction_index": 128,
+      "kind": "out",
+      "tx": "0x37bdacbff2fb780c54fd65a79234ef73ada43510d4f7e94f95da95124f97506c",
+      "amount": 18501000000000000000,
+      "fee": 46742123274000,
+      "balance_before_wei": "219814237615949779592",
+      "balance_after_wei": "201313190873826505592"
+    },
+    {
+      "block_number": 26136798,
+      "transaction_index": 37,
+      "kind": "out",
+      "tx": "0x5c9449cc0171f3c99132a640d9e9a5316343a8cc6d3a03d9575e11c1d7be42bb",
+      "amount": 18501000000000000000,
+      "fee": 46558683276000,
+      "balance_before_wei": "201313190873826505592",
+      "balance_after_wei": "182812144315143229592"
+    },
+    {
+      "block_number": 26136801,
+      "transaction_index": 112,
+      "kind": "in",
+      "tx": "0xc8161216d822ab95eeb186a009d2c18253b3bf9d5b08e433101146af5e568b4a",
+      "amount": 1000000000,
+      "rh15": false,
+      "seven": false,
+      "balance_before_wei": "182812144315143229592",
+      "balance_after_wei": "182812144316143229592"
+    },
+    {
+      "block_number": 26136816,
+      "transaction_index": 223,
+      "kind": "in",
+      "tx": "0xcada356718afb66ddf6bbe65badd106a036ebe135d64ba929efbaeecd3b9302d",
+      "amount": 1000000000,
+      "rh15": false,
+      "seven": false,
+      "balance_before_wei": "182812144316143229592",
+      "balance_after_wei": "182812144317143229592"
+    },
+    {
+      "block_number": 26136816,
+      "transaction_index": 224,
+      "kind": "in",
+      "tx": "0x211ebd0fd57ad7aa1587aada4819e73386b7f5b9d32b02ec5b0976b79236aeb8",
+      "amount": 1000000000,
+      "rh15": false,
+      "seven": false,
+      "balance_before_wei": "182812144317143229592",
+      "balance_after_wei": "182812144318143229592"
+    },
+    {
+      "block_number": 26136873,
+      "transaction_index": 244,
+      "kind": "in",
+      "tx": "0xe92d9f816ec06f36e69c38d17f818a9ca466127049595147a77009a9d4f4e6a3",
+      "amount": 11938400392589668652,
+      "rh15": false,
+      "seven": false,
+      "balance_before_wei": "182812144318143229592",
+      "balance_after_wei": "194750544710732898244"
+    },
+    {
+      "block_number": 26136876,
+      "transaction_index": 131,
+      "kind": "in",
+      "tx": "0x6a0ea3e332600ed01ce57d9d25e2f7ac117b411b084011906038cc8b48f39ae2",
+      "amount": 23385325363002855348,
+      "rh15": false,
+      "seven": false,
+      "balance_before_wei": "194750544710732898244",
+      "balance_after_wei": "218135870073735753592"
+    },
+    {
+      "block_number": 26136881,
+      "transaction_index": 185,
+      "kind": "in",
+      "tx": "0xb3681554b8220d486dd3990666dd35115f3df6b7b409705bacfe334fa4bc05e8",
+      "amount": 17535434110789254738,
+      "rh15": false,
+      "seven": false,
+      "balance_before_wei": "218135870073735753592",
+      "balance_after_wei": "235671304184525008330"
+    },
+    {
+      "block_number": 26136885,
+      "transaction_index": 228,
+      "kind": "in",
+      "tx": "0xeeea9c1a1aef96812de9e651032492397148eef17949df9b27c0f62fad2ebc2c",
+      "amount": 13149234641484499913,
+      "rh15": false,
+      "seven": false,
+      "balance_before_wei": "235671304184525008330",
+      "balance_after_wei": "248820538826009508243"
+    },
+    {
+      "block_number": 26136888,
+      "transaction_index": 199,
+      "kind": "in",
+      "tx": "0x74fde4a6ce17dc1628fd6f3dd7099e86037aba987d74e9b189df2d25b6e2b06f",
+      "amount": 9860983615165879612,
+      "rh15": false,
+      "seven": false,
+      "balance_before_wei": "248820538826009508243",
+      "balance_after_wei": "258681522441175387855"
+    },
+    {
+      "block_number": 26136891,
+      "transaction_index": 191,
+      "kind": "in",
+      "tx": "0xebe14ec7d07afca402f002199e0334725f7db87ade15e97790a97b155d75acbe",
+      "amount": 14789341164862850675,
+      "rh15": false,
+      "seven": false,
+      "balance_before_wei": "258681522441175387855",
+      "balance_after_wei": "273470863606038238530"
+    },
+    {
+      "block_number": 26136893,
+      "transaction_index": 211,
+      "kind": "in",
+      "tx": "0x7b903057d5a54d60c46e101a47f473a41a17641b61f291f63b83e887a56e6acb",
+      "amount": 1000000000,
+      "rh15": false,
+      "seven": false,
+      "balance_before_wei": "273470863606038238530",
+      "balance_after_wei": "273470863607038238530"
+    },
+    {
+      "block_number": 26136893,
+      "transaction_index": 212,
+      "kind": "in",
+      "tx": "0x9f30f257c86579d840b409c57977a745bb7bc8b1e107abf475554359851a1507",
+      "amount": 1000000000,
+      "rh15": false,
+      "seven": false,
+      "balance_before_wei": "273470863607038238530",
+      "balance_after_wei": "273470863608038238530"
+    },
+    {
+      "block_number": 26136894,
+      "transaction_index": 3,
+      "kind": "in",
+      "tx": "0x0b6a877380470ecac266e5246f6c975a530ffb1c153845771b60068761363b80",
+      "amount": 14788872230878871277,
+      "rh15": false,
+      "seven": false,
+      "balance_before_wei": "273470863608038238530",
+      "balance_after_wei": "288259735838917109807"
+    },
+    {
+      "block_number": 26136907,
+      "transaction_index": 132,
+      "kind": "in",
+      "tx": "0x3e72b8ba652b4a836e0333c2cab66882ecfcfff3b3d9eeef35fc560174e0c8d7",
+      "amount": 1000000000,
+      "rh15": false,
+      "seven": false,
+      "balance_before_wei": "288259735838917109807",
+      "balance_after_wei": "288259735839917109807"
+    },
+    {
+      "block_number": 26136907,
+      "transaction_index": 133,
+      "kind": "in",
+      "tx": "0x27730980a68af6604260739701ad16b3224b4dc33e1e7c836712c70642ba09f4",
+      "amount": 1000000000,
+      "rh15": false,
+      "seven": false,
+      "balance_before_wei": "288259735839917109807",
+      "balance_after_wei": "288259735840917109807"
+    },
+    {
+      "block_number": 26137013,
+      "transaction_index": 220,
+      "kind": "in",
+      "tx": "0x60cc1e7320306d265ba385bdd750fe4f74f66f327d3004d01425bb3e070a9c99",
+      "amount": 1000000000,
+      "rh15": false,
+      "seven": false,
+      "balance_before_wei": "288259735840917109807",
+      "balance_after_wei": "288259735841917109807"
+    },
+    {
+      "block_number": 26137013,
+      "transaction_index": 221,
+      "kind": "in",
+      "tx": "0xdb4f30f7027d7a7ef5b952295d6318bb757152721aa8fe9e1173ef0cffdfebf6",
+      "amount": 1000000000,
+      "rh15": false,
+      "seven": false,
+      "balance_before_wei": "288259735841917109807",
+      "balance_after_wei": "288259735842917109807"
+    },
+    {
+      "block_number": 26137026,
+      "transaction_index": 246,
+      "kind": "in",
+      "tx": "0xe7a73442c21e50df4e3562b8ab83b16dee2d523bce2e844f9d8294638dc9b51b",
+      "amount": 1000000000,
+      "rh15": false,
+      "seven": false,
+      "balance_before_wei": "288259735842917109807",
+      "balance_after_wei": "288259735843917109807"
+    },
+    {
+      "block_number": 26137026,
+      "transaction_index": 255,
+      "kind": "in",
+      "tx": "0x253c1b760a9871f3d869987b57adbe55aaec860240a1ad991882b0f26b249158",
+      "amount": 1000000000,
+      "rh15": false,
+      "seven": false,
+      "balance_before_wei": "288259735843917109807",
+      "balance_after_wei": "288259735844917109807"
+    },
+    {
+      "block_number": 26137044,
+      "transaction_index": 19,
+      "kind": "out",
+      "tx": "0x256e23f3f796ae3e894d53dc55e00c10f4587342bad1a548611e26bf888b8598",
+      "amount": 4000500000000000000,
+      "fee": 44675169819000,
+      "balance_before_wei": "288259735844917109807",
+      "balance_after_wei": "284259191169747290807"
+    },
+    {
+      "block_number": 26137045,
+      "transaction_index": 57,
+      "kind": "out",
+      "tx": "0x6eea8dafb3153339f5e3b558afec6c6a7c91ba0d3e3f4f11b106049f117f52d4",
+      "amount": 4000500000000000000,
+      "fee": 44684197488000,
+      "balance_before_wei": "284259191169747290807",
+      "balance_after_wei": "280258646485549802807"
+    },
+    {
+      "block_number": 26137140,
+      "transaction_index": 156,
+      "kind": "in",
+      "tx": "0xe813bb1285078b0fc4adc9c330c3ecebc80ab2117800bc08421c16d505606497",
+      "amount": 1000000000,
+      "rh15": false,
+      "seven": false,
+      "balance_before_wei": "280258646485549802807",
+      "balance_after_wei": "280258646486549802807"
+    },
+    {
+      "block_number": 26137189,
+      "transaction_index": 78,
+      "kind": "in",
+      "tx": "0xf4cb4a200897fdf99c5ff676af017c2e7ea3d1bffd92fe114aca9fa0cc3e2f60",
+      "amount": 1000000000,
+      "rh15": false,
+      "seven": false,
+      "balance_before_wei": "280258646486549802807",
+      "balance_after_wei": "280258646487549802807"
+    },
+    {
+      "block_number": 26137291,
+      "transaction_index": 48,
+      "kind": "out",
+      "tx": "0xeb61708b358adfb0bae70d3972d65e0e754a027e1bbb1cdf46d33d47c4481dbd",
+      "amount": 45000000000000000000,
+      "fee": 59029525527000,
+      "balance_before_wei": "280258646487549802807",
+      "balance_after_wei": "235258587458024275807"
+    },
+    {
+      "block_number": 26137301,
+      "transaction_index": 206,
+      "kind": "in",
+      "tx": "0x92a72a65796a2027d70ebbea019387bf3602bbad5533bcb929911d0438fda0b7",
+      "amount": 100000000,
+      "rh15": false,
+      "seven": false,
+      "balance_before_wei": "235258587458024275807",
+      "balance_after_wei": "235258587458124275807"
+    },
+    {
+      "block_number": 26137314,
+      "transaction_index": 182,
+      "kind": "out",
+      "tx": "0xb702d3f24586a8f8c74530573e17609b43fa18c088e11c2591cd5c6eb5a49ea6",
+      "amount": 15000000000000000000,
+      "fee": 58262785917000,
+      "balance_before_wei": "235258587458124275807",
+      "balance_after_wei": "220258529195338358807"
+    },
+    {
+      "block_number": 26137316,
+      "transaction_index": 338,
+      "kind": "in",
+      "tx": "0xc91408c8e986adfadd773337d056dc59ffc3983a789abc88deb4c2568f470e09",
+      "amount": 100000000,
+      "rh15": false,
+      "seven": false,
+      "balance_before_wei": "220258529195338358807",
+      "balance_after_wei": "220258529195438358807"
+    },
+    {
+      "block_number": 26137324,
+      "transaction_index": 236,
+      "kind": "in",
+      "tx": "0xda86eeb6b0ad2ba8482bd919b37267e3d972316f3fab79e0a76d51cf76e64908",
+      "amount": 1000000000,
+      "rh15": false,
+      "seven": false,
+      "balance_before_wei": "220258529195438358807",
+      "balance_after_wei": "220258529196438358807"
+    },
+    {
+      "block_number": 26137327,
+      "transaction_index": 76,
+      "kind": "out",
+      "tx": "0x3902c808cd20136c203bb596b194df239d86ad7d7f92abd27144554ecf96b310",
+      "amount": 35001000000000000000,
+      "fee": 60211222638000,
+      "balance_before_wei": "220258529196438358807",
+      "balance_after_wei": "185257468985215720807"
+    },
+    {
+      "block_number": 26137327,
+      "transaction_index": 231,
+      "kind": "in",
+      "tx": "0xcfd5a68c2b37ca438490eef9c7c9738e39b5ed934e7da2f702d62273ee786839",
+      "amount": 100000000,
+      "rh15": false,
+      "seven": false,
+      "balance_before_wei": "185257468985215720807",
+      "balance_after_wei": "185257468985315720807"
+    },
+    {
+      "block_number": 26137337,
+      "transaction_index": 120,
+      "kind": "out",
+      "tx": "0x1c11dd43f8f19a4b6edde47ae3f4648617337d9df000a645b8d827b051e621b3",
+      "amount": 35001000000000000000,
+      "fee": 60171250986000,
+      "balance_before_wei": "185257468985315720807",
+      "balance_after_wei": "150256408814064734807"
+    },
+    {
+      "block_number": 26137375,
+      "transaction_index": 266,
+      "kind": "out",
+      "tx": "0x3789975ee044ca6f6a17a2522491152528c644ebc74760ba808c03284acd5d3d",
+      "amount": 35001000000000000000,
+      "fee": 62185488393000,
+      "balance_before_wei": "150256408814064734807",
+      "balance_after_wei": "115255346628576341807"
+    },
+    {
+      "block_number": 26137376,
+      "transaction_index": 204,
+      "kind": "out",
+      "tx": "0x40b2dbfa574a55c164af13c1d15f37479d43bd40f17745500b7d6a24fb5aba2d",
+      "amount": 35001000000000000000,
+      "fee": 64708404537000,
+      "balance_before_wei": "115255346628576341807",
+      "balance_after_wei": "80254281920171804807"
+    },
+    {
+      "block_number": 26137377,
+      "transaction_index": 79,
+      "kind": "out",
+      "tx": "0x54ef8bb24152d4dbeb87ee2dcd754386d6d73e814058caa1295f95a612011b26",
+      "amount": 35001000000000000000,
+      "fee": 67012899408000,
+      "balance_before_wei": "80254281920171804807",
+      "balance_after_wei": "45253214907272396807"
+    },
+    {
+      "block_number": 26137383,
+      "transaction_index": 113,
+      "kind": "out",
+      "tx": "0x94a897e1ccac338de2846a207179eaf0dd11aee71adb8e0cc934ea5ad5f3c388",
+      "amount": 35001000000000000000,
+      "fee": 64268550927000,
+      "balance_before_wei": "45253214907272396807",
+      "balance_after_wei": "10252150638721469807"
+    },
+    {
+      "block_number": 26137469,
+      "transaction_index": 145,
+      "kind": "out",
+      "tx": "0x204c2bf7375b0d44cc648f630a09a9c32e93fe8cedc416f6587012c2afa7cc99",
+      "amount": 10251907164350756807,
+      "fee": 129783888360000,
+      "balance_before_wei": "10252150638721469807",
+      "balance_after_wei": "113690482353000"
+    }
+  ],
+  "outflow_group_bounds": {
+    "0x34fa1689d4c5f1536fa1d31a2551999de672a0433d06f2a04297c3ac4c105ca0": {
+      "seven": {
+        "minimum_group_principal_wei": "0",
+        "maximum_group_principal_wei": "0",
+        "minimum_group_balance_before_wei": "0",
+        "maximum_group_balance_before_wei": "0"
+      },
+      "rh15": {
+        "minimum_group_principal_wei": "0",
+        "maximum_group_principal_wei": "0",
+        "minimum_group_balance_before_wei": "0",
+        "maximum_group_balance_before_wei": "0"
+      }
+    },
+    "0x60f111e77801bdfa77b897903cb5b586562adcb34de9ba3cac72bd96bd25240c": {
+      "seven": {
+        "minimum_group_principal_wei": "0",
+        "maximum_group_principal_wei": "0",
+        "minimum_group_balance_before_wei": "0",
+        "maximum_group_balance_before_wei": "0"
+      },
+      "rh15": {
+        "minimum_group_principal_wei": "0",
+        "maximum_group_principal_wei": "0",
+        "minimum_group_balance_before_wei": "0",
+        "maximum_group_balance_before_wei": "0"
+      }
+    },
+    "0x37bdacbff2fb780c54fd65a79234ef73ada43510d4f7e94f95da95124f97506c": {
+      "seven": {
+        "minimum_group_principal_wei": "0",
+        "maximum_group_principal_wei": "18501000000000000000",
+        "minimum_group_balance_before_wei": "148865900393728553198",
+        "maximum_group_balance_before_wei": "148865900393728553198"
+      },
+      "rh15": {
+        "minimum_group_principal_wei": "11851225222747544873",
+        "maximum_group_principal_wei": "18501000000000000000",
+        "minimum_group_balance_before_wei": "213164462838697324465",
+        "maximum_group_balance_before_wei": "213164462838697324465"
+      }
+    },
+    "0x5c9449cc0171f3c99132a640d9e9a5316343a8cc6d3a03d9575e11c1d7be42bb": {
+      "seven": {
+        "minimum_group_principal_wei": "0",
+        "maximum_group_principal_wei": "18501000000000000000",
+        "minimum_group_balance_before_wei": "130364853651605279198",
+        "maximum_group_balance_before_wei": "148865900393728553198"
+      },
+      "rh15": {
+        "minimum_group_principal_wei": "11851225222747544873",
+        "maximum_group_principal_wei": "18501000000000000000",
+        "minimum_group_balance_before_wei": "194663416096574050465",
+        "maximum_group_balance_before_wei": "201313190873826505592"
+      }
+    },
+    "0x256e23f3f796ae3e894d53dc55e00c10f4587342bad1a548611e26bf888b8598": {
+      "seven": {
+        "minimum_group_principal_wei": "0",
+        "maximum_group_principal_wei": "4000500000000000000",
+        "minimum_group_balance_before_wei": "111863807092922003198",
+        "maximum_group_balance_before_wei": "148865900393728553198"
+      },
+      "rh15": {
+        "minimum_group_principal_wei": "0",
+        "maximum_group_principal_wei": "4000500000000000000",
+        "minimum_group_balance_before_wei": "176162369537890774465",
+        "maximum_group_balance_before_wei": "182812144315143229592"
+      }
+    },
+    "0x6eea8dafb3153339f5e3b558afec6c6a7c91ba0d3e3f4f11b106049f117f52d4": {
+      "seven": {
+        "minimum_group_principal_wei": "0",
+        "maximum_group_principal_wei": "4000500000000000000",
+        "minimum_group_balance_before_wei": "107863262417752184198",
+        "maximum_group_balance_before_wei": "148865900393728553198"
+      },
+      "rh15": {
+        "minimum_group_principal_wei": "0",
+        "maximum_group_principal_wei": "4000500000000000000",
+        "minimum_group_balance_before_wei": "172161824862720955465",
+        "maximum_group_balance_before_wei": "182812144315143229592"
+      }
+    },
+    "0xeb61708b358adfb0bae70d3972d65e0e754a027e1bbb1cdf46d33d47c4481dbd": {
+      "seven": {
+        "minimum_group_principal_wei": "0",
+        "maximum_group_principal_wei": "45000000000000000000",
+        "minimum_group_balance_before_wei": "103862717733554696198",
+        "maximum_group_balance_before_wei": "148865900393728553198"
+      },
+      "rh15": {
+        "minimum_group_principal_wei": "0",
+        "maximum_group_principal_wei": "45000000000000000000",
+        "minimum_group_balance_before_wei": "168161280178523467465",
+        "maximum_group_balance_before_wei": "182812144315143229592"
+      }
+    },
+    "0xb702d3f24586a8f8c74530573e17609b43fa18c088e11c2591cd5c6eb5a49ea6": {
+      "seven": {
+        "minimum_group_principal_wei": "0",
+        "maximum_group_principal_wei": "15000000000000000000",
+        "minimum_group_balance_before_wei": "58862658704029169198",
+        "maximum_group_balance_before_wei": "148865900393728553198"
+      },
+      "rh15": {
+        "minimum_group_principal_wei": "0",
+        "maximum_group_principal_wei": "15000000000000000000",
+        "minimum_group_balance_before_wei": "123161221148997940465",
+        "maximum_group_balance_before_wei": "182812144315143229592"
+      }
+    },
+    "0x3902c808cd20136c203bb596b194df239d86ad7d7f92abd27144554ecf96b310": {
+      "seven": {
+        "minimum_group_principal_wei": "0",
+        "maximum_group_principal_wei": "35001000000000000000",
+        "minimum_group_balance_before_wei": "43862600441243252198",
+        "maximum_group_balance_before_wei": "148865900393728553198"
+      },
+      "rh15": {
+        "minimum_group_principal_wei": "0",
+        "maximum_group_principal_wei": "35001000000000000000",
+        "minimum_group_balance_before_wei": "108161162886212023465",
+        "maximum_group_balance_before_wei": "182812144315143229592"
+      }
+    },
+    "0x1c11dd43f8f19a4b6edde47ae3f4648617337d9df000a645b8d827b051e621b3": {
+      "seven": {
+        "minimum_group_principal_wei": "0",
+        "maximum_group_principal_wei": "35001000000000000000",
+        "minimum_group_balance_before_wei": "8861540230020614198",
+        "maximum_group_balance_before_wei": "148865900393728553198"
+      },
+      "rh15": {
+        "minimum_group_principal_wei": "0",
+        "maximum_group_principal_wei": "35001000000000000000",
+        "minimum_group_balance_before_wei": "73160102674989385465",
+        "maximum_group_balance_before_wei": "182812144315143229592"
+      }
+    },
+    "0x3789975ee044ca6f6a17a2522491152528c644ebc74760ba808c03284acd5d3d": {
+      "seven": {
+        "minimum_group_principal_wei": "0",
+        "maximum_group_principal_wei": "35001000000000000000",
+        "minimum_group_balance_before_wei": "0",
+        "maximum_group_balance_before_wei": "148865900393728553198"
+      },
+      "rh15": {
+        "minimum_group_principal_wei": "0",
+        "maximum_group_principal_wei": "35001000000000000000",
+        "minimum_group_balance_before_wei": "38159042503738399465",
+        "maximum_group_balance_before_wei": "150256408814064734807"
+      }
+    },
+    "0x40b2dbfa574a55c164af13c1d15f37479d43bd40f17745500b7d6a24fb5aba2d": {
+      "seven": {
+        "minimum_group_principal_wei": "0",
+        "maximum_group_principal_wei": "35001000000000000000",
+        "minimum_group_balance_before_wei": "0",
+        "maximum_group_balance_before_wei": "115255346628576341807"
+      },
+      "rh15": {
+        "minimum_group_principal_wei": "0",
+        "maximum_group_principal_wei": "35001000000000000000",
+        "minimum_group_balance_before_wei": "3157980318250006465",
+        "maximum_group_balance_before_wei": "115255346628576341807"
+      }
+    },
+    "0x54ef8bb24152d4dbeb87ee2dcd754386d6d73e814058caa1295f95a612011b26": {
+      "seven": {
+        "minimum_group_principal_wei": "0",
+        "maximum_group_principal_wei": "35001000000000000000",
+        "minimum_group_balance_before_wei": "0",
+        "maximum_group_balance_before_wei": "80254281920171804807"
+      },
+      "rh15": {
+        "minimum_group_principal_wei": "0",
+        "maximum_group_principal_wei": "35001000000000000000",
+        "minimum_group_balance_before_wei": "0",
+        "maximum_group_balance_before_wei": "80254281920171804807"
+      }
+    },
+    "0x94a897e1ccac338de2846a207179eaf0dd11aee71adb8e0cc934ea5ad5f3c388": {
+      "seven": {
+        "minimum_group_principal_wei": "0",
+        "maximum_group_principal_wei": "35001000000000000000",
+        "minimum_group_balance_before_wei": "0",
+        "maximum_group_balance_before_wei": "45253214907272396807"
+      },
+      "rh15": {
+        "minimum_group_principal_wei": "0",
+        "maximum_group_principal_wei": "35001000000000000000",
+        "minimum_group_balance_before_wei": "0",
+        "maximum_group_balance_before_wei": "45253214907272396807"
+      }
+    },
+    "0x204c2bf7375b0d44cc648f630a09a9c32e93fe8cedc416f6587012c2afa7cc99": {
+      "seven": {
+        "minimum_group_principal_wei": "0",
+        "maximum_group_principal_wei": "10251907164350756807",
+        "minimum_group_balance_before_wei": "0",
+        "maximum_group_balance_before_wei": "10252150638721469807"
+      },
+      "rh15": {
+        "minimum_group_principal_wei": "0",
+        "maximum_group_principal_wei": "10251907164350756807",
+        "minimum_group_balance_before_wei": "0",
+        "maximum_group_balance_before_wei": "10252150638721469807"
+      }
+    }
+  }
+}

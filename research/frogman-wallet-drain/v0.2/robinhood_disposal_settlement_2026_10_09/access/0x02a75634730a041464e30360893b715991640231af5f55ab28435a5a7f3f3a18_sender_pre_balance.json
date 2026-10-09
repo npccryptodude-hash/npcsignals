@@ -1,0 +1,16 @@
+{
+  "url": "https://eth.drpc.org",
+  "requested_at_UTC": "2026-10-09T10:31:15.014224+00:00",
+  "method": "POST",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_getBalance",
+    "params": [
+      "0xd8d06aecfb5de45d0dcb655de57650d0231b0ef5",
+      "0x18ed37e"
+    ]
+  },
+  "HTTP_status": 200,
+  "response_file": "0x02a75634730a041464e30360893b715991640231af5f55ab28435a5a7f3f3a18_sender_pre_balance.response.txt"
+}

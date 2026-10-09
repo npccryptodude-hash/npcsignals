@@ -1,0 +1,8 @@
+{
+  "url": "https://eth.blockscout.com/api/v2/addresses/0xae06669dfd3e932476f00ea49fce82e5e63f83bf/internal-transactions",
+  "requested_at_UTC": "2026-10-09T10:20:27.970460+00:00",
+  "method": "GET",
+  "request": null,
+  "HTTP_status": 200,
+  "response_file": "fee_source_internal-transactions.response.txt"
+}

@@ -1,0 +1,8 @@
+{
+  "url": "https://eth.blockscout.com/api/v2/addresses/0x427c4b37de0714821b09c4fc655a713abbcfba83/transactions?index=129&value=180000000000&hash=0x94fdf85a2f1771175bf8dd571dc8c3c2d8a1939542b50ac585a0f68154999c16&inserted_at=2026-10-06T23%3A44%3A11.507540Z&block_number=26136703&fee=8891758260000&items_count=50",
+  "requested_at_UTC": "2026-10-09T10:21:21.556335+00:00",
+  "method": "GET",
+  "request": null,
+  "HTTP_status": 200,
+  "response_file": "routing_transactions_page_1.response.txt"
+}
