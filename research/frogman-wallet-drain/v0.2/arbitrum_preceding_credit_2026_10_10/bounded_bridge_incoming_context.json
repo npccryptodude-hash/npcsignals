@@ -1,0 +1,117 @@
+{
+  "startblock": 512341669,
+  "endblock": 512342669,
+  "events": [
+    {
+      "transaction_hash": "0x238ace27a7b75dd2e93d913b1f015b21ff885f70c52515c82e7c509b49b12aac",
+      "block_number": 512341812,
+      "transaction_index": 2,
+      "log_index": 2,
+      "source": "0xfbab890b61dc2e912718295dcdf45f499650ce9d",
+      "destination": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+      "token_contract": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+      "USDC": "5",
+      "raw_USDC_units": "5000000"
+    },
+    {
+      "transaction_hash": "0x0fa25225c0f5b5e756cfbe7293fcd4b9fa600e33126037124aa2f1ff5fe8321b",
+      "block_number": 512341858,
+      "transaction_index": 1,
+      "log_index": 0,
+      "source": "0x7c995e6eaab94c1328b8ef3c74d609be3b54e6b4",
+      "destination": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+      "token_contract": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+      "USDC": "11.689415",
+      "raw_USDC_units": "11689415"
+    },
+    {
+      "transaction_hash": "0x3330b51e74e6a2fb0f64236fd1500c9cd0f9e72c79cc1ce25bba23464cd813b3",
+      "block_number": 512341949,
+      "transaction_index": 1,
+      "log_index": 0,
+      "source": "0x0be7af390c4714a84705514819adbb9dec86ea28",
+      "destination": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+      "token_contract": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+      "USDC": "9.902097",
+      "raw_USDC_units": "9902097"
+    },
+    {
+      "transaction_hash": "0xea7c319e3b5c926c7ef00f646537d967add1872f13d8f64be7ff97e891567db5",
+      "block_number": 512342026,
+      "transaction_index": 3,
+      "log_index": 7,
+      "source": "0x28393627d511374edfc120b48001f52ae4200f53",
+      "destination": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+      "token_contract": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+      "USDC": "9.821042",
+      "raw_USDC_units": "9821042"
+    },
+    {
+      "transaction_hash": "0x6daadfe9cd5a97f1c2eba301e5f92c6e1543961f736b176e8a6b30af23735693",
+      "block_number": 512342060,
+      "transaction_index": 1,
+      "log_index": 1,
+      "source": "0x69dcba32e8077b5bd2acb4505797cf353a2c17ac",
+      "destination": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+      "token_contract": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+      "USDC": "20.5",
+      "raw_USDC_units": "20500000"
+    },
+    {
+      "transaction_hash": "0x905dbba3c05808a627f863adfb578ff2f6518f137d4c54bf08c20089e3124694",
+      "block_number": 512342076,
+      "transaction_index": 6,
+      "log_index": 23,
+      "source": "0xe25baf2e2b7c82e1ee1b2b8c0f1075ae236b418a",
+      "destination": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+      "token_contract": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+      "USDC": "229.902407",
+      "raw_USDC_units": "229902407"
+    },
+    {
+      "transaction_hash": "0x381403beed9f1a4b4ccacec1020e3008cd046eb08a44493a56aeaed4a1b64628",
+      "block_number": 512342097,
+      "transaction_index": 1,
+      "log_index": 0,
+      "source": "0x9f1a7f37cbf3c253eae7c14c69e961a3e8353ed3",
+      "destination": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+      "token_contract": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+      "USDC": "11.055432",
+      "raw_USDC_units": "11055432"
+    },
+    {
+      "transaction_hash": "0x3f7904dba79ce1268b73d33669b1d2711d4c2c8f7d2da8daaacfe828c11c664e",
+      "block_number": 512342181,
+      "transaction_index": 7,
+      "log_index": 48,
+      "source": "0xdb7a01f716ab05efe1d0aa0fb0f9eec78f1606dd",
+      "destination": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+      "token_contract": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+      "USDC": "25.791172",
+      "raw_USDC_units": "25791172"
+    },
+    {
+      "transaction_hash": "0x749bac482a0a6465375c9c678c81d44e0d1897331ff39ea2024e5e5051fedc03",
+      "block_number": 512342401,
+      "transaction_index": 1,
+      "log_index": 0,
+      "source": "0x4c3ae754a6a5dff5488ca14c8d96fef71fe5fa72",
+      "destination": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+      "token_contract": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+      "USDC": "14.168738",
+      "raw_USDC_units": "14168738"
+    },
+    {
+      "transaction_hash": "0x0c7033f21cad42aca3d940621511195fc832f0367d55bee615f6e478d5da8a9c",
+      "block_number": 512342549,
+      "transaction_index": 3,
+      "log_index": 1,
+      "source": "0x16c279cf3289b264a1be145b5a36b3ab12de39c7",
+      "destination": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+      "token_contract": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+      "USDC": "709.714683",
+      "raw_USDC_units": "709714683"
+    }
+  ],
+  "allocation": "None; shared bridge liquidity. No constituent deposit is assigned to this withdrawal. No counterparties followed."
+}

@@ -1,0 +1,20 @@
+{
+  "base_commit": "f6da63c30512d708b546cfbffc70d6524cfeabf6",
+  "latest_ID": "F0607",
+  "status": {
+    "exact_credit": "CONFIRMED",
+    "source_bridge": "CONFIRMED Hyperliquid withdrawal bridge",
+    "source_account_to_destination_relationship": "CONFIRMED exact withdrawal user 0xd116117e42279dea647d45dd012c67e31e7d1a63 \u2192 destination 0xae06669dfd3e932476f00ea49fce82e5e63f83bf",
+    "victim_linked_upstream_provenance": "UNRESOLVED / not established",
+    "known_case_wallet_upstream_provenance": "UNRESOLVED / no independent upstream source match to prior case routes; prior ledger does not name withdrawal user",
+    "exclusive_USDC_allocation_to_Relay": "UNRESOLVED / credit and spend differ, historical balances unavailable",
+    "protocol_identifiers": "Hyperliquid withdrawal identifiers matched in F0605. Relay lookup by credit hash returned no requests; bridge identifier is not reused as a case Relay order match.",
+    "new_service_boundary": "Funding-side Hyperliquid withdrawal newly linked to common funder; service itself already known. No newly identified exchange/custody owner.",
+    "control_or_identity_signal": "Directed withdrawal user/destination relationship confirmed, but no recovered user signature, shared-control proof or independently identified person. Relayer/finalizer addresses are execution roles.",
+    "beneficiary": "UNRESOLVED / unchanged; destination address is not identified beneficiary",
+    "source_account_earlier_USDC_origin": "UNRESOLVED / first-party preceding ledger window empty; prior spot balance not traced",
+    "branch_status": "CLOSED \u2014 preceding Arbitrum credit reproduced / case provenance unresolved",
+    "next_concrete_lead": "None meeting case-specific evidential threshold in saved material. Prior spot-balance tracing is technically possible but not presently a demonstrated case lead; not pursued.",
+    "closed_boundaries_preserved": "Robinhood pool reconciliation, matched Hyperliquid XMR1 continuation and ten-recipient common-funder relationship remain closed. No pool donor allocation or unrelated account fan-out."
+  }
+}

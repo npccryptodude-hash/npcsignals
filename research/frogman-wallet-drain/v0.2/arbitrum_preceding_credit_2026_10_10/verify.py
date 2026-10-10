@@ -20,5 +20,11 @@ for x in new[603:]:
  for f in x['evidence_files']:assert (P/f).exists()
 if (P/'master_timeline_F0001_F0607.json').exists():
  final=json.loads((P/'master_timeline_F0001_F0607.json').read_text())['rows'];assert final[:605]==new and sorted(x['ID'] for x in final)==[f'F{i:04}' for i in range(1,608)];assert final[-1]['classification']=='UNRESOLVED'
+if (P/'ledger_F0606_F0607.json').exists():
+ incoming=r('funder_incoming_usdc_logs');outgoing=r('funder_outgoing_usdc_logs');assert len(incoming)==len(outgoing)==1 and all(512242744<=int(x['blockNumber'],16)<=512342744 for x in incoming+outgoing);assert outgoing[0]['transactionHash']=='0x23e2c2bdaa4e38dfa93b656042179ff96ad39f51cf867dd3a213281fdc381b2d' and int(outgoing[0]['data'],16)==1002533798 and int(outgoing[0]['data'],16)-int(incoming[0]['data'],16)==233798
+ pool=r('sender_incoming_usdc_logs');assert len(pool)==10 and all(512341669<=int(x['blockNumber'],16)<=512342669 and x['address']==T and x['topics'][0]==topic('Transfer(address,address,uint256)') and '0x'+x['topics'][2][-40:]==S for x in pool);assert raw('withdrawal_user_preceding_ledger')==[];meta=json.loads((A/'withdrawal_user_preceding_ledger.json').read_text());assert meta['request']=={'type':'userNonFundingLedgerUpdates','user':W,'startTime':1791244800000,'endTime':1791315607707} and meta['HTTP_status']==200
+ assert not any(W in json.dumps(x).lower() for x in old);assert json.loads((P/'prior_ledger_comparison.json').read_text())['prior_records_mentioning_exact_withdrawal_user']==[]
+ for x in final[605:]:
+  for f in x['evidence_files']:assert (P/f).exists()
 for f,h in json.loads((P/'SHA256SUMS.json').read_text()).items():assert hashlib.sha256((P/f).read_bytes()).hexdigest()==h
 print('PASS: public-pinned 603 prior records preserved; credit/request receipt and block inclusion; exact Transfer and official ABI topics; withdrawal account/hash/nonce/amount/message; code-state errors retained; checksums')

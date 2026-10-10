@@ -1,0 +1,79 @@
+[
+  {
+    "ID": "F0606",
+    "classification": "CONFIRMED",
+    "record_type": "Bounded balance/log context; allocation and state-access limitations",
+    "evidence_files": [
+      "access/funder_incoming_usdc_logs.response.txt",
+      "access/funder_outgoing_usdc_logs.response.txt",
+      "access/sender_incoming_usdc_logs.response.txt",
+      "bounded_bridge_incoming_context.json",
+      "access/withdrawal_user_preceding_ledger.response.txt",
+      "access/funder_usdc_before_request.response.txt",
+      "access/funder_usdc_after_request.response.txt",
+      "access/sender_usdc_before_credit.response.txt",
+      "access/sender_usdc_after_credit.response.txt",
+      "access/funder_usdc_before_credit.response.txt",
+      "access/sender_case_code.response.txt",
+      "access/arb_alternative_sender_balance.json",
+      "access/arb_alternative_sender_code.json"
+    ],
+    "details": {
+      "funder_token_log_scope": [
+        512242744,
+        512342744
+      ],
+      "incoming_credits_in_scope": 1,
+      "outgoing_debits_in_scope": 1,
+      "preceding_credit_USDC": "1002.3",
+      "later_Relay_request_USDC": "1002.533798",
+      "difference_USDC": "0.233798",
+      "balance_implication": "Successful USDC debit exceeds the reproduced nearest credit by 0.233798 USDC. Under standard Transfer/balance accounting, at least that much pre-existing balance is necessary; exact starting/ending balances and exclusive allocation are not established.",
+      "historical_sender_balance_context": "UNRESOLVED: eth_call before/after credit returned missing historical state, not balances. Alternate RPC attempts HTTP 400; no zero-balance claim.",
+      "historical_funder_balance_context": "UNRESOLVED: before credit and before/after Relay request state calls unavailable. No exact account reconciliation.",
+      "bridge_recent_incoming_scope": [
+        512341669,
+        512342669
+      ],
+      "bridge_recent_incoming_events": 10,
+      "bridge_recent_incoming_USDC_total": "1047.544986",
+      "bridge_recent_incoming_context": "Direct token logs enumerate ten shared-pool credits; none assigned to the withdrawal. Receipt/UTC reconstruction of unrelated pool contributors and counterparties fan-out deliberately not performed.",
+      "source_account_preceding_ledger_scope_ms": [
+        1791244800000,
+        1791315607707
+      ],
+      "source_account_preceding_ledger_records_returned": 0,
+      "scope_limit": "Empty earlier account ledger window is not lifetime absence and says nothing about prior spot trades/balance origins. No trades/fills branch opened."
+    },
+    "limits": "Token logs and API responses only. Similar amounts, time proximity, funding or use of this common bridge cannot establish victim provenance or common control."
+  },
+  {
+    "ID": "F0607",
+    "classification": "UNRESOLVED",
+    "record_type": "Case provenance and identity assessment; explicit branch closure",
+    "evidence_files": [
+      "ledger_F0604_F0605.json",
+      "prior_ledger_comparison.json",
+      "access/withdrawal_user_ledger.response.txt",
+      "access/withdrawal_user_preceding_ledger.response.txt",
+      "access/relay_credit_hash.response.txt"
+    ],
+    "details": {
+      "exact_credit": "CONFIRMED",
+      "source_bridge": "CONFIRMED Hyperliquid withdrawal bridge",
+      "source_account_to_destination_relationship": "CONFIRMED exact withdrawal user 0xd116117e42279dea647d45dd012c67e31e7d1a63 \u2192 destination 0xae06669dfd3e932476f00ea49fce82e5e63f83bf",
+      "victim_linked_upstream_provenance": "UNRESOLVED / not established",
+      "known_case_wallet_upstream_provenance": "UNRESOLVED / no independent upstream source match to prior case routes; prior ledger does not name withdrawal user",
+      "exclusive_USDC_allocation_to_Relay": "UNRESOLVED / credit and spend differ, historical balances unavailable",
+      "protocol_identifiers": "Hyperliquid withdrawal identifiers matched in F0605. Relay lookup by credit hash returned no requests; bridge identifier is not reused as a case Relay order match.",
+      "new_service_boundary": "Funding-side Hyperliquid withdrawal newly linked to common funder; service itself already known. No newly identified exchange/custody owner.",
+      "control_or_identity_signal": "Directed withdrawal user/destination relationship confirmed, but no recovered user signature, shared-control proof or independently identified person. Relayer/finalizer addresses are execution roles.",
+      "beneficiary": "UNRESOLVED / unchanged; destination address is not identified beneficiary",
+      "source_account_earlier_USDC_origin": "UNRESOLVED / first-party preceding ledger window empty; prior spot balance not traced",
+      "branch_status": "CLOSED \u2014 preceding Arbitrum credit reproduced / case provenance unresolved",
+      "next_concrete_lead": "None meeting case-specific evidential threshold in saved material. Prior spot-balance tracing is technically possible but not presently a demonstrated case lead; not pursued.",
+      "closed_boundaries_preserved": "Robinhood pool reconciliation, matched Hyperliquid XMR1 continuation and ten-recipient common-funder relationship remain closed. No pool donor allocation or unrelated account fan-out."
+    },
+    "limits": "Closure is a scoped unresolved outcome. No independent confirmed victim/case-wallet upstream source, legal custody/beneficiary identity or common-control inference. Funding-side protocol boundary improves routing reconstruction only."
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "prior_public_commit": "582bd31cfe0d1056b347d585b436978182bc2592",
+  "latest_prior_ID": "F0603",
+  "withdrawal_user": "0xd116117e42279dea647d45dd012c67e31e7d1a63",
+  "prior_records_mentioning_exact_withdrawal_user": [],
+  "previous_service_boundary_examples": [
+    "F0502",
+    "F0571",
+    "F0586"
+  ],
+  "comparison_limit": "Same Hyperliquid bridge endpoint was known. This source account is not identified in prior ledger. Absence from ledger does not prove unrelated ownership or no lifetime case connection."
+}
