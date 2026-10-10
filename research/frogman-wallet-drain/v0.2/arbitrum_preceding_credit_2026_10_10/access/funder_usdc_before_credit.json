@@ -1,0 +1,20 @@
+{
+  "url": "https://arb1.arbitrum.io/rpc",
+  "method": "POST",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_call",
+    "params": [
+      {
+        "to": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+        "data": "0x70a08231000000000000000000000000ae06669dfd3e932476f00ea49fce82e5e63f83bf"
+      },
+      "0x1e89ba8c"
+    ]
+  },
+  "requested_at_UTC": "2026-10-10T09:52:26.384675+00:00",
+  "HTTP_status": 200,
+  "response_file": "funder_usdc_before_credit.response.txt",
+  "completed_at_UTC": "2026-10-10T09:52:32.160874+00:00"
+}

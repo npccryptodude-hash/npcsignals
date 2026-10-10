@@ -1,0 +1,17 @@
+{
+  "url": "https://arbitrum.drpc.org",
+  "method": "POST",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_getCode",
+    "params": [
+      "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+      "0x1e89ba8d"
+    ]
+  },
+  "requested_at_UTC": "2026-10-10T09:55:20.273789+00:00",
+  "error": "HTTP Error 400: Bad Request",
+  "HTTP_status": 400,
+  "completed_at_UTC": "2026-10-10T09:55:23.883888+00:00"
+}

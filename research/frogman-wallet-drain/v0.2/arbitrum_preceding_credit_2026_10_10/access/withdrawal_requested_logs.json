@@ -1,0 +1,24 @@
+{
+  "url": "https://arb1.arbitrum.io/rpc",
+  "method": "POST",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_getLogs",
+    "params": [
+      {
+        "address": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+        "fromBlock": "0x1e89aaed",
+        "toBlock": "0x1e89ba8d",
+        "topics": [
+          "0xcc10abf54af5c0718b10b0156dfe1e369ce3eee72423e9e86936a0082e9c5d1b",
+          "0x000000000000000000000000d116117e42279dea647d45dd012c67e31e7d1a63"
+        ]
+      }
+    ]
+  },
+  "requested_at_UTC": "2026-10-10T09:56:36.872905+00:00",
+  "HTTP_status": 200,
+  "response_file": "withdrawal_requested_logs.response.txt",
+  "completed_at_UTC": "2026-10-10T09:56:41.781878+00:00"
+}

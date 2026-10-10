@@ -1,0 +1,16 @@
+{
+  "url": "https://arb1.arbitrum.io/rpc",
+  "method": "POST",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_getTransactionReceipt",
+    "params": [
+      "0x1494cd99d97619fed4b08d5a551e4162a2623aaecea5ac98c404c9f8b9cfbf12"
+    ]
+  },
+  "requested_at_UTC": "2026-10-10T09:57:21.984858+00:00",
+  "HTTP_status": 200,
+  "response_file": "withdrawal_request_receipt.response.txt",
+  "completed_at_UTC": "2026-10-10T09:57:27.798049+00:00"
+}

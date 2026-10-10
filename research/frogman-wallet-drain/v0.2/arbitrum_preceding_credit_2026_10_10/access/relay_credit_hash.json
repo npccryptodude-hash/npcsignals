@@ -1,0 +1,9 @@
+{
+  "url": "https://api.relay.link/requests/v2?hash=0x9614b76aa2d529da3f22eab40ec412c0602e9cede74937754d4402035ff9b2d1",
+  "method": "GET",
+  "request": null,
+  "requested_at_UTC": "2026-10-10T09:52:32.161058+00:00",
+  "HTTP_status": 200,
+  "response_file": "relay_credit_hash.response.txt",
+  "completed_at_UTC": "2026-10-10T09:52:37.985820+00:00"
+}

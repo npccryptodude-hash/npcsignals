@@ -1,0 +1,13 @@
+# Exact preceding Arbitrum credit — reviewed block F0604–F0605
+
+Base public checkpoint: `582bd31cfe0d1056b347d585b436978182bc2592`, F0603. Added records preserve all F0001–F0603 and frozen v0.1.
+
+The nearest preceding native USDC credit to the common funder `0xae06669dfd3e932476f00ea49fce82e5e63f83bf` is reproduced from Arbitrum transaction `0x9614b76aa2d529da3f22eab40ec412c0602e9cede74937754d4402035ff9b2d1`, block 512342669, 2026-10-06 19:43:54 UTC. Hyperliquid Bridge2 `0x2df1c51e09aecf9cacb7bc98cb1742757f163df7` transferred exactly 1002.3 USDC (1002300000 units of `0xaf88d065e77c8cc2239327c5edb3a432268e5831`) to the common funder. The token sender is the bridge; the transaction submitter is a separate role.
+
+The bridge event identifies withdrawal user `0xd116117e42279dea647d45dd012c67e31e7d1a63`, distinct from the recipient. This user's first-party Hyperliquid ledger returns the exact Arbitrum hash, amount and nonce 1791315607929000, with 1.0 USDC fee. A preceding accountClassTransfer records 1003.3 USDC moved from spot to perp. These are account roles and accounting, not person attribution.
+
+The request transaction `0x1494cd99d97619fed4b08d5a551e4162a2623aaecea5ac98c404c9f8b9cfbf12` at block 512341880 (19:40:20 UTC) and finalized withdrawal agree on indexed user, destination, amount, nonce and message `0x89ad833de312b21f59c53d8af245df747263fa30088eb1cec0e60cfa6f9681d2`. Finalization calldata carries that same message. ABI signatures are reproduced from Hyperliquid's official Bridge2.sol, git blob `2f2e98e3be5e6eccc3a24e5a8317105e220e7ccb`. Current runtime code is nonempty. Historical code and token balances returned state-unavailable errors; explorer/source verification endpoints were blocked or unavailable. Official source is not asserted to be independent deployed-bytecode verification.
+
+This is a newly established funding-side Hyperliquid withdrawal boundary, using a service already known in the case. It does not reopen the dated matched account's XMR1 continuation. No external withdrawal from that account is newly identified. No person, common control or beneficiary is established; upstream case provenance remains unresolved. No timing/amount/FIFO allocation is applied. In particular, this credit is 1002.3 USDC while the later Relay request spent 1002.533798 USDC.
+
+Captured response bodies and manifests retain exact requests and unsuccessful access attempts. Collectors are read-only and scoped to one recipient, its exact withdrawal and one bounded shared-bridge log context. `build.py` derives observations; `verify.py` reviews chain inclusion, protocol hashes, amounts, nonce, message and unchanged prior rows. No article written.

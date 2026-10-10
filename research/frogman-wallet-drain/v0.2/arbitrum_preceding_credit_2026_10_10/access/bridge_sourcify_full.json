@@ -1,0 +1,9 @@
+{
+  "url": "https://repo.sourcify.dev/contracts/full_match/42161/0x2Df1c51E09aECF9cacB7bc98cB1742757f163dF7/metadata.json",
+  "method": "GET",
+  "request": null,
+  "requested_at_UTC": "2026-10-10T09:54:17.831575+00:00",
+  "error": "HTTP Error 404: Not Found",
+  "HTTP_status": 404,
+  "completed_at_UTC": "2026-10-10T09:54:25.943731+00:00"
+}

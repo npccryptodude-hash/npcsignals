@@ -1,0 +1,100 @@
+[
+  {
+    "ID": "F0604",
+    "classification": "CONFIRMED",
+    "record_type": "Exact nearest preceding Arbitrum USDC credit into common funder",
+    "evidence_files": [
+      "access/credit_tx.response.txt",
+      "access/credit_receipt.response.txt",
+      "access/credit_block.response.txt",
+      "access/funder_incoming_usdc_logs.response.txt"
+    ],
+    "details": {
+      "chain": "Arbitrum One (42161)",
+      "transaction_hash": "0x9614b76aa2d529da3f22eab40ec412c0602e9cede74937754d4402035ff9b2d1",
+      "block_number": 512342669,
+      "timestamp_UTC": "2026-10-06T19:43:54+00:00",
+      "transaction_sender": "0x263294039413b96d25e4173a5f7599f8b3801504",
+      "transaction_destination": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+      "token_sender": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+      "token_recipient": "0xae06669dfd3e932476f00ea49fce82e5e63f83bf",
+      "token_contract": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+      "USDC": "1002.3",
+      "raw_USDC_units": "1002300000",
+      "token_log_index": 4,
+      "status": "successful receipt / block inclusion reproduced",
+      "gasUsed": 100904,
+      "effectiveGasPrice_wei": 22500000,
+      "network_fee_ETH": "0.00000227034",
+      "scope_startblock": 512242744,
+      "scope_endblock": 512342744,
+      "nearest_credit_basis": "One incoming native USDC Transfer to this address returned in exact bounded block range; no timing-based allocation of later spend"
+    },
+    "limits": "Directed funding/service roles only; no shared-control inference, identified person, custody relationship, victim-fund allocation or ultimate beneficiary. Common protocol use, timing and similar amounts are not provenance proof."
+  },
+  {
+    "ID": "F0605",
+    "classification": "CONFIRMED",
+    "record_type": "Exact Hyperliquid withdrawal user/destination correspondence; request-to-finalization match",
+    "evidence_files": [
+      "access/withdrawal_request_tx.response.txt",
+      "access/withdrawal_request_receipt.response.txt",
+      "access/withdrawal_request_block.response.txt",
+      "access/withdrawal_requested_logs.response.txt",
+      "access/credit_tx.response.txt",
+      "access/credit_receipt.response.txt",
+      "access/withdrawal_user_ledger.response.txt",
+      "access/bridge_official_source.response.txt",
+      "access/sender_latest_code.response.txt"
+    ],
+    "details": {
+      "Hyperliquid_withdrawal_user": "0xd116117e42279dea647d45dd012c67e31e7d1a63",
+      "Arbitrum_destination": "0xae06669dfd3e932476f00ea49fce82e5e63f83bf",
+      "asset": "native Arbitrum USDC",
+      "net_USDC": "1002.3",
+      "API_fee_USDC": "1.0",
+      "withdrawal_nonce": 1791315607929000,
+      "withdrawal_message": "0x89ad833de312b21f59c53d8af245df747263fa30088eb1cec0e60cfa6f9681d2",
+      "finalization_transaction_hash": "0x9614b76aa2d529da3f22eab40ec412c0602e9cede74937754d4402035ff9b2d1",
+      "finalization_timestamp_UTC": "2026-10-06T19:43:54+00:00",
+      "request_transaction_hash": "0x1494cd99d97619fed4b08d5a551e4162a2623aaecea5ac98c404c9f8b9cfbf12",
+      "request_block": 512341880,
+      "request_timestamp_UTC": "2026-10-06T19:40:20+00:00",
+      "request_transaction_sender": "0xef2364db5db6f5539aa0bc111771a94ee47637fc",
+      "finalization_transaction_sender": "0x263294039413b96d25e4173a5f7599f8b3801504",
+      "first_party_withdrawal_record": {
+        "time": 1791315842590,
+        "hash": "0x9614b76aa2d529da3f22eab40ec412c0602e9cede74937754d4402035ff9b2d1",
+        "delta": {
+          "type": "withdraw",
+          "usdc": "1002.3",
+          "nonce": 1791315607929000,
+          "fee": "1.0"
+        }
+      },
+      "preceding_internal_transfer_record": {
+        "time": 1791315607708,
+        "hash": "0xc9252aee1c36d6e6ca9e0445fcd28f02028800d3b739f5b86cedd640db3ab0d1",
+        "delta": {
+          "type": "accountClassTransfer",
+          "usdc": "1003.3",
+          "toPerp": true
+        }
+      },
+      "internal_transfer_limit": "1003.3 USDC spot-to-perp recorded; arithmetic equals net withdrawal plus fee. It is not an external funding-source identification.",
+      "protocol_identifiers_matched": [
+        "exact Arbitrum finalization hash in account-specific Hyperliquid ledger",
+        "exact net USDC amount",
+        "exact nonce in API and RequestedWithdrawal/FinalizedWithdrawal",
+        "same indexed withdrawal user and destination in request/finalization",
+        "same 32-byte message in request/finalization and batchedFinalizeWithdrawals calldata"
+      ],
+      "role_distinction": "Indexed withdrawal user is 0xd116, recipient is 0xae066. Neither request submitter nor finalizer is automatically account owner or beneficiary. Validator processing is not proof of a recovered user signature.",
+      "contract_type": "Hyperliquid Bridge2 contract; current nonempty runtime code and case contract-emitted event reproduced. Historical bytecode unavailable. Official repository source supplies ABI/event definitions, not independent deployed-bytecode source verification.",
+      "official_source_git_blob_sha": "2f2e98e3be5e6eccc3a24e5a8317105e220e7ccb",
+      "service_boundary": "Newly reproduced funding-side Hyperliquid withdrawal boundary; Hyperliquid service already identified elsewhere in case. Not a new exchange or custody owner.",
+      "link_to_previously_matched_account": "No evidence connecting this withdrawal to 0x3e2d81f7a5659e4760ba929ef88eed40ef6640a1 or its XMR1 balance; that boundary stays closed."
+    },
+    "limits": "Directed funding/service roles only; no shared-control inference, identified person, custody relationship, victim-fund allocation or ultimate beneficiary. Common protocol use, timing and similar amounts are not provenance proof."
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "url": "https://arb1.arbitrum.io/rpc",
+  "method": "POST",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_getBlockByNumber",
+    "params": [
+      "0x1e89b778",
+      false
+    ]
+  },
+  "requested_at_UTC": "2026-10-10T09:57:21.985374+00:00",
+  "HTTP_status": 200,
+  "response_file": "withdrawal_request_block.response.txt",
+  "completed_at_UTC": "2026-10-10T09:57:27.795567+00:00"
+}

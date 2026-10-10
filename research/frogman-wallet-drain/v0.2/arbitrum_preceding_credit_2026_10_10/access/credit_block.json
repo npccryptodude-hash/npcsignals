@@ -1,0 +1,17 @@
+{
+  "url": "https://arb1.arbitrum.io/rpc",
+  "method": "POST",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_getBlockByNumber",
+    "params": [
+      "0x1e89ba8d",
+      false
+    ]
+  },
+  "requested_at_UTC": "2026-10-10T09:52:21.779410+00:00",
+  "HTTP_status": 200,
+  "response_file": "credit_block.response.txt",
+  "completed_at_UTC": "2026-10-10T09:52:26.383355+00:00"
+}

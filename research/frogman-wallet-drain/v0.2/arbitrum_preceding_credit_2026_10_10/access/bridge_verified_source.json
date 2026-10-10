@@ -1,0 +1,9 @@
+{
+  "url": "https://api.routescan.io/v2/network/mainnet/evm/42161/etherscan/api?module=contract&action=getsourcecode&address=0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+  "method": "GET",
+  "request": null,
+  "requested_at_UTC": "2026-10-10T09:53:19.323282+00:00",
+  "HTTP_status": 200,
+  "response_file": "bridge_verified_source.response.txt",
+  "completed_at_UTC": "2026-10-10T09:53:22.756369+00:00"
+}

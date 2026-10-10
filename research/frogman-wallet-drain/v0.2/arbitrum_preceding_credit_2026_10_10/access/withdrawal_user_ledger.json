@@ -1,0 +1,14 @@
+{
+  "url": "https://api.hyperliquid.xyz/info",
+  "method": "POST",
+  "request": {
+    "type": "userNonFundingLedgerUpdates",
+    "user": "0xd116117e42279dea647d45dd012c67e31e7d1a63",
+    "startTime": 1791312234000,
+    "endTime": 1791315855000
+  },
+  "requested_at_UTC": "2026-10-10T09:54:17.830706+00:00",
+  "HTTP_status": 200,
+  "response_file": "withdrawal_user_ledger.response.txt",
+  "completed_at_UTC": "2026-10-10T09:54:24.985036+00:00"
+}

@@ -1,0 +1,9 @@
+{
+  "url": "https://arbiscan.io/address/0x2df1c51e09aecf9cacb7bc98cb1742757f163df7#code",
+  "method": "GET",
+  "request": null,
+  "requested_at_UTC": "2026-10-10T09:53:19.323763+00:00",
+  "error": "HTTP Error 403: Forbidden",
+  "HTTP_status": 403,
+  "completed_at_UTC": "2026-10-10T09:53:22.529410+00:00"
+}

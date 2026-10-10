@@ -1,0 +1,9 @@
+{
+  "url": "https://raw.githubusercontent.com/hyperliquid-dex/contracts/master/Bridge2.sol",
+  "method": "GET",
+  "request": null,
+  "requested_at_UTC": "2026-10-10T09:54:42.826055+00:00",
+  "HTTP_status": 200,
+  "response_file": "bridge_official_source.response.txt",
+  "completed_at_UTC": "2026-10-10T09:54:48.875211+00:00"
+}

@@ -1,0 +1,9 @@
+{
+  "url": "https://arbitrum.blockscout.com/api/v2/addresses/0xae06669dfd3e932476f00ea49fce82e5e63f83bf",
+  "method": "GET",
+  "request": null,
+  "requested_at_UTC": "2026-10-10T09:51:18.116247+00:00",
+  "error": "HTTP Error 403: Forbidden",
+  "HTTP_status": 403,
+  "completed_at_UTC": "2026-10-10T09:51:19.411639+00:00"
+}

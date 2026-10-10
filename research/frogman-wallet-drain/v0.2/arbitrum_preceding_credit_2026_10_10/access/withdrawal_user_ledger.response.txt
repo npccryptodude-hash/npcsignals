@@ -1,0 +1,1 @@
+[{"time":1791315607708,"hash":"0xc9252aee1c36d6e6ca9e0445fcd28f02028800d3b739f5b86cedd640db3ab0d1","delta":{"type":"accountClassTransfer","usdc":"1003.3","toPerp":true}},{"time":1791315842590,"hash":"0x9614b76aa2d529da3f22eab40ec412c0602e9cede74937754d4402035ff9b2d1","delta":{"type":"withdraw","usdc":"1002.3","nonce":1791315607929000,"fee":"1.0"}}]
