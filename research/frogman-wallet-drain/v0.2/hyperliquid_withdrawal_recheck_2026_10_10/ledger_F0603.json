@@ -1,0 +1,27 @@
+[
+  {
+    "ID": "F0603",
+    "classification": "CONFIRMED",
+    "record_type": "Dated Hyperliquid withdrawal-only recheck; no new ledger records returned",
+    "evidence_files": [
+      "withdrawal_recheck_scope.json",
+      "access/hyperliquid_new_ledger.json",
+      "access/hyperliquid_new_ledger.response.txt"
+    ],
+    "details": {
+      "account": "0x3e2d81f7a5659e4760ba929ef88eed40ef6640a1",
+      "endpoint": "https://api.hyperliquid.xyz/info",
+      "type": "userNonFundingLedgerUpdates",
+      "startTime": 1791624537691,
+      "endTime": 1791625379270,
+      "start_UTC": "2026-10-10T09:28:57.691000+00:00",
+      "end_UTC": "2026-10-10T09:42:59.270000+00:00",
+      "returned_records": 0,
+      "new_external_withdrawal": "None returned in this exact interval",
+      "destination_chain_address_tx": "Not applicable: no withdrawal record",
+      "branch_status": "CLOSED; dated XMR1 account boundary retained; no trades/state re-reconstruction or fan-out",
+      "beneficiary": "UNRESOLVED / unchanged"
+    },
+    "limits": "Dated API observation only, not permanent absence or a claim about every possible transfer mechanism. No verified new external withdrawal, native Monero receipt or beneficiary. Reopen only on independently recorded external withdrawal."
+  }
+]
