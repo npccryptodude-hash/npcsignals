@@ -1,0 +1,38 @@
+{
+  "market": {
+    "tokens": [
+      404,
+      0
+    ],
+    "name": "@260",
+    "index": 260,
+    "isCanonical": false
+  },
+  "tokens": [
+    {
+      "name": "XMR1",
+      "szDecimals": 2,
+      "weiDecimals": 8,
+      "index": 404,
+      "tokenId": "0xbb2057659bd378d17e2e151bb04bdcaa",
+      "isCanonical": false,
+      "evmContract": null,
+      "fullName": "XMR - Wagyu.xyz",
+      "deployerTradingFeeShare": "1.0"
+    },
+    {
+      "name": "USDC",
+      "szDecimals": 8,
+      "weiDecimals": 8,
+      "index": 0,
+      "tokenId": "0x6d1e7cde53ba9467b783cb7c530ce054",
+      "isCanonical": true,
+      "evmContract": {
+        "address": "0x6b9e773128f453f5c2c60935ee2de2cbc5390a24",
+        "evm_extra_wei_decimals": -2
+      },
+      "fullName": null,
+      "deployerTradingFeeShare": "0.0"
+    }
+  ]
+}

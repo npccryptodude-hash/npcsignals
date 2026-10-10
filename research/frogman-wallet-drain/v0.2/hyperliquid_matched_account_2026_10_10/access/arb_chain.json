@@ -1,0 +1,14 @@
+{
+  "url": "https://arb1.arbitrum.io/rpc",
+  "method": "POST",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_chainId",
+    "params": []
+  },
+  "requested_at_UTC": "2026-10-10T09:29:21.334914+00:00",
+  "HTTP_status": 200,
+  "response_file": "arb_chain.response.txt",
+  "completed_at_UTC": "2026-10-10T09:29:24.116618+00:00"
+}

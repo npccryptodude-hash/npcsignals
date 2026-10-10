@@ -1,0 +1,29 @@
+{
+  "account": "0x3e2d81f7a5659e4760ba929ef88eed40ef6640a1",
+  "deposit_hash": "0x963c56253dedcfd5ff9f944c91eb9cb9e94d12701d9165f66a40b9aa0b4cfc1f",
+  "deposit_USDC": "26823.206875",
+  "spot_internal_credit_USDC": "26823.2",
+  "fills": 28,
+  "distinct_order_IDs": 3,
+  "distinct_execution_hashes": 3,
+  "first_fill_UTC": "2026-10-07T02:21:29.435000+00:00",
+  "last_fill_UTC": "2026-10-07T02:21:34.429000+00:00",
+  "gross_XMR1": "47.18",
+  "XMR1_fee": "0.033026",
+  "net_XMR1": "47.146974",
+  "USDC_execution_cost": "26817.3668",
+  "spot_USDC_remaining": "5.8332",
+  "perp_USDC_reported": "0.006875",
+  "external_withdrawal_observed": false,
+  "scope": {
+    "account": "0x3e2d81f7a5659e4760ba929ef88eed40ef6640a1",
+    "startTime": 1791244800000,
+    "endTime": 1791624537690,
+    "max_pages": 5,
+    "scope": "single matched account; no lifetime completeness claim"
+  },
+  "before_deposit_balance": "UNRESOLVED: no historical pre-deposit account state obtained; first fill starts at zero XMR1 only",
+  "after_deposit_balance": "credit event observed; no historical whole-account state obtained",
+  "physical_fund_provenance": "MIXED upstream Ethereum pool; exact deposit/account link does not allocate an individual Robinhood deposit",
+  "terminal_boundary": "No verified external withdrawal/redemption; XMR1 spot holding is not native Monero receipt. Close at observed account boundary through recorded cutoff."
+}

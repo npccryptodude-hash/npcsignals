@@ -1,0 +1,216 @@
+[
+  {
+    "ID": "F0586",
+    "classification": "CONFIRMED",
+    "record_type": "Fresh reproduction of existing deposit F0571; no new economic transfer",
+    "account": "0x3e2d81f7a5659e4760ba929ef88eed40ef6640a1",
+    "evidence_files": [
+      "access/deposit_tx.response.txt",
+      "access/deposit_receipt.response.txt",
+      "access/deposit_block.response.txt",
+      "access/arb_chain.response.txt",
+      "access/ledger_0.response.txt"
+    ],
+    "details": {
+      "hash": "0x963c56253dedcfd5ff9f944c91eb9cb9e94d12701d9165f66a40b9aa0b4cfc1f",
+      "USDC": "26823.206875",
+      "chain": "Arbitrum 42161",
+      "endpoint": "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7",
+      "deposit_event": {
+        "time": 1791339677688,
+        "hash": "0x963c56253dedcfd5ff9f944c91eb9cb9e94d12701d9165f66a40b9aa0b4cfc1f",
+        "delta": {
+          "type": "deposit",
+          "usdc": "26823.206875"
+        }
+      }
+    },
+    "limits": "First-party API observation and saved receipt checks, not HyperCore signature/consensus or beneficiary verification. No exclusive affected-wallet allocation."
+  },
+  {
+    "ID": "F0587",
+    "classification": "CONFIRMED",
+    "record_type": "Existing internal account-class transfer F0572 freshly reproduced",
+    "account": "0x3e2d81f7a5659e4760ba929ef88eed40ef6640a1",
+    "evidence_files": [
+      "access/ledger_0.response.txt"
+    ],
+    "details": {
+      "event": {
+        "time": 1791339687461,
+        "hash": "0xae174d72edc43664af91044601f940020ad4005888c7553651dff8c5acc8104f",
+        "delta": {
+          "type": "accountClassTransfer",
+          "usdc": "26823.2",
+          "toPerp": false
+        }
+      },
+      "external_withdrawal": false
+    },
+    "limits": "First-party API observation and saved receipt checks, not HyperCore signature/consensus or beneficiary verification. No exclusive affected-wallet allocation."
+  },
+  {
+    "ID": "F0588",
+    "classification": "CONFIRMED",
+    "record_type": "Dated first-party spot market mapping",
+    "account": "0x3e2d81f7a5659e4760ba929ef88eed40ef6640a1",
+    "evidence_files": [
+      "access/spot_meta.response.txt",
+      "market_snapshot.json"
+    ],
+    "details": {
+      "market_index": 260,
+      "base_token_index": 404,
+      "base_name": "XMR1",
+      "quote_token_index": 0,
+      "quote_name": "USDC",
+      "native_Monero_receipt": false
+    },
+    "limits": "First-party API observation and saved receipt checks, not HyperCore signature/consensus or beneficiary verification. No exclusive affected-wallet allocation."
+  },
+  {
+    "ID": "F0589",
+    "classification": "CONFIRMED",
+    "record_type": "28 subsequent XMR1 buy fills in matched account",
+    "account": "0x3e2d81f7a5659e4760ba929ef88eed40ef6640a1",
+    "evidence_files": [
+      "access/fills_0.response.txt",
+      "fills.json"
+    ],
+    "details": {
+      "fills": 28,
+      "distinct_order_IDs": 3,
+      "distinct_execution_hashes": 3,
+      "first_fill_UTC": "2026-10-07T02:21:29.435000+00:00",
+      "last_fill_UTC": "2026-10-07T02:21:34.429000+00:00",
+      "gross_XMR1": "47.18",
+      "XMR1_fee": "0.033026",
+      "net_XMR1": "47.146974",
+      "USDC_execution_cost": "26817.3668"
+    },
+    "limits": "First-party API observation and saved receipt checks, not HyperCore signature/consensus or beneficiary verification. No exclusive affected-wallet allocation."
+  },
+  {
+    "ID": "F0590",
+    "classification": "CONFIRMED",
+    "record_type": "Dated spot balance snapshot",
+    "account": "0x3e2d81f7a5659e4760ba929ef88eed40ef6640a1",
+    "evidence_files": [
+      "access/spot_state.response.txt",
+      "access/spot_state.json"
+    ],
+    "details": {
+      "balances": [
+        {
+          "coin": "USDC",
+          "token": 0,
+          "total": "5.8332",
+          "hold": "0.0",
+          "entryNtl": "0.0"
+        },
+        {
+          "coin": "XMR1",
+          "token": 404,
+          "total": "47.146974",
+          "hold": "0.0",
+          "entryNtl": "26817.3668"
+        }
+      ]
+    },
+    "limits": "First-party API observation and saved receipt checks, not HyperCore signature/consensus or beneficiary verification. No exclusive affected-wallet allocation."
+  },
+  {
+    "ID": "F0591",
+    "classification": "CONFIRMED",
+    "record_type": "Dated perpetual state and scoped funding observations",
+    "account": "0x3e2d81f7a5659e4760ba929ef88eed40ef6640a1",
+    "evidence_files": [
+      "access/perp_state.response.txt",
+      "access/perp_state.json",
+      "access/funding.response.txt"
+    ],
+    "details": {
+      "state": {
+        "marginSummary": {
+          "accountValue": "0.006875",
+          "totalNtlPos": "0.0",
+          "totalRawUsd": "0.006875",
+          "totalMarginUsed": "0.0"
+        },
+        "crossMarginSummary": {
+          "accountValue": "0.006875",
+          "totalNtlPos": "0.0",
+          "totalRawUsd": "0.006875",
+          "totalMarginUsed": "0.0"
+        },
+        "crossMaintenanceMarginUsed": "0.0",
+        "withdrawable": "0.006875",
+        "assetPositions": [],
+        "time": 1791624542957
+      },
+      "funding_updates": [],
+      "perp_fills_returned": 0,
+      "limit": "No returned perp fills/funding in queried scope; not lifetime or all dex absence."
+    },
+    "limits": "First-party API observation and saved receipt checks, not HyperCore signature/consensus or beneficiary verification. No exclusive affected-wallet allocation."
+  },
+  {
+    "ID": "F0592",
+    "classification": "CONFIRMED",
+    "record_type": "Exact account-level spot arithmetic reconciliation",
+    "account": "0x3e2d81f7a5659e4760ba929ef88eed40ef6640a1",
+    "evidence_files": [
+      "summary.json",
+      "fills.json",
+      "access/spot_state.response.txt",
+      "access/perp_state.response.txt"
+    ],
+    "details": {
+      "gross_minus_token_fee_XMR1": "47.146974",
+      "spot_credit_minus_cost_USDC": "5.8332",
+      "deposit_minus_spot_internal_credit_USDC": "0.006875",
+      "reported_perp_USDC": "0.006875",
+      "limit": "Difference matches reported perp residual; not assigned to a fee. Historical account state before/after deposit remains unresolved."
+    },
+    "limits": "First-party API observation and saved receipt checks, not HyperCore signature/consensus or beneficiary verification. No exclusive affected-wallet allocation."
+  },
+  {
+    "ID": "F0593",
+    "classification": "CONFIRMED",
+    "record_type": "Scoped terminal account boundary; no external withdrawal returned",
+    "account": "0x3e2d81f7a5659e4760ba929ef88eed40ef6640a1",
+    "evidence_files": [
+      "scope.json",
+      "access/ledger_0.response.txt",
+      "access/ledger_1.response.txt",
+      "access/fills_0.response.txt",
+      "access/fills_1.response.txt",
+      "access/info_docs.response.txt"
+    ],
+    "details": {
+      "ledger_event_types": [
+        "deposit",
+        "accountClassTransfer"
+      ],
+      "external_withdrawal": "NOT OBSERVED in queried first-party ledger",
+      "destination_chain": null,
+      "destination_address": null,
+      "withdrawal_asset": null,
+      "withdrawal_amount": null,
+      "withdrawal_hash": null,
+      "branch_status": "CLOSED at dated account boundary; reopen only on new concrete external event",
+      "historical_balance_status": "UNRESOLVED",
+      "service": "existing Hyperliquid; no new external service",
+      "beneficiary": "UNRESOLVED",
+      "scope": {
+        "account": "0x3e2d81f7a5659e4760ba929ef88eed40ef6640a1",
+        "startTime": 1791244800000,
+        "endTime": 1791624537690,
+        "max_pages": 5,
+        "scope": "single matched account; no lifetime completeness claim"
+      },
+      "pagination": "Short pages (2 ledger events, 28 fills) followed by empty continuation pages; no cap reached. Does not establish complete lifetime history."
+    },
+    "limits": "First-party API observation and saved receipt checks, not HyperCore signature/consensus or beneficiary verification. No exclusive affected-wallet allocation."
+  }
+]
