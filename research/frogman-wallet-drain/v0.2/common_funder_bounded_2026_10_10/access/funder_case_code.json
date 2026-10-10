@@ -1,0 +1,17 @@
+{
+  "url": "https://eth.drpc.org",
+  "method": "POST",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_getCode",
+    "params": [
+      "0xae06669dfd3e932476f00ea49fce82e5e63f83bf",
+      "0x18ecbd2"
+    ]
+  },
+  "requested_at_UTC": "2026-10-10T09:33:04.762167+00:00",
+  "HTTP_status": 200,
+  "response_file": "funder_case_code.response.txt",
+  "completed_at_UTC": "2026-10-10T09:33:09.869400+00:00"
+}

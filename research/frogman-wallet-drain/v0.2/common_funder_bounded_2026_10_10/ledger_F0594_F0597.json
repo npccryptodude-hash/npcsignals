@@ -1,0 +1,106 @@
+[
+  {
+    "ID": "F0594",
+    "classification": "CONFIRMED",
+    "record_type": "Existing ten case funding edges: bounded inventory and totals enrichment",
+    "evidence_files": [
+      "access/ordinary_history.response.txt",
+      "case_recipient_inventory.json",
+      "../robinhood_disposal_settlement_2026_10_09/funding_edges.json"
+    ],
+    "details": {
+      "source": "0xae06669dfd3e932476f00ea49fce82e5e63f83bf",
+      "case_relevant_count": 10,
+      "case_relevant_total_ETH": "0.045284691009863277",
+      "case_nonce_sequence": [
+        5509,
+        5510,
+        5511,
+        5512,
+        5513,
+        5514,
+        5515,
+        5516,
+        5517,
+        5518
+      ],
+      "first_observed_case_funding_UTC": "2026-10-07T01:44:35+00:00",
+      "last_observed_case_funding_UTC": "2026-10-07T02:20:11+00:00",
+      "first_lifetime_funding": "UNRESOLVED / not examined"
+    },
+    "limits": "Scoped account relationships only. No common control, user-signature recovery, service/custody identity, affected-wallet allocation or beneficiary attribution."
+  },
+  {
+    "ID": "F0595",
+    "classification": "CONFIRMED",
+    "record_type": "Bounded explorer funding pattern and role separation",
+    "evidence_files": [
+      "access/ordinary_history.response.txt",
+      "access/internal_history.response.txt",
+      "access/ordinary_history.json",
+      "access/internal_history.json"
+    ],
+    "details": {
+      "startblock": 26130000,
+      "endblock": 26137480,
+      "ordinary_records": 178,
+      "outgoing_records": 177,
+      "unique_outgoing_recipients": 122,
+      "outgoing_nonce_min": 5342,
+      "outgoing_nonce_max": 5518,
+      "outgoing_transfers_exactly_0_0015_ETH": 99,
+      "internal_records_returned": 0,
+      "direct_root_wallet_links_in_scope": []
+    },
+    "limits": "Scoped account relationships only. No common control, user-signature recovery, service/custody identity, affected-wallet allocation or beneficiary attribution."
+  },
+  {
+    "ID": "F0596",
+    "classification": "CONFIRMED",
+    "record_type": "New independently reproduced native funding edge into common source",
+    "evidence_files": [
+      "access/inbound_tx.response.txt",
+      "access/inbound_receipt.response.txt",
+      "access/inbound_block.response.txt",
+      "access/funder_case_code.response.txt",
+      "access/inbound_sender_case_code.response.txt"
+    ],
+    "details": {
+      "transaction_hash": "0x494f960fb252a3bdfb2edb46a0dfe71173f1964f13b26784511f8af8d31e61b2",
+      "source": "0x18dd3c14e34c1bc379f7538068c59160d9f68e25",
+      "destination": "0xae06669dfd3e932476f00ea49fce82e5e63f83bf",
+      "ETH": "0.372051536035073867",
+      "wei": "372051536035073867",
+      "timestamp_UTC": "2026-10-06T19:44:23+00:00",
+      "sender_nonce": 585169,
+      "gasUsed": 22280,
+      "effectiveGasPrice_wei": 481286085,
+      "sender_gas_ETH": "0.0000107230539738",
+      "input": "0xc1599f96e04748f16542c86be2172c77f468d4ae1bb98979ab1d76f5fa27d05f",
+      "case_code": "both source and destination empty; ordinary EOA transfer includes nonempty calldata, not evidence of a contract call",
+      "allocation": "UNRESOLVED: no exclusive propagation from this inflow into case payments"
+    },
+    "limits": "Scoped account relationships only. No common control, user-signature recovery, service/custody identity, affected-wallet allocation or beneficiary attribution."
+  },
+  {
+    "ID": "F0597",
+    "classification": "CONFIRMED",
+    "record_type": "Dated metadata and explicit attribution stop boundary",
+    "evidence_files": [
+      "access/metadata.response.txt",
+      "access/inbound_sender_metadata.response.txt",
+      "access/metadata.json",
+      "access/inbound_sender_metadata.json"
+    ],
+    "details": {
+      "source": "0xae06669dfd3e932476f00ea49fce82e5e63f83bf",
+      "inbound_sender": "0x18dd3c14e34c1bc379f7538068c59160d9f68e25",
+      "service_attribution": "UNRESOLVED / no identifying metadata",
+      "beneficiary": "UNRESOLVED",
+      "known_case_root_wallet_direct_link": "No direct ordinary transaction in bounded captured history with 0x427c, 0x07ae or reported affected EVM wallet; not lifetime absence",
+      "branch_status": "CLOSED at scoped funding-account relationship; no recipient fan-out; incoming sender retained as bounded lead only",
+      "next_bounded_lead": "Identify the exact inbound sender only if independent service/identity evidence becomes available; do not fan-out recipients"
+    },
+    "limits": "Scoped account relationships only. No common control, user-signature recovery, service/custody identity, affected-wallet allocation or beneficiary attribution."
+  }
+]
