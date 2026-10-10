@@ -1,0 +1,9 @@
+{
+  "url": "https://api.relay.link/requests/v2?orderId=0xc1599f96e04748f16542c86be2172c77f468d4ae1bb98979ab1d76f5fa27d05f",
+  "method": "GET",
+  "request": null,
+  "requested_at_UTC": "2026-10-10T09:42:14.519165+00:00",
+  "HTTP_status": 200,
+  "response_file": "relay_case_order.response.txt",
+  "completed_at_UTC": "2026-10-10T09:42:19.612467+00:00"
+}

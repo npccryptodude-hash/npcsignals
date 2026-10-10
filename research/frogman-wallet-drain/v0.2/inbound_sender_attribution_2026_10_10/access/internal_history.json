@@ -1,0 +1,9 @@
+{
+  "url": "https://eth.blockscout.com/api?module=account&action=txlistinternal&address=0x18dd3c14e34c1bc379f7538068c59160d9f68e25&startblock=26135406&endblock=26135606&sort=asc&page=1&offset=1000",
+  "method": "GET",
+  "request": null,
+  "requested_at_UTC": "2026-10-10T09:40:11.358077+00:00",
+  "HTTP_status": 200,
+  "response_file": "internal_history.response.txt",
+  "completed_at_UTC": "2026-10-10T09:40:17.045368+00:00"
+}

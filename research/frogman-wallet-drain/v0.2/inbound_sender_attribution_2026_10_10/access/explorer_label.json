@@ -1,0 +1,9 @@
+{
+  "url": "https://etherscan.io/address/0x18dd3c14e34c1bc379f7538068c59160d9f68e25",
+  "method": "GET",
+  "request": null,
+  "requested_at_UTC": "2026-10-10T09:42:14.520315+00:00",
+  "HTTP_status": 200,
+  "response_file": "explorer_label.response.txt",
+  "completed_at_UTC": "2026-10-10T09:42:19.703734+00:00"
+}

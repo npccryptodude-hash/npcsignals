@@ -1,0 +1,191 @@
+[
+  {
+    "ID": "F0598",
+    "classification": "CONFIRMED",
+    "record_type": "Dated funding sender EOA/code status and nonce snapshot",
+    "evidence_files": [
+      "access/case_code.response.txt",
+      "access/snapshot_code.response.txt",
+      "access/snapshot_nonce.response.txt",
+      "access/snapshot_balance.response.txt",
+      "access/snapshot_block.response.txt",
+      "access/metadata.response.txt"
+    ],
+    "details": {
+      "address": "0x18dd3c14e34c1bc379f7538068c59160d9f68e25",
+      "classification": "funded EOA; empty code at case block and snapshot; not a deployed contract",
+      "case_block": 26135506,
+      "snapshot_block": 26161196,
+      "snapshot_UTC": "2026-10-10T09:40:11+00:00",
+      "snapshot_outgoing_nonce": 602243,
+      "snapshot_balance_ETH": "9.42541914517175206",
+      "deployment_metadata": "Not applicable to empty-code EOA; no creation hash reported",
+      "lifetime_total_including_incoming": "UNRESOLVED / not enumerated; nonce counts sent transactions only",
+      "first_lifetime_funding": "UNRESOLVED / not examined"
+    },
+    "limits": "No person, custody relationship, common control, victim-fund provenance or ultimate beneficiary is identified. Service participation is distinct from ownership. No allocation to any individual Robinhood deposit."
+  },
+  {
+    "ID": "F0599",
+    "classification": "CONFIRMED",
+    "record_type": "Bounded sender transaction pattern independently cross-checked with nonce change",
+    "evidence_files": [
+      "access/ordinary_history.response.txt",
+      "access/internal_history.response.txt",
+      "access/nonce_before.response.txt",
+      "access/nonce_after.response.txt",
+      "counterparty_counts.json"
+    ],
+    "details": {
+      "startblock": 26135406,
+      "endblock": 26135606,
+      "ordinary_records": 179,
+      "outgoing_records": 178,
+      "incoming_records": 1,
+      "unique_outgoing_counterparties": 70,
+      "outgoing_nonce_min": 585108,
+      "outgoing_nonce_max": 585285,
+      "nonce_delta": 178,
+      "outgoing_32_byte_calldata": 65,
+      "most_repeated_destination": [
+        "0xccc88a9d1b4ed6b0eaba998850414b24f1c315be",
+        63
+      ],
+      "internal_records_returned": 0,
+      "scope_completeness": "179 records below 1000 cap; contiguous 178 outgoing nonces match RPC delta; internal explorer completeness not independently established",
+      "fee_funding": "Sender pays reproduced transactions gas; no dedicated fee-funder relationship established; repeated transfers alone do not imply common control"
+    },
+    "limits": "No person, custody relationship, common control, victim-fund provenance or ultimate beneficiary is identified. Service participation is distinct from ownership. No allocation to any individual Robinhood deposit."
+  },
+  {
+    "ID": "F0600",
+    "classification": "CONFIRMED",
+    "record_type": "Exact Relay execution correspondence independently establishes service role",
+    "evidence_files": [
+      "access/relay_case_hash.response.txt",
+      "access/relay_case_order.response.txt",
+      "access/relay_api_documentation.response.txt",
+      "access/case_tx.response.txt",
+      "access/case_receipt.response.txt",
+      "access/case_block.response.txt",
+      "access/explorer_label.response.txt"
+    ],
+    "details": {
+      "address": "0x18dd3c14e34c1bc379f7538068c59160d9f68e25",
+      "service_role": "Relay Ethereum destination-fill execution EOA for this exact order; explorer Solver label secondary only",
+      "request_id": "0x17913158538407a9523efe45f8d831981aea9bc4e05f2b4c901062844ddef626",
+      "order_id": "0xc1599f96e04748f16542c86be2172c77f468d4ae1bb98979ab1d76f5fa27d05f",
+      "status": "success",
+      "destination_fill": {
+        "transaction_hash": "0x494f960fb252a3bdfb2edb46a0dfe71173f1964f13b26784511f8af8d31e61b2",
+        "source": "0x18dd3c14e34c1bc379f7538068c59160d9f68e25",
+        "destination": "0xae06669dfd3e932476f00ea49fce82e5e63f83bf",
+        "wei": "372051536035073867",
+        "ETH": "0.372051536035073867",
+        "block": 26135506,
+        "timestamp_UTC": "2026-10-06T19:44:23+00:00",
+        "nonce": 585169,
+        "gasUsed": 22280,
+        "effectiveGasPrice_wei": 481286085,
+        "gas_ETH": "0.0000107230539738",
+        "input": "0xc1599f96e04748f16542c86be2172c77f468d4ae1bb98979ab1d76f5fa27d05f"
+      },
+      "origin_chainId": 42161,
+      "destination_chainId": 1,
+      "protocol_solver": {
+        "address": "0xf70da97812cb96acdf810712aa562db8dfa3dbef",
+        "protocolChainId": "base",
+        "chainId": 8453
+      },
+      "role_distinction": "API protocol.solver is 0xf70da97812cb96acdf810712aa562db8dfa3dbef on Base; 0x18dd is the Ethereum fill transaction sender. Do not equate these roles or infer identical key ownership.",
+      "service_attribution": "CONFIRMED at transaction execution level by first-party order/hash record and matching chain receipt; legal operator/custody identity UNRESOLVED",
+      "api_user": "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae",
+      "api_user_limit": "API user field is a routing contract here, not a person; underlying origin transaction sender checked in F0601",
+      "referrer": "lifi",
+      "referrer_limit": "lifi is API-reported integration metadata only; no new LI.FI branch opened"
+    },
+    "limits": "No person, custody relationship, common control, victim-fund provenance or ultimate beneficiary is identified. Service participation is distinct from ownership. No allocation to any individual Robinhood deposit."
+  },
+  {
+    "ID": "F0601",
+    "classification": "CONFIRMED",
+    "record_type": "Exact Arbitrum origin deposit and Ethereum fulfillment of funder own request",
+    "evidence_files": [
+      "access/origin_tx.response.txt",
+      "access/origin_receipt.response.txt",
+      "access/origin_block.response.txt",
+      "access/relay_case_hash.response.txt",
+      "origin_token_edges.json"
+    ],
+    "details": {
+      "transaction_hash": "0x23e2c2bdaa4e38dfa93b656042179ff96ad39f51cf867dd3a213281fdc381b2d",
+      "chainId": 42161,
+      "transaction_sender": "0xae06669dfd3e932476f00ea49fce82e5e63f83bf",
+      "transaction_destination": "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae",
+      "origin_block": 512342744,
+      "timestamp_UTC": "2026-10-06T19:44:15+00:00",
+      "asset": "Arbitrum native USDC 0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+      "USDC": "1002.533798",
+      "token_edges": [
+        {
+          "token": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+          "source": "0xae06669dfd3e932476f00ea49fce82e5e63f83bf",
+          "destination": "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae",
+          "raw_amount": "1002533798",
+          "logIndex": 0
+        },
+        {
+          "token": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+          "source": "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae",
+          "destination": "0x4cd00e387622c35bddb9b4c962c136462338bc31",
+          "raw_amount": "1002533798",
+          "logIndex": 1
+        }
+      ],
+      "depository": "0x4cd00e387622c35bddb9b4c962c136462338bc31",
+      "order_id": "0xc1599f96e04748f16542c86be2172c77f468d4ae1bb98979ab1d76f5fa27d05f",
+      "ethereum_ETH_received": "0.372051536035073867",
+      "funding_interpretation": "The existing inbound ETH edge is a service fill for this same-address cross-chain request, not independent evidence of a third-party benefactor",
+      "control_signal": "Origin transaction records 0xae066 as sender and Ethereum order recipient is same address; no evidence linking its controller to ten recipients or affected/root wallets",
+      "pre_origin_USDC_provenance": "UNRESOLVED / not traced; no victim linkage",
+      "first_relevant_event": "2026-10-06T19:44:15Z Arbitrum origin; Ethereum fill 19:44:23Z; first lifetime funding not established"
+    },
+    "limits": "No person, custody relationship, common control, victim-fund provenance or ultimate beneficiary is identified. Service participation is distinct from ownership. No allocation to any individual Robinhood deposit."
+  },
+  {
+    "ID": "F0602",
+    "classification": "CONFIRMED",
+    "record_type": "One nearby inbound replenishment and explicit funding-sender closure",
+    "evidence_files": [
+      "access/replenishment_tx.response.txt",
+      "access/replenishment_receipt.response.txt",
+      "access/replenishment_block.response.txt",
+      "access/relay_case_hash.response.txt",
+      "access/ordinary_history.response.txt"
+    ],
+    "details": {
+      "replenishment": {
+        "transaction_hash": "0xa4afb63f1a0cb8f13cbe7fa7981f23e0b73a35d9b6b2782e7365a42124678a46",
+        "source": "0xf70da97812cb96acdf810712aa562db8dfa3dbef",
+        "destination": "0x18dd3c14e34c1bc379f7538068c59160d9f68e25",
+        "wei": "5728397486280078839",
+        "ETH": "5.728397486280078839",
+        "block": 26135540,
+        "timestamp_UTC": "2026-10-06T19:51:11+00:00",
+        "nonce": 4924614,
+        "gasUsed": 22280,
+        "effectiveGasPrice_wei": 520363021,
+        "gas_ETH": "0.00001159368810788",
+        "input": "0x1791316261eeadc654dcaee058348d65099e0f53a96ebd8dd75af2b328e388e8"
+      },
+      "relationship": "Inbound from address also named by first-party API as protocol solver; native receipt reproduced. Replenishment occurs after case fill, so cannot fund that earlier fill directly.",
+      "attribution": "Relay destination-fill execution EOA; exchange/custody/treasury ownership UNRESOLVED",
+      "control_or_identity_signal": "No independent person or common-control signal. A recorded origin sender is a transaction role, not beneficiary identity.",
+      "beneficiary": "UNRESOLVED / unchanged",
+      "branch_status": "CLOSED at confirmed funding/order execution relationship; legal identity unresolved",
+      "new_lead": "If pursued in a separately authorized bounded task: identify provenance of the exact 1002.533798 USDC held by 0xae066 on Arbitrum before origin tx; stop if prior credit cannot be independently linked. No counterparties fan-out undertaken here.",
+      "exhausted": "Label-only attribution and timing/amount/funding-based common-control inference; Robinhood reconciliation and dated Hyperliquid XMR1 boundary stay closed"
+    },
+    "limits": "No person, custody relationship, common control, victim-fund provenance or ultimate beneficiary is identified. Service participation is distinct from ownership. No allocation to any individual Robinhood deposit."
+  }
+]
