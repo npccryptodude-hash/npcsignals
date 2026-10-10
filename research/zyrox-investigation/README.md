@@ -2,6 +2,8 @@
 
 NPCsignals examined the launch structure, case-related selling, promotional claims and documented movement of sale proceeds for ZYROX on Solana.
 
+**Status:** Ongoing investigation. This repository is updated as new evidence is independently verified and reviewed.
+
 **Mint:** `FACvJMFBWQ1GYm9dgZ7XHvs85V1EcK2SqHf534kspump`
 
 **Frozen technical basis:** v0.114 / ledger U453. Repository preparation does not add research, ledger entries or evidentiary reclassifications.
