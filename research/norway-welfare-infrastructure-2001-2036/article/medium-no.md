@@ -110,25 +110,25 @@ Dette gir en brutto restaureringskjerne på omtrent:
 
 Så kommer framtidig kapasitet.
 
-Norge eldes raskt. Offentlig planlegging viser behov for rundt **18 000 flere heldøgnsplasser innen 2035**.
+Norge eldes raskt. Oppdaterte SSB-framskrivinger publisert i 2026 anslår behov for omtrent **22 800 flere heldøgnsplasser fra 2024 til 2035**, og dette erstatter det tidligere 18 000-estimatet.
 
 Bruker vi Husbankens maksimale godkjente anleggskostnader i 2026 som ren skala-test, får vi omtrent:
 
-> **76,9–87,9 mrd. kroner**
+> **97,4–111,4 mrd. kroner**
 
 Dette er ikke en prognose for faktisk statlig pengebruk. Ulike omsorgsmodeller, tilskuddsgrader og prosjektkostnader vil påvirke resultatet.
 
 Legger vi til **5–10 mrd. kroner** i teknisk og utstyrsmessig reserve, får vi en samlet brutto skala på:
 
-> **omtrent 249–290 mrd. kroner**
+> **omtrent 269–313 mrd. kroner**
 
-Da har 250 mrd. en faktisk begrunnelse.
-
-Det ligger nær nedre del av et fullskala brutto scenario.
+Dette endrer tolkningen av 250 mrd. Tallet er ikke lenger nedre kant av full brutto skala. Det bør heller behandles som en **maksimal inkrementell programramme**, betinget av baseline-fradrag, prioritering og framtidig tjenestemiks.
 
 Men dette er fortsatt avgjørende:
 
 > **brutto programstørrelse ≠ nytt finansieringsbehov**
+
+> **250 mrd. = modellert maksimal inkrementell programramme, ikke full brutto kostnad**
 
 Eksisterende sykehusprosjekter, kommunale investeringer og statlige ordninger overlapper deler av behovet.
 
