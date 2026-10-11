@@ -12,13 +12,15 @@ NPCsignals examined the launch structure, case-related selling, promotional clai
 
 Post-freeze research has materially strengthened the launch-infrastructure finding.
 
-At checkpoint **v0.120 / U492**, all **10 of 10 examined Hp4q funders** reproduced the same transaction-construction fingerprint: four batch inflows, full-balance forwarding minus exactly 5,000 lamports, zero ending balance, a second low-value cycle roughly 35 minutes later, and short ten-transaction wallet histories. Their immediate upstream funding also forms an overlapping batch network connected through the four documented BZ9m child wallets.
+At checkpoint **v0.121 / U493**, all **10 of 10 examined Hp4q funders** still reproduce the same transaction-construction fingerprint: four batch inflows, full-balance forwarding minus exactly 5,000 lamports, zero ending balance, a second low-value cycle roughly 35 minutes later, and short ten-transaction wallet histories.
 
-This supports a **coordinated launch-funding network and repeated operational template** at the transaction-structure level.
+The launch-funding network is now verified one layer farther upstream. BZ9m funded all four documented BZ9m child wallets in the same transaction and was the sole signer and fee payer for those transfers. The common upstream wallet `8ySbR18…PLv2` funded all seven relevant direct-source wallets in the same ten-recipient batch, and the same structure repeated at low value roughly 35 minutes later.
 
-It does **not** establish shared private keys, common beneficial ownership, a real-world operator identity, final beneficiary, or a definitive ZYROX–Kytro control link.
+The evidence now establishes a **coordinated multi-layer launch-funding network and repeated operational template at the transaction-structure level**. No common external signer, fee payer or authority across the separate relay wallets was established, and no exchange, custody or service attribution was established. The current upstream evidence boundary is `8ySb`, an unlabeled signer wallet with activity concentrated in the launch window.
 
-Latest post-freeze checkpoint: [ZYROX Hp4q Funder Fingerprint v0.120](../zyrox-investigation-post-freeze/ZYROX_Hp4q_Funder_Fingerprint_v0_120.md).
+This does **not** establish shared private keys, common beneficial ownership, a real-world operator identity, final beneficiary, or a definitive ZYROX–Kytro control link. Beneficiary/control attribution and definitive ZYROX–Kytro on-chain control remain unresolved.
+
+Latest post-freeze checkpoint: [ZYROX BZ9m Service Boundary v0.121](../zyrox-investigation-post-freeze/ZYROX_BZ9m_Service_Boundary_v0_121.md).
 
 Further investigation is ongoing and any later verified checkpoint may refine this summary.
 
