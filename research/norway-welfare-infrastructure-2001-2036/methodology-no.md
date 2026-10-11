@@ -81,11 +81,11 @@ For PISA 2025 oppgir OECD en samlet norsk eksklusjonsrate på **10,4 %**. Result
 Gjeldende utledning:
 
 - brutto restaureringskjerne: **167–192 mrd.**
-- framtidig omsorgskapasitet, skala-test: **76,9–87,9 mrd.**
+- oppdatert omsorgskapasitet, skala-test: **97,4–111,4 mrd.**
 - utstyr / teknisk reserve: **5–10 mrd.**
-- samlet brutto omfang: **omtrent 249–290 mrd.**
+- samlet brutto omfang: **omtrent 269–313 mrd.**
 
-Dette er før baseline-fradrag.
+Dette er før baseline-fradrag. Det tidligere 18 000-estimatet og bruttointervallet 249–290 mrd. beholdes i revisjonssporet som **SUPERSEDED** av SSB-oppdateringen fra 2026.
 
 ## Evidensetiketter
 
