@@ -1,6 +1,6 @@
 # Contradiction Log
 
-Freeze date: **2026-09-30**
+Freeze date: **2026-10-11**
 
 This file records claims that were tested and either contradicted, weakened or left unestablished. Rejected narratives remain visible so the audit trail does not erase failed hypotheses.
 
@@ -83,21 +83,19 @@ Only project-level matching can identify how much planned investment reduces the
 
 NOK 250 billion is a **maximum planning envelope**.
 
-The revised model derives:
+The updated model derives:
 
 - gross restoration core: **NOK 167–192bn**
-- future care-capacity scale: **NOK 76.9–87.9bn**
+- updated future care-capacity scale: **NOK 97.4–111.4bn**
 - equipment / technical reserve: **NOK 5–10bn**
 
 Combined gross scope:
 
-> **approximately NOK 249–290bn before baseline subtraction**
+> **approximately NOK 269–313bn before baseline subtraction**
 
-NOK 250bn therefore sits near the lower end of a full gross-scope scenario.
+The earlier 18,000-place / NOK 249–290bn model is **SUPERSEDED**.
 
-It remains:
-
-> **ceiling, not target**
+NOK 250bn therefore no longer represents the lower edge of full gross scope. It remains a **modelled maximum incremental programme envelope**, conditional on baseline subtraction, prioritisation and service mix.
 
 See: [model-derivation-and-macro-scale.md](model-derivation-and-macro-scale.md)
 
