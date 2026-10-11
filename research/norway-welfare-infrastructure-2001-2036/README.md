@@ -1,7 +1,7 @@
 # Norway Welfare Infrastructure 2001–2036
 
 **Status:** Research package  
-**Freeze date:** 2026-09-30  
+**Freeze date:** 2026-10-11  
 **Research window:** 2001–2025  
 **Programme window:** 2027–2036  
 **Preservation window:** 2037–2050  
@@ -20,9 +20,9 @@ Local and sector-specific scarcity can still be real because Norway combines hig
 
 ## Programme model
 
-The research tests a maximum public-investment envelope of **NOK 250 billion for 2027–2036**.
+The research tests a maximum **incremental programme envelope** of **NOK 250 billion for 2027–2036**.
 
-This is **not** a demonstrated spending requirement.
+This is **not** a demonstrated spending requirement and no longer represents full gross scope after the updated 2026 SSB care-capacity projection.
 
 > **NOK 250 billion is a ceiling, not a spending target.**
 
