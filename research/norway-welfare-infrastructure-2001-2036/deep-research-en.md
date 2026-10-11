@@ -147,13 +147,17 @@ The research tests a maximum ten-year programme envelope of:
 
 This figure is not a documented backlog.
 
-The ceiling is now anchored to a transparent range. A derived gross restoration core is approximately **NOK 167–192 billion**. A pure-scale calculation for the projected need for about 18,000 additional round-the-clock care places adds roughly **NOK 76.9–87.9 billion** at 2026 Husbanken maximum approved project-cost levels. Adding a **NOK 5–10 billion** equipment/technical reserve produces a full gross-scope scale of approximately **NOK 249–290 billion**.
+The ceiling is now anchored to a transparent range. A derived gross restoration core is approximately **NOK 167–192 billion**. Updated SSB projections now estimate a need for about **22,800 additional round-the-clock care places from 2024 to 2035**, replacing the earlier 18,000-place projection. Using 2026 Husbanken maximum approved project-cost levels as a pure scale test adds roughly **NOK 97.4–111.4 billion**. Adding a **NOK 5–10 billion** equipment/technical reserve produces a full gross-scope scale of approximately **NOK 269–313 billion**.
 
-This does **not** mean that NOK 249–290 billion must be newly financed. Existing investment programmes already overlap with part of the need, the care-place calculation is a scale test rather than a forecast, and actual service mix matters.
+This does **not** mean that NOK 269–313 billion must be newly financed. Existing investment programmes already overlap with part of the need, the care-place calculation is a scale test rather than a forecast, and actual service mix matters. The update also means that NOK 250 billion should no longer be described as the lower edge of full gross scope.
 
 Therefore:
 
-> **gross programme size ≠ incremental funding requirement**
+> **NOK 250 billion = modelled maximum incremental programme envelope, not gross full-scope cost**
+
+and
+
+> **gross need − already-funded relevant investment − alternative capacity solutions = incremental programme need**
 
 See [model-derivation-and-macro-scale.md](model-derivation-and-macro-scale.md).
 
