@@ -1,6 +1,6 @@
 # Kilder
 
-Freeze-dato: **2026-09-30**
+Freeze-dato: **2026-10-11**
 
 Primærkilder og offisielle kilder foretrekkes. Bransjeestimater beholdes der de er nyttige, men merkes eksplisitt.
 
@@ -28,6 +28,12 @@ https://www.ssb.no/offentlig-sektor/artikler-og-publikasjoner/kraftig-okning-i-k
 
 **Nasjonale befolkningsframskrivinger 2026**  
 https://www.ssb.no/befolkning/befolkningsframskrivinger/artikler/nasjonale-befolkningsframskrivinger-2026
+
+**Behov for heldøgnsplasser mot 2060 — SSB Rapporter 2026/24**  
+https://www.ssb.no/helse/helsetjenester/artikler/behov-for-heldognsplasser-mot-2060
+
+**Statsbudsjettet 2027 — oppdatert framskriving på 22 800 plasser**  
+https://www.regjeringen.no/no/dokumenter/prop.-1-s-20262027/id3175316/?ch=2
 
 **Tabeller for befolkningsframskrivinger**  
 https://www.ssb.no/befolkning/befolkningsframskrivinger/statistikk/nasjonale-befolkningsframskrivinger/
