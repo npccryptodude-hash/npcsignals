@@ -36,9 +36,9 @@ Norske læringsresultater har svekket seg betydelig, men analysen dokumenterer i
 
 **Status: MODELLED**
 
-Brutto restaureringskjerne er omtrent **167–192 mrd. kroner**. Med framtidig omsorgskapasitet og en mindre utstyrsreserve blir full brutto skala omtrent **249–290 mrd. kroner**.
+Brutto restaureringskjerne er omtrent **167–192 mrd. kroner**. Oppdaterte SSB-framskrivinger anslår nå om lag **22 800 flere heldøgnsplasser fra 2024 til 2035**. Med Husbankens 2026-kostnadsgrenser som skala-test og en mindre utstyrsreserve blir full brutto skala omtrent **269–313 mrd. kroner**.
 
-Derfor beholdes 250 mrd. som et tak nær nedre del av fullskala-scenarioet, ikke som dokumentert regning.
+Dette endrer tolkningen av 250 mrd.: tallet beholdes som en **modellert maksimal inkrementell programramme**, ikke som nedre kant av full brutto skala. Om rammen er tilstrekkelig avhenger av baseline-fradrag, prioritering og framtidig tjenestemiks.
 
 ## Funn 6A — Sparing har alternativkostnad, men utsettelse kan også ha det
 
