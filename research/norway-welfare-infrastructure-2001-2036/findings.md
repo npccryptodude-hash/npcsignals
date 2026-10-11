@@ -52,9 +52,9 @@ The research does not establish that school-building condition caused the nation
 
 The figure is used to stress-test whether a ten-year programme could fit within Norway’s existing fiscal architecture.
 
-A derived gross restoration core is approximately **NOK 167–192 billion**. Adding a pure-scale estimate for 18,000 future round-the-clock care places and a small equipment reserve produces a full gross-scope scale of approximately **NOK 249–290 billion**. Existing funded programmes must then be deducted.
+A derived gross restoration core is approximately **NOK 167–192 billion**. Updated SSB projections now estimate about **22,800 additional round-the-clock care places from 2024 to 2035**. Using 2026 Husbanken maximum approved project-cost levels as a scale test and adding a small equipment reserve produces a full gross-scope scale of approximately **NOK 269–313 billion**.
 
-This is why NOK 250 billion is retained as a ceiling near the lower end of the full gross-scope scenario — not as a demonstrated bill or spending target.
+This update changes the interpretation of NOK 250 billion: it is retained as a **modelled maximum incremental programme envelope**, not as the lower edge of full gross scope. Whether it is sufficient depends on baseline subtraction, prioritisation and future service mix.
 
 See [model-derivation-and-macro-scale.md](model-derivation-and-macro-scale.md).
 
