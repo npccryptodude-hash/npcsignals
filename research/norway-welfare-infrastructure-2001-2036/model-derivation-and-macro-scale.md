@@ -1,6 +1,6 @@
 # Model Derivation and Macro Scale
 
-Freeze date: **2026-09-30**
+Freeze date: **2026-10-11**
 
 This note explains why the NOK 250 billion ceiling exists and how its scale compares with current fiscal aggregates.
 
@@ -24,7 +24,7 @@ This is not incremental funding. Existing investment must still be deducted.
 
 ### B. Future elderly-care capacity
 
-Statistics Norway has projected a need for about **18,000 additional round-the-clock care places by 2035**.
+Updated SSB projections published in 2026 estimate a need for about **22,800 additional round-the-clock care places from 2024 to 2035**. The 2027 state budget explicitly states that this supersedes the earlier 18,000-place projection.
 
 Husbanken’s 2026 maximum approved project cost is approximately:
 
@@ -33,12 +33,12 @@ Husbanken’s 2026 maximum approved project cost is approximately:
 
 A pure scale calculation gives:
 
-- 18,000 × 4.272m = **NOK 76.9 billion**
-- 18,000 × 4.886m = **NOK 87.9 billion**
+- 22,800 × 4.272m = **NOK 97.4 billion**
+- 22,800 × 4.886m = **NOK 111.4 billion**
 
 This is **not** a forecast of actual state expenditure.
 
-The 18,000 places include different service forms, actual project costs vary, and grants cover only part of approved costs.
+The 22,800 places include different service forms, actual project costs vary, and grants cover only part of approved costs. SSB also stresses that the projection is conditional on assumptions about health status, family care and service organisation.
 
 ### C. Equipment / technical reset
 
@@ -49,18 +49,18 @@ Working reserve:
 ### D. Full gross-scope scale
 
 Gross restoration core: **NOK 167–192bn**  
-Future care-capacity scale: **NOK 76.9–87.9bn**  
+Future care-capacity scale: **NOK 97.4–111.4bn**  
 Equipment / technical reserve: **NOK 5–10bn**
 
 Combined gross scale:
 
-> **approximately NOK 249–290 billion**
+> **approximately NOK 269–313 billion**
 
-This gives a transparent reason for retaining **NOK 250 billion as a maximum programme ceiling**: it sits near the lower end of a full-scope gross scenario, while existing funded programmes should reduce the actual incremental requirement.
+The updated projection changes the interpretation of the NOK 250 billion figure. It can no longer be described as the lower edge of a full gross-scope scenario. Instead, **NOK 250 billion remains a modelled maximum incremental programme envelope**, conditional on baseline subtraction, project prioritisation and the future service mix reducing the gross requirement.
 
 The correct sequence remains:
 
-> **gross need − already-funded relevant investment = incremental need**
+> **gross need − already-funded relevant investment − avoided/alternative capacity solutions = incremental programme need**
 
 ## 2. Macro scale against the 2026 fiscal framework
 
