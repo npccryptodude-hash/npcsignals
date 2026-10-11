@@ -110,7 +110,7 @@ Dette gir en brutto restaureringskjerne på omtrent:
 
 Så kommer framtidig kapasitet.
 
-Norge eldes raskt. Oppdaterte SSB-framskrivinger publisert i 2026 anslår behov for omtrent **22 800 flere heldøgnsplasser fra 2024 til 2035**, og dette erstatter det tidligere 18 000-estimatet.
+Norge eldes raskt. Oppdaterte SSB-framskrivinger publisert i 2026 anslår behov for omtrent **22 800 flere heldøgnsplasser fra 2024 til 2035**, og dette erstatter det tidligere 18 000-estimatet. ([SSB, Rapporter 2026/24](https://www.ssb.no/helse/helsetjenester/artikler/behov-for-heldognsplasser-mot-2060))
 
 Bruker vi Husbankens maksimale godkjente anleggskostnader i 2026 som ren skala-test, får vi omtrent:
 
@@ -176,6 +176,38 @@ De reelle begrensningene er mer praktiske:
 Derfor bør programmet heller ikke finansieres med et enkelt «det er ledig plass under handlingsregelen»-argument.
 
 Handlingsregelen er kontekst, ikke en prosjektkonto.
+
+## Sparing mot offentlig realkapital
+
+Finansminister Jens Stoltenberg har nylig brukt et enkelt argument for tilbakeholdenhet: penger Norge valgte å spare framfor å bruke på 1990-tallet har vokst til langt større finansielle verdier.
+
+Det poenget er reelt. Bruker man kapital i dag, kan man gi avkall på flere tiår med finansiell avkastning.
+
+Men nødvendig infrastruktur har også en alternativkostnad på den andre siden.
+
+Den relevante sammenligningen er ikke:
+
+> **spare → verdi senere**
+
+mot
+
+> **bruke → null senere**
+
+Den er nærmere:
+
+> **spare kapital → finansiell eiendel + framtidig avkastning**
+
+mot
+
+> **investere i nødvendig offentlig realkapital → fysisk verdi + unngått forfall + mulig lavere drift + tjenesteverdi − tapt finansiell avkastning**
+
+Det betyr ikke at offentlig infrastruktur generelt slår Oljefondets avkastning. Det betyr at begge sider av alternativkostnaden må verdsettes.
+
+For store prosjekter legger vi derfor inn en **Cost of Delay**-test: hva skjer med rehabiliteringskostnad, sekundærskader, levetid, driftskostnader og tjenestekontinuitet dersom prosjektet utsettes fem eller ti år?
+
+Spørsmålet er ikke bare om Norge skal spare eller bruke.
+
+> **Hvilken bruk av kapital gir den sterkeste langsiktige offentlige balansen?**
 
 ## Modellen som overlever stresstestene
 
