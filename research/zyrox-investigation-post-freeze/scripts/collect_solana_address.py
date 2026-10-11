@@ -24,6 +24,23 @@ def key_value(key):
     return key if isinstance(key, str) else key["pubkey"]
 
 
+def subject_balance(tx, address):
+    keys = [key_value(key) for key in tx["transaction"]["message"]["accountKeys"]]
+    if address not in keys:
+        return None
+    index = keys.index(address)
+    pre = int(tx["meta"]["preBalances"][index])
+    post = int(tx["meta"]["postBalances"][index])
+    return {
+        "account_index": index,
+        "pre_lamports": pre,
+        "post_lamports": post,
+        "pre_SOL": f"{pre / 1_000_000_000:.9f}",
+        "post_SOL": f"{post / 1_000_000_000:.9f}",
+        "delta_lamports": post - pre,
+    }
+
+
 def transfers(tx):
     rows = []
     groups = [("outer", tx["transaction"]["message"].get("instructions", []))]
@@ -75,6 +92,8 @@ def main():
             "fee_lamports": tx["meta"]["fee"],
             "fee_payer": payer,
             "signers": signers,
+            "subject_address": args.address,
+            "subject_balance": subject_balance(tx, args.address),
             "native_transfers": transfers(tx),
             "canonical_json_sha256": hashlib.sha256(json.dumps(tx, sort_keys=True, separators=(",", ":")).encode()).hexdigest(),
         })
