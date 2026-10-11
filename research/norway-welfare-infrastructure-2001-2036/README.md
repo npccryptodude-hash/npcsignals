@@ -64,3 +64,5 @@ Programme logic:
 **CONTRADICTED / NOT ESTABLISHED** — evidence conflicts with the claim or causality has not been shown.
 
 - [opportunity-cost-stress-test.md](opportunity-cost-stress-test.md)
+
+- [final-verification-2026-10-11.md](final-verification-2026-10-11.md)
