@@ -1,0 +1,1221 @@
+{
+  "baseline_commit": "dfecd6c9d26b994d3d9887f15fac03fde007147d",
+  "branch_status": "PAUSED / EXHAUSTED at unlabeled signer-wallet boundary",
+  "case": "ZYROX bounded service/custody attribution upstream of BZ9m children",
+  "children_examined": [
+    {
+      "account_type_at_activity": "signer-capable native SOL system wallet; not a program account",
+      "address": "62DWdupxLroTc2jfiHEXdnzbg5aWemMHwkkTrpU9SNrN",
+      "current_finalized_account_state": "null after zero-balance closure",
+      "earliest_relevant_edge": {
+        "UTC": "2026-09-30T17:16:24Z",
+        "amount_SOL": "2.291022788",
+        "amount_lamports": 2291022788,
+        "canonical_json_sha256": "0d49fec15d56ce24617ec282bcc76e130870c87712c716cd7aca6ec08d134077",
+        "fee_lamports": 5000,
+        "fee_payer": "BZ9mPLztWYrv9xcWtgwnQTVYJVpFXRgRGcbptzHYHSLR",
+        "recipient_post_balance_lamports": 2291022788,
+        "recipient_pre_balance_lamports": 0,
+        "signature": "5gpnfRA4Z1zSY8VX756WB2qsur8STA9CeBetkQwJUijwParm6RsY7V2aTQgfoatG8cknxfpWNTDMM8yMpfmHKjpd",
+        "signers": [
+          "BZ9mPLztWYrv9xcWtgwnQTVYJVpFXRgRGcbptzHYHSLR"
+        ],
+        "slot": 452029143,
+        "transaction_index": 591
+      },
+      "earliest_relevant_source": "BZ9mPLztWYrv9xcWtgwnQTVYJVpFXRgRGcbptzHYHSLR",
+      "history_first_UTC": "2026-09-30T17:16:24Z",
+      "history_last_UTC": "2026-09-30T17:51:47Z",
+      "history_transaction_count": 10,
+      "label": "62DW",
+      "large_cycle_sources": [
+        "BZ9mPLztWYrv9xcWtgwnQTVYJVpFXRgRGcbptzHYHSLR",
+        "FfRJ6bYnGcXjJpQRVeesSiBsq8QKFy5ezwZn4YSyXTW8",
+        "Goys2utQAtyLfZPTE5Mmn9qiKVUoKtCiBJGqrfLXYie7",
+        "HF7hfuVHbRTYtujsan8u9Di1YTGfchz6XuWVjffmYbEU"
+      ],
+      "same_sources_repeat": true,
+      "small_cycle_sources": [
+        "BZ9mPLztWYrv9xcWtgwnQTVYJVpFXRgRGcbptzHYHSLR",
+        "FfRJ6bYnGcXjJpQRVeesSiBsq8QKFy5ezwZn4YSyXTW8",
+        "Goys2utQAtyLfZPTE5Mmn9qiKVUoKtCiBJGqrfLXYie7",
+        "HF7hfuVHbRTYtujsan8u9Di1YTGfchz6XuWVjffmYbEU"
+      ]
+    },
+    {
+      "account_type_at_activity": "signer-capable native SOL system wallet; not a program account",
+      "address": "HuJgSFkbEGvfzmQgewAKRowAXZM3xMGjrxGyHQDTN5y4",
+      "current_finalized_account_state": "null after zero-balance closure",
+      "earliest_relevant_edge": {
+        "UTC": "2026-09-30T17:16:24Z",
+        "amount_SOL": "2.291022788",
+        "amount_lamports": 2291022788,
+        "canonical_json_sha256": "0d49fec15d56ce24617ec282bcc76e130870c87712c716cd7aca6ec08d134077",
+        "fee_lamports": 5000,
+        "fee_payer": "BZ9mPLztWYrv9xcWtgwnQTVYJVpFXRgRGcbptzHYHSLR",
+        "recipient_post_balance_lamports": 2291022788,
+        "recipient_pre_balance_lamports": 0,
+        "signature": "5gpnfRA4Z1zSY8VX756WB2qsur8STA9CeBetkQwJUijwParm6RsY7V2aTQgfoatG8cknxfpWNTDMM8yMpfmHKjpd",
+        "signers": [
+          "BZ9mPLztWYrv9xcWtgwnQTVYJVpFXRgRGcbptzHYHSLR"
+        ],
+        "slot": 452029143,
+        "transaction_index": 591
+      },
+      "earliest_relevant_source": "BZ9mPLztWYrv9xcWtgwnQTVYJVpFXRgRGcbptzHYHSLR",
+      "history_first_UTC": "2026-09-30T17:16:24Z",
+      "history_last_UTC": "2026-09-30T17:51:47Z",
+      "history_transaction_count": 10,
+      "label": "HuJg",
+      "large_cycle_sources": [
+        "BZ9mPLztWYrv9xcWtgwnQTVYJVpFXRgRGcbptzHYHSLR",
+        "FfRJ6bYnGcXjJpQRVeesSiBsq8QKFy5ezwZn4YSyXTW8",
+        "APZkkh6Yu8j9ZXeCWw3j1yXpm5Fy3iPLZBgJeHbuZXcV",
+        "Av44pncd7FBXFatYavC8invaTwiR4jX2SSHxsxLLaaLz"
+      ],
+      "same_sources_repeat": true,
+      "small_cycle_sources": [
+        "BZ9mPLztWYrv9xcWtgwnQTVYJVpFXRgRGcbptzHYHSLR",
+        "FfRJ6bYnGcXjJpQRVeesSiBsq8QKFy5ezwZn4YSyXTW8",
+        "APZkkh6Yu8j9ZXeCWw3j1yXpm5Fy3iPLZBgJeHbuZXcV",
+        "Av44pncd7FBXFatYavC8invaTwiR4jX2SSHxsxLLaaLz"
+      ]
+    },
+    {
+      "account_type_at_activity": "signer-capable native SOL system wallet; not a program account",
+      "address": "Aft6HWo4f4j32ALBLXWsU8LtxMHT4eWwaysVLW2msYow",
+      "current_finalized_account_state": "null after zero-balance closure",
+      "earliest_relevant_edge": {
+        "UTC": "2026-09-30T17:16:24Z",
+        "amount_SOL": "2.291022790",
+        "amount_lamports": 2291022790,
+        "canonical_json_sha256": "0d49fec15d56ce24617ec282bcc76e130870c87712c716cd7aca6ec08d134077",
+        "fee_lamports": 5000,
+        "fee_payer": "BZ9mPLztWYrv9xcWtgwnQTVYJVpFXRgRGcbptzHYHSLR",
+        "recipient_post_balance_lamports": 2291022790,
+        "recipient_pre_balance_lamports": 0,
+        "signature": "5gpnfRA4Z1zSY8VX756WB2qsur8STA9CeBetkQwJUijwParm6RsY7V2aTQgfoatG8cknxfpWNTDMM8yMpfmHKjpd",
+        "signers": [
+          "BZ9mPLztWYrv9xcWtgwnQTVYJVpFXRgRGcbptzHYHSLR"
+        ],
+        "slot": 452029143,
+        "transaction_index": 591
+      },
+      "earliest_relevant_source": "BZ9mPLztWYrv9xcWtgwnQTVYJVpFXRgRGcbptzHYHSLR",
+      "history_first_UTC": "2026-09-30T17:16:24Z",
+      "history_last_UTC": "2026-09-30T17:51:47Z",
+      "history_transaction_count": 10,
+      "label": "Aft6",
+      "large_cycle_sources": [
+        "BZ9mPLztWYrv9xcWtgwnQTVYJVpFXRgRGcbptzHYHSLR",
+        "42D8pXeLYUmmt3i3Rn3mLxqNLwqzi9VVf28QooFe4o21",
+        "Goys2utQAtyLfZPTE5Mmn9qiKVUoKtCiBJGqrfLXYie7",
+        "HF7hfuVHbRTYtujsan8u9Di1YTGfchz6XuWVjffmYbEU"
+      ],
+      "same_sources_repeat": true,
+      "small_cycle_sources": [
+        "BZ9mPLztWYrv9xcWtgwnQTVYJVpFXRgRGcbptzHYHSLR",
+        "42D8pXeLYUmmt3i3Rn3mLxqNLwqzi9VVf28QooFe4o21",
+        "Goys2utQAtyLfZPTE5Mmn9qiKVUoKtCiBJGqrfLXYie7",
+        "HF7hfuVHbRTYtujsan8u9Di1YTGfchz6XuWVjffmYbEU"
+      ]
+    },
+    {
+      "account_type_at_activity": "signer-capable native SOL system wallet; not a program account",
+      "address": "5vaQEDDUw8NX5DDnpaxmDMxKGFCx7nXqkW43r7b6YSAF",
+      "current_finalized_account_state": "null after zero-balance closure",
+      "earliest_relevant_edge": {
+        "UTC": "2026-09-30T17:16:24Z",
+        "amount_SOL": "2.291022788",
+        "amount_lamports": 2291022788,
+        "canonical_json_sha256": "0d49fec15d56ce24617ec282bcc76e130870c87712c716cd7aca6ec08d134077",
+        "fee_lamports": 5000,
+        "fee_payer": "BZ9mPLztWYrv9xcWtgwnQTVYJVpFXRgRGcbptzHYHSLR",
+        "recipient_post_balance_lamports": 2291022788,
+        "recipient_pre_balance_lamports": 0,
+        "signature": "5gpnfRA4Z1zSY8VX756WB2qsur8STA9CeBetkQwJUijwParm6RsY7V2aTQgfoatG8cknxfpWNTDMM8yMpfmHKjpd",
+        "signers": [
+          "BZ9mPLztWYrv9xcWtgwnQTVYJVpFXRgRGcbptzHYHSLR"
+        ],
+        "slot": 452029143,
+        "transaction_index": 591
+      },
+      "earliest_relevant_source": "BZ9mPLztWYrv9xcWtgwnQTVYJVpFXRgRGcbptzHYHSLR",
+      "history_first_UTC": "2026-09-30T17:16:24Z",
+      "history_last_UTC": "2026-09-30T17:51:47Z",
+      "history_transaction_count": 10,
+      "label": "5vaQ",
+      "large_cycle_sources": [
+        "BZ9mPLztWYrv9xcWtgwnQTVYJVpFXRgRGcbptzHYHSLR",
+        "FfRJ6bYnGcXjJpQRVeesSiBsq8QKFy5ezwZn4YSyXTW8",
+        "APZkkh6Yu8j9ZXeCWw3j1yXpm5Fy3iPLZBgJeHbuZXcV",
+        "HF7hfuVHbRTYtujsan8u9Di1YTGfchz6XuWVjffmYbEU"
+      ],
+      "same_sources_repeat": true,
+      "small_cycle_sources": [
+        "BZ9mPLztWYrv9xcWtgwnQTVYJVpFXRgRGcbptzHYHSLR",
+        "FfRJ6bYnGcXjJpQRVeesSiBsq8QKFy5ezwZn4YSyXTW8",
+        "APZkkh6Yu8j9ZXeCWw3j1yXpm5Fy3iPLZBgJeHbuZXcV",
+        "HF7hfuVHbRTYtujsan8u9Di1YTGfchz6XuWVjffmYbEU"
+      ]
+    }
+  ],
+  "classification_boundary": "The common 8ySb funding batch strengthens launch-operation topology only. It does not establish service custody, shared private keys, beneficial ownership, identity, or Kytro control.",
+  "common_upstream_wallet": {
+    "account_type_at_activity": "signer-capable native SOL system wallet; not a program account",
+    "address": "8ySbR18BZrfW98cKoroYLffSfUSwEJZyWQSrTkdyPLv2",
+    "current_finalized_account_state": "null after zero-balance closure",
+    "history_first_UTC": "2026-09-30T17:16:07Z",
+    "history_last_UTC": "2026-09-30T17:51:46Z",
+    "history_transaction_count": 24,
+    "large_batch": {
+      "UTC": "2026-09-30T17:16:24Z",
+      "canonical_json_sha256": "1d04b84cf04eaa4db92783ce29e28e5f65ef4d65aa67a14e5eadc303f2595b69",
+      "fee_lamports": 5000,
+      "fee_payer": "8ySbR18BZrfW98cKoroYLffSfUSwEJZyWQSrTkdyPLv2",
+      "post_balance_lamports": 0,
+      "pre_balance_lamports": 91640966540,
+      "recipient_count": 10,
+      "signature": "5FjePPLz2TRTk4Axzso1mTR4QpdbhLbM7zK7Nco122CyNyQ749v9VwTKoxGU1otHtXNErYTDEmFgGZBdezuBDhat",
+      "signers": [
+        "8ySbR18BZrfW98cKoroYLffSfUSwEJZyWQSrTkdyPLv2"
+      ],
+      "slot": 452029143,
+      "transaction_index": 263,
+      "transfers": [
+        {
+          "amount_SOL": "9.164096154",
+          "amount_lamports": 9164096154,
+          "destination": "BZ9mPLztWYrv9xcWtgwnQTVYJVpFXRgRGcbptzHYHSLR"
+        },
+        {
+          "amount_SOL": "9.164096154",
+          "amount_lamports": 9164096154,
+          "destination": "FfRJ6bYnGcXjJpQRVeesSiBsq8QKFy5ezwZn4YSyXTW8"
+        },
+        {
+          "amount_SOL": "9.164096154",
+          "amount_lamports": 9164096154,
+          "destination": "APZkkh6Yu8j9ZXeCWw3j1yXpm5Fy3iPLZBgJeHbuZXcV"
+        },
+        {
+          "amount_SOL": "9.164096154",
+          "amount_lamports": 9164096154,
+          "destination": "Av44pncd7FBXFatYavC8invaTwiR4jX2SSHxsxLLaaLz"
+        },
+        {
+          "amount_SOL": "9.164096154",
+          "amount_lamports": 9164096154,
+          "destination": "2sA7dcvJzNeWm4c3b48Q6D4FqtFcTfPyS1r5biZHvcMp"
+        },
+        {
+          "amount_SOL": "9.164096154",
+          "amount_lamports": 9164096154,
+          "destination": "6cuPyJc7VsGSRGZYmejH7TXJmhhnNdiaRf5cBjc9QLhV"
+        },
+        {
+          "amount_SOL": "9.164096154",
+          "amount_lamports": 9164096154,
+          "destination": "8hWHXHsaxR5UAaTZSvRkT4i6wFwdLxds24FohaExYZax"
+        },
+        {
+          "amount_SOL": "9.164096154",
+          "amount_lamports": 9164096154,
+          "destination": "42D8pXeLYUmmt3i3Rn3mLxqNLwqzi9VVf28QooFe4o21"
+        },
+        {
+          "amount_SOL": "9.164096154",
+          "amount_lamports": 9164096154,
+          "destination": "Goys2utQAtyLfZPTE5Mmn9qiKVUoKtCiBJGqrfLXYie7"
+        },
+        {
+          "amount_SOL": "9.164096154",
+          "amount_lamports": 9164096154,
+          "destination": "HF7hfuVHbRTYtujsan8u9Di1YTGfchz6XuWVjffmYbEU"
+        }
+      ]
+    },
+    "service_attribution": "UNRESOLVED; no independent service boundary",
+    "small_repeat_batch": {
+      "UTC": "2026-09-30T17:51:46Z",
+      "canonical_json_sha256": "1287f6f7dfcbf05c88188b8878ff48710b34dd4c30b836b0f0de2612bd66f943",
+      "fee_lamports": 5000,
+      "fee_payer": "8ySbR18BZrfW98cKoroYLffSfUSwEJZyWQSrTkdyPLv2",
+      "post_balance_lamports": 0,
+      "pre_balance_lamports": 100215000,
+      "recipient_count": 10,
+      "signature": "2b7koW521Hmhy2R95t4bvpBBUBCZbb8v2MH5L1Ctg1ni5XrMGXBU5R6cQGaz7UYuyeyq2hU3bhtEXcmeRNpufkhX",
+      "signers": [
+        "8ySbR18BZrfW98cKoroYLffSfUSwEJZyWQSrTkdyPLv2"
+      ],
+      "slot": 452037068,
+      "transaction_index": 1107,
+      "transfers": [
+        {
+          "amount_SOL": "0.010021000",
+          "amount_lamports": 10021000,
+          "destination": "BZ9mPLztWYrv9xcWtgwnQTVYJVpFXRgRGcbptzHYHSLR"
+        },
+        {
+          "amount_SOL": "0.010021000",
+          "amount_lamports": 10021000,
+          "destination": "FfRJ6bYnGcXjJpQRVeesSiBsq8QKFy5ezwZn4YSyXTW8"
+        },
+        {
+          "amount_SOL": "0.010021000",
+          "amount_lamports": 10021000,
+          "destination": "APZkkh6Yu8j9ZXeCWw3j1yXpm5Fy3iPLZBgJeHbuZXcV"
+        },
+        {
+          "amount_SOL": "0.010021000",
+          "amount_lamports": 10021000,
+          "destination": "Av44pncd7FBXFatYavC8invaTwiR4jX2SSHxsxLLaaLz"
+        },
+        {
+          "amount_SOL": "0.010021000",
+          "amount_lamports": 10021000,
+          "destination": "2sA7dcvJzNeWm4c3b48Q6D4FqtFcTfPyS1r5biZHvcMp"
+        },
+        {
+          "amount_SOL": "0.010021000",
+          "amount_lamports": 10021000,
+          "destination": "6cuPyJc7VsGSRGZYmejH7TXJmhhnNdiaRf5cBjc9QLhV"
+        },
+        {
+          "amount_SOL": "0.010021000",
+          "amount_lamports": 10021000,
+          "destination": "8hWHXHsaxR5UAaTZSvRkT4i6wFwdLxds24FohaExYZax"
+        },
+        {
+          "amount_SOL": "0.010021000",
+          "amount_lamports": 10021000,
+          "destination": "42D8pXeLYUmmt3i3Rn3mLxqNLwqzi9VVf28QooFe4o21"
+        },
+        {
+          "amount_SOL": "0.010021000",
+          "amount_lamports": 10021000,
+          "destination": "Goys2utQAtyLfZPTE5Mmn9qiKVUoKtCiBJGqrfLXYie7"
+        },
+        {
+          "amount_SOL": "0.010021000",
+          "amount_lamports": 10021000,
+          "destination": "HF7hfuVHbRTYtujsan8u9Di1YTGfchz6XuWVjffmYbEU"
+        }
+      ]
+    }
+  },
+  "current_account_check": {
+    "addresses_checked": 12,
+    "finalized_context_slot": 455641632,
+    "interpretation": "All examined zero-balance accounts currently return null; activity-time signatures remain authoritative.",
+    "non_null_accounts": 0
+  },
+  "direct_source_wallets": [
+    {
+      "account_type_at_activity": "signer-capable native SOL system wallet; not a program account",
+      "address": "BZ9mPLztWYrv9xcWtgwnQTVYJVpFXRgRGcbptzHYHSLR",
+      "current_finalized_account_state": "null after zero-balance closure",
+      "first_funder": "8ySbR18BZrfW98cKoroYLffSfUSwEJZyWQSrTkdyPLv2",
+      "first_inbound": {
+        "UTC": "2026-09-30T17:16:24Z",
+        "amount_SOL": "9.164096154",
+        "amount_lamports": 9164096154,
+        "canonical_json_sha256": "1d04b84cf04eaa4db92783ce29e28e5f65ef4d65aa67a14e5eadc303f2595b69",
+        "fee_lamports": 5000,
+        "fee_payer": "8ySbR18BZrfW98cKoroYLffSfUSwEJZyWQSrTkdyPLv2",
+        "recipient_post_balance_lamports": 9164096154,
+        "recipient_pre_balance_lamports": 0,
+        "signature": "5FjePPLz2TRTk4Axzso1mTR4QpdbhLbM7zK7Nco122CyNyQ749v9VwTKoxGU1otHtXNErYTDEmFgGZBdezuBDhat",
+        "signers": [
+          "8ySbR18BZrfW98cKoroYLffSfUSwEJZyWQSrTkdyPLv2"
+        ],
+        "slot": 452029143,
+        "transaction_index": 263
+      },
+      "history_first_UTC": "2026-09-30T17:16:24Z",
+      "history_last_UTC": "2026-09-30T17:51:46Z",
+      "history_profile": "short-lived four-transaction full-balance batch relay",
+      "history_transaction_count": 4,
+      "label": "BZ9m",
+      "outbound_batch_transaction_count": 2,
+      "outbound_batches": [
+        {
+          "UTC": "2026-09-30T17:16:24Z",
+          "canonical_json_sha256": "0d49fec15d56ce24617ec282bcc76e130870c87712c716cd7aca6ec08d134077",
+          "fee_lamports": 5000,
+          "fee_payer": "BZ9mPLztWYrv9xcWtgwnQTVYJVpFXRgRGcbptzHYHSLR",
+          "signature": "5gpnfRA4Z1zSY8VX756WB2qsur8STA9CeBetkQwJUijwParm6RsY7V2aTQgfoatG8cknxfpWNTDMM8yMpfmHKjpd",
+          "signers": [
+            "BZ9mPLztWYrv9xcWtgwnQTVYJVpFXRgRGcbptzHYHSLR"
+          ],
+          "slot": 452029143,
+          "source_post_balance_lamports": 0,
+          "source_pre_balance_lamports": 9164096154,
+          "transaction_index": 591,
+          "transfers": [
+            {
+              "SOL": "2.291022790",
+              "destination": "Aft6HWo4f4j32ALBLXWsU8LtxMHT4eWwaysVLW2msYow",
+              "instruction_index": 1,
+              "lamports": 2291022790,
+              "scope": "outer",
+              "source": "BZ9mPLztWYrv9xcWtgwnQTVYJVpFXRgRGcbptzHYHSLR"
+            },
+            {
+              "SOL": "2.291022788",
+              "destination": "62DWdupxLroTc2jfiHEXdnzbg5aWemMHwkkTrpU9SNrN",
+              "instruction_index": 2,
+              "lamports": 2291022788,
+              "scope": "outer",
+              "source": "BZ9mPLztWYrv9xcWtgwnQTVYJVpFXRgRGcbptzHYHSLR"
+            },
+            {
+              "SOL": "2.291022788",
+              "destination": "5vaQEDDUw8NX5DDnpaxmDMxKGFCx7nXqkW43r7b6YSAF",
+              "instruction_index": 3,
+              "lamports": 2291022788,
+              "scope": "outer",
+              "source": "BZ9mPLztWYrv9xcWtgwnQTVYJVpFXRgRGcbptzHYHSLR"
+            },
+            {
+              "SOL": "2.291022788",
+              "destination": "HuJgSFkbEGvfzmQgewAKRowAXZM3xMGjrxGyHQDTN5y4",
+              "instruction_index": 4,
+              "lamports": 2291022788,
+              "scope": "outer",
+              "source": "BZ9mPLztWYrv9xcWtgwnQTVYJVpFXRgRGcbptzHYHSLR"
+            }
+          ]
+        },
+        {
+          "UTC": "2026-09-30T17:51:46Z",
+          "canonical_json_sha256": "0c7b93216b608e22bc97e8a6fe4e21f45ebadd233a368ee7d73a0edf0d422557",
+          "fee_lamports": 5000,
+          "fee_payer": "BZ9mPLztWYrv9xcWtgwnQTVYJVpFXRgRGcbptzHYHSLR",
+          "signature": "y566A6m9h1k6XM1VLrWueSdfVstoSmbPbxpL1oyVhZCC6mxPWn4z6s2DbunbfBp5zU3W9KGrjkeeoVaWdaJ4vz3",
+          "signers": [
+            "BZ9mPLztWYrv9xcWtgwnQTVYJVpFXRgRGcbptzHYHSLR"
+          ],
+          "slot": 452037068,
+          "source_post_balance_lamports": 0,
+          "source_pre_balance_lamports": 10021000,
+          "transaction_index": 1264,
+          "transfers": [
+            {
+              "SOL": "0.002504000",
+              "destination": "Aft6HWo4f4j32ALBLXWsU8LtxMHT4eWwaysVLW2msYow",
+              "instruction_index": 1,
+              "lamports": 2504000,
+              "scope": "outer",
+              "source": "BZ9mPLztWYrv9xcWtgwnQTVYJVpFXRgRGcbptzHYHSLR"
+            },
+            {
+              "SOL": "0.002504000",
+              "destination": "62DWdupxLroTc2jfiHEXdnzbg5aWemMHwkkTrpU9SNrN",
+              "instruction_index": 2,
+              "lamports": 2504000,
+              "scope": "outer",
+              "source": "BZ9mPLztWYrv9xcWtgwnQTVYJVpFXRgRGcbptzHYHSLR"
+            },
+            {
+              "SOL": "0.002504000",
+              "destination": "5vaQEDDUw8NX5DDnpaxmDMxKGFCx7nXqkW43r7b6YSAF",
+              "instruction_index": 3,
+              "lamports": 2504000,
+              "scope": "outer",
+              "source": "BZ9mPLztWYrv9xcWtgwnQTVYJVpFXRgRGcbptzHYHSLR"
+            },
+            {
+              "SOL": "0.002504000",
+              "destination": "HuJgSFkbEGvfzmQgewAKRowAXZM3xMGjrxGyHQDTN5y4",
+              "instruction_index": 4,
+              "lamports": 2504000,
+              "scope": "outer",
+              "source": "BZ9mPLztWYrv9xcWtgwnQTVYJVpFXRgRGcbptzHYHSLR"
+            }
+          ]
+        }
+      ],
+      "self_signed_and_self_fee_paid_outbounds": true,
+      "service_attribution": "UNRESOLVED; no independent service boundary"
+    },
+    {
+      "account_type_at_activity": "signer-capable native SOL system wallet; not a program account",
+      "address": "FfRJ6bYnGcXjJpQRVeesSiBsq8QKFy5ezwZn4YSyXTW8",
+      "current_finalized_account_state": "null after zero-balance closure",
+      "first_funder": "8ySbR18BZrfW98cKoroYLffSfUSwEJZyWQSrTkdyPLv2",
+      "first_inbound": {
+        "UTC": "2026-09-30T17:16:24Z",
+        "amount_SOL": "9.164096154",
+        "amount_lamports": 9164096154,
+        "canonical_json_sha256": "1d04b84cf04eaa4db92783ce29e28e5f65ef4d65aa67a14e5eadc303f2595b69",
+        "fee_lamports": 5000,
+        "fee_payer": "8ySbR18BZrfW98cKoroYLffSfUSwEJZyWQSrTkdyPLv2",
+        "recipient_post_balance_lamports": 9164096154,
+        "recipient_pre_balance_lamports": 0,
+        "signature": "5FjePPLz2TRTk4Axzso1mTR4QpdbhLbM7zK7Nco122CyNyQ749v9VwTKoxGU1otHtXNErYTDEmFgGZBdezuBDhat",
+        "signers": [
+          "8ySbR18BZrfW98cKoroYLffSfUSwEJZyWQSrTkdyPLv2"
+        ],
+        "slot": 452029143,
+        "transaction_index": 263
+      },
+      "history_first_UTC": "2026-09-30T17:16:24Z",
+      "history_last_UTC": "2026-09-30T17:51:47Z",
+      "history_profile": "short-lived four-transaction full-balance batch relay",
+      "history_transaction_count": 4,
+      "label": "FfRJ",
+      "outbound_batch_transaction_count": 2,
+      "outbound_batches": [
+        {
+          "UTC": "2026-09-30T17:16:24Z",
+          "canonical_json_sha256": "05d1fc2c06e22ac9f7dd580c654f0ba4c2c3ceda38da7ba857a820f207e8b907",
+          "fee_lamports": 5000,
+          "fee_payer": "FfRJ6bYnGcXjJpQRVeesSiBsq8QKFy5ezwZn4YSyXTW8",
+          "signature": "5L82DH1eqRtKmNJHJfnBmL1z5nxqGDdQHeY3nXhKSRaq14UuadGJS3G98Kaijzio8W98xEe5rByBC8wAb3Ni8txZ",
+          "signers": [
+            "FfRJ6bYnGcXjJpQRVeesSiBsq8QKFy5ezwZn4YSyXTW8"
+          ],
+          "slot": 452029144,
+          "source_post_balance_lamports": 0,
+          "source_pre_balance_lamports": 9164096154,
+          "transaction_index": 177,
+          "transfers": [
+            {
+              "SOL": "2.291022790",
+              "destination": "62DWdupxLroTc2jfiHEXdnzbg5aWemMHwkkTrpU9SNrN",
+              "instruction_index": 1,
+              "lamports": 2291022790,
+              "scope": "outer",
+              "source": "FfRJ6bYnGcXjJpQRVeesSiBsq8QKFy5ezwZn4YSyXTW8"
+            },
+            {
+              "SOL": "2.291022788",
+              "destination": "5vaQEDDUw8NX5DDnpaxmDMxKGFCx7nXqkW43r7b6YSAF",
+              "instruction_index": 2,
+              "lamports": 2291022788,
+              "scope": "outer",
+              "source": "FfRJ6bYnGcXjJpQRVeesSiBsq8QKFy5ezwZn4YSyXTW8"
+            },
+            {
+              "SOL": "2.291022788",
+              "destination": "HuJgSFkbEGvfzmQgewAKRowAXZM3xMGjrxGyHQDTN5y4",
+              "instruction_index": 3,
+              "lamports": 2291022788,
+              "scope": "outer",
+              "source": "FfRJ6bYnGcXjJpQRVeesSiBsq8QKFy5ezwZn4YSyXTW8"
+            },
+            {
+              "SOL": "2.291022788",
+              "destination": "7QYfjfaHQVwqyTzbLsUow297TxLDZ42xWu37Fw9uSRjV",
+              "instruction_index": 4,
+              "lamports": 2291022788,
+              "scope": "outer",
+              "source": "FfRJ6bYnGcXjJpQRVeesSiBsq8QKFy5ezwZn4YSyXTW8"
+            }
+          ]
+        },
+        {
+          "UTC": "2026-09-30T17:51:47Z",
+          "canonical_json_sha256": "9daf627fcda34f0084007c55405c91803d41a9b7bb25072d107c288dd05ffc35",
+          "fee_lamports": 5000,
+          "fee_payer": "FfRJ6bYnGcXjJpQRVeesSiBsq8QKFy5ezwZn4YSyXTW8",
+          "signature": "4Ub2bsJV22jZDmxVcvofSzFFEY4vW6Ddqx8y9fTCngACEmXMmKYL56e3QzMy3PMvyh9h9QPMG4LH7bjPdjH3KXiH",
+          "signers": [
+            "FfRJ6bYnGcXjJpQRVeesSiBsq8QKFy5ezwZn4YSyXTW8"
+          ],
+          "slot": 452037069,
+          "source_post_balance_lamports": 0,
+          "source_pre_balance_lamports": 10021000,
+          "transaction_index": 22,
+          "transfers": [
+            {
+              "SOL": "0.002504000",
+              "destination": "62DWdupxLroTc2jfiHEXdnzbg5aWemMHwkkTrpU9SNrN",
+              "instruction_index": 1,
+              "lamports": 2504000,
+              "scope": "outer",
+              "source": "FfRJ6bYnGcXjJpQRVeesSiBsq8QKFy5ezwZn4YSyXTW8"
+            },
+            {
+              "SOL": "0.002504000",
+              "destination": "5vaQEDDUw8NX5DDnpaxmDMxKGFCx7nXqkW43r7b6YSAF",
+              "instruction_index": 2,
+              "lamports": 2504000,
+              "scope": "outer",
+              "source": "FfRJ6bYnGcXjJpQRVeesSiBsq8QKFy5ezwZn4YSyXTW8"
+            },
+            {
+              "SOL": "0.002504000",
+              "destination": "HuJgSFkbEGvfzmQgewAKRowAXZM3xMGjrxGyHQDTN5y4",
+              "instruction_index": 3,
+              "lamports": 2504000,
+              "scope": "outer",
+              "source": "FfRJ6bYnGcXjJpQRVeesSiBsq8QKFy5ezwZn4YSyXTW8"
+            },
+            {
+              "SOL": "0.002504000",
+              "destination": "7QYfjfaHQVwqyTzbLsUow297TxLDZ42xWu37Fw9uSRjV",
+              "instruction_index": 4,
+              "lamports": 2504000,
+              "scope": "outer",
+              "source": "FfRJ6bYnGcXjJpQRVeesSiBsq8QKFy5ezwZn4YSyXTW8"
+            }
+          ]
+        }
+      ],
+      "self_signed_and_self_fee_paid_outbounds": true,
+      "service_attribution": "UNRESOLVED; no independent service boundary"
+    },
+    {
+      "account_type_at_activity": "signer-capable native SOL system wallet; not a program account",
+      "address": "42D8pXeLYUmmt3i3Rn3mLxqNLwqzi9VVf28QooFe4o21",
+      "current_finalized_account_state": "null after zero-balance closure",
+      "first_funder": "8ySbR18BZrfW98cKoroYLffSfUSwEJZyWQSrTkdyPLv2",
+      "first_inbound": {
+        "UTC": "2026-09-30T17:16:24Z",
+        "amount_SOL": "9.164096154",
+        "amount_lamports": 9164096154,
+        "canonical_json_sha256": "1d04b84cf04eaa4db92783ce29e28e5f65ef4d65aa67a14e5eadc303f2595b69",
+        "fee_lamports": 5000,
+        "fee_payer": "8ySbR18BZrfW98cKoroYLffSfUSwEJZyWQSrTkdyPLv2",
+        "recipient_post_balance_lamports": 9164096154,
+        "recipient_pre_balance_lamports": 0,
+        "signature": "5FjePPLz2TRTk4Axzso1mTR4QpdbhLbM7zK7Nco122CyNyQ749v9VwTKoxGU1otHtXNErYTDEmFgGZBdezuBDhat",
+        "signers": [
+          "8ySbR18BZrfW98cKoroYLffSfUSwEJZyWQSrTkdyPLv2"
+        ],
+        "slot": 452029143,
+        "transaction_index": 263
+      },
+      "history_first_UTC": "2026-09-30T17:16:24Z",
+      "history_last_UTC": "2026-09-30T17:51:47Z",
+      "history_profile": "short-lived four-transaction full-balance batch relay",
+      "history_transaction_count": 4,
+      "label": "42D8",
+      "outbound_batch_transaction_count": 2,
+      "outbound_batches": [
+        {
+          "UTC": "2026-09-30T17:16:24Z",
+          "canonical_json_sha256": "7c167cfc0d3a9c135c7a2ea231556b8ee3f7cc17b976a70d85d21c2a7e2f9e71",
+          "fee_lamports": 5000,
+          "fee_payer": "42D8pXeLYUmmt3i3Rn3mLxqNLwqzi9VVf28QooFe4o21",
+          "signature": "3J1Gi8t8vL5qBw1NQBAbTS1EQnBBs7HD7My9iSMVpQCmmxPSkFpvD2snBNiMpUbvqpqumkaK1Y6WeZKuzPcLskci",
+          "signers": [
+            "42D8pXeLYUmmt3i3Rn3mLxqNLwqzi9VVf28QooFe4o21"
+          ],
+          "slot": 452029146,
+          "source_post_balance_lamports": 0,
+          "source_pre_balance_lamports": 9164096154,
+          "transaction_index": 893,
+          "transfers": [
+            {
+              "SOL": "2.291022790",
+              "destination": "J3TV9vqv4pcir44c4J7WLNwRhGSYVGwM67t9hcasMMXc",
+              "instruction_index": 1,
+              "lamports": 2291022790,
+              "scope": "outer",
+              "source": "42D8pXeLYUmmt3i3Rn3mLxqNLwqzi9VVf28QooFe4o21"
+            },
+            {
+              "SOL": "2.291022788",
+              "destination": "BjyxCNeVmHLKUjK7yiDKhteWp94u752XowAtwJgrWNdi",
+              "instruction_index": 2,
+              "lamports": 2291022788,
+              "scope": "outer",
+              "source": "42D8pXeLYUmmt3i3Rn3mLxqNLwqzi9VVf28QooFe4o21"
+            },
+            {
+              "SOL": "2.291022788",
+              "destination": "7gVXyEyPXYbWcSXN3yHMnwHN8vYFSUGJG266pvmjgBbx",
+              "instruction_index": 3,
+              "lamports": 2291022788,
+              "scope": "outer",
+              "source": "42D8pXeLYUmmt3i3Rn3mLxqNLwqzi9VVf28QooFe4o21"
+            },
+            {
+              "SOL": "2.291022788",
+              "destination": "Aft6HWo4f4j32ALBLXWsU8LtxMHT4eWwaysVLW2msYow",
+              "instruction_index": 4,
+              "lamports": 2291022788,
+              "scope": "outer",
+              "source": "42D8pXeLYUmmt3i3Rn3mLxqNLwqzi9VVf28QooFe4o21"
+            }
+          ]
+        },
+        {
+          "UTC": "2026-09-30T17:51:47Z",
+          "canonical_json_sha256": "0d8e47ad1efa72b9db71a7cfc42c7ef57eda07cc67cdda324d0ec66a73b93eb9",
+          "fee_lamports": 5000,
+          "fee_payer": "42D8pXeLYUmmt3i3Rn3mLxqNLwqzi9VVf28QooFe4o21",
+          "signature": "2oAfCk38xDvbfRSHjy9fxchSuDWQHWMq8BRdjkv5Fasw75jwRMjVrGwfJJmeour66BpGHJmLPbdxFLTnrMK43DPY",
+          "signers": [
+            "42D8pXeLYUmmt3i3Rn3mLxqNLwqzi9VVf28QooFe4o21"
+          ],
+          "slot": 452037070,
+          "source_post_balance_lamports": 0,
+          "source_pre_balance_lamports": 10021000,
+          "transaction_index": 36,
+          "transfers": [
+            {
+              "SOL": "0.002504000",
+              "destination": "J3TV9vqv4pcir44c4J7WLNwRhGSYVGwM67t9hcasMMXc",
+              "instruction_index": 1,
+              "lamports": 2504000,
+              "scope": "outer",
+              "source": "42D8pXeLYUmmt3i3Rn3mLxqNLwqzi9VVf28QooFe4o21"
+            },
+            {
+              "SOL": "0.002504000",
+              "destination": "BjyxCNeVmHLKUjK7yiDKhteWp94u752XowAtwJgrWNdi",
+              "instruction_index": 2,
+              "lamports": 2504000,
+              "scope": "outer",
+              "source": "42D8pXeLYUmmt3i3Rn3mLxqNLwqzi9VVf28QooFe4o21"
+            },
+            {
+              "SOL": "0.002504000",
+              "destination": "7gVXyEyPXYbWcSXN3yHMnwHN8vYFSUGJG266pvmjgBbx",
+              "instruction_index": 3,
+              "lamports": 2504000,
+              "scope": "outer",
+              "source": "42D8pXeLYUmmt3i3Rn3mLxqNLwqzi9VVf28QooFe4o21"
+            },
+            {
+              "SOL": "0.002504000",
+              "destination": "Aft6HWo4f4j32ALBLXWsU8LtxMHT4eWwaysVLW2msYow",
+              "instruction_index": 4,
+              "lamports": 2504000,
+              "scope": "outer",
+              "source": "42D8pXeLYUmmt3i3Rn3mLxqNLwqzi9VVf28QooFe4o21"
+            }
+          ]
+        }
+      ],
+      "self_signed_and_self_fee_paid_outbounds": true,
+      "service_attribution": "UNRESOLVED; no independent service boundary"
+    },
+    {
+      "account_type_at_activity": "signer-capable native SOL system wallet; not a program account",
+      "address": "Goys2utQAtyLfZPTE5Mmn9qiKVUoKtCiBJGqrfLXYie7",
+      "current_finalized_account_state": "null after zero-balance closure",
+      "first_funder": "8ySbR18BZrfW98cKoroYLffSfUSwEJZyWQSrTkdyPLv2",
+      "first_inbound": {
+        "UTC": "2026-09-30T17:16:24Z",
+        "amount_SOL": "9.164096154",
+        "amount_lamports": 9164096154,
+        "canonical_json_sha256": "1d04b84cf04eaa4db92783ce29e28e5f65ef4d65aa67a14e5eadc303f2595b69",
+        "fee_lamports": 5000,
+        "fee_payer": "8ySbR18BZrfW98cKoroYLffSfUSwEJZyWQSrTkdyPLv2",
+        "recipient_post_balance_lamports": 9164096154,
+        "recipient_pre_balance_lamports": 0,
+        "signature": "5FjePPLz2TRTk4Axzso1mTR4QpdbhLbM7zK7Nco122CyNyQ749v9VwTKoxGU1otHtXNErYTDEmFgGZBdezuBDhat",
+        "signers": [
+          "8ySbR18BZrfW98cKoroYLffSfUSwEJZyWQSrTkdyPLv2"
+        ],
+        "slot": 452029143,
+        "transaction_index": 263
+      },
+      "history_first_UTC": "2026-09-30T17:16:24Z",
+      "history_last_UTC": "2026-09-30T17:51:47Z",
+      "history_profile": "short-lived four-transaction full-balance batch relay",
+      "history_transaction_count": 4,
+      "label": "Goys",
+      "outbound_batch_transaction_count": 2,
+      "outbound_batches": [
+        {
+          "UTC": "2026-09-30T17:16:24Z",
+          "canonical_json_sha256": "30185c8c177f4d253495be4adda43df437fe86f3fb3fbf7e26e48710b38e21d2",
+          "fee_lamports": 5000,
+          "fee_payer": "Goys2utQAtyLfZPTE5Mmn9qiKVUoKtCiBJGqrfLXYie7",
+          "signature": "gBuicE5F5pnhmjAcUYM5SaLYJTqWP52VDynpnor9oFke5uGwQwdbUjSRMuzvuUXNBEVgdZSEipg4eHe9YdCZgGt",
+          "signers": [
+            "Goys2utQAtyLfZPTE5Mmn9qiKVUoKtCiBJGqrfLXYie7"
+          ],
+          "slot": 452029146,
+          "source_post_balance_lamports": 0,
+          "source_pre_balance_lamports": 9164096154,
+          "transaction_index": 1364,
+          "transfers": [
+            {
+              "SOL": "2.291022790",
+              "destination": "BjyxCNeVmHLKUjK7yiDKhteWp94u752XowAtwJgrWNdi",
+              "instruction_index": 1,
+              "lamports": 2291022790,
+              "scope": "outer",
+              "source": "Goys2utQAtyLfZPTE5Mmn9qiKVUoKtCiBJGqrfLXYie7"
+            },
+            {
+              "SOL": "2.291022788",
+              "destination": "7gVXyEyPXYbWcSXN3yHMnwHN8vYFSUGJG266pvmjgBbx",
+              "instruction_index": 2,
+              "lamports": 2291022788,
+              "scope": "outer",
+              "source": "Goys2utQAtyLfZPTE5Mmn9qiKVUoKtCiBJGqrfLXYie7"
+            },
+            {
+              "SOL": "2.291022788",
+              "destination": "Aft6HWo4f4j32ALBLXWsU8LtxMHT4eWwaysVLW2msYow",
+              "instruction_index": 3,
+              "lamports": 2291022788,
+              "scope": "outer",
+              "source": "Goys2utQAtyLfZPTE5Mmn9qiKVUoKtCiBJGqrfLXYie7"
+            },
+            {
+              "SOL": "2.291022788",
+              "destination": "62DWdupxLroTc2jfiHEXdnzbg5aWemMHwkkTrpU9SNrN",
+              "instruction_index": 4,
+              "lamports": 2291022788,
+              "scope": "outer",
+              "source": "Goys2utQAtyLfZPTE5Mmn9qiKVUoKtCiBJGqrfLXYie7"
+            }
+          ]
+        },
+        {
+          "UTC": "2026-09-30T17:51:47Z",
+          "canonical_json_sha256": "bcd39fd2089ebf6e6de47b008dfa52d27439fcaab8aa1d7b116b800e9a338c6e",
+          "fee_lamports": 5000,
+          "fee_payer": "Goys2utQAtyLfZPTE5Mmn9qiKVUoKtCiBJGqrfLXYie7",
+          "signature": "4JPo2pQBQANhXvYoz6PUUgxZDt1k9Qf54z6wqJQ93YMMiDuLEWzGQQ9pFd7yht1c8HhByo1PJvEkR2SZqJ9Auhii",
+          "signers": [
+            "Goys2utQAtyLfZPTE5Mmn9qiKVUoKtCiBJGqrfLXYie7"
+          ],
+          "slot": 452037070,
+          "source_post_balance_lamports": 0,
+          "source_pre_balance_lamports": 10021000,
+          "transaction_index": 468,
+          "transfers": [
+            {
+              "SOL": "0.002504000",
+              "destination": "BjyxCNeVmHLKUjK7yiDKhteWp94u752XowAtwJgrWNdi",
+              "instruction_index": 1,
+              "lamports": 2504000,
+              "scope": "outer",
+              "source": "Goys2utQAtyLfZPTE5Mmn9qiKVUoKtCiBJGqrfLXYie7"
+            },
+            {
+              "SOL": "0.002504000",
+              "destination": "7gVXyEyPXYbWcSXN3yHMnwHN8vYFSUGJG266pvmjgBbx",
+              "instruction_index": 2,
+              "lamports": 2504000,
+              "scope": "outer",
+              "source": "Goys2utQAtyLfZPTE5Mmn9qiKVUoKtCiBJGqrfLXYie7"
+            },
+            {
+              "SOL": "0.002504000",
+              "destination": "Aft6HWo4f4j32ALBLXWsU8LtxMHT4eWwaysVLW2msYow",
+              "instruction_index": 3,
+              "lamports": 2504000,
+              "scope": "outer",
+              "source": "Goys2utQAtyLfZPTE5Mmn9qiKVUoKtCiBJGqrfLXYie7"
+            },
+            {
+              "SOL": "0.002504000",
+              "destination": "62DWdupxLroTc2jfiHEXdnzbg5aWemMHwkkTrpU9SNrN",
+              "instruction_index": 4,
+              "lamports": 2504000,
+              "scope": "outer",
+              "source": "Goys2utQAtyLfZPTE5Mmn9qiKVUoKtCiBJGqrfLXYie7"
+            }
+          ]
+        }
+      ],
+      "self_signed_and_self_fee_paid_outbounds": true,
+      "service_attribution": "UNRESOLVED; no independent service boundary"
+    },
+    {
+      "account_type_at_activity": "signer-capable native SOL system wallet; not a program account",
+      "address": "HF7hfuVHbRTYtujsan8u9Di1YTGfchz6XuWVjffmYbEU",
+      "current_finalized_account_state": "null after zero-balance closure",
+      "first_funder": "8ySbR18BZrfW98cKoroYLffSfUSwEJZyWQSrTkdyPLv2",
+      "first_inbound": {
+        "UTC": "2026-09-30T17:16:24Z",
+        "amount_SOL": "9.164096154",
+        "amount_lamports": 9164096154,
+        "canonical_json_sha256": "1d04b84cf04eaa4db92783ce29e28e5f65ef4d65aa67a14e5eadc303f2595b69",
+        "fee_lamports": 5000,
+        "fee_payer": "8ySbR18BZrfW98cKoroYLffSfUSwEJZyWQSrTkdyPLv2",
+        "recipient_post_balance_lamports": 9164096154,
+        "recipient_pre_balance_lamports": 0,
+        "signature": "5FjePPLz2TRTk4Axzso1mTR4QpdbhLbM7zK7Nco122CyNyQ749v9VwTKoxGU1otHtXNErYTDEmFgGZBdezuBDhat",
+        "signers": [
+          "8ySbR18BZrfW98cKoroYLffSfUSwEJZyWQSrTkdyPLv2"
+        ],
+        "slot": 452029143,
+        "transaction_index": 263
+      },
+      "history_first_UTC": "2026-09-30T17:16:24Z",
+      "history_last_UTC": "2026-09-30T17:51:47Z",
+      "history_profile": "short-lived four-transaction full-balance batch relay",
+      "history_transaction_count": 4,
+      "label": "HF7h",
+      "outbound_batch_transaction_count": 2,
+      "outbound_batches": [
+        {
+          "UTC": "2026-09-30T17:16:25Z",
+          "canonical_json_sha256": "73cd5d0a5fc39b404bb8e46274b8d200c8d7dbb0a4530fe05cb8c7e61b9fe37c",
+          "fee_lamports": 5000,
+          "fee_payer": "HF7hfuVHbRTYtujsan8u9Di1YTGfchz6XuWVjffmYbEU",
+          "signature": "3NSM1ui6vtXc8awFFtCmx7UESuxkFwey6A2Bf6AETkdqLwWYwioejU7KExFvmyxoEj2i3LhB2jyhkgnXT1bVX1BU",
+          "signers": [
+            "HF7hfuVHbRTYtujsan8u9Di1YTGfchz6XuWVjffmYbEU"
+          ],
+          "slot": 452029147,
+          "source_post_balance_lamports": 0,
+          "source_pre_balance_lamports": 9164096154,
+          "transaction_index": 167,
+          "transfers": [
+            {
+              "SOL": "2.291022790",
+              "destination": "7gVXyEyPXYbWcSXN3yHMnwHN8vYFSUGJG266pvmjgBbx",
+              "instruction_index": 1,
+              "lamports": 2291022790,
+              "scope": "outer",
+              "source": "HF7hfuVHbRTYtujsan8u9Di1YTGfchz6XuWVjffmYbEU"
+            },
+            {
+              "SOL": "2.291022788",
+              "destination": "Aft6HWo4f4j32ALBLXWsU8LtxMHT4eWwaysVLW2msYow",
+              "instruction_index": 2,
+              "lamports": 2291022788,
+              "scope": "outer",
+              "source": "HF7hfuVHbRTYtujsan8u9Di1YTGfchz6XuWVjffmYbEU"
+            },
+            {
+              "SOL": "2.291022788",
+              "destination": "62DWdupxLroTc2jfiHEXdnzbg5aWemMHwkkTrpU9SNrN",
+              "instruction_index": 3,
+              "lamports": 2291022788,
+              "scope": "outer",
+              "source": "HF7hfuVHbRTYtujsan8u9Di1YTGfchz6XuWVjffmYbEU"
+            },
+            {
+              "SOL": "2.291022788",
+              "destination": "5vaQEDDUw8NX5DDnpaxmDMxKGFCx7nXqkW43r7b6YSAF",
+              "instruction_index": 4,
+              "lamports": 2291022788,
+              "scope": "outer",
+              "source": "HF7hfuVHbRTYtujsan8u9Di1YTGfchz6XuWVjffmYbEU"
+            }
+          ]
+        },
+        {
+          "UTC": "2026-09-30T17:51:47Z",
+          "canonical_json_sha256": "fe044706f4f80c7168a7262e446a637536c18cc19796109ac412f38de421d189",
+          "fee_lamports": 5000,
+          "fee_payer": "HF7hfuVHbRTYtujsan8u9Di1YTGfchz6XuWVjffmYbEU",
+          "signature": "4bjtziC5ovVjQFjNGVXqZawEYhnDmyWGaGxPrqadifXxRKjhGeDT3vsU5g1LXH74B2TwnppFLgMwFKEEMWhZpyt4",
+          "signers": [
+            "HF7hfuVHbRTYtujsan8u9Di1YTGfchz6XuWVjffmYbEU"
+          ],
+          "slot": 452037070,
+          "source_post_balance_lamports": 0,
+          "source_pre_balance_lamports": 10021000,
+          "transaction_index": 640,
+          "transfers": [
+            {
+              "SOL": "0.002504000",
+              "destination": "7gVXyEyPXYbWcSXN3yHMnwHN8vYFSUGJG266pvmjgBbx",
+              "instruction_index": 1,
+              "lamports": 2504000,
+              "scope": "outer",
+              "source": "HF7hfuVHbRTYtujsan8u9Di1YTGfchz6XuWVjffmYbEU"
+            },
+            {
+              "SOL": "0.002504000",
+              "destination": "Aft6HWo4f4j32ALBLXWsU8LtxMHT4eWwaysVLW2msYow",
+              "instruction_index": 2,
+              "lamports": 2504000,
+              "scope": "outer",
+              "source": "HF7hfuVHbRTYtujsan8u9Di1YTGfchz6XuWVjffmYbEU"
+            },
+            {
+              "SOL": "0.002504000",
+              "destination": "62DWdupxLroTc2jfiHEXdnzbg5aWemMHwkkTrpU9SNrN",
+              "instruction_index": 3,
+              "lamports": 2504000,
+              "scope": "outer",
+              "source": "HF7hfuVHbRTYtujsan8u9Di1YTGfchz6XuWVjffmYbEU"
+            },
+            {
+              "SOL": "0.002504000",
+              "destination": "5vaQEDDUw8NX5DDnpaxmDMxKGFCx7nXqkW43r7b6YSAF",
+              "instruction_index": 4,
+              "lamports": 2504000,
+              "scope": "outer",
+              "source": "HF7hfuVHbRTYtujsan8u9Di1YTGfchz6XuWVjffmYbEU"
+            }
+          ]
+        }
+      ],
+      "self_signed_and_self_fee_paid_outbounds": true,
+      "service_attribution": "UNRESOLVED; no independent service boundary"
+    },
+    {
+      "account_type_at_activity": "signer-capable native SOL system wallet; not a program account",
+      "address": "APZkkh6Yu8j9ZXeCWw3j1yXpm5Fy3iPLZBgJeHbuZXcV",
+      "current_finalized_account_state": "null after zero-balance closure",
+      "first_funder": "8ySbR18BZrfW98cKoroYLffSfUSwEJZyWQSrTkdyPLv2",
+      "first_inbound": {
+        "UTC": "2026-09-30T17:16:24Z",
+        "amount_SOL": "9.164096154",
+        "amount_lamports": 9164096154,
+        "canonical_json_sha256": "1d04b84cf04eaa4db92783ce29e28e5f65ef4d65aa67a14e5eadc303f2595b69",
+        "fee_lamports": 5000,
+        "fee_payer": "8ySbR18BZrfW98cKoroYLffSfUSwEJZyWQSrTkdyPLv2",
+        "recipient_post_balance_lamports": 9164096154,
+        "recipient_pre_balance_lamports": 0,
+        "signature": "5FjePPLz2TRTk4Axzso1mTR4QpdbhLbM7zK7Nco122CyNyQ749v9VwTKoxGU1otHtXNErYTDEmFgGZBdezuBDhat",
+        "signers": [
+          "8ySbR18BZrfW98cKoroYLffSfUSwEJZyWQSrTkdyPLv2"
+        ],
+        "slot": 452029143,
+        "transaction_index": 263
+      },
+      "history_first_UTC": "2026-09-30T17:16:24Z",
+      "history_last_UTC": "2026-09-30T17:51:47Z",
+      "history_profile": "short-lived four-transaction full-balance batch relay",
+      "history_transaction_count": 4,
+      "label": "APZk",
+      "outbound_batch_transaction_count": 2,
+      "outbound_batches": [
+        {
+          "UTC": "2026-09-30T17:16:24Z",
+          "canonical_json_sha256": "64ccb229baa758640fb5004837b995f487fd82e7b01f140e96bbd71eca7c6b94",
+          "fee_lamports": 5000,
+          "fee_payer": "APZkkh6Yu8j9ZXeCWw3j1yXpm5Fy3iPLZBgJeHbuZXcV",
+          "signature": "4Xn6hBc682a63yBNtSJZQrDAfF5YY2mVDazSZsCZR5Jf3oiXKLmk8cSSPvfuH8h6w4EAnBZ6jqgntCK2M8KfJa2a",
+          "signers": [
+            "APZkkh6Yu8j9ZXeCWw3j1yXpm5Fy3iPLZBgJeHbuZXcV"
+          ],
+          "slot": 452029144,
+          "source_post_balance_lamports": 0,
+          "source_pre_balance_lamports": 9164096154,
+          "transaction_index": 699,
+          "transfers": [
+            {
+              "SOL": "2.291022790",
+              "destination": "5vaQEDDUw8NX5DDnpaxmDMxKGFCx7nXqkW43r7b6YSAF",
+              "instruction_index": 1,
+              "lamports": 2291022790,
+              "scope": "outer",
+              "source": "APZkkh6Yu8j9ZXeCWw3j1yXpm5Fy3iPLZBgJeHbuZXcV"
+            },
+            {
+              "SOL": "2.291022788",
+              "destination": "HuJgSFkbEGvfzmQgewAKRowAXZM3xMGjrxGyHQDTN5y4",
+              "instruction_index": 2,
+              "lamports": 2291022788,
+              "scope": "outer",
+              "source": "APZkkh6Yu8j9ZXeCWw3j1yXpm5Fy3iPLZBgJeHbuZXcV"
+            },
+            {
+              "SOL": "2.291022788",
+              "destination": "7QYfjfaHQVwqyTzbLsUow297TxLDZ42xWu37Fw9uSRjV",
+              "instruction_index": 3,
+              "lamports": 2291022788,
+              "scope": "outer",
+              "source": "APZkkh6Yu8j9ZXeCWw3j1yXpm5Fy3iPLZBgJeHbuZXcV"
+            },
+            {
+              "SOL": "2.291022788",
+              "destination": "FEuoLLHxHtLaotkGZPcxa4qqWRDxeEfxuXKc3rKK6Z97",
+              "instruction_index": 4,
+              "lamports": 2291022788,
+              "scope": "outer",
+              "source": "APZkkh6Yu8j9ZXeCWw3j1yXpm5Fy3iPLZBgJeHbuZXcV"
+            }
+          ]
+        },
+        {
+          "UTC": "2026-09-30T17:51:47Z",
+          "canonical_json_sha256": "a4ae04a274728acb7fc4d06a3aa12ee218cf73cbfbc91dfa15effe7d8e247790",
+          "fee_lamports": 5000,
+          "fee_payer": "APZkkh6Yu8j9ZXeCWw3j1yXpm5Fy3iPLZBgJeHbuZXcV",
+          "signature": "27zaPRFHtrnWkVq8Vv9ocZzZv4FoGS9ML4M7RviAeKKmEFB2qgtMeiEk3xLdi8SzyrV6JjY3tUg7Pmgx1pdwtN3F",
+          "signers": [
+            "APZkkh6Yu8j9ZXeCWw3j1yXpm5Fy3iPLZBgJeHbuZXcV"
+          ],
+          "slot": 452037069,
+          "source_post_balance_lamports": 0,
+          "source_pre_balance_lamports": 10021000,
+          "transaction_index": 475,
+          "transfers": [
+            {
+              "SOL": "0.002504000",
+              "destination": "5vaQEDDUw8NX5DDnpaxmDMxKGFCx7nXqkW43r7b6YSAF",
+              "instruction_index": 1,
+              "lamports": 2504000,
+              "scope": "outer",
+              "source": "APZkkh6Yu8j9ZXeCWw3j1yXpm5Fy3iPLZBgJeHbuZXcV"
+            },
+            {
+              "SOL": "0.002504000",
+              "destination": "HuJgSFkbEGvfzmQgewAKRowAXZM3xMGjrxGyHQDTN5y4",
+              "instruction_index": 2,
+              "lamports": 2504000,
+              "scope": "outer",
+              "source": "APZkkh6Yu8j9ZXeCWw3j1yXpm5Fy3iPLZBgJeHbuZXcV"
+            },
+            {
+              "SOL": "0.002504000",
+              "destination": "7QYfjfaHQVwqyTzbLsUow297TxLDZ42xWu37Fw9uSRjV",
+              "instruction_index": 3,
+              "lamports": 2504000,
+              "scope": "outer",
+              "source": "APZkkh6Yu8j9ZXeCWw3j1yXpm5Fy3iPLZBgJeHbuZXcV"
+            },
+            {
+              "SOL": "0.002504000",
+              "destination": "FEuoLLHxHtLaotkGZPcxa4qqWRDxeEfxuXKc3rKK6Z97",
+              "instruction_index": 4,
+              "lamports": 2504000,
+              "scope": "outer",
+              "source": "APZkkh6Yu8j9ZXeCWw3j1yXpm5Fy3iPLZBgJeHbuZXcV"
+            }
+          ]
+        }
+      ],
+      "self_signed_and_self_fee_paid_outbounds": true,
+      "service_attribution": "UNRESOLVED; no independent service boundary"
+    },
+    {
+      "account_type_at_activity": "signer-capable native SOL system wallet; not a program account",
+      "address": "Av44pncd7FBXFatYavC8invaTwiR4jX2SSHxsxLLaaLz",
+      "current_finalized_account_state": "null after zero-balance closure",
+      "first_funder": "8ySbR18BZrfW98cKoroYLffSfUSwEJZyWQSrTkdyPLv2",
+      "first_inbound": {
+        "UTC": "2026-09-30T17:16:24Z",
+        "amount_SOL": "9.164096154",
+        "amount_lamports": 9164096154,
+        "canonical_json_sha256": "1d04b84cf04eaa4db92783ce29e28e5f65ef4d65aa67a14e5eadc303f2595b69",
+        "fee_lamports": 5000,
+        "fee_payer": "8ySbR18BZrfW98cKoroYLffSfUSwEJZyWQSrTkdyPLv2",
+        "recipient_post_balance_lamports": 9164096154,
+        "recipient_pre_balance_lamports": 0,
+        "signature": "5FjePPLz2TRTk4Axzso1mTR4QpdbhLbM7zK7Nco122CyNyQ749v9VwTKoxGU1otHtXNErYTDEmFgGZBdezuBDhat",
+        "signers": [
+          "8ySbR18BZrfW98cKoroYLffSfUSwEJZyWQSrTkdyPLv2"
+        ],
+        "slot": 452029143,
+        "transaction_index": 263
+      },
+      "history_first_UTC": "2026-09-30T17:16:24Z",
+      "history_last_UTC": "2026-09-30T17:51:47Z",
+      "history_profile": "short-lived four-transaction full-balance batch relay",
+      "history_transaction_count": 4,
+      "label": "Av44",
+      "outbound_batch_transaction_count": 2,
+      "outbound_batches": [
+        {
+          "UTC": "2026-09-30T17:16:24Z",
+          "canonical_json_sha256": "c02b0793259dd750a516bb52c9313a78b3bbfb454f1700feb94fb218c883f411",
+          "fee_lamports": 5000,
+          "fee_payer": "Av44pncd7FBXFatYavC8invaTwiR4jX2SSHxsxLLaaLz",
+          "signature": "4N2ZnFbQd8zPuZn7GGJYbZSwnFao3NJXz2BoepqhkCLuiGoisFaum2uACjSHXfDS9MWX68qgXgyTX6H8KPzsE6PP",
+          "signers": [
+            "Av44pncd7FBXFatYavC8invaTwiR4jX2SSHxsxLLaaLz"
+          ],
+          "slot": 452029144,
+          "source_post_balance_lamports": 0,
+          "source_pre_balance_lamports": 9164096154,
+          "transaction_index": 1562,
+          "transfers": [
+            {
+              "SOL": "2.291022790",
+              "destination": "HuJgSFkbEGvfzmQgewAKRowAXZM3xMGjrxGyHQDTN5y4",
+              "instruction_index": 1,
+              "lamports": 2291022790,
+              "scope": "outer",
+              "source": "Av44pncd7FBXFatYavC8invaTwiR4jX2SSHxsxLLaaLz"
+            },
+            {
+              "SOL": "2.291022788",
+              "destination": "7QYfjfaHQVwqyTzbLsUow297TxLDZ42xWu37Fw9uSRjV",
+              "instruction_index": 2,
+              "lamports": 2291022788,
+              "scope": "outer",
+              "source": "Av44pncd7FBXFatYavC8invaTwiR4jX2SSHxsxLLaaLz"
+            },
+            {
+              "SOL": "2.291022788",
+              "destination": "FEuoLLHxHtLaotkGZPcxa4qqWRDxeEfxuXKc3rKK6Z97",
+              "instruction_index": 3,
+              "lamports": 2291022788,
+              "scope": "outer",
+              "source": "Av44pncd7FBXFatYavC8invaTwiR4jX2SSHxsxLLaaLz"
+            },
+            {
+              "SOL": "2.291022788",
+              "destination": "9ksTeWyzGvdPqBoGXKmAEDUcPimjs7V7h4TU4vFwbZ1t",
+              "instruction_index": 4,
+              "lamports": 2291022788,
+              "scope": "outer",
+              "source": "Av44pncd7FBXFatYavC8invaTwiR4jX2SSHxsxLLaaLz"
+            }
+          ]
+        },
+        {
+          "UTC": "2026-09-30T17:51:47Z",
+          "canonical_json_sha256": "5be99ec350e9e93e8cb8b3cb070fe699bc8c7abac5512c6315f2d7e7ca196605",
+          "fee_lamports": 5000,
+          "fee_payer": "Av44pncd7FBXFatYavC8invaTwiR4jX2SSHxsxLLaaLz",
+          "signature": "64H7Dqvo5ro65iwWddfiPjbjFhALpFLK7Lfu6sK9CWqQS8fJS4cZPLqqBRAPgXYeo7skKy9WUkXzKyeirusBjoCf",
+          "signers": [
+            "Av44pncd7FBXFatYavC8invaTwiR4jX2SSHxsxLLaaLz"
+          ],
+          "slot": 452037069,
+          "source_post_balance_lamports": 0,
+          "source_pre_balance_lamports": 10021000,
+          "transaction_index": 704,
+          "transfers": [
+            {
+              "SOL": "0.002504000",
+              "destination": "HuJgSFkbEGvfzmQgewAKRowAXZM3xMGjrxGyHQDTN5y4",
+              "instruction_index": 1,
+              "lamports": 2504000,
+              "scope": "outer",
+              "source": "Av44pncd7FBXFatYavC8invaTwiR4jX2SSHxsxLLaaLz"
+            },
+            {
+              "SOL": "0.002504000",
+              "destination": "7QYfjfaHQVwqyTzbLsUow297TxLDZ42xWu37Fw9uSRjV",
+              "instruction_index": 2,
+              "lamports": 2504000,
+              "scope": "outer",
+              "source": "Av44pncd7FBXFatYavC8invaTwiR4jX2SSHxsxLLaaLz"
+            },
+            {
+              "SOL": "0.002504000",
+              "destination": "FEuoLLHxHtLaotkGZPcxa4qqWRDxeEfxuXKc3rKK6Z97",
+              "instruction_index": 3,
+              "lamports": 2504000,
+              "scope": "outer",
+              "source": "Av44pncd7FBXFatYavC8invaTwiR4jX2SSHxsxLLaaLz"
+            },
+            {
+              "SOL": "0.002504000",
+              "destination": "9ksTeWyzGvdPqBoGXKmAEDUcPimjs7V7h4TU4vFwbZ1t",
+              "instruction_index": 4,
+              "lamports": 2504000,
+              "scope": "outer",
+              "source": "Av44pncd7FBXFatYavC8invaTwiR4jX2SSHxsxLLaaLz"
+            }
+          ]
+        }
+      ],
+      "self_signed_and_self_fee_paid_outbounds": true,
+      "service_attribution": "UNRESOLVED; no independent service boundary"
+    }
+  ],
+  "public_attribution_check": {
+    "confirmed_service_exchange_custody_attribution": null,
+    "exact_address_search_result": "No relevant exact-address results or first-party service documentation found.",
+    "official_address_list_match": false,
+    "protocol_owned_account_or_contract": false,
+    "unmistakable_protocol_specific_infrastructure": false
+  },
+  "research_date_UTC": "2026-10-11",
+  "rpc_commitment": "finalized",
+  "rpc_endpoint": "https://api.mainnet-beta.solana.com"
+}
