@@ -44,3 +44,5 @@ Programlogikk:
 - [article/medium-no.md](article/medium-no.md)
 
 - [opportunity-cost-stress-test.md](opportunity-cost-stress-test.md)
+
+- [final-verification-2026-10-11.md](final-verification-2026-10-11.md)
