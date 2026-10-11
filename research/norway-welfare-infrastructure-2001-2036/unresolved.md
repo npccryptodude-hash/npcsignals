@@ -1,12 +1,12 @@
 # Unresolved Questions
 
-Freeze date: **2026-09-30**
+Freeze date: **2026-10-11**
 
 These items are intentionally left open rather than filled with weak estimates.
 
 ## 1. Exact incremental funding requirement
 
-The current gross-scope model is approximately **NOK 249–290 billion** before baseline subtraction.
+The updated gross-scope model is approximately **NOK 269–313 billion** before baseline subtraction, using the 2026 SSB projection of about 22,800 additional round-the-clock care places from 2024 to 2035.
 
 That is not the amount of new funding required.
 
@@ -72,7 +72,7 @@ Future demand may be met through different combinations of:
 - technology
 - service redesign
 
-The 18,000-place calculation is therefore a **scale test**, not a construction forecast.
+The 22,800-place calculation is therefore a **scale test**, not a construction forecast. The earlier 18,000-place estimate is **SUPERSEDED**.
 
 **Status: UNRESOLVED**
 
@@ -140,10 +140,10 @@ This requires future macro conditions and sector-capacity data.
 
 ## 9. Final programme size
 
-NOK 250 billion remains a maximum planning ceiling.
+NOK 250 billion remains a modelled maximum **incremental** programme envelope.
 
-It is now anchored to a gross-scope range rather than chosen as a free-standing round number.
+The updated gross-scope range now exceeds NOK 250 billion before baseline subtraction. The envelope is therefore only potentially sufficient after subtracting already-funded relevant investment, applying project prioritisation and accounting for alternative care-capacity solutions.
 
-But the correct final programme size remains dependent on the 2027 asset audit and baseline subtraction.
+The correct final programme size remains dependent on the 2027 asset audit and baseline subtraction.
 
 **Status: MODEL DEPENDENT**
