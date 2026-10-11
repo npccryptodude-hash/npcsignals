@@ -1,6 +1,6 @@
 # Sources
 
-Freeze date: **2026-09-30**
+Freeze date: **2026-10-11**
 
 Primary and official sources are preferred. Industry estimates are retained where useful but explicitly labelled.
 
@@ -45,6 +45,12 @@ Used for:
 
 **National population projections 2026**  
 https://www.ssb.no/befolkning/befolkningsframskrivinger/artikler/nasjonale-befolkningsframskrivinger-2026
+
+**Need for round-the-clock care places towards 2060 — SSB Reports 2026/24**  
+https://www.ssb.no/helse/helsetjenester/artikler/behov-for-heldognsplasser-mot-2060
+
+**2027 state budget — updated 22,800-place projection**  
+https://www.regjeringen.no/no/dokumenter/prop.-1-s-20262027/id3175316/?ch=2
 
 **Population projection tables**  
 https://www.ssb.no/befolkning/befolkningsframskrivinger/statistikk/nasjonale-befolkningsframskrivinger/
