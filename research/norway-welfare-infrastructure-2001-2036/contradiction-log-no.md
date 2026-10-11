@@ -1,6 +1,6 @@
 # Contradiction Log — Norsk
 
-Freeze-dato: **2026-09-30**
+Freeze-dato: **2026-10-11**
 
 Denne filen beholder påstander som ble testet og enten avvist, svekket eller stående som ikke etablert. Avviste narrativer skal ikke forsvinne fra revisjonssporet.
 
@@ -38,17 +38,17 @@ Sykehusporteføljene blander rehabilitering, erstatning, utvidelse, ny kapasitet
 
 **Status: NOT ESTABLISHED**
 
-Revidert modell gir:
+Oppdatert modell gir:
 
 - brutto restaureringskjerne: **167–192 mrd.**
-- framtidig omsorgskapasitet som skala-test: **76,9–87,9 mrd.**
+- oppdatert omsorgskapasitet som skala-test: **97,4–111,4 mrd.**
 - utstyr / teknisk reserve: **5–10 mrd.**
 
 Samlet brutto:
 
-> **omtrent 249–290 mrd. før baseline-fradrag**
+> **omtrent 269–313 mrd. før baseline-fradrag**
 
-250 mrd. ligger derfor nær nedre del av fullskala brutto-scenarioet.
+Det tidligere 18 000-/249–290-estimatet er **SUPERSEDED**. 250 mrd. er derfor ikke lenger nedre kant av full brutto skala, men en modellert maksimal inkrementell programramme.
 
 ## C-06 — «Alle 250 mrd. må være nye penger»
 
