@@ -1,10 +1,10 @@
 # Uløste spørsmål
 
-Freeze-dato: **2026-09-30**
+Freeze-dato: **2026-10-11**
 
 ## 1. Eksakt inkrementelt finansieringsbehov
 
-Gjeldende brutto modell er omtrent **249–290 mrd. kroner** før baseline-fradrag.
+Oppdatert brutto modell er omtrent **269–313 mrd. kroner** før baseline-fradrag, basert på SSBs 2026-framskriving på om lag 22 800 flere heldøgnsplasser fra 2024 til 2035.
 
 > **brutto behov − allerede finansierte relevante investeringer = inkrementelt behov**
 
@@ -24,7 +24,7 @@ Eksisterende skoleinvesteringer kan ikke kobles rent mot den avledede restaureri
 
 ## 4. Framtidig miks i eldreomsorgen
 
-18 000-plassberegningen er en **skala-test**, ikke en byggeprognose. Behovet kan møtes gjennom ulike kombinasjoner av sykehjem, omsorgsboliger, hjemmetjenester og teknologi.
+22 800-plassberegningen er en **skala-test**, ikke en byggeprognose. Det tidligere 18 000-estimatet er **SUPERSEDED**. Behovet kan møtes gjennom ulike kombinasjoner av sykehjem, omsorgsboliger, hjemmetjenester og teknologi.
 
 **Status: UNRESOLVED**
 
@@ -54,6 +54,6 @@ Det er fortsatt uløst hvor raskt programmet kan gjennomføres uten uakseptabelt
 
 ## 9. Endelig programstørrelse
 
-250 mrd. kroner er fortsatt et maksimalt planleggingstak og avhenger av 2027-kartleggingen og baseline-fradrag.
+250 mrd. kroner beholdes som en modellert maksimal **inkrementell** programramme. Oppdatert brutto skala overstiger 250 mrd. før baseline-fradrag, så tilstrekkeligheten avhenger av allerede finansierte relevante investeringer, prioritering og alternative kapasitetsløsninger.
 
 **Status: MODEL DEPENDENT**
