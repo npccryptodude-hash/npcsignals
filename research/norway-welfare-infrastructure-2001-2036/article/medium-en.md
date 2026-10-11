@@ -116,7 +116,7 @@ That produces a gross restoration core of approximately:
 
 Then comes future capacity.
 
-Norway is ageing rapidly. Updated SSB projections published in 2026 estimate a need for about **22,800 additional round-the-clock care places from 2024 to 2035**, replacing the earlier 18,000-place projection.
+Norway is ageing rapidly. Updated SSB projections published in 2026 estimate a need for about **22,800 additional round-the-clock care places from 2024 to 2035**, replacing the earlier 18,000-place projection. ([SSB, Reports 2026/24](https://www.ssb.no/helse/helsetjenester/artikler/behov-for-heldognsplasser-mot-2060))
 
 Using Husbanken's 2026 maximum approved project-cost levels as a pure scale test gives roughly:
 
@@ -182,6 +182,38 @@ The real constraints are more practical:
 That is why the programme should not be financed through a simplistic “room under the 3% rule” argument.
 
 The fiscal rule is context, not a project bank account.
+
+## Saving versus public capital
+
+Finance Minister Jens Stoltenberg has recently used a simple argument for restraint: money Norway chose to save rather than spend in the 1990s has compounded into much larger financial wealth.
+
+That point is valid. Spending today can mean giving up decades of financial return.
+
+But necessary infrastructure creates an opportunity cost on the other side as well.
+
+The relevant comparison is not:
+
+> **save → value later**
+
+versus
+
+> **spend → zero later**
+
+It is closer to:
+
+> **save capital → financial asset + future investment return**
+
+versus
+
+> **invest in necessary public capital → physical asset + avoided deterioration + possible operating savings + service value − foregone financial return**
+
+That does not mean public infrastructure generally outperforms the sovereign wealth fund. It means both sides of the opportunity cost must be valued.
+
+For major projects, we therefore add a **Cost of Delay** test: what happens to rehabilitation cost, secondary damage, useful life, operating cost and service continuity if the project is postponed five or ten years?
+
+The question is not simply whether Norway should save or spend.
+
+> **Which use of capital creates the stronger long-term public balance sheet?**
 
 ## The model that survives the stress tests
 
