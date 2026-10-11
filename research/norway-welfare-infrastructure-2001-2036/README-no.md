@@ -1,7 +1,7 @@
 # Norsk velferdsinfrastruktur 2001–2036
 
 **Status:** Research-pakke  
-**Freeze-dato:** 2026-09-30  
+**Freeze-dato:** 2026-10-11  
 **Historisk periode:** 2001–2025  
 **Programperiode:** 2027–2036  
 **Bevaringsperiode:** 2037–2050
@@ -20,9 +20,9 @@ Lokal og sektorspesifikk knapphet kan samtidig være reell fordi Norge kombinere
 
 ## Programmodell
 
-Analysen tester en maksimal offentlig investeringsramme på **250 mrd. kroner for 2027–2036**.
+Analysen tester en maksimal **inkrementell programramme** på **250 mrd. kroner for 2027–2036**.
 
-Dette er **ikke** et dokumentert utgiftsbehov.
+Dette er **ikke** et dokumentert utgiftsbehov og representerer ikke lenger full brutto skala etter SSBs oppdaterte omsorgsframskriving.
 
 > **250 milliarder er et tak, ikke et utgiftsmål.**
 
