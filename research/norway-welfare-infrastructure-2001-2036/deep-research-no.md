@@ -147,13 +147,17 @@ Arbeidet tester en maksimal tiårsramme på:
 
 Dette er ikke et dokumentert etterslep.
 
-Rammen er nå koblet til et eksplisitt intervall. En avledet brutto restaureringskjerne ligger rundt **167–192 mrd. kroner**. En ren størrelsesberegning for om lag 18 000 flere heldøgnsplasser gir **76,9–87,9 mrd. kroner** ved Husbankens maksimale godkjente anleggskostnader i 2026. Med **5–10 mrd. kroner** til utstyr/teknisk reserve blir full brutto skala omtrent **249–290 mrd. kroner**.
+Rammen er nå koblet til et eksplisitt intervall. En avledet brutto restaureringskjerne ligger rundt **167–192 mrd. kroner**. Oppdaterte SSB-framskrivinger anslår nå behov for om lag **22 800 flere heldøgnsplasser fra 2024 til 2035**, og dette erstatter det tidligere 18 000-estimatet. Med Husbankens maksimale godkjente anleggskostnader i 2026 som ren skala-test gir dette **97,4–111,4 mrd. kroner**. Med **5–10 mrd. kroner** til utstyr/teknisk reserve blir full brutto skala omtrent **269–313 mrd. kroner**.
 
-Dette betyr **ikke** at 249–290 mrd. må være nye penger. Eksisterende investeringer overlapper, omsorgsberegningen er en skala-test og faktisk tjenestemiks vil påvirke kostnaden.
+Dette betyr **ikke** at 269–313 mrd. må være nye penger. Eksisterende investeringer overlapper, omsorgsberegningen er en skala-test og faktisk tjenestemiks vil påvirke kostnaden. Oppdateringen betyr samtidig at 250 mrd. ikke lenger bør beskrives som nedre kant av full brutto skala.
 
 Derfor:
 
-> **brutto programramme ≠ nytt finansieringsbehov**
+> **250 mrd. = modellert maksimal inkrementell programramme, ikke full brutto kostnad**
+
+og
+
+> **brutto behov − allerede finansierte relevante investeringer − alternative kapasitetsløsninger = inkrementelt programbehov**
 
 Se [model-derivation-and-macro-scale.md](model-derivation-and-macro-scale.md).
 
