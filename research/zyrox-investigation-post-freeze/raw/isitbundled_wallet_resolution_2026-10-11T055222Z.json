@@ -1,0 +1,72 @@
+{
+  "capture_utc": "2026-10-11T05:52:22Z",
+  "request": "GET https://isitbundled.com/api/v1/wallets?wallets=BM9C...jvMN,J7gN...KSu6,Wksb...JmLt,Hze7...yQ7U,Hp4q...yyod&mint=FACvJMFBWQ1GYm9dgZ7XHvs85V1EcK2SqHf534kspump",
+  "mint": "FACvJMFBWQ1GYm9dgZ7XHvs85V1EcK2SqHf534kspump",
+  "wallets": [
+    {
+      "query": "BM9C...jvMN",
+      "address": "BM9CcyErJcu2mjrFvUsRRrD3snGeHDDVirJLvL6EjvMN",
+      "known": true,
+      "roles": [],
+      "bundlerLaunches": 1,
+      "proximaLaunches": 0,
+      "sumoLaunches": 0,
+      "snipedLaunches": 0,
+      "lastSeen": 1780360482,
+      "pnlSol": null,
+      "page": "https://isitbundled.com/BM9CcyErJcu2mjrFvUsRRrD3snGeHDDVirJLvL6EjvMN"
+    },
+    {
+      "query": "J7gN...KSu6",
+      "address": "J7gN6Tds5XG2E8zAocKqjLLdcjBVBT4Btomk4LRLKSu6",
+      "known": true,
+      "roles": ["proxima", "handoff"],
+      "bundlerLaunches": 0,
+      "proximaLaunches": 0,
+      "sumoLaunches": 0,
+      "snipedLaunches": 0,
+      "lastSeen": 1790788689,
+      "pnlSol": null,
+      "page": "https://isitbundled.com/J7gN6Tds5XG2E8zAocKqjLLdcjBVBT4Btomk4LRLKSu6"
+    },
+    {
+      "query": "Wksb...JmLt",
+      "address": "Wksb8WrEFFSeCcyhmxHGK79iFxbA89x8yeWSqgYJmLt",
+      "known": true,
+      "roles": ["proxima", "handoff", "sniper"],
+      "bundlerLaunches": 0,
+      "proximaLaunches": 0,
+      "sumoLaunches": 0,
+      "snipedLaunches": 0,
+      "lastSeen": 1790788686,
+      "pnlSol": null,
+      "page": "https://isitbundled.com/Wksb8WrEFFSeCcyhmxHGK79iFxbA89x8yeWSqgYJmLt"
+    },
+    {
+      "query": "Hze7...yQ7U",
+      "address": "Hze7aNNaW1VewzesJLAUvgrvoKkaMSTX4N4Qu7CSyQ7U",
+      "known": true,
+      "roles": ["proxima", "handoff"],
+      "bundlerLaunches": 0,
+      "proximaLaunches": 0,
+      "sumoLaunches": 0,
+      "snipedLaunches": 0,
+      "lastSeen": 1790788689,
+      "pnlSol": null,
+      "page": "https://isitbundled.com/Hze7aNNaW1VewzesJLAUvgrvoKkaMSTX4N4Qu7CSyQ7U"
+    },
+    {
+      "query": "Hp4q...yyod",
+      "address": "Hp4q9Tfeo5Cp7BuFNe6pRo3DqfPZVAiEampauGzPyyod",
+      "known": true,
+      "roles": ["bundle", "proxima"],
+      "bundlerLaunches": 0,
+      "proximaLaunches": 0,
+      "sumoLaunches": 0,
+      "snipedLaunches": 0,
+      "lastSeen": 1790788686,
+      "pnlSol": null,
+      "page": "https://isitbundled.com/Hp4q9Tfeo5Cp7BuFNe6pRo3DqfPZVAiEampauGzPyyod"
+    }
+  ]
+}
