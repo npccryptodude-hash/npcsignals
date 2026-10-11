@@ -116,25 +116,25 @@ That produces a gross restoration core of approximately:
 
 Then comes future capacity.
 
-Norway is ageing rapidly. The number of people aged 80 and above is projected to rise sharply over the coming decades, and government planning cites a need for around **18,000 additional round-the-clock care places by 2035**.
+Norway is ageing rapidly. Updated SSB projections published in 2026 estimate a need for about **22,800 additional round-the-clock care places from 2024 to 2035**, replacing the earlier 18,000-place projection.
 
 Using Husbanken's 2026 maximum approved project-cost levels as a pure scale test gives roughly:
 
-> **NOK 76.9–87.9 billion**
+> **NOK 97.4–111.4 billion**
 
 That is not a forecast of actual state spending. Different care models, grant rates and project costs matter.
 
 Add a modest **NOK 5–10 billion** technical and equipment reserve, and the full gross-scope range becomes:
 
-> **approximately NOK 249–290 billion**
+> **approximately NOK 269–313 billion**
 
-Now the NOK 250 billion ceiling has a reason to exist.
-
-It sits near the lower edge of a full-scope gross scenario.
+This changes the interpretation of NOK 250 billion. It is no longer the lower edge of full gross scope. It is better treated as a **maximum incremental programme envelope**, conditional on baseline subtraction, project prioritisation and future service mix.
 
 But this remains crucial:
 
 > **gross programme size ≠ incremental funding requirement**
+
+> **NOK 250 billion = modelled maximum incremental programme envelope, not full gross cost**
 
 Existing hospital projects, municipal investments and national support schemes already overlap with parts of the need.
 
