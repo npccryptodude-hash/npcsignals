@@ -103,11 +103,11 @@ The ceiling is tested against a derived gross-scope range and macroeconomic scal
 Current derivation:
 
 - gross restoration core: **NOK 167–192bn**
-- future care-capacity scale test: **NOK 76.9–87.9bn**
+- updated future care-capacity scale test: **NOK 97.4–111.4bn**
 - equipment / technical reserve: **NOK 5–10bn**
-- combined gross scope: **approximately NOK 249–290bn**
+- combined gross scope: **approximately NOK 269–313bn**
 
-This is before baseline subtraction.
+This is before baseline subtraction. The earlier 18,000-place projection and NOK 249–290bn gross-scope range are retained in the audit trail as **SUPERSEDED** by the 2026 SSB update.
 
 ## Evidence labels
 
