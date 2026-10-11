@@ -8,6 +8,20 @@ NPCsignals examined the launch structure, case-related selling, promotional clai
 
 **Frozen technical basis:** v0.114 / ledger U453. Repository preparation does not add research, ledger entries or evidentiary reclassifications.
 
+## Latest investigation update
+
+Post-freeze research has materially strengthened the launch-infrastructure finding.
+
+At checkpoint **v0.120 / U492**, all **10 of 10 examined Hp4q funders** reproduced the same transaction-construction fingerprint: four batch inflows, full-balance forwarding minus exactly 5,000 lamports, zero ending balance, a second low-value cycle roughly 35 minutes later, and short ten-transaction wallet histories. Their immediate upstream funding also forms an overlapping batch network connected through the four documented BZ9m child wallets.
+
+This supports a **coordinated launch-funding network and repeated operational template** at the transaction-structure level.
+
+It does **not** establish shared private keys, common beneficial ownership, a real-world operator identity, final beneficiary, or a definitive ZYROX–Kytro control link.
+
+Latest post-freeze checkpoint: [ZYROX Hp4q Funder Fingerprint v0.120](../zyrox-investigation-post-freeze/ZYROX_Hp4q_Funder_Fingerprint_v0_120.md).
+
+Further investigation is ongoing and any later verified checkpoint may refine this summary.
+
 ## Read the evidence
 
 - [Verified main report](report/ZYROX_Main_Report_v1_1_Verified.md)
