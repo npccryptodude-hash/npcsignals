@@ -1,0 +1,6 @@
+{
+  "url": "https://frontend-api-v2.pump.fun/coins/9XxtEBjxj2Z7DZ775foA1iq2zeZdYMKXD6fq8qCNpump",
+  "retrieved_at": "2026-10-13T04:20:03.054373+00:00",
+  "http_status": 403,
+  "body": "{\n  \"error\": \"access_denied\",\n  \"rule_id\": \"0.18\",\n  \"host\": \"pump.fun\",\n  \"message\": \"request cannot be processed\"\n}"
+}
