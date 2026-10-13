@@ -55,3 +55,20 @@ The supplied summary says A–J were sole signer and fee payer for each respecti
 ## Next single validation task
 
 Export a reproducible **40-row** transfer ledger with exact signature, instruction index, UTC, from, to, lamports and signer/fee-payer for each A–J → F001–F010 edge. Attach raw JSON or hashes/source references. Only after validation should research advance another hop upstream; keep ZYROX separate.
+
+
+## v0.4 follow-up — 40 instructions reproduced by Work (2026-10-13)
+
+**Source:** User supplied screenshots of Work response. Work reports independently re-fetching **ten finalized transaction receipts** (the A–J reference signatures above). Each receipt contains **four outer System Program transfer instructions**. Thus the full set is **10 transaction signatures × 4 instruction indices = 40 individual transfers**, rather than 40 independent transaction signatures. Work reports sender = sole signer = fee payer in each transaction, and the instruction index is zero-based in `transaction.message.instructions`.
+
+- Each reported transfer: **2,858,481 lamports**
+- Total: **114,339,240 lamports = 0.114339240 SOL**
+- Fee: **5,000 lamports per transaction, NOT per transfer**
+- Ten source addresses each funded four distinct F-layer recipients; each recipient received four transfers.
+- Work reports no sender/recipient/amount discrepancy against the v0.3 incidence matrix.
+
+**Evidence label:** CONFIRMED IN WORK'S PARSED-RECEIPT REVIEW; NOT YET RAW-RECEIPT ARCHIVED IN REPOSITORY.
+
+**Outstanding reproducibility artifact:** Screenshots show Work's conclusion and only the beginning of the 40-row table. The complete 40-row ledger, with signature + instruction index for every transfer, has not yet been supplied or stored. Retrieve the full existing Work output (do not conduct new chain research), export as CSV and retain raw JSON or SHA-256 hashes if available.
+
+**Caution:** The structured four-output funding pattern establishes repeated transfers among wallets, not their common human controller, Kytro attribution, or fraud.
