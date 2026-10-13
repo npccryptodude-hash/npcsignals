@@ -32,8 +32,20 @@ All clock times CEST (UTC+2) unless specified. This is distinct from research/zy
 - Work reports co-signed 70,000,000 GLITCH transfer from creator account above to collector-owned token account `2kCcBigGMmdbqRUGfzprxiwMX9EQvKdPUQWRrjf8qpwx`
 - Explorer: https://solscan.io/tx/3ttmcRNck85nUEcnaTZ3nmMWpq9sAdCwjq8EF56Zz4wzsi3dz2AB1G18FibKKmqNzShVexFVanogoAUSJeJXojy1
 
-## Critical provenance gap
-The stopped Work checkpoint concludes that the creator's 70M tokens **reached the seller wallet immediately before the large sale**. However, the supplied text shows creator -> collector TOKEN ACCOUNT and separately identifies the seller wallet. It does **not** give the collector token-account owner, a collector -> seller transaction signature, or a demonstrated account-ownership link. **Thus creator -> sale-wallet attribution is NOT YET INDEPENDENTLY ESTABLISHED BY THE DATA PRESENTED HERE.** Resolve with exact account owners and full movement proof before making this claim publicly.
+## G004 — Historical token account owner verification (Work follow-up, 2026-10-13)
+The user supplied a separate follow-up from Work stating it **independently inspected its previously collected finalized Solana JSON-RPC getTransaction receipt** for signature `3ttmcRNck85nUEcnaTZ3nmMWpq9sAdCwjq8EF56Zz4wzsi3dz2AB1G18FibKKmqNzShVexFVanogoAUSJeJXojy1`.
+
+- Slot: `456135125`; timestamp: `2026-10-12T17:51:18Z`; `meta.err=null`.
+- `transaction.message.accountKeys[8].pubkey` = destination `2kCcBigGMmdbqRUGfzprxiwMX9EQvKdPUQWRrjf8qpwx`.
+- `meta.preTokenBalances` at `accountIndex:8` identifies token-account `owner: 8hiMXA1UHYUAeW6gd6q1XQLWzZkQL48znqgdgY1388B7`.
+- `meta.postTokenBalances` at `accountIndex:8` independently reports the same owner.
+- Outer instruction 1 `Associated Token Account createIdempotent` names the destination and wallet owner consistently. Because a pre-balance exists, **this is not proof of first initialization**. `innerInstructions` empty.
+- **Finding (receipt-verified as reported by Work):** the creator's 70M token transfer went directly into an SPL token account belonging to the identified large seller wallet, one second before its reported large sale. There is no necessary intermediate collector-to-seller transfer; the "collector" is the seller's owned token account.
+- **Scope limitation:** historical token-account ownership is technical account ownership, NOT evidence of human identity, Kytro control, common ultimate beneficiary, net profit, or a fully traced token-level sale allocation.
+- **Audit limitation:** This GitHub update records Work's exact reported parsed-receipt fields; the raw receipt was not independently re-fetched or attached during this edit.
+
+## Resolved provenance gap
+Previous checkpoint left destination token-account ownership unidentified. G004 supplies explicit historical pre/post token-balance owner fields establishing the wallet mapping (as independently inspected within Work). The ownership-mapping question is **resolved on Work's receipt evidence**, with raw JSON export/reproduction still outstanding.
 
 ## Additional user screenshot observations (not chain verified here)
 - Around 19:29 CEST, X screenshot shows @KytroCrypto advertising GLITCH as “THE NEXT 1000x RUNNER”.
@@ -46,8 +58,8 @@ The stopped Work checkpoint concludes that the creator's 70M tokens **reached th
 ## Evidence status
 - OBSERVED: User-provided images and textual Work stopped checkpoint.
 - CLAIMED BY WORK AS RECEIPT-VERIFIED: G001, G002, G003 (signature-linked; re-fetch pending).
-- UNRESOLVED: creator/collector/seller account-control chain; exact Kytro control; human ownership; beneficiaries; net profit; ranking of sellers; FEYN wallet set and 68.5% figure; X deletion status; ZYROX overlap.
+- UNRESOLVED: raw receipt export and independent second-client reproducibility; exact Kytro control; human ownership; beneficiaries; net profit; ranking of sellers; FEYN wallet set and 68.5% figure; X deletion status; ZYROX overlap.
 - NOT ASSESSED: Legal fraud or coordination allegations.
 
 ## Next strictly scoped task
-Re-fetch **only** the three signatures and their token account owner mappings from independent finalized Solana RPC. Document whether `2kCc...` token account belongs to `8hiMX...` or provide missing transfer path. Preserve raw JSON and reproducible balance deltas. Do not extrapolate ownership based on timing.
+Preserve raw finalized RPC JSON receipts for G001–G004 with reproducible token/WSOL balance deltas, then independently confirm the creator-to-seller token-account ownership mapping. Do not infer human control, token-level sale allocation or net profit solely from wallet ownership.
