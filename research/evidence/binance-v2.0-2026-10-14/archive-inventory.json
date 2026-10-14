@@ -1,0 +1,41 @@
+[
+  {
+    "file": "original_archives/NPCsignals_Binance_U300_Evidence_Package_v1_0.zip",
+    "bytes": 643140,
+    "sha256": "c8e287e3cc6d7b6b2a58049e13a235581b44e0420e5f828c09929b2e0c8e59b6",
+    "members": 46,
+    "provenance": "Original prior Work ZIP, copied byte-for-byte",
+    "unpacked_root": "originals/NPCsignals_Binance_U300"
+  },
+  {
+    "file": "original_archives/NPCsignals_Additional_Binance_Transfers_2026-09-30_v1_0.zip",
+    "bytes": 1125853,
+    "sha256": "27c1a32ddb1534c55b5165556cefb18bfbcbe32b98554139d56c7dfe7f9fe434",
+    "members": 259,
+    "provenance": "Original prior Work ZIP, copied byte-for-byte",
+    "unpacked_root": "originals/NPCsignals_Additional_Exchange_Transfers"
+  },
+  {
+    "file": "original_archives/NPCsignals_56HE_Binance_USDT_Disposition_Checkpoint_v1_0.zip",
+    "bytes": 68360,
+    "sha256": "7fd3a07eac0d25e886e69e2720c870f25df80a15373291265ed0b796c03e9180",
+    "members": 46,
+    "provenance": "Original prior Work ZIP, copied byte-for-byte",
+    "unpacked_root": "originals/NPCsignals_56HE_Binance"
+  },
+  {
+    "file": "original_archives/NPCsignals_U300_Binance_inbound_checkpoint_2026-10-14.zip",
+    "bytes": 14937184,
+    "sha256": "9654573014547ad70d4322b1d6cd9d4786202383272bffb21bf8edcd3853fb41",
+    "members": 21,
+    "provenance": "Original prior Work ZIP, copied byte-for-byte",
+    "unpacked_root": null
+  },
+  {
+    "file": "original_archives/NPCsignals_Binance_Archive_2026-10-14.zip",
+    "bytes": 4574,
+    "sha256": "35a9d716fd41e7facbdcd958fbc88d4f092fb40d2c035fe8c97a3f322d9001b0",
+    "members": 3,
+    "provenance": "Recovered Library secondary-report ZIP; not original receipt evidence"
+  }
+]

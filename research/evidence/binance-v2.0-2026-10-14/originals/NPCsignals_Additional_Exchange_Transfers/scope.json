@@ -1,0 +1,18 @@
+[
+  {
+    "wallet": "6hR7GwHpdHbJgNJAagm64KMsMYu8mR6ExzmbE5N8wv1N",
+    "receipt_count": 100,
+    "earliest_utc": "2026-09-24T16:44:17+00:00",
+    "latest_utc": "2026-09-30T17:15:04+00:00",
+    "pagination_token": "2N9wXGZFCakFhot7P951285Fj2VpBftHNWKWWcs6jU99gQgcR3K9UZoJwC7gPpLDzmm1Z4mMg79ejQr4gouhwCEK",
+    "terminal_page": false
+  },
+  {
+    "wallet": "8zHcWujHhyJri3CRTcWUGmT5WSRdwW7xrns3WTTkPGvS",
+    "receipt_count": 100,
+    "earliest_utc": "2026-09-30T17:02:21+00:00",
+    "latest_utc": "2026-09-30T17:17:55+00:00",
+    "pagination_token": "2CuHXsP2FrzijaPQUDQeyhQ9GuebVfWaEt47SbXcem1PSgBtNkhhAochrfu9Hqbk9kkqSixrz4WtiQzMyDLZ5bk3",
+    "terminal_page": false
+  }
+]

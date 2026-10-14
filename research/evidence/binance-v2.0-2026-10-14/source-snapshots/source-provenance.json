@@ -1,0 +1,38 @@
+[
+  {
+    "repository_path": "research/EXCHANGE_ATTRIBUTION_ARCHIVE_STATUS_2026-10-14.md",
+    "commit": "6348371f21b8dbb6693297ef775092db9fed6ff1",
+    "sha256": "ec8952fbd78e141f94cbb612bb874c74db6677682700f2be60ef6eafb34e08d8",
+    "git_blob_sha": "0d37639e72c3b403262bedf66aebb6e421d2a832"
+  },
+  {
+    "repository_path": "research/EXCHANGE_ATTRIBUTION_LEDGER_v0.1.md",
+    "commit": "6348371f21b8dbb6693297ef775092db9fed6ff1",
+    "sha256": "e10f7554e5b1329f70a830144959a359a5598ff55aae7cf8d891d5f34026a992",
+    "git_blob_sha": "e6a0c69fcaac7ce06557eeff7d12b45366af50ca"
+  },
+  {
+    "repository_path": "research/EXCHANGE_ATTRIBUTION_LEDGER_v0.2.md",
+    "commit": "6348371f21b8dbb6693297ef775092db9fed6ff1",
+    "sha256": "b68a69a66aa74f826871980ecdbccf2c703ca151e9021ffe80b2d95ba31dd5e0",
+    "git_blob_sha": "bb4ca1b52f3035f0e148682957906e447404efc0"
+  },
+  {
+    "repository_path": "research/BINANCE_U300_EVIDENCE_PACKAGE_v1.0_CHECKPOINT.md",
+    "commit": "6348371f21b8dbb6693297ef775092db9fed6ff1",
+    "sha256": "8331dad5f5f0e64b245c4bcb8738d7d53c8ea1cb00bc3f8c9bf4abc26093d373",
+    "git_blob_sha": "162700a0679092b98a60dbc7505448ea0fcbdded"
+  },
+  {
+    "repository_path": "research/BINANCE_U300_INDEPENDENT_LABEL_CORROBORATION_2026-10-14.md",
+    "commit": "6348371f21b8dbb6693297ef775092db9fed6ff1",
+    "sha256": "e626b9730a503537257e2a3e3c9cc65b68e2050eb170fa29b54255f67eae91a2",
+    "git_blob_sha": "04b1260d53ea4e848cacb5580d64f1f82acaf6b5"
+  },
+  {
+    "repository_path": "research/EXCHANGE_BINANCE_U300_LEAD_2026-10-14.md",
+    "commit": "6348371f21b8dbb6693297ef775092db9fed6ff1",
+    "sha256": "12b8fd9b7db5f97e1b1e7eb8052f2ac032053fffa325b850a6d7829b67845155",
+    "git_blob_sha": "7af4662271753c60ac3e3384c2f592f6b23de475"
+  }
+]

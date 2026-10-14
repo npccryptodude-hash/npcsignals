@@ -1,0 +1,16 @@
+{
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "getTransaction",
+    "params": [
+      "T7To7CBLjCmV16JL3vTyuTvgze5kuuRvXjdoP6AgmQiRu8urjsPGpJm3nsxypA9cipPD8UjmyMqeDBEvjAK55zk",
+      {
+        "encoding": "jsonParsed",
+        "commitment": "finalized",
+        "maxSupportedTransactionVersion": 1
+      }
+    ]
+  },
+  "retrieved_utc_host_clock": "2026-10-14T06:24:49.383714+00:00"
+}

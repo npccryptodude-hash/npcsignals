@@ -1,0 +1,29 @@
+{
+  "assessment_date_context":"2026-10-14",
+  "on_chain_transfer_status":"CONFIRMED",
+  "historical_token_owners_status":"CONFIRMED",
+  "exchange_affiliation_status":"SUPPORTED by two independent public sources",
+  "receiver_token_account":"CyBjGpte4Npi5zNkdtWumPxVW4kpMR8BuFSbA587xZES",
+  "historical_receiver_owner":"5tzFkiKscXHK5ZXCGbXZxdw7gTjjD1mBwuoFbhUvuAi9",
+  "sources":[
+    {"id":"ATTR001","publisher":"Bitquery","url":"https://bitquery.io/investigations/libra-case-dismissed","reference":"turn79view0","line":157,"targeted_excerpt":"Binance hot | 5tzFkiKscXHK5ZXCGbXZxdw7gTjjD1mBwuoFbhUvuAi9 | In Binance's proof of reserves","observation":"Exact case-sensitive key is identified as a Binance hot wallet using the publisher's own labels. Publisher also says it appears in Binance reserves.","limitation":"No direct Binance publication binding or Binance-confirmed historical control is established by this independent source. Used for address attribution only, not to assert a connection to LIBRA."},
+    {"id":"ATTR002","publisher":"Solscan","url":"https://solscan.io/account/5tzFkiKscXHK5ZXCGbXZxdw7gTjjD1mBwuoFbhUvuAi9","reference":"turn79view1","captured_title":"Binance 2 | Account 5tzFkiKscXHK5ZXCGbXZxdw7gTjjD1mBwuoFbhUvuAi9 | Solscan","limitation":"Exact-address title corroboration. Dynamic body label table not fully rendered."},
+    {"id":"ACCOUNT001","url":"https://solscan.io/account/CyBjGpte4Npi5zNkdtWumPxVW4kpMR8BuFSbA587xZES","reference":"turn79view2","observation":"Page title identifies a token account but dynamic body does not expose its owner. Historical owner proof comes from the finalized transaction, not this page."},
+    {"id":"CASE001","url":"https://github.com/npccryptodude-hash/npcsignals/blob/main/research/EXCHANGE_ATTRIBUTION_LEDGER_v0.1.md","observation":"Current read-only public ledger documents the exact 6hR7 source as a cross-case wallet. Complete fresh response and Git blob SHA are in github-case-connection.json."},
+    {"id":"PROVIDER001","url":"https://www.binance.com/en/support/law-enforcement/guidelines","observation":"Official authorized-investigator channel identified in the earlier checkpoint; no provider request made in this pass."}
+  ],
+  "rpc_endpoint":"https://api.mainnet-beta.solana.com",
+  "rpc_methods":["getSignaturesForAddress with finalized commitment and explicit terminal empty pages","getTransaction with finalized commitment, jsonParsed and maxSupportedTransactionVersion=1","getSignatureStatuses with searchTransactionHistory=true"],
+  "negative_findings":[
+    "No native SOL outflow by 56HE appeared in its four returned wallet-key references; its native balance was zero in selected receipts.",
+    "No account closure, swap, bridge or staking instruction appeared in the five selected receipts. Specified token account remained open with 0.001000 USDT in the last returned receipt.",
+    "Fee payer 5JPAWfhLNsYVk3tPpD3gHvpHbvaXDbpUpy1wUfQVYRS2 was an additional signer; its operator/service affiliation was not investigated and is unresolved.",
+    "Exact official Binance address binding was not recovered in the prior attribution checkpoint. This pass reused that limitation and did not reopen U300 receipt analysis or rerun its official-source search.",
+    "Other closed or undiscovered historical token accounts owned by 56HE were not exhaustively inventoried. Completeness claim is limited to the two requested account-key histories returned by the provider.",
+    "An opaque DeJBGdM program instruction appears in the initial account-creation receipt. Its purpose remains unresolved. It was not treated as a swap, bridge, exchange affiliation or human-control proof.",
+    "Dust sender 6hR7yvr3V8igYCeiZaHpLh443kwKmgiiWL2DXk3ywv1N is NOT the case wallet 6hR7GwHpdHbJgNJAagm64KMsMYu8mR6ExzmbE5N8wv1N. Similar abbreviated forms do not establish a connection. Dust purpose not assessed."
+  ],
+  "unresolved":["Customer credit versus internal custodial sweep","Binance control of 56HE or fee payer","Historical exchange confirmation at September 24 UTC","Customer or beneficial-owner identity","Common human control"],
+  "boundary":"No U300 receipts, recipient histories, fee-payer histories or second-hop transactions retrieved. Account labels checked publicly; no exchange contacted and GitHub unchanged.",
+  "web_preservation":"Targeted observed excerpts/title metadata and URLs, not original full HTML pages."
+}

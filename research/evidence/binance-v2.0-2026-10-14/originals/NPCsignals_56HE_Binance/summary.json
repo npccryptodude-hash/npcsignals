@@ -1,0 +1,19 @@
+{
+  "unique_receipts": 5,
+  "ledger_rows": 28,
+  "token_account_opening_raw": 0,
+  "known_case_incoming_raw": 995831402,
+  "other_incoming_raw": 1100,
+  "outgoing_raw": 995831502,
+  "closing_raw": 1000,
+  "known_case_incoming_USDT": "995.831402",
+  "other_incoming_USDT": "0.0011",
+  "outgoing_USDT": "995.831502",
+  "closing_USDT": "0.001",
+  "exchange_receiver_token_account": "CyBjGpte4Npi5zNkdtWumPxVW4kpMR8BuFSbA587xZES",
+  "historical_receiver_owner": "5tzFkiKscXHK5ZXCGbXZxdw7gTjjD1mBwuoFbhUvuAi9",
+  "attribution": "SUPPORTED by independent sources; on-chain transfer and token owner CONFIRMED",
+  "same_receiver_owner_as_U300": "Yes, different case-network sending wallet; no U300 receipt reanalysed",
+  "opaque_instructions": 11,
+  "fee_lamports_total": 184038
+}

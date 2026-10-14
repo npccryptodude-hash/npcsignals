@@ -1,0 +1,17 @@
+{
+  "jsonrpc": "2.0",
+  "id": 1,
+  "method": "getSignatureStatuses",
+  "params": [
+    [
+      "2tf6yfHRFNXnxS9bcssybjNETTT7Agv5CsUTBGutCcSxCQgpe2tUM1RBqtMvm8dESroqR3RnE8YcLuyd8todfF4v",
+      "3QrJH49NS39jAtvEPn8BxCNGqkiwMZk1kSDJ2GU8f8jVU5GxVzxzd9bKSLx2KYkm7G6mPLP8Vsk3S94TuZMiayz2",
+      "45zVBfuvgtptBZuABucUsMiPHYQfG4pf4ium1629LREQyeFqCWF1rEh5VM5pVT4ukmYPPr3LDMbs7F6ku2RDg1kw",
+      "64voUTp7NHZMZieXJDnJ1yNfMHaCN9GtNFP39AqQxcgS6QTKCeeGzmJgeB3qPmsAFNpzZky3c6kYcYjVAUQ81MUJ",
+      "jTMFJTR1HttuuyKXwhEwYKUGy4htp6hwrfnh9tzmoB2TsZkUPBnpc9evhEisCCHtfAFXvCMUeyWGqtPB8YUm4Dn"
+    ],
+    {
+      "searchTransactionHistory": true
+    }
+  ]
+}

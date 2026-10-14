@@ -1,0 +1,12 @@
+{
+  "verified_additional_transfers": 3,
+  "lamports_total": 450032469956,
+  "SOL_total": "450.032469956",
+  "fees_total_lamports": 27000,
+  "discovery_receipts": 200,
+  "discovery_outgoing_or_internal_movements": 96,
+  "internal_owner_movements": 1,
+  "registry_candidate_matches": [],
+  "same_wallet_and_receiver_as_first_checkpoint": true,
+  "independent_second_exchange_or_wallet_branch": false
+}

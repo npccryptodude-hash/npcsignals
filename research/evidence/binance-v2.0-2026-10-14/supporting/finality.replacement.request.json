@@ -1,0 +1,14 @@
+{
+  "jsonrpc": "2.0",
+  "id": 1,
+  "method": "getSignatureStatuses",
+  "params": [
+    [
+      "61v1KxQkjSpMTenBBKE3nCSyh4EBZFV8gffPdaNojEjXvvzavdCqEbHqWQ8ewf3eWPTiqrsLbUErdpbPzDFGp13B",
+      "2vj3WSdQ4LRhTzE5EGjutkAfXrtmhLMqaCRxYdAVeJqByPn5GmGsM7YYCASWhFP9uovjydBL91NZFJmtBcu1o51E"
+    ],
+    {
+      "searchTransactionHistory": true
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "address": "56HEQykziUkwvpK5uPzFrRbGD4Ek8HdWgjgeDvNmDoEJ",
+    "indexed_count": 4,
+    "selected_count": 4,
+    "history_terminal_empty_page": true,
+    "receipt_selection_complete": true,
+    "selection_rule": "all if <=300; otherwise 100 closest pre-payment and 200 earliest post-payment among indexed rows"
+  },
+  {
+    "address": "CzissnPHhEu7NifSLfwhuvFMdfu7F8X4vR2HhF1o1PEL",
+    "indexed_count": 5,
+    "selected_count": 5,
+    "history_terminal_empty_page": true,
+    "receipt_selection_complete": true,
+    "selection_rule": "all if <=300; otherwise 100 closest pre-payment and 200 earliest post-payment among indexed rows"
+  }
+]

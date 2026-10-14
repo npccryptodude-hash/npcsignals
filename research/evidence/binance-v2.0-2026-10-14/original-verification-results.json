@@ -1,0 +1,20 @@
+[
+  {
+    "archive_root": "NPCsignals_Binance_U300",
+    "command": "python3 originals/NPCsignals_Binance_U300/verify.py",
+    "stdout": "PASS: hashes; 7 successful finalized receipt/status pairs; 17 exact ledger rows; native balances and fees; exact current GitHub U300 blob and target transfer. Attribution is separately SUPPORTED; customer credit UNRESOLVED.\n",
+    "result": "PASS"
+  },
+  {
+    "archive_root": "NPCsignals_Additional_Exchange_Transfers",
+    "command": "python3 originals/NPCsignals_Additional_Exchange_Transfers/verify.py",
+    "stdout": "PASS: hashes; 3 independent successful finalized receipts; 12 exact instruction/fee rows; 450.032469956 SOL; account deltas; 200 bounded discovery objects; exact U300 primary address. Exchange labels/customer credit require separate evidence review.\n",
+    "result": "PASS"
+  },
+  {
+    "archive_root": "NPCsignals_56HE_Binance",
+    "command": "python3 originals/NPCsignals_56HE_Binance/verify.py",
+    "stdout": "PASS: checksums, two complete returned histories, five successful finalized receipts, 28 ledger rows, historical owners/signers/fee payer, 995.831502 USDT exchange-infrastructure transfer and 0.001000 USDT closing balance. Exchange affiliation separately SUPPORTED; customer credit UNRESOLVED.\n",
+    "result": "PASS"
+  }
+]

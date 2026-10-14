@@ -1,0 +1,20 @@
+[
+  {
+    "signature": "61v1KxQkjSpMTenBBKE3nCSyh4EBZFV8gffPdaNojEjXvvzavdCqEbHqWQ8ewf3eWPTiqrsLbUErdpbPzDFGp13B",
+    "new_capture_date_context_utc": "2026-10-14",
+    "host_clock_capture_untrusted": "2026-10-14T11:50:08.214899+00:00",
+    "original_parsed_equals_replacement": true,
+    "purpose": "Replace missing transport response for an already documented network-link receipt; no new wallet/history investigation",
+    "missing_original": "Original JSON-RPC transport envelope/request not recovered",
+    "slot": 456135573
+  },
+  {
+    "signature": "2vj3WSdQ4LRhTzE5EGjutkAfXrtmhLMqaCRxYdAVeJqByPn5GmGsM7YYCASWhFP9uovjydBL91NZFJmtBcu1o51E",
+    "new_capture_date_context_utc": "2026-10-14",
+    "host_clock_capture_untrusted": "2026-10-14T11:50:14.240981+00:00",
+    "original_parsed_equals_replacement": true,
+    "purpose": "Replace missing transport response for an already documented network-link receipt; no new wallet/history investigation",
+    "missing_original": "Original JSON-RPC transport envelope/request not recovered",
+    "slot": 452703976
+  }
+]

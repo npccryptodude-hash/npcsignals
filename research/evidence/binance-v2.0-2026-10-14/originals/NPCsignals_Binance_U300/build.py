@@ -1,0 +1,20 @@
+import pathlib,json,datetime,hashlib
+from decimal import Decimal
+P=pathlib.Path(__file__).resolve().parent
+statuses=json.loads((P/'finality.json').read_text());rows=[];audit=[];headers=['id','signature','utc','slot','transaction_index','instruction_index','program_id','instruction_type','source','destination','authority','lamports','SOL','signers','fee_payer','fee_lamports','source_pre_lamports','source_post_lamports','destination_pre_lamports','destination_post_lamports','token_mint','historical_token_owner','execution_result','confirmation','receipt_file','source_url']
+signatures=list(statuses)
+for ti,sig in enumerate(signatures,1):
+ t=json.loads((P/(sig+'.json')).read_text());m=t['meta'];keys=t['transaction']['message']['accountKeys'];addresses=[k['pubkey'] for k in keys];signers=[k['pubkey'] for k in keys if k['signer']];payer=addresses[0];utc=datetime.datetime.fromtimestamp(t['blockTime'],datetime.timezone.utc).isoformat();flow={a:0 for a in addresses};flow[payer]-=m['fee'];assert m['err'] is None
+ for ii,ix in enumerate(t['transaction']['message']['instructions']):
+  parsed=ix.get('parsed',{});info=parsed.get('info',{});n=info.get('lamports');s=info.get('source','');d=info.get('destination','');kind=parsed.get('type','opaque');a=addresses.index(s) if s else None;b=addresses.index(d) if d else None
+  if n is not None:flow[s]-=n;flow[d]+=n
+  row=[f'BP{ti:03d}.I{ii}',sig,utc,t['slot'],t.get('transactionIndex',''),f'outer:{ii}',ix['programId'],kind,s,d,s if n is not None else '',n if n is not None else '',str(Decimal(n)/Decimal(10**9)) if n is not None else '', ';'.join(signers),payer,m['fee'],m['preBalances'][a] if a is not None else '',m['postBalances'][a] if a is not None else '',m['preBalances'][b] if b is not None else '',m['postBalances'][b] if b is not None else '','N/A native SOL','N/A native SOL','SUCCESS','finalized',sig+'.rpc.json','https://explorer.solana.com/tx/'+sig]
+  rows.append([str(x) for x in row])
+ for i,a in enumerate(addresses):assert m['postBalances'][i]-m['preBalances'][i]==flow[a],(sig,a)
+ assert statuses[sig]['confirmationStatus']=='finalized' and statuses[sig]['err'] is None and statuses[sig]['slot']==t['slot']
+ audit.append({'id':f'BP{ti:03d}','signature':sig,'utc':utc,'slot':t['slot'],'fee_lamports':m['fee'],'signers':signers,'fee_payer':payer,'accounts':[{'address':a,'pre_lamports':m['preBalances'][i],'post_lamports':m['postBalances'][i],'modeled_delta_lamports':flow[a]} for i,a in enumerate(addresses)],'reconciliation':'PASS'})
+ fee=[f'BP{ti:03d}.FEE',sig,utc,t['slot'],t.get('transactionIndex',''),'fee','N/A','transaction_fee',payer,'network','',m['fee'],str(Decimal(m['fee'])/Decimal(10**9)),';'.join(signers),payer,m['fee'],m['preBalances'][0],m['postBalances'][0],'','','N/A native SOL','N/A native SOL','SUCCESS','finalized',sig+'.rpc.json','https://explorer.solana.com/tx/'+sig];rows.append([str(x) for x in fee])
+(P/'csv-rows.json').write_text(json.dumps([headers]+rows));(P/'instruction-ledger.json').write_text(json.dumps([dict(zip(headers,r)) for r in rows],indent=2));(P/'balance-audit.json').write_text(json.dumps(audit,indent=2))
+blob=(P/'ZYROX_primary_ledger.md').read_bytes();bh=hashlib.sha1(b'blob '+str(len(blob)).encode()+b'\0'+blob).hexdigest();expected=json.loads((P/'ZYROX_U300_public.json').read_text())['sha'];assert bh==expected
+(P/'primary-source-verification.json').write_text(json.dumps({'local_git_blob_sha':bh,'current_github_blob_sha':expected,'exact_U300_line':next(l for l in blob.decode().splitlines() if '"id":"U300"' in l),'match':'CONFIRMED'},indent=2))
+prior=P.parent/'exchange-8zhc-pass'/ (signatures[0]+'.json');old=json.loads(prior.read_text());new=json.loads((P/(signatures[0]+'.json')).read_text());(P/'independent-reproduction.json').write_text(json.dumps({'signature':signatures[0],'parsed_receipt_identical_to_previous_pass':old==new,'new_full_transport_response_preserved':True,'finality_separately_rechecked':True},indent=2));print('Seven receipt/status pairs and complete native balance models PASS; '+str(len(rows))+' CSV rows; current GitHub primary blob match PASS.')

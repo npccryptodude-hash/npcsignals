@@ -1,0 +1,76 @@
+{
+  "slot": 452026377,
+  "transactionIndex": 1068,
+  "blockTime": 1790787841,
+  "transaction": {
+    "signatures": [
+      "wwFfGa6fgE3NZzCrzGxzFjLhJxdsCzoLS4Z2NPhht6jv7Z9M6LSUJ3FcnSNLuZGr97BhbqQAWFZqpc9FFK95Nhd"
+    ],
+    "message": {
+      "accountKeys": [
+        {
+          "pubkey": "HP7BW3tBgq2H3Rrfc9nBmQXCufWUuDxpDGRputaEVCHL",
+          "writable": true,
+          "signer": true,
+          "source": "transaction"
+        },
+        {
+          "pubkey": "8zHcWujHhyJri3CRTcWUGmT5WSRdwW7xrns3WTTkPGvS",
+          "writable": true,
+          "signer": false,
+          "source": "transaction"
+        },
+        {
+          "pubkey": "11111111111111111111111111111111",
+          "writable": false,
+          "signer": false,
+          "source": "transaction"
+        }
+      ],
+      "recentBlockhash": "8GNsnxmi9Xfy6VCnYKeN8zALuddDc1L2h9CCpPmqvrNj",
+      "instructions": [
+        {
+          "program": "system",
+          "programId": "11111111111111111111111111111111",
+          "parsed": {
+            "info": {
+              "destination": "8zHcWujHhyJri3CRTcWUGmT5WSRdwW7xrns3WTTkPGvS",
+              "lamports": 79670158,
+              "source": "HP7BW3tBgq2H3Rrfc9nBmQXCufWUuDxpDGRputaEVCHL"
+            },
+            "type": "transfer"
+          },
+          "stackHeight": 1
+        }
+      ]
+    }
+  },
+  "meta": {
+    "err": null,
+    "status": {
+      "Ok": null
+    },
+    "fee": 5000,
+    "preBalances": [
+      79675158,
+      100478739322,
+      1
+    ],
+    "postBalances": [
+      0,
+      100558409480,
+      1
+    ],
+    "innerInstructions": [],
+    "logMessages": [
+      "Program 11111111111111111111111111111111 invoke [1]",
+      "Program 11111111111111111111111111111111 success"
+    ],
+    "preTokenBalances": [],
+    "postTokenBalances": [],
+    "rewards": [],
+    "computeUnitsConsumed": 150,
+    "costUnits": 1481
+  },
+  "version": "legacy"
+}

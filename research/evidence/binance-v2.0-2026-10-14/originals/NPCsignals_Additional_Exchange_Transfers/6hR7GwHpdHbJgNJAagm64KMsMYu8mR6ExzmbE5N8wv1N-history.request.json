@@ -1,0 +1,23 @@
+{
+  "jsonrpc": "2.0",
+  "id": 1,
+  "method": "getTransactionsForAddress",
+  "params": [
+    "6hR7GwHpdHbJgNJAagm64KMsMYu8mR6ExzmbE5N8wv1N",
+    {
+      "limit": 100,
+      "transactionDetails": "full",
+      "encoding": "jsonParsed",
+      "sortOrder": "desc",
+      "commitment": "finalized",
+      "maxSupportedTransactionVersion": 1,
+      "filters": {
+        "blockTime": {
+          "lt": 1790788680
+        },
+        "status": "succeeded",
+        "tokenAccounts": "all"
+      }
+    }
+  ]
+}

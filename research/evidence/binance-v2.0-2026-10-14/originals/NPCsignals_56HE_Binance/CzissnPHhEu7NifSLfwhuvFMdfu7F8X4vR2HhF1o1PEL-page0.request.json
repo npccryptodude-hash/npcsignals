@@ -1,0 +1,12 @@
+{
+  "jsonrpc": "2.0",
+  "id": 1,
+  "method": "getSignaturesForAddress",
+  "params": [
+    "CzissnPHhEu7NifSLfwhuvFMdfu7F8X4vR2HhF1o1PEL",
+    {
+      "limit": 1000,
+      "commitment": "finalized"
+    }
+  ]
+}

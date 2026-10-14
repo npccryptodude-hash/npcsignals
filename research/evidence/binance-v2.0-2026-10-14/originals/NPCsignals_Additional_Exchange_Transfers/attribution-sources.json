@@ -1,0 +1,16 @@
+{
+  "exchange_affiliation":"SUPPORTED",
+  "receiver":"5tzFkiKscXHK5ZXCGbXZxdw7gTjjD1mBwuoFbhUvuAi9",
+  "independent_sources":[
+    {"id":"ATTR001","publisher":"Bitquery","url":"https://bitquery.io/investigations/libra-case-dismissed","source_reference":"turn67view0","line":157,"targeted_excerpt":"Binance hot | 5tzFkiKscXHK5ZXCGbXZxdw7gTjjD1mBwuoFbhUvuAi9 | In Binance's proof of reserves","observed":"Provider's own exact-address Binance hot-wallet attribution, with analysis dated October 2, 2026 and earlier historical exchange receipts discussed.","limitation":"No direct official Binance address publication independently captured; no LIBRA relation to these cases inferred."},
+    {"id":"ATTR002","publisher":"Solscan","url":"https://solscan.io/account/5tzFkiKscXHK5ZXCGbXZxdw7gTjjD1mBwuoFbhUvuAi9","source_reference":"turn67view1","captured_title":"Binance 2 | Account 5tzFkiKscXHK5ZXCGbXZxdw7gTjjD1mBwuoFbhUvuAi9 | Solscan","limitation":"Title labels recipient; dynamic body details not captured. No private customer assignment established."}
+  ],
+  "official_exact_binding":"UNRESOLVED. Previous completed attribution check did not recover the exact address from https://www.binance.com/en/proof-of-reserves . It was not repeated here.",
+  "customer_credit":"UNRESOLVED",
+  "internal_sweep_vs_external_deposit":"UNRESOLVED",
+  "historical_Binance_control_at_each_receipt":"SUPPORTED by published independent labels and historical context; not directly confirmed by Binance",
+  "common_individual_control":"UNRESOLVED",
+  "discovery_method_documentation":"https://www.helius.dev/docs/rpc/gettransactionsforaddress",
+  "discovery_method_limitation":"Provider extension, not standard Solana RPC. Actual request/response preserved. Returned cursors were full signatures rather than the slot-position format described in the documentation. Use the actual preserved cursor and verify responses; do not assume universal endpoint compatibility.",
+  "source_preservation":"Targeted observed web excerpts/title metadata, not original complete HTML pages."
+}

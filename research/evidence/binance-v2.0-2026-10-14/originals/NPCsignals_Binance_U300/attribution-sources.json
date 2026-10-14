@@ -1,0 +1,23 @@
+{
+  "assessment_date_context_utc": "2026-10-14",
+  "recipient": "5tzFkiKscXHK5ZXCGbXZxdw7gTjjD1mBwuoFbhUvuAi9",
+  "exchange": "Binance",
+  "exchange_affiliation_status": "SUPPORTED",
+  "function_status": "SUPPORTED hot wallet; customer deposit endpoint versus internal custodial receipt UNRESOLVED",
+  "sources": [
+    {"id":"S001","url":"https://bitquery.io/investigations/libra-case-dismissed","publisher":"Bitquery","source_ref":"turn65view1","line":157,"targeted_excerpt":"Binance hot | 5tzFkiKscXHK5ZXCGbXZxdw7gTjjD1mBwuoFbhUvuAi9 | In Binance's proof of reserves","observed":"Exact case-sensitive address attribution. Provider identifies exchange addresses through its own labels and says the exchange hot wallets appear in published reserves.","limitation":"The exact official reserves binding was not independently recovered. This source is used only for address attribution; no LIBRA connection to these cases is asserted."},
+    {"id":"S002","url":"https://solscan.io/account/5tzFkiKscXHK5ZXCGbXZxdw7gTjjD1mBwuoFbhUvuAi9","source_ref":"turn63view2","captured_title":"Binance 2 | Account 5tzFkiKscXHK5ZXCGbXZxdw7gTjjD1mBwuoFbhUvuAi9 | Solscan","limitation":"Page title independently corroborates label; dynamic body did not expose account details."},
+    {"id":"S003","url":"https://www.binance.com/en/proof-of-reserves","source_ref":"turn63view0","status":"UNRESOLVED exact address binding","observed":"Official page describes custody/reserves and displays an address download control, but the captured content did not expose this exact address or an accessible linked list."},
+    {"id":"S004","url":"https://solscan.io/account/F7LqQscxh7NK8S3AJaEZ7vryxvQbqKksQAZKtVgJYwmE","source_ref":"turn64view0","status":"UNRESOLVED fresh corroboration","observed":"Starting GitHub lead reports a Funded by Binance 2 field. Fresh retrieval displayed only a dynamic skeleton; that particular field was not independently recaptured."},
+    {"id":"S005","url":"https://www.binance.com/en/support/law-enforcement/guidelines","source_ref":"turn65view0","observed":"Official government/law-enforcement information-request guidance. Access through the request system, official supporting documents and a valid legal basis are required. This channel is not intended for private investigators or civil litigants."},
+    {"id":"S006","url":"https://www.binance.com/en/support/law-enforcement","purpose":"Official request access channel; no request sent."}
+  ],
+  "negative_checks":[
+    "Exact-address search restricted to binance.com using two search systems did not recover a Binance-authored reserves address binding.",
+    "One Binance Square result was a third-party user post. It was excluded as official Binance evidence.",
+    "GitHub search for the GLITCH v0.9 seller checkpoint returned no results. Fresh retrieval of research/glitch-investigation/GLITCH_Investigation_v0_1.md on the default branch returned 404. Preserved prior v0.9 documentation was retained and the selected actual route transfers were independently re-fetched.",
+    "Current public ZYROX primary file returned an empty requested line excerpt but its blob SHA matches the complete preserved primary file. The offline script checks the Git blob hash and exact U300 record."
+  ],
+  "classification_limits":{"customer_identity":"UNRESOLVED","customer_credit":"UNRESOLVED","sender_custodial_status":"UNRESOLVED","common_human_control":"UNRESOLVED","exclusive_sale_provenance":"UNRESOLVED","crime_or_liability":"NOT ASSESSED"},
+  "preservation":"Targeted text observations and excerpts, URLs and source references; original full HTML pages are not archived. These are not notarized web captures."
+}

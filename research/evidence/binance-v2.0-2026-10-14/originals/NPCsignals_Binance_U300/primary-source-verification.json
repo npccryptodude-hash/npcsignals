@@ -1,0 +1,6 @@
+{
+  "local_git_blob_sha": "08cf6b40c8aac00fb5d378ad1bc9b655bce62e55",
+  "current_github_blob_sha": "08cf6b40c8aac00fb5d378ad1bc9b655bce62e55",
+  "exact_U300_line": "{\"id\":\"U300\",\"from\":\"H85KW8sDNzbs2ykUuapYcdNhbwoNQfBn3zFZTvBdx7kG\",\"to\":\"8zHcWujHhyJri3CRTcWUGmT5WSRdwW7xrns3WTTkPGvS\",\"edge_type\":\"funding\",\"asset\":\"SOL\",\"amount\":\"139.458181476\",\"timestamp\":\"2026-10-02T11:42:19Z\",\"tx\":\"T7To7CBLjCmV16JL3vTyuTvgze5kuuRvXjdoP6AgmQiRu8urjsPGpJm3nsxypA9cipPD8UjmyMqeDBEvjAK55zk\",\"signer\":[\"H85KW8sDNzbs2ykUuapYcdNhbwoNQfBn3zFZTvBdx7kG\"],\"fee_payer\":\"H85KW8sDNzbs2ykUuapYcdNhbwoNQfBn3zFZTvBdx7kG\",\"authority\":\"System Program transfer; sole signer and fee payer; full-balance relay less fee\",\"evidence_status\":\"CONFIRMED\"}",
+  "match": "CONFIRMED"
+}
