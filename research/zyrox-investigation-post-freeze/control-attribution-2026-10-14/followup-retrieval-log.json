@@ -1,0 +1,81 @@
+{
+  "terminal": [
+    {
+      "address": "3ArPkTBGFaLUhmyJQMeEYEcdQ1HgyCP7cvR9xt2RdQeq",
+      "terminal": {
+        "jsonrpc": "2.0",
+        "result": [],
+        "id": "3ArPkTBGFaLUhmyJQMeEYEcdQ1HgyCP7cvR9xt2RdQeq"
+      }
+    },
+    {
+      "address": "3njAEoBzprXcHLovXfyEaEWyLhhMtgJNbknFtRU6kZSz",
+      "terminal": {
+        "jsonrpc": "2.0",
+        "result": [],
+        "id": "3njAEoBzprXcHLovXfyEaEWyLhhMtgJNbknFtRU6kZSz"
+      }
+    },
+    {
+      "address": "3oE2jnT3zUyaW7tqqXGa7X98wWd3XHAtUpg7XYwweuv2",
+      "terminal": {
+        "jsonrpc": "2.0",
+        "result": [],
+        "id": "3oE2jnT3zUyaW7tqqXGa7X98wWd3XHAtUpg7XYwweuv2"
+      }
+    },
+    {
+      "address": "6jpU2BZ8xRd6WU4VpsDirY6MmqDUaFFsrMc3FYUKdjTr",
+      "terminal": {
+        "jsonrpc": "2.0",
+        "result": [],
+        "id": "6jpU2BZ8xRd6WU4VpsDirY6MmqDUaFFsrMc3FYUKdjTr"
+      }
+    },
+    {
+      "address": "E4e1B87LkwWpbD3gBghjiHKN3Vv7Z3V87sNFC657Y5SR",
+      "terminal": {
+        "jsonrpc": "2.0",
+        "result": [],
+        "id": "E4e1B87LkwWpbD3gBghjiHKN3Vv7Z3V87sNFC657Y5SR"
+      }
+    }
+  ],
+  "initial_receipts": [
+    {
+      "signature": "YzzAjmzmD5knBRgKvLRdR9heaiMBQFKz7X1UdcYoAZ3V7znarMProUsK1aRJKfQejaHrsqCtyxKH9Ls6TRQbK4D",
+      "http": 200,
+      "result_present": true,
+      "error": null,
+      "slot": 456110890
+    },
+    {
+      "signature": "2QCHv8JdYXDBdV8ArcNzL2JaZZULcm9D1mAJ4khE7LAju7jjfjMKaNtUsE3zbAJX93JeeZCjB1mxPjTdNroq4GgQ",
+      "http": 200,
+      "result_present": true,
+      "error": null,
+      "slot": 456110921
+    },
+    {
+      "signature": "4DjT2fkphVfjk3KLjaB2sWNuZUXeRVnQ6w5YFCNxZ9ret4NVQAVACM6aJ3caUnzXWmnHQWMztq1HXaPeEp7aV9VR",
+      "http": 200,
+      "result_present": true,
+      "error": null,
+      "slot": 456111131
+    },
+    {
+      "signature": "WijWjDeSvhCeyNwPzSbghU6ZEeqEFes5YcCrunsnuz3RjW8nnYNpLUhC58DnCwJSGjvoQ2ZLrNnZxozuWLCbWNN",
+      "http": 200,
+      "result_present": true,
+      "error": null,
+      "slot": 456110822
+    },
+    {
+      "signature": "51VosyAi5NJFWneGJYFeAV7B5Eo6Lnih4CTtifLVWGsLD5KWHxzyDzJcDvASXgvq7Pao5fQfrFjy2Fp31wZMx4Kn",
+      "http": 200,
+      "result_present": true,
+      "error": null,
+      "slot": 456110919
+    }
+  ]
+}

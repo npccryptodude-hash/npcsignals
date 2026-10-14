@@ -1,0 +1,295 @@
+{
+  "baseline_commit": "b21e5ec2467ff35cb06369d05f5170f5913a697e",
+  "scope": "exact case-sensitive address text in two ZYROX research trees; supplementary GLITCH duplicate check; not exhaustive on-chain comparison",
+  "matches": [
+    {
+      "address": "8hiMXA1UHYUAeW6gd6q1XQLWzZkQL48znqgdgY1388B7",
+      "zyrox_text_matches": [],
+      "glitch_text_matches": [
+        "research/glitch-investigation/GLITCH_early_launch_coordination_pre_audit_v0.1.md",
+        "research/glitch-investigation/GLITCH_v0.9_seller_proceeds.md",
+        "research/glitch-investigation/GLITCH_v0.1_stopped_checkpoint.md",
+        "research/glitch-investigation/GLITCH_v0.2_seller_funding_checkpoint.md",
+        "research/glitch-investigation/GLITCH_early_launch_document_review_v0.2.md",
+        "research/glitch-investigation/GLITCH_v0.3_upstream_funding_checkpoint.md"
+      ]
+    },
+    {
+      "address": "3ArPkTBGFaLUhmyJQMeEYEcdQ1HgyCP7cvR9xt2RdQeq",
+      "zyrox_text_matches": [],
+      "glitch_text_matches": []
+    },
+    {
+      "address": "3njAEoBzprXcHLovXfyEaEWyLhhMtgJNbknFtRU6kZSz",
+      "zyrox_text_matches": [],
+      "glitch_text_matches": []
+    },
+    {
+      "address": "3oE2jnT3zUyaW7tqqXGa7X98wWd3XHAtUpg7XYwweuv2",
+      "zyrox_text_matches": [],
+      "glitch_text_matches": []
+    },
+    {
+      "address": "6jpU2BZ8xRd6WU4VpsDirY6MmqDUaFFsrMc3FYUKdjTr",
+      "zyrox_text_matches": [],
+      "glitch_text_matches": []
+    },
+    {
+      "address": "E4e1B87LkwWpbD3gBghjiHKN3Vv7Z3V87sNFC657Y5SR",
+      "zyrox_text_matches": [],
+      "glitch_text_matches": []
+    },
+    {
+      "address": "Ft2XtprBymZsGwYUMjsLN6z8WZzguTVa5rFYSuN41S8i",
+      "zyrox_text_matches": [],
+      "glitch_text_matches": [
+        "research/glitch-investigation/GLITCH_early_launch_coordination_pre_audit_v0.1.md",
+        "research/glitch-investigation/GLITCH_v0.1_stopped_checkpoint.md",
+        "research/glitch-investigation/GLITCH_early_launch_document_review_v0.2.md"
+      ]
+    },
+    {
+      "address": "FaMmEaiapuGsLLSymXh5H8Xw1bszphrZkZ158W55yWH8",
+      "zyrox_text_matches": [],
+      "glitch_text_matches": []
+    },
+    {
+      "address": "5rA9pfsTtYTEg4M27jKLndgay9r1xAhzK7eRxE1D6UN2",
+      "zyrox_text_matches": [],
+      "glitch_text_matches": []
+    },
+    {
+      "address": "GAvzLSWuWBa4q6dFznep7yaKMm62rCUZwMmaK4H3yNzM",
+      "zyrox_text_matches": [],
+      "glitch_text_matches": []
+    },
+    {
+      "address": "61cWjP9PU1rd3FUcsQjrnyUngksem3SN4BKwBk5Xy8pB",
+      "zyrox_text_matches": [],
+      "glitch_text_matches": []
+    },
+    {
+      "address": "FqG6dKQiC65LWEvDe4tcnuhqz5Uf34Ap8vcHD2hCmb71",
+      "zyrox_text_matches": [],
+      "glitch_text_matches": []
+    }
+  ],
+  "files": [
+    {
+      "path": "research/zyrox-investigation/SOURCE_INTEGRITY.json",
+      "sha256": "c8c0dafc90f001748090553675369c4e42c48ad100659f23f38bb1080757ee9a"
+    },
+    {
+      "path": "research/zyrox-investigation/README.md",
+      "sha256": "faf3e8ca8000748a5fdf40d6aadb5db1c552ce33ee0f267d73b73a39482f5a5a"
+    },
+    {
+      "path": "research/zyrox-investigation/REPOSITORY_QA.md",
+      "sha256": "7116e3ca240822ce624bb6e892dca14105edaf1384d78b8fae9c9ab046ea9854"
+    },
+    {
+      "path": "research/zyrox-investigation/data/frozen_35_sale_manifest.csv",
+      "sha256": "61b67a02a9652e6db53ab10164e2de9726cb990afdc4badec00844364387bb57"
+    },
+    {
+      "path": "research/zyrox-investigation/data/publication_transaction_links.csv",
+      "sha256": "2566fdfbcc6e19c88bacfa0bfa97dc8ad8ab256d93a361a0054f6a3399f31ac1"
+    },
+    {
+      "path": "research/zyrox-investigation/data/figure_3_cumulative_proceeds.csv",
+      "sha256": "962b5be1f701e6e42e9d2946ccc1062bbec65891b8146932387309d84b34a096"
+    },
+    {
+      "path": "research/zyrox-investigation/report/ZYROX_Main_Report_v1_1_Verified.md",
+      "sha256": "36202850247d59f4b999d9fa03ab911de165d43538930ae801bda959259ed801"
+    },
+    {
+      "path": "research/zyrox-investigation/evidence/EVIDENCE_GUIDE.md",
+      "sha256": "528a5835c0049b69931cb39cc15d940b3b9682257fe282b68434e934737cf3aa"
+    },
+    {
+      "path": "research/zyrox-investigation/evidence/ZYROX_Devsold_verification_v0_2.md",
+      "sha256": "f54a58aed464765ca68b345e4397c4df01cc3332d7e2cd136d9ff36869bc3d1d"
+    },
+    {
+      "path": "research/zyrox-investigation/evidence/TRANSACTION_LINKS.md",
+      "sha256": "de60b2febdf9c2d6d1952e2767d1ada28a4b3a39d535ef317361681b96a59fed"
+    },
+    {
+      "path": "research/zyrox-investigation/evidence/ACCOUNT_CONTINUITY.md",
+      "sha256": "127d3821058ec112617512fa874e7285a38d8b6b53c533cb7bb61092c3263caa"
+    },
+    {
+      "path": "research/zyrox-investigation/evidence/claims/CAPTIONS.md",
+      "sha256": "44974efc2ea23cd68030d9abc2d2eadbbd01061804cc27a95f208ad0f46b0eaa"
+    },
+    {
+      "path": "research/zyrox-investigation-post-freeze/ZYROX_IsItBundled_Lead_v0_118.md",
+      "sha256": "e9f2425975ceb441e10c4bcaf43547fc9ffb9c4de2f5caf7848f29f6600115a3"
+    },
+    {
+      "path": "research/zyrox-investigation-post-freeze/ZYROX_Launch_Bundle_Verification_v0_122.md",
+      "sha256": "e92f97714b3dfd2d5218ee853c1075147644b37f22b20934142dadddb14ef58d"
+    },
+    {
+      "path": "research/zyrox-investigation-post-freeze/ZYROX_Arkham_Hp4q_Funding_v0_119.md",
+      "sha256": "f9ad882ae8c3c52eb1cd333622c2ea5ac421b39bd8afcf475cf1062e45468385"
+    },
+    {
+      "path": "research/zyrox-investigation-post-freeze/ZYROX_Beneficiary_Control_Research_v0_115.md",
+      "sha256": "31a77b1e777507b24d3b10bd1d406e68bacab23689e76f0255d6758872ef056f"
+    },
+    {
+      "path": "research/zyrox-investigation-post-freeze/ZYROX_IsItBundled_Lead_v0_117.md",
+      "sha256": "c580b9a64fd4ab97eae585f3fc0127bbb78bb95eab754bf7be5f36a5e0e27cb1"
+    },
+    {
+      "path": "research/zyrox-investigation-post-freeze/ZYROX_Hp4q_Funder_Fingerprint_v0_120.md",
+      "sha256": "def2365639153ffce9ad08f2d7444a491136a7a34005734b5c1b82ca20935978"
+    },
+    {
+      "path": "research/zyrox-investigation-post-freeze/ZYROX_Independent_Attribution_Test_v0_116.md",
+      "sha256": "9718e98ce6e3e7d0ee3c7b7955d4a5976597e14ad04dd12c2303c7cd615840ac"
+    },
+    {
+      "path": "research/zyrox-investigation-post-freeze/ZYROX_BZ9m_Service_Boundary_v0_121.md",
+      "sha256": "6aa8dd890e7addb9f719e76cbc78b9688390edc6a3532dd92298e074ae16cf80"
+    },
+    {
+      "path": "research/zyrox-investigation-post-freeze/scripts/collect_zyrox_launch_bundle.py",
+      "sha256": "9dcd27651241be24527a75d7b9902dc742acf28d6154a6b95c3d21932909b9c8"
+    },
+    {
+      "path": "research/zyrox-investigation-post-freeze/scripts/build_bz9m_service_boundary_manifest.py",
+      "sha256": "f963ded7d37286c69ad7edfa4831a4f9c13240f7270430b5ebed0da560debd39"
+    },
+    {
+      "path": "research/zyrox-investigation-post-freeze/scripts/collect_solana_address.py",
+      "sha256": "2799fd452b98f36caca1055cee1365976d8c70645b530aa658ad575d79376455"
+    },
+    {
+      "path": "research/zyrox-investigation-post-freeze/scripts/build_hp4q_funder_fingerprint.py",
+      "sha256": "5e59715a8aebf0f50d6cc99e77e6aa7ca86dba8c0d794b8d4ad328de990c4b8b"
+    },
+    {
+      "path": "research/zyrox-investigation-post-freeze/scripts/build_arkham_hp4q_case_manifest.py",
+      "sha256": "cbb8d2a62667de3686f41b592db1e70d2c65505dc87612c7d581fc3e1ad33760"
+    },
+    {
+      "path": "research/zyrox-investigation-post-freeze/raw/isitbundled_token_FACv_2026-10-11T055222Z.json",
+      "sha256": "2afe2acf9cc61b3f7bfcd28cd2bfe6d2d35f0eeeff9fc31b5c259f6ea88f297e"
+    },
+    {
+      "path": "research/zyrox-investigation-post-freeze/raw/proxima_first_party_docs_capture_2026-10-11T062752Z.md",
+      "sha256": "918299bda3145fe0ea1b86eed2a208cbb0532a8e6a0834ec9ba7c0dbcb14f555"
+    },
+    {
+      "path": "research/zyrox-investigation-post-freeze/raw/hp4q_funder_fingerprint_manifest_2026-10-11.json",
+      "sha256": "e6f44f76dfb74568dc76ceb767cae5223412677f86ac13b59963d97f9604f6c6"
+    },
+    {
+      "path": "research/zyrox-investigation-post-freeze/raw/zyrox_launch_bundle_manifest_2026-10-12.json",
+      "sha256": "a4f7ab5c6fe6a64081f2ba917be7476707468295bdfe3a0778e610901e545bab"
+    },
+    {
+      "path": "research/zyrox-investigation-post-freeze/raw/arkham_hp4q_case_manifest_2026-10-11.json",
+      "sha256": "e3bf1e1ed0cbb82e7c800c107b18391e8eecc553775b6ea5d42e1aac1c03dac3"
+    },
+    {
+      "path": "research/zyrox-investigation-post-freeze/raw/isitbundled_wallet_resolution_2026-10-11T055222Z.json",
+      "sha256": "60381885bb15c410fa5a33eb8a16235b0a0c0504627278e359c1f77873836816"
+    },
+    {
+      "path": "research/zyrox-investigation-post-freeze/raw/isitbundled_report_capture_2026-10-11T055222Z.md",
+      "sha256": "1b744623b5a675fe96eb9fa297091efde3cfe38efbf0e60171eaf9c0a2b2105e"
+    },
+    {
+      "path": "research/zyrox-investigation-post-freeze/raw/isitbundled_zyrox_104_wallets_2026-10-11T055222Z.csv",
+      "sha256": "2a5a3aeb86de7a5a0de7135bb0253967609515b9c386d4026f25b1e670e87340"
+    },
+    {
+      "path": "research/zyrox-investigation-post-freeze/raw/bz9m_service_boundary_manifest_2026-10-11.json",
+      "sha256": "282cc006b17cfaec375b941bae0bc17c7f38726c1a939c2ad66571a3e9df5003"
+    },
+    {
+      "path": "research/glitch-investigation/GLITCH_ZYROX_claim_vs_chain_audit_v0.2.md",
+      "sha256": "0b00b5d3495ed9c2427e62541205a25f01103049a88fdff5500c4eb64fb3b4bb"
+    },
+    {
+      "path": "research/glitch-investigation/GLITCH_early_launch_coordination_pre_audit_v0.1.md",
+      "sha256": "dadb887f6f8a6b2d9d4b86d83366262d60264c5969db20d6eca60a39c77c9d6e"
+    },
+    {
+      "path": "research/glitch-investigation/GLITCH_v0.17_AVUb_public_context.md",
+      "sha256": "2aafb9012f50a7953fd79268343dd73c360fd7a99bbe91cd74dd594e179421c1"
+    },
+    {
+      "path": "research/glitch-investigation/GLITCH_v0.15_cross_case_operational_control_test.md",
+      "sha256": "3a89e46a6d369b2b8d609e0cb175af766af5850c3fcf3e585994b6ffb3be3614"
+    },
+    {
+      "path": "research/glitch-investigation/GLITCH_v0.9_seller_proceeds.md",
+      "sha256": "1807ac5444f9e38244f679365f58733014bf504eb6a5d970d6985a76424f0cc6"
+    },
+    {
+      "path": "research/glitch-investigation/GLITCH_v0.11_confirmed_ZYROX_overlap.md",
+      "sha256": "f1250155e76e4fe3c38e889c53b652e060422a5b66609bb197953a0f40cb42c3"
+    },
+    {
+      "path": "research/glitch-investigation/GLITCH_v0.13_EnVAvXw_payment_erratum.md",
+      "sha256": "49edfa9d9b7725a908e6a3193908760804541f0e304923a4934fa870aa623526"
+    },
+    {
+      "path": "research/glitch-investigation/GLITCH_v0.10_B_downstream_candidate_6hR7.md",
+      "sha256": "ce280ae309d12ba0fa96b84a0fa0dbaabe71f0cec40971ce3c8454444c393dfd"
+    },
+    {
+      "path": "research/glitch-investigation/GLITCH_v0.1_stopped_checkpoint.md",
+      "sha256": "d5d07da950b911358492b3775469f4dc2d690cc6e40cbf626aff5e22b5bc3b9c"
+    },
+    {
+      "path": "research/glitch-investigation/GLITCH_v0.20_MEXC_recovered_eight_receipts.md",
+      "sha256": "eff079dfd4ee7530580cc1ac6cdc585788ed0e830894520910fd7067c854a4f0"
+    },
+    {
+      "path": "research/glitch-investigation/GLITCH_v0.2_seller_funding_checkpoint.md",
+      "sha256": "86469f892c678bf5ac2ed9833a30d5b19ba744fef5d107c3bd55dc487647fffe"
+    },
+    {
+      "path": "research/glitch-investigation/GLITCH_v0.12_shared_wallet_swaps_counterparty.md",
+      "sha256": "7598370d0efd75aadf22325b5fce09fe45b489f525f94450a68b70a7882128d9"
+    },
+    {
+      "path": "research/glitch-investigation/GLITCH_v0.18_Circle_Gas_Station_fee_payer.md",
+      "sha256": "068de124dc3708a24f5256943be48669ab96d9a075d9797ce4fcd5040d021f6a"
+    },
+    {
+      "path": "research/glitch-investigation/GLITCH_v0.5_U_layer_checkpoint.md",
+      "sha256": "cb409d8cb43cd686dc82953ffb1b4d47e10d6a9f7bddd4e703d771a342a9c95e"
+    },
+    {
+      "path": "research/glitch-investigation/GLITCH_v0.16_MEXC_infrastructure_lead.md",
+      "sha256": "73b1a76b08cdc6997a0e907e49a44de71feb72aa2b0bab6e7f7cd1fc51c91350"
+    },
+    {
+      "path": "research/glitch-investigation/GLITCH_v0.6_common_V_funder.md",
+      "sha256": "abf61a2e5daec2ea327085c1a4da0323da740f9d1156520fdccd3b8328111926"
+    },
+    {
+      "path": "research/glitch-investigation/GLITCH_ZYROX_claim_vs_chain_audit_v0.1.md",
+      "sha256": "03cdf60ef6f685ba82b099969ae1966c60763675dbcb39e31fede846b6365c2c"
+    },
+    {
+      "path": "research/glitch-investigation/GLITCH_early_launch_document_review_v0.2.md",
+      "sha256": "ed2b87f3eba8615c771145412a2657a72144d994c38fa4da266ceaa75f558426"
+    },
+    {
+      "path": "research/glitch-investigation/GLITCH_v0.19_infrastructure_attribution_checkpoint.md",
+      "sha256": "93e0b0bb622887fb16b686523a42493f215b2f7ea1b8f710444c8cccde857d3a"
+    },
+    {
+      "path": "research/glitch-investigation/GLITCH_v0.3_upstream_funding_checkpoint.md",
+      "sha256": "1c8e397eac1b4b7da80877696225a600e371b380067dce1a40bc1462681790e3"
+    }
+  ]
+}

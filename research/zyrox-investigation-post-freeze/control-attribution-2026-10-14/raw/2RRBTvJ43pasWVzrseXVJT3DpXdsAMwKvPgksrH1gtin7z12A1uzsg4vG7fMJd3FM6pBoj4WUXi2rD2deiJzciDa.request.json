@@ -1,0 +1,13 @@
+{
+  "jsonrpc": "2.0",
+  "id": "2RRBTvJ43pasWVzrseXVJT3DpXdsAMwKvPgksrH1gtin7z12A1uzsg4vG7fMJd3FM6pBoj4WUXi2rD2deiJzciDa",
+  "method": "getTransaction",
+  "params": [
+    "2RRBTvJ43pasWVzrseXVJT3DpXdsAMwKvPgksrH1gtin7z12A1uzsg4vG7fMJd3FM6pBoj4WUXi2rD2deiJzciDa",
+    {
+      "encoding": "jsonParsed",
+      "commitment": "finalized",
+      "maxSupportedTransactionVersion": 0
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "jsonrpc": "2.0",
+  "id": "3ArPkTBGFaLUhmyJQMeEYEcdQ1HgyCP7cvR9xt2RdQeq",
+  "method": "getSignaturesForAddress",
+  "params": [
+    "3ArPkTBGFaLUhmyJQMeEYEcdQ1HgyCP7cvR9xt2RdQeq",
+    {
+      "limit": 1000,
+      "commitment": "finalized",
+      "before": "YzzAjmzmD5knBRgKvLRdR9heaiMBQFKz7X1UdcYoAZ3V7znarMProUsK1aRJKfQejaHrsqCtyxKH9Ls6TRQbK4D"
+    }
+  ]
+}

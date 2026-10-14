@@ -1,0 +1,228 @@
+{
+  "provider": "https://api.mainnet-beta.solana.com",
+  "baseline_commit": "b21e5ec2467ff35cb06369d05f5170f5913a697e",
+  "capture_files": [
+    {
+      "path": "raw/3oE2jnT3zUyaW7tqqXGa7X98wWd3XHAtUpg7XYwweuv2.history.request.json",
+      "retrieved_at_utc": "2026-10-14T15:58:45.125729Z",
+      "sha256": "d3f0385741653374be839ba6da21c1d03c8cf1e34f0ab2f91487f0dbeb08b8fb"
+    },
+    {
+      "path": "raw/WijWjDeSvhCeyNwPzSbghU6ZEeqEFes5YcCrunsnuz3RjW8nnYNpLUhC58DnCwJSGjvoQ2ZLrNnZxozuWLCbWNN.request.json",
+      "retrieved_at_utc": "2026-10-14T16:00:20.116343Z",
+      "sha256": "1d53ff147062ae0a7af0b7dea79cead79f524552d0b7e50a4df0d6d1f54f3409"
+    },
+    {
+      "path": "raw/3oE2jnT3zUyaW7tqqXGa7X98wWd3XHAtUpg7XYwweuv2.history.rpc.json",
+      "retrieved_at_utc": "2026-10-14T15:58:51.061260Z",
+      "sha256": "48ffe0253bf40ebcc8d8f25c4b3c54f7417ea440a4f04d431cf3843efd85f950"
+    },
+    {
+      "path": "raw/3ttmcRNck85nUEcnaTZ3nmMWpq9sAdCwjq8EF56Zz4wzsi3dz2AB1G18FibKKmqNzShVexFVanogoAUSJeJXojy1.request.json",
+      "retrieved_at_utc": "2026-10-14T15:57:16.056080Z",
+      "sha256": "8216b7d594e5b9bd4a6898589352b62fcf6fbe000719612c27db9a17baebfc14"
+    },
+    {
+      "path": "raw/3ttmcRNck85nUEcnaTZ3nmMWpq9sAdCwjq8EF56Zz4wzsi3dz2AB1G18FibKKmqNzShVexFVanogoAUSJeJXojy1.rpc.json",
+      "retrieved_at_utc": "2026-10-14T15:57:22.062819Z",
+      "sha256": "b772000d9a2b4448885d3e4a4e7b8ab748f9f5be53902a4422aedac44a35c326"
+    },
+    {
+      "path": "raw/3ArPkTBGFaLUhmyJQMeEYEcdQ1HgyCP7cvR9xt2RdQeq.terminal.rpc.json",
+      "retrieved_at_utc": "2026-10-14T15:59:50.491021Z",
+      "sha256": "1171700bfe3958c9b61077da4ff7ea28c69671073ed83b69416d2e16ba3e592d"
+    },
+    {
+      "path": "raw/3ArPkTBGFaLUhmyJQMeEYEcdQ1HgyCP7cvR9xt2RdQeq.terminal.request.json",
+      "retrieved_at_utc": "2026-10-14T15:59:44.304050Z",
+      "sha256": "6790d89d173427a5c6e7b3f0be306baae448fac1c2aae0df859a89a72629b707"
+    },
+    {
+      "path": "raw/3oE2jnT3zUyaW7tqqXGa7X98wWd3XHAtUpg7XYwweuv2.terminal.request.json",
+      "retrieved_at_utc": "2026-10-14T15:59:56.294199Z",
+      "sha256": "845c088713894b41b259a3d126fe2b6724c5cc0ef1a44f3fb8f3709df4d532b9"
+    },
+    {
+      "path": "raw/3ArPkTBGFaLUhmyJQMeEYEcdQ1HgyCP7cvR9xt2RdQeq.history.rpc.json",
+      "retrieved_at_utc": "2026-10-14T15:58:45.174043Z",
+      "sha256": "19d843c66dfc2365e9e27a931f7dec3fc625dfb24b252713a0b4388232d05b0a"
+    },
+    {
+      "path": "raw/6jpU2BZ8xRd6WU4VpsDirY6MmqDUaFFsrMc3FYUKdjTr.history.rpc.json",
+      "retrieved_at_utc": "2026-10-14T15:58:50.991858Z",
+      "sha256": "13d95697e9e8891e46f84397fb731df440e44ba950d9bc630011604078b957a1"
+    },
+    {
+      "path": "raw/yH7hEtrWaAN5df8GgVzAZVbwQVKXTrLTBSFHMcVWQZVfjHKi5FHYD2JojrSFppD7FA1i82MTENqwxwitZCtP6Uv.rpc.json",
+      "retrieved_at_utc": "2026-10-14T15:57:28.326486Z",
+      "sha256": "ed29e5f437b0e0cfd4b4a0960f9bcf4b1e3a2e6242813cdf48717839234e3a62"
+    },
+    {
+      "path": "raw/E4e1B87LkwWpbD3gBghjiHKN3Vv7Z3V87sNFC657Y5SR.history.request.json",
+      "retrieved_at_utc": "2026-10-14T15:58:50.992064Z",
+      "sha256": "79091b51d0fd282f9fb232bb3e4478a47742b912a4901b70337a844e82529921"
+    },
+    {
+      "path": "raw/5ubvNRPDbdXtHaiexB4zroZxUDFS9mwDmDwJ3HnvdGrxuiqxDDGsZnkjdAGVHysDZgiCFqVASoinDu1bADPAbowo.rpc.json",
+      "retrieved_at_utc": "2026-10-14T15:57:34.385806Z",
+      "sha256": "7b6117835955969e984cecfffdff801c15bbe2dc9336c5e00a583c2d5254dfd8"
+    },
+    {
+      "path": "raw/5ubvNRPDbdXtHaiexB4zroZxUDFS9mwDmDwJ3HnvdGrxuiqxDDGsZnkjdAGVHysDZgiCFqVASoinDu1bADPAbowo.request.json",
+      "retrieved_at_utc": "2026-10-14T15:57:28.326768Z",
+      "sha256": "15ccfb221ab7cd6ed7c1882f1049dcce77d1af14de06955386b5262c9acd5e13"
+    },
+    {
+      "path": "raw/6jpU2BZ8xRd6WU4VpsDirY6MmqDUaFFsrMc3FYUKdjTr.terminal.request.json",
+      "retrieved_at_utc": "2026-10-14T16:00:02.032982Z",
+      "sha256": "20ff7b94df81c82e89ea395c01c8bebfe9e3f00f44b9976c5655261e2ffcc012"
+    },
+    {
+      "path": "raw/51VosyAi5NJFWneGJYFeAV7B5Eo6Lnih4CTtifLVWGsLD5KWHxzyDzJcDvASXgvq7Pao5fQfrFjy2Fp31wZMx4Kn.request.json",
+      "retrieved_at_utc": "2026-10-14T16:00:25.876724Z",
+      "sha256": "3d70daa1273f739849e9101484a4a87b941cfa1c18ab06ced368ce870b762dc5"
+    },
+    {
+      "path": "raw/4DjT2fkphVfjk3KLjaB2sWNuZUXeRVnQ6w5YFCNxZ9ret4NVQAVACM6aJ3caUnzXWmnHQWMztq1HXaPeEp7aV9VR.rpc.json",
+      "retrieved_at_utc": "2026-10-14T16:00:25.928620Z",
+      "sha256": "c19daedacec5e35d310ed69fe03be03da2130f653a03b37ccbe52cbe290ef8fc"
+    },
+    {
+      "path": "raw/5xrGXTXnf7ZDe731C7EB5cNVnERshsZhT3E66udWiXmCtzaBGSVbmFygDovhJmzSrvUpG6m1PBRWQcq6S8UT18FV.rpc.json",
+      "retrieved_at_utc": "2026-10-14T15:57:22.024836Z",
+      "sha256": "2697e8168fe2da3818411755012964e90946cef92e93e11b2d6496a776ab8377"
+    },
+    {
+      "path": "raw/WijWjDeSvhCeyNwPzSbghU6ZEeqEFes5YcCrunsnuz3RjW8nnYNpLUhC58DnCwJSGjvoQ2ZLrNnZxozuWLCbWNN.rpc.json",
+      "retrieved_at_utc": "2026-10-14T16:00:25.876000Z",
+      "sha256": "310327422e1d6d431e5bf3f5439a4b463d5b7c575cd0c8b2a4fb5192c408f3a6"
+    },
+    {
+      "path": "raw/3njAEoBzprXcHLovXfyEaEWyLhhMtgJNbknFtRU6kZSz.history.request.json",
+      "retrieved_at_utc": "2026-10-14T15:58:39.902642Z",
+      "sha256": "b24f33450c97139e93c5eda0764a22018290cdc53b309aa69c9cdf50a8d91179"
+    },
+    {
+      "path": "raw/YzzAjmzmD5knBRgKvLRdR9heaiMBQFKz7X1UdcYoAZ3V7znarMProUsK1aRJKfQejaHrsqCtyxKH9Ls6TRQbK4D.rpc.json",
+      "retrieved_at_utc": "2026-10-14T16:00:20.027647Z",
+      "sha256": "600656b7dd1104f77ff15f2812a6eb51e21c854eb046fddb4ae73363da583d61"
+    },
+    {
+      "path": "raw/3njAEoBzprXcHLovXfyEaEWyLhhMtgJNbknFtRU6kZSz.terminal.request.json",
+      "retrieved_at_utc": "2026-10-14T15:59:50.491318Z",
+      "sha256": "f27f0af36978949305df17113e9dbb320df73aa0ad536401d2ed38af0c7cd8cd"
+    },
+    {
+      "path": "raw/51VosyAi5NJFWneGJYFeAV7B5Eo6Lnih4CTtifLVWGsLD5KWHxzyDzJcDvASXgvq7Pao5fQfrFjy2Fp31wZMx4Kn.rpc.json",
+      "retrieved_at_utc": "2026-10-14T16:00:31.722372Z",
+      "sha256": "fd44226cfd7196f41b228c5690800a7825af39cf2723a2508d33ce5feaa14dbe"
+    },
+    {
+      "path": "raw/2RRBTvJ43pasWVzrseXVJT3DpXdsAMwKvPgksrH1gtin7z12A1uzsg4vG7fMJd3FM6pBoj4WUXi2rD2deiJzciDa.request.json",
+      "retrieved_at_utc": "2026-10-14T15:57:22.063232Z",
+      "sha256": "9a7fecf82c5fd2ddfe6e58b3713d43c7eb1bacc78410a991267fac9f4efb09cd"
+    },
+    {
+      "path": "raw/2RRBTvJ43pasWVzrseXVJT3DpXdsAMwKvPgksrH1gtin7z12A1uzsg4vG7fMJd3FM6pBoj4WUXi2rD2deiJzciDa.rpc.json",
+      "retrieved_at_utc": "2026-10-14T15:57:28.324949Z",
+      "sha256": "af287236741a283315c70417e8d4027dfa0f5d5063a8a0d540659d27e988c208"
+    },
+    {
+      "path": "raw/E4e1B87LkwWpbD3gBghjiHKN3Vv7Z3V87sNFC657Y5SR.terminal.rpc.json",
+      "retrieved_at_utc": "2026-10-14T16:00:14.269844Z",
+      "sha256": "cfda63e56853f4f3d7804d572d60fefe375a6e8cf727e386cecac8130a5e08fb"
+    },
+    {
+      "path": "raw/6jpU2BZ8xRd6WU4VpsDirY6MmqDUaFFsrMc3FYUKdjTr.terminal.rpc.json",
+      "retrieved_at_utc": "2026-10-14T16:00:08.141013Z",
+      "sha256": "b381e13e73f7bb3aa4fd0f512a2c60ccedd91facd2ff704a60ab3f7d34f17e2c"
+    },
+    {
+      "path": "raw/E4e1B87LkwWpbD3gBghjiHKN3Vv7Z3V87sNFC657Y5SR.terminal.request.json",
+      "retrieved_at_utc": "2026-10-14T16:00:08.141269Z",
+      "sha256": "beaa1cc381b31f4a1b50fbd544e408c095fd495c001dac4ee2b576c7695aabdc"
+    },
+    {
+      "path": "raw/5xrGXTXnf7ZDe731C7EB5cNVnERshsZhT3E66udWiXmCtzaBGSVbmFygDovhJmzSrvUpG6m1PBRWQcq6S8UT18FV.request.json",
+      "retrieved_at_utc": "2026-10-14T15:57:16.055122Z",
+      "sha256": "e7db6e28cecf3b27252192cb0a4970073df63fb37c046abc48f7d8fe2c071333"
+    },
+    {
+      "path": "raw/6jpU2BZ8xRd6WU4VpsDirY6MmqDUaFFsrMc3FYUKdjTr.history.request.json",
+      "retrieved_at_utc": "2026-10-14T15:58:45.174346Z",
+      "sha256": "2f41d58c8febc43b877ed6263f0978f0fb21a844aae040584eaef012218f9675"
+    },
+    {
+      "path": "raw/YzzAjmzmD5knBRgKvLRdR9heaiMBQFKz7X1UdcYoAZ3V7znarMProUsK1aRJKfQejaHrsqCtyxKH9Ls6TRQbK4D.request.json",
+      "retrieved_at_utc": "2026-10-14T16:00:14.271663Z",
+      "sha256": "909d7716b635ab3b3b6323b62656579376871ae7ff335e088697162610a3d0cc"
+    },
+    {
+      "path": "raw/E4e1B87LkwWpbD3gBghjiHKN3Vv7Z3V87sNFC657Y5SR.history.rpc.json",
+      "retrieved_at_utc": "2026-10-14T15:58:57.128672Z",
+      "sha256": "e5d1748fd69443e67d361feeb965c3ce289fd688a3a5c96cbc8d77760dd08df6"
+    },
+    {
+      "path": "raw/3ArPkTBGFaLUhmyJQMeEYEcdQ1HgyCP7cvR9xt2RdQeq.history.request.json",
+      "retrieved_at_utc": "2026-10-14T15:58:39.897990Z",
+      "sha256": "b0b2c9ace53b7dd9dac3daaa1ba3c0a59ade943f4b3bcb70823a01ecd431d0e5"
+    },
+    {
+      "path": "raw/3njAEoBzprXcHLovXfyEaEWyLhhMtgJNbknFtRU6kZSz.terminal.rpc.json",
+      "retrieved_at_utc": "2026-10-14T15:59:56.293873Z",
+      "sha256": "b70ec33b2b58f20cf31c574b80decc3606c51223f1c4cbc0c6b3a7a3041868f2"
+    },
+    {
+      "path": "raw/finality.rpc.json",
+      "retrieved_at_utc": "2026-10-14T16:00:38.190879Z",
+      "sha256": "4c71702061b752e1ffa1df76531fa40d39652bcaadf688ab801985d74f099778"
+    },
+    {
+      "path": "raw/4DjT2fkphVfjk3KLjaB2sWNuZUXeRVnQ6w5YFCNxZ9ret4NVQAVACM6aJ3caUnzXWmnHQWMztq1HXaPeEp7aV9VR.request.json",
+      "retrieved_at_utc": "2026-10-14T16:00:20.027906Z",
+      "sha256": "1548f629e05e5695c797f0e8446286edf7b431e94091ff3125680199bbf22fee"
+    },
+    {
+      "path": "raw/5nRVLSVpSVDsmJ22zLL1ywrThq7y4VpybrdJnetbSi2KwTaAao5o7fy9aRPdkjF8tuvLvW21Zn99pBuEqboTjMkE.rpc.json",
+      "retrieved_at_utc": "2026-10-14T15:57:34.400455Z",
+      "sha256": "df481084f5a6d87662d7234737487e4919f0148db883eca94f05c7f2f46baf35"
+    },
+    {
+      "path": "raw/2QCHv8JdYXDBdV8ArcNzL2JaZZULcm9D1mAJ4khE7LAju7jjfjMKaNtUsE3zbAJX93JeeZCjB1mxPjTdNroq4GgQ.rpc.json",
+      "retrieved_at_utc": "2026-10-14T16:00:20.115927Z",
+      "sha256": "0e2d6cf9f0256c21e432a2ad36c3f6f107d8250dec0878a0b6322590cce85587"
+    },
+    {
+      "path": "raw/3oE2jnT3zUyaW7tqqXGa7X98wWd3XHAtUpg7XYwweuv2.terminal.rpc.json",
+      "retrieved_at_utc": "2026-10-14T16:00:02.032641Z",
+      "sha256": "9564d26ddb92e07b1d71de57e42428bbe17e5b28affb83ead6c66efe82b58996"
+    },
+    {
+      "path": "raw/yH7hEtrWaAN5df8GgVzAZVbwQVKXTrLTBSFHMcVWQZVfjHKi5FHYD2JojrSFppD7FA1i82MTENqwxwitZCtP6Uv.request.json",
+      "retrieved_at_utc": "2026-10-14T15:57:22.025560Z",
+      "sha256": "2bc07d865a6a94dd1dbad406cf57fef6836eb3f607e4e5f037c93bb3b26ef14c"
+    },
+    {
+      "path": "raw/3njAEoBzprXcHLovXfyEaEWyLhhMtgJNbknFtRU6kZSz.history.rpc.json",
+      "retrieved_at_utc": "2026-10-14T15:58:45.125543Z",
+      "sha256": "7a7802d5b95d3a5a9aaddfd0685705770490a19d5e250046f0d418f78286c989"
+    },
+    {
+      "path": "raw/5nRVLSVpSVDsmJ22zLL1ywrThq7y4VpybrdJnetbSi2KwTaAao5o7fy9aRPdkjF8tuvLvW21Zn99pBuEqboTjMkE.request.json",
+      "retrieved_at_utc": "2026-10-14T15:57:28.325306Z",
+      "sha256": "b7f7d9d756ac0e4d44a89e3cc6c3ea9cb66ad0a38224ffa3a7f876747043a100"
+    },
+    {
+      "path": "raw/2QCHv8JdYXDBdV8ArcNzL2JaZZULcm9D1mAJ4khE7LAju7jjfjMKaNtUsE3zbAJX93JeeZCjB1mxPjTdNroq4GgQ.request.json",
+      "retrieved_at_utc": "2026-10-14T16:00:14.271929Z",
+      "sha256": "9961ac82686a159fd2b6655c039fb77117f50e8e985d8fdce9b8f83f030bcb7d"
+    },
+    {
+      "path": "raw/finality.request.json",
+      "retrieved_at_utc": "2026-10-14T16:00:31.723833Z",
+      "sha256": "a0288d0d74a737160fb12403a305201af70c7c5d38edd5a71484e7876e7b57e2"
+    }
+  ],
+  "timestamp_note": "retrieved_at is local file-write time immediately after response, not server attestation; original response bodies unchanged",
+  "provider_independence": "one RPC provider, separate status requests; second-provider agreement NOT ASSESSED"
+}

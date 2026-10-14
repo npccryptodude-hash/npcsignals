@@ -1,0 +1,21 @@
+{
+  "signature": "3ttmcRNck85nUEcnaTZ3nmMWpq9sAdCwjq8EF56Zz4wzsi3dz2AB1G18FibKKmqNzShVexFVanogoAUSJeJXojy1",
+  "total_raw": "116513762335674",
+  "known_creator_transfer_raw": "70000000000000",
+  "new_five_source_total_raw": "46513762335674",
+  "recipient_before_raw": "2936950790841",
+  "recipient_after_raw": "119450713126515",
+  "recipient_delta_raw": "116513762335674",
+  "native_fee_lamports": 35700,
+  "native_fee_payer_decrease": 35700,
+  "source_owners_and_signers": [
+    "8hiMXA1UHYUAeW6gd6q1XQLWzZkQL48znqgdgY1388B7",
+    "3ArPkTBGFaLUhmyJQMeEYEcdQ1HgyCP7cvR9xt2RdQeq",
+    "3njAEoBzprXcHLovXfyEaEWyLhhMtgJNbknFtRU6kZSz",
+    "3oE2jnT3zUyaW7tqqXGa7X98wWd3XHAtUpg7XYwweuv2",
+    "6jpU2BZ8xRd6WU4VpsDirY6MmqDUaFFsrMc3FYUKdjTr",
+    "E4e1B87LkwWpbD3gBghjiHKN3Vv7Z3V87sNFC657Y5SR",
+    "Ft2XtprBymZsGwYUMjsLN6z8WZzguTVa5rFYSuN41S8i"
+  ],
+  "formal_multisig_configuration": "NOT ASSESSED: parsed multisigAuthority/signers is not account configuration proof"
+}

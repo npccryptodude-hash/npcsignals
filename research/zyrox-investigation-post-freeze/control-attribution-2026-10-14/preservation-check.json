@@ -1,0 +1,11 @@
+{
+  "baseline_commit": "b21e5ec2467ff35cb06369d05f5170f5913a697e",
+  "original_subtree_hashes": {
+    "research/zyrox-investigation": "de3d90df06958005608a3dfb49214ee371b56966",
+    "research/glitch-investigation": "5d60922410c5f6f1f14fb9988c8c80c4d65d6c73",
+    "research/evidence/binance-v2.0-2026-10-14": "e85ba985f5803ee09dd64a4b6d0abd5ad8f30acb",
+    "research/audits/binance-v2.0-2026-10-14": "1f5c2765de24ef99f34b63d5937d168e2b1cbbbd"
+  },
+  "changed_existing_tracked_files": [],
+  "note": "remote preservation verified by git-tree equality after publication; entire pre-existing post-freeze tree retained as base plus new subdirectory"
+}
