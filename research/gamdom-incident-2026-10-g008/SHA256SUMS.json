@@ -1,0 +1,21 @@
+{
+  "README.md": "2b694bbfa7c283da1c0e0b34db915252edca7aaba157707547397e80c362c214",
+  "authorization_verification.md": "6274d5c39d762302b0412efa12539eb7a923008d9c2042a56eec202065c104cd",
+  "blocker_report.md": "ba918cf8a47ef822b5fe169be6395c6f68d31676d61a3e7772fc01384dbc88ce",
+  "coverage_report.md": "9d947de6a7dd1d405e3202316463f4f288b28a5600e4f72c97052e328a2e1378",
+  "delegated_execution_assessment.md": "61bfe461ab073e93ccd7814c98029a0547eed664819a2c6dd55ffb51d2a688f2",
+  "evidence/authorization_raw.hex": "8c982325e0eb1842bb04f2b1841a02bfc1daa18686d2a8f082aa10885e2a56ac",
+  "evidence/authorization_verification.json": "04a065dd9b22e1ccd6d776c154efdd603030b3c2744a5d9a90e531df89e6cb8b",
+  "evidence/coverage_observations.json": "9e985c26121ab8793e9eb2e3e19099f8116269001e9cc80ece1dd8c10c080c2d",
+  "evidence/execution_observations.json": "d65506c6c3ca14414a4e9a657cc812f91fd50deaf943a0555c086c3287cc564c",
+  "evidence/funding_observations.json": "97304eb2608eee2d678477d4a13b99c94e9637456cd1e32661b27d6c9096fb1b",
+  "funding_transaction_ledger.csv": "8348dbdf1c2a91ceda45b6bfd01a2cff48318a912b3378d7bb3cd19f61adc376",
+  "hypothesis_comparison.md": "995cb49d45d8c4e871e8c85c2f86fb6921fe49cee91b09dc85ddfb10913fb9ea",
+  "requirements.txt": "44aa2003a586f39091b487dd24fcaa22dd54c78f0ed05c2f4a9e0885e4e2def4",
+  "source_register.csv": "5cabb0edb51eecaa502c48af5047a770a60f91ce902e7d15497f1f97e151f18a",
+  "upstream_provenance.md": "c13947da517b7c8524099e1436c19fcc73cba80ab701414a5714f44990a80ccf",
+  "verification_report.md": "49014bc55596317f2d0ff9690a65da50cab555e73d357d53581a7283484bd9cc",
+  "verification_results.txt": "7802a10d34ac39d5ea05c148a988bea14029e95474716e9ed849dbd30b81995d",
+  "verify.py": "b1994d578e0afd333c067231aa5f3ce966c2680b93a65494e80734241cff1349",
+  "verify_authorization.py": "5ef3eca84b7f2b5318b17d9d208b48a715a61f2fa0ec49d8f7176f03cd4643be"
+}

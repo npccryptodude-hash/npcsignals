@@ -1,0 +1,61 @@
+{
+  "advanced_internal_call_table": [
+    {
+      "from": "0xe5686AaE44d392aa6A0637FD38393859502F8667",
+      "gas_limit": 56446,
+      "method": "Approve",
+      "to": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "value_ETH": "0"
+    },
+    {
+      "from": "0xe5686AaE44d392aa6A0637FD38393859502F8667",
+      "gas_limit": 26572,
+      "method": "Set Pre Signature",
+      "to": "0x9008d19f58aabd9ed0d60971565aa8510560ab41",
+      "value_ETH": "0"
+    }
+  ],
+  "authorization_page": {
+    "authority": "0xe5686AaE44d392aa6A0637FD38393859502F8667",
+    "chain_id_not_displayed_in_table": true,
+    "nonce": 1,
+    "validity_displayed": true,
+    "yParity": "0x1"
+  },
+  "block": 26184803,
+  "chain": "Ethereum",
+  "historical_code_RPC": "NOT OBTAINED",
+  "later_B_trace_assessment": "UNRESOLVED; browser transport timed out before the requested later-transaction check returned data.",
+  "logs": [
+    {
+      "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "event": "Approval",
+      "log_index": 83,
+      "owner": "0xe5686AaE44d392aa6A0637FD38393859502F8667",
+      "raw_value": "115792089237316195423570985008687907853269984665640564039457584007913129639935",
+      "spender": "0xC92E8bdf79f0507f65a392b0ab4667716BFE0110"
+    },
+    {
+      "address": "0x9008d19f58aabd9ed0d60971565aa8510560ab41",
+      "event": "PreSignature",
+      "log_index": 84,
+      "order_uid": "0xf8ba54e25309414c07c753fb666e9e23d0430b8e8e3e8b51402ebe71ff4df001e5686aae44d392aa6a0637fd38393859502f86676ace64da",
+      "owner": "0xe5686AaE44d392aa6A0637FD38393859502F8667",
+      "signed": true
+    }
+  ],
+  "position_in_block": 44,
+  "record_type": "Curated transcription of completed Etherscan browser observations",
+  "state_view": {
+    "B_after_ETH_displayed": "0.000146401684822704",
+    "B_after_nonce_displayed": 2,
+    "B_before_ETH_displayed": "0.00038083065083389",
+    "B_before_nonce_displayed": 1,
+    "code_bytes_not_exposed_in_observed_table": true,
+    "warning": "Explorer nonce Before display must not be substituted for transaction-prestate: outer transaction nonce is independently decoded as 0; sender increment precedes authorization processing."
+  },
+  "status": "Success",
+  "transaction_hash": "0xf1d9478bfcccf3dcc7ea5211fd7924230226be0bee7a5b96d767cc9f7167e9a2",
+  "tx_fee_ETH": "0.000234428966011186",
+  "utc_timestamp": "2026-10-13T16:35:59Z"
+}

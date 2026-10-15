@@ -1,0 +1,17 @@
+source_id,url,source_type,evidence_scope,saved_record
+AUTH_RAW,https://etherscan.io/getRawTx?tx=0xf1d9478bfcccf3dcc7ea5211fd7924230226be0bee7a5b96d767cc9f7167e9a2,primary explorer raw signed transaction,CONFIRMED offline hash/signature,evidence/authorization_raw.hex
+AUTH_LOGS,https://etherscan.io/tx/0xf1d9478bfcccf3dcc7ea5211fd7924230226be0bee7a5b96d767cc9f7167e9a2#eventlog,primary explorer decoded logs,CONFIRMED explorer representation,evidence/execution_observations.json
+AUTH_TRACE,https://etherscan.io/tx/0xf1d9478bfcccf3dcc7ea5211fd7924230226be0bee7a5b96d767cc9f7167e9a2/advanced#internal,primary explorer internal call table,CONFIRMED explorer representation,evidence/execution_observations.json
+AUTH_STATE,https://etherscan.io/tx/0xf1d9478bfcccf3dcc7ea5211fd7924230226be0bee7a5b96d767cc9f7167e9a2#statechange,primary explorer state display,code bytes unresolved,evidence/execution_observations.json
+EIP,https://eips.ethereum.org/EIPS/eip-7702,primary protocol specification,protocol reference; not case attribution,authorization_verification.md
+IMPL,https://etherscan.io/address/0x63c0c19a282a1B52b07dD5a65b58948A07DAE32B#code,current verified source and bytecode page,historical code identity unresolved,delegated_execution_assessment.md
+DEPLOY,https://github.com/MetaMask/delegation-framework/blob/main/documents/Deployments.md,implementation publisher deployment documentation,SUPPORTED implementation identification; mutable main,delegated_execution_assessment.md
+CORE,https://github.com/MetaMask/delegation-framework/blob/main/src/EIP7702/EIP7702DeleGatorCore.sol,implementation publisher source,background method access restriction; mutable main,delegated_execution_assessment.md
+F1,https://polygonscan.com/tx/0x5e1fd78c9b4f5881d28eb2f14f0c59b32bda206a942a6956316c07965b570591,primary explorer overview and decoded Transfer log,CONFIRMED explorer representation,evidence/funding_observations.json
+F2,https://polygonscan.com/tx/0xf22c8c77a41f416bf803724e4ec3c879e7aebf55eb8b2992d98e979df7936842,primary explorer overview and decoded Transfer log,CONFIRMED explorer representation,evidence/funding_observations.json
+F3,https://polygonscan.com/tx/0x1d0ddb74539a42bad7ef87646f42368a49e466025a05d788a72ebd24e51bc350,primary explorer overview and decoded Transfer log,CONFIRMED explorer representation,evidence/funding_observations.json
+F4,https://polygonscan.com/tx/0x0aa5985f168ba71b1349b71a21d54c4477c16b46c4eb8e20b338fd3d4071a30e,primary explorer overview and decoded Transfer log,CONFIRMED explorer representation,evidence/funding_observations.json
+F5,https://polygonscan.com/tx/0x1bb294f9309955a73a3cc2fa99f3791492f24d4ee11adb45441bc91b66383b5e,primary explorer overview and decoded Transfer log,CONFIRMED explorer representation,evidence/funding_observations.json
+C_ALL,https://polygonscan.com/tokentxns?a=0xaCc0c1f672B03B9a5fED4535f840f09B85f40E98,primary explorer index sample,"SUPPORTED index coverage, not exhaustive",evidence/coverage_observations.json
+C_TOKEN,https://polygonscan.com/token/0xc2132d05d31c914a87c6611c10748aeb04b58e8f?a=0xaCc0c1f672B03B9a5fED4535f840f09B85f40E98,primary explorer index sample,"SUPPORTED index coverage, not exhaustive",evidence/coverage_observations.json
+C_NATIVE,https://polygonscan.com/address/0xaCc0c1f672B03B9a5fED4535f840f09B85f40E98,primary explorer index sample,"SUPPORTED index coverage, not exhaustive",evidence/coverage_observations.json

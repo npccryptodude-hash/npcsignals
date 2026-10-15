@@ -1,0 +1,9 @@
+# G008 remaining technical blockers
+
+1. Historical code state: no successful eth_getCode(B,26184802/26184803), implementation code at that block, account proof or independent transaction-prestate trace. Expected delegation bytes are derived and labelled accordingly.
+2. Later execution: browser request timed out while attempting the initial native-funding receipt and later B transaction check. Subsequent state-read and session-reset calls also timed out. Their results are unknown; no later trace was obtained.
+3. Independent RPC transport checks: eth_chainId requests to https://ethereum-rpc.publicnode.com returned HTTP 403; https://eth.llamarpc.com HTTP 405; https://polygon-bor-rpc.publicnode.com HTTP 403; https://polygon-rpc.com HTTP 401. These are endpoint/client access results, not evidence of missing chain data. The earlier attempt using requests failed because that Python module was absent; the recorded endpoint results came from urllib, which did execute.
+4. Web retrieval of the initial native-funding receipt and a later B receipt returned inaccessible results. Browser transport failure is not classified as a site CAPTCHA or evidence of transaction absence.
+5. Funding completeness: five selected canonical-token receipts are verified; opening balance, all earlier native/token history, C approvals and D's source remain missing. No exclusive provenance for the 14.950094 input, common ownership or upstream bridge origin is established.
+
+The completed cryptographic recovery and funding observations remain publishable evidence with these limits. Article HOLD. Highest-value remaining verification: archive-capable Ethereum code and call traces for the dated authorization and subsequent B operations, using the exact hashes and block numbers in this package. No company or investigator response is substituted for chain data.

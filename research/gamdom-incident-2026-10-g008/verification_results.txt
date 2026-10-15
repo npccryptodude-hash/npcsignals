@@ -1,0 +1,5 @@
+PASS manifest coverage and every SHA-256 digest
+PASS raw transaction hash, strict RLP, both recovered B signatures and batch calldata
+PASS decoded calls agree with saved approval, pre-signature and explorer call observations
+PASS five unique funding receipts, raw units, chronology and exact +174.695528 USDT0 sample delta
+PASS both frozen evidence directories preserved byte-for-byte with no extra descendants

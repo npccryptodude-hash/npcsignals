@@ -1,0 +1,56 @@
+{
+  "C_all_token_index": {
+    "URL": "https://polygonscan.com/tokentxns?a=0xaCc0c1f672B03B9a5fED4535f840f09B85f40E98",
+    "oldest_page1_block": 95408749,
+    "page_size": 50,
+    "pages": 151,
+    "pages_examined": [
+      1
+    ],
+    "reputation_filter_active": true,
+    "total_displayed": 7529
+  },
+  "C_canonical_USDT0_holder_index": {
+    "URL": "https://polygonscan.com/token/0xc2132d05d31c914a87c6611c10748aeb04b58e8f?a=0xaCc0c1f672B03B9a5fED4535f840f09B85f40E98",
+    "five_selected_receipts_verified": true,
+    "no_full_historical_export": true,
+    "oldest_returned_block": 95402274,
+    "page": 1,
+    "page_size": 25,
+    "pages_displayed": 146,
+    "pre_anchor_verified_interval_blocks": [
+      95434113,
+      95472496
+    ]
+  },
+  "C_internal_transactions": {
+    "block": 84162520,
+    "displayed_amount_POL": "0.0000001",
+    "displayed_count": 1,
+    "only_index_observed": true,
+    "parent_hash": "0x3019c476aeba2976b462f3dcd9b42e91a3965209ff7859b2eb26be347560f58c"
+  },
+  "C_normal_transactions": {
+    "URL": "https://polygonscan.com/address/0xaCc0c1f672B03B9a5fED4535f840f09B85f40E98",
+    "latest_block": 95545518,
+    "latest_rows_examined": 25,
+    "not_all_pages_retrieved": true,
+    "oldest_block": 95401389,
+    "total_displayed": 4227
+  },
+  "initial_native_funding_link": {
+    "displayed_source_address": "0xe7804c37c13166ff0b37f5ae0bb07a3aebb6e245",
+    "hash": "0xd46ededf3ff69757b932f15316c4900229d882341b052049dbd00fd1f1c34994",
+    "ownership_not_attributed": true,
+    "receipt_not_retrieved": true
+  },
+  "native_incoming_index_lead": {
+    "block": 95453742,
+    "displayed_amount_POL": "0.00011315",
+    "displayed_short_sender": "0xE757f5d3...01191e8d2",
+    "hash": "0x1a6177da3f73299a8be10c0dc68cefc60351a7dfeb4f1aaa0aed14ce967d530c",
+    "receipt_not_verified": true,
+    "warning": "This is not the full address of the verified USDT0 source D; no equality inferred."
+  },
+  "record_type": "Curated browser observations; index coverage not node-certified"
+}
