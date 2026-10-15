@@ -1,0 +1,4044 @@
+[
+  {
+    "record": "A_baseline_1",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getLogs",
+      "params": [
+        {
+          "fromBlock": "0x18f6eb0",
+          "toBlock": "0x18f8b01",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x000000000000000000000000d5fbda4c79f38920159fe5f22df9655fde292d47",
+            null
+          ]
+        }
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:06:59.753442+00:00",
+    "record_sha256_canonical_json": "ae9d1716c165e82ab6d5f76b87bce8f1062f34ea47244ce5868c9bc9f363ae03",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "A_baseline_2",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getLogs",
+      "params": [
+        {
+          "fromBlock": "0x18f6eb0",
+          "toBlock": "0x18f8b01",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            null,
+            "0x000000000000000000000000d5fbda4c79f38920159fe5f22df9655fde292d47"
+          ]
+        }
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:03.988375+00:00",
+    "record_sha256_canonical_json": "97364062708cbba052baf3df61291183d41ecbe2f767700937dda14d126b3724",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "B_window_1",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getLogs",
+      "params": [
+        {
+          "fromBlock": "0x18f8b02",
+          "toBlock": "0x18f8e22",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x000000000000000000000000e5686aae44d392aa6a0637fd38393859502f8667",
+            null
+          ]
+        }
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:05:00.561775+00:00",
+    "record_sha256_canonical_json": "8388345463d3df122d3aae82899a93bedec0df409e3f1d8eb3175d4a667b1e74",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "B_window_2",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getLogs",
+      "params": [
+        {
+          "fromBlock": "0x18f8b02",
+          "toBlock": "0x18f8e22",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            null,
+            "0x000000000000000000000000e5686aae44d392aa6a0637fd38393859502f8667"
+          ]
+        }
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:05:06.835521+00:00",
+    "record_sha256_canonical_json": "e030620788f8c438e0728a6bad68127469ff04c3522d9a8c9e7b77675a7f926a",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "E1_prior_1",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getLogs",
+      "params": [
+        {
+          "fromBlock": "0x18e4120",
+          "toBlock": "0x18f8b01",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x0000000000000000000000004b304741599c125a244e498d14562487d7109ab8",
+            null
+          ]
+        }
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:06:59.756685+00:00",
+    "record_sha256_canonical_json": "6693bb47163cd93090a154006a0ae12c8f64b77bddbfc23c93cc3ef3a3a9f847",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "E1_prior_2",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getLogs",
+      "params": [
+        {
+          "fromBlock": "0x18e4120",
+          "toBlock": "0x18f8b01",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            null,
+            "0x0000000000000000000000004b304741599c125a244e498d14562487d7109ab8"
+          ]
+        }
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:03.982588+00:00",
+    "record_sha256_canonical_json": "0e03dac89fce6f04c46d3d08325691261f271bdf4541aac279be5bf076b41556",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "E1_window_1",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getLogs",
+      "params": [
+        {
+          "fromBlock": "0x18f8b02",
+          "toBlock": "0x18f8e22",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x0000000000000000000000004b304741599c125a244e498d14562487d7109ab8",
+            null
+          ]
+        }
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:05:57.160726+00:00",
+    "record_sha256_canonical_json": "9fd8e051d17c04a9781d83c87adb3f1d396046b3276505c7454c5ee07fedf5db",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "E1_window_2",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getLogs",
+      "params": [
+        {
+          "fromBlock": "0x18f8b02",
+          "toBlock": "0x18f8e22",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            null,
+            "0x0000000000000000000000004b304741599c125a244e498d14562487d7109ab8"
+          ]
+        }
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:06:05.092541+00:00",
+    "record_sha256_canonical_json": "df26afde47fccf9160459dd54a57f4e9bc6491c3ad9b1a467e52116332582929",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "E2source_window_1",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getLogs",
+      "params": [
+        {
+          "fromBlock": "0x18f8b02",
+          "toBlock": "0x18f8e22",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x0000000000000000000000002cff890f0378a11913b6129b2e97417a2c302680",
+            null
+          ]
+        }
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:12.032326+00:00",
+    "record_sha256_canonical_json": "159981cae74709a7ff5b5db632b008446d70770eafec836915517ed50b08fbd3",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "E2source_window_2",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getLogs",
+      "params": [
+        {
+          "fromBlock": "0x18f8b02",
+          "toBlock": "0x18f8e22",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            null,
+            "0x0000000000000000000000002cff890f0378a11913b6129b2e97417a2c302680"
+          ]
+        }
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:17.223104+00:00",
+    "record_sha256_canonical_json": "aebde4be436d1a0b2b41b4d3d11cfc76822dc4472af19f6fbf168fa011d039c8",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "F_window_1",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getLogs",
+      "params": [
+        {
+          "fromBlock": "0x18f8b02",
+          "toBlock": "0x18f8e22",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x000000000000000000000000f70da97812cb96acdf810712aa562db8dfa3dbef",
+            null
+          ]
+        }
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:05:12.143607+00:00",
+    "record_sha256_canonical_json": "2f9b023b5f06bd5ff4c6cb923da485fbc3b8fc5f3cf366cadb28442c413a33ff",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "F_window_2",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getLogs",
+      "params": [
+        {
+          "fromBlock": "0x18f8b02",
+          "toBlock": "0x18f8e22",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            null,
+            "0x000000000000000000000000f70da97812cb96acdf810712aa562db8dfa3dbef"
+          ]
+        }
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:05:18.459778+00:00",
+    "record_sha256_canonical_json": "ef6ae58f146e81a86ef5f7e1935593940941b818f7dc971d466100b526bdbbb8",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "S1_baseline_1",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getLogs",
+      "params": [
+        {
+          "fromBlock": "0x18f6eb0",
+          "toBlock": "0x18f8b01",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x0000000000000000000000000067cc2416f792cf0ec5629f5506324ac508f859",
+            null
+          ]
+        }
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:06:59.754376+00:00",
+    "record_sha256_canonical_json": "15a81d2f60541d9e972408f5b53803e2751d428f933e89f5899e912807f15fa8",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "S1_baseline_2",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getLogs",
+      "params": [
+        {
+          "fromBlock": "0x18f6eb0",
+          "toBlock": "0x18f8b01",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            null,
+            "0x0000000000000000000000000067cc2416f792cf0ec5629f5506324ac508f859"
+          ]
+        }
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:04.401087+00:00",
+    "record_sha256_canonical_json": "0229f668bdf02e1f58c4bf0e413c5b3ff1fae83e0f052b8e9884cbc40bb69e49",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "S2_baseline_1",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getLogs",
+      "params": [
+        {
+          "fromBlock": "0x18f6eb0",
+          "toBlock": "0x18f8b01",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x000000000000000000000000580450dff316ae00d0fbef9621a304020a046ce2",
+            null
+          ]
+        }
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:06:59.755396+00:00",
+    "record_sha256_canonical_json": "368077317262b982565183ef159c52bc9341a220dbe57803269b2f28997fbb8f",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "S2_baseline_2",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getLogs",
+      "params": [
+        {
+          "fromBlock": "0x18f6eb0",
+          "toBlock": "0x18f8b01",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            null,
+            "0x000000000000000000000000580450dff316ae00d0fbef9621a304020a046ce2"
+          ]
+        }
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:03.977346+00:00",
+    "record_sha256_canonical_json": "0165769f9199588cb51ca118133a8777627774e04e090c848e9bb6401195ef49",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "block_26100000",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x18e4120",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:18:21.344797+00:00",
+    "record_sha256_canonical_json": "42599953ee8f8fd8b15a7653c5e67e936c48abb01a9638d7a439061bd0cdc46b",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "block_26177200",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x18f6eb0",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:18:27.127550+00:00",
+    "record_sha256_canonical_json": "26fd598fa499388ffb6a77c9b6bcc4c94dfdfb94e78c72bd53b7299b24a23cee",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "block_26184449",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x18f8b01",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:18:32.545174+00:00",
+    "record_sha256_canonical_json": "dc85329548c0451da0240a22fed638dc433882bf3624c32b9a1f5b303bf857b5",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "block_26184450",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x18f8b02",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:08:17.681189+00:00",
+    "record_sha256_canonical_json": "b1aa6a9544ee0636c39bdd6e662d850985fea0718728fdfb8420e15df50dd194",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "block_26184626",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x18f8bb2",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:38.339371+00:00",
+    "record_sha256_canonical_json": "4bb202652b26ef5b8a9cb921369c61a26464a94fb588e353774a851a353d8b97",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "block_26184678",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x18f8be6",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:11:07.320029+00:00",
+    "record_sha256_canonical_json": "98b1a15fd644e106ccdb0972c739dae52fea083b0b64904b432056bfb682be9b",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "block_26184708",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x18f8c04",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:38.388897+00:00",
+    "record_sha256_canonical_json": "180775bc8da754214e03052196abde460312f68cbf146bf682bfef0b2b8f3652",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "block_26184717",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x18f8c0d",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:11:07.308370+00:00",
+    "record_sha256_canonical_json": "6d531073408e308beaf58313639bd2c1239249bb68338b71072b4cc47eae24a0",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "block_26184726",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x18f8c16",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:10:50.400071+00:00",
+    "record_sha256_canonical_json": "5ae73bc591f19232d73065627fc2a01141a90e5666f9df22544e2b814784f95d",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "block_26184728",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x18f8c18",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:10:50.280255+00:00",
+    "record_sha256_canonical_json": "38559694cbf7d6035ec3b2d75b7c73111e9fb8e39c2623cd1e9d058f21a137c1",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "block_26184729",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x18f8c19",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:08.193139+00:00",
+    "record_sha256_canonical_json": "ad7d965a815811b868fa9c34708b7da8479e66c625f64cbe3fd323856ba7e5cb",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "block_26184738",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x18f8c22",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:53.170740+00:00",
+    "record_sha256_canonical_json": "9abe256a73e12f1ee34e9311273a98ced2626d14fc97660ae0b2ab78a6fef648",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "block_26184739",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x18f8c23",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:10:32.445390+00:00",
+    "record_sha256_canonical_json": "d3fc84fa29b8541695e0aa561f1a3539cc9da142b5464e6bf25270d78cb690ce",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "block_26184741",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x18f8c25",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:06:35.629015+00:00",
+    "record_sha256_canonical_json": "3a626be4a9cfd127b0c0b52228908bd57bb047e6af7e73f21192f9eed4a36a75",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "block_26184747",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x18f8c2b",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:08.242592+00:00",
+    "record_sha256_canonical_json": "e20bdef946e0b92148eb33c0805d0dc81f35451a3e06a30d6ab1ed1b7da6021b",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "block_26184750",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x18f8c2e",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:06:35.566593+00:00",
+    "record_sha256_canonical_json": "27e170f4f1cbe8dc886b25d3cfa7b8c50017f13683b80e34cc8ba182d1393724",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "block_26184751",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x18f8c2f",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:06:51.325457+00:00",
+    "record_sha256_canonical_json": "7fc2afa93ad7f1f5086818d0cd49485be6ec7d85bdd5027d3d64464adac107e5",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "block_26184755",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x18f8c33",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:06:51.240095+00:00",
+    "record_sha256_canonical_json": "3f4911d9e0ffe0fbc006d837d4ba72a4208da7b8473f2d26f5dccdebf1ac40b2",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "block_26184765",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x18f8c3d",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:10:32.508105+00:00",
+    "record_sha256_canonical_json": "0a39084def3f40025afaa18119c37ca317a92345630c10b8c27b4bce97b73d5d",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "block_26184766",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x18f8c3e",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:10:15.607591+00:00",
+    "record_sha256_canonical_json": "5ce2ebb73a9e1fb06b94793f65e52ae23742eebcbd7fd9db9c9e05c587fde149",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "block_26184796",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x18f8c5c",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:04:55.276624+00:00",
+    "record_sha256_canonical_json": "fd5e88281a3a5dbaafa57dddc2e9d96b1449acd0b3fe78bde8da2e88ab293191",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "block_26184818",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x18f8c72",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:08:02.536978+00:00",
+    "record_sha256_canonical_json": "53b76ea442ae5a331802f3a9d645f86bd8645385203721b4a5d7398abf40f4b4",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "block_26184822",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x18f8c76",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:08:06.514996+00:00",
+    "record_sha256_canonical_json": "3143f44a75697c458ee26bba73b1a81912d6a89f4c194117d5a1c8ff52fe50ac",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "block_26184871",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x18f8ca7",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:06:51.179556+00:00",
+    "record_sha256_canonical_json": "ac8987cd5ce72bd51e4885c0dea8fe71722114a0f57227d5421f0c497ecfdc8f",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "block_26184910",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x18f8cce",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:08.150396+00:00",
+    "record_sha256_canonical_json": "999a2e97099ee2d508a389f201d8678f59cf2846716605521593821b4f7515ee",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "block_26184922",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x18f8cda",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:08:02.513533+00:00",
+    "record_sha256_canonical_json": "4dde8d254224588583134f56982e2d1216e285602c6d354d04a716e0ef210912",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "block_26184932",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x18f8ce4",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:23.821883+00:00",
+    "record_sha256_canonical_json": "a7e022365d506dd35c91b27c49b10be96095d87884a7dd780a6435224fb3dbf9",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "block_26184934",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x18f8ce6",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:08.146611+00:00",
+    "record_sha256_canonical_json": "09b1ef98f140a8b87ce3715babe9caea9ebc2802ea53668b7150ccbb29939a64",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "block_26184960",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x18f8d00",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:34.070688+00:00",
+    "record_sha256_canonical_json": "abc2803fdfb59ed5ab8495600634b80788c95a7cd0fd415f7feefb4ee6bbddc4",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "block_26184966",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x18f8d06",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:49.378774+00:00",
+    "record_sha256_canonical_json": "515b558d04cb3d13f9770fdf65582c57e552af7f454370e7cd1cb5741c72ca6d",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "block_26185009",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x18f8d31",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:06:51.249022+00:00",
+    "record_sha256_canonical_json": "7b634d56568eb4f21ff802b4c2e38b6eed0c21afd5352ba5dea9837aae631f07",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "block_26185056",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x18f8d60",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:10:15.572949+00:00",
+    "record_sha256_canonical_json": "4d632aa0df894f83414cda9a292cd55cdb4e170caee318e9aa73578202eb09ce",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "block_26185080",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x18f8d78",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:06:35.643554+00:00",
+    "record_sha256_canonical_json": "6c9e38dd931b3f06a9e3b297666621b10833c2d8e616b0c82d22a9c684e22e8a",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "block_26185119",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x18f8d9f",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:23.868040+00:00",
+    "record_sha256_canonical_json": "dfc60f9c39584a134167debd2078da5027c9f25491eb0f738b76419ddb29cbc0",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "block_26185124",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x18f8da4",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:06:35.712545+00:00",
+    "record_sha256_canonical_json": "3581fc14f6f284a1d2fad0177c4feec410db7e943336fcbc5a3c7ca677e96956",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "block_26185134",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x18f8dae",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:09:59.483923+00:00",
+    "record_sha256_canonical_json": "2a225d5d8baa837acab43c2385b883f5fef13a1d2a2660d1f2a4c4601547045a",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "block_26185137",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x18f8db1",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:09:59.453775+00:00",
+    "record_sha256_canonical_json": "66f5e4159b2ec9335005362ac92c218d6d768401a52baf7d7ce7bcb3ef79b72b",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "block_26185142",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x18f8db6",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:13:59.380100+00:00",
+    "record_sha256_canonical_json": "4aba048547900eec7a9bfc0b47ab36a403d9e8c42248c4e06b008e6855eb9010",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "block_26185208",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x18f8df8",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:49.437801+00:00",
+    "record_sha256_canonical_json": "686d658d93fe51618ae844e5e812595ddb6a4383830be7097fac17f41ca277a9",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "block_26185223",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x18f8e07",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:53.427217+00:00",
+    "record_sha256_canonical_json": "9d9b1074448af54bd1d14020c643e68019c87637b9c70f0fd9b02324fbea50ca",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "block_26185250",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x18f8e22",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:08:17.690686+00:00",
+    "record_sha256_canonical_json": "212401557781508277afeac0e110f588c19828ed30c0c345a2b238b1707ea844",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "bnb_B_127420000_1",
+    "url": "https://bsc-dataseed.binance.org",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getLogs",
+      "params": [
+        {
+          "fromBlock": "0x7984660",
+          "toBlock": "0x79859e7",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x000000000000000000000000e5686aae44d392aa6a0637fd38393859502f8667",
+            null
+          ]
+        }
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:14:06.960962+00:00",
+    "record_sha256_canonical_json": "2a262f89c2be824050e389ab3f03d60b095f6a41e2d2455dfc81345aa8cdc27e",
+    "result_available": false,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "bnb_B_window_1",
+    "url": "https://bsc-dataseed.binance.org",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getLogs",
+      "params": [
+        {
+          "fromBlock": "0x7984660",
+          "toBlock": "0x798a808",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x000000000000000000000000e5686aae44d392aa6a0637fd38393859502f8667",
+            null
+          ]
+        }
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:13:31.897603+00:00",
+    "record_sha256_canonical_json": "83c448ed72c0cba2ccbd69885b378343ad969a73bfcd04d86bc1e4ecbe44890a",
+    "result_available": false,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "bnb_alt_chain",
+    "url": "https://bsc-rpc.publicnode.com",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_chainId",
+      "params": []
+    },
+    "requested_at_utc": "2026-10-15T14:14:41.146129+00:00",
+    "record_sha256_canonical_json": "a110a89903d91ec7080f76fd86fa3cd7fa39aaa0a6c406e489c0bf779c5c135a",
+    "result_available": false,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "bnb_block_127435562",
+    "url": "https://bsc-dataseed.binance.org",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x798832a",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:13:07.640315+00:00",
+    "record_sha256_canonical_json": "a85aac380d5169b76fa67ee78adf96e86dfcb659e3527af0a4d1f798a95ed249",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "bnb_block_127444806",
+    "url": "https://bsc-dataseed.binance.org",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x798a746",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:13:25.152581+00:00",
+    "record_sha256_canonical_json": "949775025f7be6f9d10ab06093c1b8f0eddb2c7281d45198176be9e7631fbc0d",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "bnb_chain",
+    "url": "https://bsc-dataseed.binance.org",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_chainId",
+      "params": []
+    },
+    "requested_at_utc": "2026-10-15T14:12:48.275931+00:00",
+    "record_sha256_canonical_json": "79fade76c1f8651c7e1f48570a8a5499be43fff98a970e61c27c45fbe0eb71ec",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "bnb_receipt_0xb4e697fc1cb8406ca6e18ee3a1b4f975428e2642caa57076df5d9b166848c1b1",
+    "url": "https://bsc-dataseed.binance.org",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0xb4e697fc1cb8406ca6e18ee3a1b4f975428e2642caa57076df5d9b166848c1b1"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:12:56.805534+00:00",
+    "record_sha256_canonical_json": "06c0c5add25d73e3b820807d90d1504726ff9b27956f6dc05571dd7542c44d37",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "bnb_receipt_0xcc827fd1fef937ac1942dd53a7f049061b827bf5292e1aa9a7e79610c00f200b",
+    "url": "https://bsc-dataseed.binance.org",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0xcc827fd1fef937ac1942dd53a7f049061b827bf5292e1aa9a7e79610c00f200b"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:13:14.004851+00:00",
+    "record_sha256_canonical_json": "3b30a71cd3294fce806d59a8c269f873306ccc88b4bed8d8fe3665b3f0ba0c16",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "bnb_routescan_history",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/56/etherscan/api?module=account&action=tokentx&address=0xe5686aae44d392aa6a0637fd38393859502f8667&startblock=127420000&endblock=127445000&sort=asc",
+    "request": null,
+    "requested_at_utc": "2026-10-15T14:17:03.232826+00:00",
+    "record_sha256_canonical_json": "2c88af2ac7c3511b8ab2a24e243e95f1f240ee71a0ee5a7a7ee5394a91b46c3b",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "bnb_tx_0xb4e697fc1cb8406ca6e18ee3a1b4f975428e2642caa57076df5d9b166848c1b1",
+    "url": "https://bsc-dataseed.binance.org",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0xb4e697fc1cb8406ca6e18ee3a1b4f975428e2642caa57076df5d9b166848c1b1"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:13:02.215387+00:00",
+    "record_sha256_canonical_json": "226cb57ed07cd29565109fda60b8b1700cc95556c339be1516e04eebce1b9566",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "bnb_tx_0xcc827fd1fef937ac1942dd53a7f049061b827bf5292e1aa9a7e79610c00f200b",
+    "url": "https://bsc-dataseed.binance.org",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0xcc827fd1fef937ac1942dd53a7f049061b827bf5292e1aa9a7e79610c00f200b"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:13:19.492011+00:00",
+    "record_sha256_canonical_json": "0393ec24a1cbec379760ad1d202f4401aa0b52286a5c827ca755f1502c38887d",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "chain",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_chainId",
+      "params": []
+    },
+    "requested_at_utc": "2026-10-15T14:04:39.407809+00:00",
+    "record_sha256_canonical_json": "4aa38543a77603e416c8cebea65c1754d3d970b5f325152e301da31a410f3bf0",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "native_B_26184449",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBalance",
+      "params": [
+        "0xe5686aae44d392aa6a0637fd38393859502f8667",
+        "0x18f8b01"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:11:25.449271+00:00",
+    "record_sha256_canonical_json": "d55cf21d58d9a5ab62bbde91c4d87ea7dbe72907d532cfe005a77143abd8eeb6",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "native_B_26185250",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBalance",
+      "params": [
+        "0xe5686aae44d392aa6a0637fd38393859502f8667",
+        "0x18f8e22"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:11:30.633191+00:00",
+    "record_sha256_canonical_json": "83f2b25f751833184af45308e7b0a09218a6a03db5408b489fc9f9ae84747655",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "native_E1_26184449",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBalance",
+      "params": [
+        "0x4b304741599c125a244e498d14562487d7109ab8",
+        "0x18f8b01"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:11:13.747501+00:00",
+    "record_sha256_canonical_json": "ca72a22c70df945741d421dbb0d283d04ffd1bad8593bdd212b13beb5bf74425",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "native_E1_26185250",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBalance",
+      "params": [
+        "0x4b304741599c125a244e498d14562487d7109ab8",
+        "0x18f8e22"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:11:19.070148+00:00",
+    "record_sha256_canonical_json": "3c85c2d932947070180dda1747bc8e424f784f32ece9b14a09b9ff855412488c",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "nonce_A_26184449",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionCount",
+      "params": [
+        "0xd5fbda4c79f38920159fe5f22df9655fde292d47",
+        "0x18f8b01"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:29.521478+00:00",
+    "record_sha256_canonical_json": "2fc3703de353eef04d0b42ffd0cd3fcfadfe31ab77229d7f0be57ae62a82067d",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "nonce_A_26184625",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionCount",
+      "params": [
+        "0xd5fbda4c79f38920159fe5f22df9655fde292d47",
+        "0x18f8bb1"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:34.980109+00:00",
+    "record_sha256_canonical_json": "dd53b550857ced18d42edafbdabdfce972f2e796e3e2cd3ef40063355945be2f",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "nonce_A_26185250",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionCount",
+      "params": [
+        "0xd5fbda4c79f38920159fe5f22df9655fde292d47",
+        "0x18f8e22"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:48.505583+00:00",
+    "record_sha256_canonical_json": "12512ed5f26e0c3a7617290c42b0d7e29139bfcbcc83eb1680af7e438ca9871c",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "nonce_B_26184449",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionCount",
+      "params": [
+        "0xe5686aae44d392aa6a0637fd38393859502f8667",
+        "0x18f8b01"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:13.026521+00:00",
+    "record_sha256_canonical_json": "c16087580bf29f2cbbb31ffe0ef82c4f18e37a8293daefcfedc77840157bba8e",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "nonce_B_26184625",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionCount",
+      "params": [
+        "0xe5686aae44d392aa6a0637fd38393859502f8667",
+        "0x18f8bb1"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:18.728165+00:00",
+    "record_sha256_canonical_json": "2bcaf0bb4d587c813cfd9bbfb4f81a488efa954b0f987f2b2e0d78bd08a9087d",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "nonce_B_26185250",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionCount",
+      "params": [
+        "0xe5686aae44d392aa6a0637fd38393859502f8667",
+        "0x18f8e22"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:25.045255+00:00",
+    "record_sha256_canonical_json": "3965b40e7f9f694dfd9a003a599e030e4fac1c5f70d88fd365643ce4ef77fb95",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "nonce_E1_26184449",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionCount",
+      "params": [
+        "0x4b304741599c125a244e498d14562487d7109ab8",
+        "0x18f8b01"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:06:58.358835+00:00",
+    "record_sha256_canonical_json": "dac4b3be714823895f407ea7d85b195b96aaa010d1496728ad922096a067f5e3",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "nonce_E1_26184625",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionCount",
+      "params": [
+        "0x4b304741599c125a244e498d14562487d7109ab8",
+        "0x18f8bb1"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:03.783403+00:00",
+    "record_sha256_canonical_json": "1118fec20fffdcd56ec5250418f7942e46789cbd514d2c57264be778c1f68306",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "nonce_E1_26185250",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionCount",
+      "params": [
+        "0x4b304741599c125a244e498d14562487d7109ab8",
+        "0x18f8e22"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:07.970922+00:00",
+    "record_sha256_canonical_json": "757e4521bf4d2bd1752823240b65a3959b82fa80ff9587bdd3a2028d89269080",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "nonce_S1_26184449",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionCount",
+      "params": [
+        "0x0067cc2416f792cf0ec5629f5506324ac508f859",
+        "0x18f8b01"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:54.050704+00:00",
+    "record_sha256_canonical_json": "ad8c025422a8f64ab46875b47ebe67cf888afa767a186ea31ba7f510af7b4b26",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "nonce_S1_26184625",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionCount",
+      "params": [
+        "0x0067cc2416f792cf0ec5629f5506324ac508f859",
+        "0x18f8bb1"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:54.208745+00:00",
+    "record_sha256_canonical_json": "76193777a6aea39dab87131d98b2374a58fcf1308cac6e570b8e13edfb71e139",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "nonce_S1_26185250",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionCount",
+      "params": [
+        "0x0067cc2416f792cf0ec5629f5506324ac508f859",
+        "0x18f8e22"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:59.530751+00:00",
+    "record_sha256_canonical_json": "dc4a75cdbf1537a71f7a87e65beba031955f7e5145d32456b6d343b7aea74bc7",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "nonce_S2_26184449",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionCount",
+      "params": [
+        "0x580450dff316ae00d0fbef9621a304020a046ce2",
+        "0x18f8b01"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:08:05.587883+00:00",
+    "record_sha256_canonical_json": "9af427d49156991f61e5722a0891c4b1eb4d086828b9a4620e6b3c05f409b0e0",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "nonce_S2_26184625",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionCount",
+      "params": [
+        "0x580450dff316ae00d0fbef9621a304020a046ce2",
+        "0x18f8bb1"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:08:11.933988+00:00",
+    "record_sha256_canonical_json": "26b2b8163f9c56d868b736aae723319f5bb96ddf1bf5ef3117152432382f7845",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "nonce_S2_26185250",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionCount",
+      "params": [
+        "0x580450dff316ae00d0fbef9621a304020a046ce2",
+        "0x18f8e22"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:08:17.624937+00:00",
+    "record_sha256_canonical_json": "792144f8f909d3c5c5f6df3661e7aa3b611a217d5b8064f03510ffd2780089ce",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "receipt_0x00ce1e32059de820e307f65aaac3d790a95fcab2a48b82be768c9f5ab07b2441",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0x00ce1e32059de820e307f65aaac3d790a95fcab2a48b82be768c9f5ab07b2441"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:06:24.436208+00:00",
+    "record_sha256_canonical_json": "c63cb4d60486b51974be80f2cc353c7c6e07ce030ee7228a2647923b645172b7",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "receipt_0x0304b8bb01c3981fa1c670aefd9880401a6dc75f484675073a8b6ff6693c2445",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0x0304b8bb01c3981fa1c670aefd9880401a6dc75f484675073a8b6ff6693c2445"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:06:24.438860+00:00",
+    "record_sha256_canonical_json": "c96365e6c082277c7c29f1234e033a9afa35cbbf684a257079a23e93099a9927",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "receipt_0x03169b589e724c00e958e059800fe1201e4e88bf11c2edcd8c0fdda971ca457f",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0x03169b589e724c00e958e059800fe1201e4e88bf11c2edcd8c0fdda971ca457f"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:10:38.394228+00:00",
+    "record_sha256_canonical_json": "4e0dd730ca78b63c4404c8c7e0d7dfa86db96e0af300d08b028cedca2569db31",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "receipt_0x117d040c9c500ef9aec18c763c20b4462836195c7d1a18d598bf6d3bf4352c11",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0x117d040c9c500ef9aec18c763c20b4462836195c7d1a18d598bf6d3bf4352c11"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:06:24.443671+00:00",
+    "record_sha256_canonical_json": "d7d468e708ba606da2d7660d7b45646bf2d801ab5954ae56c539fc9bbdd3d6de",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "receipt_0x178957dc5339430fef6c8e460f54722968b59d06dcc899d1ca1cfdf5bedd19ae",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0x178957dc5339430fef6c8e460f54722968b59d06dcc899d1ca1cfdf5bedd19ae"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:10:56.364912+00:00",
+    "record_sha256_canonical_json": "0bf1d94f27c5e9fd8870dca4581875d29bc23ecb71a433e70a07de81ab1d3afb",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "receipt_0x19711cef0ce78f5743fececf0ef0c141aca256b212e593b330314f416a461b80",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0x19711cef0ce78f5743fececf0ef0c141aca256b212e593b330314f416a461b80"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:09:48.425700+00:00",
+    "record_sha256_canonical_json": "3ada9fc53e5241cf2e7fed6c0afa1a95e4d87b7e68bb48e4d85f364ba14050c1",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "receipt_0x1fbb67ade71d036a648c59d3af8c0461b184e881cc8c70d77d90d7c70ee7dd7c",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0x1fbb67ade71d036a648c59d3af8c0461b184e881cc8c70d77d90d7c70ee7dd7c"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:06:24.532343+00:00",
+    "record_sha256_canonical_json": "71898b118de7058bc07b5f792e01b816922234a5f79fff58a2ebe7ef372a1acd",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "receipt_0x2b2a4ce1aa3f910d44b1425718429c8c7d1c5440729acf046fd26586b72356bb",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0x2b2a4ce1aa3f910d44b1425718429c8c7d1c5440729acf046fd26586b72356bb"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:06:40.763588+00:00",
+    "record_sha256_canonical_json": "3c50d4d0011b79c551704b6536949e9d4ae45014002bdf04451b47e84519bf16",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "receipt_0x360c8880e3ee77e56858601cfca4a005207325aa633e56e7a00f0453121500ab",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0x360c8880e3ee77e56858601cfca4a005207325aa633e56e7a00f0453121500ab"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:06:40.843863+00:00",
+    "record_sha256_canonical_json": "322e350cec44872636af6018510bf1a59a961a9a9d21504bc9e5ce3d44196b57",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "receipt_0x3793d029d0e319546fcd685e0ffae566b09fe5956c779831470bb616cd1a0791",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0x3793d029d0e319546fcd685e0ffae566b09fe5956c779831470bb616cd1a0791"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:10:04.910577+00:00",
+    "record_sha256_canonical_json": "4ab9052324b8421d5520b14b93f31dc2e339c92353418208153d08e834ce8a90",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "receipt_0x393b7ed02ab68d7e66b7356a533c5e647ebba2632617c327f7338d6210d223a8",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0x393b7ed02ab68d7e66b7356a533c5e647ebba2632617c327f7338d6210d223a8"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:06:40.883583+00:00",
+    "record_sha256_canonical_json": "2b29107a83dfa409f90853c9bf15d8ab7b58578ba7d47c32869366b73b47d076",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "receipt_0x3ea5d430d9966ecc19a58ff3433129eaea619cd4f95038e9e34b6ad403bc8000",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0x3ea5d430d9966ecc19a58ff3433129eaea619cd4f95038e9e34b6ad403bc8000"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:06:40.889260+00:00",
+    "record_sha256_canonical_json": "832217f481cb3c29baa818541634b86a7488fe68918416f7ab991b299f831eda",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "receipt_0x3fdf8f644bbbc23d607dbaec370b5929dff224e55d85e35f25b145a16780fdc2",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0x3fdf8f644bbbc23d607dbaec370b5929dff224e55d85e35f25b145a16780fdc2"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:06:56.556155+00:00",
+    "record_sha256_canonical_json": "2da0dd94491aeda48b256faef8d820b3f113ad8f2aa77c859c92c292af28daeb",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "receipt_0x42f9971272575b10fa9878e10d66a31a2f30091dfc91cc0c750f7135a8a59b5f",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0x42f9971272575b10fa9878e10d66a31a2f30091dfc91cc0c750f7135a8a59b5f"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:06:56.557217+00:00",
+    "record_sha256_canonical_json": "41db4ab8e7ef7fc3baacd0970f70d36757a24bb1192c257ce9a081508f4de93f",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "receipt_0x48803ba5602aa43ec26b5f10176c0f8a1011501df7a6c4824457ba1f18601579",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0x48803ba5602aa43ec26b5f10176c0f8a1011501df7a6c4824457ba1f18601579"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:06:56.586039+00:00",
+    "record_sha256_canonical_json": "98655c6e3ef254b99200a44ec66720c5cadc5f295c6c89945bbb0ccd9e9e515b",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "receipt_0x4f26c8232c81e8943bd3bf7342185e321ae78f615568fb8750314e7b9b800099",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0x4f26c8232c81e8943bd3bf7342185e321ae78f615568fb8750314e7b9b800099"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:06:56.592741+00:00",
+    "record_sha256_canonical_json": "77000f2e56594f9556f06ffdbb050d157156c7c3cf46fc3299a4668cd6524fea",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "receipt_0x54c762978fb1f4592b27d96f9706674807c3ce0631f325eccf9651eb7e0a8ce2",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0x54c762978fb1f4592b27d96f9706674807c3ce0631f325eccf9651eb7e0a8ce2"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:14.668956+00:00",
+    "record_sha256_canonical_json": "51b93c5f63a92cf7bbb777e5f4126710fcf3a0c9e112f6132ed7d892a7b940db",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "receipt_0x5be73aa1f3dabc45bb3083abcfd219723a83cea59c9c2b8cbc5c430f94c04e24",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0x5be73aa1f3dabc45bb3083abcfd219723a83cea59c9c2b8cbc5c430f94c04e24"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:14.680588+00:00",
+    "record_sha256_canonical_json": "0caf1f85810c71d7bb13260c83b8407dd09eb93f0ab684c070024c27a0d3716c",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "receipt_0x60dfc5e81a354ea5dfbc5c1a0dbf4ed8f3264cb4f5df7c17425eaba9c8f2c457",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0x60dfc5e81a354ea5dfbc5c1a0dbf4ed8f3264cb4f5df7c17425eaba9c8f2c457"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:14.753603+00:00",
+    "record_sha256_canonical_json": "173dc43d3aa30c4c6a8138afcb745c94d7f462657c5aee02e78765cf813e5592",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "receipt_0x6b5d703fa55f105b6c169bdd18349ba47664425c8be6e19e8d4fb2c4850ff909",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0x6b5d703fa55f105b6c169bdd18349ba47664425c8be6e19e8d4fb2c4850ff909"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:10:56.297787+00:00",
+    "record_sha256_canonical_json": "a5e5e52cc103638f760a27816196044d7ef8777b94c84da8ec503907461f76c6",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "receipt_0x70a41ee50eb9277365900b8a23e8e30fe20ba4818b2db1a4e626b1fb11f92b14",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0x70a41ee50eb9277365900b8a23e8e30fe20ba4818b2db1a4e626b1fb11f92b14"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:04:44.570104+00:00",
+    "record_sha256_canonical_json": "18e204737db31db7122d6b33087344796b08f0ed910e9db2a37a2c8b963f8285",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "receipt_0x730ba30111b8a2dcc606397c1d816b146cf69890661bcbdec52c6d9f7151d868",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0x730ba30111b8a2dcc606397c1d816b146cf69890661bcbdec52c6d9f7151d868"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:14.870908+00:00",
+    "record_sha256_canonical_json": "c3e2307bf8d7b2872836a12f77e956ade32f96669bbf64478782c2cf82cfac60",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "receipt_0x869d10f0c1c082d860302426d555245b7cba9dd938f303387bb2807214714e17",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0x869d10f0c1c082d860302426d555245b7cba9dd938f303387bb2807214714e17"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:23.800836+00:00",
+    "record_sha256_canonical_json": "a10095713ea09e14ef49eed742cb87ab7e221fa0a16592b2e637538cad69e019",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "receipt_0x90d15c162609522d1229818adfe352d48270db57050e7179a0c0d779a6c1fc0e",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0x90d15c162609522d1229818adfe352d48270db57050e7179a0c0d779a6c1fc0e"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:09:48.430471+00:00",
+    "record_sha256_canonical_json": "498d5ac90d4ce348e400ab23d6cd94d29acb7de00608b1878e079cfa0a23ab2a",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "receipt_0x932bc38b1aa0a5363da090a37c2d7288b9c4f6d1ad5ffb9dfec9706ac4756989",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0x932bc38b1aa0a5363da090a37c2d7288b9c4f6d1ad5ffb9dfec9706ac4756989"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:23.806091+00:00",
+    "record_sha256_canonical_json": "9139326595f49ebe47dc2b6d41cebdebf50af2f392b9729084f634b187c1b0c1",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "receipt_0xa3753b1e3f2cd12a159b6b5f2753a7a4047ed25c2a3bf7b6add89e05d348d7d3",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0xa3753b1e3f2cd12a159b6b5f2753a7a4047ed25c2a3bf7b6add89e05d348d7d3"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:29.710801+00:00",
+    "record_sha256_canonical_json": "7c5e6d64fc58cea04b008bb3dc2ca43ddc8c40fb5fde753606e4dd94fbc08fb3",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "receipt_0xa5a9034013bae44c7975a4457adec4fc709192c51b1dc92712e9a3a50a442f1a",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0xa5a9034013bae44c7975a4457adec4fc709192c51b1dc92712e9a3a50a442f1a"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:10:20.915717+00:00",
+    "record_sha256_canonical_json": "a772bf6ae55dc1930e68f9afa8dd4c3699c7634a41bd96684db557a11ae68203",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "receipt_0xb2cca150592b3ba9344ff17a6f39888a40a855fc1619e8946b8b87e17217578f",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0xb2cca150592b3ba9344ff17a6f39888a40a855fc1619e8946b8b87e17217578f"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:29.731278+00:00",
+    "record_sha256_canonical_json": "7ddf0b3ca68aa2283dbb3cc625d0784db9ae46f84a9802ed6bfd56550adfd64a",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "receipt_0xc3d89645282862feb0d71628146a4d07aa52b8c98343f25451f32580da22cfa4",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0xc3d89645282862feb0d71628146a4d07aa52b8c98343f25451f32580da22cfa4"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:10:20.884536+00:00",
+    "record_sha256_canonical_json": "8ad241c0cdac2116f9031ad8e945bb569afdc168deba3009046874ab12c467c0",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "receipt_0xc54f5e1316f7ce6cd859f4a21d19edf7f376283f86f67f117bf2dd7af7d97bc5",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0xc54f5e1316f7ce6cd859f4a21d19edf7f376283f86f67f117bf2dd7af7d97bc5"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:38.349699+00:00",
+    "record_sha256_canonical_json": "89a1284b263a705f7de16259bada3197b7f7abff2e28119c29c3321b71be6aa4",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "receipt_0xc9a9ae19e7ec220ac5e310a986cd819542a5259406a2f307600e7b8ea4c4b842",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0xc9a9ae19e7ec220ac5e310a986cd819542a5259406a2f307600e7b8ea4c4b842"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:38.414215+00:00",
+    "record_sha256_canonical_json": "2cef91437c23cc9cbbf41cf48c868b6b03ace92d105778f857bf7b93773f42e4",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "receipt_0xcb03f79ee9fa604cfeddc2d3bca37523fa5eb66c61e4de593d4a05336e5b90e2",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0xcb03f79ee9fa604cfeddc2d3bca37523fa5eb66c61e4de593d4a05336e5b90e2"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:43.061533+00:00",
+    "record_sha256_canonical_json": "208014dd69c2093675130111f21fa5eca133f7fe9e7f13aaf0003641b7ee4e4f",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "receipt_0xced9badc65a23f72a9462d427ae8350c87710bf3d4b32b8763738ba6375d1367",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0xced9badc65a23f72a9462d427ae8350c87710bf3d4b32b8763738ba6375d1367"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:43.130615+00:00",
+    "record_sha256_canonical_json": "3786e9e6dfcf2abb3834fc6d4bdc886d2f259a8c881c73d89dbcee26223b2c2a",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "receipt_0xd3b7b7c0931a785a8243d04436e63a5cb360851829d66c28e78a8ccdc1c4fbe6",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0xd3b7b7c0931a785a8243d04436e63a5cb360851829d66c28e78a8ccdc1c4fbe6"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:53.414310+00:00",
+    "record_sha256_canonical_json": "95ff48d975da787d5ec0a86714d48b445e4e1384a8eb7d2967c21df9c9013bf3",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "receipt_0xd7bdc7b4a407d6b49e12c1b911f3f63e90702893b454901334822eca7fe00068",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0xd7bdc7b4a407d6b49e12c1b911f3f63e90702893b454901334822eca7fe00068"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:10:38.272727+00:00",
+    "record_sha256_canonical_json": "7f911fac4d2b215159b43cf584a8e0790801d87aace84aa449ae456dc4ca5629",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "receipt_0xe1552e4f3b520a25b7ff28ed89217385b2d8ee6578dda952da50197905d2bd7c",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0xe1552e4f3b520a25b7ff28ed89217385b2d8ee6578dda952da50197905d2bd7c"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:10:04.880854+00:00",
+    "record_sha256_canonical_json": "2cdae100b01a3d259fe0f4659c643874861c3cdd091fefe17603bbd58ba9d6a7",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "receipt_0xf00e7510ce52f85fbde1066922dc9f18fadb5710892d972bf62532c21792d52e",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0xf00e7510ce52f85fbde1066922dc9f18fadb5710892d972bf62532c21792d52e"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:53.425171+00:00",
+    "record_sha256_canonical_json": "e292ee462e5bb59709b817cbef229a68af8fc7666826e7411494e91f00a76c62",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "receipt_0xf110d179d86cd74ee3b7e6bda3fa1724258274571d66c1909a05fcbc899d66a1",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0xf110d179d86cd74ee3b7e6bda3fa1724258274571d66c1909a05fcbc899d66a1"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:13:45.595315+00:00",
+    "record_sha256_canonical_json": "dcfb6f5c37971d327affdcfc107e16a3c5d8066595a64235dd82cd32371efc31",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "receipt_0xf13d17c1b8a167aa087ed6402e1788de0244772dd39b78b9d377e38232bd7af9",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0xf13d17c1b8a167aa087ed6402e1788de0244772dd39b78b9d377e38232bd7af9"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:57.284776+00:00",
+    "record_sha256_canonical_json": "23f4f56ee4854c69ebd1fa2ab59928b7dd07910feaf70465e36a456842221df6",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "relay_0x3afe0536e5a7bc6f33da46ecef12c11a0591c9b13df90cb58f73c6839c99efaf",
+    "url": "https://api.relay.link/requests/v2?hash=0x3afe0536e5a7bc6f33da46ecef12c11a0591c9b13df90cb58f73c6839c99efaf",
+    "request": null,
+    "requested_at_utc": "2026-10-15T14:11:28.621159+00:00",
+    "record_sha256_canonical_json": "b6996d890d319f99654503da3402567384d27190f2c2814f871d6d9748c950cb",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "relay_0x6b282435dc06107a499c8b8ef0ed83632a51d32738d81c143dc7e2d53542fd40",
+    "url": "https://api.relay.link/requests/v2?hash=0x6b282435dc06107a499c8b8ef0ed83632a51d32738d81c143dc7e2d53542fd40",
+    "request": null,
+    "requested_at_utc": "2026-10-15T14:11:18.471716+00:00",
+    "record_sha256_canonical_json": "32d759fd6e71acf3e97f42d385f07fc5eee2d52326816574e8e6d9cd27b02564",
+    "result_available": false,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "relay_0x70a41ee50eb9277365900b8a23e8e30fe20ba4818b2db1a4e626b1fb11f92b14",
+    "url": "https://api.relay.link/requests/v2?hash=0x70a41ee50eb9277365900b8a23e8e30fe20ba4818b2db1a4e626b1fb11f92b14",
+    "request": null,
+    "requested_at_utc": "2026-10-15T14:11:08.281372+00:00",
+    "record_sha256_canonical_json": "935e3336d61e4742f423bedbbb7c344fb5d652964558e473b8766ec7cdbfbad4",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "relay_0xd287608131f1b3680860baf5ec22533fd032bb6ccbf7858f72a54b36966f4739",
+    "url": "https://api.relay.link/requests/v2?hash=0xd287608131f1b3680860baf5ec22533fd032bb6ccbf7858f72a54b36966f4739",
+    "request": null,
+    "requested_at_utc": "2026-10-15T14:11:13.780386+00:00",
+    "record_sha256_canonical_json": "e8654f0c74209985f2f108e64f759ab178fd6e650bdcd12b603652afd4c8d8f4",
+    "result_available": false,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "relay_0xf51327ed5b532869744894b36651583519ae8790ef9265db79859ca1a9c6c00e",
+    "url": "https://api.relay.link/requests/v2?hash=0xf51327ed5b532869744894b36651583519ae8790ef9265db79859ca1a9c6c00e",
+    "request": null,
+    "requested_at_utc": "2026-10-15T14:11:23.066729+00:00",
+    "record_sha256_canonical_json": "680aaa7a66c5b8325cfe34a88f2187c831ed105c5bb41bddbe600e88a228cfe6",
+    "result_available": false,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "relay_delivery_receipt",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0xf110d179d86cd74ee3b7e6bda3fa1724258274571d66c1909a05fcbc899d66a1"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:10:18.605016+00:00",
+    "record_sha256_canonical_json": "9fb9d5460f365c696498b824d6addc5a40918b0e52e4876a3cd1cf8747419fbe",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "relay_delivery_tx",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0xf110d179d86cd74ee3b7e6bda3fa1724258274571d66c1909a05fcbc899d66a1"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:10:24.096912+00:00",
+    "record_sha256_canonical_json": "3c4b5044e92d9728c371719af7f8d2702f94ba2b9330ce5f28e03499053f847a",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "relay_docs_index",
+    "url": "https://docs.relay.link/llms.txt",
+    "request": null,
+    "requested_at_utc": "2026-10-15T14:10:17.061300+00:00",
+    "record_sha256_canonical_json": "68f65631df581949fc97315039978f40f61fe1b6a8f66e6f93b90ed2ec964a3e",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "relay_lookup_B",
+    "url": "https://api.relay.link/requests/v2?hash=0xf110d179d86cd74ee3b7e6bda3fa1724258274571d66c1909a05fcbc899d66a1",
+    "request": null,
+    "requested_at_utc": "2026-10-15T14:10:21.986806+00:00",
+    "record_sha256_canonical_json": "e4a69211dc88cd5ccece167e72e4b751be7514cd2fcf9d6a98afd49f403007dc",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "state_A_DAI_26184449",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x6b175474e89094c44da98b954eedeac495271d0f",
+          "data": "0x70a08231000000000000000000000000d5fbda4c79f38920159fe5f22df9655fde292d47"
+        },
+        "0x18f8b01"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:29.506123+00:00",
+    "record_sha256_canonical_json": "7e8c883196f26ab080069d926d6c8be4e703e0a6da74ab9bb4677c081090146f",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "state_A_DAI_26184625",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x6b175474e89094c44da98b954eedeac495271d0f",
+          "data": "0x70a08231000000000000000000000000d5fbda4c79f38920159fe5f22df9655fde292d47"
+        },
+        "0x18f8bb1"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:34.941148+00:00",
+    "record_sha256_canonical_json": "dcff7a8f66b337ee2385b80ad63453117c578b2e5562485c9d0f7e66113d0e2a",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "state_A_DAI_26185250",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x6b175474e89094c44da98b954eedeac495271d0f",
+          "data": "0x70a08231000000000000000000000000d5fbda4c79f38920159fe5f22df9655fde292d47"
+        },
+        "0x18f8e22"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:48.492807+00:00",
+    "record_sha256_canonical_json": "22beedba34bd38b95cf5721098bde85004fd3bae2418332cc753ab3671a9e851",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "state_A_USDC_26184449",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "data": "0x70a08231000000000000000000000000d5fbda4c79f38920159fe5f22df9655fde292d47"
+        },
+        "0x18f8b01"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:29.500690+00:00",
+    "record_sha256_canonical_json": "6cef74626ff3cf6bc45ae277d439b5eb5949e3fca4f9f69c9b2188597bf43426",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "state_A_USDC_26184625",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "data": "0x70a08231000000000000000000000000d5fbda4c79f38920159fe5f22df9655fde292d47"
+        },
+        "0x18f8bb1"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:34.927800+00:00",
+    "record_sha256_canonical_json": "58d1c0d0d082365a94d4ecf0d6b93a549022c50221db8dbcb19a6d40e34ceb2c",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "state_A_USDC_26185250",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "data": "0x70a08231000000000000000000000000d5fbda4c79f38920159fe5f22df9655fde292d47"
+        },
+        "0x18f8e22"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:35.017299+00:00",
+    "record_sha256_canonical_json": "34ed500927e1d8d139834a6ae787147a595a39e7580952ca8d5182835ea14c23",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "state_A_USDT_26184449",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+          "data": "0x70a08231000000000000000000000000d5fbda4c79f38920159fe5f22df9655fde292d47"
+        },
+        "0x18f8b01"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:29.493383+00:00",
+    "record_sha256_canonical_json": "f4a043f40460e36c103fff7255c1b1f5203dde8280a1d85675ef2565b44d3188",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "state_A_USDT_26184625",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+          "data": "0x70a08231000000000000000000000000d5fbda4c79f38920159fe5f22df9655fde292d47"
+        },
+        "0x18f8bb1"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:29.621083+00:00",
+    "record_sha256_canonical_json": "238bd287941aedc8929dd347ad0591f9650177f8a5f243e293ac3eb893875eef",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "state_A_USDT_26185250",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+          "data": "0x70a08231000000000000000000000000d5fbda4c79f38920159fe5f22df9655fde292d47"
+        },
+        "0x18f8e22"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:34.987827+00:00",
+    "record_sha256_canonical_json": "62ee98c379a32b0c9a1464039b48e7f165e98510233ebb49af836e327bd71233",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "state_B_DAI_26184449",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x6b175474e89094c44da98b954eedeac495271d0f",
+          "data": "0x70a08231000000000000000000000000e5686aae44d392aa6a0637fd38393859502f8667"
+        },
+        "0x18f8b01"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:12.968851+00:00",
+    "record_sha256_canonical_json": "1f943c89b2f8f835a64684cf4580216dcab9b6bb0ccada2e033c97610baf26c1",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "state_B_DAI_26184625",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x6b175474e89094c44da98b954eedeac495271d0f",
+          "data": "0x70a08231000000000000000000000000e5686aae44d392aa6a0637fd38393859502f8667"
+        },
+        "0x18f8bb1"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:18.537507+00:00",
+    "record_sha256_canonical_json": "2af5f1b1ae9b21ba23fe9ee9416ba6a836d31893d8090515f9f9960a5e762635",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "state_B_DAI_26185250",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x6b175474e89094c44da98b954eedeac495271d0f",
+          "data": "0x70a08231000000000000000000000000e5686aae44d392aa6a0637fd38393859502f8667"
+        },
+        "0x18f8e22"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:25.025856+00:00",
+    "record_sha256_canonical_json": "892f00eec4a91f712049c9add120f98c3404c302e4452fc5cac1eeec732072c1",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "state_B_USDC_26184449",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "data": "0x70a08231000000000000000000000000e5686aae44d392aa6a0637fd38393859502f8667"
+        },
+        "0x18f8b01"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:12.968315+00:00",
+    "record_sha256_canonical_json": "848657875b600f7cc0b59ba3773ae353eb217d666045516eb13733ca85dad92d",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "state_B_USDC_26184625",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "data": "0x70a08231000000000000000000000000e5686aae44d392aa6a0637fd38393859502f8667"
+        },
+        "0x18f8bb1"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:18.483368+00:00",
+    "record_sha256_canonical_json": "b5e4ad8cb3b1c5c8fb69f4d1c5336acd7969fa07dcbe1a70882a8b23bfe808da",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "state_B_USDC_26185250",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "data": "0x70a08231000000000000000000000000e5686aae44d392aa6a0637fd38393859502f8667"
+        },
+        "0x18f8e22"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:24.995780+00:00",
+    "record_sha256_canonical_json": "ca28180bf8b80a7e5ad1fd6a12ffcc1d0a1ce5f1b2fc51aa9396d1feff59493d",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "state_B_USDE_26184449",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d",
+          "data": "0x70a08231000000000000000000000000e5686aae44d392aa6a0637fd38393859502f8667"
+        },
+        "0x18f8b01"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:12.985996+00:00",
+    "record_sha256_canonical_json": "792cb84c58536084334c995e1232abbf1f6554d1c91baa9972b0010b978962f5",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "state_B_USDE_26184625",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d",
+          "data": "0x70a08231000000000000000000000000e5686aae44d392aa6a0637fd38393859502f8667"
+        },
+        "0x18f8bb1"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:18.605280+00:00",
+    "record_sha256_canonical_json": "ab34dc032a12c896747c3c0f441a3eaed201cf87bd9498ca22fdc2e9f4f67c3d",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "state_B_USDE_26185250",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d",
+          "data": "0x70a08231000000000000000000000000e5686aae44d392aa6a0637fd38393859502f8667"
+        },
+        "0x18f8e22"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:25.034429+00:00",
+    "record_sha256_canonical_json": "e67d20f6103f7a8cfb8cb66f8e2131e6453bc4a429e1ab7f7aae88dd585eb45a",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "state_B_USDT_26184449",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+          "data": "0x70a08231000000000000000000000000e5686aae44d392aa6a0637fd38393859502f8667"
+        },
+        "0x18f8b01"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:12.952825+00:00",
+    "record_sha256_canonical_json": "f3b7358cadcce04408f110633df819e4963550435cc76eafc7f787e2d54a1727",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "state_B_USDT_26184625",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+          "data": "0x70a08231000000000000000000000000e5686aae44d392aa6a0637fd38393859502f8667"
+        },
+        "0x18f8bb1"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:18.446481+00:00",
+    "record_sha256_canonical_json": "d009d8af8bcee7b92414cf432581d0ddf520454e93806d3d14e3ae94267d71ce",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "state_B_USDT_26185250",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+          "data": "0x70a08231000000000000000000000000e5686aae44d392aa6a0637fd38393859502f8667"
+        },
+        "0x18f8e22"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:24.255058+00:00",
+    "record_sha256_canonical_json": "fcc56789c8a811772724194006f8e0f3cde14f9336739e402f5a654e28f5bb98",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "state_E1_DAI_26184449",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x6b175474e89094c44da98b954eedeac495271d0f",
+          "data": "0x70a082310000000000000000000000004b304741599c125a244e498d14562487d7109ab8"
+        },
+        "0x18f8b01"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:06:58.350099+00:00",
+    "record_sha256_canonical_json": "781d2f192c41b7ec4ff8466617e985e14d02e2d88a4ea9865fe3dfb1b2157af9",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "state_E1_DAI_26184625",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x6b175474e89094c44da98b954eedeac495271d0f",
+          "data": "0x70a082310000000000000000000000004b304741599c125a244e498d14562487d7109ab8"
+        },
+        "0x18f8bb1"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:03.720189+00:00",
+    "record_sha256_canonical_json": "0fde94fe8764a1dc9d1274e5ce198f63790083c36b5cc2c4a96f7b0696fd958b",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "state_E1_DAI_26185250",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x6b175474e89094c44da98b954eedeac495271d0f",
+          "data": "0x70a082310000000000000000000000004b304741599c125a244e498d14562487d7109ab8"
+        },
+        "0x18f8e22"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:07.913868+00:00",
+    "record_sha256_canonical_json": "87f3693d1882953454b556615bddd164f2873d9cee7ce667b37ced6d92b78060",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "state_E1_USDC_26184449",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "data": "0x70a082310000000000000000000000004b304741599c125a244e498d14562487d7109ab8"
+        },
+        "0x18f8b01"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:06:58.348790+00:00",
+    "record_sha256_canonical_json": "0ba0060deab8924e7273764d92a3d4b354c3feb5693344ac44e431f1195ea894",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "state_E1_USDC_26184625",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "data": "0x70a082310000000000000000000000004b304741599c125a244e498d14562487d7109ab8"
+        },
+        "0x18f8bb1"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:03.691449+00:00",
+    "record_sha256_canonical_json": "e1ce73ee458a17c118a3e1f1c6183d70f04c465ba74b701c03c6060b567ac573",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "state_E1_USDC_26185250",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "data": "0x70a082310000000000000000000000004b304741599c125a244e498d14562487d7109ab8"
+        },
+        "0x18f8e22"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:07.846674+00:00",
+    "record_sha256_canonical_json": "f305ce51e5b7f8cec1b227703a046f19dfa48ef30e18a0700e967a5e87f76420",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "state_E1_USDE_26184449",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d",
+          "data": "0x70a082310000000000000000000000004b304741599c125a244e498d14562487d7109ab8"
+        },
+        "0x18f8b01"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:06:58.352008+00:00",
+    "record_sha256_canonical_json": "8c42cfae021f18ef1338a92672411d647a9d0e540ee60d8390ed13961dd79e82",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "state_E1_USDE_26184625",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d",
+          "data": "0x70a082310000000000000000000000004b304741599c125a244e498d14562487d7109ab8"
+        },
+        "0x18f8bb1"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:03.737319+00:00",
+    "record_sha256_canonical_json": "09bb086bc4277df34c3035cf8681dd0c2e1747c9cf07ccf15c8568c256c22ad4",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "state_E1_USDE_26185250",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d",
+          "data": "0x70a082310000000000000000000000004b304741599c125a244e498d14562487d7109ab8"
+        },
+        "0x18f8e22"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:07.970036+00:00",
+    "record_sha256_canonical_json": "c685b2574e990699d01ab894e545dc7668b5daeac200baf148f88837581eee11",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "state_E1_USDT_26184449",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+          "data": "0x70a082310000000000000000000000004b304741599c125a244e498d14562487d7109ab8"
+        },
+        "0x18f8b01"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:06:58.347753+00:00",
+    "record_sha256_canonical_json": "bb61758fe92b6eeb6052b69fe90d3a4044c33e337e7e2f3d2e232ca9b93f9b09",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "state_E1_USDT_26184625",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+          "data": "0x70a082310000000000000000000000004b304741599c125a244e498d14562487d7109ab8"
+        },
+        "0x18f8bb1"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:03.509865+00:00",
+    "record_sha256_canonical_json": "618f019992f3a2632e08aead75e85d12abe22e720fabd9d771844e6dfa6267a2",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "state_E1_USDT_26185250",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+          "data": "0x70a082310000000000000000000000004b304741599c125a244e498d14562487d7109ab8"
+        },
+        "0x18f8e22"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:07.833377+00:00",
+    "record_sha256_canonical_json": "ffb47810fbac476684bdb27c337459347f9b6371c7cd888ea9eed3c97270bfb9",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "state_S1_DAI_26184449",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x6b175474e89094c44da98b954eedeac495271d0f",
+          "data": "0x70a082310000000000000000000000000067cc2416f792cf0ec5629f5506324ac508f859"
+        },
+        "0x18f8b01"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:48.599463+00:00",
+    "record_sha256_canonical_json": "292a8465ec76e0f63599976387488018df18e8fe4f8cfc5b84754fe02c558d79",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "state_S1_DAI_26184625",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x6b175474e89094c44da98b954eedeac495271d0f",
+          "data": "0x70a082310000000000000000000000000067cc2416f792cf0ec5629f5506324ac508f859"
+        },
+        "0x18f8bb1"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:54.173976+00:00",
+    "record_sha256_canonical_json": "a30f4d6c882d1b2e0785c0f1a7eeb41837c3967158caf580a8d9b787cce189b6",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "state_S1_DAI_26185250",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x6b175474e89094c44da98b954eedeac495271d0f",
+          "data": "0x70a082310000000000000000000000000067cc2416f792cf0ec5629f5506324ac508f859"
+        },
+        "0x18f8e22"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:59.525433+00:00",
+    "record_sha256_canonical_json": "af67a03cd5f4b4303748262ef89b041a2625b175fbe8d3c4f75e4d521364de4c",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "state_S1_USDC_26184449",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "data": "0x70a082310000000000000000000000000067cc2416f792cf0ec5629f5506324ac508f859"
+        },
+        "0x18f8b01"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:48.559051+00:00",
+    "record_sha256_canonical_json": "97c75118a72fd65af7a69efad8a3be843870bd36ec6b8f59bb3137e9205134cb",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "state_S1_USDC_26184625",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "data": "0x70a082310000000000000000000000000067cc2416f792cf0ec5629f5506324ac508f859"
+        },
+        "0x18f8bb1"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:54.156496+00:00",
+    "record_sha256_canonical_json": "c3f6e84bb69be6d0543f2f50b8851167d006516116e067557b89c63457833084",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "state_S1_USDC_26185250",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "data": "0x70a082310000000000000000000000000067cc2416f792cf0ec5629f5506324ac508f859"
+        },
+        "0x18f8e22"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:59.491080+00:00",
+    "record_sha256_canonical_json": "13d01845522f184c4045c24e6626534e1fc0c55106791bb5f7915911bb568a02",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "state_S1_USDT_26184449",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+          "data": "0x70a082310000000000000000000000000067cc2416f792cf0ec5629f5506324ac508f859"
+        },
+        "0x18f8b01"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:48.539222+00:00",
+    "record_sha256_canonical_json": "44ad8190836ee44f7d68c8c9f2688f4814ba02c4247725f9b1c5698866de2663",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "state_S1_USDT_26184625",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+          "data": "0x70a082310000000000000000000000000067cc2416f792cf0ec5629f5506324ac508f859"
+        },
+        "0x18f8bb1"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:54.139274+00:00",
+    "record_sha256_canonical_json": "645edd6c6620d440e75b7aab47654b8ae07f5eee428028f50dea8f8fe7e8b15f",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "state_S1_USDT_26185250",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+          "data": "0x70a082310000000000000000000000000067cc2416f792cf0ec5629f5506324ac508f859"
+        },
+        "0x18f8e22"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:59.475685+00:00",
+    "record_sha256_canonical_json": "19c1af58302585c07cbe73836ab3b41afd38d9e8ac6d02676706dfee205a5c82",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "state_S2_DAI_26184449",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x6b175474e89094c44da98b954eedeac495271d0f",
+          "data": "0x70a08231000000000000000000000000580450dff316ae00d0fbef9621a304020a046ce2"
+        },
+        "0x18f8b01"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:08:05.520088+00:00",
+    "record_sha256_canonical_json": "5b808ae9f8c45e023a9e7568bb0d6df1a7327b40c30024ee3791b9b96e12f0c0",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "state_S2_DAI_26184625",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x6b175474e89094c44da98b954eedeac495271d0f",
+          "data": "0x70a08231000000000000000000000000580450dff316ae00d0fbef9621a304020a046ce2"
+        },
+        "0x18f8bb1"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:08:11.924756+00:00",
+    "record_sha256_canonical_json": "b7137e8e65366866c678c56d8335f6f294d66ff2a24f62588be1949ddfb64685",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "state_S2_DAI_26185250",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x6b175474e89094c44da98b954eedeac495271d0f",
+          "data": "0x70a08231000000000000000000000000580450dff316ae00d0fbef9621a304020a046ce2"
+        },
+        "0x18f8e22"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:08:12.119464+00:00",
+    "record_sha256_canonical_json": "1a09073febff65e643ee425c8a7cc134b82b357ceda311ee30c441e7914ffcc8",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "state_S2_USDC_26184449",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "data": "0x70a08231000000000000000000000000580450dff316ae00d0fbef9621a304020a046ce2"
+        },
+        "0x18f8b01"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:08:05.509088+00:00",
+    "record_sha256_canonical_json": "8ea0c3cb9bc8d44ee61dea7680aa66e6d320a5a14b2ad4534c2ada6037b7dc11",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "state_S2_USDC_26184625",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "data": "0x70a08231000000000000000000000000580450dff316ae00d0fbef9621a304020a046ce2"
+        },
+        "0x18f8bb1"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:08:05.611936+00:00",
+    "record_sha256_canonical_json": "48c7344d6b6761a45b01d376f0ecb40069510ab29af35db7135a8128e44adbc2",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "state_S2_USDC_26185250",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "data": "0x70a08231000000000000000000000000580450dff316ae00d0fbef9621a304020a046ce2"
+        },
+        "0x18f8e22"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:08:12.046551+00:00",
+    "record_sha256_canonical_json": "7c80ba24c1e8386a0d482f55d4a6917beaff7a370ad4eca8c95db3488f5e871d",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "state_S2_USDT_26184449",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+          "data": "0x70a08231000000000000000000000000580450dff316ae00d0fbef9621a304020a046ce2"
+        },
+        "0x18f8b01"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:59.574535+00:00",
+    "record_sha256_canonical_json": "e40d06fe97930ba0d8d4028695bc86ae71ffe7d0892e482934281473228c0872",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "state_S2_USDT_26184625",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+          "data": "0x70a08231000000000000000000000000580450dff316ae00d0fbef9621a304020a046ce2"
+        },
+        "0x18f8bb1"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:08:05.599850+00:00",
+    "record_sha256_canonical_json": "ddeee2c2125a379c7cb2a6f4bfe31e9012a0bdd4172ff8cb80ea3190153f1984",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "state_S2_USDT_26185250",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+          "data": "0x70a08231000000000000000000000000580450dff316ae00d0fbef9621a304020a046ce2"
+        },
+        "0x18f8e22"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:08:11.947206+00:00",
+    "record_sha256_canonical_json": "4b20d90dd37f79ae60eb7d0862cf568ff3b839bb85e77123a231d50fa0f488a9",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "token_USDS_decimals",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d",
+          "data": "0x313ce567"
+        },
+        "0x18f8c19"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:11:37.497218+00:00",
+    "record_sha256_canonical_json": "19dd349581dfbed2a28c847d61ea0e4daf496970da128178df231c51744d62f4",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "token_USDS_symbol",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d",
+          "data": "0x95d89b41"
+        },
+        "0x18f8c19"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:11:28.191277+00:00",
+    "record_sha256_canonical_json": "89709a4a4cff59f10a6e6079a9428ef4074f5527c0e20988a27a7c9cb14daf33",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "trace_0x70a41ee50eb9277365900b8a23e8e30fe20ba4818b2db1a4e626b1fb11f92b14",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "debug_traceTransaction",
+      "params": [
+        "0x70a41ee50eb9277365900b8a23e8e30fe20ba4818b2db1a4e626b1fb11f92b14",
+        {
+          "tracer": "callTracer"
+        }
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:10.479449+00:00",
+    "record_sha256_canonical_json": "fe818fae161a65a95b33517da246d9bdbb6b4f126326a294ea62a701da32684c",
+    "result_available": false,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "trace_0xf110d179d86cd74ee3b7e6bda3fa1724258274571d66c1909a05fcbc899d66a1",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "debug_traceTransaction",
+      "params": [
+        "0xf110d179d86cd74ee3b7e6bda3fa1724258274571d66c1909a05fcbc899d66a1",
+        {
+          "tracer": "callTracer"
+        }
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:10.480459+00:00",
+    "record_sha256_canonical_json": "a71446a15b1d68ba6e542342ed09560c2c20f6ef725d23002d08310d6b90f3d3",
+    "result_available": false,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "tx_0x00ce1e32059de820e307f65aaac3d790a95fcab2a48b82be768c9f5ab07b2441",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0x00ce1e32059de820e307f65aaac3d790a95fcab2a48b82be768c9f5ab07b2441"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:06:30.158737+00:00",
+    "record_sha256_canonical_json": "637230e8da70fccc10bbed0d97e21f1340906d256809bba9c08b2ce2c1d409c9",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "tx_0x0304b8bb01c3981fa1c670aefd9880401a6dc75f484675073a8b6ff6693c2445",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0x0304b8bb01c3981fa1c670aefd9880401a6dc75f484675073a8b6ff6693c2445"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:06:30.162234+00:00",
+    "record_sha256_canonical_json": "947069fa294a8c2a553e4ee647e85251ce6d40507dc54d39b6c22dcd2e3b96eb",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "tx_0x03169b589e724c00e958e059800fe1201e4e88bf11c2edcd8c0fdda971ca457f",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0x03169b589e724c00e958e059800fe1201e4e88bf11c2edcd8c0fdda971ca457f"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:10:44.135796+00:00",
+    "record_sha256_canonical_json": "b086e6dd5ac51657828de9341a0f3f0416e10c16467b57964cb9829e3836bbb6",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "tx_0x117d040c9c500ef9aec18c763c20b4462836195c7d1a18d598bf6d3bf4352c11",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0x117d040c9c500ef9aec18c763c20b4462836195c7d1a18d598bf6d3bf4352c11"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:06:30.095759+00:00",
+    "record_sha256_canonical_json": "006631788fb1ff2579e38cf2e4e4220defb79d75117af1f43f8f9097cda9ec20",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "tx_0x178957dc5339430fef6c8e460f54722968b59d06dcc899d1ca1cfdf5bedd19ae",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0x178957dc5339430fef6c8e460f54722968b59d06dcc899d1ca1cfdf5bedd19ae"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:11:01.955901+00:00",
+    "record_sha256_canonical_json": "ce7d0ac11aafde286e8eab745a2b8ebb0f637463c58d3fd62a40faf36148aae3",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "tx_0x19711cef0ce78f5743fececf0ef0c141aca256b212e593b330314f416a461b80",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0x19711cef0ce78f5743fececf0ef0c141aca256b212e593b330314f416a461b80"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:09:54.255490+00:00",
+    "record_sha256_canonical_json": "903d8eaa6273c4fbe03f5f07d2953b6f1cb2fd5a2c0326781e5be532156a9e88",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "tx_0x1fbb67ade71d036a648c59d3af8c0461b184e881cc8c70d77d90d7c70ee7dd7c",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0x1fbb67ade71d036a648c59d3af8c0461b184e881cc8c70d77d90d7c70ee7dd7c"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:06:30.144080+00:00",
+    "record_sha256_canonical_json": "f0501a69d650a22f095e90149441342169d1f883a27b9e219c80470182a49d22",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "tx_0x2b2a4ce1aa3f910d44b1425718429c8c7d1c5440729acf046fd26586b72356bb",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0x2b2a4ce1aa3f910d44b1425718429c8c7d1c5440729acf046fd26586b72356bb"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:06:46.047796+00:00",
+    "record_sha256_canonical_json": "32d57520dcff2801cb1e63ab6aecd3ced68a52f153d765e5d4873e1f75d0bc3d",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "tx_0x360c8880e3ee77e56858601cfca4a005207325aa633e56e7a00f0453121500ab",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0x360c8880e3ee77e56858601cfca4a005207325aa633e56e7a00f0453121500ab"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:06:46.014704+00:00",
+    "record_sha256_canonical_json": "96bd9e15d5224a112e7e9af7317a4950eacb8f58dbabc08c5ad0c6dc32aff685",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "tx_0x3793d029d0e319546fcd685e0ffae566b09fe5956c779831470bb616cd1a0791",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0x3793d029d0e319546fcd685e0ffae566b09fe5956c779831470bb616cd1a0791"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:10:10.314267+00:00",
+    "record_sha256_canonical_json": "8b80662ba70b0642fd7b9c9b275e892d453cc910e29cc1813887d5308018d72b",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "tx_0x393b7ed02ab68d7e66b7356a533c5e647ebba2632617c327f7338d6210d223a8",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0x393b7ed02ab68d7e66b7356a533c5e647ebba2632617c327f7338d6210d223a8"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:06:46.004831+00:00",
+    "record_sha256_canonical_json": "75a05191a3116f20bd93c7cde42e5ad73b9abf488ddf8aefee9d09c3c4e7dff4",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "tx_0x3ea5d430d9966ecc19a58ff3433129eaea619cd4f95038e9e34b6ad403bc8000",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0x3ea5d430d9966ecc19a58ff3433129eaea619cd4f95038e9e34b6ad403bc8000"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:06:46.029279+00:00",
+    "record_sha256_canonical_json": "74ac6ea3e075107f0ddbb74d32d8f6b4f258fd9a6cf3c1e7b5ab24589e12bd76",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "tx_0x3fdf8f644bbbc23d607dbaec370b5929dff224e55d85e35f25b145a16780fdc2",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0x3fdf8f644bbbc23d607dbaec370b5929dff224e55d85e35f25b145a16780fdc2"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:01.973294+00:00",
+    "record_sha256_canonical_json": "f4a9b8d6690d3154a2ded4ac70dd957fcc9908f0e4e152d6dbbc34a9c7727b1d",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "tx_0x42f9971272575b10fa9878e10d66a31a2f30091dfc91cc0c750f7135a8a59b5f",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0x42f9971272575b10fa9878e10d66a31a2f30091dfc91cc0c750f7135a8a59b5f"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:01.888968+00:00",
+    "record_sha256_canonical_json": "0edcae19bd78236e6abb15ee796d73954acf937282bb1a0777755bf6ff12ff1e",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "tx_0x48803ba5602aa43ec26b5f10176c0f8a1011501df7a6c4824457ba1f18601579",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0x48803ba5602aa43ec26b5f10176c0f8a1011501df7a6c4824457ba1f18601579"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:01.900735+00:00",
+    "record_sha256_canonical_json": "771837123dc8718ce4f96fd7726c9c31a974e64383dacdba7e11b6faa44dcb35",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "tx_0x4f26c8232c81e8943bd3bf7342185e321ae78f615568fb8750314e7b9b800099",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0x4f26c8232c81e8943bd3bf7342185e321ae78f615568fb8750314e7b9b800099"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:01.952843+00:00",
+    "record_sha256_canonical_json": "396fafc7aee53022bd6cf83af020440de38324812b519075a552a4b6484ff499",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "tx_0x54c762978fb1f4592b27d96f9706674807c3ce0631f325eccf9651eb7e0a8ce2",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0x54c762978fb1f4592b27d96f9706674807c3ce0631f325eccf9651eb7e0a8ce2"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:18.979103+00:00",
+    "record_sha256_canonical_json": "49e977ca833dfe2703ea8455a80eaec2823016f3e3f62b50f29ecb7ec0ae2c9c",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "tx_0x5be73aa1f3dabc45bb3083abcfd219723a83cea59c9c2b8cbc5c430f94c04e24",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0x5be73aa1f3dabc45bb3083abcfd219723a83cea59c9c2b8cbc5c430f94c04e24"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:18.882910+00:00",
+    "record_sha256_canonical_json": "c4ed4481f7dfc219716f7640428e08854fe8e5292b5623d9bd7e9dd1644b8a86",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "tx_0x60dfc5e81a354ea5dfbc5c1a0dbf4ed8f3264cb4f5df7c17425eaba9c8f2c457",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0x60dfc5e81a354ea5dfbc5c1a0dbf4ed8f3264cb4f5df7c17425eaba9c8f2c457"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:18.931731+00:00",
+    "record_sha256_canonical_json": "6ad9b903bf719dcff273d7ba73ce46ba7f2dcce6fb09209a98e90adb9db81412",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "tx_0x6b5d703fa55f105b6c169bdd18349ba47664425c8be6e19e8d4fb2c4850ff909",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0x6b5d703fa55f105b6c169bdd18349ba47664425c8be6e19e8d4fb2c4850ff909"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:11:01.913394+00:00",
+    "record_sha256_canonical_json": "51afb1daf901dc79034bb115fbd95b70b716c3c39ede70e33ad15cf3ce5a3dc5",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "tx_0x70a41ee50eb9277365900b8a23e8e30fe20ba4818b2db1a4e626b1fb11f92b14",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0x70a41ee50eb9277365900b8a23e8e30fe20ba4818b2db1a4e626b1fb11f92b14"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:04:50.032154+00:00",
+    "record_sha256_canonical_json": "375ade17d5fb46fa66afab8a6f2e16cc1a7aa062d388334e081c6b169a9f2cac",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "tx_0x730ba30111b8a2dcc606397c1d816b146cf69890661bcbdec52c6d9f7151d868",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0x730ba30111b8a2dcc606397c1d816b146cf69890661bcbdec52c6d9f7151d868"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:18.990160+00:00",
+    "record_sha256_canonical_json": "d9a714950a80d86d5239c9745b3469c14b73940c6b04ab94e17bfcbbbe8e2c4a",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "tx_0x869d10f0c1c082d860302426d555245b7cba9dd938f303387bb2807214714e17",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0x869d10f0c1c082d860302426d555245b7cba9dd938f303387bb2807214714e17"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:29.695421+00:00",
+    "record_sha256_canonical_json": "c9b5bf45571c16501a479927e39ae7914add668e079ccde07a142038bc4abbeb",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "tx_0x90d15c162609522d1229818adfe352d48270db57050e7179a0c0d779a6c1fc0e",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0x90d15c162609522d1229818adfe352d48270db57050e7179a0c0d779a6c1fc0e"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:09:54.211504+00:00",
+    "record_sha256_canonical_json": "737ea889085e65578b45498bf61b97958a73d2484f744e3ff5be0af26806b20f",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "tx_0x932bc38b1aa0a5363da090a37c2d7288b9c4f6d1ad5ffb9dfec9706ac4756989",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0x932bc38b1aa0a5363da090a37c2d7288b9c4f6d1ad5ffb9dfec9706ac4756989"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:29.677693+00:00",
+    "record_sha256_canonical_json": "ba840f45f62f3923d25dc7ca728de7b310c38e6e5582dfb830833ed89f4bab56",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "tx_0xa3753b1e3f2cd12a159b6b5f2753a7a4047ed25c2a3bf7b6add89e05d348d7d3",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0xa3753b1e3f2cd12a159b6b5f2753a7a4047ed25c2a3bf7b6add89e05d348d7d3"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:34.068452+00:00",
+    "record_sha256_canonical_json": "910336594cc44b169f3c5379c0a3e14abeb2b57c58db55bf17e2cea77aad0890",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "tx_0xa5a9034013bae44c7975a4457adec4fc709192c51b1dc92712e9a3a50a442f1a",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0xa5a9034013bae44c7975a4457adec4fc709192c51b1dc92712e9a3a50a442f1a"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:10:26.201108+00:00",
+    "record_sha256_canonical_json": "97329c069ca35905bc6b471e19b9232b1a666314a80fd79e1bdb17fe4d99a1a3",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "tx_0xb2cca150592b3ba9344ff17a6f39888a40a855fc1619e8946b8b87e17217578f",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0xb2cca150592b3ba9344ff17a6f39888a40a855fc1619e8946b8b87e17217578f"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:34.038122+00:00",
+    "record_sha256_canonical_json": "5f1cc330535e9f6582dd7aaf2328e8e9c7801dc8845972ad79a72606db08c685",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "tx_0xc3d89645282862feb0d71628146a4d07aa52b8c98343f25451f32580da22cfa4",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0xc3d89645282862feb0d71628146a4d07aa52b8c98343f25451f32580da22cfa4"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:10:26.254248+00:00",
+    "record_sha256_canonical_json": "d81a4f282446533f18df6bcb10950fd1855cda29c0b556bd830e8560d99d99b5",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "tx_0xc54f5e1316f7ce6cd859f4a21d19edf7f376283f86f67f117bf2dd7af7d97bc5",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0xc54f5e1316f7ce6cd859f4a21d19edf7f376283f86f67f117bf2dd7af7d97bc5"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:43.083864+00:00",
+    "record_sha256_canonical_json": "29dee620938eb987fc8b9abebe4dab7c8129647420d900367752be6b884f35d0",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "tx_0xc9a9ae19e7ec220ac5e310a986cd819542a5259406a2f307600e7b8ea4c4b842",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0xc9a9ae19e7ec220ac5e310a986cd819542a5259406a2f307600e7b8ea4c4b842"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:43.149987+00:00",
+    "record_sha256_canonical_json": "3788b0a8e7570ccf0bdc29f7d850ce2643692e5b5ca6689b8bbc4cd186004d77",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "tx_0xcb03f79ee9fa604cfeddc2d3bca37523fa5eb66c61e4de593d4a05336e5b90e2",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0xcb03f79ee9fa604cfeddc2d3bca37523fa5eb66c61e4de593d4a05336e5b90e2"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:49.344443+00:00",
+    "record_sha256_canonical_json": "f07f44af483a298df3560fefed245c58a72df8010c1cafae15fabc9de1c7d665",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "tx_0xced9badc65a23f72a9462d427ae8350c87710bf3d4b32b8763738ba6375d1367",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0xced9badc65a23f72a9462d427ae8350c87710bf3d4b32b8763738ba6375d1367"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:49.453038+00:00",
+    "record_sha256_canonical_json": "fe837571a53f302f278ff2e9d4e30f2094c42b90dc9b38722ca88699621854b5",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "tx_0xd3b7b7c0931a785a8243d04436e63a5cb360851829d66c28e78a8ccdc1c4fbe6",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0xd3b7b7c0931a785a8243d04436e63a5cb360851829d66c28e78a8ccdc1c4fbe6"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:57.332237+00:00",
+    "record_sha256_canonical_json": "56e60384c7d32dee0a16a4fdd9691579f868588cd5115a16f0328d15844a8587",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "tx_0xd7bdc7b4a407d6b49e12c1b911f3f63e90702893b454901334822eca7fe00068",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0xd7bdc7b4a407d6b49e12c1b911f3f63e90702893b454901334822eca7fe00068"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:10:44.170866+00:00",
+    "record_sha256_canonical_json": "b18023efba73e18729e81e5875b6d46d96b075df1758ec2b2429cd0b0d02e7f0",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "tx_0xe1552e4f3b520a25b7ff28ed89217385b2d8ee6578dda952da50197905d2bd7c",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0xe1552e4f3b520a25b7ff28ed89217385b2d8ee6578dda952da50197905d2bd7c"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:10:10.292358+00:00",
+    "record_sha256_canonical_json": "da30524ee1e7f92b2c4977c35f53def36cfeed527270142973a17d10fd1cdd9d",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "tx_0xf00e7510ce52f85fbde1066922dc9f18fadb5710892d972bf62532c21792d52e",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0xf00e7510ce52f85fbde1066922dc9f18fadb5710892d972bf62532c21792d52e"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:07:57.463006+00:00",
+    "record_sha256_canonical_json": "4939b374cbec98ffdc6b2d1c3741a14cfdb999efc7c51b86c07db2ab478af79d",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "tx_0xf110d179d86cd74ee3b7e6bda3fa1724258274571d66c1909a05fcbc899d66a1",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0xf110d179d86cd74ee3b7e6bda3fa1724258274571d66c1909a05fcbc899d66a1"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:13:53.618317+00:00",
+    "record_sha256_canonical_json": "8819eff1da708910fb2228ec09b4d2e4bf4e18a78ab2c6a40e5f1583a6925586",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  },
+  {
+    "record": "tx_0xf13d17c1b8a167aa087ed6402e1788de0244772dd39b78b9d377e38232bd7af9",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0xf13d17c1b8a167aa087ed6402e1788de0244772dd39b78b9d377e38232bd7af9"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T14:08:02.474874+00:00",
+    "record_sha256_canonical_json": "da16894147c22ae7d123b0dbd794ffd507302c21a4e56881fb200d486737fbeb",
+    "result_available": true,
+    "limitations": "Single-provider RPC or public service index. See coverage report. HTTP bodies preserved after JSON parsing where applicable."
+  }
+]

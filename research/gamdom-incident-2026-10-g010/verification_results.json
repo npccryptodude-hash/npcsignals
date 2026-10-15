@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "new_verified_transactions": 39,
+  "new_successful_transactions": 37,
+  "new_failed_transactions": 2,
+  "existing_transactions_not_recounted": 2,
+  "zero_residual_balance_reconciliations": 9,
+  "frozen_files_unchanged": 138,
+  "cross_chain_matches": [
+    {
+      "source_hash": "0xb4e697fc1cb8406ca6e18ee3a1b4f975428e2642caa57076df5d9b166848c1b1",
+      "destination_hash": "0x70a41ee50eb9277365900b8a23e8e30fe20ba4818b2db1a4e626b1fb11f92b14",
+      "opaque_32byte_identifier": "0x8b16de100c87b160d3c08211ceeabd83103b45340f1df249db9e7b149620d81b",
+      "source_raw": "370000000000000000000000",
+      "destination_raw": "369592897320",
+      "result": "matched source deposit event and destination signed-transaction input representation; matching service index also preserved"
+    },
+    {
+      "source_hash": "0xcc827fd1fef937ac1942dd53a7f049061b827bf5292e1aa9a7e79610c00f200b",
+      "destination_hash": "0xf110d179d86cd74ee3b7e6bda3fa1724258274571d66c1909a05fcbc899d66a1",
+      "opaque_32byte_identifier": "0x9014a78b4543d4173c4f22cebc8d83d8d3e7aedf7ac284282a1c09c65f1ac4e6",
+      "source_raw": "336943421822265793499428",
+      "destination_raw": "336199051906277094220550",
+      "result": "matched source deposit event and destination signed-transaction input representation; matching service index also preserved"
+    }
+  ],
+  "limits": "No consensus replay, Merkle proof, signature recovery for new transactions, ownership or unauthorized-status proof."
+}

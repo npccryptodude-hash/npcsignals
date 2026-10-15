@@ -1,0 +1,74 @@
+[
+  {
+    "sender": "0xd5fbda4c79f38920159fe5f22df9655fde292d47",
+    "recipient": "0x4b304741599c125a244e498d14562487d7109ab8",
+    "symbol": "DAI",
+    "decimals": 18,
+    "raw_amount": "738148858772417648963",
+    "amount": "738.148858772417648963"
+  },
+  {
+    "sender": "0xd5fbda4c79f38920159fe5f22df9655fde292d47",
+    "recipient": "0x4b304741599c125a244e498d14562487d7109ab8",
+    "symbol": "ETH",
+    "decimals": 18,
+    "raw_amount": "1695247971538047708",
+    "amount": "1.695247971538047708"
+  },
+  {
+    "sender": "0x0067cc2416f792cf0ec5629f5506324ac508f859",
+    "recipient": "0x4b304741599c125a244e498d14562487d7109ab8",
+    "symbol": "USDT",
+    "decimals": 6,
+    "raw_amount": "316809689210",
+    "amount": "316809.689210"
+  },
+  {
+    "sender": "0x0067cc2416f792cf0ec5629f5506324ac508f859",
+    "recipient": "0x4b304741599c125a244e498d14562487d7109ab8",
+    "symbol": "USDC",
+    "decimals": 6,
+    "raw_amount": "468830099059",
+    "amount": "468830.099059"
+  },
+  {
+    "sender": "0x0067cc2416f792cf0ec5629f5506324ac508f859",
+    "recipient": "0x4b304741599c125a244e498d14562487d7109ab8",
+    "symbol": "USD1",
+    "decimals": 18,
+    "raw_amount": "20077942698961878000000",
+    "amount": "20077.942698961878000000"
+  },
+  {
+    "sender": "0x0067cc2416f792cf0ec5629f5506324ac508f859",
+    "recipient": "0x4b304741599c125a244e498d14562487d7109ab8",
+    "symbol": "ETH",
+    "decimals": 18,
+    "raw_amount": "74266886368632320300",
+    "amount": "74.266886368632320300"
+  },
+  {
+    "sender": "0x580450dff316ae00d0fbef9621a304020a046ce2",
+    "recipient": "0x4b304741599c125a244e498d14562487d7109ab8",
+    "symbol": "USDT",
+    "decimals": 6,
+    "raw_amount": "109231124988",
+    "amount": "109231.124988"
+  },
+  {
+    "sender": "0x580450dff316ae00d0fbef9621a304020a046ce2",
+    "recipient": "0x4b304741599c125a244e498d14562487d7109ab8",
+    "symbol": "USDC",
+    "decimals": 6,
+    "raw_amount": "34171291810",
+    "amount": "34171.291810"
+  },
+  {
+    "sender": "0x580450dff316ae00d0fbef9621a304020a046ce2",
+    "recipient": "0x4b304741599c125a244e498d14562487d7109ab8",
+    "symbol": "ETH",
+    "decimals": 18,
+    "raw_amount": "10994221771600303228",
+    "amount": "10.994221771600303228"
+  }
+]

@@ -1,0 +1,9 @@
+# Primary explorer observations
+
+October 15, 2026 UTC. Curated transcriptions of browser-visible records, not complete page archives.
+
+1. Etherscan receipt https://etherscan.io/tx/0xb2cca150592b3ba9344ff17a6f39888a40a855fc1619e8946b8b87e17217578f shows Success, block 26184626, Oct-13-2026 04:00:23 PM UTC, A interacting with DAI, 738.148858772417648963 DAI to E1, fee 0.000023230774004664 ETH. The Gamdom label was observed but is not ownership proof. These receipt facts match the separately collected RPC representation.
+2. Etherscan E1 address https://etherscan.io/address/0x4b304741599c125a244e498d14562487d7109ab8 displays 11 normal transactions. Ten fall within the collection envelope; one self-transaction at block 26185303 is later and was not retrieved in G010. Full native amounts/status are obtained from RPC, not truncated display amounts. The displayed 0.313984936… ETH and dust entries were later determined to have failed, so the index appearance alone is not a successful-flow record. The Gamdom 2 link resolves to exact address S2. Current balance/value display is not used for historical accounting.
+3. BscScan B history https://bscscan.com/address/0xe5686AaE44d392aa6A0637FD38393859502F8667#tokentxns remains on a Norwegian-language Cloudflare security-verification page ("Utfører sikkerhetsverifisering"), warning that verification is taking longer. No token history was read and no CAPTCHA was solved. The browser transport also reset during creation. No result from a timed-out call is counted as evidence.
+
+Discovery, not chain proof: https://www.fairgambling.com/news/gamdom-offline-millions-moved-to-new-wallets links E1 directly via its Ethereum-wallet reference. It provides the candidate route definition, not wallet ownership or unauthorized-status proof. Other syndicated reporting was used only to locate this original link. No third-party screenshot amount is substituted for a Transfer event.
