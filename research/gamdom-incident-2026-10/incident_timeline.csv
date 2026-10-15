@@ -1,0 +1,9 @@
+utc_timestamp,event,source_id,evidence_level
+2026-10-14T03:36:58Z,Gamdom publicly describes unauthorized automation-server connection and shutdown,S06,CONFIRMED statement only
+2026-10-14T16:43:53Z,Founder reports hot-wallet loss just above USD 3m and protective cold-wallet movements,S07,CONFIRMED statement only
+2026-10-13T17:57:28Z,candidate_outflow G005-T01,S14,CONFIRMED movement; incident attribution SUPPORTED
+2026-10-13T17:57:34Z,candidate_outflow G005-T02,S15,CONFIRMED movement; incident attribution SUPPORTED
+2026-10-13T18:12:37Z,bridge_source G005-T03,S16,CONFIRMED movement; incident attribution SUPPORTED
+2026-10-13T18:15:00Z,bridge_source G005-T04,S17,CONFIRMED movement; incident attribution SUPPORTED
+2026-10-13T18:14:35Z,bridge_destination G005-T05,S18,CONFIRMED movement; incident attribution SUPPORTED
+2026-10-13T18:16:35Z,bridge_destination G005-T06,S19,CONFIRMED movement; incident attribution SUPPORTED

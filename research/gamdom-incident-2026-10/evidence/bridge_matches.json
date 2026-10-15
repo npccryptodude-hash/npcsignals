@@ -1,0 +1,40 @@
+[
+  {
+    "route_id": "R1",
+    "source_tx": "0xcc4d20d29b582aa480c14d075ac01529721f532cc762d0f70bdedc2957ed6d3c",
+    "source_log_index": 834,
+    "destination_tx": "0x5bd4efdc04ef4b8dddc999416d2e2a849c9ae0c3b271fd707dd376b8bb778a70",
+    "payload_hash": "0xBFC3AB0BA53FAD559671936E7230BF697F120C91F0D5C1A04FF0A017E4BA62A5",
+    "source_input_raw": "12139456905",
+    "source_input_asset": "USDC",
+    "bridge_raw": "12119633447",
+    "bridge_decimals": 6,
+    "destination_dai_raw": "12117648333297552877028",
+    "destination_decimals": 18,
+    "source_chain": "Polygon",
+    "destination_chain": "Ethereum",
+    "source_sender": "0xe5686AaE44d392aa6A0637FD38393859502F8667",
+    "destination_recipient": "0xe5686AaE44d392aa6A0637FD38393859502F8667",
+    "bridge_amount": "12119.633447",
+    "route_status": "CONFIRMED movement; incident attribution SUPPORTED"
+  },
+  {
+    "route_id": "R2",
+    "source_tx": "0x82196a6151133e81723f685da79ea7c07d5400f004129f83165cf2accd216d4c",
+    "source_log_index": 398,
+    "destination_tx": "0x3aed0e9c1b2b9e90e8361f5db8a812cea84b6fbd7da7ba544d8b0ab6f940b982",
+    "payload_hash": "0x7BBC2A44C3F651BB1B9A537C8E7F658F4DCA99413E59644AB1E41259D0B7B61F",
+    "source_input_raw": "19610310097",
+    "source_input_asset": "USDT0",
+    "bridge_raw": "19545712075",
+    "bridge_decimals": 6,
+    "destination_dai_raw": "19542478208761477069197",
+    "destination_decimals": 18,
+    "source_chain": "Polygon",
+    "destination_chain": "Ethereum",
+    "source_sender": "0xe5686AaE44d392aa6A0637FD38393859502F8667",
+    "destination_recipient": "0xe5686AaE44d392aa6A0637FD38393859502F8667",
+    "bridge_amount": "19545.712075",
+    "route_status": "CONFIRMED movement; incident attribution SUPPORTED"
+  }
+]

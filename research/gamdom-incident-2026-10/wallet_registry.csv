@@ -1,0 +1,5 @@
+chain,address,role,ownership_evidence,evidence_level,compromised_status
+Polygon,0xd5FBDa4C79F38920159fE5f22DF9655FDe292d47,candidate compromised hot wallet,PolygonScan label only,SUPPORTED,UNRESOLVED
+Polygon / Ethereum / BSC,0xe5686AaE44d392aa6A0637FD38393859502F8667,Polygon recipient and cross-chain recipient,Arkham Gamdom Exploiter entity; also Gamdom Deposit Address label,SUPPORTED,UNRESOLVED
+Ethereum,0xB70F98e53BEE56A2E18A15bcd826579f495076F0,prior candidate; latest displayed normal outgoing transaction August 20,G004 Arkham label; no incident link established,UNRESOLVED,UNRESOLVED
+Polygon / Ethereum,0xce16F69375520ab01377ce7B88f5BA8C48F8D666,Squid router service,Explorer labels plus ContractCallWithToken and CrossMulticallExecuted event matching,CONFIRMED,NOT ASSESSED
