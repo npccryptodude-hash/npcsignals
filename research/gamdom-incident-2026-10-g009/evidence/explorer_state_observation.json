@@ -1,0 +1,33 @@
+{
+  "capture_type": "Curated transcription of completed PolygonScan browser observation; not node JSON or full page archive",
+  "source_url": "https://polygonscan.com/tx/0x5e1fd78c9b4f5881d28eb2f14f0c59b32bda206a942a6956316c07965b570591#statechange",
+  "transaction_hash": "0x5e1fd78c9b4f5881d28eb2f14f0c59b32bda206a942a6956316c07965b570591",
+  "contract": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+  "expanded_storage_tables": [
+    {
+      "variable": "_balances",
+      "offset_displayed": 0,
+      "data_type": "mapping (address => uint256)",
+      "before_hex": "0x000000000000000000000000000000000000000000000000000000005e1deadc",
+      "after_hex": "0x0000000000000000000000000000000000000000000000000000000035ea4ea2",
+      "before_displayed": "1579.018972",
+      "after_displayed": "904.548002",
+      "interpretation": "D debit; values match archive balanceOf(D) and the exact anchor amount"
+    },
+    {
+      "variable": "_balances",
+      "offset_displayed": 0,
+      "data_type": "mapping (address => uint256)",
+      "before_hex": "0x000000000000000000000000000000000000000000000000000000001a3fdfc7",
+      "after_hex": "0x0000000000000000000000000000000000000000000000000000000042737c01",
+      "before_displayed": "440.393671",
+      "after_displayed": "1114.864641",
+      "interpretation": "C credit, matching the same transfer amount"
+    }
+  ],
+  "D_native_before_POL": "175.381060861534025793",
+  "D_native_after_POL": "175.353050776198478121",
+  "D_nonce_before_displayed": 1157,
+  "D_nonce_after_displayed": 1158,
+  "independence_limit": "Separate explorer representation corroborates the RPC result; backend infrastructure independence is not established. No cryptographic state proof was obtained."
+}

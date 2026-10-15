@@ -1,0 +1,44 @@
+{
+  "endpoint": "https://polygon.gateway.tenderly.co",
+  "requested_at_UTC": "2026-10-15T09:28:41.190153+00:00",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_getLogs",
+    "params": [
+      {
+        "address": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "fromBlock": "0x5afb040",
+        "toBlock": "0x5b03581",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x000000000000000000000000e757683a51cfd002de479385c2f4c9db10a5e8d2",
+          null
+        ]
+      }
+    ]
+  },
+  "http_status": 200,
+  "response": {
+    "id": 1,
+    "jsonrpc": "2.0",
+    "result": [
+      {
+        "address": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x000000000000000000000000e757683a51cfd002de479385c2f4c9db10a5e8d2",
+          "0x000000000000000000000000acc0c1f672b03b9a5fed4535f840f09b85f40e98"
+        ],
+        "data": "0x0000000000000000000000000000000000000000000000000000000028339c3a",
+        "blockNumber": "0x5b03581",
+        "transactionHash": "0x5e1fd78c9b4f5881d28eb2f14f0c59b32bda206a942a6956316c07965b570591",
+        "transactionIndex": "0x13",
+        "blockHash": "0x23081704027fce97e307db4cc5fb5b0bda69668795c2e75197f236c239b7fcc7",
+        "logIndex": "0xb3",
+        "blockTimestamp": "0x6acd8f4c",
+        "removed": false
+      }
+    ]
+  }
+}

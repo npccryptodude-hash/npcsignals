@@ -1,0 +1,4 @@
+scope,start_block,end_block,opening_state_block,opening_raw,inflow_raw,outflow_raw,calculated_closing_raw,observed_closing_raw,variance_raw,decimals,opening,inflows,outflows,closing,source
+full bounded interval,93000000,95434113,92999999,3148255812,65861140478,68104848288,904548002,904548002,0,6,3148.255812,65861.140478,68104.848288,904.548002,Tenderly archive eth_call and eth_getLogs; no zero-opening assumption
+recent pre-anchor,95400000,95434112,95399999,936499001,642519971,0,1579018972,1579018972,0,6,936.499001,642.519971,0.000000,1579.018972,Tenderly archive eth_call and eth_getLogs; no zero-opening assumption
+anchor block,95434113,95434113,95434112,1579018972,0,674470970,904548002,904548002,0,6,1579.018972,0.000000,674.470970,904.548002,Tenderly archive eth_call and eth_getLogs; no zero-opening assumption

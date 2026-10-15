@@ -1,0 +1,39 @@
+{
+  "endpoint": "https://polygon.gateway.tenderly.co",
+  "requested_at_UTC": "2026-10-15T13:37:52.361873+00:00",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_getTransactionByHash",
+    "params": [
+      "0x53dc78c21476a1043a74a21b25cca3c8227ec9fd8c3fd51f794af6b64b83a9a7"
+    ]
+  },
+  "http_status": 200,
+  "response": {
+    "id": 1,
+    "jsonrpc": "2.0",
+    "result": {
+      "blockHash": "0xf3504f9b6ffd214304d321c06ee4b4f07609e367c4b048579f81d2a9dd507646",
+      "blockNumber": "0x591e342",
+      "transactionIndex": "0x49",
+      "hash": "0x53dc78c21476a1043a74a21b25cca3c8227ec9fd8c3fd51f794af6b64b83a9a7",
+      "from": "0x37c29b046d2253ac7291bcf131282e0441cc9282",
+      "to": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+      "input": "0xa9059cbb000000000000000000000000e757683a51cfd002de479385c2f4c9db10a5e8d20000000000000000000000000000000000000000000000000000000159820320c2c097acaabc88aa1bedf653c837de08e2012ef28075eca8af1acd80efbdb4e2",
+      "nonce": "0x59",
+      "value": "0x0",
+      "gas": "0x14ff0",
+      "gasPrice": "0x4babd1b8ee",
+      "maxPriorityFeePerGas": "0x11f11d3e85",
+      "maxFeePerGas": "0x6270b9a54d",
+      "accessList": [],
+      "chainId": "0x89",
+      "type": "0x2",
+      "v": "0x1",
+      "r": "0x78eaa17b8cf39d8a0c20b176c0786ebe00b476370b165d5e6fe4c3cbca1f75ce",
+      "s": "0x360b895a7c9015b63a0381713d5db6d724893e0a79d5f466fa7e3c695e5e3af9",
+      "yParity": "0x1"
+    }
+  }
+}

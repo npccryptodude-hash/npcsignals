@@ -1,0 +1,6 @@
+PASS manifest coverage and every SHA-256 digest
+PASS direct-RPC coverage filters, 753 unique canonical events and deterministic derived records
+PASS 13 selected receipts/transactions/header matches; 12 new transactions excluding the existing anchor
+PASS exact archive balance reconciliation, transaction ordering and independent explorer-display agreement
+PASS prior D-to-C relationship and bounded exact-address negative findings
+PASS G005, G006 and G008 preserved byte-for-byte with no added descendants

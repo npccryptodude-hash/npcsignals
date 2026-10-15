@@ -1,0 +1,21 @@
+{
+  "all_reconciliation_variances_raw": [
+    0,
+    0,
+    0
+  ],
+  "anchor_block_D_events": 1,
+  "event_count": 753,
+  "incoming_events": 647,
+  "new_distinct_receipts": 12,
+  "opening_state_raw": 3148255812,
+  "outgoing_events": 106,
+  "post_anchor_state_raw": 904548002,
+  "pre_anchor_state_raw": 1579018972,
+  "pre_recent_state_raw": 936499001,
+  "prior_D_to_C_event_count": 80,
+  "prior_D_to_C_max_raw": 15034086265,
+  "prior_D_to_C_min_raw": 1001717,
+  "prior_D_to_C_raw_total": 62235066339,
+  "selected_distinct_receipts": 13
+}

@@ -1,0 +1,22 @@
+{
+  "endpoint": "https://polygon.gateway.tenderly.co",
+  "requested_at_UTC": "2026-10-15T13:35:00.029184+00:00",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_call",
+    "params": [
+      {
+        "to": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "data": "0x70a08231000000000000000000000000e757683a51cfd002de479385c2f4c9db10a5e8d2"
+      },
+      "0x5afb03f"
+    ]
+  },
+  "http_status": 200,
+  "response": {
+    "id": 1,
+    "jsonrpc": "2.0",
+    "result": "0x0000000000000000000000000000000000000000000000000000000037d1d739"
+  }
+}
