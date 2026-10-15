@@ -1,0 +1,2545 @@
+[
+  {
+    "record": "A_baseline_127200000_1",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getLogs",
+      "params": [
+        {
+          "address": "0x55d398326f99059ff775485246999027b3197955",
+          "fromBlock": "0x794eb00",
+          "toBlock": "0x795ae4f",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x000000000000000000000000d5fbda4c79f38920159fe5f22df9655fde292d47",
+            null
+          ]
+        }
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:49:14.653416+00:00",
+    "canonical_record_sha256": "29881249ffac428840ee1f4234659bc72fcf77dd44a4baa89de94044f71b8018",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "A_baseline_127200000_2",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getLogs",
+      "params": [
+        {
+          "address": "0x55d398326f99059ff775485246999027b3197955",
+          "fromBlock": "0x794eb00",
+          "toBlock": "0x795ae4f",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            null,
+            "0x000000000000000000000000d5fbda4c79f38920159fe5f22df9655fde292d47"
+          ]
+        }
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:49:32.838414+00:00",
+    "canonical_record_sha256": "64236ec2564343775ed8bf26b43a32968d8b0ac024baf02dd0767196b3c09ccd",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "A_baseline_127250000_1",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getLogs",
+      "params": [
+        {
+          "address": "0x55d398326f99059ff775485246999027b3197955",
+          "fromBlock": "0x795ae50",
+          "toBlock": "0x796719f",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x000000000000000000000000d5fbda4c79f38920159fe5f22df9655fde292d47",
+            null
+          ]
+        }
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:49:38.204181+00:00",
+    "canonical_record_sha256": "393acc074e60677fe8cc6eda30d0bb1cafdf18cc6fd4352e7bf24abc1ca177a4",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "A_baseline_127250000_2",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getLogs",
+      "params": [
+        {
+          "address": "0x55d398326f99059ff775485246999027b3197955",
+          "fromBlock": "0x795ae50",
+          "toBlock": "0x796719f",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            null,
+            "0x000000000000000000000000d5fbda4c79f38920159fe5f22df9655fde292d47"
+          ]
+        }
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:49:44.821871+00:00",
+    "canonical_record_sha256": "bc096a5d7cba0a213c4a6bd061a225b4914b59a670834428e4d8313f2c9463b5",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "A_baseline_127300000_1",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getLogs",
+      "params": [
+        {
+          "address": "0x55d398326f99059ff775485246999027b3197955",
+          "fromBlock": "0x79671a0",
+          "toBlock": "0x79734ef",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x000000000000000000000000d5fbda4c79f38920159fe5f22df9655fde292d47",
+            null
+          ]
+        }
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:49:49.287016+00:00",
+    "canonical_record_sha256": "ab0e9b7482a6e1008f479ebed17b4fb0614352e4602bdc7eda24084f908f4fc2",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "A_baseline_127300000_2",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getLogs",
+      "params": [
+        {
+          "address": "0x55d398326f99059ff775485246999027b3197955",
+          "fromBlock": "0x79671a0",
+          "toBlock": "0x79734ef",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            null,
+            "0x000000000000000000000000d5fbda4c79f38920159fe5f22df9655fde292d47"
+          ]
+        }
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:49:56.025421+00:00",
+    "canonical_record_sha256": "57f22177b3a33f9983a0b2c6650fb532678b494d6b2bf521c12cb2cfd1f4eceb",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "A_baseline_127350000_1",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getLogs",
+      "params": [
+        {
+          "address": "0x55d398326f99059ff775485246999027b3197955",
+          "fromBlock": "0x79734f0",
+          "toBlock": "0x797f83f",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x000000000000000000000000d5fbda4c79f38920159fe5f22df9655fde292d47",
+            null
+          ]
+        }
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:50:00.872117+00:00",
+    "canonical_record_sha256": "4b72aa512931e4be68d9fe25b605e64aedf0d80f330c5f3b7e7e8d7a7ba6a220",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "A_baseline_127350000_2",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getLogs",
+      "params": [
+        {
+          "address": "0x55d398326f99059ff775485246999027b3197955",
+          "fromBlock": "0x79734f0",
+          "toBlock": "0x797f83f",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            null,
+            "0x000000000000000000000000d5fbda4c79f38920159fe5f22df9655fde292d47"
+          ]
+        }
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:50:08.506395+00:00",
+    "canonical_record_sha256": "0d924da10c4f3d6fbfd9a00e80006d9e2350268cef6878f0d2364bce3b98f57a",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "A_baseline_127400000_1",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getLogs",
+      "params": [
+        {
+          "address": "0x55d398326f99059ff775485246999027b3197955",
+          "fromBlock": "0x797f840",
+          "toBlock": "0x798a4ef",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x000000000000000000000000d5fbda4c79f38920159fe5f22df9655fde292d47",
+            null
+          ]
+        }
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:50:13.547777+00:00",
+    "canonical_record_sha256": "72c06f493dd09e391e778b296e3f4424f66bac57ad0d176f14c0b606747d2bfa",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "A_baseline_127400000_2",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getLogs",
+      "params": [
+        {
+          "address": "0x55d398326f99059ff775485246999027b3197955",
+          "fromBlock": "0x797f840",
+          "toBlock": "0x798a4ef",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            null,
+            "0x000000000000000000000000d5fbda4c79f38920159fe5f22df9655fde292d47"
+          ]
+        }
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:50:18.459743+00:00",
+    "canonical_record_sha256": "e0d683256a5b5d4fef89807ef7167e8f89b2a475cf0a01b5c3c132a8d87b73cc",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "A_eth_getCode_before",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getCode",
+      "params": [
+        "0xd5fbda4c79f38920159fe5f22df9655fde292d47",
+        "0x798a4ef"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:54:07.999758+00:00",
+    "canonical_record_sha256": "8e9331594bd9782eb3ebb92a68f988df0b00545334582a1e162e01db2e101222",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "A_eth_getTransactionCount_before",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionCount",
+      "params": [
+        "0xd5fbda4c79f38920159fe5f22df9655fde292d47",
+        "0x798a4ef"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:54:17.985923+00:00",
+    "canonical_record_sha256": "84e63f8e871161a6142e16d78bd24b43ca22bfb3808516bca171ae45623a399c",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "A_state_127199999",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x55d398326f99059ff775485246999027b3197955",
+          "data": "0x70a08231000000000000000000000000d5fbda4c79f38920159fe5f22df9655fde292d47"
+        },
+        "0x794eaff"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:50:25.282767+00:00",
+    "canonical_record_sha256": "33f185ead98446c7e20222752835438a1079fbc8754fa8b81007927727a4069f",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "A_state_127399999",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x55d398326f99059ff775485246999027b3197955",
+          "data": "0x70a08231000000000000000000000000d5fbda4c79f38920159fe5f22df9655fde292d47"
+        },
+        "0x797f83f"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:50:31.615948+00:00",
+    "canonical_record_sha256": "2a7ca28178698fe8dd446ff5319c1a71e558f85cf906ba029ddf57efc52e2c10",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "A_state_127444207",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x55d398326f99059ff775485246999027b3197955",
+          "data": "0x70a08231000000000000000000000000d5fbda4c79f38920159fe5f22df9655fde292d47"
+        },
+        "0x798a4ef"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:50:39.826027+00:00",
+    "canonical_record_sha256": "ced9fa97c8beafffb88cf283dbd5bccff9a6b5615836145d1268515baf962d0f",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "A_state_127444208",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x55d398326f99059ff775485246999027b3197955",
+          "data": "0x70a08231000000000000000000000000d5fbda4c79f38920159fe5f22df9655fde292d47"
+        },
+        "0x798a4f0"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:50:47.056062+00:00",
+    "canonical_record_sha256": "ee0131b04d57a6d2b32a50fd543a17abde58f90825889a9f77c86a1065a81951",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "B_approval_logs",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getLogs",
+      "params": [
+        {
+          "address": "0x55d398326f99059ff775485246999027b3197955",
+          "fromBlock": "0x797f840",
+          "toBlock": "0x798a746",
+          "topics": [
+            "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+            "0x000000000000000000000000e5686aae44d392aa6a0637fd38393859502f8667"
+          ]
+        }
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:55:19.713959+00:00",
+    "canonical_record_sha256": "f31b319d46910bd83021825d7924799b238b1e73f7ac263ccb7ff3f3772ef8f9",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "B_code_127435561",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getCode",
+      "params": [
+        "0xe5686aae44d392aa6a0637fd38393859502f8667",
+        "0x7988329"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:58:30.905677+00:00",
+    "canonical_record_sha256": "5c30983f15b6f7d18e4ece97471008be680e3f8b1d5fc7ed5220dabbe57b18b9",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "B_code_127436253",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getCode",
+      "params": [
+        "0xe5686aae44d392aa6a0637fd38393859502f8667",
+        "0x79885dd"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:58:44.620764+00:00",
+    "canonical_record_sha256": "5169f00ea37388ea6f112112dfa39221d08a318c811e88133147c4e343319df3",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "B_code_127436599",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getCode",
+      "params": [
+        "0xe5686aae44d392aa6a0637fd38393859502f8667",
+        "0x7988737"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:58:51.343288+00:00",
+    "canonical_record_sha256": "7cdebdadc981c813117996cd3f608c5deaac2f88669688022f20778f9542be95",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "B_code_127436772",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getCode",
+      "params": [
+        "0xe5686aae44d392aa6a0637fd38393859502f8667",
+        "0x79887e4"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:58:57.859630+00:00",
+    "canonical_record_sha256": "bed3927135acb8b552f00fd21a3ba8debfa8ef6d9cb98d5c0390e6cf660cf4fa",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "B_code_127436777",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getCode",
+      "params": [
+        "0xe5686aae44d392aa6a0637fd38393859502f8667",
+        "0x79887e9"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:59:36.193172+00:00",
+    "canonical_record_sha256": "37439bb67aa3d7b46c502ea2b137de60386bd4e7e5532e8d760c7d490d8dd5bc",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "B_code_127436779",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getCode",
+      "params": [
+        "0xe5686aae44d392aa6a0637fd38393859502f8667",
+        "0x79887eb"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:59:43.579880+00:00",
+    "canonical_record_sha256": "dadd202698480237e34225a784d79b65870c3aa052312e7ec6802074331061b0",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "B_code_127436780",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getCode",
+      "params": [
+        "0xe5686aae44d392aa6a0637fd38393859502f8667",
+        "0x79887ec"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:59:50.401234+00:00",
+    "canonical_record_sha256": "47645ce968fe2ca1c4dd772e177febe748747338179216a7c16acd11ef123ec1",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "B_code_127436781",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getCode",
+      "params": [
+        "0xe5686aae44d392aa6a0637fd38393859502f8667",
+        "0x79887ed"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:59:56.810144+00:00",
+    "canonical_record_sha256": "341012d2d5741b82658800c744e0244b70ffc0c6816572e45d83a3bd6488b9d9",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "B_code_127436782",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getCode",
+      "params": [
+        "0xe5686aae44d392aa6a0637fd38393859502f8667",
+        "0x79887ee"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:59:28.950211+00:00",
+    "canonical_record_sha256": "3ee82b6e6a91e0fe6b02160094efe08ea08e7db84ff4c1fd5729ae577a357b78",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "B_code_127436793",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getCode",
+      "params": [
+        "0xe5686aae44d392aa6a0637fd38393859502f8667",
+        "0x79887f9"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:59:17.668354+00:00",
+    "canonical_record_sha256": "7388a42498eef496a42329a95d532049f15d040cc7d6833ac6834769a4efcdfc",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "B_code_127436815",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getCode",
+      "params": [
+        "0xe5686aae44d392aa6a0637fd38393859502f8667",
+        "0x798880f"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:59:10.890088+00:00",
+    "canonical_record_sha256": "6e079d12d69f459451f1460d14c41df32520e8ea8883bb499f5e109ce5b13946",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "B_code_127436859",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getCode",
+      "params": [
+        "0xe5686aae44d392aa6a0637fd38393859502f8667",
+        "0x798883b"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:59:04.421628+00:00",
+    "canonical_record_sha256": "fe2a7ec4e7fb457ac1c48469cbf608e62b8172b8a640bda3d700fffcebe441a8",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "B_code_127436946",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getCode",
+      "params": [
+        "0xe5686aae44d392aa6a0637fd38393859502f8667",
+        "0x7988892"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:58:38.144508+00:00",
+    "canonical_record_sha256": "233cfed2580a3cef54b97fd61450872e7199703335c31467d09c619a475e0471",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "B_code_transition_full_block",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x79887ed",
+        true
+      ]
+    },
+    "requested_at_utc": "2026-10-15T17:00:03.190390+00:00",
+    "canonical_record_sha256": "ee575caa50c2aa2ae32b0a3088b81b6b081b52c35590eaa93a4463d14dbc573e",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "B_eth_getCode_pre",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getCode",
+      "params": [
+        "0xe5686aae44d392aa6a0637fd38393859502f8667",
+        "0x7988329"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:48:54.761084+00:00",
+    "canonical_record_sha256": "e74f405ed74eea2d0466f90340c2f8841f22a6c3d31ca2adc3ee075eb0f12a2b",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "B_eth_getTransactionCount_pre",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionCount",
+      "params": [
+        "0xe5686aae44d392aa6a0637fd38393859502f8667",
+        "0x7988329"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:49:07.047643+00:00",
+    "canonical_record_sha256": "725c0963596cc67ab9ce92ddebfcdb3e9159d75f7692147a40ab099442d72d25",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "B_extended_1",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getLogs",
+      "params": [
+        {
+          "address": "0x55d398326f99059ff775485246999027b3197955",
+          "fromBlock": "0x797f840",
+          "toBlock": "0x798a746",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x000000000000000000000000e5686aae44d392aa6a0637fd38393859502f8667",
+            null
+          ]
+        }
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:48:20.211944+00:00",
+    "canonical_record_sha256": "7725bbe5727674ab63efb64ae55763bafd410a2378f351eb69fc01ac459002bf",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "B_extended_2",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getLogs",
+      "params": [
+        {
+          "address": "0x55d398326f99059ff775485246999027b3197955",
+          "fromBlock": "0x797f840",
+          "toBlock": "0x798a746",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            null,
+            "0x000000000000000000000000e5686aae44d392aa6a0637fd38393859502f8667"
+          ]
+        }
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:48:26.854049+00:00",
+    "canonical_record_sha256": "f7b4127a55fc80f2151e5f3989ad50323b51088d540832666195221aefdf5f09",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "B_nonce_127399999",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionCount",
+      "params": [
+        "0xe5686aae44d392aa6a0637fd38393859502f8667",
+        "0x797f83f"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:48:40.197392+00:00",
+    "canonical_record_sha256": "e01f43f765eb2fcdf8b77a9686765e7f9b6b1c1aedb7a72736b97a5c24c87aa1",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "B_nonce_127430000",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionCount",
+      "params": [
+        "0xe5686aae44d392aa6a0637fd38393859502f8667",
+        "0x7986d70"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:48:57.584299+00:00",
+    "canonical_record_sha256": "b2f5acd783c5e1a79ea38d8cad3c4fd88deeb8b407f108905921f5b950a45afa",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "B_nonce_127435561",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionCount",
+      "params": [
+        "0xe5686aae44d392aa6a0637fd38393859502f8667",
+        "0x7988329"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:49:13.848551+00:00",
+    "canonical_record_sha256": "e0d9d2e09e64ae94486581a17dd6508ee629b7d2853abebc948b5ef385417f20",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "B_nonce_127435562",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionCount",
+      "params": [
+        "0xe5686aae44d392aa6a0637fd38393859502f8667",
+        "0x798832a"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:49:30.836608+00:00",
+    "canonical_record_sha256": "ceec51835d13b349036dae636ed2d7108a8807a978c0a982f9b5ce82732ccb60",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "B_nonce_127444805",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionCount",
+      "params": [
+        "0xe5686aae44d392aa6a0637fd38393859502f8667",
+        "0x798a745"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:49:39.554965+00:00",
+    "canonical_record_sha256": "66d20f6e6bc42d3d7d63476d7e72cce3c78aa58687ebe868e0154bafac52446e",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "B_nonce_127444806",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionCount",
+      "params": [
+        "0xe5686aae44d392aa6a0637fd38393859502f8667",
+        "0x798a746"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:49:51.090112+00:00",
+    "canonical_record_sha256": "70afa05e22211cbcaf617677dd8800c1d4b4fa8188ccf72c2a3ddb362caebc50",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "B_state_127399999",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x55d398326f99059ff775485246999027b3197955",
+          "data": "0x70a08231000000000000000000000000e5686aae44d392aa6a0637fd38393859502f8667"
+        },
+        "0x797f83f"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:48:33.295617+00:00",
+    "canonical_record_sha256": "3d3b6e7739e72d245b5010aa33a4db5f59715d987496cca61d526540d82765d7",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "B_state_127430000",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x55d398326f99059ff775485246999027b3197955",
+          "data": "0x70a08231000000000000000000000000e5686aae44d392aa6a0637fd38393859502f8667"
+        },
+        "0x7986d70"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:48:48.643926+00:00",
+    "canonical_record_sha256": "dd43b266671c7dd1a422d8299524e9a49d777949fe1faeaab2d5f80ebc444b39",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "B_state_127435561",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x55d398326f99059ff775485246999027b3197955",
+          "data": "0x70a08231000000000000000000000000e5686aae44d392aa6a0637fd38393859502f8667"
+        },
+        "0x7988329"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:49:06.641679+00:00",
+    "canonical_record_sha256": "b929e89c74dff68d238763008de6100e49b907837b7c6ab33614c5320ba99ff0",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "B_state_127435562",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x55d398326f99059ff775485246999027b3197955",
+          "data": "0x70a08231000000000000000000000000e5686aae44d392aa6a0637fd38393859502f8667"
+        },
+        "0x798832a"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:49:26.045934+00:00",
+    "canonical_record_sha256": "c2f081b2acb9c24f23c66917814ebded76000df9ebdb12eda16824f7b9b38361",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "B_state_127436960",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x55d398326f99059ff775485246999027b3197955",
+          "data": "0x70a08231000000000000000000000000e5686aae44d392aa6a0637fd38393859502f8667"
+        },
+        "0x79888a0"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:50:27.926328+00:00",
+    "canonical_record_sha256": "3279f65cc2d221733c3a5847a5a42985582e699189c64a18c2e4c5c3dfc9c2f4",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "B_state_127437243",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x55d398326f99059ff775485246999027b3197955",
+          "data": "0x70a08231000000000000000000000000e5686aae44d392aa6a0637fd38393859502f8667"
+        },
+        "0x79889bb"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:50:39.960452+00:00",
+    "canonical_record_sha256": "aa6e38ed39412f4d0fb5ec72c4022bddeb2b49baf8903817cd4e428310d44150",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "B_state_127437244",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x55d398326f99059ff775485246999027b3197955",
+          "data": "0x70a08231000000000000000000000000e5686aae44d392aa6a0637fd38393859502f8667"
+        },
+        "0x79889bc"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:50:45.691861+00:00",
+    "canonical_record_sha256": "0e2e7f75661fcac56860d9c96d009e3951d37c953927fac7cc5dfe8610fada16",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "B_state_127437353",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x55d398326f99059ff775485246999027b3197955",
+          "data": "0x70a08231000000000000000000000000e5686aae44d392aa6a0637fd38393859502f8667"
+        },
+        "0x7988a29"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:50:58.337401+00:00",
+    "canonical_record_sha256": "8e82abb1a400eb987cd4953cd65901a202ff9093ad1f64300ccd6a2741048ef2",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "B_state_127444207",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x55d398326f99059ff775485246999027b3197955",
+          "data": "0x70a08231000000000000000000000000e5686aae44d392aa6a0637fd38393859502f8667"
+        },
+        "0x798a4ef"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:51:05.037916+00:00",
+    "canonical_record_sha256": "854a17ab4b61aea0c864ad62bbe9486ab58c52cb0fc0228e2aa8aec633cb21bf",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "B_state_127444208",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x55d398326f99059ff775485246999027b3197955",
+          "data": "0x70a08231000000000000000000000000e5686aae44d392aa6a0637fd38393859502f8667"
+        },
+        "0x798a4f0"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:51:13.873278+00:00",
+    "canonical_record_sha256": "5f5f040afef98a910b1d0c385420d64e5a2aa105a5d507bdad635c916f8146fb",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "B_state_127444805",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x55d398326f99059ff775485246999027b3197955",
+          "data": "0x70a08231000000000000000000000000e5686aae44d392aa6a0637fd38393859502f8667"
+        },
+        "0x798a745"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:49:35.273678+00:00",
+    "canonical_record_sha256": "9fe39251777772b571f2a6e78a4583e5263e859a75f56eb1a1bfc72feb9b29c3",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "B_state_127444806",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x55d398326f99059ff775485246999027b3197955",
+          "data": "0x70a08231000000000000000000000000e5686aae44d392aa6a0637fd38393859502f8667"
+        },
+        "0x798a746"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:49:43.945644+00:00",
+    "canonical_record_sha256": "c66ef0e04a7214514a3ec21523931cbac86f82ea5c7c5c0d7a9591f9c943dda8",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "S1_baseline_1",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getLogs",
+      "params": [
+        {
+          "address": "0x55d398326f99059ff775485246999027b3197955",
+          "fromBlock": "0x794eb00",
+          "toBlock": "0x79878bf",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x0000000000000000000000000067cc2416f792cf0ec5629f5506324ac508f859",
+            null
+          ]
+        }
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:48:14.748769+00:00",
+    "canonical_record_sha256": "c9f13a2329a7ee2a6d9f0eb797aa80ef81aa4f6d6fa9543c3ac702625e276dc2",
+    "result_available": false,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "S1_baseline_127200000_1",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getLogs",
+      "params": [
+        {
+          "address": "0x55d398326f99059ff775485246999027b3197955",
+          "fromBlock": "0x794eb00",
+          "toBlock": "0x795ae4f",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x0000000000000000000000000067cc2416f792cf0ec5629f5506324ac508f859",
+            null
+          ]
+        }
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:49:11.366467+00:00",
+    "canonical_record_sha256": "66b7a04f89db6057a5cca3fda1b3259ceca605c48e00814cfa4d656b286b7030",
+    "result_available": false,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "S1_eth_getCode_pre",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getCode",
+      "params": [
+        "0x0067cc2416f792cf0ec5629f5506324ac508f859",
+        "0x7988329"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:48:40.074669+00:00",
+    "canonical_record_sha256": "573d108bb2c4adec94b64b856e4fecfbea687251b1b3195961ff6184a31826dd",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "S1_eth_getTransactionCount_pre",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionCount",
+      "params": [
+        "0x0067cc2416f792cf0ec5629f5506324ac508f859",
+        "0x7988329"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:48:47.341091+00:00",
+    "canonical_record_sha256": "19ed82f1be38d2dea1a786c6117ba8a30dc9b49b2ed3404dd9f4780739b2c798",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "S1_finish_1",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getLogs",
+      "params": [
+        {
+          "address": "0x55d398326f99059ff775485246999027b3197955",
+          "fromBlock": "0x7986d70",
+          "toBlock": "0x79878c0",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x0000000000000000000000000067cc2416f792cf0ec5629f5506324ac508f859",
+            null
+          ]
+        }
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:52:56.626052+00:00",
+    "canonical_record_sha256": "752f8061c971a6592cf27a63f31a1e3ed00df865bbc6926f69f71a0fa1caddee",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "S1_finish_2",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getLogs",
+      "params": [
+        {
+          "address": "0x55d398326f99059ff775485246999027b3197955",
+          "fromBlock": "0x7986d70",
+          "toBlock": "0x79878c0",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            null,
+            "0x0000000000000000000000000067cc2416f792cf0ec5629f5506324ac508f859"
+          ]
+        }
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:53:05.504007+00:00",
+    "canonical_record_sha256": "b2d018ff38e3c672e5062cfca1f6362872160df66b7062258a5fdb154b03edff",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "S1_nonce_127199999",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionCount",
+      "params": [
+        "0x0067cc2416f792cf0ec5629f5506324ac508f859",
+        "0x794eaff"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:52:10.841338+00:00",
+    "canonical_record_sha256": "bfbe6a858a6be958907ddc31956c589485115b10c0b34d180ef1dab3c00ae524",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "S1_nonce_127399999",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionCount",
+      "params": [
+        "0x0067cc2416f792cf0ec5629f5506324ac508f859",
+        "0x797f83f"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:52:25.424335+00:00",
+    "canonical_record_sha256": "349975cf2497a058b5f1608c320099cab12cde0ae371ef40c80874fb23f56a57",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "S1_nonce_127432895",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionCount",
+      "params": [
+        "0x0067cc2416f792cf0ec5629f5506324ac508f859",
+        "0x79878bf"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:52:40.735378+00:00",
+    "canonical_record_sha256": "65995fefcb09dfe7459e6a06a77c542eed73017330ab81e8bf73a934cb0922f0",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "S1_nonce_127444806",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionCount",
+      "params": [
+        "0x0067cc2416f792cf0ec5629f5506324ac508f859",
+        "0x798a746"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:52:54.923674+00:00",
+    "canonical_record_sha256": "9597de431dcff95bd8c2b68e59c0b761e3a5655a14768b9d0b9558631055252b",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "S1_short_127400000_1",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getLogs",
+      "params": [
+        {
+          "address": "0x55d398326f99059ff775485246999027b3197955",
+          "fromBlock": "0x797f840",
+          "toBlock": "0x7981f4f",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x0000000000000000000000000067cc2416f792cf0ec5629f5506324ac508f859",
+            null
+          ]
+        }
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:51:08.180828+00:00",
+    "canonical_record_sha256": "ea5d78ae6dcacf79ce560cc538db8ee5376aa8a6a3362abdb583516266ad5027",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "S1_short_127400000_2",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getLogs",
+      "params": [
+        {
+          "address": "0x55d398326f99059ff775485246999027b3197955",
+          "fromBlock": "0x797f840",
+          "toBlock": "0x7981f4f",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            null,
+            "0x0000000000000000000000000067cc2416f792cf0ec5629f5506324ac508f859"
+          ]
+        }
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:51:16.277694+00:00",
+    "canonical_record_sha256": "8d1652db96947eeae2d26636e10940ea0823e314a64bc5bcc02f4cf4f08421a8",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "S1_short_127410000_1",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getLogs",
+      "params": [
+        {
+          "address": "0x55d398326f99059ff775485246999027b3197955",
+          "fromBlock": "0x7981f50",
+          "toBlock": "0x798465f",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x0000000000000000000000000067cc2416f792cf0ec5629f5506324ac508f859",
+            null
+          ]
+        }
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:51:24.832416+00:00",
+    "canonical_record_sha256": "90b2e9b6649c6d8a60af193ef735157b3a87fa4e14f2bacfe7dd04bf157cb06c",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "S1_short_127410000_2",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getLogs",
+      "params": [
+        {
+          "address": "0x55d398326f99059ff775485246999027b3197955",
+          "fromBlock": "0x7981f50",
+          "toBlock": "0x798465f",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            null,
+            "0x0000000000000000000000000067cc2416f792cf0ec5629f5506324ac508f859"
+          ]
+        }
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:51:40.040408+00:00",
+    "canonical_record_sha256": "8d80a37ab14fa484cade7b7a85d877ec9a68622a2c16d56a1bfa602bf45e5e3b",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "S1_short_127420000_1",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getLogs",
+      "params": [
+        {
+          "address": "0x55d398326f99059ff775485246999027b3197955",
+          "fromBlock": "0x7984660",
+          "toBlock": "0x7986d6f",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x0000000000000000000000000067cc2416f792cf0ec5629f5506324ac508f859",
+            null
+          ]
+        }
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:51:48.749084+00:00",
+    "canonical_record_sha256": "858e43091aa59d3da93c740b697b6e1630b4645a8e6ac1c83b1e0bb4f6fdeae4",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "S1_short_127420000_2",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getLogs",
+      "params": [
+        {
+          "address": "0x55d398326f99059ff775485246999027b3197955",
+          "fromBlock": "0x7984660",
+          "toBlock": "0x7986d6f",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            null,
+            "0x0000000000000000000000000067cc2416f792cf0ec5629f5506324ac508f859"
+          ]
+        }
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:51:57.218406+00:00",
+    "canonical_record_sha256": "fb374756b0eec2819a44edbdbd1ee0de49b30c89fe506e171b239b2df3d504ad",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "S1_state_127199999",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x55d398326f99059ff775485246999027b3197955",
+          "data": "0x70a082310000000000000000000000000067cc2416f792cf0ec5629f5506324ac508f859"
+        },
+        "0x794eaff"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:52:04.117992+00:00",
+    "canonical_record_sha256": "0954e7453a34cef9b12bea02be6e3e7f41069b3ba7d7c92baffcf2e81da3e232",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "S1_state_127399999",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x55d398326f99059ff775485246999027b3197955",
+          "data": "0x70a082310000000000000000000000000067cc2416f792cf0ec5629f5506324ac508f859"
+        },
+        "0x797f83f"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:52:18.308846+00:00",
+    "canonical_record_sha256": "ff9af704c5431b744323b60d609171f332e3e43fa7402097c995a3eec2ef1f82",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "S1_state_127429999",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x55d398326f99059ff775485246999027b3197955",
+          "data": "0x70a082310000000000000000000000000067cc2416f792cf0ec5629f5506324ac508f859"
+        },
+        "0x7986d6f"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:53:10.148533+00:00",
+    "canonical_record_sha256": "7bc162693429641d7bee8b15f060301941461145d001c354f277607083e9e26a",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "S1_state_127432895",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x55d398326f99059ff775485246999027b3197955",
+          "data": "0x70a082310000000000000000000000000067cc2416f792cf0ec5629f5506324ac508f859"
+        },
+        "0x79878bf"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:52:32.580521+00:00",
+    "canonical_record_sha256": "164dcf9ffb7d1b0ad1e748af50ac38dd47bf207750295d405cccd64ff20646f1",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "S1_state_127432896",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x55d398326f99059ff775485246999027b3197955",
+          "data": "0x70a082310000000000000000000000000067cc2416f792cf0ec5629f5506324ac508f859"
+        },
+        "0x79878c0"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:53:23.104069+00:00",
+    "canonical_record_sha256": "c50509a7f1af0aa33245f4c496b7784222ca6d561f9582a8577fe8e410244bf8",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "S1_state_127444806",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x55d398326f99059ff775485246999027b3197955",
+          "data": "0x70a082310000000000000000000000000067cc2416f792cf0ec5629f5506324ac508f859"
+        },
+        "0x798a746"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:52:48.324947+00:00",
+    "canonical_record_sha256": "fb5f32afdfad90b847b123db982fd913b3b0b98db8ecba17d2f9cab73f5057f3",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "binance_chain",
+    "endpoint": "https://bsc-dataseed.binance.org",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_chainId",
+      "params": []
+    },
+    "requested_at_utc": "2026-10-15T16:47:00.110791+00:00",
+    "canonical_record_sha256": "8a28d839a1851606bb53997f7229231f9b5a9268605371a9bccd519da8468788",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "binance_check_receipt_0x7bf1dc151bd41f0e065869eb4798224a109fbd0fc09ae070ae067f3f9026264e",
+    "endpoint": "https://bsc-dataseed.binance.org",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0x7bf1dc151bd41f0e065869eb4798224a109fbd0fc09ae070ae067f3f9026264e"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:51:33.774384+00:00",
+    "canonical_record_sha256": "ee60bef0721de9d1a66cd3e41b344656cbe0101b8c677b6622b3df2e4fcf9e44",
+    "result_available": false,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "binance_check_receipt_0xeb1fa312ebbb67c02ea851f01f3f9fcd215ba9fdda05e9d95e6446bf0e341a54",
+    "endpoint": "https://bsc-dataseed.binance.org",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0xeb1fa312ebbb67c02ea851f01f3f9fcd215ba9fdda05e9d95e6446bf0e341a54"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:51:22.141828+00:00",
+    "canonical_record_sha256": "3464ef4a6b95028c6d16d980998adcf15b70be993214a7c4035a36f9599ec16b",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "binance_pre_balance",
+    "endpoint": "https://bsc-dataseed.binance.org",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x55d398326f99059ff775485246999027b3197955",
+          "data": "0x70a08231000000000000000000000000e5686aae44d392aa6a0637fd38393859502f8667"
+        },
+        "0x7988329"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:47:09.827657+00:00",
+    "canonical_record_sha256": "7391763032932335429a8f7a937ef51c61ab4e0dcbb9706f58e57b462d7fb193",
+    "result_available": false,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "block_127200000",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x794eb00",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:53:02.270553+00:00",
+    "canonical_record_sha256": "f236eb2ab70ea860a18e0be6c7d102845f1abe391e39d8a0cba2ccf35a4170ed",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "block_127400000",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x797f840",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:53:09.694126+00:00",
+    "canonical_record_sha256": "0fbf6457bcb9eca061798a99ccc3f2453463aef216ecaedc8c9475a8347f9cf8",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "block_127400441",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x797f9f9",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:54:13.098077+00:00",
+    "canonical_record_sha256": "2f7e00947759c7e70957572baaef085e03f5e15189c99851c8349d7d2e965ca0",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "block_127420000",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x7984660",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:53:16.323718+00:00",
+    "canonical_record_sha256": "bbf6f52d1d7d4e51a2707465f7989597583ccbae7982ba27238e43c7adef9061",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "block_127428024",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x79865b8",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:53:50.456242+00:00",
+    "canonical_record_sha256": "e6d1385dbfead54665f6378fd48f68fde56ccc9c95e8e93a0182b534f97c11cb",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "block_127430000",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x7986d70",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:53:23.540234+00:00",
+    "canonical_record_sha256": "d6835e9710f5039a8e94a0dc20e971dbce7b52d1b7d44b687b087c9603d98ca7",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "block_127432896",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x79878c0",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:50:25.623043+00:00",
+    "canonical_record_sha256": "3dfd1fc3b1747bb32e8699f5aa84137f8bc8cda82e252840c4dc0fca2ebce2e4",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "block_127433989",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x7987d05",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:50:42.326801+00:00",
+    "canonical_record_sha256": "79e45ffd3dc5ff91ee3c3f07c1dcebed49e197f2026f72116a6572bf5263bcc5",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "block_127434225",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x7987df1",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:49:24.845072+00:00",
+    "canonical_record_sha256": "2e8bf019623fd776e25be20962ebf0c00ef2f82b64e4ac8ece996aaa0d335d20",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "block_127435502",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x79882ee",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:56:01.420636+00:00",
+    "canonical_record_sha256": "6d76e77d59f8d1cc7f739e1e700c62499ada5d6cfad891588536c40e6c3b2808",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "block_127435537",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x7988311",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:55:40.526650+00:00",
+    "canonical_record_sha256": "72938dfe6ddbb9eb41543a820d77013ddef5d8e052025ce0ceb8fdfa7b48e97c",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "block_127436781",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x79887ed",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T17:00:24.332360+00:00",
+    "canonical_record_sha256": "df4ac0d58f0f34945efa54e553a156af1dff9ff6d8d37a8ea9d1dc8bc4a5796f",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "block_127436947",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x7988893",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:56:48.883682+00:00",
+    "canonical_record_sha256": "573aa8d35db58b4b4a7d08bec1ca49b88dcfe6f403fb458e3111ef59b6aecec2",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "block_127436960",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x79888a0",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:49:51.411298+00:00",
+    "canonical_record_sha256": "a35fa14733f09dedbb1f03fbb3e8585a41170b0ee88a6d1faf2db773cd7a2b91",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "block_127437244",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x79889bc",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:50:05.975461+00:00",
+    "canonical_record_sha256": "e9e5df5cf56071219354005ea3708af1f75c3a1c86d078fa25e0fb8e7810357d",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "block_127437353",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x7988a29",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:49:30.484900+00:00",
+    "canonical_record_sha256": "9ed65582bebacf9aded22e584aaa5bdc1b0806f90f73cfba21e8e8acbae21923",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "block_127444208",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x798a4f0",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:49:46.796115+00:00",
+    "canonical_record_sha256": "0145f0e63625c985de9f10f7dc5ce20607551d3063b3d1daba0676b463313e34",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "block_127444784",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x798a730",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:56:21.870991+00:00",
+    "canonical_record_sha256": "99899719475928b85599edfaadc8f37c2f51bbc5c4926d68842375a61b2da5da",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "block_127444806",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x798a746",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:53:31.576271+00:00",
+    "canonical_record_sha256": "4c4a61d6e8ffc376c9d0684f7ef4856b2cdbdbefdc11d2648733c5a956102036",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "bnbchain_check_receipt_A",
+    "endpoint": "https://bsc-dataseed.bnbchain.org",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0x7bf1dc151bd41f0e065869eb4798224a109fbd0fc09ae070ae067f3f9026264e"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:54:25.532397+00:00",
+    "canonical_record_sha256": "d4678a1672c593b7e861efb2284231e5b400da1a319b6f269eafc17daca7fd04",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "drpc_chain",
+    "endpoint": "https://bsc.drpc.org",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_chainId",
+      "params": []
+    },
+    "requested_at_utc": "2026-10-15T16:47:00.111163+00:00",
+    "canonical_record_sha256": "65e8b3309db1eb18472d4d2cb77954a9313d38481eea6945b2b4124e9be7e524",
+    "result_available": false,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "nodereal_public_chain",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/1659dfb40aa24bbb8153a677b98064d7",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_chainId",
+      "params": []
+    },
+    "requested_at_utc": "2026-10-15T16:47:00.111775+00:00",
+    "canonical_record_sha256": "d38743de01e7663a968b65b9eeb789448cd699a0f14ca2cbed063b862d001bbf",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "nodereal_public_logs_1",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/1659dfb40aa24bbb8153a677b98064d7",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getLogs",
+      "params": [
+        {
+          "address": "0x55d398326f99059ff775485246999027b3197955",
+          "fromBlock": "0x7986d70",
+          "toBlock": "0x798832a",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x000000000000000000000000e5686aae44d392aa6a0637fd38393859502f8667",
+            null
+          ]
+        }
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:47:16.105303+00:00",
+    "canonical_record_sha256": "9d032fb3df53a14cfe47059d9a5de7776bd3559a594dfa21dd65bc25e98a4ee3",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "nodereal_public_logs_2",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/1659dfb40aa24bbb8153a677b98064d7",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getLogs",
+      "params": [
+        {
+          "address": "0x55d398326f99059ff775485246999027b3197955",
+          "fromBlock": "0x7986d70",
+          "toBlock": "0x798832a",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            null,
+            "0x000000000000000000000000e5686aae44d392aa6a0637fd38393859502f8667"
+          ]
+        }
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:47:22.419365+00:00",
+    "canonical_record_sha256": "360d057a57c2b2fc508678105bcb79b16b3ba2e9257521dc58e921d6ec4bb3fe",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "nodereal_public_pre_balance",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/1659dfb40aa24bbb8153a677b98064d7",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x55d398326f99059ff775485246999027b3197955",
+          "data": "0x70a08231000000000000000000000000e5686aae44d392aa6a0637fd38393859502f8667"
+        },
+        "0x7988329"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:47:09.392562+00:00",
+    "canonical_record_sha256": "bf09ef5615f35db4b066bd2aafbd1ec32d1877be8143f3b8d1106873fbbfccd2",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "nr_bsc_chain",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_chainId",
+      "params": []
+    },
+    "requested_at_utc": "2026-10-15T16:48:13.273499+00:00",
+    "canonical_record_sha256": "a57551c2e9ed150b1502083d2169cf04ac4fae857aae232fff29def8dbfa2bac",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "receipt_0x60bc674d4b2250d5aa01bf5a9d89e0d1f702873219c5a3fd2deb5e74b7469e8b",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0x60bc674d4b2250d5aa01bf5a9d89e0d1f702873219c5a3fd2deb5e74b7469e8b"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:49:09.882703+00:00",
+    "canonical_record_sha256": "32495dac2628d4cde3011595cb872c3fe6e3b875e7798088c7f1058c34ead637",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "receipt_0x7bf1dc151bd41f0e065869eb4798224a109fbd0fc09ae070ae067f3f9026264e",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0x7bf1dc151bd41f0e065869eb4798224a109fbd0fc09ae070ae067f3f9026264e"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:49:38.308631+00:00",
+    "canonical_record_sha256": "ce140e0a895c57dd6b6178da224100c5133a492b9b9d650645f30fd6187401d1",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "receipt_0x87fae2f01950c2f3e25758e647e87bfd07088d616c545c97b5aec544e9876b02",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0x87fae2f01950c2f3e25758e647e87bfd07088d616c545c97b5aec544e9876b02"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T17:00:11.063813+00:00",
+    "canonical_record_sha256": "b6350a9dea3bd59f0ebabfc632ef23ac3fcfb74bf9b107241e7d76a44463205e",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "receipt_0x92e880ebdd689071a5894ef9cdd1ea6c54808540827ab4ae2625d6dd578a0a13",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0x92e880ebdd689071a5894ef9cdd1ea6c54808540827ab4ae2625d6dd578a0a13"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:55:25.940429+00:00",
+    "canonical_record_sha256": "61bbfaf1a6e7a065ac1fa75f359e44b37f7728de25040b892065b3e058857822",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "receipt_0x950ad12176972dd4817193f530afdc19c517f0cf65861764eee985bdbf834c41",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0x950ad12176972dd4817193f530afdc19c517f0cf65861764eee985bdbf834c41"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:53:57.537888+00:00",
+    "canonical_record_sha256": "026fa4b18d8bdb67f2af0c7ce709367c706514d9ca3de4ac6ecc14f8b78bd766",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "receipt_0x9b2c7efebfb9360f8e1468c480e72674e750a0660dc4892df12fa0fa4f25666f",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0x9b2c7efebfb9360f8e1468c480e72674e750a0660dc4892df12fa0fa4f25666f"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:53:36.996347+00:00",
+    "canonical_record_sha256": "c38a98be0ed4c31fbe11e987a1b25e4dd7bb9428b7d5459ba5cc030f01d54a70",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "receipt_0xace4123ecf6bd73d2efb3a8864f1a3822461169c51d5f67bede44f8ef21356f2",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0xace4123ecf6bd73d2efb3a8864f1a3822461169c51d5f67bede44f8ef21356f2"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:55:47.417346+00:00",
+    "canonical_record_sha256": "c7f2db691d136cffd4822ab827832ff709610b21474c9940960560c75f71aaaa",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "receipt_0xcda9343de4eb5ad1e96d210d3e215bdf55cb33fba1c5f3fe3a6456afbe6781d2",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0xcda9343de4eb5ad1e96d210d3e215bdf55cb33fba1c5f3fe3a6456afbe6781d2"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:49:12.843672+00:00",
+    "canonical_record_sha256": "fd9999f9957719a02081b063f2346539dc90218b7f3416fae300a23d9b2adb5b",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "receipt_0xe4eea89ea32d675baa724d2e3926ffd3d4fbbe8d4f73ce381799bf9550a92347",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0xe4eea89ea32d675baa724d2e3926ffd3d4fbbe8d4f73ce381799bf9550a92347"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:49:35.613428+00:00",
+    "canonical_record_sha256": "8333a411dfcff89705572edcda2d5cfae1d9d41dc4b1059b40d122373acaf33a",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "receipt_0xe609048f70d245909f8c4d6a641935fb71dc958fb4d85abbf311e6a0a2238169",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0xe609048f70d245909f8c4d6a641935fb71dc958fb4d85abbf311e6a0a2238169"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:49:50.897258+00:00",
+    "canonical_record_sha256": "9c1decc739bba19eb8522a7f64b1f5e1b70517abe0ae63af1a09e54ae38fdeb2",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "receipt_0xeb1fa312ebbb67c02ea851f01f3f9fcd215ba9fdda05e9d95e6446bf0e341a54",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0xeb1fa312ebbb67c02ea851f01f3f9fcd215ba9fdda05e9d95e6446bf0e341a54"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:50:13.215152+00:00",
+    "canonical_record_sha256": "3c3ced71e5834a534d739ab9f9a3702e5847a068ff3fb349da124e7488761b41",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "receipt_0xf3223e098130c00e1e2f9b46b70a9e03013b6cb2e544539eb07eb1770ed3b8fc",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0xf3223e098130c00e1e2f9b46b70a9e03013b6cb2e544539eb07eb1770ed3b8fc"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:56:07.992059+00:00",
+    "canonical_record_sha256": "a819bac4b0e5d22e8cca13edd8f1a3ddbd717c03f07d6e624a8db59aaabac64c",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "receipt_0xf7e40d1d02ef78a0c9c898b31d466cb29918f91532eac712c88bff4c7b2afb2a",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0xf7e40d1d02ef78a0c9c898b31d466cb29918f91532eac712c88bff4c7b2afb2a"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:56:34.529245+00:00",
+    "canonical_record_sha256": "c9e57f3f122d1efa7865528cc9fa0ef291100c7e90e6288f918cf6967867b233",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "receipt_0xffd2e281af7709dd8a15a47774a71eca2bc16fec067f1c28310bfb0c085e1405",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0xffd2e281af7709dd8a15a47774a71eca2bc16fec067f1c28310bfb0c085e1405"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:50:29.803626+00:00",
+    "canonical_record_sha256": "1bb07e17ed28cbbff91ff8e64ad24d6b32ee44b0e02737142ea2f96d842043a8",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "tenderly_bnb_chain",
+    "endpoint": "https://bnb.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_chainId",
+      "params": []
+    },
+    "requested_at_utc": "2026-10-15T16:47:00.109371+00:00",
+    "canonical_record_sha256": "c0fcf5803fa04842baa5fe47bc5c127b142b676720a2408250ea88847b7e5e9b",
+    "result_available": false,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "token_decimals",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x55d398326f99059ff775485246999027b3197955",
+          "data": "0x313ce567"
+        },
+        "0x7988329"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:54:22.403585+00:00",
+    "canonical_record_sha256": "334e0faf75324cf04df497e17ec5d82b3a2374936d80e20c9f75e4592e1336d2",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "token_symbol",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x55d398326f99059ff775485246999027b3197955",
+          "data": "0x95d89b41"
+        },
+        "0x7988329"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:54:31.597200+00:00",
+    "canonical_record_sha256": "8d3fb0287a937287399182e3fd8b3492dc16ef13f753bab6d18a408261d8fd09",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "tx_0x60bc674d4b2250d5aa01bf5a9d89e0d1f702873219c5a3fd2deb5e74b7469e8b",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0x60bc674d4b2250d5aa01bf5a9d89e0d1f702873219c5a3fd2deb5e74b7469e8b"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:49:14.574162+00:00",
+    "canonical_record_sha256": "2dea1c5a836f0a84139f70a0ab4548fd0249ec186147ce976599c97d50bb0de4",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "tx_0x7bf1dc151bd41f0e065869eb4798224a109fbd0fc09ae070ae067f3f9026264e",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0x7bf1dc151bd41f0e065869eb4798224a109fbd0fc09ae070ae067f3f9026264e"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:49:42.804626+00:00",
+    "canonical_record_sha256": "8688a858a566d24e2387633f11b78caa5796f9864a75224e1059b544255e40dd",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "tx_0x87fae2f01950c2f3e25758e647e87bfd07088d616c545c97b5aec544e9876b02",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0x87fae2f01950c2f3e25758e647e87bfd07088d616c545c97b5aec544e9876b02"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T17:00:17.886251+00:00",
+    "canonical_record_sha256": "b869d974a5a669dbc769a38fdc741682a1bc0ae6bad9e533cbf426f3bf1a715f",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "tx_0x92e880ebdd689071a5894ef9cdd1ea6c54808540827ab4ae2625d6dd578a0a13",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0x92e880ebdd689071a5894ef9cdd1ea6c54808540827ab4ae2625d6dd578a0a13"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:55:33.430136+00:00",
+    "canonical_record_sha256": "d9f70fb338d2bd995d56089516289741712868473582904e413bd822bbe0c41a",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "tx_0x950ad12176972dd4817193f530afdc19c517f0cf65861764eee985bdbf834c41",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0x950ad12176972dd4817193f530afdc19c517f0cf65861764eee985bdbf834c41"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:54:04.187198+00:00",
+    "canonical_record_sha256": "acaf09742b5b3bc5422943f3b4da2c9bf45a7722b5ccac85ae53daa8918c0830",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "tx_0x9b2c7efebfb9360f8e1468c480e72674e750a0660dc4892df12fa0fa4f25666f",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0x9b2c7efebfb9360f8e1468c480e72674e750a0660dc4892df12fa0fa4f25666f"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:53:43.681593+00:00",
+    "canonical_record_sha256": "cd71591f87af2f6f4caee2c76ed75f69cceb92040c8aa81321d70cc1cad9697e",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "tx_0xace4123ecf6bd73d2efb3a8864f1a3822461169c51d5f67bede44f8ef21356f2",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0xace4123ecf6bd73d2efb3a8864f1a3822461169c51d5f67bede44f8ef21356f2"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:55:54.178833+00:00",
+    "canonical_record_sha256": "ccf78b603dcf76a5327cab206ebd7e846e6938d1b0643ef30511b505a0a0b5e9",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "tx_0xcda9343de4eb5ad1e96d210d3e215bdf55cb33fba1c5f3fe3a6456afbe6781d2",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0xcda9343de4eb5ad1e96d210d3e215bdf55cb33fba1c5f3fe3a6456afbe6781d2"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:49:25.611454+00:00",
+    "canonical_record_sha256": "7e09fc61635ad9af71f1363b54005a2ed5bab83d222d9fdf5efd94df70e6bcf4",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "tx_0xe4eea89ea32d675baa724d2e3926ffd3d4fbbe8d4f73ce381799bf9550a92347",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0xe4eea89ea32d675baa724d2e3926ffd3d4fbbe8d4f73ce381799bf9550a92347"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:49:39.718700+00:00",
+    "canonical_record_sha256": "387991e63960547da069c8d193417525f957d655745f9ea6d58494540c0143e1",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "tx_0xe609048f70d245909f8c4d6a641935fb71dc958fb4d85abbf311e6a0a2238169",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0xe609048f70d245909f8c4d6a641935fb71dc958fb4d85abbf311e6a0a2238169"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:49:57.974951+00:00",
+    "canonical_record_sha256": "e380b64cc5df9c4f9876653bb6ad6099b1f1d302ab238ea96eb1329456630045",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "tx_0xeb1fa312ebbb67c02ea851f01f3f9fcd215ba9fdda05e9d95e6446bf0e341a54",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0xeb1fa312ebbb67c02ea851f01f3f9fcd215ba9fdda05e9d95e6446bf0e341a54"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:50:19.300786+00:00",
+    "canonical_record_sha256": "bbd92f98aed791e0e6c90367392769fe345736ecdef722711914afc414607aae",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "tx_0xf3223e098130c00e1e2f9b46b70a9e03013b6cb2e544539eb07eb1770ed3b8fc",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0xf3223e098130c00e1e2f9b46b70a9e03013b6cb2e544539eb07eb1770ed3b8fc"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:56:14.610112+00:00",
+    "canonical_record_sha256": "5a64f57a5b5de70a9ff219674bf75ceefd2d141f0346f4e2bf0ce2b072a3ba70",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "tx_0xf7e40d1d02ef78a0c9c898b31d466cb29918f91532eac712c88bff4c7b2afb2a",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0xf7e40d1d02ef78a0c9c898b31d466cb29918f91532eac712c88bff4c7b2afb2a"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:56:41.408436+00:00",
+    "canonical_record_sha256": "7ff956e1165cdd7fb6aa542530cfe773fb24c1cc71c04f73941d76a09df79897",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  },
+  {
+    "record": "tx_0xffd2e281af7709dd8a15a47774a71eca2bc16fec067f1c28310bfb0c085e1405",
+    "endpoint": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0xffd2e281af7709dd8a15a47774a71eca2bc16fec067f1c28310bfb0c085e1405"
+      ]
+    },
+    "requested_at_utc": "2026-10-15T16:50:34.177693+00:00",
+    "canonical_record_sha256": "c811f14607f5dd51f03e76c43bf5042f2a78b25d157f9ab9ea639b2578f43068",
+    "result_available": true,
+    "scope": "Parsed primary RPC representation; not HTTP wire capture or consensus proof."
+  }
+]

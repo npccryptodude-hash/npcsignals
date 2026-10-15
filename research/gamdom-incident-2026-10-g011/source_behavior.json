@@ -1,0 +1,11 @@
+{
+  "S1_comparison_from_block": 127400000,
+  "S1_comparison_to_block": 127429999,
+  "outgoing_event_count": 63,
+  "distinct_recipients": 49,
+  "outgoing_sum": "83550.182842892018336000",
+  "maximum_outgoing": "30039.043168179440000000",
+  "median_raw_times_two": "599988858232348600000",
+  "pre_existing_activity_nonce_at_127199999": 184438,
+  "limits": "Partial intraday canonical-event baseline, not lifetime history or a statistical anomaly score."
+}

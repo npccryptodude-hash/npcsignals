@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "new_verified_transactions": 14,
+  "existing_bridge_transactions_not_recounted": 2,
+  "zero_residual_reconciliations": 8,
+  "signature_envelopes_verified": 16,
+  "old_Ethereum_transactions_used_for_new_key_comparison": 2,
+  "source_receipts_corroborated_by_second_provider": [
+    "0xeb1fa312ebbb67c02ea851f01f3f9fcd215ba9fdda05e9d95e6446bf0e341a54",
+    "0x7bf1dc151bd41f0e065869eb4798224a109fbd0fc09ae070ae067f3f9026264e"
+  ],
+  "frozen_files_unchanged": 168,
+  "limits": "No ownership, legitimate-consent, human-operator or unauthorized-loss proof; no state-root or consensus replay."
+}
