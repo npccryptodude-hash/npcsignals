@@ -1,0 +1,19 @@
+{
+  "README.md": "57a5853df17829dcff2e6f8f5e971934f6435893d5f404ec394b7cd0fa87fae0",
+  "baseline_statistics.csv": "08b3fd82bd1a0787804b20f1abc5037d18e46e6449355a8b3ed1504d7daead94",
+  "blocker_report.md": "52d619e275e833622c611ebc5d60530d700444004f5de3c3160ad014f87edecd",
+  "control_indicators.md": "9a48cade7c2094545d906cbe7ae9ed41773b9bf96ff8018c24b9ef1abf71cb18",
+  "control_transaction_ledger.csv": "f5869a8a181351221c08374b580fc7048cf79f70ab93b9a9ade83295028624bf",
+  "counterparty_register.csv": "f5924ce227912e3901091684e8b36bc812440be48d833c557a9f7916d9cc3e79",
+  "coverage_report.md": "36b9a0e8c0b3b483917c92ce619a6a0b753f9cb20ffc647f182064c7f8c2e361",
+  "evidence/calculated_totals.json": "464a4f5e2d4d8285ef5380191bb8fba18fc7a3d1a9dc7cc1a1b8f62fccfa8132",
+  "evidence/collection_summary.json": "8001971fdedde1fd4e692f914957338c3a49c9414d43227584f76b1b9bb86d0a",
+  "fetch_receipts.py": "12a0c20c57eef664cd7f47690d7beeb238144c3e07adc11236c6e3d20ade526d",
+  "historical_transfer_ledger.csv": "d17271ace0ca1d2f31471d48d30eee4a20c3aa6e4de1c3818421a33ef7cfb272",
+  "hypothesis_test.md": "fc2bf4aed4cc6e9096b12dc8db4143489744cbcbe4465f98e15231d4e4be3150",
+  "recipient_onward_routes.csv": "c2153a47aaefda7e13ca4ebdb6b2701f6f08ff030bf9a3f808decc82a8bbd928",
+  "reproduce_statistics.py": "cb4380ae9a56662f378396b7ce8493aab22c9c942f5ac80712d75d64b75b5152",
+  "source_register.csv": "b750078e8cf7e0ea2fec6f337f804bf0fdd058c171be423889eeca14fcad2476",
+  "verification_report.md": "169300d26f5a986a763efe2d95ee59122916bd637c9c5ceaa6c9c8f2d1013aaa",
+  "verify.py": "289aa578e7954b4c3ccd0997c4682b12330a9ace918d29e969a0753da21ef81d"
+}

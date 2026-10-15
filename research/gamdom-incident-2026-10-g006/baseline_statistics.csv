@@ -1,0 +1,13 @@
+chain,target,metric,value,unit,scope
+Polygon,0xd5FBDa4C79F38920159fE5f22DF9655FDe292d47,ordinary sender nonces observed,0;1,nonce,Oct13 first ordinary sender transactions; not an anomaly score
+Polygon,0xd5FBDa4C79F38920159fE5f22DF9655FDe292d47,canonical token outgoing active days observed,1,day,filtered index Sep1 to cutoff; only Oct13
+Polygon,0xe5686AaE44d392aa6A0637FD38393859502F8667,canonical token event active days observed,1,day,filtered index Sep1 to cutoff; only Oct13
+Ethereum,0xe5686AaE44d392aa6A0637FD38393859502F8667,canonical token event active days observed,1,day,filtered index Sep1 to cutoff; only Oct13
+Ethereum,0xe5686AaE44d392aa6A0637FD38393859502F8667,observed DAI net inflow before G005 first Ethereum arrival,816635.912748421658923307,DAI,"observed ledger delta; opening balance unknown, not proof of full balance"
+Ethereum,0xe5686AaE44d392aa6A0637FD38393859502F8667,DAI outgoing events after G005 second Ethereum arrival,0,event,canonical nonzero DAI in displayed history; source-filter limitations apply
+Ethereum,0xe5686AaE44d392aa6A0637FD38393859502F8667,DAI net inflow after G005 second Ethereum arrival,21072.036962590546379139,DAI,four additional inflows; not traced back to a victim
+Polygon,0xe5686AaE44d392aa6A0637FD38393859502F8667,USDC receipt to bridge call delay,903,seconds,G005 exact timestamps; 15m03s
+Polygon,0xe5686AaE44d392aa6A0637FD38393859502F8667,USDT0 receipt to bridge call delay,1052,seconds,G005 exact timestamps; 17m32s
+Polygon,0xd5FBDa4C79F38920159fE5f22DF9655FDe292d47,B native funding to first token outflow delay,58,seconds,new funding receipt compared with G005
+Ethereum,0xe5686AaE44d392aa6A0637FD38393859502F8667,A BUSD receipt to swap input delay,2988,seconds,49m48s; other BUSD inflows excluded from certainty claim
+all,sample,new receipt hashes verified,36,transaction,includes approvals/native/contamination checks; does not mean theft
