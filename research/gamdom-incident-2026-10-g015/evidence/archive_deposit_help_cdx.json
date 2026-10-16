@@ -1,0 +1,53 @@
+{
+  "url": "https://web.archive.org/cdx/search/cdx?url=help.gamdom.com%2Fen%2Farticles%2F8818767%2A&output=json&filter=statuscode%3A200&to=20261012&collapse=digest",
+  "requested_at_utc": "2026-10-16T05:48:07.303327+00:00",
+  "http_status": 200,
+  "raw_response_text": "[[\"urlkey\",\"timestamp\",\"original\",\"mimetype\",\"statuscode\",\"digest\",\"length\"],\n[\"com,gamdom,help)/en/articles/8818767-cryptocurrency-deposits-your-ultimate-guide\",\"20251210042625\",\"https://help.gamdom.com/en/articles/8818767-cryptocurrency-deposits-your-ultimate-guide\",\"text/html\",\"200\",\"N53JPA7RJDEPDXZN6FIL2H2BN4ZFVLV3\",\"18367\"],\n[\"com,gamdom,help)/en/articles/8818767-how-to-deposit\",\"20260513065542\",\"https://help.gamdom.com/en/articles/8818767-how-to-deposit\",\"text/html\",\"200\",\"S4254ADCJRB32O4HIE44O3QTTNRWSVZO\",\"25617\"],\n[\"com,gamdom,help)/en/articles/8818767-how-to-deposit\",\"20260519164501\",\"https://help.gamdom.com/en/articles/8818767-how-to-deposit\",\"text/html\",\"200\",\"GIOY55V6IOXDLIXAO6CTZZVWXZUAN2AF\",\"25602\"],\n[\"com,gamdom,help)/en/articles/8818767-how-to-deposit\",\"20260607104109\",\"https://help.gamdom.com/en/articles/8818767-how-to-deposit\",\"text/html\",\"200\",\"PINYOUTGL2HQG27U6NBXTSZYBVVNPIO2\",\"27922\"]]\n",
+  "body": [
+    [
+      "urlkey",
+      "timestamp",
+      "original",
+      "mimetype",
+      "statuscode",
+      "digest",
+      "length"
+    ],
+    [
+      "com,gamdom,help)/en/articles/8818767-cryptocurrency-deposits-your-ultimate-guide",
+      "20251210042625",
+      "https://help.gamdom.com/en/articles/8818767-cryptocurrency-deposits-your-ultimate-guide",
+      "text/html",
+      "200",
+      "N53JPA7RJDEPDXZN6FIL2H2BN4ZFVLV3",
+      "18367"
+    ],
+    [
+      "com,gamdom,help)/en/articles/8818767-how-to-deposit",
+      "20260513065542",
+      "https://help.gamdom.com/en/articles/8818767-how-to-deposit",
+      "text/html",
+      "200",
+      "S4254ADCJRB32O4HIE44O3QTTNRWSVZO",
+      "25617"
+    ],
+    [
+      "com,gamdom,help)/en/articles/8818767-how-to-deposit",
+      "20260519164501",
+      "https://help.gamdom.com/en/articles/8818767-how-to-deposit",
+      "text/html",
+      "200",
+      "GIOY55V6IOXDLIXAO6CTZZVWXZUAN2AF",
+      "25602"
+    ],
+    [
+      "com,gamdom,help)/en/articles/8818767-how-to-deposit",
+      "20260607104109",
+      "https://help.gamdom.com/en/articles/8818767-how-to-deposit",
+      "text/html",
+      "200",
+      "PINYOUTGL2HQG27U6NBXTSZYBVVNPIO2",
+      "27922"
+    ]
+  ]
+}

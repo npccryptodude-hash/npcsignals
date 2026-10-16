@@ -1,0 +1,161 @@
+{
+  "new_acquisitions": [
+    {
+      "publication_or_modification_metadata": [],
+      "publication_metadata_limits": "Embedded dates may belong to quoted posts; exact official/founder publication times reuse G005, not arbitrary HTML date fields.",
+      "id": "archive_deposit_help_cdx",
+      "url": "https://web.archive.org/cdx/search/cdx?url=help.gamdom.com%2Fen%2Farticles%2F8818767%2A&output=json&filter=statuscode%3A200&to=20261012&collapse=digest",
+      "collected_at": "2026-10-16T05:48:07.303327+00:00",
+      "http_status": 200,
+      "error": null,
+      "saved_file": "evidence/archive_deposit_help_cdx.json",
+      "authentication": "Public HTTPS response from named domain; not signed archive or independent forensic authentication",
+      "role": "Official/archival public documentary source",
+      "limitations": "Current retrieval alone does not establish pre-incident content; HTML can include quoted posts, navigation and replies. No wallet ownership inferred from labels."
+    },
+    {
+      "publication_or_modification_metadata": [
+        "dateModified\":\"2026-06-05T11:39:00Z\""
+      ],
+      "publication_metadata_limits": "Embedded dates may belong to quoted posts; exact official/founder publication times reuse G005, not arbitrary HTML date fields.",
+      "id": "archived_deposit_help_20260607",
+      "url": "https://web.archive.org/web/20260607104109id_/https://help.gamdom.com/en/articles/8818767-how-to-deposit",
+      "collected_at": "2026-10-16T05:50:47.337382+00:00",
+      "http_status": 200,
+      "error": null,
+      "saved_file": "evidence/archived_deposit_help_20260607.json",
+      "authentication": "Public HTTPS response from named domain; not signed archive or independent forensic authentication",
+      "role": "Official/archival public documentary source",
+      "limitations": "Current retrieval alone does not establish pre-incident content; HTML can include quoted posts, navigation and replies. No wallet ownership inferred from labels."
+    },
+    {
+      "publication_or_modification_metadata": [
+        "datePublished:\"2026-10-14T03:36:58.000Z\""
+      ],
+      "publication_metadata_limits": "Embedded dates may belong to quoted posts; exact official/founder publication times reuse G005, not arbitrary HTML date fields.",
+      "id": "external_loss_estimate",
+      "url": "https://x.com/vxdb/status/2110500301056979368",
+      "collected_at": "2026-10-16T05:47:50.052573+00:00",
+      "http_status": 200,
+      "error": null,
+      "saved_file": "evidence/external_loss_estimate.json",
+      "authentication": "Public HTTPS response from named domain; not signed archive or independent forensic authentication",
+      "role": "Third-party attribution",
+      "limitations": "Current retrieval alone does not establish pre-incident content; HTML can include quoted posts, navigation and replies. No wallet ownership inferred from labels."
+    },
+    {
+      "publication_or_modification_metadata": [
+        "datePublished:\"2026-10-14T03:36:58.000Z\""
+      ],
+      "publication_metadata_limits": "Embedded dates may belong to quoted posts; exact official/founder publication times reuse G005, not arbitrary HTML date fields.",
+      "id": "founder_incident_statement",
+      "url": "https://x.com/Romer/status/2110411281350230457",
+      "collected_at": "2026-10-16T05:47:46.376454+00:00",
+      "http_status": 200,
+      "error": null,
+      "saved_file": "evidence/founder_incident_statement.json",
+      "authentication": "Public HTTPS response from named domain; not signed archive or independent forensic authentication",
+      "role": "Official/archival public documentary source",
+      "limitations": "Current retrieval alone does not establish pre-incident content; HTML can include quoted posts, navigation and replies. No wallet ownership inferred from labels."
+    },
+    {
+      "publication_or_modification_metadata": [
+        "dateModified\":\"2026-08-10T09:06:40Z\""
+      ],
+      "publication_metadata_limits": "Embedded dates may belong to quoted posts; exact official/founder publication times reuse G005, not arbitrary HTML date fields.",
+      "id": "official_deposit_channels",
+      "url": "https://help.gamdom.com/en/articles/7997071-someone-contacted-me-on-3rd-party-social-media-sites-posing-as-gamdom-staff-what-should-i-do",
+      "collected_at": "2026-10-16T05:47:40.750379+00:00",
+      "http_status": 200,
+      "error": null,
+      "saved_file": "evidence/official_deposit_channels.json",
+      "authentication": "Public HTTPS response from named domain; not signed archive or independent forensic authentication",
+      "role": "Official/archival public documentary source",
+      "limitations": "Current retrieval alone does not establish pre-incident content; HTML can include quoted posts, navigation and replies. No wallet ownership inferred from labels."
+    },
+    {
+      "publication_or_modification_metadata": [
+        "dateModified\":\"2026-09-11T08:31:14Z\""
+      ],
+      "publication_metadata_limits": "Embedded dates may belong to quoted posts; exact official/founder publication times reuse G005, not arbitrary HTML date fields.",
+      "id": "official_deposit_help",
+      "url": "https://help.gamdom.com/en/articles/8818767-how-to-deposit",
+      "collected_at": "2026-10-16T05:47:40.749350+00:00",
+      "http_status": 200,
+      "error": null,
+      "saved_file": "evidence/official_deposit_help.json",
+      "authentication": "Public HTTPS response from named domain; not signed archive or independent forensic authentication",
+      "role": "Official/archival public documentary source",
+      "limitations": "Current retrieval alone does not establish pre-incident content; HTML can include quoted posts, navigation and replies. No wallet ownership inferred from labels."
+    },
+    {
+      "publication_or_modification_metadata": [],
+      "publication_metadata_limits": "Embedded dates may belong to quoted posts; exact official/founder publication times reuse G005, not arbitrary HTML date fields.",
+      "id": "official_incident_statement",
+      "url": "https://x.com/gamdom/status/2110213246410227730",
+      "collected_at": "2026-10-16T05:47:46.321578+00:00",
+      "http_status": 200,
+      "error": null,
+      "saved_file": "evidence/official_incident_statement.json",
+      "authentication": "Public HTTPS response from named domain; not signed archive or independent forensic authentication",
+      "role": "Official/archival public documentary source",
+      "limitations": "Current retrieval alone does not establish pre-incident content; HTML can include quoted posts, navigation and replies. No wallet ownership inferred from labels."
+    },
+    {
+      "publication_or_modification_metadata": [],
+      "publication_metadata_limits": "Embedded dates may belong to quoted posts; exact official/founder publication times reuse G005, not arbitrary HTML date fields.",
+      "id": "official_public_home",
+      "url": "https://gamdom.com/",
+      "collected_at": "2026-10-16T05:48:07.304305+00:00",
+      "http_status": 200,
+      "error": null,
+      "saved_file": "evidence/official_public_home.json",
+      "authentication": "Public HTTPS response from named domain; not signed archive or independent forensic authentication",
+      "role": "Official/archival public documentary source",
+      "limitations": "Current retrieval alone does not establish pre-incident content; HTML can include quoted posts, navigation and replies. No wallet ownership inferred from labels."
+    },
+    {
+      "publication_or_modification_metadata": [
+        "dateModified\":\"2026-09-11T14:43:26Z\""
+      ],
+      "publication_metadata_limits": "Embedded dates may belong to quoted posts; exact official/founder publication times reuse G005, not arbitrary HTML date fields.",
+      "id": "official_withdrawal_help",
+      "url": "https://help.gamdom.com/en/articles/9593458-pending-withdrawals-and-problems-that-coin-mixing-can-cause",
+      "collected_at": "2026-10-16T05:47:40.750808+00:00",
+      "http_status": 200,
+      "error": null,
+      "saved_file": "evidence/official_withdrawal_help.json",
+      "authentication": "Public HTTPS response from named domain; not signed archive or independent forensic authentication",
+      "role": "Official/archival public documentary source",
+      "limitations": "Current retrieval alone does not establish pre-incident content; HTML can include quoted posts, navigation and replies. No wallet ownership inferred from labels."
+    },
+    {
+      "publication_or_modification_metadata": [
+        "datePublished\":\"2026-06-10T14:01:58+00:00\""
+      ],
+      "publication_metadata_limits": "Embedded dates may belong to quoted posts; exact official/founder publication times reuse G005, not arbitrary HTML date fields.",
+      "id": "third_party_wallet_inventory",
+      "url": "https://dappradar.com/dapp/gamdom",
+      "collected_at": "2026-10-16T05:50:47.338217+00:00",
+      "http_status": 200,
+      "error": null,
+      "saved_file": "evidence/third_party_wallet_inventory.json",
+      "authentication": "Public HTTPS response from named domain; not signed archive or independent forensic authentication",
+      "role": "Third-party attribution",
+      "limitations": "Current retrieval alone does not establish pre-incident content; HTML can include quoted posts, navigation and replies. No wallet ownership inferred from labels."
+    }
+  ],
+  "frozen_inputs": {
+    "research/gamdom-incident-2026-10-g010/incident_origin_ledger.json": "a8b331f79e829d213898bd9818fd1e537f82e57e809ee9005214565e42fd14c3",
+    "research/gamdom-incident-2026-10-g011/upstream_funding_ledger.json": "bc3e1214725a8d300c2bc1aeca53ab544486f69a4b547dbb1162e19fb83bbcf0",
+    "research/gamdom-incident-2026-10/transaction_ledger.csv": "1889fc383feaf09ea9a519f9d61129d62c106653e4836192b9fa1ae8f3a9f11e",
+    "research/gamdom-incident-2026-10-g006/historical_transfer_ledger.csv": "d17271ace0ca1d2f31471d48d30eee4a20c3aa6e4de1c3818421a33ef7cfb272",
+    "research/gamdom-incident-2026-10-g010/baseline_comparison.json": "0f6cac21e475e2c76aa53873ca3328f4b27feaf37fa3323b349423cc648c1131",
+    "research/gamdom-incident-2026-10-g011/source_behavior.json": "6bb13bcf8f89c7231b6bcbcd81a3d10cf3eedcd01022b60073c1a88b57a48072",
+    "research/gamdom-incident-2026-10-g011/signature_verification.json": "c8a761fa1f6127169465fe8b7f17fdf7978958b12ee7d7afa5583455b2678a97",
+    "research/gamdom-incident-2026-10-g008/evidence/authorization_verification.json": "04a065dd9b22e1ccd6d776c154efdd603030b3c2744a5d9a90e531df89e6cb8b",
+    "research/gamdom-incident-2026-10-g011/approval_register.json": "13eb8a0187355a717869c1b8c0787284a869dac6717b76f222bd7824e8333951",
+    "research/gamdom-incident-2026-10-g012/settlement_order_register.json": "ac87df98620144111f7fca0d5ae77a982cd99a78fdd0f00967b058afec6d8e86",
+    "research/gamdom-incident-2026-10/source_register.csv": "84b4cd1af597a22da95d7d1fbb1cf5be296c43ac11bbff2a6874879c3c832340"
+  }
+}

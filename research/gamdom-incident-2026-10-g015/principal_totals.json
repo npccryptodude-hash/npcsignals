@@ -1,0 +1,74 @@
+[
+  {
+    "chain_id": 1,
+    "contract": "0x4fabb145d64652a948d72533023f6e7a623c7c53",
+    "symbol": "BUSD",
+    "decimals": 18,
+    "raw_amount": "10456137361559383267328",
+    "amount": "10456.137361559383267328"
+  },
+  {
+    "chain_id": 1,
+    "contract": "0x6b175474e89094c44da98b954eedeac495271d0f",
+    "symbol": "DAI",
+    "decimals": 18,
+    "raw_amount": "738148858772417648963",
+    "amount": "738.148858772417648963"
+  },
+  {
+    "chain_id": 1,
+    "contract": "0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d",
+    "symbol": "USD1",
+    "decimals": 18,
+    "raw_amount": "20077942698961878000000",
+    "amount": "20077.942698961878"
+  },
+  {
+    "chain_id": 1,
+    "contract": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+    "symbol": "USDC",
+    "decimals": 6,
+    "raw_amount": "503001390869",
+    "amount": "503001.390869"
+  },
+  {
+    "chain_id": 1,
+    "contract": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+    "symbol": "USDT",
+    "decimals": 6,
+    "raw_amount": "426040814198",
+    "amount": "426040.814198"
+  },
+  {
+    "chain_id": 1,
+    "contract": "native",
+    "symbol": "ETH",
+    "decimals": 18,
+    "raw_amount": "86956356111770671236",
+    "amount": "86.956356111770671236"
+  },
+  {
+    "chain_id": 56,
+    "contract": "0x55d398326f99059ff775485246999027b3197955",
+    "symbol": "USDT",
+    "decimals": 18,
+    "raw_amount": "714187786405077034199428",
+    "amount": "714187.786405077034199428"
+  },
+  {
+    "chain_id": 137,
+    "contract": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
+    "symbol": "USDC",
+    "decimals": 6,
+    "raw_amount": "12139456905",
+    "amount": "12139.456905"
+  },
+  {
+    "chain_id": 137,
+    "contract": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+    "symbol": "USDT0",
+    "decimals": 6,
+    "raw_amount": "19610310097",
+    "amount": "19610.310097"
+  }
+]

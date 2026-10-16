@@ -1,0 +1,254 @@
+[
+  {
+    "timestamp_utc": "2026-10-13T16:00:23Z",
+    "kind": "verified source movement",
+    "reference": "G015-P01",
+    "transaction_hash": "0xb2cca150592b3ba9344ff17a6f39888a40a855fc1619e8946b8b87e17217578f",
+    "interpretation": "Authorization unresolved"
+  },
+  {
+    "timestamp_utc": "2026-10-13T16:10:47Z",
+    "kind": "verified source movement",
+    "reference": "G015-P02",
+    "transaction_hash": "0x178957dc5339430fef6c8e460f54722968b59d06dcc899d1ca1cfdf5bedd19ae",
+    "interpretation": "Authorization unresolved"
+  },
+  {
+    "timestamp_utc": "2026-10-13T16:14:31Z",
+    "kind": "verified source movement",
+    "reference": "G015-P03",
+    "transaction_hash": "0xeb1fa312ebbb67c02ea851f01f3f9fcd215ba9fdda05e9d95e6446bf0e341a54",
+    "interpretation": "Authorization unresolved"
+  },
+  {
+    "timestamp_utc": "2026-10-13T16:16:47Z",
+    "kind": "verified source movement",
+    "reference": "G015-P04",
+    "transaction_hash": "0x932bc38b1aa0a5363da090a37c2d7288b9c4f6d1ad5ffb9dfec9706ac4756989",
+    "interpretation": "Authorization unresolved"
+  },
+  {
+    "timestamp_utc": "2026-10-13T16:16:47Z",
+    "kind": "verified source movement",
+    "reference": "G015-P05",
+    "transaction_hash": "0xa3753b1e3f2cd12a159b6b5f2753a7a4047ed25c2a3bf7b6add89e05d348d7d3",
+    "interpretation": "Authorization unresolved"
+  },
+  {
+    "timestamp_utc": "2026-10-13T16:18:35Z",
+    "kind": "verified source movement",
+    "reference": "G015-P06",
+    "transaction_hash": "0x6b5d703fa55f105b6c169bdd18349ba47664425c8be6e19e8d4fb2c4850ff909",
+    "interpretation": "Authorization unresolved"
+  },
+  {
+    "timestamp_utc": "2026-10-13T16:20:23Z",
+    "kind": "verified source movement",
+    "reference": "G015-P07",
+    "transaction_hash": "0x03169b589e724c00e958e059800fe1201e4e88bf11c2edcd8c0fdda971ca457f",
+    "interpretation": "Authorization unresolved"
+  },
+  {
+    "timestamp_utc": "2026-10-13T16:20:47Z",
+    "kind": "verified source movement",
+    "reference": "G015-P08",
+    "transaction_hash": "0xd7bdc7b4a407d6b49e12c1b911f3f63e90702893b454901334822eca7fe00068",
+    "interpretation": "Authorization unresolved"
+  },
+  {
+    "timestamp_utc": "2026-10-13T16:20:59Z",
+    "kind": "verified source movement",
+    "reference": "G015-P09",
+    "transaction_hash": "0x4f26c8232c81e8943bd3bf7342185e321ae78f615568fb8750314e7b9b800099",
+    "interpretation": "Authorization unresolved"
+  },
+  {
+    "timestamp_utc": "2026-10-13T16:22:43Z",
+    "kind": "verified source movement",
+    "reference": "G015-P10",
+    "transaction_hash": "0xffd2e281af7709dd8a15a47774a71eca2bc16fec067f1c28310bfb0c085e1405",
+    "interpretation": "Authorization unresolved"
+  },
+  {
+    "timestamp_utc": "2026-10-13T16:22:59Z",
+    "kind": "verified source movement",
+    "reference": "G015-P11",
+    "transaction_hash": "0xcb03f79ee9fa604cfeddc2d3bca37523fa5eb66c61e4de593d4a05336e5b90e2",
+    "interpretation": "Authorization unresolved"
+  },
+  {
+    "timestamp_utc": "2026-10-13T16:24:30Z",
+    "kind": "verified source movement",
+    "reference": "G015-P12",
+    "transaction_hash": "0x60bc674d4b2250d5aa01bf5a9d89e0d1f702873219c5a3fd2deb5e74b7469e8b",
+    "interpretation": "Authorization unresolved"
+  },
+  {
+    "timestamp_utc": "2026-10-13T16:24:47Z",
+    "kind": "verified source movement",
+    "reference": "G015-P13",
+    "transaction_hash": "0x42f9971272575b10fa9878e10d66a31a2f30091dfc91cc0c750f7135a8a59b5f",
+    "interpretation": "Authorization unresolved"
+  },
+  {
+    "timestamp_utc": "2026-10-13T16:25:23Z",
+    "kind": "verified source movement",
+    "reference": "G015-P14",
+    "transaction_hash": "0x117d040c9c500ef9aec18c763c20b4462836195c7d1a18d598bf6d3bf4352c11",
+    "interpretation": "Authorization unresolved"
+  },
+  {
+    "timestamp_utc": "2026-10-13T16:25:23Z",
+    "kind": "verified source movement",
+    "reference": "G015-P15",
+    "transaction_hash": "0x730ba30111b8a2dcc606397c1d816b146cf69890661bcbdec52c6d9f7151d868",
+    "interpretation": "Authorization unresolved"
+  },
+  {
+    "timestamp_utc": "2026-10-13T16:25:35Z",
+    "kind": "verified source movement",
+    "reference": "G015-P16",
+    "transaction_hash": "0x393b7ed02ab68d7e66b7356a533c5e647ebba2632617c327f7338d6210d223a8",
+    "interpretation": "Authorization unresolved"
+  },
+  {
+    "timestamp_utc": "2026-10-13T16:28:23Z",
+    "kind": "verified source movement",
+    "reference": "G015-P17",
+    "transaction_hash": "0xc3d89645282862feb0d71628146a4d07aa52b8c98343f25451f32580da22cfa4",
+    "interpretation": "Authorization unresolved"
+  },
+  {
+    "timestamp_utc": "2026-10-13T16:28:35Z",
+    "kind": "verified source movement",
+    "reference": "G015-P18",
+    "transaction_hash": "0x3793d029d0e319546fcd685e0ffae566b09fe5956c779831470bb616cd1a0791",
+    "interpretation": "Authorization unresolved"
+  },
+  {
+    "timestamp_utc": "2026-10-13T16:47:09Z",
+    "kind": "verified source movement",
+    "reference": "G015-P19",
+    "transaction_hash": "0xe609048f70d245909f8c4d6a641935fb71dc958fb4d85abbf311e6a0a2238169",
+    "interpretation": "Authorization unresolved"
+  },
+  {
+    "timestamp_utc": "2026-10-13T16:49:35Z",
+    "kind": "verified source movement",
+    "reference": "G015-P20",
+    "transaction_hash": "0x360c8880e3ee77e56858601cfca4a005207325aa633e56e7a00f0453121500ab",
+    "interpretation": "Authorization unresolved"
+  },
+  {
+    "timestamp_utc": "2026-10-13T16:49:35Z",
+    "kind": "verified source movement",
+    "reference": "G015-P21",
+    "transaction_hash": "0x5be73aa1f3dabc45bb3083abcfd219723a83cea59c9c2b8cbc5c430f94c04e24",
+    "interpretation": "Authorization unresolved"
+  },
+  {
+    "timestamp_utc": "2026-10-13T16:57:23Z",
+    "kind": "verified source movement",
+    "reference": "G015-P22",
+    "transaction_hash": "0x48803ba5602aa43ec26b5f10176c0f8a1011501df7a6c4824457ba1f18601579",
+    "interpretation": "Authorization unresolved"
+  },
+  {
+    "timestamp_utc": "2026-10-13T16:59:47Z",
+    "kind": "verified source movement",
+    "reference": "G015-P23",
+    "transaction_hash": "0xd3b7b7c0931a785a8243d04436e63a5cb360851829d66c28e78a8ccdc1c4fbe6",
+    "interpretation": "Authorization unresolved"
+  },
+  {
+    "timestamp_utc": "2026-10-13T17:01:47Z",
+    "kind": "verified source movement",
+    "reference": "G015-P24",
+    "transaction_hash": "0x54c762978fb1f4592b27d96f9706674807c3ce0631f325eccf9651eb7e0a8ce2",
+    "interpretation": "Authorization unresolved"
+  },
+  {
+    "timestamp_utc": "2026-10-13T17:02:11Z",
+    "kind": "verified source movement",
+    "reference": "G015-P25",
+    "transaction_hash": "0x3fdf8f644bbbc23d607dbaec370b5929dff224e55d85e35f25b145a16780fdc2",
+    "interpretation": "Authorization unresolved"
+  },
+  {
+    "timestamp_utc": "2026-10-13T17:07:23Z",
+    "kind": "verified source movement",
+    "reference": "G015-P26",
+    "transaction_hash": "0x869d10f0c1c082d860302426d555245b7cba9dd938f303387bb2807214714e17",
+    "interpretation": "Authorization unresolved"
+  },
+  {
+    "timestamp_utc": "2026-10-13T17:08:35Z",
+    "kind": "verified source movement",
+    "reference": "G015-P27",
+    "transaction_hash": "0xc54f5e1316f7ce6cd859f4a21d19edf7f376283f86f67f117bf2dd7af7d97bc5",
+    "interpretation": "Authorization unresolved"
+  },
+  {
+    "timestamp_utc": "2026-10-13T17:31:35Z",
+    "kind": "verified source movement",
+    "reference": "G015-P28",
+    "transaction_hash": "0x0304b8bb01c3981fa1c670aefd9880401a6dc75f484675073a8b6ff6693c2445",
+    "interpretation": "Authorization unresolved"
+  },
+  {
+    "timestamp_utc": "2026-10-13T17:39:23Z",
+    "kind": "verified source movement",
+    "reference": "G015-P29",
+    "transaction_hash": "0x60dfc5e81a354ea5dfbc5c1a0dbf4ed8f3264cb4f5df7c17425eaba9c8f2c457",
+    "interpretation": "Authorization unresolved"
+  },
+  {
+    "timestamp_utc": "2026-10-13T17:39:24Z",
+    "kind": "verified source movement",
+    "reference": "G015-P30",
+    "transaction_hash": "0x7bf1dc151bd41f0e065869eb4798224a109fbd0fc09ae070ae067f3f9026264e",
+    "interpretation": "Authorization unresolved"
+  },
+  {
+    "timestamp_utc": "2026-10-13T17:40:23Z",
+    "kind": "verified source movement",
+    "reference": "G015-P31",
+    "transaction_hash": "0x1fbb67ade71d036a648c59d3af8c0461b184e881cc8c70d77d90d7c70ee7dd7c",
+    "interpretation": "Authorization unresolved"
+  },
+  {
+    "timestamp_utc": "2026-10-13T17:45:23Z",
+    "kind": "verified source movement",
+    "reference": "G015-P32",
+    "transaction_hash": "0xebbe5ad72e9f02479b8c989f2e072807a3263e45853611162ae7fbe5c51ca0c5",
+    "interpretation": "Authorization unresolved"
+  },
+  {
+    "timestamp_utc": "2026-10-13T17:57:28Z",
+    "kind": "verified source movement",
+    "reference": "G015-P33",
+    "transaction_hash": "0x39916de9059b1db0d1666e1d47883b0dc805b0149c6f6acc4e13e268d4ec922a",
+    "interpretation": "Authorization unresolved"
+  },
+  {
+    "timestamp_utc": "2026-10-13T17:57:34Z",
+    "kind": "verified source movement",
+    "reference": "G015-P34",
+    "transaction_hash": "0x0792b3baa66c40e6bb7defc502fda9b5b2913cac5d7a33119475d97ce9aaea01",
+    "interpretation": "Authorization unresolved"
+  },
+  {
+    "timestamp_utc": "2026-10-14T03:36:58Z",
+    "kind": "official statement publication",
+    "reference": "G005 S06; newly archived HTML",
+    "claim": "Automation-server unauthorized connection and precautionary shutdown; user funds claimed safe",
+    "event_time": "Detection described approximately 24h earlier; exact access and shutdown times not established"
+  },
+  {
+    "timestamp_utc": "2026-10-14T16:43:53Z",
+    "kind": "founder statement publication",
+    "reference": "G005 S07; newly archived HTML",
+    "claim": "Hot-wallet breach, just over $3m claimed loss, other funds relocated to cold wallets",
+    "event_time": "No exact movement hashes or precise protective-relocation time identified"
+  }
+]

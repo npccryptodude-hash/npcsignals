@@ -1,0 +1,5 @@
+# Remaining blockers
+
+The decisive blocker is evidentiary, not lack of additional downstream tracing: no independently authenticated full-address Gamdom custody attribution or transaction-specific unauthorized instruction was recovered for A/S1/S2. Public breach statements do not enumerate the audited wallets or source outflows. Selected key continuity resolves technical signing only. Baseline windows are short and incomplete for source permissions/native activity. No complete USD loss valuation or all-network source accounting is available.
+
+HTTP and archive outcomes are preserved verbatim under evidence/. Failed or unusable results do not establish missing transactions or nonexistent ownership records. G014's OMFT boundary is retained and not searched again. The bounded accounting and maximum comparison add substantive analytical value, so this checkpoint may be published as a qualified evidence audit; Medium/X remain HOLD. Narrow further research to archival ownership/custody evidence rather than expanding financial associations.

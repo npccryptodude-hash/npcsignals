@@ -1,0 +1,131 @@
+{
+  "ownership_claims": [
+    {
+      "address": "0xd5fbda4c79f38920159fe5f22df9655fde292d47",
+      "alias": "A",
+      "direct_authenticated_attribution": "Not found within recorded coverage",
+      "third_party_labels": "Present in explorer/inventory leads; not ownership proof",
+      "organizational_ownership": "UNRESOLVED",
+      "authorization": "UNRESOLVED"
+    },
+    {
+      "address": "0x0067cc2416f792cf0ec5629f5506324ac508f859",
+      "alias": "S1",
+      "direct_authenticated_attribution": "Not found within recorded coverage",
+      "third_party_labels": "Present in explorer/inventory leads; not ownership proof",
+      "organizational_ownership": "UNRESOLVED",
+      "authorization": "UNRESOLVED"
+    },
+    {
+      "address": "0x580450dff316ae00d0fbef9621a304020a046ce2",
+      "alias": "S2",
+      "direct_authenticated_attribution": "Not found within recorded coverage",
+      "third_party_labels": "Present in explorer/inventory leads; not ownership proof",
+      "organizational_ownership": "UNRESOLVED",
+      "authorization": "UNRESOLVED"
+    }
+  ],
+  "text_scans": [
+    {
+      "source": "archive_deposit_help_cdx",
+      "http_status": 200,
+      "target_full_address_occurrences": {
+        "A": 0,
+        "S1": 0,
+        "S2": 0
+      },
+      "scan_scope": "Rendered textual content excluding scripts/styles; not images, video or account-only content"
+    },
+    {
+      "source": "archived_deposit_help_20260607",
+      "http_status": 200,
+      "target_full_address_occurrences": {
+        "A": 0,
+        "S1": 0,
+        "S2": 0
+      },
+      "scan_scope": "Rendered textual content excluding scripts/styles; not images, video or account-only content"
+    },
+    {
+      "source": "external_loss_estimate",
+      "http_status": 200,
+      "target_full_address_occurrences": {
+        "A": 0,
+        "S1": 0,
+        "S2": 0
+      },
+      "scan_scope": "Rendered textual content excluding scripts/styles; not images, video or account-only content"
+    },
+    {
+      "source": "founder_incident_statement",
+      "http_status": 200,
+      "target_full_address_occurrences": {
+        "A": 0,
+        "S1": 0,
+        "S2": 0
+      },
+      "scan_scope": "Rendered textual content excluding scripts/styles; not images, video or account-only content"
+    },
+    {
+      "source": "official_deposit_channels",
+      "http_status": 200,
+      "target_full_address_occurrences": {
+        "A": 0,
+        "S1": 0,
+        "S2": 0
+      },
+      "scan_scope": "Rendered textual content excluding scripts/styles; not images, video or account-only content"
+    },
+    {
+      "source": "official_deposit_help",
+      "http_status": 200,
+      "target_full_address_occurrences": {
+        "A": 0,
+        "S1": 0,
+        "S2": 0
+      },
+      "scan_scope": "Rendered textual content excluding scripts/styles; not images, video or account-only content"
+    },
+    {
+      "source": "official_incident_statement",
+      "http_status": 200,
+      "target_full_address_occurrences": {
+        "A": 0,
+        "S1": 0,
+        "S2": 0
+      },
+      "scan_scope": "Rendered textual content excluding scripts/styles; not images, video or account-only content"
+    },
+    {
+      "source": "official_public_home",
+      "http_status": 200,
+      "target_full_address_occurrences": {
+        "A": 0,
+        "S1": 0,
+        "S2": 0
+      },
+      "scan_scope": "Rendered textual content excluding scripts/styles; not images, video or account-only content"
+    },
+    {
+      "source": "official_withdrawal_help",
+      "http_status": 200,
+      "target_full_address_occurrences": {
+        "A": 0,
+        "S1": 0,
+        "S2": 0
+      },
+      "scan_scope": "Rendered textual content excluding scripts/styles; not images, video or account-only content"
+    },
+    {
+      "source": "third_party_wallet_inventory",
+      "http_status": 200,
+      "target_full_address_occurrences": {
+        "A": 0,
+        "S1": 0,
+        "S2": 0
+      },
+      "scan_scope": "Rendered textual content excluding scripts/styles; not images, video or account-only content"
+    }
+  ],
+  "context": "Gamdom public help describes account Wallet Page deposit instructions and changeable addresses. It does not publicly identify these three wallets. Archived deposit guide is assessed only if its response was retrieved."
+}
