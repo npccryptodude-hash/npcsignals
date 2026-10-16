@@ -1,0 +1,94 @@
+[
+  {
+    "chain": "BNB",
+    "address": "0x233c5370ccfb3cd7409d9a3fb98ab94de94cb4cd",
+    "role": "Observed source MetaWallet locker",
+    "runtime_match_record": "match",
+    "compiler": {
+      "compiler": "solc",
+      "compilerSettings": {
+        "evmVersion": "istanbul",
+        "libraries": {},
+        "metadata": {
+          "bytecodeHash": "ipfs"
+        },
+        "optimizer": {
+          "enabled": true,
+          "runs": 200
+        },
+        "remappings": []
+      },
+      "compilerVersion": "0.8.27+commit.40a35a09",
+      "fullyQualifiedName": "contracts/MetaWallet.sol:MetaWallet",
+      "language": "Solidity",
+      "name": "MetaWallet"
+    },
+    "sourcify_deployment_metadata": {
+      "blockNumber": "47497041",
+      "deployer": "0x88E48AEeceaAfBda2640bA0f25e1Fd2a79d07633",
+      "transactionHash": "0x5e4acfb60224cb35e86033f04ca67c10e6645befdfc1ec5940ab39c9b5a5cdff",
+      "transactionIndex": "78"
+    },
+    "historical_runtime_sha256": "c2b6fbc5b31050a8c2268a5e35a389315d52445e31e006215412620b4b34ca0d",
+    "historical_runtime_matches": 2,
+    "source": "sourcify_locker",
+    "local_recompilation": false
+  },
+  {
+    "chain": "NEAR",
+    "account": "v2_1.omni.hot.tg",
+    "role": "HOT NEP-245 representation",
+    "wasm_sha256": "d42e8e693ab093200d7d1e23479d82b93c831a23d8992b91e9d8a02ff63afe76",
+    "onchain_code_hash": "FHGcBRcZrR2RxF8s3283ikvPWdxwb1MP7258JNhf3vaR",
+    "first_state_block": 219842414,
+    "second_state_block": 219842713,
+    "same_code_hash_at_both": true,
+    "wasm_bytes_source": "fastnear_view_code_v2_1.omni.hot.tg",
+    "verified_source_equivalence": "NOT ASSESSED"
+  },
+  {
+    "chain": "NEAR",
+    "account": "eth-0x6b175474e89094c44da98b954eedeac495271d0f.omft.near",
+    "role": "DAI OMFT token and burn interface",
+    "wasm_sha256": "162737537f546e027beb75a942694389fd6b43f19cdc3d8addba0b32cdcf8fd2",
+    "onchain_code_hash": "2VUeqHTx9sk2AjDrs88HazLqS6LUgVQorjWcacotNCDP",
+    "first_state_block": 219842443,
+    "second_state_block": 219842723,
+    "same_code_hash_at_both": true,
+    "wasm_bytes_source": "fastnear_view_code_eth-0x6b175474e89094c44da98b954eedeac495271d0f.omft.near",
+    "verified_source_equivalence": "NOT ASSESSED",
+    "historical_owner_get": "omft.near"
+  },
+  {
+    "chain": "BNB",
+    "address": "0x16ee1ef93df4657a52f8ea6eebe950b54bc91265",
+    "role": "Order receiver and locker-deposit signer",
+    "block": 127436960,
+    "code": "0x",
+    "limits": "Selected historical code state, not lifetime account classification"
+  },
+  {
+    "chain": "Ethereum",
+    "address": "0x2cff890f0378a11913b6129b2e97417a2c302680",
+    "role": "Observed DAI treasury payout initiator",
+    "block": 26184851,
+    "code": "0x",
+    "first_party_operational_label": "NEAR Intents treasury in retrieved current official documentation; not historical human ownership proof"
+  },
+  {
+    "chain": "BNB",
+    "address": "0x66e6a2a0a9d871011b60b2e39902f10a33da4a2c",
+    "role": "Order receiver and locker-deposit signer",
+    "block": 127437353,
+    "code": "0x",
+    "limits": "Selected historical code state, not lifetime account classification"
+  },
+  {
+    "chain": "Ethereum",
+    "address": "0x2cff890f0378a11913b6129b2e97417a2c302680",
+    "role": "Observed DAI treasury payout initiator",
+    "block": 26184865,
+    "code": "0x",
+    "first_party_operational_label": "NEAR Intents treasury in retrieved current official documentation; not historical human ownership proof"
+  }
+]

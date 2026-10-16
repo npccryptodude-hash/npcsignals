@@ -1,0 +1,34 @@
+[
+  {
+    "route": 1,
+    "decimals": 18,
+    "source_usdt_principal_raw": "3296947360645719000000",
+    "settlement_receiver_usdt_raw": "3296944723631957632111",
+    "actual_locker_usdt_raw": "3296944723631957632111",
+    "source_difference_usdt_raw": "2637013761367889",
+    "near_source_asset_raw": "3296944723631957632111",
+    "near_dai_output_and_withdrawal_raw": "3294176314118353387030",
+    "omft_reported_dai_fee_raw": "300000000000000000",
+    "ethereum_dai_receipt_raw": "3293876314118353387030",
+    "source_residual_raw": "0",
+    "dai_residual_after_reported_fee_raw": "0",
+    "verified_unauthorized_loss_raw": null,
+    "cross_asset_loss_residual": null
+  },
+  {
+    "route": 2,
+    "decimals": 18,
+    "source_usdt_principal_raw": "3947417222165521700000",
+    "settlement_receiver_usdt_raw": "3947414585151760332111",
+    "actual_locker_usdt_raw": "3947414585151760332111",
+    "source_difference_usdt_raw": "2637013761367889",
+    "near_source_asset_raw": "3947414585151760332111",
+    "near_dai_output_and_withdrawal_raw": "3947797560500152030405",
+    "omft_reported_dai_fee_raw": "300000000000000000",
+    "ethereum_dai_receipt_raw": "3947497560500152030405",
+    "source_residual_raw": "0",
+    "dai_residual_after_reported_fee_raw": "0",
+    "verified_unauthorized_loss_raw": null,
+    "cross_asset_loss_residual": null
+  }
+]

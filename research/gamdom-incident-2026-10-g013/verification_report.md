@@ -1,0 +1,11 @@
+# Verification report
+
+Offline verification reconstructs both new BNB signed envelopes and matches transaction hashes and recovered senders; checks receipt/header/input consistency; decodes canonical USDT transfers and NewTransfer events; checks the historically deployed locker runtime against the chain-56 Sourcify record; independently serializes fixed-width RLP message bytes and compares the historical getMessageRaw response; SHA-256 matches nonce-indexed historical storage, with zero at the prior block; matches nonce/token/amount/receiver commitment to NEAR calls; verifies both 64-byte deposit ECDSA signatures under historical chain-56 public keys; checks historical locker selection and NEAR WASM/account code hashes; expands and connects all 24 NEAR receipt details; checks exact OMFT withdrawal and Ethereum mapping/amount records; and verifies four zero same-asset financial residuals.
+
+`verification_results.json` records the offline result. `verify.py` also compares all 220 frozen G005–G012 files to the starting commit and enforces SHA-256 manifest coverage. The two new transaction hashes are checked against frozen textual records; existing NEAR/Ethereum transactions are not counted again. New receipt details are counted separately from transaction identities.
+
+All request records, including failures and exploratory getter/API probes, are retained in the deterministic archive and canonical source register. The original source signature/message bytes and later raw OMFT responses are preserved losslessly. No assertion equates a CoW UID, NEAR transaction hash, receipt ID, intent hash or bridge nonce.
+
+Full-route classifications are enforced as SUPPORTED. Valid signatures, historical getter state and successful chain execution do not establish MPC quorum, legitimate human consent, company custody or unauthorized extraction. No consensus/Merkle replay, local deployed-code recompilation or authenticated OMFT treasury instruction is claimed.
+
+After publication, the remote commit is fetched, all new files are byte-compared with this local package, and the verifier is run from a separate checkout without the untracked acquisition cache. That post-commit result is reported to the user rather than embedded as a self-referential commit assertion.

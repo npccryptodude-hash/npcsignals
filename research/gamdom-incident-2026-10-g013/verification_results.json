@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "new_BNB_transactions": 2,
+  "new_NEAR_transactions": 0,
+  "previous_NEAR_execution_trees_expanded": 4,
+  "new_receipt_details_verified": 24,
+  "source_messages_reconstructed": 2,
+  "deposit_attestations_verified": 2,
+  "source_transaction_envelopes_verified": 2,
+  "historical_locker_runtime_matches": 2,
+  "historical_NEAR_code_hashes_verified": 2,
+  "zero_same_asset_reconciliation_residuals": 4,
+  "full_routes": [
+    "SUPPORTED",
+    "SUPPORTED"
+  ],
+  "frozen_files_unchanged": 220,
+  "limits": "No authenticated OMFT payout instruction, MPC quorum proof, local Solidity/Rust recompilation, Merkle or consensus validation. Existing Ethereum/NEAR transactions are not recounted."
+}

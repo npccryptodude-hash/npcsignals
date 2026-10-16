@@ -1,0 +1,42 @@
+[
+  {
+    "route": 1,
+    "near_deposit_transaction": "7ANgmgCrZnot8uA2NRuLQxCmrtpR5n2E6aURrimmDbvF",
+    "algorithm": "secp256k1 ECDSA, 64-byte r||s, direct SHA-256 digest verification",
+    "signature_base58": "5t8aReQ5GWXNJMMRqMxkgYfPqoqHxxBb4PjCmDMAWpGpobf4ApnUvQwjvJ9snE6sNs4xthW73XL9XbE9uawDrR5E",
+    "signature_hex": "0xf4293e2179cc90bed598245054874b2b2c683cb857602d9fe717e1279a5f1f8403adb1a787c46abd3be39ad978d7821ee84fcd630841947b09743ea75c7facbd",
+    "r": "0xf4293e2179cc90bed598245054874b2b2c683cb857602d9fe717e1279a5f1f84",
+    "s": "0x03adb1a787c46abd3be39ad978d7821ee84fcd630841947b09743ea75c7facbd",
+    "recovery_id": null,
+    "message_rlp": "0xf86190000000000000006123bed58fb9af55e48800000000000000389455d398326f99059ff775485246999027b3197955a0f48c6df0478265d8078c6f5c04e17be957b1ebde2f542233689cab6182edf4849000000000000000b2ba4c9e2e7540646f",
+    "message_sha256": "0xaae3167495b5ed1a7116a94ef2699f8858975c07fe3fca43892d1c0f441b7b62",
+    "historical_chain56_public_key": "233a866ef36e704bbf08b1f9c5e84a7200c4c744429ba7c401ff96b8a7f34f6bfb462651cfb18439a9766b36d8c940bae22c2f816d814c0913a7dc63d357c6f4",
+    "derived_key_address": "0xfe33ddff181c4025d4d92ba5663cac9cbd500b85",
+    "verification": true,
+    "authority_source": "Historical v2_1.omni.hot.tg get_public_key(chain_id=56)",
+    "authorized_key_state_level": "CONFIRMED getter state; internal verification/source equivalence not independently recompiled",
+    "locker_withdraw_verify_address": "0xbcfd8381fa8148d01fd7d5cbb0efcc96ce68176c",
+    "quorum_and_validator_roster": "NOT ASSESSED",
+    "replay_scope": "Message binds source chain 56, nonce, token, receiver hash and amount; locker deployment address is not inside signed bytes. Global/cross-deployment replay resistance not established."
+  },
+  {
+    "route": 2,
+    "near_deposit_transaction": "HFrVzrvRmLUF4FNd1UyiaMRD9JwCWSS5jnpgsCBNLQkA",
+    "algorithm": "secp256k1 ECDSA, 64-byte r||s, direct SHA-256 digest verification",
+    "signature_base58": "1PJwutyDt2YG3XHyC8Bz5xzT3j1Wc2XMoJCyHMowKNrzVEtdBFuBXkSzAkLxcTaAqtNvHgbKsNbRgPgh1XCD4m5",
+    "signature_hex": "0x0054ea853c9b664d100e529512e4fe792f1c7c6089fcb0f50fb5ab7f9f3cdf7a5c73e7b3545de4bc469e52b97a8a6bcaece21edbaee3d1c5d94c0a208d28c6b8",
+    "r": "0x0054ea853c9b664d100e529512e4fe792f1c7c6089fcb0f50fb5ab7f9f3cdf7a",
+    "s": "0x5c73e7b3545de4bc469e52b97a8a6bcaece21edbaee3d1c5d94c0a208d28c6b8",
+    "recovery_id": null,
+    "message_rlp": "0xf86190000000000000006123bf7773947475e98800000000000000389455d398326f99059ff775485246999027b3197955a081a806fda91fe7087b52bbdba93f37bfe7940d54781f303bc1d6f0e8b109f3879000000000000000d5fd61cae58e9f754f",
+    "message_sha256": "0x737fe1207e9c8bf071aa8e2f6739ba38f8d088b57104c51a395ec4e88a40312f",
+    "historical_chain56_public_key": "233a866ef36e704bbf08b1f9c5e84a7200c4c744429ba7c401ff96b8a7f34f6bfb462651cfb18439a9766b36d8c940bae22c2f816d814c0913a7dc63d357c6f4",
+    "derived_key_address": "0xfe33ddff181c4025d4d92ba5663cac9cbd500b85",
+    "verification": true,
+    "authority_source": "Historical v2_1.omni.hot.tg get_public_key(chain_id=56)",
+    "authorized_key_state_level": "CONFIRMED getter state; internal verification/source equivalence not independently recompiled",
+    "locker_withdraw_verify_address": "0xbcfd8381fa8148d01fd7d5cbb0efcc96ce68176c",
+    "quorum_and_validator_roster": "NOT ASSESSED",
+    "replay_scope": "Message binds source chain 56, nonce, token, receiver hash and amount; locker deployment address is not inside signed bytes. Global/cross-deployment replay resistance not established."
+  }
+]
