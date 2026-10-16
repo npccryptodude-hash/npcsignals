@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "source_order_uids_recomputed": 2,
+  "full_app_data_hashes_verified": 2,
+  "eip712_order_signature_recovered": 1,
+  "precise_uid_presign_trace_and_state_verified": 1,
+  "historical_settlement_runtime_matches": 2,
+  "new_verified_NEAR_transactions": 4,
+  "previously_verified_EVM_transactions_reused": 5,
+  "destination_block_balance_residuals": [
+    "0",
+    "0"
+  ],
+  "frozen_files_unchanged": 196,
+  "route_classification": "SUPPORTED; protocol index required for cross-chain execution mapping",
+  "limitations": "No consensus/state-proof replay; no independent human consent or company ownership proof; NEAR signatures accepted through RPC execution status, not independently Borsh/NEP-413 verified."
+}

@@ -1,0 +1,657 @@
+[
+  {
+    "record": "bnb_domain_separator",
+    "url": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x9008d19f58aabd9ed0d60971565aa8510560ab41",
+          "data": "0xf698da25"
+        },
+        "0x79888a0"
+      ]
+    },
+    "requested_at_utc": "2026-10-16T04:54:53.685817+00:00",
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "9dff78aa0c889cb82448d716f1b403b028f40435011a90c4bafeef92302b451d"
+  },
+  {
+    "record": "bnb_settlement_code_127436960",
+    "url": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getCode",
+      "params": [
+        "0x9008d19f58aabd9ed0d60971565aa8510560ab41",
+        "0x79888a0"
+      ]
+    },
+    "requested_at_utc": "2026-10-16T04:54:47.276636+00:00",
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "52520e2f39b0e6906f2155bf7ee484865b51b08f2abd984de0412b83844f17ee"
+  },
+  {
+    "record": "bnb_settlement_code_127437353",
+    "url": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getCode",
+      "params": [
+        "0x9008d19f58aabd9ed0d60971565aa8510560ab41",
+        "0x7988a29"
+      ]
+    },
+    "requested_at_utc": "2026-10-16T04:54:50.945583+00:00",
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "9774ac057031b2e266b515b39a85382b112fd77995255aeb09b9f61c1541d37b"
+  },
+  {
+    "record": "cow_order_source",
+    "url": "https://raw.githubusercontent.com/cowprotocol/contracts/main/src/contracts/libraries/GPv2Order.sol",
+    "request": null,
+    "requested_at_utc": "2026-10-16T04:54:47.156557+00:00",
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "34b24e00b9da6c525ea4862fd91b2e206025c88dac90d40d7b11cc49d87d6a77"
+  },
+  {
+    "record": "cow_settlement_source",
+    "url": "https://raw.githubusercontent.com/cowprotocol/contracts/main/src/contracts/GPv2Settlement.sol",
+    "request": null,
+    "requested_at_utc": "2026-10-16T04:54:43.281596+00:00",
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "d611d1b8889a4d3d3f921992fb8bcc6c671f82e5a62e5f4db7450d43631dd834"
+  },
+  {
+    "record": "cow_signing_source",
+    "url": "https://raw.githubusercontent.com/cowprotocol/contracts/main/src/contracts/mixins/GPv2Signing.sol",
+    "request": null,
+    "requested_at_utc": "2026-10-16T04:54:47.220141+00:00",
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "49d6454a940369dc64912a5e9f99122ad15cc3d5f624b87bfe0c1902aae006b3"
+  },
+  {
+    "record": "cow_trade_source",
+    "url": "https://raw.githubusercontent.com/cowprotocol/contracts/main/src/contracts/libraries/GPv2Trade.sol",
+    "request": null,
+    "requested_at_utc": "2026-10-16T04:54:46.715206+00:00",
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "39a837c1867449221d9af6a63783cc1674850d0bc9b2d8d5f89306a096cfe92c"
+  },
+  {
+    "record": "eth_block_26184851",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x18f8c93",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-16T04:54:52.255287+00:00",
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "1dfc67cea78d32b131a0c97a40caf11c7c68e24cfd2d7110919a6679d5904fa5"
+  },
+  {
+    "record": "eth_block_26184865",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getBlockByNumber",
+      "params": [
+        "0x18f8ca1",
+        false
+      ]
+    },
+    "requested_at_utc": "2026-10-16T04:55:01.039717+00:00",
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "54100814778175bbcbe914f3f65c03086b2f2abedcc487b53ef073e2c31cff2a"
+  },
+  {
+    "record": "eth_dai_balance_26184850",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x6b175474e89094c44da98b954eedeac495271d0f",
+          "data": "0x70a08231000000000000000000000000e5686aae44d392aa6a0637fd38393859502f8667"
+        },
+        "0x18f8c92"
+      ]
+    },
+    "requested_at_utc": "2026-10-16T05:00:52.647567+00:00",
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "107ce012a7783f0549f2ec608f977c3a3e2618a0da0cfd75dbfd4089509dd9a1"
+  },
+  {
+    "record": "eth_dai_balance_26184851",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x6b175474e89094c44da98b954eedeac495271d0f",
+          "data": "0x70a08231000000000000000000000000e5686aae44d392aa6a0637fd38393859502f8667"
+        },
+        "0x18f8c93"
+      ]
+    },
+    "requested_at_utc": "2026-10-16T05:00:52.648393+00:00",
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "439a7cb1cd385843d8b4057a2e2ee350da4b540c59df110706de3789628eab80"
+  },
+  {
+    "record": "eth_dai_balance_26184864",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x6b175474e89094c44da98b954eedeac495271d0f",
+          "data": "0x70a08231000000000000000000000000e5686aae44d392aa6a0637fd38393859502f8667"
+        },
+        "0x18f8ca0"
+      ]
+    },
+    "requested_at_utc": "2026-10-16T05:00:52.648961+00:00",
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "8b57220ddfb67d21d8e2a48e50950d75b1551e43bc351232b27cba54631d55af"
+  },
+  {
+    "record": "eth_dai_balance_26184865",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x6b175474e89094c44da98b954eedeac495271d0f",
+          "data": "0x70a08231000000000000000000000000e5686aae44d392aa6a0637fd38393859502f8667"
+        },
+        "0x18f8ca1"
+      ]
+    },
+    "requested_at_utc": "2026-10-16T05:00:56.411603+00:00",
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "3344ae7e2dcd70d2b94ae5e5f43d29c1d5e10af6d86b1a5122fec41e62f469c6"
+  },
+  {
+    "record": "eth_dai_block_logs_26184851_1",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getLogs",
+      "params": [
+        {
+          "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+          "fromBlock": "0x18f8c93",
+          "toBlock": "0x18f8c93",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x000000000000000000000000e5686aae44d392aa6a0637fd38393859502f8667",
+            null
+          ]
+        }
+      ]
+    },
+    "requested_at_utc": "2026-10-16T05:00:56.490723+00:00",
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "2933c48ee295442f023226ad1e3954dfcafce733b50d8a89bb0ddc3300925248"
+  },
+  {
+    "record": "eth_dai_block_logs_26184851_2",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getLogs",
+      "params": [
+        {
+          "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+          "fromBlock": "0x18f8c93",
+          "toBlock": "0x18f8c93",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            null,
+            "0x000000000000000000000000e5686aae44d392aa6a0637fd38393859502f8667"
+          ]
+        }
+      ]
+    },
+    "requested_at_utc": "2026-10-16T05:00:56.549451+00:00",
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "98473459ef7f4d808dac6954a75e1772dec1d3a838eca423137917464e1a6b3f"
+  },
+  {
+    "record": "eth_dai_block_logs_26184865_1",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getLogs",
+      "params": [
+        {
+          "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+          "fromBlock": "0x18f8ca1",
+          "toBlock": "0x18f8ca1",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x000000000000000000000000e5686aae44d392aa6a0637fd38393859502f8667",
+            null
+          ]
+        }
+      ]
+    },
+    "requested_at_utc": "2026-10-16T05:01:00.008887+00:00",
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "803a558643672fb03413199b7b0e0ca16a700c10577f058ea7009d62ca489af2"
+  },
+  {
+    "record": "eth_dai_block_logs_26184865_2",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getLogs",
+      "params": [
+        {
+          "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+          "fromBlock": "0x18f8ca1",
+          "toBlock": "0x18f8ca1",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            null,
+            "0x000000000000000000000000e5686aae44d392aa6a0637fd38393859502f8667"
+          ]
+        }
+      ]
+    },
+    "requested_at_utc": "2026-10-16T05:01:00.075520+00:00",
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "e48e751e6975553efcd9248c3f6baf0d9c92e360f43bbfcfaa308807e500d7de"
+  },
+  {
+    "record": "eth_receipt_0x3afe0536e5a7bc6f33da46ecef12c11a0591c9b13df90cb58f73c6839c99efaf",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0x3afe0536e5a7bc6f33da46ecef12c11a0591c9b13df90cb58f73c6839c99efaf"
+      ]
+    },
+    "requested_at_utc": "2026-10-16T04:54:55.248463+00:00",
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "3452da5f40688812e7f7ae4ebe04641ff443ffa33526a8c763fb0289db59985f"
+  },
+  {
+    "record": "eth_receipt_0x6b282435dc06107a499c8b8ef0ed83632a51d32738d81c143dc7e2d53542fd40",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionReceipt",
+      "params": [
+        "0x6b282435dc06107a499c8b8ef0ed83632a51d32738d81c143dc7e2d53542fd40"
+      ]
+    },
+    "requested_at_utc": "2026-10-16T04:54:45.941939+00:00",
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "8eaaa24f83c5eb9c3c83ac258bf21b9fac4dbca157d2bf983385d51cdaa5d588"
+  },
+  {
+    "record": "eth_tx_0x3afe0536e5a7bc6f33da46ecef12c11a0591c9b13df90cb58f73c6839c99efaf",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0x3afe0536e5a7bc6f33da46ecef12c11a0591c9b13df90cb58f73c6839c99efaf"
+      ]
+    },
+    "requested_at_utc": "2026-10-16T04:54:57.925346+00:00",
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "7dc837e51b0391aa775dc268b4741ec3ca88789c8c430f9a4cdbf3511581353c"
+  },
+  {
+    "record": "eth_tx_0x6b282435dc06107a499c8b8ef0ed83632a51d32738d81c143dc7e2d53542fd40",
+    "url": "https://mainnet.gateway.tenderly.co",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_getTransactionByHash",
+      "params": [
+        "0x6b282435dc06107a499c8b8ef0ed83632a51d32738d81c143dc7e2d53542fd40"
+      ]
+    },
+    "requested_at_utc": "2026-10-16T04:54:49.314262+00:00",
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "2c695122ff056e512d4e65d191c4268c3b9a52801e79166ba74e22f48a9dd727"
+  },
+  {
+    "record": "near_block_2ppdYSByeL6vPpb8nwreif9yFDMAf9cMuZVJJz6mBySP",
+    "url": "https://archival-rpc.mainnet.near.org",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "block",
+      "params": {
+        "block_id": "2ppdYSByeL6vPpb8nwreif9yFDMAf9cMuZVJJz6mBySP"
+      }
+    },
+    "requested_at_utc": "2026-10-16T05:00:41.026573+00:00",
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "4f53c7bd4eb70a165eedaed62bc8a4ef0fd12b6f6feae5502f40e63703f20a85"
+  },
+  {
+    "record": "near_block_5sgYjGT8epbeenj2Yu7yNFz9xiaPcyZ2ePXrs92Ne8Vv",
+    "url": "https://archival-rpc.mainnet.near.org",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "block",
+      "params": {
+        "block_id": "5sgYjGT8epbeenj2Yu7yNFz9xiaPcyZ2ePXrs92Ne8Vv"
+      }
+    },
+    "requested_at_utc": "2026-10-16T05:00:34.763927+00:00",
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "d7f5dc557eacf6bc8f6161004c1f8f7a0e55fb6dca27815813cf626e3068d91d"
+  },
+  {
+    "record": "near_block_6R5tzxxkUJFQEoWaLj2WY5UCbfZdESEaF4nnHftLWCVw",
+    "url": "https://archival-rpc.mainnet.near.org",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "block",
+      "params": {
+        "block_id": "6R5tzxxkUJFQEoWaLj2WY5UCbfZdESEaF4nnHftLWCVw"
+      }
+    },
+    "requested_at_utc": "2026-10-16T05:00:46.937350+00:00",
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "0a58ac0ea1315f896cb93f590090269ffc2a238ae5882f27da8e67847f5afbb1"
+  },
+  {
+    "record": "near_block_8hWiCf4bRHw2rTh7NnMuoY8Uqu52CuJch9RBSBYmMrQB",
+    "url": "https://archival-rpc.mainnet.near.org",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "block",
+      "params": {
+        "block_id": "8hWiCf4bRHw2rTh7NnMuoY8Uqu52CuJch9RBSBYmMrQB"
+      }
+    },
+    "requested_at_utc": "2026-10-16T05:00:28.402838+00:00",
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "b7ab482ca5cb8fab9b4b8b69bb23fe604ceb3cba1ae41fe91f7d165c931035bc"
+  },
+  {
+    "record": "near_status_0x16ee1ef93df4657a52f8ea6eebe950b54bc91265",
+    "url": "https://1click.chaindefuser.com/v0/status?depositAddress=0x16ee1ef93df4657a52f8ea6eebe950b54bc91265",
+    "request": null,
+    "requested_at_utc": "2026-10-16T04:58:28.516935+00:00",
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "6e4dd66eb5b0548410801067a7d5b2522c809efb27ec73e48d378f75da84ee53"
+  },
+  {
+    "record": "near_status_0x66e6a2a0a9d871011b60b2e39902f10a33da4a2c",
+    "url": "https://1click.chaindefuser.com/v0/status?depositAddress=0x66e6a2a0a9d871011b60b2e39902f10a33da4a2c",
+    "request": null,
+    "requested_at_utc": "2026-10-16T04:58:28.517838+00:00",
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "233a20799fb12afac464a26d5b9c7e3de09d43c28663be5734f27f970fcd246f"
+  },
+  {
+    "record": "near_tx_3CucqT6YmivRFpNMtgsiuR43d2JXJcBuMLUYU9vHzjV6",
+    "url": "https://archival-rpc.mainnet.near.org",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "tx",
+      "params": {
+        "tx_hash": "3CucqT6YmivRFpNMtgsiuR43d2JXJcBuMLUYU9vHzjV6",
+        "sender_account_id": "intents.near",
+        "wait_until": "FINAL"
+      }
+    },
+    "requested_at_utc": "2026-10-16T04:58:50.114559+00:00",
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "f329c8e4056206fa3a5df5583ae341e446d04a212f02f394ae9e2607a13d434c"
+  },
+  {
+    "record": "near_tx_7ANgmgCrZnot8uA2NRuLQxCmrtpR5n2E6aURrimmDbvF",
+    "url": "https://archival-rpc.mainnet.near.org",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "tx",
+      "params": {
+        "tx_hash": "7ANgmgCrZnot8uA2NRuLQxCmrtpR5n2E6aURrimmDbvF",
+        "sender_account_id": "intents.near",
+        "wait_until": "FINAL"
+      }
+    },
+    "requested_at_utc": "2026-10-16T04:58:50.114175+00:00",
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "40e36e1072b73849ad3d4b8b7249e2b27f7435d916278958abf781c13a51abbb"
+  },
+  {
+    "record": "near_tx_7dbo8A2xAkge8A6q139CsjcKd7rTHrK5U8aSyMxRMNiT",
+    "url": "https://archival-rpc.mainnet.near.org",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "tx",
+      "params": {
+        "tx_hash": "7dbo8A2xAkge8A6q139CsjcKd7rTHrK5U8aSyMxRMNiT",
+        "sender_account_id": "intents.near",
+        "wait_until": "FINAL"
+      }
+    },
+    "requested_at_utc": "2026-10-16T04:58:50.113635+00:00",
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "4ff078a24fbbe7bf94808a35570c5209852717063c008e887009496bf6771eeb"
+  },
+  {
+    "record": "near_tx_HFrVzrvRmLUF4FNd1UyiaMRD9JwCWSS5jnpgsCBNLQkA",
+    "url": "https://archival-rpc.mainnet.near.org",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "tx",
+      "params": {
+        "tx_hash": "HFrVzrvRmLUF4FNd1UyiaMRD9JwCWSS5jnpgsCBNLQkA",
+        "sender_account_id": "intents.near",
+        "wait_until": "FINAL"
+      }
+    },
+    "requested_at_utc": "2026-10-16T04:58:50.112895+00:00",
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "a8f5823dc9adf8d83ace4117fdc1918d6c7c5a4116b57b407d364c8a472b5b21"
+  },
+  {
+    "record": "order_bnb_0xa6e7012a35800d9ae6c9262d49c2f055303b7f9014219a64e5a92e0f6edb5cf8e5686aae44d392aa6a0637fd38393859502f86676ace6701",
+    "url": "https://api.cow.fi/bnb/api/v1/orders/0xa6e7012a35800d9ae6c9262d49c2f055303b7f9014219a64e5a92e0f6edb5cf8e5686aae44d392aa6a0637fd38393859502f86676ace6701",
+    "request": null,
+    "requested_at_utc": "2026-10-16T04:54:44.614604+00:00",
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "ce8a73f478a7b020e744f15319f2bb1d549133d2e76930baedfe0b021cfce93f"
+  },
+  {
+    "record": "order_bnb_0xf122a39685746aa58924b1afbd9183500e83ec45d6553bc6a4245d6a107777bfe5686aae44d392aa6a0637fd38393859502f86676ace67ad",
+    "url": "https://api.cow.fi/bnb/api/v1/orders/0xf122a39685746aa58924b1afbd9183500e83ec45d6553bc6a4245d6a107777bfe5686aae44d392aa6a0637fd38393859502f86676ace67ad",
+    "request": null,
+    "requested_at_utc": "2026-10-16T04:54:50.826910+00:00",
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "e4d68191670dfc1cf57766ab8939b812499d7428d3b3729ec74e35e507c05b29"
+  },
+  {
+    "record": "order_mainnet_0xa6e7012a35800d9ae6c9262d49c2f055303b7f9014219a64e5a92e0f6edb5cf8e5686aae44d392aa6a0637fd38393859502f86676ace6701",
+    "url": "https://api.cow.fi/mainnet/api/v1/orders/0xa6e7012a35800d9ae6c9262d49c2f055303b7f9014219a64e5a92e0f6edb5cf8e5686aae44d392aa6a0637fd38393859502f86676ace6701",
+    "request": null,
+    "requested_at_utc": "2026-10-16T04:54:47.655804+00:00",
+    "http_status": 404,
+    "error": "HTTP Error 404: Not Found",
+    "canonical_record_sha256": "6e17e2afcaca2fce8af6968bb284e2a4a07aba0413a717d30183253465c48d76"
+  },
+  {
+    "record": "order_mainnet_0xf122a39685746aa58924b1afbd9183500e83ec45d6553bc6a4245d6a107777bfe5686aae44d392aa6a0637fd38393859502f86676ace67ad",
+    "url": "https://api.cow.fi/mainnet/api/v1/orders/0xf122a39685746aa58924b1afbd9183500e83ec45d6553bc6a4245d6a107777bfe5686aae44d392aa6a0637fd38393859502f86676ace67ad",
+    "request": null,
+    "requested_at_utc": "2026-10-16T04:54:54.943579+00:00",
+    "http_status": 404,
+    "error": "HTTP Error 404: Not Found",
+    "canonical_record_sha256": "d08cd63113a01708594cda40bf6906ea8cf46d4d6a1bdf10f9aafc6eb5973318"
+  },
+  {
+    "record": "presign_call_trace",
+    "url": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "debug_traceTransaction",
+      "params": [
+        "0xf7e40d1d02ef78a0c9c898b31d466cb29918f91532eac712c88bff4c7b2afb2a",
+        {
+          "tracer": "callTracer"
+        }
+      ]
+    },
+    "requested_at_utc": "2026-10-16T05:00:39.811395+00:00",
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "018da4a73dfdae48a8743da8a3b867e3ad8642e67ac7136a060e411ec8c3978b"
+  },
+  {
+    "record": "presign_state_127436946",
+    "url": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x9008d19f58aabd9ed0d60971565aa8510560ab41",
+          "data": "0xd08d33d100000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000038a6e7012a35800d9ae6c9262d49c2f055303b7f9014219a64e5a92e0f6edb5cf8e5686aae44d392aa6a0637fd38393859502f86676ace67010000000000000000"
+        },
+        "0x7988892"
+      ]
+    },
+    "requested_at_utc": "2026-10-16T05:00:27.123049+00:00",
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "15a2e3240ab4170cc1c91a4f202edf43a92572e4515dbb50d305da9e5f659d9c"
+  },
+  {
+    "record": "presign_state_127436947",
+    "url": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x9008d19f58aabd9ed0d60971565aa8510560ab41",
+          "data": "0xd08d33d100000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000038a6e7012a35800d9ae6c9262d49c2f055303b7f9014219a64e5a92e0f6edb5cf8e5686aae44d392aa6a0637fd38393859502f86676ace67010000000000000000"
+        },
+        "0x7988893"
+      ]
+    },
+    "requested_at_utc": "2026-10-16T05:00:32.166654+00:00",
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "24e6fcb883c9a31b7807085a9086b9ed0c678f8bf344efc48f29b4e794b1e393"
+  },
+  {
+    "record": "presign_state_127436960",
+    "url": "https://bsc-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x9008d19f58aabd9ed0d60971565aa8510560ab41",
+          "data": "0xd08d33d100000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000038a6e7012a35800d9ae6c9262d49c2f055303b7f9014219a64e5a92e0f6edb5cf8e5686aae44d392aa6a0637fd38393859502f86676ace67010000000000000000"
+        },
+        "0x79888a0"
+      ]
+    },
+    "requested_at_utc": "2026-10-16T05:00:35.950076+00:00",
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "46d392c66dd63141dab239a1ad63d2412b366f95ad91a729d0cf6c9e9c094f04"
+  },
+  {
+    "record": "sourcify_metadata",
+    "url": "https://repo.sourcify.dev/contracts/full_match/56/0x9008d19f58aabd9ed0d60971565aa8510560ab41/metadata.json",
+    "request": null,
+    "requested_at_utc": "2026-10-16T04:54:43.280168+00:00",
+    "http_status": 404,
+    "error": "HTTP Error 404: Not Found",
+    "canonical_record_sha256": "51bb9cc544e26435b06fa3d44eb3fd26b1267089fe843936030142b9593f5e38"
+  },
+  {
+    "record": "sourcify_v2",
+    "url": "https://sourcify.dev/server/v2/contract/56/0x9008d19f58aabd9ed0d60971565aa8510560ab41?fields=all",
+    "request": null,
+    "requested_at_utc": "2026-10-16T04:54:43.281171+00:00",
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "19fa68f9378f35dda9512743db1464a0b7d244b06ca5b8d4ae787d0330f68563"
+  }
+]

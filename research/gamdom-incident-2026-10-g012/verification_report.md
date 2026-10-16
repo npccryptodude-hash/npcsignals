@@ -1,0 +1,11 @@
+# Verification report
+
+`python verify.py` runs offline against archived new evidence plus frozen G011 records. `verification_results.json` records the observed result. `SHA256SUMS.json` covers every published file except itself; raw acquisition records are in the deterministic gzip archive.
+
+Checks include: ABI-specific dynamic Trade UID extraction and settle tuple decoding; chain-56 domain recomputation; all signed order fields; UID digest/owner/expiry reconstruction; exact fullAppData keccak; actual flags and signature bytes; second order's secp256k1 EIP-712 recovery to B; first UID's matching PreSignature event, zero→magic historical state and successful traced setPreSignature call; prior-block EIP-7702 code designator; both historical settlement bytecode matches against Sourcify's chain-56 exact-match verified record; solver initiator/event consistency; canonical ordered token principal accounting; exact protocol index source/destination mappings; canonical Ethereum receipts; NEAR deposit/internal account/intent/withdrawal relationships; selected Ethereum block balance reconciliation; four new distinct NEAR hashes versus frozen textual transaction records; all 196 frozen research files byte-identical to the supplied checkpoint.
+
+Amounts and gas use integers. The source principal equals deposits plus source difference exactly. Each selected Ethereum block and each DAI withdrawal-minus-reported-fee reconciliation has zero arithmetic residual. Cross-asset profit/loss, unknown consideration and unauthorized-loss totals are not populated with fabricated zeros.
+
+The new Ethereum receipts independently extend the old G006 candidates but are not counted as new transaction identities. Source orders and presignature transaction were already G011 evidence. New transaction count is four NEAR executions only.
+
+Limits: no local Solidity compile, consensus/state-root proof, independent NEAR Borsh/NEP-413 signature recovery, immutable protocol-index proof or human-consent verification. SUPPORTED route classification is enforced by the offline verifier. Publication verification is performed after commit by fetching the remote commit and comparing every new file byte-for-byte, then running verification in a separate checkout; that post-commit result is reported to the user rather than self-referentially embedded in this commit.

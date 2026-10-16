@@ -1,0 +1,11 @@
+{
+  "source_principal_usdt_raw": "7244364582811240700000",
+  "source_deposit_usdt_raw": "7244359308783717964222",
+  "source_difference_usdt_raw": "5274027522735778",
+  "destination_dai_raw": "7241373874618505417435",
+  "verified_unauthorized_loss_raw": null,
+  "unknown_consideration_raw": null,
+  "cross_asset_loss_or_fee_residual": null,
+  "new_distinct_transactions": 4,
+  "existing_EVM_transactions_reused": 5
+}

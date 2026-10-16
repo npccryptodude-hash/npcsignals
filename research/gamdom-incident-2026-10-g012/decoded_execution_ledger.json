@@ -1,0 +1,264 @@
+[
+  {
+    "source_transaction": "0xe4eea89ea32d675baa724d2e3926ffd3d4fbbe8d4f73ce381799bf9550a92347",
+    "source_block": 127436960,
+    "source_transaction_initiator": "0x53227a6d5a129143b6ad760810ece62c79ab8e97",
+    "source_transaction_index": 8,
+    "order_uid": "0xa6e7012a35800d9ae6c9262d49c2f055303b7f9014219a64e5a92e0f6edb5cf8e5686aae44d392aa6a0637fd38393859502f86676ace6701",
+    "tokens": [
+      "0x55d398326f99059ff775485246999027b3197955",
+      "0x55d398326f99059ff775485246999027b3197955",
+      "0x55d398326f99059ff775485246999027b3197955"
+    ],
+    "clearing_prices": [
+      "3296947360645719000000",
+      "3296944723631957632111",
+      "3296947360645719000000"
+    ],
+    "source_transfers": [
+      {
+        "sender": "0xe5686aae44d392aa6a0637fd38393859502f8667",
+        "recipient": "0x9008d19f58aabd9ed0d60971565aa8510560ab41",
+        "raw_amount": "3296947360645719000000",
+        "token": "0x55d398326f99059ff775485246999027b3197955",
+        "log_index": 33
+      },
+      {
+        "sender": "0x9008d19f58aabd9ed0d60971565aa8510560ab41",
+        "recipient": "0x16ee1ef93df4657a52f8ea6eebe950b54bc91265",
+        "raw_amount": "3296944723631957632111",
+        "token": "0x55d398326f99059ff775485246999027b3197955",
+        "log_index": 35
+      }
+    ],
+    "source_principal_raw": "3296947360645719000000",
+    "deposit_raw": "3296944723631957632111",
+    "onchain_trade_fee_raw": "0",
+    "source_sell_buy_difference_raw": "2637013761367889",
+    "api_executed_fee_raw": "2637013761367889",
+    "source_transaction_gas_fee_wei": "7420545000000",
+    "deposit_address": "0x16ee1ef93df4657a52f8ea6eebe950b54bc91265",
+    "protocol_status": {
+      "correlationId": "a59f8c41-e953-4621-b2db-9f8ba6c41f25",
+      "quoteResponse": {
+        "quote": {
+          "amountIn": "3296282698200872624970",
+          "amountInFormatted": "3296.28269820087262497",
+          "amountInUsd": "3294.215928949101",
+          "amountOut": "3294654694645129461160",
+          "amountOutFormatted": "3294.65469464512946116",
+          "amountOutUsd": "3294.215928949101",
+          "deadline": "2026-10-16T17:14:42.000Z",
+          "depositAddress": "0x16Ee1EF93Df4657A52F8EA6eeBe950B54bc91265",
+          "minAmountIn": "3279801284709868261845",
+          "minAmountOut": "3278181421171903813854",
+          "refundFee": "9795009795009796",
+          "timeEstimate": 42,
+          "timeWhenInactive": "2026-10-16T17:14:42.000Z",
+          "withdrawFee": "300000000000000000"
+        },
+        "quoteRequest": {
+          "amount": "3296282698200872624970",
+          "appFees": [],
+          "confidentiality": "public",
+          "deadline": "2026-10-13T17:14:42.000Z",
+          "depositMode": "SIMPLE",
+          "depositType": "ORIGIN_CHAIN",
+          "destinationAsset": "nep141:eth-0x6b175474e89094c44da98b954eedeac495271d0f.omft.near",
+          "dry": false,
+          "originAsset": "nep245:v2_1.omni.hot.tg:56_2CMMyVTGZkeyNZTSvS5sarzfir6g",
+          "recipient": "0xe5686AaE44d392aa6A0637FD38393859502F8667",
+          "recipientType": "DESTINATION_CHAIN",
+          "referral": "cow",
+          "refundTo": "0xe5686AaE44d392aa6A0637FD38393859502F8667",
+          "refundType": "ORIGIN_CHAIN",
+          "slippageTolerance": 50,
+          "swapType": "FLEX_INPUT",
+          "virtualChainRecipient": null,
+          "virtualChainRefundRecipient": null
+        },
+        "signature": "ed25519:5keQjw8NH7N4uKZDUwJ66M6dXEkNjgFvkhHtzQqKZmCQk3zwJnQPNZQzfwdNe99tcCV4ajpWt6w16Crgj2DBZU4h",
+        "timestamp": "2026-10-13T16:44:43.100Z"
+      },
+      "status": "SUCCESS",
+      "swapDetails": {
+        "amountIn": "3296944723631957632111",
+        "amountInFormatted": "3296.944723631957632111",
+        "amountInUsd": "3294.854460677175",
+        "amountOut": "3293876314118353387030",
+        "amountOutFormatted": "3293.87631411835338703",
+        "amountOutUsd": "3293.876314118354",
+        "depositedAmount": "3296944723631957632111",
+        "depositedAmountFormatted": "3296.944723631957632111",
+        "depositedAmountUsd": "3294.854460677175",
+        "destinationChainTxHashes": [
+          {
+            "explorerUrl": "",
+            "hash": "0x6b282435dc06107a499c8b8ef0ed83632a51d32738d81c143dc7e2d53542fd40"
+          }
+        ],
+        "intentHashes": [
+          "75XrduXEdVBYFwCDXakMPLM7xn68p4xs8db6U3enR16t"
+        ],
+        "nearTxHashes": [
+          "7ANgmgCrZnot8uA2NRuLQxCmrtpR5n2E6aURrimmDbvF",
+          "3CucqT6YmivRFpNMtgsiuR43d2JXJcBuMLUYU9vHzjV6"
+        ],
+        "originChainTxHashes": [
+          {
+            "explorerUrl": "",
+            "hash": "0xe4eea89ea32d675baa724d2e3926ffd3d4fbbe8d4f73ce381799bf9550a92347"
+          }
+        ],
+        "refundFee": "9795009795009796",
+        "refundReason": null,
+        "refundedAmount": "0",
+        "refundedAmountFormatted": "0",
+        "refundedAmountUsd": "0",
+        "slippage": 0,
+        "withdrawFee": "300000000000000000"
+      },
+      "updatedAt": "2026-10-13T16:45:49.000Z"
+    },
+    "destination_transaction": "0x6b282435dc06107a499c8b8ef0ed83632a51d32738d81c143dc7e2d53542fd40",
+    "destination_block": 26184851,
+    "destination_initiator": "0x2cff890f0378a11913b6129b2e97417a2c302680",
+    "destination_token": "0x6b175474e89094c44da98b954eedeac495271d0f",
+    "destination_amount_raw": "3293876314118353387030",
+    "destination_receiver": "0xe5686aae44d392aa6a0637fd38393859502f8667",
+    "destination_gas_fee_wei": "24709124638560",
+    "route_evidence_level": "SUPPORTED",
+    "route_limitation": "Unique deposit-address mapping is primary protocol API evidence, corroborated by source/destination receipts and NEAR intents. No single consensus-verifiable identifier binds all three chains; Ethereum transfer has no order UID."
+  },
+  {
+    "source_transaction": "0xcda9343de4eb5ad1e96d210d3e215bdf55cb33fba1c5f3fe3a6456afbe6781d2",
+    "source_block": 127437353,
+    "source_transaction_initiator": "0x993118b07f47fae57379827ddb515ae3337893e4",
+    "source_transaction_index": 66,
+    "order_uid": "0xf122a39685746aa58924b1afbd9183500e83ec45d6553bc6a4245d6a107777bfe5686aae44d392aa6a0637fd38393859502f86676ace67ad",
+    "tokens": [
+      "0x55d398326f99059ff775485246999027b3197955",
+      "0x55d398326f99059ff775485246999027b3197955",
+      "0x55d398326f99059ff775485246999027b3197955"
+    ],
+    "clearing_prices": [
+      "3947417222165521700000",
+      "3947414585151760332111",
+      "3947417222165521700000"
+    ],
+    "source_transfers": [
+      {
+        "sender": "0xe5686aae44d392aa6a0637fd38393859502f8667",
+        "recipient": "0x9008d19f58aabd9ed0d60971565aa8510560ab41",
+        "raw_amount": "3947417222165521700000",
+        "token": "0x55d398326f99059ff775485246999027b3197955",
+        "log_index": 317
+      },
+      {
+        "sender": "0x9008d19f58aabd9ed0d60971565aa8510560ab41",
+        "recipient": "0x66e6a2a0a9d871011b60b2e39902f10a33da4a2c",
+        "raw_amount": "3947414585151760332111",
+        "token": "0x55d398326f99059ff775485246999027b3197955",
+        "log_index": 319
+      }
+    ],
+    "source_principal_raw": "3947417222165521700000",
+    "deposit_raw": "3947414585151760332111",
+    "onchain_trade_fee_raw": "0",
+    "source_sell_buy_difference_raw": "2637013761367889",
+    "api_executed_fee_raw": "2637013761367889",
+    "source_transaction_gas_fee_wei": "7497325000000",
+    "deposit_address": "0x66e6a2a0a9d871011b60b2e39902f10a33da4a2c",
+    "protocol_status": {
+      "correlationId": "0b1d9cfc-2fdf-407b-9b27-0c92f1b7c917",
+      "quoteResponse": {
+        "quote": {
+          "amountIn": "3946622465748371364430",
+          "amountInFormatted": "3946.62246574837136443",
+          "amountInUsd": "3944.140040217415",
+          "amountOut": "3943943841859160419789",
+          "amountOutFormatted": "3943.943841859160419789",
+          "amountOutUsd": "3943.943841859160",
+          "deadline": "2026-10-16T17:17:35.000Z",
+          "depositAddress": "0x66e6a2A0A9D871011b60b2e39902f10A33dA4a2C",
+          "minAmountIn": "3926889353419629507607",
+          "minAmountOut": "3924224122649864617690",
+          "refundFee": "9801009801009802",
+          "timeEstimate": 42,
+          "timeWhenInactive": "2026-10-16T17:17:35.000Z",
+          "withdrawFee": "300000000000000000"
+        },
+        "quoteRequest": {
+          "amount": "3946622465748371364430",
+          "appFees": [],
+          "confidentiality": "public",
+          "deadline": "2026-10-13T17:17:35.000Z",
+          "depositMode": "SIMPLE",
+          "depositType": "ORIGIN_CHAIN",
+          "destinationAsset": "nep141:eth-0x6b175474e89094c44da98b954eedeac495271d0f.omft.near",
+          "dry": false,
+          "originAsset": "nep245:v2_1.omni.hot.tg:56_2CMMyVTGZkeyNZTSvS5sarzfir6g",
+          "recipient": "0xe5686AaE44d392aa6A0637FD38393859502F8667",
+          "recipientType": "DESTINATION_CHAIN",
+          "referral": "cow",
+          "refundTo": "0xe5686AaE44d392aa6A0637FD38393859502F8667",
+          "refundType": "ORIGIN_CHAIN",
+          "slippageTolerance": 50,
+          "swapType": "FLEX_INPUT",
+          "virtualChainRecipient": null,
+          "virtualChainRefundRecipient": null
+        },
+        "signature": "ed25519:5ArqAqmBYSiGwsBwJDXA5b887kA7SRu3thUc6HQ1RA7Brpf34qdbLqUyqkJBWwddMBGgfp67VCztrXKC9SW8K8G1",
+        "timestamp": "2026-10-13T16:47:37.488Z"
+      },
+      "status": "SUCCESS",
+      "swapDetails": {
+        "amountIn": "3947414585151760332111",
+        "amountInFormatted": "3947.414585151760332111",
+        "amountInUsd": "3944.975082938137",
+        "amountOut": "3947497560500152030405",
+        "amountOutFormatted": "3947.497560500152030405",
+        "amountOutUsd": "3947.497560500152",
+        "depositedAmount": "3947414585151760332111",
+        "depositedAmountFormatted": "3947.414585151760332111",
+        "depositedAmountUsd": "3944.975082938137",
+        "destinationChainTxHashes": [
+          {
+            "explorerUrl": "",
+            "hash": "0x3afe0536e5a7bc6f33da46ecef12c11a0591c9b13df90cb58f73c6839c99efaf"
+          }
+        ],
+        "intentHashes": [
+          "8KMQAbV7JGDtQ1qxtXztYT1MTYjv64SpAnexcG4LvnHT"
+        ],
+        "nearTxHashes": [
+          "HFrVzrvRmLUF4FNd1UyiaMRD9JwCWSS5jnpgsCBNLQkA",
+          "7dbo8A2xAkge8A6q139CsjcKd7rTHrK5U8aSyMxRMNiT"
+        ],
+        "originChainTxHashes": [
+          {
+            "explorerUrl": "",
+            "hash": "0xcda9343de4eb5ad1e96d210d3e215bdf55cb33fba1c5f3fe3a6456afbe6781d2"
+          }
+        ],
+        "refundFee": "9801009801009802",
+        "refundReason": null,
+        "refundedAmount": "0",
+        "refundedAmountFormatted": "0",
+        "refundedAmountUsd": "0",
+        "slippage": 0,
+        "withdrawFee": "300000000000000000"
+      },
+      "updatedAt": "2026-10-13T16:48:37.000Z"
+    },
+    "destination_transaction": "0x3afe0536e5a7bc6f33da46ecef12c11a0591c9b13df90cb58f73c6839c99efaf",
+    "destination_block": 26184865,
+    "destination_initiator": "0x2cff890f0378a11913b6129b2e97417a2c302680",
+    "destination_token": "0x6b175474e89094c44da98b954eedeac495271d0f",
+    "destination_amount_raw": "3947497560500152030405",
+    "destination_receiver": "0xe5686aae44d392aa6a0637fd38393859502f8667",
+    "destination_gas_fee_wei": "23352324919006",
+    "route_evidence_level": "SUPPORTED",
+    "route_limitation": "Unique deposit-address mapping is primary protocol API evidence, corroborated by source/destination receipts and NEAR intents. No single consensus-verifiable identifier binds all three chains; Ethereum transfer has no order UID."
+  }
+]
