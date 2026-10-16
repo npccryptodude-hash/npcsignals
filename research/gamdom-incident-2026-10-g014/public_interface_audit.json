@@ -1,0 +1,29 @@
+[
+  {
+    "package": "@defuse-protocol/internal-utils",
+    "version": "0.1.2",
+    "archive_sha256": "64219a08726cc669fd10832cb583125b6fb589b968b16783a847a49fa2645e78",
+    "registry_integrity_matches": true,
+    "matching_withdrawal_status_files": [
+      "package/dist/index.js",
+      "package/dist/index.d.ts"
+    ],
+    "typed_schema_findings": [
+      {
+        "path": "package/dist/index.d.ts",
+        "schema": "type WithdrawalStatusRequest = JSONRPCRequest$1<\"withdrawal_status\", {\n    withdrawal_hash: string;\n}>;\ntype WithdrawalStatusResponseOk = JSONRPCResponse$1<{\n    withdrawals: {\n        status: \"COMPLETED\" | \"PENDING\";\n        data: {\n            tx_hash: string;\n            transfer_tx_hash: string | null;\n            chain: string;\n            defuse_asset_identifier: string;\n            near_token_id: string;\n            decimals: number;\n            amount: number;\n            account_id: string;\n            address: string;\n            created: string;\n        };\n    }[];\n}>;\n",
+        "sha256": "768d7527945cc5021eee076e0fb06700ea110226c92750fac98a02481bf8cb55"
+      }
+    ],
+    "limit": "Static published client interface, not proof of production service completeness or backend independence; package integrity is not payout-signature authentication."
+  },
+  {
+    "package": "@defuse-protocol/bridge-sdk",
+    "version": "0.10.0",
+    "archive_sha256": "e5caf80eb34a83c310ef2d4568ae2bca6d3e30abdadaba4fce9faee2b1add043",
+    "registry_integrity_matches": true,
+    "matching_withdrawal_status_files": [],
+    "typed_schema_findings": [],
+    "limit": "Static published client interface, not proof of production service completeness or backend independence; package integrity is not payout-signature authentication."
+  }
+]

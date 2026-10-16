@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "new_transactions": 0,
+  "existing_Ethereum_signatures_newly_verified": 2,
+  "historical_factory_snapshots_checked": 2,
+  "historical_factory_method_not_found_results": 2,
+  "historical_token_metadata_verified": 1,
+  "full_routes": [
+    "SUPPORTED",
+    "SUPPORTED"
+  ],
+  "new_acquisition_records": 26,
+  "frozen_files_unchanged": 244,
+  "authenticated_OMFT_payout_instructions_obtained": 0,
+  "limits": "No source-to-WASM build proof, historically authorized OMFT payout key, backend independence proof or signed withdrawal-to-Ethereum mapping. Valid Ethereum signatures authorize destination transfers only."
+}

@@ -1,0 +1,349 @@
+{
+  "historical_factory_account": "omft.near",
+  "factory_code_hash": "Ar8QnDvvksbFZCk5J5F4m46ZwoWxynF2aXN2xvJ1gAr2",
+  "factory_wasm_sha256": "924f053ed227280ef6ef7c8c3fcf3da91fb646a855901795f0ec7c7bb34bccd7",
+  "historical_blocks": [
+    219842443,
+    219842723
+  ],
+  "factory_exports": [
+    {
+      "name": "memory",
+      "kind": 2,
+      "index": 0
+    },
+    {
+      "name": "contract_source_metadata",
+      "kind": 0,
+      "index": 192
+    },
+    {
+      "name": "pa_storage_key",
+      "kind": 0,
+      "index": 195
+    },
+    {
+      "name": "pa_is_paused",
+      "kind": 0,
+      "index": 196
+    },
+    {
+      "name": "pa_all_paused",
+      "kind": 0,
+      "index": 197
+    },
+    {
+      "name": "pa_pause_feature",
+      "kind": 0,
+      "index": 199
+    },
+    {
+      "name": "pa_unpause_feature",
+      "kind": 0,
+      "index": 200
+    },
+    {
+      "name": "acl_storage_prefix",
+      "kind": 0,
+      "index": 214
+    },
+    {
+      "name": "acl_init_super_admin",
+      "kind": 0,
+      "index": 215
+    },
+    {
+      "name": "acl_add_super_admin",
+      "kind": 0,
+      "index": 216
+    },
+    {
+      "name": "acl_role_variants",
+      "kind": 0,
+      "index": 217
+    },
+    {
+      "name": "acl_is_super_admin",
+      "kind": 0,
+      "index": 218
+    },
+    {
+      "name": "acl_revoke_super_admin",
+      "kind": 0,
+      "index": 219
+    },
+    {
+      "name": "acl_transfer_super_admin",
+      "kind": 0,
+      "index": 220
+    },
+    {
+      "name": "acl_add_admin",
+      "kind": 0,
+      "index": 221
+    },
+    {
+      "name": "acl_is_admin",
+      "kind": 0,
+      "index": 222
+    },
+    {
+      "name": "acl_revoke_admin",
+      "kind": 0,
+      "index": 223
+    },
+    {
+      "name": "acl_renounce_admin",
+      "kind": 0,
+      "index": 224
+    },
+    {
+      "name": "acl_revoke_role",
+      "kind": 0,
+      "index": 225
+    },
+    {
+      "name": "acl_renounce_role",
+      "kind": 0,
+      "index": 226
+    },
+    {
+      "name": "acl_grant_role",
+      "kind": 0,
+      "index": 227
+    },
+    {
+      "name": "acl_has_role",
+      "kind": 0,
+      "index": 228
+    },
+    {
+      "name": "acl_has_any_role",
+      "kind": 0,
+      "index": 229
+    },
+    {
+      "name": "acl_get_super_admins",
+      "kind": 0,
+      "index": 230
+    },
+    {
+      "name": "acl_get_admins",
+      "kind": 0,
+      "index": 231
+    },
+    {
+      "name": "acl_get_grantees",
+      "kind": 0,
+      "index": 232
+    },
+    {
+      "name": "acl_get_permissioned_accounts",
+      "kind": 0,
+      "index": 233
+    },
+    {
+      "name": "new",
+      "kind": 0,
+      "index": 234
+    },
+    {
+      "name": "tokens",
+      "kind": 0,
+      "index": 235
+    },
+    {
+      "name": "deploy_token",
+      "kind": 0,
+      "index": 236
+    },
+    {
+      "name": "set_metadata",
+      "kind": 0,
+      "index": 237
+    },
+    {
+      "name": "ft_deposit",
+      "kind": 0,
+      "index": 238
+    },
+    {
+      "name": "add_full_access_key",
+      "kind": 0,
+      "index": 239
+    },
+    {
+      "name": "delete_key",
+      "kind": 0,
+      "index": 240
+    },
+    {
+      "name": "__data_end",
+      "kind": 3,
+      "index": 1
+    },
+    {
+      "name": "__heap_base",
+      "kind": 3,
+      "index": 2
+    }
+  ],
+  "token_exports": [
+    {
+      "name": "memory",
+      "kind": 2,
+      "index": 0
+    },
+    {
+      "name": "contract_source_metadata",
+      "kind": 0,
+      "index": 104
+    },
+    {
+      "name": "owner_storage_key",
+      "kind": 0,
+      "index": 106
+    },
+    {
+      "name": "owner_get",
+      "kind": 0,
+      "index": 107
+    },
+    {
+      "name": "owner_set",
+      "kind": 0,
+      "index": 108
+    },
+    {
+      "name": "owner_is",
+      "kind": 0,
+      "index": 109
+    },
+    {
+      "name": "new",
+      "kind": 0,
+      "index": 110
+    },
+    {
+      "name": "set_metadata",
+      "kind": 0,
+      "index": 111
+    },
+    {
+      "name": "ft_deposit",
+      "kind": 0,
+      "index": 112
+    },
+    {
+      "name": "ft_transfer",
+      "kind": 0,
+      "index": 113
+    },
+    {
+      "name": "ft_transfer_call",
+      "kind": 0,
+      "index": 114
+    },
+    {
+      "name": "ft_total_supply",
+      "kind": 0,
+      "index": 115
+    },
+    {
+      "name": "ft_balance_of",
+      "kind": 0,
+      "index": 116
+    },
+    {
+      "name": "ft_resolve_transfer",
+      "kind": 0,
+      "index": 117
+    },
+    {
+      "name": "storage_deposit",
+      "kind": 0,
+      "index": 118
+    },
+    {
+      "name": "storage_withdraw",
+      "kind": 0,
+      "index": 119
+    },
+    {
+      "name": "storage_unregister",
+      "kind": 0,
+      "index": 120
+    },
+    {
+      "name": "storage_balance_bounds",
+      "kind": 0,
+      "index": 121
+    },
+    {
+      "name": "storage_balance_of",
+      "kind": 0,
+      "index": 122
+    },
+    {
+      "name": "ft_metadata",
+      "kind": 0,
+      "index": 123
+    },
+    {
+      "name": "add_full_access_key",
+      "kind": 0,
+      "index": 124
+    },
+    {
+      "name": "delete_key",
+      "kind": 0,
+      "index": 125
+    },
+    {
+      "name": "__data_end",
+      "kind": 3,
+      "index": 1
+    },
+    {
+      "name": "__heap_base",
+      "kind": 3,
+      "index": 2
+    }
+  ],
+  "token_code_hash": "2VUeqHTx9sk2AjDrs88HazLqS6LUgVQorjWcacotNCDP",
+  "token_source_metadata": {
+    "version": "0.1.0",
+    "link": "https://github.com/near/intents",
+    "standards": [
+      {
+        "standard": "nep141",
+        "version": "1.0.0"
+      },
+      {
+        "standard": "nep145",
+        "version": "1.0.0"
+      },
+      {
+        "standard": "nep148",
+        "version": "1.0.0"
+      },
+      {
+        "standard": "nep330",
+        "version": "1.3.0"
+      }
+    ],
+    "build_info": null
+  },
+  "current_registry_methods_absent_historically": [
+    "get_withdrawal",
+    "record_withdrawal",
+    "update_withdrawal"
+  ],
+  "receipt_probe_results": [
+    "MethodNotFound",
+    "MethodNotFound"
+  ],
+  "historical_factory_embeds_identical_token_wasm": false,
+  "source_to_wasm_equivalence": "NOT ASSESSED; metadata lacks build commit",
+  "scope": "Exact historical method availability, not proof no off-chain registry exists."
+}

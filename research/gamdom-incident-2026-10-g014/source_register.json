@@ -1,0 +1,296 @@
+[
+  {
+    "record": "historical_bridge_sdk_release",
+    "url": "https://registry.npmjs.org/@defuse-protocol%2fbridge-sdk/0.10.0",
+    "requested_at_utc": "2026-10-16T05:36:01.894318+00:00",
+    "request": null,
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "b443e472978f28ee52aac7c0232fae97bdd5078f03e18600bea74ade23abfdba"
+  },
+  {
+    "record": "historical_bridge_sdk_release_archive",
+    "url": "https://registry.npmjs.org/@defuse-protocol/bridge-sdk/-/bridge-sdk-0.10.0.tgz",
+    "requested_at_utc": "2026-10-16T05:36:33.290528+00:00",
+    "request": null,
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "b3592e870a86f941f0aa6b758995fc044cb97970f05aa1a46ade30796d10b25a"
+  },
+  {
+    "record": "historical_factory_account_route2",
+    "url": "https://archival-rpc.mainnet.fastnear.com",
+    "requested_at_utc": "2026-10-16T05:34:16.613954+00:00",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "query",
+      "params": {
+        "request_type": "view_account",
+        "account_id": "omft.near",
+        "block_id": "6R5tzxxkUJFQEoWaLj2WY5UCbfZdESEaF4nnHftLWCVw"
+      }
+    },
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "0a7c4da477210bd109d7d5077f52a61a1a7323ab492d678c77408044abe9fc1c"
+  },
+  {
+    "record": "historical_factory_view_account",
+    "url": "https://archival-rpc.mainnet.fastnear.com",
+    "requested_at_utc": "2026-10-16T05:32:54.851141+00:00",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "query",
+      "params": {
+        "request_type": "view_account",
+        "account_id": "omft.near",
+        "block_id": "5sgYjGT8epbeenj2Yu7yNFz9xiaPcyZ2ePXrs92Ne8Vv"
+      }
+    },
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "59cb452c11bb0a15bc47ab8f4e95970f20983c3e0d0bf04a71f504c9114a26fe"
+  },
+  {
+    "record": "historical_factory_view_code",
+    "url": "https://archival-rpc.mainnet.fastnear.com",
+    "requested_at_utc": "2026-10-16T05:32:59.375668+00:00",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "query",
+      "params": {
+        "request_type": "view_code",
+        "account_id": "omft.near",
+        "block_id": "5sgYjGT8epbeenj2Yu7yNFz9xiaPcyZ2ePXrs92Ne8Vv"
+      }
+    },
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "ad02f1e444b635e4958626b96b591ee144f59122f9a5d9ceb575724716b6e2c2"
+  },
+  {
+    "record": "historical_get_withdrawal_route1",
+    "url": "https://archival-rpc.mainnet.fastnear.com",
+    "requested_at_utc": "2026-10-16T05:34:16.611989+00:00",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "query",
+      "params": {
+        "request_type": "call_function",
+        "account_id": "omft.near",
+        "block_id": "5sgYjGT8epbeenj2Yu7yNFz9xiaPcyZ2ePXrs92Ne8Vv",
+        "method_name": "get_withdrawal",
+        "args_base64": "eyJ3aXRoZHJhd2FsX2lkIjogIjc5eTFFTWRLaFAyQWdyeUNqZ2ptSm5NbzRyVHhzNTltTTc4a1drbWNTQ3NaIn0="
+      }
+    },
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "a526eda5368458adf1835a5a1cb5e823cd557471642b3141b00a29c6e7190c20"
+  },
+  {
+    "record": "historical_get_withdrawal_route2",
+    "url": "https://archival-rpc.mainnet.fastnear.com",
+    "requested_at_utc": "2026-10-16T05:34:16.613333+00:00",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "query",
+      "params": {
+        "request_type": "call_function",
+        "account_id": "omft.near",
+        "block_id": "6R5tzxxkUJFQEoWaLj2WY5UCbfZdESEaF4nnHftLWCVw",
+        "method_name": "get_withdrawal",
+        "args_base64": "eyJ3aXRoZHJhd2FsX2lkIjogIjk2a3RHM0V3VXFtejI0YWVlbjdwdGNRTEpmS3JGZG94OHJzVUYxa3FIRXdxIn0="
+      }
+    },
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "871b6ba36834dac526fa9fabbb7314f5445abf9159a7f757aaa00d65f21ec985"
+  },
+  {
+    "record": "historical_internal_utils_release",
+    "url": "https://registry.npmjs.org/@defuse-protocol%2finternal-utils/0.1.2",
+    "requested_at_utc": "2026-10-16T05:36:01.892344+00:00",
+    "request": null,
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "565b7b234f493ad8b9df563cedba99b710f6920d8ddbca68a8a18db2d9ba6eb3"
+  },
+  {
+    "record": "historical_internal_utils_release_archive",
+    "url": "https://registry.npmjs.org/@defuse-protocol/internal-utils/-/internal-utils-0.1.2.tgz",
+    "requested_at_utc": "2026-10-16T05:36:28.776939+00:00",
+    "request": null,
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "8fa0e1a51cd1c795194bc24687f633e43ee978d3b6b7c4e7997c53a8390ee09f"
+  },
+  {
+    "record": "historical_poa_client_commit",
+    "url": "https://api.github.com/repos/defuse-protocol/defuse-sdk/commits?path=src/services/poaBridgeClient&until=2026-10-13T16:45:00Z&per_page=1",
+    "requested_at_utc": "2026-10-16T05:31:50.639799+00:00",
+    "request": null,
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "98ae324a5afe7e60ff44019117ceba324b2526b2aaefe55220bb384da9363822"
+  },
+  {
+    "record": "historical_poa_token_commits",
+    "url": "https://api.github.com/repos/near/intents/commits?path=poa-token/src/contract.rs&until=2026-10-13T16:45:00Z&per_page=3",
+    "requested_at_utc": "2026-10-16T05:32:27.197196+00:00",
+    "request": null,
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "73ddd62aab17ccdcdba41262c276b04f0fd0cbc774b529946cbc0c5f8c49b5da"
+  },
+  {
+    "record": "historical_sdk_package.json",
+    "url": "https://api.github.com/repos/defuse-protocol/defuse-sdk/git/blobs/12444b990020b07bf36e64b09e257ccfc2eafb47",
+    "requested_at_utc": "2026-10-16T05:34:52.485982+00:00",
+    "request": null,
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "8a5ecc3dae5b77e2bec04602034a25c33247e2024beecf269e5b93cafc936a25"
+  },
+  {
+    "record": "historical_sdk_src_queries_poaBridgeQueries.ts",
+    "url": "https://api.github.com/repos/defuse-protocol/defuse-sdk/git/blobs/3716cba504a614262e78d6491eed298a7af3e3d5",
+    "requested_at_utc": "2026-10-16T05:34:52.486670+00:00",
+    "request": null,
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "738cb98e7c0f365272ccf5d91668ef255d9a6603e8f31fd24147dab994deb7fd"
+  },
+  {
+    "record": "historical_token_source",
+    "url": "https://raw.githubusercontent.com/near/intents/1d460ee3d1e30e7aac160d66c2b7d3aa0d5197da/poa-token/src/contract.rs",
+    "requested_at_utc": "2026-10-16T05:33:34.447388+00:00",
+    "request": null,
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "deab501fb5fc8d9222f14b387a2870a2e1f96c650f6bc4656ada0148ffd8961b"
+  },
+  {
+    "record": "omft_historical_source_metadata",
+    "url": "https://archival-rpc.mainnet.fastnear.com",
+    "requested_at_utc": "2026-10-16T05:32:01.931245+00:00",
+    "request": {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "query",
+      "params": {
+        "request_type": "call_function",
+        "block_id": "5sgYjGT8epbeenj2Yu7yNFz9xiaPcyZ2ePXrs92Ne8Vv",
+        "account_id": "eth-0x6b175474e89094c44da98b954eedeac495271d0f.omft.near",
+        "method_name": "contract_source_metadata",
+        "args_base64": "e30="
+      }
+    },
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "cd5fe475cf9692bdeb7b6678f3f3e73e990bb4678eebb1d59aa5b8b1d1c5781e"
+  },
+  {
+    "record": "repo_search_omft",
+    "url": "https://api.github.com/search/repositories?q=omft",
+    "requested_at_utc": "2026-10-16T05:31:50.638420+00:00",
+    "request": null,
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "16d28d8a5b0da67edc80b9f00c0426bc60b26abe2ccf458865405ac98bdc5779"
+  },
+  {
+    "record": "repository_search_chaindefuser",
+    "url": "https://api.github.com/search/repositories?q=chaindefuser",
+    "requested_at_utc": "2026-10-16T05:33:55.263020+00:00",
+    "request": null,
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "b619c5447eda38ae378c39a5a7d16cd111a57534f2231489fdc5958350e17b25"
+  },
+  {
+    "record": "repository_search_poa_bridge_near",
+    "url": "https://api.github.com/search/repositories?q=poa-bridge+near",
+    "requested_at_utc": "2026-10-16T05:33:55.264150+00:00",
+    "request": null,
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "db590de3c44a4075a03f04b7aa8b20a1c77165f324d1327d6b1d1e771fdd1dc0"
+  },
+  {
+    "record": "sdk_historical_head",
+    "url": "https://api.github.com/repos/defuse-protocol/defuse-sdk/commits?until=2026-10-13T16:45:00Z&per_page=1",
+    "requested_at_utc": "2026-10-16T05:33:34.447978+00:00",
+    "request": null,
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "1e203d6ac1c2e20e494d18e252c8c571b6b36d5fd0ce4928cf5ca4f801fd33a3"
+  },
+  {
+    "record": "sdk_historical_tree",
+    "url": "https://api.github.com/repos/defuse-protocol/defuse-sdk/git/trees/23ba2b086ac46d0063a0e7638e571fc9f13122b8?recursive=1",
+    "requested_at_utc": "2026-10-16T05:33:55.264631+00:00",
+    "request": null,
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "5c62da330ca3a75228d18d857f77c7a09f4c88c7cd8083e64f401ced6fa11e1d"
+  },
+  {
+    "record": "source_contracts_poa_factory_src_contract.rs",
+    "url": "https://api.github.com/repos/near/intents/git/blobs/b231ae6bee5b95fd7bc426ee7d0dd0f9f3d27c05",
+    "requested_at_utc": "2026-10-16T05:32:22.806476+00:00",
+    "request": null,
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "6a63c3054c81bde159afbf635a4caeac2f14fe1562b94afd50bc6adc7ae6c0da"
+  },
+  {
+    "record": "source_contracts_poa_factory_src_lib.rs",
+    "url": "https://api.github.com/repos/near/intents/git/blobs/3d7b75cfd9a3cef25f04fe6028562fa02ba1dca7",
+    "requested_at_utc": "2026-10-16T05:32:54.849785+00:00",
+    "request": null,
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "6bcf04251b58b2840329c8db0c250b47b374c28fb8d3629a89cd8f3d8ba75257"
+  },
+  {
+    "record": "source_contracts_poa_factory_src_types.rs",
+    "url": "https://api.github.com/repos/near/intents/git/blobs/77a875febf0e0a0c0ccedd35fae7177f174894c3",
+    "requested_at_utc": "2026-10-16T05:32:54.850607+00:00",
+    "request": null,
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "ee7ca51a2ae18ff5b351d5b67a06d1faaab12ecb6545ff1733cb975db2d838fb"
+  },
+  {
+    "record": "source_contracts_poa_token_src_contract.rs",
+    "url": "https://api.github.com/repos/near/intents/git/blobs/4b948a36059aa1377518d8ad5156b0006a2db719",
+    "requested_at_utc": "2026-10-16T05:32:22.807417+00:00",
+    "request": null,
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "8358c8e00ff67112f275d5f8fd6d72be92459239340ec86c1ca5b12a4d8bc676"
+  },
+  {
+    "record": "source_contracts_poa_token_src_lib.rs",
+    "url": "https://api.github.com/repos/near/intents/git/blobs/95047556b162f85cac2fd6c3ef893a67616a2877",
+    "requested_at_utc": "2026-10-16T05:32:22.808292+00:00",
+    "request": null,
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "20f83cb0c7842307e87452335831561b40e73d1cdbe6ced4167d256891787e08"
+  },
+  {
+    "record": "tree_near_intents",
+    "url": "https://api.github.com/repos/near/intents/git/trees/main?recursive=1",
+    "requested_at_utc": "2026-10-16T05:31:50.639298+00:00",
+    "request": null,
+    "http_status": 200,
+    "error": null,
+    "canonical_record_sha256": "f56fd2c00c4c713a61ff332d34d251b33100185ca16f42cc880106451c74562c"
+  }
+]

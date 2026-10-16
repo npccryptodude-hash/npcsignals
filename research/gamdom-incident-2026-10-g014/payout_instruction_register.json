@@ -1,0 +1,32 @@
+[
+  {
+    "route": 1,
+    "near_execution": "3CucqT6YmivRFpNMtgsiuR43d2JXJcBuMLUYU9vHzjV6",
+    "withdrawal_action_receipt_id": "79y1EMdKhP2AgryCjgjmJnMo4rTxs59mM78kWkmcSCsZ",
+    "ethereum_payout": "0x6b282435dc06107a499c8b8ef0ed83632a51d32738d81c143dc7e2d53542fd40",
+    "authenticated_payout_instruction": null,
+    "onchain_factory_registry_available_at_both_incident_snapshots": false,
+    "protocol_API_mapping": "SUPPORTED; reuse G013, no fresh status query needed",
+    "api_backend_independence": "UNRESOLVED",
+    "final_edge": "SUPPORTED",
+    "full_route": "SUPPORTED",
+    "alternative_withdrawal_or_pool_netting_excluded": false,
+    "single_transaction_multi_recipient_batch": false,
+    "negative_scope": "Each selected Ethereum transaction contains one canonical DAI transfer, not a multi-recipient batch. Economic pooling/netting or alternative source requests remain possible."
+  },
+  {
+    "route": 2,
+    "near_execution": "7dbo8A2xAkge8A6q139CsjcKd7rTHrK5U8aSyMxRMNiT",
+    "withdrawal_action_receipt_id": "96ktG3EwUqmz24aeen7ptcQLJfKrFdox8rsUF1kqHEwq",
+    "ethereum_payout": "0x3afe0536e5a7bc6f33da46ecef12c11a0591c9b13df90cb58f73c6839c99efaf",
+    "authenticated_payout_instruction": null,
+    "onchain_factory_registry_available_at_both_incident_snapshots": false,
+    "protocol_API_mapping": "SUPPORTED; reuse G013, no fresh status query needed",
+    "api_backend_independence": "UNRESOLVED",
+    "final_edge": "SUPPORTED",
+    "full_route": "SUPPORTED",
+    "alternative_withdrawal_or_pool_netting_excluded": false,
+    "single_transaction_multi_recipient_batch": false,
+    "negative_scope": "Each selected Ethereum transaction contains one canonical DAI transfer, not a multi-recipient batch. Economic pooling/netting or alternative source requests remain possible."
+  }
+]
