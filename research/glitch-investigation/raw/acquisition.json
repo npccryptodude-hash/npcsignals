@@ -1,0 +1,17 @@
+{
+  "rpc": "https://api.mainnet-beta.solana.com",
+  "commitment": "finalized",
+  "creation_slot": 456113658,
+  "creation_block_total_transactions": 1492,
+  "selected_creation_signatures": [
+    "5xrGXTXnf7ZDe731C7EB5cNVnERshsZhT3E66udWiXmCtzaBGSVbmFygDovhJmzSrvUpG6m1PBRWQcq6S8UT18FV",
+    "4cQf7zfNx11uTyjmPnWaX9sGJvwQmzT9hd6fbadD3XLhhUtBh9cL5dwTvkXjL5gScxHYscpjn8bGxubXLmrZ4zLe",
+    "4d9LDtNQ1yFQCPxF38xmD3Z4Gs8mDC1tSTwea9yw6uMchWPnzCd1vworf2M1fEQzfgVvywnVaotcSJ98QHpepZzV",
+    "grL1UNz52Sbt8TazosamF6aEJzpT8DHYsvDDHi1Znhoj89QsxVo8MnMVGH57dm5FNLjws94wW6T1iqsBbVB2R9A",
+    "Kn3gjGM6Phr4sWjxKJECMFNgzPKLVn3DdC9czAHqCFbG91ryj7Nc7fKu3o7LYF8g53cALd5fnVYz9ETvS41uBgC",
+    "3uwxvtnXZHekmEU5bX1ALiSzt2WfTcsLD6HQhmRq7URiDJsPxVn5QQw8vb6fX4Sv842RvLUVMdom8v8gwDPYxkb5",
+    "43oq7CdvBLUjw9B6FLQD9CFw9BHxgqUkBK8jwdJNtMFEN1LqFwmW2x18JRPDCrCK9nSyjMtVbHxP2d7EVpCFEwDx",
+    "5RRxfeeA6mJq7Kbg4PymS4fkigTsr9c73f71drHuYQVbgTJXYdUHffE6F2aMMy3kQuxZQiQRFjAZGDYKEpbCEad9"
+  ],
+  "note": "Full market history and unrelated block transactions withheld from research dataset; selected launch receipts predate supplied test activity."
+}

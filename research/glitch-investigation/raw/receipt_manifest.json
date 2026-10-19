@@ -1,0 +1,236 @@
+[
+  {
+    "file": "raw/transactions/1i6VBXDF6h1f9J1mGAqfFLVqLXctp4vVEdraqCk1hPrUKLEZjwV8CCR8zSvSvVAdGm9NewZ8eVGSL5ME8uR67cx.json",
+    "sha256": "8214bb9a3a6ef2c20d06c0f9c08062fc45a6dc0b0f495882bbd0981610e7a539",
+    "retrieved_at_utc": "2026-10-13T04:26:53.949532+00:00",
+    "retrieval_note": "Local save time during acquisition; chain blockTime is separate."
+  },
+  {
+    "file": "raw/transactions/22z8G45RB3LQAbA7n21fUFmX4LS7pkvxQ1nZd6dKejNSqw7tbMcy6QUpU6RzhX7bUzCNBTGdeQcZW3DapUuJxkVx.json",
+    "sha256": "b0389d095d8c659fa6cf85c2c3a4f4c01ea301b9c15c83b04837784d2266ba08",
+    "retrieved_at_utc": "2026-10-13T04:26:53.948285+00:00",
+    "retrieval_note": "Local save time during acquisition; chain blockTime is separate."
+  },
+  {
+    "file": "raw/transactions/29d75Pa2Pu33b7r3dQam1FyKQTAP1e1YzwpejkkhxCHYwneJSFwJW1AGgnrgcC5hu2TfU5U7D6b1ppJvC5nwuqrB.json",
+    "sha256": "a1f026c46480af580d60c1228874f5e9af65eb9a4ee0a0cce5008281c7ef3982",
+    "retrieved_at_utc": "2026-10-13T04:28:15.056264+00:00",
+    "retrieval_note": "Local save time during acquisition; chain blockTime is separate."
+  },
+  {
+    "file": "raw/transactions/2HvEpSCUHUNxgBiqXZrYxwvGJPWkzb3VzVU6F2ozYhmDTvMg2KuR1CsSbvFGyza31XgFRYTyUCDnz9scggQyaH7j.json",
+    "sha256": "d6f55d49bc7ce19ff4fb29a5c15fa357b61ef9ca338ddc8a2e0c7f09a44d8e1c",
+    "retrieved_at_utc": "2026-10-13T04:27:19.484579+00:00",
+    "retrieval_note": "Local save time during acquisition; chain blockTime is separate."
+  },
+  {
+    "file": "raw/transactions/2T2gsJqGk7MXiGmfBnnZJ318KWB3p5ynELvbPRSnG8zgC7TXrPaR74Dmojj3RLLAbX6bYvEjPCsZQswzQP8R5Jmo.json",
+    "sha256": "58d35943eb0327517a04177e22704ec33e8005f75619ef74f4a25b77948919a2",
+    "retrieved_at_utc": "2026-10-13T04:24:28.840397+00:00",
+    "retrieval_note": "Local save time during acquisition; chain blockTime is separate."
+  },
+  {
+    "file": "raw/transactions/2ankbMJfVTCmUsq2cQ1G8puSX5Sqw92CsPt871KnZZigQUsG6wSyqpamUsQsdRJbhd9mUnUApTCnjCvM2WpiJ9oZ.json",
+    "sha256": "30d28e5a0ab872915eface4d1d308c288de9d54054cecc0de18b6bb5203c297f",
+    "retrieved_at_utc": "2026-10-13T04:26:53.947008+00:00",
+    "retrieval_note": "Local save time during acquisition; chain blockTime is separate."
+  },
+  {
+    "file": "raw/transactions/2mgtSytbNQfhqbNRWVfRQDsbM2quVU9SNyg4EQC9otoSVZ8UVpvB42g2THtT7QrU46jdZgeyb2FxCw6ZUQCSrBnU.json",
+    "sha256": "5e68bbba1cd6025663d3dc69930ce447b232e01a83eff9c0b0881bc14682fd32",
+    "retrieved_at_utc": "2026-10-13T04:24:28.840157+00:00",
+    "retrieval_note": "Local save time during acquisition; chain blockTime is separate."
+  },
+  {
+    "file": "raw/transactions/2qUxYrTfYBDAv696HBTVSdSL8WYQbHmGStv5wjhGD9q9jiJiby1uPXVXxHewAVsdh4X13hnr2bWCCuSHd8ejSfwD.json",
+    "sha256": "f87bb1db28a39bee583dec4583aed8517dea6055301fe686c0a45c6d48040f91",
+    "retrieved_at_utc": "2026-10-13T04:24:28.840855+00:00",
+    "retrieval_note": "Local save time during acquisition; chain blockTime is separate."
+  },
+  {
+    "file": "raw/transactions/2rFzH9g154H24MidJw9JMdSKhydkDhbS9Y4pnkJJGgycy5xzidVSaatHkSQUeZkkybj8mET8V9mDKdv2Lykfrni7.json",
+    "sha256": "a1847da4bd3510fe79619e2fd6f27793aa667808e9fed076b04a730e41459dbb",
+    "retrieved_at_utc": "2026-10-13T04:26:53.948489+00:00",
+    "retrieval_note": "Local save time during acquisition; chain blockTime is separate."
+  },
+  {
+    "file": "raw/transactions/2viGRLPsczDA3W3cSSwBwSFqkH8zWuPnLpwfivVzozbvzSw8m9bdi4XNvpG9f4hJzXb29UPnUNdjJKpN4pLQTfYA.json",
+    "sha256": "e7a58fd2638ef39aadb0a80bb367cb3d7f02a68ebdac6e1bb3e421053b4f5c60",
+    "retrieved_at_utc": "2026-10-13T04:27:19.484440+00:00",
+    "retrieval_note": "Local save time during acquisition; chain blockTime is separate."
+  },
+  {
+    "file": "raw/transactions/3FkWWrwWP9bqbii27ZZKNiiVBUABfwFnNi1FZSH7KKm2Rwd3nKmf5EV4E8WWakv1cRPu6Ldwh3bd3stev3w4u7cv.json",
+    "sha256": "de65d3bc28ecefa261fadaed1c16d2fd34ad633bfb6ae0b676b9c6e90e6e2ec1",
+    "retrieved_at_utc": "2026-10-13T04:27:19.483512+00:00",
+    "retrieval_note": "Local save time during acquisition; chain blockTime is separate."
+  },
+  {
+    "file": "raw/transactions/3GMWdJQPsMBndUiBucev6dfvM6ARHFv8MrBwTVtDPJGYVq74WbgUycqQjnmnfgccxm2WnP7aKEQxET2En2n9xZet.json",
+    "sha256": "10f66e77027fa316cfcaea8a7b501e62c7b3d9ff9f88c15fb6ad74f6143b1c39",
+    "retrieved_at_utc": "2026-10-13T04:24:28.839475+00:00",
+    "retrieval_note": "Local save time during acquisition; chain blockTime is separate."
+  },
+  {
+    "file": "raw/transactions/3JDURL4SA4qHQ7c6i78E1EiweSSawgianXz4qj4yfkVXZCaGLnde8RyTfAKPWG8Uh5DuNsAZqEUuZuhN82EZGkN7.json",
+    "sha256": "382b7fc5c9e40281591a79af87b5dc66d17fce1b204aec92a2a49a0fcb0f31f5",
+    "retrieved_at_utc": "2026-10-13T04:26:53.949375+00:00",
+    "retrieval_note": "Local save time during acquisition; chain blockTime is separate."
+  },
+  {
+    "file": "raw/transactions/3TrRfeiGetg6QB4rwLSDNgvKGy8JaRTKYDRvUHtqATmzS5ADdHPbPmdwsJbVzKKDXRL3bBb8peKCvkRi83nAH7P5.json",
+    "sha256": "a2a722e940e146d34f99b5b99386c51c06ea9a385e1faf75c952cbf5ec90ca75",
+    "retrieved_at_utc": "2026-10-13T04:24:28.839957+00:00",
+    "retrieval_note": "Local save time during acquisition; chain blockTime is separate."
+  },
+  {
+    "file": "raw/transactions/3VxsVR8DzZZFNPkfZJWyWqo2LUcgbXczJNESKypEiVehccgBzwFYjfZ3Mo4pnEVGMJHvxbTyX7Zkmj9SPYLMZis9.json",
+    "sha256": "8d8c6847c743a4550c6a23e594652f327df0e82f4416de755d32bd305dcad670",
+    "retrieved_at_utc": "2026-10-13T04:28:15.056653+00:00",
+    "retrieval_note": "Local save time during acquisition; chain blockTime is separate."
+  },
+  {
+    "file": "raw/transactions/3gMZsE1bgPp5f8qJi5g3UGCjw3ewZ3BMRveX3P8k3rttnBGP3D9J7VCn3NUpA82V8jp2off1qWQNsZ3XPDY5Fi7V.json",
+    "sha256": "13332bb907b8cd919b65bce09eb3c72a8bb98f4b650806ed5381c935d898b7a6",
+    "retrieved_at_utc": "2026-10-13T04:26:53.947561+00:00",
+    "retrieval_note": "Local save time during acquisition; chain blockTime is separate."
+  },
+  {
+    "file": "raw/transactions/3ttmcRNck85nUEcnaTZ3nmMWpq9sAdCwjq8EF56Zz4wzsi3dz2AB1G18FibKKmqNzShVexFVanogoAUSJeJXojy1.json",
+    "sha256": "556a48272043ec5e262f6fbf16ed530c5851b3b5ce31bc8656ea7f0438b61f6d",
+    "retrieved_at_utc": "2026-10-13T04:27:19.482467+00:00",
+    "retrieval_note": "Local save time during acquisition; chain blockTime is separate."
+  },
+  {
+    "file": "raw/transactions/3uwxvtnXZHekmEU5bX1ALiSzt2WfTcsLD6HQhmRq7URiDJsPxVn5QQw8vb6fX4Sv842RvLUVMdom8v8gwDPYxkb5.json",
+    "sha256": "b55bab772373ce0dcbf016b66789a45e37b8d64d6669126d4a3ab20517e06e27",
+    "retrieved_at_utc": "2026-10-13T04:24:28.820016+00:00",
+    "retrieval_note": "Local save time during acquisition; chain blockTime is separate."
+  },
+  {
+    "file": "raw/transactions/3zNGqZbRmDendsh9uYbkbpjPgs5vRq8uJMoMU8Nw97UAham6PnULq53kqWjLRfiSceb1JvEoYZXAXAf8FJQTj9cr.json",
+    "sha256": "bcafaef11c3f5d6e9d18d5dba4d7754c8398c57762274a78c843dcc61678259c",
+    "retrieved_at_utc": "2026-10-13T04:24:28.839718+00:00",
+    "retrieval_note": "Local save time during acquisition; chain blockTime is separate."
+  },
+  {
+    "file": "raw/transactions/43oq7CdvBLUjw9B6FLQD9CFw9BHxgqUkBK8jwdJNtMFEN1LqFwmW2x18JRPDCrCK9nSyjMtVbHxP2d7EVpCFEwDx.json",
+    "sha256": "11c9983db129dd4c086a185530c5d224797e8d9fe7fb3630d1114fc6927d4c04",
+    "retrieved_at_utc": "2026-10-13T04:24:28.824488+00:00",
+    "retrieval_note": "Local save time during acquisition; chain blockTime is separate."
+  },
+  {
+    "file": "raw/transactions/4DqBGQqqJwEy3gjcsi9fos4qXer3y9WgjAonnKf1BTWr1mA2kfaEwAmLoQgfWqCo2bp8cWGhmt3zgQ3UgGDXVmfy.json",
+    "sha256": "f14dced8bc17d034f31350e8fdc4fc562842552e58eef7df68b7ed79f96acc04",
+    "retrieved_at_utc": "2026-10-13T04:27:19.482755+00:00",
+    "retrieval_note": "Local save time during acquisition; chain blockTime is separate."
+  },
+  {
+    "file": "raw/transactions/4EPZ4vZBj9mjPBroXpf68jNWMEcdc3aFyufqChydCrryxdr9mYNzatXhFU5zUYSVqhU4aGmJ1GAgqWCULUA3wtQo.json",
+    "sha256": "e10f8b103ff13a1b81150bdbf16fbccb6626ca7c6fdcc407923d2d3f5717d77b",
+    "retrieved_at_utc": "2026-10-13T04:26:53.947779+00:00",
+    "retrieval_note": "Local save time during acquisition; chain blockTime is separate."
+  },
+  {
+    "file": "raw/transactions/4cQf7zfNx11uTyjmPnWaX9sGJvwQmzT9hd6fbadD3XLhhUtBh9cL5dwTvkXjL5gScxHYscpjn8bGxubXLmrZ4zLe.json",
+    "sha256": "fa4f39deeca5b4ae72307adcb915929ce667b0d676f014a8d34d562d2e0afdd4",
+    "retrieved_at_utc": "2026-10-13T04:24:28.813321+00:00",
+    "retrieval_note": "Local save time during acquisition; chain blockTime is separate."
+  },
+  {
+    "file": "raw/transactions/4d9LDtNQ1yFQCPxF38xmD3Z4Gs8mDC1tSTwea9yw6uMchWPnzCd1vworf2M1fEQzfgVvywnVaotcSJ98QHpepZzV.json",
+    "sha256": "c64bbcae27a696bb6b236a1a092751a90e218b38b85267d58480b326eb394cc7",
+    "retrieved_at_utc": "2026-10-13T04:24:28.813799+00:00",
+    "retrieval_note": "Local save time during acquisition; chain blockTime is separate."
+  },
+  {
+    "file": "raw/transactions/4rRFnhdtsdX9BXKr4hoHxLdLBx3ZAnJJQquUaS5dtet2mKVp8oNq1Rmc1eJaWrW9EaJVCxy5RXt74zVtJqb74wbe.json",
+    "sha256": "f99db8367c6e764b0ac37266ce203736aed0b31167f365bcd3267a10ba56d71b",
+    "retrieved_at_utc": "2026-10-13T04:26:53.949208+00:00",
+    "retrieval_note": "Local save time during acquisition; chain blockTime is separate."
+  },
+  {
+    "file": "raw/transactions/51VJjEiHs5DRjCBHJJ4Z6LTDHW2fkBeKCJYw78GJg6zj4hgiFrk5EaNjqo8oHMmD2w2uF96FkWC9t3UPKGDiaUZ9.json",
+    "sha256": "d59da6fcf48a5bafbaed99d950981e50af186f76b350947938a07c72e1534e97",
+    "retrieved_at_utc": "2026-10-13T04:27:19.481615+00:00",
+    "retrieval_note": "Local save time during acquisition; chain blockTime is separate."
+  },
+  {
+    "file": "raw/transactions/5RRxfeeA6mJq7Kbg4PymS4fkigTsr9c73f71drHuYQVbgTJXYdUHffE6F2aMMy3kQuxZQiQRFjAZGDYKEpbCEad9.json",
+    "sha256": "80db905b1f2f45a8386a56a99525eef667ce3a779fc14a1852f0bdf3bb3d52e1",
+    "retrieved_at_utc": "2026-10-13T04:24:28.828668+00:00",
+    "retrieval_note": "Local save time during acquisition; chain blockTime is separate."
+  },
+  {
+    "file": "raw/transactions/5V1pdV367tEuFCRPXuLLmErTYgNTXYKf5yujF8oHXe4zffEExMtNBtzU3ukaqawrPcjPa4LRb7eDhgqb51d8zynW.json",
+    "sha256": "35b8f7091a77d87b584a6e5984360961e4b2b8492b56fb50cedfa206bf3b0d52",
+    "retrieved_at_utc": "2026-10-13T04:24:28.839220+00:00",
+    "retrieval_note": "Local save time during acquisition; chain blockTime is separate."
+  },
+  {
+    "file": "raw/transactions/5i3Je3TUMyjz4CpzuHmhYRFGJ6GS8KsErENzTsFNG3hX1H6Wk9AxtNZNvU24g3XuQhecPEMuCGngS4HMPQtexEMi.json",
+    "sha256": "9f79d6ea189faa787fb2bc52451a179bacf10b9470a8c25aba5b22bd4ab3ff84",
+    "retrieved_at_utc": "2026-10-13T04:24:28.840290+00:00",
+    "retrieval_note": "Local save time during acquisition; chain blockTime is separate."
+  },
+  {
+    "file": "raw/transactions/5nRVLSVpSVDsmJ22zLL1ywrThq7y4VpybrdJnetbSi2KwTaAao5o7fy9aRPdkjF8tuvLvW21Zn99pBuEqboTjMkE.json",
+    "sha256": "97c62df9157fc4af66f4755ae5dfd8aff1afe841b9213d6908093e171b671989",
+    "retrieved_at_utc": "2026-10-13T04:27:19.483831+00:00",
+    "retrieval_note": "Local save time during acquisition; chain blockTime is separate."
+  },
+  {
+    "file": "raw/transactions/5xrGXTXnf7ZDe731C7EB5cNVnERshsZhT3E66udWiXmCtzaBGSVbmFygDovhJmzSrvUpG6m1PBRWQcq6S8UT18FV.json",
+    "sha256": "5cdab0f423fa9bd962c7682a4c9d01e89c20608f5513674bce2c9890553412be",
+    "retrieved_at_utc": "2026-10-13T04:24:28.812320+00:00",
+    "retrieval_note": "Local save time during acquisition; chain blockTime is separate."
+  },
+  {
+    "file": "raw/transactions/5zNtTJpBDeeYXKY3met3qPdEhiLJk1nmPrtJb4ymLam63kU1fieULf5hfNsUXebHcA5rfVQyZtkQY26ny55oKLYa.json",
+    "sha256": "4ee0f489c8eb8beea86e3c2473738079283cc2a62d6a275c1dd89140d117dba5",
+    "retrieved_at_utc": "2026-10-13T04:24:28.840800+00:00",
+    "retrieval_note": "Local save time during acquisition; chain blockTime is separate."
+  },
+  {
+    "file": "raw/transactions/GFjppPSiQEjbVeSJpigWsFp8gnzt9H8XexFY32XrNikRbqp2gjeeRjskRRr5CedihhAspiEDzfovnMWWDse2aUM.json",
+    "sha256": "4419d7d679bf30d89278489a442b92c7482d493a0baf5cf3dd6561589ccdc497",
+    "retrieved_at_utc": "2026-10-13T04:27:19.483144+00:00",
+    "retrieval_note": "Local save time during acquisition; chain blockTime is separate."
+  },
+  {
+    "file": "raw/transactions/Kn3gjGM6Phr4sWjxKJECMFNgzPKLVn3DdC9czAHqCFbG91ryj7Nc7fKu3o7LYF8g53cALd5fnVYz9ETvS41uBgC.json",
+    "sha256": "be9e955224d9f1222dacaea9d400a02aafc061c8c42b313a722a76ae976ac0b3",
+    "retrieved_at_utc": "2026-10-13T04:24:28.814795+00:00",
+    "retrieval_note": "Local save time during acquisition; chain blockTime is separate."
+  },
+  {
+    "file": "raw/transactions/Te1fQRfc8JboWJrfRjCyyXKsHxY77R8bAQE7X8hpqtNvPiGzGFTWR119YYMBxHR9eBYWJALXznJNnx4jYmt91ZR.json",
+    "sha256": "22764960b072f5154d3c3bdee4f4c3faa7ff4608a05eb15c72f4b4c3408db7b2",
+    "retrieved_at_utc": "2026-10-13T04:27:19.482187+00:00",
+    "retrieval_note": "Local save time during acquisition; chain blockTime is separate."
+  },
+  {
+    "file": "raw/transactions/Z6wCyK2TbFj3nD8PytB2JRZR251yu7rKC5jan6WnT7C7hDgXxzFfn5L38UaKL6TeHPas4xCyJ6bYaUGCLu25CPD.json",
+    "sha256": "4a2062406687699987f7cbfc1caea606e97c775297966438ece7fec5f5b9fa58",
+    "retrieved_at_utc": "2026-10-13T04:24:28.840453+00:00",
+    "retrieval_note": "Local save time during acquisition; chain blockTime is separate."
+  },
+  {
+    "file": "raw/transactions/grL1UNz52Sbt8TazosamF6aEJzpT8DHYsvDDHi1Znhoj89QsxVo8MnMVGH57dm5FNLjws94wW6T1iqsBbVB2R9A.json",
+    "sha256": "210c3b8e32fe96bdffa50281f1f62a1ff6bfa9d2cc701f5c6b8c9f7c65bb32dc",
+    "retrieved_at_utc": "2026-10-13T04:24:28.814429+00:00",
+    "retrieval_note": "Local save time during acquisition; chain blockTime is separate."
+  },
+  {
+    "file": "raw/transactions/kQFXRKk96728wVFPUxDkPy2NQP2P3xoAtg2qQyMxE8hiGD6dtBoEsgrGppM7BykaQwiRM9kcCMkkFChXKyjmdNq.json",
+    "sha256": "baf27117ee6ebcbcac4f9dfedb31a3f45ae5de3d63129208ea4f6ca3c4adc85c",
+    "retrieved_at_utc": "2026-10-13T04:27:19.481939+00:00",
+    "retrieval_note": "Local save time during acquisition; chain blockTime is separate."
+  },
+  {
+    "file": "raw/transactions/qDHEfwZRcsZY9P5AY42ywXk7gerUeGbUYzpKKdGEqEgzKFYRfkVgYu6ZtZfHtGBGmBHb1mybY2bYYXtDPYRvECD.json",
+    "sha256": "99706c5f451c47a5f2735f7e98a3e172391981bbaeedf04255ad7d947132f94f",
+    "retrieved_at_utc": "2026-10-13T04:26:53.948795+00:00",
+    "retrieval_note": "Local save time during acquisition; chain blockTime is separate."
+  }
+]
