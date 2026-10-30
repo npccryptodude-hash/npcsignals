@@ -6,7 +6,7 @@
 
 This folder contains a static, locally renderable visual evidence prototype for the reported Binance security incident of 29 October 2026. It does not attribute the incident to any individual or organization. The three Ethereum transactions have now been checked against Blockscout API responses; the scope of that verification is precisely recorded in `evidence-checkpoint.json`. Broader asset flows, exchange labels, signing-system compromise and human attribution are not independently established.
 
-Open [`index.html`](./index.html) locally to view the timeline and transaction map. No wallet connection, RPC endpoint, API key, external JavaScript library or live blockchain request is used. The static display must **not** be described as a live monitor.
+Open [`flow.html`](./flow.html) to follow the selective, interactive canonical-USDT routes, or [`index.html`](./index.html) to view the longer timeline, tables and evidence links. Both work locally without a wallet connection, RPC endpoint, API key, external JavaScript library or live blockchain request. They must **not** be described as live monitors. Branches in `flow.html` are selected research routes, not an exhaustive graph of every destination.
 
 ## Evidence policy
 
