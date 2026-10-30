@@ -54,12 +54,14 @@ def main():
                           page.evaluate("document.documentElement.scrollWidth <= innerWidth + 2"),
                           f"scrollWidth={page.evaluate('document.documentElement.scrollWidth')}, viewport={width}")
                     check(f"{mode} {filename} no JS exceptions", not errors, "; ".join(errors))
+                    from urllib.parse import unquote, urlparse
+                    local_hrefs = page.locator("a[href]").evaluate_all("""links =>
+                        links.map(a => a.getAttribute('href'))
+                        .filter(h => h && !/^(https?:|mailto:|#)/.test(h))""")
+                    missing = [href for href in local_hrefs
+                               if not (ROOT / unquote(urlparse(href).path)).is_file()]
                     check(f"{mode} {filename} no missing local links",
-                          page.evaluate("""() => [...document.querySelectorAll('a[href]')]
-                          .filter(a => !/^(https?:|mailto:|#)/.test(a.getAttribute('href')))
-                          .every(a => {
-                            const url = new URL(a.getAttribute('href'), location.href);
-                            return url.protocol === 'file:'; })"""))
+                          not missing, ", ".join(missing))
                     page.screenshot(path=str(OUT / f"{mode}-{filename}.png"), full_page=True)
                     if filename == "flow.html":
                         for route in ("175", "80", "200"):
