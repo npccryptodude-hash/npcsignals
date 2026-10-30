@@ -10,7 +10,7 @@ one canonical ethereum usdt path offered a clear test. two transfers of 500 mill
 
 following two of the largest branches led to different outcomes. four selected downstream transfers totaling 365 million usdt were also matched to transaction receipts across both rpc providers. one path of 175 million usdt was largely retained at a later address. direct calls to tether's `isBlackListed(address)` function through two ethereum rpc providers returned `false` at the observed block heights. that does not establish historical blacklist status or explain the retained balance.
 
-another 80-million-usdt sub-branch was split between 50 million sent to explorer-identified liquidity contracts and 30 million sent to an address without reported contract code. the latter 30 million moved once more and was still shown as canonical usdt at the next recipient when checked. a separate transfer carrying the symbol "usdt" used a noncanonical token contract and was excluded.
+another 80-million-usdt sub-branch was split between 50 million sent to explorer-identified liquidity contracts and 30 million sent to an address without reported contract code. all 20 transfer logs in the 80m split, and the later 30m transfer, also matched receipts across both rpc providers. the next address was shown holding 30 million canonical usdt in an explorer balance snapshot. a separate transfer carrying the symbol "usdt" used a noncanonical token contract and was excluded.
 
 the complete token logs for two pool-related transactions contain 132 events. they do not by themselves establish the output received by the original sender, a cash-out or the ultimate controller. those conclusions remain open.
 
