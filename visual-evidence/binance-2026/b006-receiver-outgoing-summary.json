@@ -1,0 +1,54 @@
+{
+  "case": "binance-2026-10-29",
+  "checkpoint": "B006-receiver-outgoing-v1",
+  "checked_on": "2026-10-30",
+  "receiver": "0x5227f603C1eE34CE3C06eFe6477003BDfCCB2f8c",
+  "scope": "Ethereum ERC-20 transfer events emitted as outgoing transfers from receiver; native ETH movement excluded",
+  "source": "https://eth.blockscout.com/api/v2/addresses/0x5227f603C1eE34CE3C06eFe6477003BDfCCB2f8c/token-transfers?filter=from",
+  "snapshot_sha256": "a44f4ec2506f5c9eda9e6a7559c525f726071ef12502503b874c3cbcca98ea51",
+  "pages": 14,
+  "all_pages_exhausted": true,
+  "total_token_transfer_events": 663,
+  "events_matching_one_of_63_b004_token_contracts": 616,
+  "nonmatching_contract_events": 47,
+  "canonical_usdt_contract": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+  "canonical_usdt_positive_outflows": [
+    {
+      "transaction_hash": "0x68d7d69deaeb9750c38020b4f8d3728146ca8d2267eba1e38cf9b56722ad659a",
+      "transaction_response_sha256": "5eeff80ed2680e37fb19a2c45371fa5a60d1433b631fb961a6f6281acd28bfb2",
+      "timestamp_utc": "2026-10-29T20:30:11Z",
+      "block_number": 26300799,
+      "status": "ok",
+      "from": "0x5227f603C1eE34CE3C06eFe6477003BDfCCB2f8c",
+      "to": "0x9749292D74Fd460982d0912eA9515EA24736C762",
+      "raw_amount": "500000000000000",
+      "decimals": 6,
+      "amount_usdt": "500000000"
+    },
+    {
+      "transaction_hash": "0x1fc0ef33a767132edad434834a5555b30fcb5a171206c03b86175ef6dafac81c",
+      "transaction_response_sha256": "1d963b8360929b9edfbc237404ea8c5555aa5fa6371a42509feb8ad94ffb5f97",
+      "timestamp_utc": "2026-10-29T20:33:23Z",
+      "block_number": 26300815,
+      "status": "ok",
+      "from": "0x5227f603C1eE34CE3C06eFe6477003BDfCCB2f8c",
+      "to": "0x0Ddf0480016e6bCb2C1F5d190D221FBA1320697e",
+      "raw_amount": "200000000000000",
+      "decimals": 6,
+      "amount_usdt": "200000000"
+    }
+  ],
+  "canonical_usdt_positive_outflow_total": "700000000",
+  "classification": "verified-explorer-data",
+  "exclusions": [
+    "Noncanonical tokens with same USDT display name or symbol",
+    "Zero-amount token events",
+    "Unreviewed native ETH calls and other-chain movements"
+  ],
+  "limitations": [
+    "The full outgoing ERC-20 event set was exhausted at the time of collection, but the address can receive new activity.",
+    "Value transfer paths are verified at explorer-data level only; independent Ethereum RPC verification remains pending.",
+    "These are first-hop USDT movements, not proof of cash-out, recovery, ownership or ultimate control.",
+    "616 matching events across 52 token contracts do not by themselves establish economically meaningful movement; further zero-value and conservation audits are required."
+  ]
+}
