@@ -1,0 +1,61 @@
+{
+  "case": "binance-2026-10-29",
+  "checkpoint": "B012-30m-continuation-and-pool-receipts-v1",
+  "checked_on": "2026-10-30",
+  "classification": "single-provider-explorer-data-verified",
+  "canonical_usdt_contract": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+  "30m_branch": {
+    "first_address": "0xCcBEF95633ADB5Cd2b5038DB5a38d77E726cA263",
+    "second_address": "0xb171cA86f82070282138352Ff7111b494060c8c3",
+    "canonical_usdt_transfer_hash": "0x1e6f851d072ae0ad448dca2446552cbb4e76516029b34980d5189e4353aae7a7",
+    "canonical_usdt_forwarded": "30000000",
+    "second_address_outgoing_canonical_usdt_events": 0,
+    "second_address_reported_canonical_usdt_balance": "30000000",
+    "noncanonical_usdt_named_token_contract": "0x11D0647b8Fee5662eAb6f0257404Ee57C7261cAc",
+    "noncanonical_transfer_hash": "0x2b183079c02910fcfb684a309da9f8088c1fc4a86f65e325e8f816f60a0a1fd8",
+    "noncanonical_transfer_raw": "30000000000000",
+    "first_transfer_response_sha256": "0831c27eaa69132d7e08af1e8d71b758b69925c8b9114478fdf2c868aadea084",
+    "second_transfer_response_sha256": "037dbfed3711da77b77c5dec599b69193a072b35aa249985ef814d1ebecb5bfa",
+    "second_balance_response_sha256": "e75c245897574c3c01b86b398a20d794adcd2d5a55d75fa8cd29bdaa8b6c3cef"
+  },
+  "two_80m_branch_pool_transactions": [
+    {
+      "transaction_hash": "0x808f54a951b7fd051600937b45c6c3fb42d59850c6bf459cea8615dfadbcad39",
+      "transaction_status": "ok",
+      "transaction_from": "0x7Aa4D3029e4C6A8E916300014Ad95B6d6C03BFd1",
+      "transaction_outer_to": "0x7Aa4D3029e4C6A8E916300014Ad95B6d6C03BFd1",
+      "method": "execute",
+      "complete_token_event_count": 64,
+      "direct_token_inbound_to_80m_sender": 0,
+      "source_page_sha256": [
+        "ced200a3cf42f1efea4871d5c2ae14a640281e620271b7dcd135486ff80fc51c",
+        "09c104e311f0c3a14fe0e8f0d2a7ab268df6387a3a7dbfd48556727da04d1e04"
+      ],
+      "transaction_response_sha256": "eb5773d848a38af6c6d4861190de9152172f5d2d366b850d6ba563026e8d882b",
+      "full_output_path_unresolved": true
+    },
+    {
+      "transaction_hash": "0x2a1979ae32a40c0aaa0df757f6af690857c6c8cb86097cac29316597de9469f6",
+      "transaction_status": "ok",
+      "transaction_from": "0x7Aa4D3029e4C6A8E916300014Ad95B6d6C03BFd1",
+      "transaction_outer_to": "0x23617e59A5925b2A4Bf75d73ff6711cD0b29De85",
+      "method": "execute",
+      "complete_token_event_count": 68,
+      "direct_token_inbound_to_80m_sender": 0,
+      "source_page_sha256": [
+        "e040789aee961e370fcbaac632a2a5cc2c5982f51f9fb384567340acfbc5dd00",
+        "53ee0fde560da1d62ca6b03197c79600864b42efdcd22938c324ea30eac9e0a9"
+      ],
+      "transaction_response_sha256": "9b8299e59b38c0ed57606adf3136be3a6714c0e680b1601f72ec370aaed363a3",
+      "full_output_path_unresolved": true
+    }
+  ],
+  "limitations": [
+    "The 30m forwarded is part of the earlier 80m, 130m and 700m tracing, not additional stolen assets.",
+    "No outflow of canonical USDT from second address was in the explorer response; future activity and other chains not excluded.",
+    "A token with symbol USDT on a noncanonical contract is not canonical Tether USDT and must not be counted.",
+    "Pool transaction token logs are fully paginated, but no incoming token log directly to the original 80m sender establishes a swap payout to that sender.",
+    "Decoded execute method and other token logs are not proof of final beneficiary or profits; transaction-level asset conservation and routing remain unresolved.",
+    "Ethereum RPC and independent explorer cross-checks of these receipts remain pending."
+  ]
+}
