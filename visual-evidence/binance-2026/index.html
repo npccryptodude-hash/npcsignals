@@ -13,7 +13,7 @@
   <header><div class="eyebrow">npcsignals / visual evidence archive / prototype v0.1</div><h1>binance / the authorization window</h1><p>29 october 2026 · ethereum incident timeline · static reconstruction</p><div class="notice"><strong>limited direct verification.</strong> three ethereum transaction records were independently checked against blockscout's public api. broader wallet labels, attack mechanics, asset totals and attribution remain unverified or source-reported. this is not a live feed.</div></header>
   <section aria-label="Reported incident metrics" class="grid" style="margin-top:20px">
     <div class="card"><span>binance-reported total impact</span><strong>~$6.3b</strong><span>all affected chains / preliminary</span></div>
-    <div class="card"><span>reported main ethereum sweep</span><strong>167,464 eth</strong><span>plus tokens; not a total-loss figure</span></div>
+    <div class="card"><span>b004 / observed native transfer</span><strong>167,464 eth</strong><span>plus 63 token events; same recipient</span></div>
     <div class="card"><span>reported delegation window</span><strong>~3h 50m</strong><span>20:20 to 00:10 utc</span></div>
   </section>
   <section class="panel"><div class="eyebrow">01 / replay an event</div><h2>reported sequence / utc</h2><div id="eventbuttons" class="eventbuttons" role="group" aria-label="Choose timeline event"></div><div class="eyebrow" id="event-time"></div><h3 id="event-title"></h3><p id="event-details"></p><p id="event-link"></p></section>
@@ -29,7 +29,7 @@
     <tr><td>b002 / delegation (20:20:59)</td><td><a href="https://etherscan.io/tx/0xad99264d5532ae0dd04b2004eebda05f25657e70dacb764f7ac8d4ccd051298b" target="_blank" rel="noopener noreferrer">0xad99264d…51298b</a></td><td><span class="tag">verified data</span></td></tr>
     <tr><td>b004 / main sweep (20:24:23)</td><td><a href="https://etherscan.io/tx/0x53bd38b816c23e74134786c29a8c18d792777998a3b9326047b583100e88e2f3" target="_blank" rel="noopener noreferrer">0x53bd38b8…88e2f3</a></td><td><span class="tag">verified data</span></td></tr>
     <tr><td>b005 / zero-address authorization (00:10:35, 30 oct)</td><td><a href="https://etherscan.io/tx/0xafbf94c92a8d749988411669fa14d4f8866d9b4420b4ebd299f28e958dac7209" target="_blank" rel="noopener noreferrer">0xafbf94c9…dac7209</a></td><td><span class="tag">verified data</span></td></tr>
-  </tbody></table></section>
+  </tbody></table><p><a href="b004-token-ledger.json">download the b004 token-event ledger / 63 contracts</a></p></section>
   <section class="panel"><div class="eyebrow">04 / interpretation</div><h2>what this view does not prove</h2><p>it does not prove how signatures were obtained, who controlled the operator address, whether any individual actor was responsible, or whether frozen assets have been recovered. exchange address labels are attribution claims and require separate corroboration.</p><h2>named sources</h2><ul><li><a href="https://www.binance.com/en-AU/support/announcement/detail/c5a8729a97ac486d963784d96c5642d7">binance / security incident update</a></li><li><a href="https://www.trmlabs.com/resources/blog/north-korea-steals-usd-6-36-billion-from-binance-in-the-largest-hack-in-history">trm labs / incident analysis</a></li><li><a href="https://bitquery.io/investigations/binance-hack">bitquery / cross-chain analysis and transaction index</a></li></ul></section>
   <footer>npcsignals · observe first. verify before concluding. / <a href="evidence-checkpoint.json">verification register</a> / no live monitoring / no wallet connection</footer>
 </main>
@@ -37,7 +37,7 @@
   'use strict';
   const events = [
     {time:'29 oct / 20:20:59',title:'delegation submitted',detail:'a reported type-4 transaction contained 50 eip-7702 authorization candidates for binance 14. the signing mechanism remains unresolved.',tx:'0xad99264d5532ae0dd04b2004eebda05f25657e70dacb764f7ac8d4ccd051298b'},
-    {time:'29 oct / 20:24:23',title:'main sweep',detail:'a reported transfer moved approximately 167,464 eth, 1.615 billion usdt and other tokens to a receiving address.',tx:'0x53bd38b816c23e74134786c29a8c18d792777998a3b9326047b583100e88e2f3'},
+    {time:'29 oct / 20:24:23',title:'main sweep',detail:'blockscout data show an internal transfer of 167,464.247856558836135296 eth plus 63 token transfers, all from binance 14 to the same receiving address. token metadata awaits a second independent source.',tx:'0x53bd38b816c23e74134786c29a8c18d792777998a3b9326047b583100e88e2f3'},
     {time:'29 oct / 21:01',title:'issuer freeze',detail:'trm labs and bitquery report a tether freeze affecting tokens in a receiving wallet. frozen is not synonymous with recovered.',tx:null},
     {time:'30 oct / 00:10:35',title:'delegation reportedly revoked',detail:'bitquery identifies a later transaction as the removal of the unwanted delegation. verify the authorization-state transition before upgrading this classification.',tx:'0xafbf94c92a8d749988411669fa14d4f8866d9b4420b4ebd299f28e958dac7209'}
   ];
