@@ -36,6 +36,7 @@ Only the Ethereum transaction facts explicitly checked in the checkpoint qualify
 - Do not infer common ownership solely from coordinated timing, exchange labels or address proximity.
 - **Do not classify a token by symbol alone.** A first-page inspection of the receiving wallet's outgoing events found a `USDT`-labelled token under contract `0x11D0647b8Fee5662eAb6f0257404Ee57C7261cAc`, which differs from the canonical Ethereum USDT contract. See `receiver-label-collision.json`. This is an observed contract mismatch, not an attribution or proof of malicious intent.
 - The first completed B006 outgoing-ERC-20 snapshot spans 14 pages / 663 events and records two positive canonical-USDT outflows of 500m and 200m USDT. See `b006-receiver-outgoing-summary.json`. Other-chain transfers and native ETH remain separate investigations; this does not constitute a complete stolen-asset reconciliation.
+- The B006 visual branches show only the two direct recipients of those canonical-USDT transfer events. They do not show subsequent destinations, beneficiary identities or a recovered-asset balance.
 
 ## Relationship to earlier research
 
