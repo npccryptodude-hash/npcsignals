@@ -1,23 +1,27 @@
 # following the transfer, not the headline
 
-*npcsignals | research note | draft / not published | 30 october 2026*
+*npcsignals | research note | editorial draft / not published | 30 october 2026*
 
-the reported binance incident of 29 october generated a headline figure of roughly $6.3 billion. that figure describes a reported multi-chain event. our narrower question was different: what can we independently document about one ethereum transfer path?
+the reported binance incident of 29 october produced an estimated multichain loss of roughly $6.3 billion in external reporting. that estimate is not a number independently established by this investigation.
 
-we began with the observed movement from a binance-labelled wallet to a single receiving address. blockscout's records show 167,464.247856558836135296 eth in an internal transfer and 63 token-transfer events in the same transaction. the token records require individual contract checks: a name or ticker is not proof of an asset's identity.
+our scope is narrower: what can be documented from one ethereum trail?
 
-one canonical ethereum usdt path offered a clear test. two transfers of 500 million and 200 million usdt reached separate addresses; their receipts and exact token logs now agree across two public ethereum rpc providers. downstream explorer events reconciled to the full 700 million, distributed across 19 positive transfers and 15 direct recipients. this is the same 700 million moving through subsequent hops, not additional losses.
+blockscout recorded a 167,464.247856558836135296 eth internal transfer and 63 token-transfer events from a binance-labelled address during the main sweep. an explorer label is not proof of beneficial ownership. the incident's authorization mechanism and ultimate attribution are not independently resolved here.
 
-following two of the largest branches led to different outcomes. four selected downstream transfers totaling 365 million usdt were also matched to transaction receipts across both rpc providers. one path of 175 million usdt was largely retained at a later address. direct calls to tether's `isBlackListed(address)` function through two ethereum rpc providers returned `false` at the observed block heights. that does not establish historical blacklist status or explain the retained balance.
+we followed the canonical ethereum usdt contract, rather than relying on token names. the first visible transfers of 500 million and 200 million usdt were matched to transaction receipts and transfer logs returned by two public ethereum rpc endpoints. the two receiving addresses then distributed the same 700 million through 19 positive downstream events to 15 recipient addresses, according to the retained explorer ledger. later transfers represent movement of those funds, **not additional losses**.
 
-another 80-million-usdt sub-branch was split between 50 million sent to explorer-identified liquidity contracts and 30 million sent to an address without reported contract code. all 20 transfer logs in the 80m split, and the later 30m transfer, also matched receipts across both rpc providers. the next address was shown holding 30 million canonical usdt in an explorer balance snapshot. a separate transfer carrying the symbol "usdt" used a noncanonical token contract and was excluded.
+four selected third-hop transfers totaling 365 million usdt were also matched through two rpc endpoints. on one branch, 175 million reached a later address. a blockscout balance snapshot showed 174,999,872.327620 usdt, after a small observed outbound transfer. two rpc calls to tether's `isBlackListed(address)` function returned `false` at the blocks queried. neither result establishes the address's historical freeze status or why funds remained.
 
-the complete token logs for two pool-related transactions contain 132 events. they do not by themselves establish the output received by the original sender, a cash-out or the ultimate controller. those conclusions remain open.
+on another branch, 80 million was redistributed through 20 canonical-usdt events: 50 million into contracts identified by blockscout as liquidity infrastructure and 30 million to an address with no contract code reported by that explorer. the 30 million then moved to another address, where a snapshot showed a 30-million canonical-usdt balance. these 20 transfers and the next 30-million transfer were matched to retained rpc receipts from two endpoints.
 
-the investigation is documented as a static visual evidence archive, with transaction hashes, token contract addresses, source checks and unresolved claims. it is a research checkpoint, not a live monitoring product.
+pool labels and transfers into contracts are not evidence that a swap settled, a cash-out occurred or a particular party controlled the destination. likewise, a different token using the symbol "usdt" was excluded because its contract address was not the canonical usdt contract.
 
-**method:** observe first. verify before concluding.
+**evidence tiers:** selected b013–b015 token logs are rpc-receipt matched. remaining balances, address labels and downstream classifications are explorer observations. estimates of overall damage, attribution, ownership, authorization mechanism and final disposition remain externally reported or unresolved.
 
-*draft link to visual archive: https://github.com/npccryptodude-hash/npcsignals/tree/draft/visual-evidence-binance-2026/visual-evidence/binance-2026*
+the accompanying visual archive preserves transaction hashes, source files and limitations so readers can check the trail without mistaking movement for attribution. it is a static research checkpoint, not a live monitor.
 
-*editorial hold: remaining downstream events are explorer observations; replace draft branch link with approved public archive URL before publication.*
+*observe first. verify before concluding.*
+
+sources and verification register: [approved public evidence archive url — pending]. external incident context: [binance](https://www.binance.com/en-AU/support/announcement/detail/c5a8729a97ac486d963784d96c5642d7), [trm labs](https://www.trmlabs.com/resources/blog/north-korea-steals-usd-6-36-billion-from-binance-in-the-largest-hack-in-history), [bitquery](https://bitquery.io/investigations/binance-hack).
+
+*publication hold: verify external links and public archive url; do not publish draft branch as final evidence archive.*
