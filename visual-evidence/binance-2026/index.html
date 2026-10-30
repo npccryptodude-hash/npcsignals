@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>binance / evidence replay — npcsignals</title>
+  <style>
+    :root{color-scheme:dark;--bg:#070b12;--panel:#101927;--line:#28394d;--muted:#8fa1b4;--text:#e4edf5;--blue:#74b7ff;--amber:#f0b76b;--green:#83cfad}*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 70% -10%,#18304b 0,transparent 44%),var(--bg);color:var(--text);font:15px/1.6 ui-monospace,SFMono-Regular,Consolas,monospace}main{max-width:1040px;margin:auto;padding:28px 18px 80px}header{border-bottom:1px solid var(--line);padding-bottom:26px}h1{font-size:clamp(24px,5vw,44px);letter-spacing:-.04em;line-height:1.15;margin:16px 0}h2{font-size:18px;letter-spacing:.01em}p{margin:8px 0;color:#bac9d9}.eyebrow{letter-spacing:.13em;color:var(--blue);font-size:12px;text-transform:lowercase}.notice{border-left:3px solid var(--amber);background:#241e1c;padding:13px 16px;margin:21px 0;color:#f3d4aa}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.card,.panel{border:1px solid var(--line);background:var(--panel);border-radius:10px;padding:18px}.card strong{display:block;color:white;font-size:23px}.card span{color:var(--muted);font-size:12px}.panel{margin-top:16px}.eventbuttons{display:flex;flex-wrap:wrap;gap:8px;margin:15px 0}.eventbuttons button{border:1px solid #3c5671;background:#142237;color:#ccdfef;border-radius:5px;padding:9px 11px;cursor:pointer;font:inherit}.eventbuttons button[aria-pressed=true]{background:#194166;border-color:var(--blue);color:#fff}button:focus-visible,a:focus-visible{outline:2px solid var(--amber);outline-offset:3px}#event-title{color:white;font-size:21px;margin:7px 0}#event-details{min-height:42px}a{color:var(--blue);overflow-wrap:anywhere}code{word-break:break-all;color:#bedcff}.tag{display:inline-block;border:1px solid #86633c;border-radius:4px;color:var(--amber);padding:1px 7px;font-size:11px;vertical-align:middle}svg{width:100%;height:auto;border-radius:6px;background:#0a1421}svg .node{fill:#172638;stroke:#3c739a;stroke-width:1.5}svg .label{fill:#e0ebf5;font-size:16px;text-anchor:middle}svg .edge{stroke:#79a6ce;stroke-width:2;fill:none;marker-end:url(#arrow)}svg .hot{fill:#3c2b20;stroke:#db9b58}.evidence{width:100%;border-collapse:collapse}.evidence th,.evidence td{text-align:left;border-bottom:1px solid var(--line);padding:12px 8px;vertical-align:top}.evidence th{color:var(--muted);font-weight:normal;font-size:12px}.evidence td{font-size:13px}footer{margin-top:24px;color:var(--muted);font-size:12px}@media(max-width:650px){.grid{grid-template-columns:1fr}.evidence thead{display:none}.evidence tr{display:block;border-bottom:1px solid var(--line);padding:9px 0}.evidence td{display:block;border:0;padding:3px 0}svg .label{font-size:18px}}
+  </style>
+</head>
+<body><main>
+  <header><div class="eyebrow">npcsignals / visual evidence archive / prototype v0.1</div><h1>binance / the authorization window</h1><p>29 october 2026 · ethereum incident timeline · static, source-reported reconstruction</p><div class="notice"><strong>not independently verified.</strong> transaction hashes, wallet roles, values and event timings below are research leads from published third-party analyses. this is not a real-time feed, attacker attribution or a finding of shared control.</div></header>
+  <section aria-label="Reported incident metrics" class="grid" style="margin-top:20px">
+    <div class="card"><span>binance-reported total impact</span><strong>~$6.3b</strong><span>all affected chains / preliminary</span></div>
+    <div class="card"><span>reported main ethereum sweep</span><strong>167,464 eth</strong><span>plus tokens; not a total-loss figure</span></div>
+    <div class="card"><span>reported delegation window</span><strong>~3h 50m</strong><span>20:20 to 00:10 utc</span></div>
+  </section>
+  <section class="panel"><div class="eyebrow">01 / replay an event</div><h2>reported sequence / utc</h2><div id="eventbuttons" class="eventbuttons" role="group" aria-label="Choose timeline event"></div><div class="eyebrow" id="event-time"></div><h3 id="event-title"></h3><p id="event-details"></p><p id="event-link"></p></section>
+  <section class="panel"><div class="eyebrow">02 / conceptual flow</div><h2>reported authority and value path</h2><svg viewBox="0 0 900 280" role="img" aria-label="Reported Binance 14 delegation to an attacker-controlled sweeper, followed by transfer to a receiving address and later disposition. This diagram is simplified and not an independently verified flow trace.">
+    <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#79a6ce"/></marker></defs>
+    <path class="edge" d="M195 80 H350"/><path class="edge" d="M540 80 H688"/><path class="edge" d="M785 124 V189"/>
+    <rect class="node" x="18" y="36" width="177" height="88" rx="7"/><text class="label" x="106" y="72">binance 14</text><text class="label" x="106" y="95">hot wallet</text>
+    <rect class="node hot" x="350" y="36" width="190" height="88" rx="7"/><text class="label" x="445" y="70">eip-7702</text><text class="label" x="445" y="94">delegated code</text>
+    <rect class="node" x="688" y="36" width="194" height="88" rx="7"/><text class="label" x="785" y="72">collection</text><text class="label" x="785" y="95">address</text>
+    <rect class="node" x="688" y="189" width="194" height="70" rx="7"/><text class="label" x="785" y="229">later transfers</text>
+  </svg><p>the diagram shows reported relationships only. a delegation is a change in authorized execution behavior; the value transfer occurred in a later transaction.</p></section>
+  <section class="panel"><div class="eyebrow">03 / evidence candidates</div><h2>open the original transactions</h2><table class="evidence"><thead><tr><th>id / reported event</th><th>source identifier</th><th>status</th></tr></thead><tbody>
+    <tr><td>b002 / delegation (20:20:59)</td><td><a href="https://etherscan.io/tx/0xad99264d5532ae0dd04b2004eebda05f25657e70dacb764f7ac8d4ccd051298b" target="_blank" rel="noopener noreferrer">0xad99264d…51298b</a></td><td><span class="tag">reported</span></td></tr>
+    <tr><td>b004 / main sweep (20:24:23)</td><td><a href="https://etherscan.io/tx/0x53bd38b816c23e74134786c29a8c18d792777998a3b9326047b583100e88e2f3" target="_blank" rel="noopener noreferrer">0x53bd38b8…88e2f3</a></td><td><span class="tag">reported</span></td></tr>
+    <tr><td>b005 / delegation revocation (00:10:35, 30 oct)</td><td><a href="https://etherscan.io/tx/0xafbf94c92a8d749988411669fa14d4f8866d9b4420b4ebd299f28e958dac7209" target="_blank" rel="noopener noreferrer">0xafbf94c9…dac7209</a></td><td><span class="tag">reported</span></td></tr>
+  </tbody></table></section>
+  <section class="panel"><div class="eyebrow">04 / interpretation</div><h2>what this view does not prove</h2><p>it does not prove how signatures were obtained, who controlled the operator address, whether any individual actor was responsible, or whether frozen assets have been recovered. exchange address labels are attribution claims and require separate corroboration.</p><h2>named sources</h2><ul><li><a href="https://www.binance.com/en-AU/support/announcement/detail/c5a8729a97ac486d963784d96c5642d7">binance / security incident update</a></li><li><a href="https://www.trmlabs.com/resources/blog/north-korea-steals-usd-6-36-billion-from-binance-in-the-largest-hack-in-history">trm labs / incident analysis</a></li><li><a href="https://bitquery.io/investigations/binance-hack">bitquery / cross-chain analysis and transaction index</a></li></ul></section>
+  <footer>npcsignals · observe first. verify before concluding. / no live monitoring / no wallet connection</footer>
+</main>
+<script>
+  'use strict';
+  const events = [
+    {time:'29 oct / 20:20:59',title:'delegation submitted',detail:'a reported type-4 transaction contained 50 eip-7702 authorization candidates for binance 14. the signing mechanism remains unresolved.',tx:'0xad99264d5532ae0dd04b2004eebda05f25657e70dacb764f7ac8d4ccd051298b'},
+    {time:'29 oct / 20:24:23',title:'main sweep',detail:'a reported transfer moved approximately 167,464 eth, 1.615 billion usdt and other tokens to a receiving address.',tx:'0x53bd38b816c23e74134786c29a8c18d792777998a3b9326047b583100e88e2f3'},
+    {time:'29 oct / 21:01',title:'issuer freeze',detail:'trm labs and bitquery report a tether freeze affecting tokens in a receiving wallet. frozen is not synonymous with recovered.',tx:null},
+    {time:'30 oct / 00:10:35',title:'delegation reportedly revoked',detail:'bitquery identifies a later transaction as the removal of the unwanted delegation. verify the authorization-state transition before upgrading this classification.',tx:'0xafbf94c92a8d749988411669fa14d4f8866d9b4420b4ebd299f28e958dac7209'}
+  ];
+  const buttons = document.getElementById('eventbuttons');
+  function showEvent(index){
+    const event = events[index];
+    document.getElementById('event-time').textContent=event.time+' utc';
+    document.getElementById('event-title').textContent=event.title;
+    document.getElementById('event-details').textContent=event.detail;
+    const link=document.getElementById('event-link');
+    link.replaceChildren();
+    if(event.tx){const a=document.createElement('a');a.href='https://etherscan.io/tx/'+event.tx;a.target='_blank';a.rel='noopener noreferrer';a.textContent='inspect transaction / '+event.tx;link.append(a)}
+    [...buttons.children].forEach((b,i)=>b.setAttribute('aria-pressed',String(i===index)));
+  }
+  events.forEach((e,i)=>{const b=document.createElement('button');b.type='button';b.textContent=e.time.split(' / ')[1];b.addEventListener('click',()=>showEvent(i));buttons.append(b)});
+  showEvent(0);
+</script></body></html>
