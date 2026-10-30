@@ -30,7 +30,7 @@ Only the Ethereum transaction facts explicitly checked in the checkpoint qualify
 - Compare each transaction hash against a primary blockchain explorer or a trusted Ethereum JSON-RPC receipt and transaction response.
 - Preserve `blockNumber`, `blockHash`, `transactionHash`, `from`, `to`, `type`, `status`, authorization list, decoded event logs, evidence retrieval timestamp and source URLs.
 - Reconcile amounts by token decimals; do not treat token transfer events as additional native ETH value.
-- Recheck token contract identifiers, log indices and decimals against an independent chain node before publication as fully independently verified Ethereum facts. The current register is **explorer-data verified**, not multi-provider verified.
+- Recheck token contract identifiers, log indices and decimals against independent Ethereum RPC responses before publication as independently cross-checked Ethereum facts. The register is **mixed**: B013 and B014 are two-public-provider receipt/log checks, while the remaining downstream explorer observations are not.
 - Distinguish on-chain timestamp, discovery timestamp and publication timestamp.
 - Do not sum issuer freezes and recoveries with gross theft or imply that frozen assets are returned to Binance.
 - Do not infer common ownership solely from coordinated timing, exchange labels or address proximity.
@@ -44,10 +44,12 @@ Only the Ethereum transaction facts explicitly checked in the checkpoint qualify
 - `b011-80m-recipient-infrastructure.json` classifies those 11 direct recipients through individual Blockscout address metadata. Ten have explorer-reported verified contract code and received 50m USDT (35.31m to UniswapV3Pool, 13.41m to PoolManager and 1.28m to Uniswap V2-style contracts). One unlabelled address without reported contract code received 30m USDT. **Do not infer that transfers into pool contracts were successfully swapped, bridged or cashed out** without inspecting the full transaction execution, output token logs and subsequent balances. No-code address is not a verified identity.
 - `b012-30m-and-pool-receipts.json` follows the non-contract-code recipient's canonical 30m USDT to one further address. The next address still showed 30m canonical USDT in a balance snapshot, without positive outgoing canonical-USDT events. A separate token called USDT under a different contract is excluded. The two pool-related transactions were fully paginated (64 and 68 token events); no token-log transfer directly back to the initiating 80m sender was found. Swap output routing remains unresolved.
 - `b013-independent-rpc-usdt.json` upgrades the original two 500m and 200m canonical-USDT first-hop transfers from single-explorer checks to exact receipt/log agreement across two public Ethereum RPC providers, including block hashes, log indices, token contract, sender, recipient and raw amounts. **Only these two transfers receive the upgraded classification.** B007–B012 downstream transfers still require equivalent independent checks.
+- `b014-independent-rpc-third-hop.json` upgrades **four selected B008 third-hop transactions (365m USDT in all)** to exact token-transfer log agreement across two public Ethereum RPC providers, with block hashes and log indices. These are transfers of funds already counted in the 700m first hop, not additional funds. Other B007 and B009–B012 movements remain explorer observations, not two-provider confirmed.
+- Run `python3 -B audit_archive.py` for a read-only, offline consistency audit of ledger amounts, canonical contract IDs, RPC checkpoint agreement and publication guards. The audit validates relationships among retained research records; it cannot replace a new blockchain query or identify beneficiaries.
 
 ## Draft editorial package (not published)
 
-`medium-draft.md` and `x-draft.md` are lower-case, source-limited drafts for a future short Medium research note and an X post. Hold both until the remaining independent receipt checks and a public archive URL are approved. The draft X post intentionally contains a placeholder link; it is not ready to publish.
+`medium-draft.md` and `x-draft.md` are lower-case, source-limited drafts for a future short Medium research note and an X post. Hold both until editorial review and a public archive URL are approved. The draft X post intentionally contains a placeholder link; it is not ready to publish.
 
 ## Relationship to earlier research
 
