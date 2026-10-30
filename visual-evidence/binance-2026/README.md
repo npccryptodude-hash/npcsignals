@@ -34,6 +34,7 @@ Only the Ethereum transaction facts explicitly checked in the checkpoint qualify
 - Distinguish on-chain timestamp, discovery timestamp and publication timestamp.
 - Do not sum issuer freezes and recoveries with gross theft or imply that frozen assets are returned to Binance.
 - Do not infer common ownership solely from coordinated timing, exchange labels or address proximity.
+- **Do not classify a token by symbol alone.** A first-page inspection of the receiving wallet's outgoing events found a `USDT`-labelled token under contract `0x11D0647b8Fee5662eAb6f0257404Ee57C7261cAc`, which differs from the canonical Ethereum USDT contract. See `receiver-label-collision.json`. This is an observed contract mismatch, not an attribution or proof of malicious intent.
 
 ## Relationship to earlier research
 
