@@ -2,9 +2,9 @@
 
 > npcsignals · research prototype · 30 october 2026
 
-**status: preliminary / third-party-reported transaction leads / independent chain verification pending**
+**status: limited independent explorer-data confirmation / broader incident and attribution unresolved**
 
-This folder contains a static, locally renderable visual evidence prototype for the reported Binance security incident of 29 October 2026. It does not attribute the incident to any individual or organization. The transaction identifiers and address labels are research leads, not independently verified NPCsignals findings.
+This folder contains a static, locally renderable visual evidence prototype for the reported Binance security incident of 29 October 2026. It does not attribute the incident to any individual or organization. The three Ethereum transactions have now been checked against Blockscout API responses; the scope of that verification is precisely recorded in `evidence-checkpoint.json`. Broader asset flows, exchange labels, signing-system compromise and human attribution are not independently established.
 
 Open [`index.html`](./index.html) locally to view the timeline and transaction map. No wallet connection, RPC endpoint, API key, external JavaScript library or live blockchain request is used. The static display must **not** be described as a live monitor.
 
@@ -16,7 +16,7 @@ Open [`index.html`](./index.html) locally to view the timeline and transaction m
 - `unresolved` — insufficient evidence to conclude.
 - `rejected` — evidence contradicts the hypothesis.
 
-The prototype intentionally marks **all listed transaction leads as `reported`**, not `verified`.
+Only the Ethereum transaction facts explicitly checked in the checkpoint qualify for `verified`. Address roles, motives and cross-chain claims remain `reported` or `unresolved`.
 
 ## Sources to independently inspect
 
