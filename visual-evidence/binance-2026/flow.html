@@ -10,10 +10,10 @@
 </style>
 </head>
 <body><main>
-<div class="eyebrow">npcsignals / visual evidence archive / b006–b014</div>
+<div class="eyebrow">npcsignals / visual evidence archive / b006–b015</div>
 <h1>follow the transfer.<br>separate the inference.</h1>
 <p class="summary">one ethereum canonical-usdt path following the reported binance incident of 29 october 2026. select a branch to follow the observed events. values are not cumulative across hops.</p>
-<div class="warning">research snapshot, 30 october 2026. two first-hop transfers (b013) and four selected third-hop transfers (b014) were cross-checked against two ethereum rpc providers. other downstream events remain explorer observations. transfers do not prove ownership, cash-out or the cause of the incident. not a live monitor.</div>
+<div class="warning">research snapshot, 30 october 2026. selected first-hop (b013), third-hop (b014), and 80m split/30m onward (b015) token logs were cross-checked against two ethereum rpc providers. other downstream facts remain explorer observations. transfers do not prove ownership, cash-out or the cause of the incident. not a live monitor.</div>
 <div class="route-controls" role="group" aria-label="Select evidence route">
   <button type="button" data-route="175" aria-pressed="true">175m / retained branch</button>
   <button type="button" data-route="80" aria-pressed="false">80m / liquidity and onward</button>
@@ -23,7 +23,7 @@
   <section class="map" aria-live="polite"><div class="eyebrow" id="map-kicker"></div><h2 id="map-title"></h2><div class="steps" id="map-steps"></div></section>
   <aside class="detail"><div class="eyebrow">evidence record</div><h2 id="detail-title"></h2><span id="detail-status" class="status"></span><p id="detail-description"></p><dl><dt>origin</dt><dd id="detail-origin"></dd><dt>observed</dt><dd id="detail-observed"></dd><dt>unresolved</dt><dd id="detail-unresolved"></dd></dl><p id="detail-links"></p></aside>
 </div>
-<section class="legend"><div class="eyebrow">reading the flow</div><h2>three distinctions matter</h2><p><strong>same value, later hop:</strong> 175m received and then transferred is not 350m. <strong>token contract:</strong> genuine ethereum usdt uses <code>0xdAC17F958D2ee523a2206206994597C13D831ec7</code>; a similarly named contract is not interchangeable. <strong>observed balance:</strong> funds appearing on an address does not prove a freeze or ownership.</p><p>the full data and primary transaction hashes are available from the linked b006–b014 checkpoints. <a href="index.html">return to transaction timeline and evidence tables</a>.</p></section>
+<section class="legend"><div class="eyebrow">reading the flow</div><h2>three distinctions matter</h2><p><strong>same value, later hop:</strong> 175m received and then transferred is not 350m. <strong>token contract:</strong> genuine ethereum usdt uses <code>0xdAC17F958D2ee523a2206206994597C13D831ec7</code>; a similarly named contract is not interchangeable. <strong>observed balance:</strong> funds appearing on an address does not prove a freeze or ownership.</p><p>the full data and primary transaction hashes are available from the linked b006–b015 checkpoints. <a href="index.html">return to transaction timeline and evidence tables</a>.</p></section>
 <footer>npcsignals · observe first. verify before concluding. / static local rendering / no wallet connection / no network requests</footer>
 </main>
 <script>
@@ -44,7 +44,7 @@ const routes={
   ],links:[['b013 first-hop receipts','b013-independent-rpc-usdt.json'],['b014 selected third-hop receipts','b014-independent-rpc-third-hop.json'],['b009 balance','b009-large-recipient-continuation.json'],['b010 rpc check','b010-blacklist-and-80m.json']]
  },
  '80':{
-  kicker:'branch b / 80m usdt subset',title:'contracts, then a retained 30m hop',status:'single-provider explorer-data',
+  kicker:'branch b / 80m usdt subset',title:'contracts, then a retained 30m hop',status:'b015 transfer logs verified; balances explorer data',
   origin:'700m first hop → 200m receiver → 190m → 130m → 80m',
   observed:'50m canonical usdt in 19 events to 10 explorer-labelled liquidity contracts; 30m to a no-code address and onward to one more address. the next address showed 30m genuine usdt.',
   unresolved:'swap output routing; recipient identity; ultimate disposition of other token outputs.',
@@ -55,7 +55,7 @@ const routes={
    ['b009–b010','80m usdt','0x77edef23… → 0x7aa4d302…'],
    ['b011 / 21:08–21:11','50m / contracts + 30m / no-code','10 contract recipients; one unlabelled address'],
    ['b012 / 21:16:11','30m usdt','0xccbef956… → 0xb171ca86…; next balance 30m','terminal']
-  ],links:[['b013 first-hop receipts','b013-independent-rpc-usdt.json'],['b014 selected third-hop receipts','b014-independent-rpc-third-hop.json'],['b010 transfers','b010-blacklist-and-80m.json'],['b011 classification','b011-80m-recipient-infrastructure.json'],['b012 token checks','b012-30m-and-pool-receipts.json']]
+  ],links:[['b013 first-hop receipts','b013-independent-rpc-usdt.json'],['b014 selected third-hop receipts','b014-independent-rpc-third-hop.json'],['b015 80m and 30m receipts','b015-independent-rpc-80m.json'],['b010 transfers','b010-blacklist-and-80m.json'],['b011 classification','b011-80m-recipient-infrastructure.json'],['b012 token checks','b012-30m-and-pool-receipts.json']]
  },
  '200':{
   kicker:'branch b / 200m usdt first hop',title:'reconciled first-hop distribution',status:'b013 first-hop + b014 selected third-hop verified',
