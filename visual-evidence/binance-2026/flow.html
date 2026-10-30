@@ -10,10 +10,10 @@
 </style>
 </head>
 <body><main>
-<div class="eyebrow">npcsignals / visual evidence archive / b006–b012</div>
+<div class="eyebrow">npcsignals / visual evidence archive / b006–b014</div>
 <h1>follow the transfer.<br>separate the inference.</h1>
 <p class="summary">one ethereum canonical-usdt path following the reported binance incident of 29 october 2026. select a branch to follow the observed events. values are not cumulative across hops.</p>
-<div class="warning">research snapshot, 30 october 2026. the initial 500m and 200m canonical-usdt transfers were cross-checked against two ethereum rpc providers (b013); later routes remain explorer-data observations. transfers do not prove ownership, cash-out or the cause of the incident. not a live monitor.</div>
+<div class="warning">research snapshot, 30 october 2026. two first-hop transfers (b013) and four selected third-hop transfers (b014) were cross-checked against two ethereum rpc providers. other downstream events remain explorer observations. transfers do not prove ownership, cash-out or the cause of the incident. not a live monitor.</div>
 <div class="route-controls" role="group" aria-label="Select evidence route">
   <button type="button" data-route="175" aria-pressed="true">175m / retained branch</button>
   <button type="button" data-route="80" aria-pressed="false">80m / liquidity and onward</button>
@@ -23,7 +23,7 @@
   <section class="map" aria-live="polite"><div class="eyebrow" id="map-kicker"></div><h2 id="map-title"></h2><div class="steps" id="map-steps"></div></section>
   <aside class="detail"><div class="eyebrow">evidence record</div><h2 id="detail-title"></h2><span id="detail-status" class="status"></span><p id="detail-description"></p><dl><dt>origin</dt><dd id="detail-origin"></dd><dt>observed</dt><dd id="detail-observed"></dd><dt>unresolved</dt><dd id="detail-unresolved"></dd></dl><p id="detail-links"></p></aside>
 </div>
-<section class="legend"><div class="eyebrow">reading the flow</div><h2>three distinctions matter</h2><p><strong>same value, later hop:</strong> 175m received and then transferred is not 350m. <strong>token contract:</strong> genuine ethereum usdt uses <code>0xdAC17F958D2ee523a2206206994597C13D831ec7</code>; a similarly named contract is not interchangeable. <strong>observed balance:</strong> funds appearing on an address does not prove a freeze or ownership.</p><p>the full data and primary transaction hashes are available from the linked b006–b012 checkpoints. <a href="index.html">return to transaction timeline and evidence tables</a>.</p></section>
+<section class="legend"><div class="eyebrow">reading the flow</div><h2>three distinctions matter</h2><p><strong>same value, later hop:</strong> 175m received and then transferred is not 350m. <strong>token contract:</strong> genuine ethereum usdt uses <code>0xdAC17F958D2ee523a2206206994597C13D831ec7</code>; a similarly named contract is not interchangeable. <strong>observed balance:</strong> funds appearing on an address does not prove a freeze or ownership.</p><p>the full data and primary transaction hashes are available from the linked b006–b014 checkpoints. <a href="index.html">return to transaction timeline and evidence tables</a>.</p></section>
 <footer>npcsignals · observe first. verify before concluding. / static local rendering / no wallet connection / no network requests</footer>
 </main>
 <script>
@@ -31,7 +31,7 @@
 const root='https://etherscan.io/tx/';
 const routes={
  '175':{
-  kicker:'branch a / 175m usdt subset',title:'a large retained balance',status:'explorer data + two rpc reads',
+  kicker:'branch a / 175m usdt subset',title:'a large retained balance',status:'b014 receipt verified; later balance explorer data',
   origin:'700m first hop → 500m receiver → 175m recipient',
   observed:'174,999,872.327620 usdt at latest balance snapshot; 127.67248 usdt observed outgoing; tether isBlackListed returned false at two recent mainnet heads.',
   unresolved:'historical blacklist state; reason for balance retention; beneficial ownership.',
@@ -41,7 +41,7 @@ const routes={
    ['b007 / 20:59:11','175m usdt','0x9749292d… → 0x811f1585…'],
    ['b008 / 21:08:23','175m usdt','0x811f1585… → 0xaa246bf6…'],
    ['b009–b010 / 30 oct','174,999,872.327620 usdt','balance snapshot; blacklist false at checked blocks','terminal']
-  ],links:[['b013 first-hop receipts','b013-independent-rpc-usdt.json'],['b009 balance','b009-large-recipient-continuation.json'],['b010 rpc check','b010-blacklist-and-80m.json']]
+  ],links:[['b013 first-hop receipts','b013-independent-rpc-usdt.json'],['b014 selected third-hop receipts','b014-independent-rpc-third-hop.json'],['b009 balance','b009-large-recipient-continuation.json'],['b010 rpc check','b010-blacklist-and-80m.json']]
  },
  '80':{
   kicker:'branch b / 80m usdt subset',title:'contracts, then a retained 30m hop',status:'single-provider explorer-data',
@@ -55,19 +55,19 @@ const routes={
    ['b009–b010','80m usdt','0x77edef23… → 0x7aa4d302…'],
    ['b011 / 21:08–21:11','50m / contracts + 30m / no-code','10 contract recipients; one unlabelled address'],
    ['b012 / 21:16:11','30m usdt','0xccbef956… → 0xb171ca86…; next balance 30m','terminal']
-  ],links:[['b013 first-hop receipts','b013-independent-rpc-usdt.json'],['b010 transfers','b010-blacklist-and-80m.json'],['b011 classification','b011-80m-recipient-infrastructure.json'],['b012 token checks','b012-30m-and-pool-receipts.json']]
+  ],links:[['b013 first-hop receipts','b013-independent-rpc-usdt.json'],['b014 selected third-hop receipts','b014-independent-rpc-third-hop.json'],['b010 transfers','b010-blacklist-and-80m.json'],['b011 classification','b011-80m-recipient-infrastructure.json'],['b012 token checks','b012-30m-and-pool-receipts.json']]
  },
  '200':{
-  kicker:'branch b / 200m usdt first hop',title:'reconciled first-hop distribution',status:'single-provider explorer-data',
+  kicker:'branch b / 200m usdt first hop',title:'reconciled first-hop distribution',status:'b013 first-hop + b014 selected third-hop verified',
   origin:'700m canonical-usdt first-hop total',
   observed:'the 200m receiver sent 190m to one address and 10m to additional token-log recipients. outgoing total reconciles to the prior 200m.',
   unresolved:'ultimate control of all downstream recipients and economic classification of their subsequent activity.',
   description:'this route stops early to show how the 200m first-hop recipient was reconciled. it is not a separate additional 200m flow.',
   steps:[
    ['b006 / 20:33:23','200m usdt','0x5227f603… → 0x0ddf0480…'],
-   ['b007 / 20:47–20:52','190m + 10m usdt','19 events across both 500m and 200m branches'],
-   ['b008 / 20:57–21:01','190m → 130m + 60m','two token-log recipients; next branches partially traced','terminal']
-  ],links:[['b013 independent receipts','b013-independent-rpc-usdt.json'],['b006 first hop','b006-receiver-outgoing-summary.json'],['b007 ledger','b007-second-hop-usdt-ledger.json'],['b008 third hop','b008-third-hop-usdt-ledger.json']]
+   ['b007 / 20:47–20:52','190m + 10m usdt','200m branch only; second-hop explorer events'],
+   ['b008 / 20:57–21:01','190m → 130m + 50m + 10m','three token-log destinations; selected receipt logs checked','terminal']
+  ],links:[['b013 independent receipts','b013-independent-rpc-usdt.json'],['b014 third-hop receipts','b014-independent-rpc-third-hop.json'],['b006 first hop','b006-receiver-outgoing-summary.json'],['b007 ledger','b007-second-hop-usdt-ledger.json'],['b008 third hop','b008-third-hop-usdt-ledger.json']]
  }
 };
 const text=(id,value)=>{document.getElementById(id).textContent=value};
