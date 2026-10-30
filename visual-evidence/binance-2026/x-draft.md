@@ -1,9 +1,9 @@
 **draft / do not post yet**
 
-we traced 700m usdt through ethereum hops in the reported binance incident.
+one ethereum path in the reported binance incident: 700m canonical usdt, traced through subsequent hops — not additional losses.
 
-one path reached liquidity contracts. another retained a large balance. token names mislead.
+selected transfer logs matched across two rpc endpoints. other observations remain explorer-based.
 
-transfers are evidence. attribution is not.
+movement is evidence. attribution is not.
 
-visual archive: [public link after review]
+archive: [approved public url pending]
