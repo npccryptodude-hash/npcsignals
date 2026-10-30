@@ -1,0 +1,127 @@
+{
+  "case": "binance-2026-10-29",
+  "checkpoint": "B014-independent-rpc-selected-third-hop-v1",
+  "checked_on": "2026-10-30",
+  "classification": "verified-from-two-public-ethereum-rpc-providers-for-listed-events-only",
+  "canonical_usdt_contract": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+  "sources": [
+    {
+      "provider": "publicnode",
+      "endpoint": "https://ethereum-rpc.publicnode.com",
+      "records": [
+        {
+          "transaction_hash": "0x420e74015336a44f3056c00bf5a1313889a7f6ed30a053ad59832d4a4a1f14eb",
+          "block_number": 26300936,
+          "block_hash": "0x049286dbb48297cb9fdf5bd10cb96004e7fe864b13940949e58dcd382f5804c5",
+          "token_contract": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+          "log_index": 203,
+          "from": "0x8d53903625b8e839b9df4bd28b0efb1cd6b8639a",
+          "to": "0x23878914efe38d27c4d67ab83ed1b93a74d4086a",
+          "raw_amount": "10000000000000",
+          "amount_usdt": "10000000",
+          "transaction_success": true
+        },
+        {
+          "transaction_hash": "0x65bd82f19985a569ef87b3926dd5f2247ba7bd06640141060f1b2d9ddedec3f6",
+          "block_number": 26300947,
+          "block_hash": "0x4a1d90a864cc347cb0f414dab13770b19cf54ce05f699f1509ca9fc49a0d4363",
+          "token_contract": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+          "log_index": 333,
+          "from": "0x8d53903625b8e839b9df4bd28b0efb1cd6b8639a",
+          "to": "0x23878914efe38d27c4d67ab83ed1b93a74d4086a",
+          "raw_amount": "50000000000000",
+          "amount_usdt": "50000000",
+          "transaction_success": true
+        },
+        {
+          "transaction_hash": "0xd2e7e5e6ee32a3552de469d97e90d83b707d314ffe7b8747786de92daa3fc3d8",
+          "block_number": 26300956,
+          "block_hash": "0x91794dff7d8afcd78ee7fbf1ddef0ee2646c3868ce55a47f5501121c9ba4ee43",
+          "token_contract": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+          "log_index": 382,
+          "from": "0x8d53903625b8e839b9df4bd28b0efb1cd6b8639a",
+          "to": "0x77edef23fbd05921c26fe29fcc3a65e14d2ac3eb",
+          "raw_amount": "130000000000000",
+          "amount_usdt": "130000000",
+          "transaction_success": true
+        },
+        {
+          "transaction_hash": "0xb6d7d3ffcbdd0465e1ab743a8d943218176cac7b15edefa7b7bcd5e853e4266f",
+          "block_number": 26300988,
+          "block_hash": "0x7d05da6910fd048ce4953fa307cce4b41c4a562dcaf25127aa964f2990864b43",
+          "token_contract": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+          "log_index": 429,
+          "from": "0x811f15855476156ebf86ba3b84fafb8ceaa4e84c",
+          "to": "0xaa246bf639586a6ba46762d378ce50ca4fc654a0",
+          "raw_amount": "175000000000000",
+          "amount_usdt": "175000000",
+          "transaction_success": true
+        }
+      ],
+      "canonical_receipt_summary_sha256": "32affc0657b92ed6b8ee822151aa85f6e0325ca56beff07aad32650c7e2be888"
+    },
+    {
+      "provider": "blastapi",
+      "endpoint": "https://eth-mainnet.public.blastapi.io",
+      "records": [
+        {
+          "transaction_hash": "0x420e74015336a44f3056c00bf5a1313889a7f6ed30a053ad59832d4a4a1f14eb",
+          "block_number": 26300936,
+          "block_hash": "0x049286dbb48297cb9fdf5bd10cb96004e7fe864b13940949e58dcd382f5804c5",
+          "token_contract": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+          "log_index": 203,
+          "from": "0x8d53903625b8e839b9df4bd28b0efb1cd6b8639a",
+          "to": "0x23878914efe38d27c4d67ab83ed1b93a74d4086a",
+          "raw_amount": "10000000000000",
+          "amount_usdt": "10000000",
+          "transaction_success": true
+        },
+        {
+          "transaction_hash": "0x65bd82f19985a569ef87b3926dd5f2247ba7bd06640141060f1b2d9ddedec3f6",
+          "block_number": 26300947,
+          "block_hash": "0x4a1d90a864cc347cb0f414dab13770b19cf54ce05f699f1509ca9fc49a0d4363",
+          "token_contract": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+          "log_index": 333,
+          "from": "0x8d53903625b8e839b9df4bd28b0efb1cd6b8639a",
+          "to": "0x23878914efe38d27c4d67ab83ed1b93a74d4086a",
+          "raw_amount": "50000000000000",
+          "amount_usdt": "50000000",
+          "transaction_success": true
+        },
+        {
+          "transaction_hash": "0xd2e7e5e6ee32a3552de469d97e90d83b707d314ffe7b8747786de92daa3fc3d8",
+          "block_number": 26300956,
+          "block_hash": "0x91794dff7d8afcd78ee7fbf1ddef0ee2646c3868ce55a47f5501121c9ba4ee43",
+          "token_contract": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+          "log_index": 382,
+          "from": "0x8d53903625b8e839b9df4bd28b0efb1cd6b8639a",
+          "to": "0x77edef23fbd05921c26fe29fcc3a65e14d2ac3eb",
+          "raw_amount": "130000000000000",
+          "amount_usdt": "130000000",
+          "transaction_success": true
+        },
+        {
+          "transaction_hash": "0xb6d7d3ffcbdd0465e1ab743a8d943218176cac7b15edefa7b7bcd5e853e4266f",
+          "block_number": 26300988,
+          "block_hash": "0x7d05da6910fd048ce4953fa307cce4b41c4a562dcaf25127aa964f2990864b43",
+          "token_contract": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+          "log_index": 429,
+          "from": "0x811f15855476156ebf86ba3b84fafb8ceaa4e84c",
+          "to": "0xaa246bf639586a6ba46762d378ce50ca4fc654a0",
+          "raw_amount": "175000000000000",
+          "amount_usdt": "175000000",
+          "transaction_success": true
+        }
+      ],
+      "canonical_receipt_summary_sha256": "32affc0657b92ed6b8ee822151aa85f6e0325ca56beff07aad32650c7e2be888"
+    }
+  ],
+  "verified_event_count": 4,
+  "verified_transaction_count": 4,
+  "verified_selected_usdt_total": "365000000",
+  "limitations": [
+    "This RPC agreement applies only to the listed B008 selected third-hop events; B007, B009-B012 remain explorer-data observations.",
+    "Distinct public RPC endpoints may have overlapping upstream infrastructure.",
+    "Transaction receipt log agreement does not identify wallet controllers, establish cash-out, token freezes, recovery or cross-chain totals."
+  ]
+}
