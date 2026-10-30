@@ -1,0 +1,252 @@
+{
+  "case": "binance-2026-10-29",
+  "checkpoint": "B010-blacklist-current-and-80m-continuation-v1",
+  "checked_on": "2026-10-30",
+  "blacklist_current_call": {
+    "target_address": "0xAa246BF639586a6Ba46762D378CE50cA4fc654a0",
+    "token_contract": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "function_signature": "isBlackListed(address)",
+    "method_selector": "0xe47d6060",
+    "eth_call_data": "0xe47d6060000000000000000000000000aa246bf639586a6ba46762d378ce50ca4fc654a0",
+    "block_parameter": "latest",
+    "observed_utc_approx": "2026-10-30T13:12:54Z",
+    "providers": [
+      {
+        "url": "https://ethereum-rpc.publicnode.com",
+        "chain_id_hex": "0x1",
+        "block_number_hex": "0x19164fd",
+        "eth_call_result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      {
+        "url": "https://eth-mainnet.public.blastapi.io",
+        "chain_id_hex": "0x1",
+        "block_number_hex": "0x1916502",
+        "eth_call_result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      }
+    ],
+    "interpretation": "isBlackListed returned false at two recent Ethereum mainnet heads; no current blacklist flag indicated at those queried blocks",
+    "limitations": [
+      "Historical blacklist status at the incident block was not checked.",
+      "Both calls used latest, at distinct block heights; this is not a fixed-block historical comparison.",
+      "A false blacklist result does not prove unrestricted liquidity, ownership, or the absence of unrelated sanctions."
+    ]
+  },
+  "80m_continuation": {
+    "sender": "0x7Aa4D3029e4C6A8E916300014Ad95B6d6C03BFd1",
+    "inbound_usdt_from_b009": "80000000",
+    "outgoing_usdt": "80000000",
+    "outgoing_event_count": 20,
+    "unique_outgoing_recipients": 11,
+    "source": "https://eth.blockscout.com/api/v2/addresses/0x7Aa4D3029e4C6A8E916300014Ad95B6d6C03BFd1/token-transfers",
+    "source_response_sha256": "5efd99749919b519622b98bcbc343001a86c21bab96083776df9a92764520858",
+    "source_next_page_params_null": true,
+    "events": [
+      {
+        "timestamp_utc": "2026-10-29T21:08:23.000000Z",
+        "transaction_hash": "0x808f54a951b7fd051600937b45c6c3fb42d59850c6bf459cea8615dfadbcad39",
+        "from": "0x7Aa4D3029e4C6A8E916300014Ad95B6d6C03BFd1",
+        "to": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+        "token_contract": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "raw_amount": "6840000000000",
+        "decimals": 6,
+        "amount_usdt": "6840000"
+      },
+      {
+        "timestamp_utc": "2026-10-29T21:08:23.000000Z",
+        "transaction_hash": "0x808f54a951b7fd051600937b45c6c3fb42d59850c6bf459cea8615dfadbcad39",
+        "from": "0x7Aa4D3029e4C6A8E916300014Ad95B6d6C03BFd1",
+        "to": "0x0d4a11d5EEaaC28EC3F61d100daF4d40471f1852",
+        "token_contract": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "raw_amount": "260000000000",
+        "decimals": 6,
+        "amount_usdt": "260000"
+      },
+      {
+        "timestamp_utc": "2026-10-29T21:08:23.000000Z",
+        "transaction_hash": "0x808f54a951b7fd051600937b45c6c3fb42d59850c6bf459cea8615dfadbcad39",
+        "from": "0x7Aa4D3029e4C6A8E916300014Ad95B6d6C03BFd1",
+        "to": "0x11b815efB8f581194ae79006d24E0d814B7697F6",
+        "token_contract": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "raw_amount": "660000000000",
+        "decimals": 6,
+        "amount_usdt": "660000"
+      },
+      {
+        "timestamp_utc": "2026-10-29T21:08:23.000000Z",
+        "transaction_hash": "0x808f54a951b7fd051600937b45c6c3fb42d59850c6bf459cea8615dfadbcad39",
+        "from": "0x7Aa4D3029e4C6A8E916300014Ad95B6d6C03BFd1",
+        "to": "0x3041CbD36888bECc7bbCBc0045E3B1f144466f5f",
+        "token_contract": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "raw_amount": "60000000000",
+        "decimals": 6,
+        "amount_usdt": "60000"
+      },
+      {
+        "timestamp_utc": "2026-10-29T21:08:23.000000Z",
+        "transaction_hash": "0x808f54a951b7fd051600937b45c6c3fb42d59850c6bf459cea8615dfadbcad39",
+        "from": "0x7Aa4D3029e4C6A8E916300014Ad95B6d6C03BFd1",
+        "to": "0x3416cF6C708Da44DB2624D63ea0AAef7113527C6",
+        "token_contract": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "raw_amount": "160000000000",
+        "decimals": 6,
+        "amount_usdt": "160000"
+      },
+      {
+        "timestamp_utc": "2026-10-29T21:08:23.000000Z",
+        "transaction_hash": "0x808f54a951b7fd051600937b45c6c3fb42d59850c6bf459cea8615dfadbcad39",
+        "from": "0x7Aa4D3029e4C6A8E916300014Ad95B6d6C03BFd1",
+        "to": "0x4e68Ccd3E89f51C3074ca5072bbAC773960dFa36",
+        "token_contract": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "raw_amount": "7840000000000",
+        "decimals": 6,
+        "amount_usdt": "7840000"
+      },
+      {
+        "timestamp_utc": "2026-10-29T21:08:23.000000Z",
+        "transaction_hash": "0x808f54a951b7fd051600937b45c6c3fb42d59850c6bf459cea8615dfadbcad39",
+        "from": "0x7Aa4D3029e4C6A8E916300014Ad95B6d6C03BFd1",
+        "to": "0x56534741CD8B152df6d48AdF7ac51f75169A83b2",
+        "token_contract": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "raw_amount": "2720000000000",
+        "decimals": 6,
+        "amount_usdt": "2720000"
+      },
+      {
+        "timestamp_utc": "2026-10-29T21:08:23.000000Z",
+        "transaction_hash": "0x808f54a951b7fd051600937b45c6c3fb42d59850c6bf459cea8615dfadbcad39",
+        "from": "0x7Aa4D3029e4C6A8E916300014Ad95B6d6C03BFd1",
+        "to": "0x9Db9e0e53058C89e5B94e29621a205198648425B",
+        "token_contract": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "raw_amount": "1260000000000",
+        "decimals": 6,
+        "amount_usdt": "1260000"
+      },
+      {
+        "timestamp_utc": "2026-10-29T21:08:23.000000Z",
+        "transaction_hash": "0x808f54a951b7fd051600937b45c6c3fb42d59850c6bf459cea8615dfadbcad39",
+        "from": "0x7Aa4D3029e4C6A8E916300014Ad95B6d6C03BFd1",
+        "to": "0xc7bBeC68d12a0d1830360F8Ec58fA599bA1b0e9b",
+        "token_contract": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "raw_amount": "200000000000",
+        "decimals": 6,
+        "amount_usdt": "200000"
+      },
+      {
+        "timestamp_utc": "2026-10-29T21:09:11.000000Z",
+        "transaction_hash": "0x2a1979ae32a40c0aaa0df757f6af690857c6c8cb86097cac29316597de9469f6",
+        "from": "0x7Aa4D3029e4C6A8E916300014Ad95B6d6C03BFd1",
+        "to": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+        "token_contract": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "raw_amount": "6570000000000",
+        "decimals": 6,
+        "amount_usdt": "6570000"
+      },
+      {
+        "timestamp_utc": "2026-10-29T21:09:11.000000Z",
+        "transaction_hash": "0x2a1979ae32a40c0aaa0df757f6af690857c6c8cb86097cac29316597de9469f6",
+        "from": "0x7Aa4D3029e4C6A8E916300014Ad95B6d6C03BFd1",
+        "to": "0x0d4a11d5EEaaC28EC3F61d100daF4d40471f1852",
+        "token_contract": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "raw_amount": "780000000000",
+        "decimals": 6,
+        "amount_usdt": "780000"
+      },
+      {
+        "timestamp_utc": "2026-10-29T21:09:11.000000Z",
+        "transaction_hash": "0x2a1979ae32a40c0aaa0df757f6af690857c6c8cb86097cac29316597de9469f6",
+        "from": "0x7Aa4D3029e4C6A8E916300014Ad95B6d6C03BFd1",
+        "to": "0x11b815efB8f581194ae79006d24E0d814B7697F6",
+        "token_contract": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "raw_amount": "1590000000000",
+        "decimals": 6,
+        "amount_usdt": "1590000"
+      },
+      {
+        "timestamp_utc": "2026-10-29T21:09:11.000000Z",
+        "transaction_hash": "0x2a1979ae32a40c0aaa0df757f6af690857c6c8cb86097cac29316597de9469f6",
+        "from": "0x7Aa4D3029e4C6A8E916300014Ad95B6d6C03BFd1",
+        "to": "0x3041CbD36888bECc7bbCBc0045E3B1f144466f5f",
+        "token_contract": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "raw_amount": "180000000000",
+        "decimals": 6,
+        "amount_usdt": "180000"
+      },
+      {
+        "timestamp_utc": "2026-10-29T21:09:11.000000Z",
+        "transaction_hash": "0x2a1979ae32a40c0aaa0df757f6af690857c6c8cb86097cac29316597de9469f6",
+        "from": "0x7Aa4D3029e4C6A8E916300014Ad95B6d6C03BFd1",
+        "to": "0x3416cF6C708Da44DB2624D63ea0AAef7113527C6",
+        "token_contract": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "raw_amount": "480000000000",
+        "decimals": 6,
+        "amount_usdt": "480000"
+      },
+      {
+        "timestamp_utc": "2026-10-29T21:09:11.000000Z",
+        "transaction_hash": "0x2a1979ae32a40c0aaa0df757f6af690857c6c8cb86097cac29316597de9469f6",
+        "from": "0x7Aa4D3029e4C6A8E916300014Ad95B6d6C03BFd1",
+        "to": "0x4e68Ccd3E89f51C3074ca5072bbAC773960dFa36",
+        "token_contract": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "raw_amount": "10680000000000",
+        "decimals": 6,
+        "amount_usdt": "10680000"
+      },
+      {
+        "timestamp_utc": "2026-10-29T21:09:11.000000Z",
+        "transaction_hash": "0x2a1979ae32a40c0aaa0df757f6af690857c6c8cb86097cac29316597de9469f6",
+        "from": "0x7Aa4D3029e4C6A8E916300014Ad95B6d6C03BFd1",
+        "to": "0x56534741CD8B152df6d48AdF7ac51f75169A83b2",
+        "token_contract": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "raw_amount": "4650000000000",
+        "decimals": 6,
+        "amount_usdt": "4650000"
+      },
+      {
+        "timestamp_utc": "2026-10-29T21:09:11.000000Z",
+        "transaction_hash": "0x2a1979ae32a40c0aaa0df757f6af690857c6c8cb86097cac29316597de9469f6",
+        "from": "0x7Aa4D3029e4C6A8E916300014Ad95B6d6C03BFd1",
+        "to": "0x9Db9e0e53058C89e5B94e29621a205198648425B",
+        "token_contract": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "raw_amount": "3600000000000",
+        "decimals": 6,
+        "amount_usdt": "3600000"
+      },
+      {
+        "timestamp_utc": "2026-10-29T21:09:11.000000Z",
+        "transaction_hash": "0x2a1979ae32a40c0aaa0df757f6af690857c6c8cb86097cac29316597de9469f6",
+        "from": "0x7Aa4D3029e4C6A8E916300014Ad95B6d6C03BFd1",
+        "to": "0xC5aF84701f98Fa483eCe78aF83F11b6C38ACA71D",
+        "token_contract": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "raw_amount": "150000000000",
+        "decimals": 6,
+        "amount_usdt": "150000"
+      },
+      {
+        "timestamp_utc": "2026-10-29T21:09:11.000000Z",
+        "transaction_hash": "0x2a1979ae32a40c0aaa0df757f6af690857c6c8cb86097cac29316597de9469f6",
+        "from": "0x7Aa4D3029e4C6A8E916300014Ad95B6d6C03BFd1",
+        "to": "0xc7bBeC68d12a0d1830360F8Ec58fA599bA1b0e9b",
+        "token_contract": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "raw_amount": "1320000000000",
+        "decimals": 6,
+        "amount_usdt": "1320000"
+      },
+      {
+        "timestamp_utc": "2026-10-29T21:11:11.000000Z",
+        "transaction_hash": "0x9a7645882a20445c5a731a15f34e1757f0b6c52e8f51a4ddb8c09cdc424295ce",
+        "from": "0x7Aa4D3029e4C6A8E916300014Ad95B6d6C03BFd1",
+        "to": "0xCcBEF95633ADB5Cd2b5038DB5a38d77E726cA263",
+        "token_contract": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "raw_amount": "30000000000000",
+        "decimals": 6,
+        "amount_usdt": "30000000"
+      }
+    ]
+  },
+  "classification": "two-provider-current-state-blacklist-check; single-provider-token-event-trace",
+  "limitations": [
+    "80m is part of the earlier 130m and 700m amounts; do not add across hops.",
+    "Token transfers were obtained from Blockscout only; direct Ethereum log verification pending.",
+    "No custody, cash-out, exchange or beneficial ownership conclusion."
+  ]
+}
