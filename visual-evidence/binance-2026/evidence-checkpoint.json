@@ -46,8 +46,15 @@
       "first_page_usdt_to": "0x5227f603C1eE34CE3C06eFe6477003BDfCCB2f8c",
       "token_transfers_first_page_sha256": "e5c4919c7013ae0f31a8ec69449dce5f984b307a99cf27b533d2f48b4085d296",
       "internal_transfers_first_page_sha256": "83b53cff66628af6fdd633c1383c405e2cfb6d40349f68eb9900c88611f4b7a7",
+      "token_transfers_second_page_sha256": "0493335a455c457fba2170a4ef68eed9829979c965a5ac34ffc580d6250c4387",
+      "token_transfer_pages_complete": true,
+      "token_transfer_count": 63,
+      "unique_token_contracts": 63,
+      "distinct_senders": 1,
+      "distinct_receivers": 1,
+      "token_event_ledger": "b004-token-ledger.json",
       "classification": "verified-explorer-data",
-      "limitation": "Token and internal trace responses are paginated; only first pages examined. Native value is from an internal call, not the outer transaction's zero value."
+      "limitation": "Both token event pages checked. Internal trace response is paginated, with only its first page checked. Native value is from an internal call, not the outer transaction's zero value."
     },
     {
       "id": "B005",
@@ -72,7 +79,7 @@
   "unresolved": [
     "Human or organizational attacker attribution",
     "Mechanism through which authorizations were obtained",
-    "Complete token accounting across pagination and chains",
+    "Cross-chain asset accounting and independent verification of token metadata",
     "Independent Binance hot-wallet label corroboration",
     "Issuer freeze and recovery accounting",
     "Cross-provider validation of chain data"
