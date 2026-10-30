@@ -16,7 +16,7 @@ Open [`index.html`](./index.html) locally to view the timeline and transaction m
 - `unresolved` — insufficient evidence to conclude.
 - `rejected` — evidence contradicts the hypothesis.
 
-Only the Ethereum transaction facts explicitly checked in the checkpoint qualify for `verified`. Address roles, motives and cross-chain claims remain `reported` or `unresolved`.
+Only the Ethereum transaction facts explicitly checked in the checkpoint qualify for `verified`. `b004-token-ledger.json` contains all 63 token transfer events returned across the two pages of Blockscout's API: 63 distinct contracts, one sender and one receiver. Address roles, motives and cross-chain claims remain `reported` or `unresolved`.
 
 ## Sources to independently inspect
 
@@ -30,6 +30,7 @@ Only the Ethereum transaction facts explicitly checked in the checkpoint qualify
 - Compare each transaction hash against a primary blockchain explorer or a trusted Ethereum JSON-RPC receipt and transaction response.
 - Preserve `blockNumber`, `blockHash`, `transactionHash`, `from`, `to`, `type`, `status`, authorization list, decoded event logs, evidence retrieval timestamp and source URLs.
 - Reconcile amounts by token decimals; do not treat token transfer events as additional native ETH value.
+- Recheck token contract identifiers, log indices and decimals against an independent chain node before publication as fully independently verified Ethereum facts. The current register is **explorer-data verified**, not multi-provider verified.
 - Distinguish on-chain timestamp, discovery timestamp and publication timestamp.
 - Do not sum issuer freezes and recoveries with gross theft or imply that frozen assets are returned to Binance.
 - Do not infer common ownership solely from coordinated timing, exchange labels or address proximity.
