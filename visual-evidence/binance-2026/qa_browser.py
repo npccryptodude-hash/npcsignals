@@ -46,6 +46,7 @@ def main():
                     check(f"{mode} {filename} exists", path.is_file())
                     if not path.is_file():
                         continue
+                    errors.clear()  # page errors must not carry over to the next HTML file
                     page.goto(path.as_uri(), wait_until="load", timeout=20000)
                     page.wait_for_timeout(200)
                     check(f"{mode} {filename} title", bool(page.title()))
