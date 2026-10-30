@@ -91,7 +91,9 @@
     const event = events[index];
     document.getElementById('event-time').textContent=event.time+' utc';
     document.getElementById('event-title').textContent=event.title;
-    document.getElementById('event-details').textContent=event.detail;\n    document.getElementById('event-mobile-details').textContent=event.detail;\n    document.getElementById('event-expand').open=false;
+    document.getElementById('event-details').textContent=event.detail;
+    document.getElementById('event-mobile-details').textContent=event.detail;
+    document.getElementById('event-expand').open=false;
     const link=document.getElementById('event-link');
     link.replaceChildren();
     if(event.tx){const a=document.createElement('a');a.href='https://etherscan.io/tx/'+event.tx;a.target='_blank';a.rel='noopener noreferrer';a.textContent='inspect transaction / '+event.tx;link.append(a)}
