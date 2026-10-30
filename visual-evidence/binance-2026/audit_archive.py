@@ -44,6 +44,7 @@ b011 = load("b011-80m-recipient-infrastructure.json")
 b012 = load("b012-30m-and-pool-receipts.json")
 b013 = load("b013-independent-rpc-usdt.json")
 b014 = load("b014-independent-rpc-third-hop.json")
+b015 = load("b015-independent-rpc-80m.json")
 
 first = b006["canonical_usdt_positive_outflows"]
 check("two first-hop transfers", len(first) == 2)
@@ -94,6 +95,16 @@ check("80m sum", total(eighty["events"]) == Decimal(80_000_000))
 check("80m 20 records", len(eighty["events"]) == 20)
 check("80m 11 distinct recipients", len({e["to"].lower() for e in eighty["events"]}) == 11)
 check("80m not added to first hop", total(eighty["events"]) < total(first))
+check("80m two provider receipts", len(b015["providers"]) == 2)
+check("80m provider event agreement", b015["providers"][0]["records"] == b015["providers"][1]["records"])
+check("80m check 20 events plus onward", len(b015["providers"][0]["records"]) == len(eighty["events"]) + 1)
+for original, receipt in zip(eighty["events"], b015["providers"][0]["records"][:-1]):
+    check("80m tx agreement", original["transaction_hash"].lower() == receipt["transaction_hash"])
+    check("80m raw agreement", original["raw_amount"] == receipt["raw_amount"])
+    check("80m sender agreement", original["from"].lower() == receipt["from"])
+    check("80m target agreement", original["to"].lower() == receipt["to"])
+check("onward 30m tx agreement", b012["30m_branch"]["canonical_usdt_transfer_hash"].lower() == b015["providers"][0]["records"][-1]["transaction_hash"])
+check("onward 30m raw agreement", Decimal(b015["providers"][0]["records"][-1]["raw_amount"]) == Decimal(30_000_000 * 10**6))
 check("80m contract/no-code split", Decimal(str(b011["canonical_usdt_to_contracts"])) + Decimal(str(b011["canonical_usdt_to_no_contract_code_address"])) == Decimal(80_000_000))
 
 for page in ("README.md", "index.html", "flow.html", "medium-draft.md", "x-draft.md"):
