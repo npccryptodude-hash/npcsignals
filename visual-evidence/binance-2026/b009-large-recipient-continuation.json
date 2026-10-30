@@ -1,0 +1,272 @@
+{
+  "case": "binance-2026-10-29",
+  "checkpoint": "B009-large-recipient-continuation-v1",
+  "checked_on": "2026-10-30",
+  "classification": "single-provider-explorer-data-verified",
+  "source_token_events": "https://eth.blockscout.com/api/v2/addresses/{address}/token-transfers",
+  "source_token_balances": "https://eth.blockscout.com/api/v2/addresses/{address}/token-balances",
+  "canonical_usdt_contract": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+  "branches": [
+    {
+      "branch": "130m",
+      "address": "0x77EDEf23FBd05921c26FE29fcc3A65e14D2ac3eb",
+      "inbound_traced_usdt": "130000000",
+      "outgoing_event_count": 19,
+      "positive_outgoing_event_count": 18,
+      "positive_recipient_count": 10,
+      "outgoing_usdt_total": "130000000",
+      "additional_incoming_usdt_in_snapshot": "0.0002",
+      "reported_current_usdt_balance": "0.0002",
+      "remaining_from_traced_inbound_by_arithmetic": "0",
+      "token_event_response_sha256": "e5155b7275e9249cf4a934e8433c45c57d207bbfcdea46a1ebcbeb26037b3537",
+      "token_balance_response_sha256": "61ad18f5a8864eba65c63bd796ce68f67e50275b8acf8644cb9b01d670c7e789",
+      "events_in_response": 27,
+      "next_page_params_null": true
+    },
+    {
+      "branch": "175m",
+      "address": "0xAa246BF639586a6Ba46762D378CE50cA4fc654a0",
+      "inbound_traced_usdt": "175000000",
+      "outgoing_event_count": 1,
+      "positive_outgoing_event_count": 1,
+      "positive_recipient_count": 1,
+      "outgoing_usdt_total": "127.67248",
+      "additional_incoming_usdt_in_snapshot": "0.0001",
+      "reported_current_usdt_balance": "174999872.32762",
+      "remaining_from_traced_inbound_by_arithmetic": "174999872.32752",
+      "token_event_response_sha256": "c3184d94b99f6722ab47e778a8f47d7ce24516d45670bd4e416cd1ccf7f7939b",
+      "token_balance_response_sha256": "a97430203c6dc484c44aa004acdb316663f99f2a117bf1a9b8206be03edec965",
+      "events_in_response": 7,
+      "next_page_params_null": true
+    }
+  ],
+  "outgoing_canonical_usdt_events": [
+    {
+      "branch": "130m",
+      "timestamp_utc": "2026-10-29T21:04:47.000000Z",
+      "transaction_hash": "0xb7d294873bf18a56ce99115794b8a9a76542791b58456e7a4f94d74f1ae4e41f",
+      "from": "0x77EDEf23FBd05921c26FE29fcc3A65e14D2ac3eb",
+      "to": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+      "token_contract": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+      "raw_amount": "9360000000000",
+      "decimals": 6,
+      "amount_usdt": "9360000"
+    },
+    {
+      "branch": "130m",
+      "timestamp_utc": "2026-10-29T21:04:47.000000Z",
+      "transaction_hash": "0xb7d294873bf18a56ce99115794b8a9a76542791b58456e7a4f94d74f1ae4e41f",
+      "from": "0x77EDEf23FBd05921c26FE29fcc3A65e14D2ac3eb",
+      "to": "0x0d4a11d5EEaaC28EC3F61d100daF4d40471f1852",
+      "token_contract": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+      "raw_amount": "180000000000",
+      "decimals": 6,
+      "amount_usdt": "180000"
+    },
+    {
+      "branch": "130m",
+      "timestamp_utc": "2026-10-29T21:04:47.000000Z",
+      "transaction_hash": "0xb7d294873bf18a56ce99115794b8a9a76542791b58456e7a4f94d74f1ae4e41f",
+      "from": "0x77EDEf23FBd05921c26FE29fcc3A65e14D2ac3eb",
+      "to": "0x11b815efB8f581194ae79006d24E0d814B7697F6",
+      "token_contract": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+      "raw_amount": "760000000000",
+      "decimals": 6,
+      "amount_usdt": "760000"
+    },
+    {
+      "branch": "130m",
+      "timestamp_utc": "2026-10-29T21:04:47.000000Z",
+      "transaction_hash": "0xb7d294873bf18a56ce99115794b8a9a76542791b58456e7a4f94d74f1ae4e41f",
+      "from": "0x77EDEf23FBd05921c26FE29fcc3A65e14D2ac3eb",
+      "to": "0x3416cF6C708Da44DB2624D63ea0AAef7113527C6",
+      "token_contract": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+      "raw_amount": "80000000000",
+      "decimals": 6,
+      "amount_usdt": "80000"
+    },
+    {
+      "branch": "130m",
+      "timestamp_utc": "2026-10-29T21:04:47.000000Z",
+      "transaction_hash": "0xb7d294873bf18a56ce99115794b8a9a76542791b58456e7a4f94d74f1ae4e41f",
+      "from": "0x77EDEf23FBd05921c26FE29fcc3A65e14D2ac3eb",
+      "to": "0x4e68Ccd3E89f51C3074ca5072bbAC773960dFa36",
+      "token_contract": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+      "raw_amount": "6740000000000",
+      "decimals": 6,
+      "amount_usdt": "6740000"
+    },
+    {
+      "branch": "130m",
+      "timestamp_utc": "2026-10-29T21:04:47.000000Z",
+      "transaction_hash": "0xb7d294873bf18a56ce99115794b8a9a76542791b58456e7a4f94d74f1ae4e41f",
+      "from": "0x77EDEf23FBd05921c26FE29fcc3A65e14D2ac3eb",
+      "to": "0x56534741CD8B152df6d48AdF7ac51f75169A83b2",
+      "token_contract": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+      "raw_amount": "2000000000000",
+      "decimals": 6,
+      "amount_usdt": "2000000"
+    },
+    {
+      "branch": "130m",
+      "timestamp_utc": "2026-10-29T21:04:47.000000Z",
+      "transaction_hash": "0xb7d294873bf18a56ce99115794b8a9a76542791b58456e7a4f94d74f1ae4e41f",
+      "from": "0x77EDEf23FBd05921c26FE29fcc3A65e14D2ac3eb",
+      "to": "0x9Db9e0e53058C89e5B94e29621a205198648425B",
+      "token_contract": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+      "raw_amount": "740000000000",
+      "decimals": 6,
+      "amount_usdt": "740000"
+    },
+    {
+      "branch": "130m",
+      "timestamp_utc": "2026-10-29T21:04:47.000000Z",
+      "transaction_hash": "0xb7d294873bf18a56ce99115794b8a9a76542791b58456e7a4f94d74f1ae4e41f",
+      "from": "0x77EDEf23FBd05921c26FE29fcc3A65e14D2ac3eb",
+      "to": "0xc7bBeC68d12a0d1830360F8Ec58fA599bA1b0e9b",
+      "token_contract": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+      "raw_amount": "140000000000",
+      "decimals": 6,
+      "amount_usdt": "140000"
+    },
+    {
+      "branch": "130m",
+      "timestamp_utc": "2026-10-29T21:05:59.000000Z",
+      "transaction_hash": "0xcb8075f1d07bc56e54e59ccd4477d75b6a7b21f265dabe2ee86beeb3f3b38a9d",
+      "from": "0x77EDEf23FBd05921c26FE29fcc3A65e14D2ac3eb",
+      "to": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+      "token_contract": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+      "raw_amount": "9300000000000",
+      "decimals": 6,
+      "amount_usdt": "9300000"
+    },
+    {
+      "branch": "130m",
+      "timestamp_utc": "2026-10-29T21:05:59.000000Z",
+      "transaction_hash": "0xcb8075f1d07bc56e54e59ccd4477d75b6a7b21f265dabe2ee86beeb3f3b38a9d",
+      "from": "0x77EDEf23FBd05921c26FE29fcc3A65e14D2ac3eb",
+      "to": "0x0d4a11d5EEaaC28EC3F61d100daF4d40471f1852",
+      "token_contract": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+      "raw_amount": "390000000000",
+      "decimals": 6,
+      "amount_usdt": "390000"
+    },
+    {
+      "branch": "130m",
+      "timestamp_utc": "2026-10-29T21:05:59.000000Z",
+      "transaction_hash": "0xcb8075f1d07bc56e54e59ccd4477d75b6a7b21f265dabe2ee86beeb3f3b38a9d",
+      "from": "0x77EDEf23FBd05921c26FE29fcc3A65e14D2ac3eb",
+      "to": "0x11b815efB8f581194ae79006d24E0d814B7697F6",
+      "token_contract": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+      "raw_amount": "1140000000000",
+      "decimals": 6,
+      "amount_usdt": "1140000"
+    },
+    {
+      "branch": "130m",
+      "timestamp_utc": "2026-10-29T21:05:59.000000Z",
+      "transaction_hash": "0xcb8075f1d07bc56e54e59ccd4477d75b6a7b21f265dabe2ee86beeb3f3b38a9d",
+      "from": "0x77EDEf23FBd05921c26FE29fcc3A65e14D2ac3eb",
+      "to": "0x3041CbD36888bECc7bbCBc0045E3B1f144466f5f",
+      "token_contract": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+      "raw_amount": "90000000000",
+      "decimals": 6,
+      "amount_usdt": "90000"
+    },
+    {
+      "branch": "130m",
+      "timestamp_utc": "2026-10-29T21:05:59.000000Z",
+      "transaction_hash": "0xcb8075f1d07bc56e54e59ccd4477d75b6a7b21f265dabe2ee86beeb3f3b38a9d",
+      "from": "0x77EDEf23FBd05921c26FE29fcc3A65e14D2ac3eb",
+      "to": "0x3416cF6C708Da44DB2624D63ea0AAef7113527C6",
+      "token_contract": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+      "raw_amount": "210000000000",
+      "decimals": 6,
+      "amount_usdt": "210000"
+    },
+    {
+      "branch": "130m",
+      "timestamp_utc": "2026-10-29T21:05:59.000000Z",
+      "transaction_hash": "0xcb8075f1d07bc56e54e59ccd4477d75b6a7b21f265dabe2ee86beeb3f3b38a9d",
+      "from": "0x77EDEf23FBd05921c26FE29fcc3A65e14D2ac3eb",
+      "to": "0x4e68Ccd3E89f51C3074ca5072bbAC773960dFa36",
+      "token_contract": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+      "raw_amount": "12480000000000",
+      "decimals": 6,
+      "amount_usdt": "12480000"
+    },
+    {
+      "branch": "130m",
+      "timestamp_utc": "2026-10-29T21:05:59.000000Z",
+      "transaction_hash": "0xcb8075f1d07bc56e54e59ccd4477d75b6a7b21f265dabe2ee86beeb3f3b38a9d",
+      "from": "0x77EDEf23FBd05921c26FE29fcc3A65e14D2ac3eb",
+      "to": "0x56534741CD8B152df6d48AdF7ac51f75169A83b2",
+      "token_contract": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+      "raw_amount": "4170000000000",
+      "decimals": 6,
+      "amount_usdt": "4170000"
+    },
+    {
+      "branch": "130m",
+      "timestamp_utc": "2026-10-29T21:05:59.000000Z",
+      "transaction_hash": "0xcb8075f1d07bc56e54e59ccd4477d75b6a7b21f265dabe2ee86beeb3f3b38a9d",
+      "from": "0x77EDEf23FBd05921c26FE29fcc3A65e14D2ac3eb",
+      "to": "0x9Db9e0e53058C89e5B94e29621a205198648425B",
+      "token_contract": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+      "raw_amount": "1920000000000",
+      "decimals": 6,
+      "amount_usdt": "1920000"
+    },
+    {
+      "branch": "130m",
+      "timestamp_utc": "2026-10-29T21:05:59.000000Z",
+      "transaction_hash": "0xcb8075f1d07bc56e54e59ccd4477d75b6a7b21f265dabe2ee86beeb3f3b38a9d",
+      "from": "0x77EDEf23FBd05921c26FE29fcc3A65e14D2ac3eb",
+      "to": "0xc7bBeC68d12a0d1830360F8Ec58fA599bA1b0e9b",
+      "token_contract": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+      "raw_amount": "300000000000",
+      "decimals": 6,
+      "amount_usdt": "300000"
+    },
+    {
+      "branch": "130m",
+      "timestamp_utc": "2026-10-29T21:06:47.000000Z",
+      "transaction_hash": "0x279d12e9a7f594eeaf0eb83fe649f7f2cdf82ced156a82f85014dc56369b36d8",
+      "from": "0x77EDEf23FBd05921c26FE29fcc3A65e14D2ac3eb",
+      "to": "0x7Aa4D3029e4C6A8E916300014Ad95B6d6C03BFd1",
+      "token_contract": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+      "raw_amount": "80000000000000",
+      "decimals": 6,
+      "amount_usdt": "80000000"
+    },
+    {
+      "branch": "175m",
+      "timestamp_utc": "2026-10-29T21:12:59.000000Z",
+      "transaction_hash": "0x11be88b460501b4652e760c41e08cc1f18575e14b6c6ffbb3383e043c2decf34",
+      "from": "0xAa246BF639586a6Ba46762D378CE50cA4fc654a0",
+      "to": "0xe3478b0BB1A5084567C319096437924948Be1964",
+      "token_contract": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+      "raw_amount": "127672480",
+      "decimals": 6,
+      "amount_usdt": "127.67248"
+    },
+    {
+      "branch": "130m",
+      "timestamp_utc": "2026-10-30T07:23:35.000000Z",
+      "transaction_hash": "0xd680bc4fd5573159a0735f2e971b0c1488d1108c259db1734b9d8f3e8f420820",
+      "from": "0x77EDEf23FBd05921c26FE29fcc3A65e14D2ac3eb",
+      "to": "0x7aA4FeD8e29d54aC956786F679e84b765c37bfd1",
+      "token_contract": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+      "raw_amount": "0",
+      "decimals": 6,
+      "amount_usdt": "0"
+    }
+  ],
+  "limitations": [
+    "The 130m branch had 18 positive events and one zero-value event; its 0.0002 USDT balance is explained by later tiny incoming transfers.",
+    "The 175m branch has a single 127.67248 USDT outgoing event, and the explorer currently reports 174999872.327620 USDT remaining including 0.0001 dust.",
+    "A balance is not evidence of a freeze; no freeze or blacklist status was independently established.",
+    "All results are snapshot observations from one explorer provider. No second-provider Ethereum node confirmation.",
+    "No downstream recipient control, exchange custody, cross-chain route or ultimate attribution is established."
+  ]
+}
