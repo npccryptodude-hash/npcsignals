@@ -13,7 +13,7 @@
 <div class="eyebrow">npcsignals / visual evidence archive / b006–b012</div>
 <h1>follow the transfer.<br>separate the inference.</h1>
 <p class="summary">one ethereum canonical-usdt path following the reported binance incident of 29 october 2026. select a branch to follow the observed events. values are not cumulative across hops.</p>
-<div class="warning">explorer-data research snapshot, 30 october 2026. a token transfer is evidence of an event, not proof of ultimate ownership, cash-out, wrongdoing or the cause of the incident. this is not a live monitor.</div>
+<div class="warning">research snapshot, 30 october 2026. the initial 500m and 200m canonical-usdt transfers were cross-checked against two ethereum rpc providers (b013); later routes remain explorer-data observations. transfers do not prove ownership, cash-out or the cause of the incident. not a live monitor.</div>
 <div class="route-controls" role="group" aria-label="Select evidence route">
   <button type="button" data-route="175" aria-pressed="true">175m / retained branch</button>
   <button type="button" data-route="80" aria-pressed="false">80m / liquidity and onward</button>
@@ -41,7 +41,7 @@ const routes={
    ['b007 / 20:59:11','175m usdt','0x9749292d… → 0x811f1585…'],
    ['b008 / 21:08:23','175m usdt','0x811f1585… → 0xaa246bf6…'],
    ['b009–b010 / 30 oct','174,999,872.327620 usdt','balance snapshot; blacklist false at checked blocks','terminal']
-  ],links:[['b009 balance','b009-large-recipient-continuation.json'],['b010 rpc check','b010-blacklist-and-80m.json']]
+  ],links:[['b013 first-hop receipts','b013-independent-rpc-usdt.json'],['b009 balance','b009-large-recipient-continuation.json'],['b010 rpc check','b010-blacklist-and-80m.json']]
  },
  '80':{
   kicker:'branch b / 80m usdt subset',title:'contracts, then a retained 30m hop',status:'single-provider explorer-data',
@@ -55,7 +55,7 @@ const routes={
    ['b009–b010','80m usdt','0x77edef23… → 0x7aa4d302…'],
    ['b011 / 21:08–21:11','50m / contracts + 30m / no-code','10 contract recipients; one unlabelled address'],
    ['b012 / 21:16:11','30m usdt','0xccbef956… → 0xb171ca86…; next balance 30m','terminal']
-  ],links:[['b010 transfers','b010-blacklist-and-80m.json'],['b011 classification','b011-80m-recipient-infrastructure.json'],['b012 token checks','b012-30m-and-pool-receipts.json']]
+  ],links:[['b013 first-hop receipts','b013-independent-rpc-usdt.json'],['b010 transfers','b010-blacklist-and-80m.json'],['b011 classification','b011-80m-recipient-infrastructure.json'],['b012 token checks','b012-30m-and-pool-receipts.json']]
  },
  '200':{
   kicker:'branch b / 200m usdt first hop',title:'reconciled first-hop distribution',status:'single-provider explorer-data',
@@ -67,7 +67,7 @@ const routes={
    ['b006 / 20:33:23','200m usdt','0x5227f603… → 0x0ddf0480…'],
    ['b007 / 20:47–20:52','190m + 10m usdt','19 events across both 500m and 200m branches'],
    ['b008 / 20:57–21:01','190m → 130m + 60m','two token-log recipients; next branches partially traced','terminal']
-  ],links:[['b006 first hop','b006-receiver-outgoing-summary.json'],['b007 ledger','b007-second-hop-usdt-ledger.json'],['b008 third hop','b008-third-hop-usdt-ledger.json']]
+  ],links:[['b013 independent receipts','b013-independent-rpc-usdt.json'],['b006 first hop','b006-receiver-outgoing-summary.json'],['b007 ledger','b007-second-hop-usdt-ledger.json'],['b008 third hop','b008-third-hop-usdt-ledger.json']]
  }
 };
 const text=(id,value)=>{document.getElementById(id).textContent=value};
