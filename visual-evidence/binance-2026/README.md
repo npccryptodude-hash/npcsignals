@@ -2,9 +2,11 @@
 
 > npcsignals · research prototype · 30 october 2026
 
-**status: limited independent explorer-data confirmation / broader incident and attribution unresolved**
+**status: selected ethereum token logs independently cross-checked; fbi official attribution dated 31 october 2026; identity and ledger-to-fbi address overlap unresolved**
 
-This folder contains a static, locally renderable visual evidence prototype for the reported Binance security incident of 29 October 2026. It does not attribute the incident to any individual or organization. The three Ethereum transactions have now been checked against Blockscout API responses; the scope of that verification is precisely recorded in `evidence-checkpoint.json`. Broader asset flows, exchange labels, signing-system compromise and human attribution are not independently established.
+On 31 october 2026 the fbi publicly attributed this attack to north korea / tradertraitor. This is **official government attribution**, not an independent npcsignals finding about who controlled the B006–B015 addresses. The fbi has published a list of implicated or closely connected ethereum addresses; an exact comparison to our address graph remains pending. See [`b016-fbi-attribution-20261101.md`](./b016-fbi-attribution-20261101.md) and the [primary fbi advisory](https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack).
+
+This folder contains a static, locally renderable visual evidence prototype for the reported Binance security incident of 29 October 2026. It does not independently attribute the incident to any individual or organization. The three Ethereum transactions have now been checked against Blockscout API responses; the scope of that verification is precisely recorded in `evidence-checkpoint.json`. Broader asset flows, exchange labels, signing-system compromise and human attribution are not independently established.
 
 Open [`flow.html`](./flow.html) to follow the selective, interactive canonical-USDT routes, or [`index.html`](./index.html) to view the longer timeline, tables and evidence links. Both work locally without a wallet connection, RPC endpoint, API key, external JavaScript library or live blockchain request. They must **not** be described as live monitors. Branches in `flow.html` are selected research routes, not an exhaustive graph of every destination.
 
@@ -23,7 +25,8 @@ Only the Ethereum transaction facts explicitly checked in the checkpoint qualify
 1. Binance, *Security Incident Update*, 30 October 2026: https://www.binance.com/en-AU/support/announcement/detail/c5a8729a97ac486d963784d96c5642d7
 2. TRM Labs, *North Korea Steals USD 6.36 Billion From Binance in the Largest Hack in History*, 29 October 2026: https://www.trmlabs.com/resources/blog/north-korea-steals-usd-6-36-billion-from-binance-in-the-largest-hack-in-history
 3. Bitquery, *Binance Hack: $6.3B Drained on 9 Chains*, figures inspected 30 October 2026: https://bitquery.io/investigations/binance-hack
-4. Ethereum transaction leads: https://etherscan.io/tx/0xad99264d5532ae0dd04b2004eebda05f25657e70dacb764f7ac8d4ccd051298b and https://etherscan.io/tx/0x53bd38b816c23e74134786c29a8c18d792777998a3b9326047b583100e88e2f3
+4. FBI, *North Korea Responsible for $6 Billion+ Binance Attack*, 31 October 2026: https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack
+5. Ethereum transaction leads: https://etherscan.io/tx/0xad99264d5532ae0dd04b2004eebda05f25657e70dacb764f7ac8d4ccd051298b and https://etherscan.io/tx/0x53bd38b816c23e74134786c29a8c18d792777998a3b9326047b583100e88e2f3
 
 ## Publication controls
 
