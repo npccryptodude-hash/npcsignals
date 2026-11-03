@@ -150,3 +150,83 @@ Det kan ikke lenger brukes som et plausibelt inkrementelt finansieringsbehov ute
 - Prop. 1 S (2026–2027), Helse- og omsorgsdepartementet, særlig tabell 5.7 og investeringstilskudd til heldøgns omsorgsplasser.
 - SSB, Eiendomsforvaltning i kommunesektoren, 2025.
 - Statsbudsjettet 2027, investeringslån og relaterte bevilgninger.
+
+
+## I. Prosjektklassifisering — store sykehusinvesteringer
+
+Statsbudsjettet for 2027 viser at de store investeringsprosjektene ikke er én homogen kategori. For baseline-fradrag må vi skille mellom kapasitetsutvidelse/nybygg og tiltak som faktisk kan redusere teknisk backlog.
+
+### Tydelig ny kapasitet / nybygg — ikke automatisk fradrag fra teknisk backlog
+
+- **Nye Oslo universitetssykehus** — stor ny sykehusstruktur / kapasitets- og erstatningsprosjekt.
+- **Nytt Mjøssykehus** — nytt sykehusprosjekt.
+- **Senter for psykisk helse ved St. Olavs hospital** — nytt senter.
+- **Akuttbygg Kristiansand** — nytt akuttbygg.
+- **Fase 1, byggetrinn 2 ved nye Stavanger universitetssjukehus** — videre utbygging av nytt sykehus.
+- **Telemark, Skien — strålebygg/somatikk** — kapasitets-/funksjonsutvidelse.
+- **Nybygg og ombygging ved Åsgård, UNN** — blandet prosjekt; nybyggsdelen er ikke backlog-fradrag uten nærmere fordeling.
+
+**Baseline-behandling:** BEKREFTET INVESTERING, men hovedsakelig **IKKE DIREKTE FRADRAGSBART** mot RIFs tekniske backlog før eventuell erstatning av dårlig bygningsmasse er dokumentert.
+
+### Oppgradering / modernisering / ombygging — mulig direkte overlapp
+
+- **Oppgradering og nybygg Ålesund sjukehus** — blandet, men eksplisitt oppgraderingskomponent.
+- **Utbygging og modernisering av Haugesund sjukehus — byggetrinn 2** — eksplisitt modernisering.
+- **Ombygging av Årstadhuset ved Haukeland universitetssjukehus** — eksplisitt ombygging.
+- **Planarbeid knyttet til oppgradering ved Haukeland universitetssjukehus** — eksplisitt oppgradering.
+- **Nybygg og ombygging ved Åsgård, UNN** — ombyggingsdelen kan overlappe teknisk backlog.
+
+**Baseline-behandling:** **MULIG DIREKTE OVERLAPP** med teknisk etterslep. Krever kostnadsdeling og dokumentasjon av hvilken del av prosjektet som retter eksisterende bygningsmessig tilstand.
+
+### Prosjekter ferdigstilt eller med siste låneutbetaling før/ved 2026
+
+- Nytt sykehus i Drammen ble tatt i bruk i 2025.
+- Nytt universitetssykehus i Stavanger ble tatt i bruk i 2025, mens videre byggetrinn fortsetter.
+- Nytt sykehus Nordmøre og Romsdal ble tatt i bruk i 2025.
+- Enkelte mindre prosjekter har siste låneutbetaling i 2026.
+
+**Baseline-behandling:** disse skal ikke automatisk regnes som ny 2027–2036 programaktivitet. De er relevante som allerede gjennomført baseline og kan ha redusert deler av historisk behov før programperioden.
+
+## J. Foreløpig konsekvens av prosjektklassifiseringen
+
+Den viktigste endringen er at **74,96 mrd. i bygningsrelatert RHF-baseline ikke kan brukes som ett samlet fradrag**.
+
+Den må splittes i minst tre grupper:
+
+1. **ny kapasitet / nybygg**
+2. **erstatning av gammel kapasitet**
+3. **oppgradering / rehabilitering av eksisterende bygg**
+
+Bare gruppe 2 og 3 kan potensielt redusere det samme behovet som RIFs tekniske backlog-estimat, og bare når overlappen er dokumentert.
+
+Dette gjør at et framtidig nettotall for sykehus sannsynligvis må beregnes prosjekt for prosjekt, ikke som:
+
+> 67 mrd. − 74,96 mrd.
+
+men som:
+
+> 67 mrd. − dokumentert backlog-relevant andel av planlagte investeringer.
+
+## K. KOSTRA-status — skole og institusjon
+
+SSB-tabell 12362 er identifisert som riktig nasjonal kilde for funksjonsfordelte kommunale regnskapstall. Funksjonene som må hentes er:
+
+- **222 Skolelokaler**
+- **261 Institusjonslokaler**
+
+For skolelokaler bekrefter SSBs dokumentasjon at funksjon 222 omfatter drift og vedlikehold av kommunale skolelokaler, inkludert relevante bygningskostnader. For institusjonslokaler brukes funksjon 261.
+
+I denne versjonen er de **eksakte nasjonale brutto investeringsbeløpene for 2025 fortsatt UNRESOLVED**, fordi den offentlige tabellvisningen ikke er hentet ut med korrekt variabelvalg ennå.
+
+Det aggregerte tallet på **30,282 mrd. kroner** for kommunal eiendomsforvaltning beholdes derfor som kontrollsum, ikke som sektorfradrag.
+
+### Datakrav før fradrag
+
+For hver funksjon skal vi hente:
+
+- brutto investeringsutgifter 2025
+- eventuelt 2021–2025-serie for å unngå å bruke ett unormalt år
+- andel av total eiendomsinvestering
+- om mulig skille mellom kommune og kommunekonsern
+
+Først da kan skole- og institusjonsbaseline trekkes inn i 2027–2036-modellen.
