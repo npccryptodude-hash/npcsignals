@@ -139,6 +139,26 @@ Derfor må investeringer også vurderes etter om de forbedrer:
 
 På sikt kan kapital være enklere å finansiere enn arbeidskraft er å skaffe.
 
+## 9A. Kryssjekk mot NOU 2026:12 «Én helsetjeneste»
+
+Helsereformutvalgets NOU 2026:12 styrker flere av de strukturelle funnene i denne analysen.
+
+Utvalget peker på sterk vekst i antall eldre, betydelig framtidig mangel på helsepersonell, utilstrekkelig dimensjonering av kommunale helse- og omsorgstjenester og svak robusthet i mange små kommuner. Det argumenterer også for tettere kobling mellom drift og investering.
+
+Dette styrker særlig tre deler av analysen:
+
+- restaurering av dagens bygg må holdes adskilt fra framtidig kapasitetsbehov;
+- arbeidskraft er en egen hard begrensning, uavhengig av tilgjengelig kapital;
+- organisering og ansvarslinjer kan hindre at nasjonal kapasitet omsettes effektivt i lokale tjenester.
+
+NOU-en bekrefter derimot ikke RIFs tekniske etterslepstall, størrelsen på den modellerte 250 mrd.-rammen eller at utsatt vedlikehold er hovedårsaken til alle infrastrukturproblemene.
+
+Analysen bør derfor forstås gjennom fire separate, men sammenhengende begrensninger:
+
+> **finansiell kapasitet → fysisk infrastruktur → arbeidskraft → organisatorisk kapasitet**
+
+Se [cross-check-nou-2026-12-2026-11-02.md](cross-check-nou-2026-12-2026-11-02.md).
+
 ## 10. Hvorfor 250 milliarder ble testet
 
 Arbeidet tester en maksimal tiårsramme på:
