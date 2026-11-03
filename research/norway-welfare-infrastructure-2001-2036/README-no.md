@@ -41,8 +41,7 @@ Programlogikk:
 - [contradiction-log-no.md](contradiction-log-no.md)
 - [model-derivation-and-macro-scale-no.md](model-derivation-and-macro-scale-no.md)
 - [external-review-notes-2026-09-30-no.md](external-review-notes-2026-09-30-no.md)
-- [article/medium-no.md](article/medium-no.md)
-
 - [opportunity-cost-stress-test.md](opportunity-cost-stress-test.md)
 
 - [final-verification-2026-10-11.md](final-verification-2026-10-11.md)
+- [cross-check-nou-2026-12-2026-11-02.md](cross-check-nou-2026-12-2026-11-02.md)
