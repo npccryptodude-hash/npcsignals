@@ -51,8 +51,6 @@ Programme logic:
 - [unresolved-no.md](unresolved-no.md)
 - [contradiction-log-no.md](contradiction-log-no.md)
 - [model-derivation-and-macro-scale-no.md](model-derivation-and-macro-scale-no.md)
-- [article/medium-en.md](article/medium-en.md)
-- [article/medium-no.md](article/medium-no.md)
 
 ## Evidence labels
 
@@ -66,3 +64,4 @@ Programme logic:
 - [opportunity-cost-stress-test.md](opportunity-cost-stress-test.md)
 
 - [final-verification-2026-10-11.md](final-verification-2026-10-11.md)
+- [cross-check-nou-2026-12-2026-11-02.md](cross-check-nou-2026-12-2026-11-02.md)
