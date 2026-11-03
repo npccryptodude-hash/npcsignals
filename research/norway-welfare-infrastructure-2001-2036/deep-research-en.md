@@ -139,6 +139,26 @@ It should also ask whether investment can improve:
 
 In future healthcare planning, capital may be easier to finance than labour is to supply.
 
+## 9A. Cross-check against NOU 2026:12 “Én helsetjeneste”
+
+The Health Reform Commission's NOU 2026:12 strengthens several structural findings in this research.
+
+The commission highlights rapid population ageing, substantial future health-workforce shortages, insufficient municipal health-and-care capacity, weak robustness in many small municipalities, and the need to connect operations and investment more closely.
+
+This particularly strengthens three parts of the analysis:
+
+- restoration of today's assets must remain separate from future capacity demand;
+- labour is a hard constraint independent of financial capital;
+- organisational structure and responsibility can prevent national capacity from being translated efficiently into local services.
+
+The NOU does not independently validate RIF's technical-backlog estimates, the size of the modelled NOK 250bn envelope, or the claim that deferred maintenance is the principal cause of all infrastructure problems.
+
+The research should therefore be read through four separate but interacting constraints:
+
+> **financial capacity → physical infrastructure → labour capacity → organisational capacity**
+
+See [cross-check-nou-2026-12-2026-11-02.md](cross-check-nou-2026-12-2026-11-02.md).
+
 ## 10. Why NOK 250 billion was tested
 
 The research tests a maximum ten-year programme envelope of:
