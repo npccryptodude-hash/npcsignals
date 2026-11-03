@@ -1,6 +1,6 @@
 # Norsk velferdsinfrastruktur 2001–2036
 
-**Status:** Research-pakke  
+**Status:** Research-pakke — ikke publisert utenfor GitHub  
 **Freeze-dato:** 2026-10-11  
 **Historisk periode:** 2001–2025  
 **Programperiode:** 2027–2036  
@@ -45,3 +45,9 @@ Programlogikk:
 
 - [final-verification-2026-10-11.md](final-verification-2026-10-11.md)
 - [cross-check-nou-2026-12-2026-11-02.md](cross-check-nou-2026-12-2026-11-02.md)
+- [stress-test-250bn-post-nou-2026-12.md](stress-test-250bn-post-nou-2026-12.md)
+
+
+## Publiseringsstatus
+
+Materialet i denne research-pakken er **ikke publisert som artikkel**. GitHub er per 3. november 2026 eneste publiserte dokumentasjonsflate for arbeidet. Når oppdaterings- og verifikasjonsarbeidet er ferdig, skal det utarbeides separate norske og engelske Medium-artikler som lenker tilbake til GitHub-kildematerialet.
