@@ -58,6 +58,8 @@ Combined gross scale:
 
 The updated projection changes the interpretation of the NOK 250 billion figure. It can no longer be described as the lower edge of a full gross-scope scenario. Instead, **NOK 250 billion remains a modelled maximum incremental programme envelope**, conditional on baseline subtraction, project prioritisation and the future service mix reducing the gross requirement.
 
+After NOU 2026:12 and the 2027 state-budget material, the baseline requirement is stricter. The regional health authorities' economic long-term plans already contain **NOK 93.61 billion of planned investment for 2027–2030**. Gross technical hospital estimates therefore cannot be added on top of ordinary investment plans without project-level overlap control.
+
 The correct sequence remains:
 
 > **gross need − already-funded relevant investment − avoided/alternative capacity solutions = incremental programme need**
@@ -129,3 +131,12 @@ The actual impact depends on:
 - the composition of spending
 
 The fiscal-rule percentage should therefore remain context, not the programme’s funding formula.
+
+
+## 4. Post-NOU stress test
+
+The model now treats four constraints separately: financial capacity, physical infrastructure, labour capacity and organisational capacity.
+
+NOK 250 billion should therefore be used only as an upper scenario for **incremental programme capacity**, not as documented need or a spending target.
+
+See [stress-test-250bn-post-nou-2026-12.md](stress-test-250bn-post-nou-2026-12.md).
