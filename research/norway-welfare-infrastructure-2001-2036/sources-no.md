@@ -71,6 +71,20 @@ https://www.husbanken.no/kommune/lan-og-tilskudd/investeringstilskudd/veileder/u
 **Helsepersonellplan 2040 / Meld. St. 11 (2025–2026)**  
 https://www.regjeringen.no/no/dokumenter/meld.-st.-11-20252026/id3164917/
 
+## Helsereformutvalget
+
+**NOU 2026:12 — «Én helsetjeneste»**  
+https://www.regjeringen.no/no/dokumenter/nou-2026-12/id3190350/
+
+Brukt til kryssjekk av:
+- aldring og framtidig tjenestebehov
+- helsepersonell og bemanningskapasitet
+- kommunal robusthet
+- organisering og fragmentert ansvar
+- sammenhengen mellom drift og investering
+
+Se også [cross-check-nou-2026-12-2026-11-02.md](cross-check-nou-2026-12-2026-11-02.md).
+
 ## Kildedisiplin
 
 Når et tall endres:
