@@ -16,7 +16,7 @@ Den viktigste nye innsikten er at gjennomføringsevne kan bli en strammere begre
 
 ## 1. Dagens investeringsbaseline kan ikke ignoreres
 
-Spesialisthelsetjenesten investerte **20,3 mrd. kroner i 2025**. Avskrivningene var 9,7 mrd. kroner. Statsbudsjettet for 2027 beskriver samtidig en lang rekke pågående store sykehusprosjekter.
+Spesialisthelsetjenesten investerte **20,3 mrd. kroner i 2025**. Avskrivningene var 9,7 mrd. kroner. De regionale helseforetakenes økonomiske langtidsplaner viser i tillegg **93,61 mrd. kroner i planlagte investeringer for 2027–2030**: 58,95 mrd. i prosjekter/bygningsinvesteringer over 500 mill., 16,01 mrd. i øvrige bygningsinvesteringer, 8,16 mrd. i medisinsk-teknisk utstyr og 10,49 mrd. i IKT og annet. Statsbudsjettet for 2027 beskriver samtidig en lang rekke pågående og planlagte store sykehusprosjekter.
 
 Kommunesektoren investerer samlet rundt **100 mrd. kroner årlig** på tvers av sektorer.
 
@@ -158,7 +158,7 @@ Det kan fortsatt brukes til å teste:
 
 Før et endelig programestimat kan forsvares må vi bygge et baseline-register for minst:
 
-1. pågående og vedtatte større sykehusinvesteringer 2027–2036;
+1. pågående og vedtatte større sykehusinvesteringer 2027–2036, med 93,61 mrd. kroner for 2027–2030 som første dokumenterte baseline;
 2. kommunale skole- og omsorgsinvesteringer som allerede ligger i økonomiplaner;
 3. netto nye versus erstattede heldøgnsplasser;
 4. relevante statlige tilskudd og lånerammer;
