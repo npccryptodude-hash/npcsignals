@@ -156,13 +156,15 @@ Det kan fortsatt brukes til å teste:
 
 ## 10. Neste kvantitative steg
 
-Før et endelig programestimat kan forsvares må vi bygge et baseline-register for minst:
+Baseline-register v0.1 er nå opprettet. Før et endelig programestimat kan forsvares må registeret videreutvikles for minst:
 
 1. pågående og vedtatte større sykehusinvesteringer 2027–2036, med 93,61 mrd. kroner for 2027–2030 som første dokumenterte baseline;
 2. kommunale skole- og omsorgsinvesteringer som allerede ligger i økonomiplaner;
 3. netto nye versus erstattede heldøgnsplasser;
 4. relevante statlige tilskudd og lånerammer;
 5. bemanningskonsekvens for prioriterte kapasitetsvalg.
+
+Se [baseline-register-2027-2036-v0.1.md](baseline-register-2027-2036-v0.1.md).
 
 Først etter dette kan bruttoområdet 269–313 mrd. kroner oversettes til et troverdig inkrementelt intervall.
 
