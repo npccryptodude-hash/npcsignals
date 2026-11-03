@@ -30,6 +30,8 @@ Samlet brutto skala:
 
 Den nye framskrivingen endrer tolkningen av 250 mrd. Tallet kan ikke lenger beskrives som nedre kant av full brutto skala. Det beholdes i stedet som en **modellert maksimal inkrementell programramme**, betinget av baseline-fradrag, prioritering og framtidig tjenestemiks.
 
+Etter NOU 2026:12 og statsbudsjettet 2027 er baseline-fradraget ytterligere skjerpet. Helseforetakenes egne langtidsplaner viser **93,61 mrd. kroner i planlagte investeringer for 2027–2030**. Dette betyr at brutto tekniske sykehusestimater ikke kan legges oppå ordinære investeringsplaner uten prosjekt-for-prosjekt-kontroll for overlapp.
+
 > **brutto behov − allerede finansierte relevante investeringer − unngått/alternativ kapasitetsløsning = inkrementelt programbehov**
 
 ## 2. Makroøkonomisk skala
@@ -54,3 +56,12 @@ Dette tilsvarer omtrent **0,30 % av trend-BNP**.
 Dette er størrelsessammenligninger, ikke prognoser.
 
 Faktisk effekt avhenger av baseline-fradrag, tempo, omprioriteringer, byggekapasitet, arbeidskraft, inflasjon, renter og finansieringsmiks.
+
+
+## 3. Post-NOU stresstest
+
+Etter kryssjekk mot NOU 2026:12 behandles fire begrensninger separat: finansiell kapasitet, fysisk infrastruktur, arbeidskraft og organisatorisk kapasitet.
+
+250 mrd. skal derfor kun brukes som et øvre scenario for **inkrementell programkapasitet**, ikke som dokumentert behov eller utgiftsmål.
+
+Se [stress-test-250bn-post-nou-2026-12.md](stress-test-250bn-post-nou-2026-12.md).
