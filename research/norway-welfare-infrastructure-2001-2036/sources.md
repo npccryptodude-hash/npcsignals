@@ -129,6 +129,20 @@ Used for:
 
 ---
 
+## Health Reform Commission
+
+**NOU 2026:12 — “Én helsetjeneste”**  
+https://www.regjeringen.no/no/dokumenter/nou-2026-12/id3190350/
+
+Used to cross-check:
+- ageing and future service demand
+- health-workforce capacity
+- municipal robustness
+- organisational fragmentation
+- coordination of operations and investment
+
+See also [cross-check-nou-2026-12-2026-11-02.md](cross-check-nou-2026-12-2026-11-02.md).
+
 ## Source discipline
 
 When a number changes:
