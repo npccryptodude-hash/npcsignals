@@ -1,6 +1,6 @@
 # Norway Welfare Infrastructure 2001–2036
 
-**Status:** Research package  
+**Status:** Research package — not published outside GitHub  
 **Freeze date:** 2026-10-11  
 **Research window:** 2001–2025  
 **Programme window:** 2027–2036  
@@ -65,3 +65,9 @@ Programme logic:
 
 - [final-verification-2026-10-11.md](final-verification-2026-10-11.md)
 - [cross-check-nou-2026-12-2026-11-02.md](cross-check-nou-2026-12-2026-11-02.md)
+- [stress-test-250bn-post-nou-2026-12.md](stress-test-250bn-post-nou-2026-12.md)
+
+
+## Publication status
+
+This research package has **not been published as an article**. As of 3 November 2026, GitHub is the only public documentation surface for this work. Once the update and verification phase is complete, separate Norwegian and English Medium articles will be prepared and will link back to the GitHub research record.
