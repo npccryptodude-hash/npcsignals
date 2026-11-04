@@ -309,3 +309,52 @@ Et foreløpig intervall nå ville derfor få falsk presisjon.
 **Beslutning:** Første inkrementelle intervall utsettes til funksjon 222 og 261 er hentet som offisielle flerårige landstall.
 
 Dette er en metodisk styrking, ikke et tilbakeskritt.
+
+
+## P. KOSTRA audit — additional validation before national extraction
+
+Further source checking confirms that SSB table **12559** is the correct property-management table for investment classification by function, while table **12362** is useful for broader service-area accounting and cross-checks.
+
+A public municipal review reproducing a direct table-12559 extract shows that the ten largest municipalities accounted for approximately **33% of municipal school-building investment in 2015–2022**. This is important for interpretation:
+
+> national school-building investment is materially concentrated in large municipalities and large projects.
+
+Therefore a national average alone cannot tell us how much recurring baseline should be expected in every municipality, nor how much overlaps the technical backlog.
+
+### Data-quality issues now confirmed
+
+SSB's correction log identifies several issues relevant to functions 222 and 261:
+
+- a 2024 accounting change moved project-planning expenditure on function 222 from operations into investment, creating a one-off classification effect;
+- historical corrections for Molde affected both function 222 and function 261 and changed aggregate national values;
+- Leka had exceptional institution-building accounting effects in 2024–2025;
+- SSB states that national aggregates remain comparable across the 2024 municipal reform, while individual regional series can break.
+
+**Method consequence:** the normal baseline will use both **five-year mean and median**, with explicit notes for known accounting anomalies.
+
+## Q. Source hierarchy for final 222 / 261 series
+
+The following source hierarchy is now locked:
+
+1. **SSB Statbank table 12559, EAK Landet** — authoritative national investment series.
+2. SSB correction log — mandatory adjustments/context.
+3. SSB table 12362 and official thematic reports — cross-check only.
+4. Municipal annual reports / KOSTRA comparisons — plausibility controls only.
+5. Secondary reports — no use for national baseline unless independently reproduced.
+
+No low-ranked source may replace a missing Statbank national value.
+
+## R. Current extraction status
+
+The official table structure and function definitions are verified, but the current web-access layer has not yet exposed a complete EAK-Landet 2021–2025 investment series for both functions in a form that can be independently copied and checked.
+
+**Status:** NATIONAL SERIES STILL UNRESOLVED.
+
+This does not block the rest of the audit. The following work can proceed in parallel:
+
+- classify hospital projects by backlog relevance;
+- establish a conservative hospital-overlap range;
+- separate elderly-care renewal from net capacity growth;
+- preserve 222/261 as an explicit unresolved input rather than inserting a proxy.
+
+The first programme-wide incremental range will not be frozen until the authoritative 222/261 series is available.
