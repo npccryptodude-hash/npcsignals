@@ -214,3 +214,33 @@ Sykehusdelen kan nå uttrykkes mer presist:
 > **endelig fradrag: fortsatt UNRESOLVED**
 
 Dette gir et mye bedre utgangspunkt for senere nettoestimat enn å bruke hele 74,96 mrd. i bygningsinvestering som én fradragspost.
+
+
+## 12. Full check — care-capacity baseline
+
+Husbanken's 2025 annual report shows investment-grant commitments for **5,002 round-the-clock care places in 2021–2025**, an average of approximately **1,000 places per year**.
+
+This historical commitment rate must not be read as net growth. The grant scheme funds both:
+- rehabilitation/replacement of existing places;
+- new places without net growth;
+- projects that create net additional capacity.
+
+SSB reports that total institution capacity moved only from **39,305 places in 2021 to 39,915 in 2025**. Government budget documents also state that total round-the-clock capacity has increased only slowly because municipalities simultaneously renew and close old or unsuitable places.
+
+Against this, the updated SSB projection implies approximately **22,800 additional round-the-clock places from 2024 to 2035**, mechanically about **2,073 net additional places per year** over eleven years.
+
+### Interpretation
+
+- Historical grant commitments: ~1,000 places/year, mixed renewal + growth.
+- Mechanical future net-growth requirement: ~2,073 places/year.
+- 2027 proposal: ~1,750 grant-supported places, with 30% of the commitment frame reserved for net growth.
+
+Even if all 1,750 places in 2027 were net additions — which they are not — the volume would remain below the mechanical 2,073-per-year path.
+
+**Status: STRUCTURAL CAPACITY GAP — SUPPORTED.**
+
+This does not mean 22,800 conventional institution places must be built. SSB explicitly notes that the projection depends on future service organisation, health status and family care. The policy mix can shift towards home-based care, staffed care housing and other models.
+
+### Programme consequence
+
+The 97–111bn physical scale test for 22,800 places remains a gross scenario only. Historical grant activity is used to calibrate execution capacity, not as a direct deduction. For 2027–2036, only documented net new capacity that would occur under baseline policy should be deducted from the demographic-capacity component.
