@@ -174,3 +174,43 @@ Først etter dette kan bruttoområdet 269–313 mrd. kroner oversettes til et tr
 - Prop. 1 S (2026–2027), Helse- og omsorgsdepartementet.
 - Prop. 1 S (2026–2027), Kommunal- og distriktsdepartementet.
 - Meld. St. 1 (2026–2027), Nasjonalbudsjettet 2027.
+
+
+## 11. Sykehusbaseline — revidert evidenshierarki
+
+Prosjektgjennomgangen gjør det mulig å skille mellom tre nivåer av mulig overlapp med teknisk backlog:
+
+### Tier 1 — høy-konfidens rehabiliteringskandidat
+
+**Årstadhuset, Haukeland — 611 mill. kroner**
+
+Helse Bergen beskriver prosjektet som rehabilitering av omtrent 18 000 m² eksisterende bygningsmasse. Dette er den reneste identifiserte kandidaten for direkte overlapp med teknisk bygningsbehov.
+
+Beløpet bokføres likevel ikke som endelig fradrag før det er dokumentert at samme bygg/scope inngår i RIF-estimatet og at kostnadsrammen ikke hovedsakelig gjelder funksjonsendring.
+
+### Tier 2 — blandet rehabilitering / ny kapasitet
+
+- Haugesund sjukehus BT2 — 722 mill.
+- Ålesund AIO — 881 mill.
+- Nye UNN Åsgård — 2,119 mrd.
+
+Samlet kostnadsramme:
+
+> **3,722 mrd. kroner**
+
+Alle tre har dokumentert rehabiliterings-/ombyggingskomponent, men også nybygg, kapasitetsøkning eller større funksjonsendringer.
+
+### Tier 3 — hovedsakelig nybygg / kapasitetsutvidelse
+
+Store nybygg og ekspansjonsprosjekter beholdes som ordinær investeringsbaseline, men skal ikke brukes som direkte fradrag mot et teknisk backlog-estimat uten separat dokumentasjon av erstatning av dårlig bygningsmasse.
+
+### Konsekvens
+
+Sykehusdelen kan nå uttrykkes mer presist:
+
+> **RIF brutto teknisk estimat: 67 mrd.**  
+> **Tier 1 identifisert rehabiliteringskandidat: 0,611 mrd.**  
+> **Tier 2 blandet kandidatmasse: 3,722 mrd.**  
+> **endelig fradrag: fortsatt UNRESOLVED**
+
+Dette gir et mye bedre utgangspunkt for senere nettoestimat enn å bruke hele 74,96 mrd. i bygningsinvestering som én fradragspost.
