@@ -230,3 +230,82 @@ For hver funksjon skal vi hente:
 - om mulig skille mellom kommune og kommunekonsern
 
 Først da kan skole- og institusjonsbaseline trekkes inn i 2027–2036-modellen.
+
+
+## L. KOSTRA-verifikasjon — metode og datakvalitet
+
+SSBs publiserte dokumentasjon bekrefter at eiendomsforvaltningen skal rapporteres på egne funksjoner for blant annet:
+
+- **222 Skolelokaler**
+- **261 Institusjonslokaler**
+
+SSB har egne indikatorer for **brutto investeringsutgifter til skolelokaler per innbygger** og **brutto investeringsutgifter til institusjonslokaler per innbygger**. Disse bygger på kommuneregnskapet samt regnskap for relevante kommunale foretak, interkommunale samarbeid og selskaper.
+
+Dette bekrefter at riktig datagrunnlag finnes, men landssummen skal ikke rekonstrueres fra enkeltkommuners årsrapporter eller KOSTRA-gruppeverdier.
+
+### Kontrollspor som ikke brukes som fradrag
+
+Kommunale årsrapporter kan vise:
+- lokale verdier;
+- KOSTRA-grupper;
+- «Landet uten Oslo»;
+- aggregert grunnskolesektor, ofte funksjonene 202, 215, 222 og 223 samlet.
+
+Disse er nyttige som plausibilitetskontroll, men er **ikke** identiske med nasjonal funksjon-222-baseline.
+
+Derfor gjelder:
+
+> Ingen nasjonal skole- eller institusjonsbaseline skal beregnes ved å summere eller ekstrapolere fra kommunale sekundærkilder når den offisielle Statbank-tabellen finnes.
+
+**Status:** METODISK LÅS.
+
+## M. Datakvalitetsforbehold for 2024–2025
+
+SSB har publisert rettinger og særforhold i KOSTRA-dataene som berører blant annet funksjonene 222 og 261.
+
+Eksempler:
+- enkelte tidligere publiserte utgiftstall for skolelokaler og institusjonslokaler er korrigert;
+- enkelte kommuner har ekstraordinære regnskapsføringer knyttet til byggeprosjekter;
+- prosjektutgifter kan i særtilfeller flyttes mellom investering og drift.
+
+Konsekvens:
+
+> Ett enkelt år kan gi et skjevt bilde av normal investeringsbaseline.
+
+Derfor skal den kommunale baseline-estimeringen bygge på en flerårig serie, helst **2021–2025**, og ikke bare 2025.
+
+## N. Revidert baseline-protokoll for skole og institusjon
+
+Når de eksakte Statbank-uttakene foreligger, skal følgende beregnes separat for funksjon 222 og 261:
+
+1. nominelle brutto investeringsutgifter per år, 2021–2025;
+2. femårssnitt;
+3. median;
+4. 2025-nivå;
+5. avvik mellom 2025 og femårssnitt;
+6. eventuell åpenbar engangseffekt;
+7. fremskrevet ordinær baseline 2027–2036 i både nominelt og realt scenario.
+
+Ingen av disse skal automatisk trekkes fullt fra RIFs brutto tekniske estimater.
+
+Fradraget skal begrenses til investeringer som sannsynligvis dekker:
+- rehabilitering;
+- erstatning av teknisk dårlig bygningsmasse;
+- oppgradering av eksisterende bygg.
+
+Ny kapasitet og funksjonsutvidelse skal holdes separat.
+
+## O. Midlertidig beslutning om inkrementelt intervall
+
+Det er **for tidlig** å publisere et lavt/midt/høyt nettobeløp for hele programmet.
+
+Årsaken er ikke mangel på bruttoestimater, men at to store overlappskomponenter fortsatt mangler robust kvantifisering:
+
+- kommunal skolebaseline;
+- kommunal institusjonsbaseline.
+
+Et foreløpig intervall nå ville derfor få falsk presisjon.
+
+**Beslutning:** Første inkrementelle intervall utsettes til funksjon 222 og 261 er hentet som offisielle flerårige landstall.
+
+Dette er en metodisk styrking, ikke et tilbakeskritt.
