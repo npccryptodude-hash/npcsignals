@@ -412,3 +412,94 @@ The hospital component therefore remains:
 > **identified candidate-overlap subset: at least 4.333bn in approved mixed/project frames, subject to scope allocation**
 
 This materially narrows the audit path while preserving the evidence boundary.
+
+
+## U. Hospital project split — higher-confidence classification
+
+A second pass using health-enterprise project descriptions allows a more defensible qualitative split.
+
+### Årstadhuset, Haukeland — HIGH-CONFIDENCE REHABILITATION CANDIDATE
+
+Helse Bergen states that approximately **18,000 m²** of the existing former Women's Clinic building will be rehabilitated for psychiatry and addiction treatment, with planned completion in 2030.
+
+Approved project-cost frame in the 2027 state budget:
+
+> **611 mill. kroner**
+
+**Classification:** HIGH-CONFIDENCE REHABILITATION / ADAPTIVE REUSE CANDIDATE.
+
+This is the cleanest currently identified candidate for overlap with a technical-condition backlog because the project is explicitly a rehabilitation of existing hospital property.
+
+It is still **not booked as a deduction** from RIF's NOK 67bn estimate because we have not yet demonstrated that:
+- the same building and scope are included in RIF's technical estimate;
+- the full 611m addresses technical-condition backlog rather than functional conversion or service redesign.
+
+### Haugesund sjukehus, byggetrinn 2 — MIXED CAPACITY + REHABILITATION
+
+Helse Fonna describes:
+- a new southeast block of about 10,000 m²;
+- larger remodelling of three floors in the existing hospital;
+- replacement/renovation needs in older buildings;
+- parts of the required physical improvement being carried out through building stages 1 and 2.
+
+Approved project-cost frame:
+
+> **722 mill. kroner**
+
+**Classification:** MIXED. Strong evidence of both new capacity and rehabilitation, but no defensible cost split yet.
+
+### Ålesund sjukehus AIO — MIXED UPGRADE + CAPACITY
+
+Helse Møre og Romsdal states that Ålesund hospital, completed in 1971, has substantial need for:
+- upgrading;
+- increased capacity;
+- adaptation to new operating models.
+
+The AIO project includes a major new extension and functional upgrades.
+
+Approved project-cost frame:
+
+> **881 mill. kroner**
+
+**Classification:** MIXED. The project is directly motivated by both technical/functional upgrading and capacity growth.
+
+### Nye UNN Åsgård — MIXED REPLACEMENT + CAPACITY + RENOVATION
+
+UNN describes:
+- more than 20,000 m² of new construction;
+- renovation and demolition of about 23,000 m² of existing buildings;
+- documented building-technical and clinical-operational risk in the existing estate;
+- capacity constraints that cannot be solved within the current structure/building stock alone.
+
+Approved project-cost frame in the 2027 state budget:
+
+> **2,119 mrd. kroner**
+
+**Classification:** MIXED REPLACEMENT / CAPACITY / RENOVATION. Strong evidence that poor existing building condition is part of the project rationale, but the cost frame cannot be assigned wholly to backlog reduction.
+
+## V. Hospital overlap hierarchy
+
+The currently identified projects should now be treated in three evidentiary tiers:
+
+### Tier 1 — high-confidence rehabilitation candidate
+- Årstadhuset: **611m**
+
+### Tier 2 — mixed projects with documented rehabilitation/backlog component
+- Haugesund BT2: **722m**
+- Ålesund AIO: **881m**
+- Nye UNN Åsgård: **2.119bn**
+
+Combined Tier 2 project-cost frames:
+
+> **3.722bn**
+
+### Tier 3 — new-build/capacity projects without demonstrated direct technical-backlog overlap
+Examples include major new hospital and expansion projects. These remain baseline investments but are not candidates for direct deduction from RIF's technical backlog unless replacement of poor-condition assets is separately demonstrated.
+
+### Important boundary
+
+The **611m Tier-1 figure is not yet a deduction**. It is the strongest identified candidate for direct overlap.
+
+The **3.722bn Tier-2 figure is not a deduction**. It is a mixed-project envelope that requires internal cost allocation.
+
+This is materially stronger than treating the earlier 4.333bn subset as one homogeneous overlap ceiling.
