@@ -252,3 +252,81 @@ The evidence boundary therefore remains unchanged:
 ### Implication
 
 The audit can continue to harden project-level overlap without freezing the programme-wide net range prematurely.
+
+
+## 16. Provisional pre-KOSTRA incremental range
+
+Because the authoritative national KOSTRA 222 and 261 series remain unresolved, the programme-wide range is now calculated in a deliberately conservative form that assigns **zero deduction** to school- and institution-building baseline investment.
+
+This means the result is more likely to overstate than understate incremental need.
+
+### Starting gross range
+
+> **NOK 269–313bn**
+
+### Hospital overlap scenarios
+
+- low deduction: **0.611bn** — Tier 1 rehabilitation candidate only
+- midpoint deduction: **2.0bn** — modelled partial allocation across Tier 1 + Tier 2
+- high deduction: **4.333bn** — full identified Tier 1 + Tier 2 project-frame ceiling; not treated as a factual overlap
+
+### Care-capacity baseline scenarios
+
+The 2027 state budget proposes support for about **1,750 round-the-clock care places**, with **30% of the commitment frame reserved for net growth**.
+
+For a transparent ten-year baseline sensitivity, three modelled annual net-growth paths are tested:
+
+- low baseline: **525 net places/year** — equivalent to 30% of 1,750
+- midpoint baseline: **875 net places/year** — 50% of 1,750
+- high baseline: **1,225 net places/year** — 70% of 1,750
+
+Using the 2027 grant frame and proposed 55% grant rate implies a rough project-cost scale of approximately **NOK 4.22m per place**.
+
+Over ten years this produces modelled baseline capacity values of approximately:
+
+- 525/year: **NOK 22.2bn**
+- 875/year: **NOK 36.9bn**
+- 1,225/year: **NOK 51.7bn**
+
+These are **MODELLED BASELINE SENSITIVITIES**, not forecasts.
+
+### Result
+
+#### Lower incremental scenario
+269 − 4.333 − 51.7 ≈
+
+> **NOK 213bn**
+
+#### Midpoint scenario
+291 − 2.0 − 36.9 ≈
+
+> **NOK 252bn**
+
+#### Upper incremental scenario
+313 − 0.611 − 22.2 ≈
+
+> **NOK 290bn**
+
+### Interpretation
+
+> **Provisional pre-KOSTRA incremental range: approximately NOK 213–290bn, midpoint ~NOK 252bn.**
+
+This range is **not final**.
+
+It intentionally applies:
+- no school-building baseline deduction;
+- no institution-building baseline deduction;
+- no quantified alternative-service-model saving;
+- only a limited hospital-overlap sensitivity.
+
+Therefore the final defensible incremental range may move lower once KOSTRA 222/261 and alternative-capacity effects are quantified.
+
+### Consequence for the NOK 250bn ceiling
+
+The midpoint landing close to NOK 250bn does **not** validate the original 250bn figure.
+
+It only shows that, under one explicit set of conservative assumptions, the earlier ceiling remains within the centre of the current sensitivity range.
+
+The research must therefore describe NOK 250bn as:
+
+> **a retained model ceiling that remains plausible under current sensitivities, not an empirically demonstrated requirement.**
