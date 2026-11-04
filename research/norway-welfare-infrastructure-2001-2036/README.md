@@ -67,6 +67,7 @@ Programme logic:
 - [cross-check-nou-2026-12-2026-11-02.md](cross-check-nou-2026-12-2026-11-02.md)
 - [stress-test-250bn-post-nou-2026-12.md](stress-test-250bn-post-nou-2026-12.md)
 - [baseline-register-2027-2036-v0.1.md](baseline-register-2027-2036-v0.1.md)
+- [full-check-status-2026-11-04.md](full-check-status-2026-11-04.md)
 
 
 ## Publication status
