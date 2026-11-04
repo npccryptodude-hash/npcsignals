@@ -140,3 +140,25 @@ The model now treats four constraints separately: financial capacity, physical i
 NOK 250 billion should therefore be used only as an upper scenario for **incremental programme capacity**, not as documented need or a spending target.
 
 See [stress-test-250bn-post-nou-2026-12.md](stress-test-250bn-post-nou-2026-12.md).
+
+
+## 5. Provisional pre-KOSTRA incremental range
+
+While the authoritative national KOSTRA 222 and 261 series remain unresolved, the model uses a conservative sensitivity that applies **zero deduction** for ordinary school- and institution-building baseline investment.
+
+Using:
+- gross scale **NOK 269–313bn**
+- hospital-overlap sensitivity **NOK 0.611–4.333bn**
+- modelled ten-year care-capacity baseline **NOK 22.2–51.7bn**
+
+produces a provisional pre-KOSTRA range of:
+
+> **approximately NOK 213–290bn**
+
+Modelled midpoint:
+
+> **approximately NOK 252bn**
+
+This is **not a final need estimate**. It is deliberately conservative because it does not deduct school/institution baseline investment and does not quantify alternative-service-model effects.
+
+The midpoint being close to NOK 250bn does not validate the original figure; it only shows that the retained ceiling remains central within the current explicit sensitivity analysis.
