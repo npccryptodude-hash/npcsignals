@@ -596,3 +596,47 @@ Det kan ikke gjøres et forsvarlig kronefradrag for 2021–2025-tilsagnene fordi
 For 2027–2036 skal bare dokumentert **netto ny kapasitet som faktisk ville blitt bygget uten det nye programmet** trekkes fra den demografiske kapasitetskomponenten.
 
 **Beslutning:** historiske tilsagn brukes til å kalibrere byggetakt og fornyelsesgrad, ikke som direkte kronefradrag.
+
+
+## Z. Hospital evidence hardening — Haugesund and mixed-project treatment
+
+Helse Fonna's development plan provides stronger evidence for Haugesund than the generic project description alone.
+
+The health enterprise states that:
+- parts of its building stock require upgrading and refurbishment because of **maintenance backlog**;
+- technical systems must be replaced or upgraded in several buildings;
+- at Haugesund hospital, parts of the required physical improvement are being carried out through building stages 1 and 2;
+- after building stage 2 and renovation of old buildings, the total area requirement at Haugesund is expected to be covered.
+
+This materially strengthens the classification of Haugesund BT2.
+
+### Revised Haugesund classification
+
+Previous:
+
+> MIXED — new capacity + rehabilitation.
+
+Revised:
+
+> **MIXED, WITH DIRECTLY DOCUMENTED BACKLOG-RELEVANT COMPONENT.**
+
+The project still cannot be converted into a direct kroner deduction because the available sources do not allocate the total project frame between:
+- replacement of poor-condition assets;
+- technical upgrading;
+- renovation of old buildings;
+- new capacity;
+- functional redesign.
+
+The whole NOK 722m approved frame therefore remains **non-deductible as a block**, but its backlog relevance is no longer merely inferred.
+
+### Evidence rule for mixed hospital projects
+
+A mixed project can only generate a quantified backlog deduction when one of the following is available:
+
+1. a project budget split identifying rehabilitation/replacement costs separately;
+2. a building-level scope that maps directly to the technical-condition estimate;
+3. a documented costed package for deferred-maintenance/technical-upgrade work.
+
+Narrative statements that maintenance backlog is part of the rationale are sufficient to classify overlap, but not sufficient to quantify it.
+
+**Status:** HOSPITAL OVERLAP EVIDENCE STRENGTHENED; KRONE DEDUCTION STILL UNRESOLVED.
