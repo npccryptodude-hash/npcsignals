@@ -358,3 +358,57 @@ This does not block the rest of the audit. The following work can proceed in par
 - preserve 222/261 as an explicit unresolved input rather than inserting a proxy.
 
 The first programme-wide incremental range will not be frozen until the authoritative 222/261 series is available.
+
+
+## S. Quantified hospital overlap candidates — first pass
+
+Using the 2027 health-budget project table, a first subset of projects explicitly described as **oppgradering**, **modernisering** or **ombygging** can be quantified by approved project-cost frame:
+
+- Oppgradering og nybygg Ålesund sjukehus: **881 mill. kr**
+- Utbygging og modernisering av Haugesund sjukehus, byggetrinn 2: **722 mill. kr**
+- Ombygging av Årstadhuset ved Haukeland universitetssjukehus: **611 mill. kr**
+- Nybygg og ombygging ved Åsgård, UNN: **2 119 mill. kr**
+
+Combined approved project-cost frame:
+
+> **4,333 mrd. kroner**
+
+This is **not** a validated deduction from RIF's NOK 67bn hospital backlog.
+
+Reasons:
+
+1. Ålesund and Åsgård are mixed projects containing both new-build and upgrade/conversion elements.
+2. Approved project-cost frame is not equal to remaining expenditure in 2027–2030.
+3. Some project cost may cover equipment, functions or capacity expansion rather than technical-condition backlog.
+4. The RIF estimate and project-cost frames may use different price dates and scope definitions.
+
+### Classification
+
+**4.333bn = CANDIDATE OVERLAP CEILING FOR THIS IDENTIFIED SUBSET, NOT A DEDUCTION.**
+
+The defensible next step is to split each mixed project into:
+- replacement/rehabilitation of existing poor-condition assets;
+- new capacity;
+- functional upgrade;
+- equipment/ICT;
+- other.
+
+Only the first category can be treated as direct overlap with a technical backlog estimate; functional upgrade may overlap only partially.
+
+## T. Hospital baseline range — current defensible state
+
+Current evidence supports three layers:
+
+- **93.61bn** total planned RHF investment, 2027–2030.
+- **74.96bn** classified as projects/building investment before removing embedded MTU/ICT.
+- **4.333bn** approved-cost frames in a first explicitly upgrade/modernisation/conversion-labelled subset.
+
+These numbers answer different questions and must not be subtracted from each other mechanically.
+
+The hospital component therefore remains:
+
+> **RIF gross technical estimate: 67bn**  
+> **direct documented future overlap: not yet closed**  
+> **identified candidate-overlap subset: at least 4.333bn in approved mixed/project frames, subject to scope allocation**
+
+This materially narrows the audit path while preserving the evidence boundary.
