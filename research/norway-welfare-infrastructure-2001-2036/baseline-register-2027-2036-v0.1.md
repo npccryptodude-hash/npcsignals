@@ -503,3 +503,96 @@ The **611m Tier-1 figure is not yet a deduction**. It is the strongest identifie
 The **3.722bn Tier-2 figure is not a deduction**. It is a mixed-project envelope that requires internal cost allocation.
 
 This is materially stronger than treating the earlier 4.333bn subset as one homogeneous overlap ceiling.
+
+
+## W. Omsorgsbaseline 2021–2025 — tilsagn versus faktisk kapasitet
+
+Husbankens årsrapport 2025 oppgir antall heldøgns omsorgsplasser som fikk tilsagn om investeringstilskudd:
+
+| År | Plasser med tilsagn |
+|---|---:|
+| 2021 | 942 |
+| 2022 | 481 |
+| 2023 | 1 312 |
+| 2024 | 1 253 |
+| 2025 | 1 014 |
+| **Sum** | **5 002** |
+
+Femårssnitt:
+
+> **1 000,4 plasser med tilsagn per år**
+
+Dette er **ikke netto nye plasser**.
+
+Ordningen finansierer både:
+- fornyelse av eksisterende sykehjemsplasser/omsorgsboliger;
+- erstatning av gamle og uegnede plasser;
+- netto kapasitetsvekst.
+
+I 2023 ble det tidligere kravet om binding til netto tilvekst fjernet. Mange prosjekter kunne fortsatt gi netto tilvekst, men tilsagnsdataene alene skiller ikke dette rent.
+
+Fra 2027 gjeninnføres en eksplisitt reserve: 30 prosent av tilsagnsrammen skal forbeholdes plasser som gir netto tilvekst.
+
+### Sammenligning med faktisk institusjonskapasitet
+
+SSB viser totalt antall institusjonsplasser:
+
+- 2021: **39 305**
+- 2022: **39 337**
+- 2023: **39 976**
+- 2024: **40 002**
+- 2025: **39 915**
+
+Netto endring 2021–2025:
+
+> **+610 institusjonsplasser**
+
+Dette kan ikke sammenlignes én-til-én med de 5 002 tilsagnsplassene fordi Husbankordningen også omfatter heldøgnsbemannede omsorgsboliger. Det illustrerer likevel tydelig at store deler av investeringsaktiviteten kan være fornyelse/erstatning snarere enn ren netto vekst.
+
+Regjeringen bekrefter samme mekanisme og skriver at totalantallet heldøgns omsorgsplasser over tid øker svakt, blant annet fordi kommunene samtidig fornyer og legger ned gamle og uegnede plasser.
+
+**Status:** STERKT STØTTET.
+
+## X. Historisk byggetakt mot framtidig behov
+
+SSBs oppdaterte behovsframskriving tilsier om lag **22 800 flere heldøgnsplasser fra 2024 til 2035**.
+
+Mekanisk gjennomsnittlig nødvendig netto vekst over elleve år:
+
+> **ca. 2 073 netto plasser per år**
+
+Historisk 2021–2025 gjennomsnitt for *tilsagn*:
+
+> **ca. 1 000 plasser per år**
+
+Dette er allerede mindre enn halvparten av den mekaniske netto vekstraten som framskrivingen tilsier. Siden historiske tilsagn dessuten inkluderer fornyelse, er faktisk netto vekst lavere enn tilsagnstallet.
+
+2027-forslaget på om lag **1 750 tilsagnsplasser** er en klar opptrapping fra 2021–2025-gjennomsnittet, men selv om alle 1 750 hypotetisk var netto nye plasser, ville det fortsatt ligge under ca. 2 073 per år. I praksis er bare 30 prosent av tilsagnsrammen eksplisitt reservert netto tilvekst.
+
+### Tolkning
+
+Dette styrker konklusjonen om at framtidig eldreomsorgskapasitet ikke kan håndteres ved å videreføre historisk investerings-/tilsagnstakt uendret.
+
+Mulige responser må være en kombinasjon av:
+- høyere netto byggetakt;
+- mer effektiv tjenestemiks;
+- aldersvennlige boliger og hjemmebaserte løsninger;
+- personellbesparende utforming;
+- utskifting av uhensiktsmessig kapasitet;
+- eventuell endring i balansen mellom institusjon og hjemmebasert omsorg.
+
+**Status:** STRUKTURELLT KAPASITETSGAP — STØTTET, men ikke et direkte investeringsbeløp.
+
+## Y. Omsorgsfradrag mot brutto 97–111 mrd.-skalaen
+
+Den tidligere skala-testen på ca. **97–111 mrd. kroner** for 22 800 plasser skal nå behandles som en ren fysisk prosjektkostnadsskala før tjenestemiks og baseline.
+
+Det kan ikke gjøres et forsvarlig kronefradrag for 2021–2025-tilsagnene fordi:
+- de ligger helt eller delvis før programperioden;
+- de inkluderer både fornyelse og vekst;
+- tilsagn er ikke det samme som ferdigstilt kapasitet;
+- noe kapasitet erstatter plasser som samtidig avvikles.
+
+For 2027–2036 skal bare dokumentert **netto ny kapasitet som faktisk ville blitt bygget uten det nye programmet** trekkes fra den demografiske kapasitetskomponenten.
+
+**Beslutning:** historiske tilsagn brukes til å kalibrere byggetakt og fornyelsesgrad, ikke som direkte kronefradrag.
