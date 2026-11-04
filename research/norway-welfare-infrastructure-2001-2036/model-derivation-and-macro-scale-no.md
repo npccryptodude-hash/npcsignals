@@ -65,3 +65,25 @@ Etter kryssjekk mot NOU 2026:12 behandles fire begrensninger separat: finansiell
 250 mrd. skal derfor kun brukes som et øvre scenario for **inkrementell programkapasitet**, ikke som dokumentert behov eller utgiftsmål.
 
 Se [stress-test-250bn-post-nou-2026-12.md](stress-test-250bn-post-nou-2026-12.md).
+
+
+## 4. Foreløpig pre-KOSTRA inkrementelt intervall
+
+Så lenge de autoritative nasjonale KOSTRA-seriene for 222 og 261 ikke er lukket, brukes et konservativt scenario som setter kommunal skole- og institusjonsbaseline til **0 i fradrag**.
+
+Med:
+- brutto skala **269–313 mrd.**
+- sykehusoverlapp **0,611–4,333 mrd.** som sensitivitet
+- modellert omsorgsbaseline **22,2–51,7 mrd.** over ti år
+
+fås et foreløpig pre-KOSTRA-intervall på:
+
+> **omtrent 213–290 mrd. kroner**
+
+Modellert midtpunkt:
+
+> **omtrent 252 mrd. kroner**
+
+Dette er **ikke et ferdig behovsanslag**. Intervallet er bevisst konservativt fordi det ikke trekker fra skole-/institusjonsbaseline eller kvantifiserer alternative tjenestemodeller.
+
+At midtpunktet ligger nær 250 mrd. validerer ikke det opprinnelige tallet; det viser bare at 250 mrd.-taket fortsatt ligger sentralt i dagens eksplisitte sensitivitetsanalyse.
