@@ -10,6 +10,14 @@ This folder contains a static, locally renderable visual evidence prototype for 
 
 Open [`flow.html`](./flow.html) to follow the selective, interactive canonical-USDT routes, or [`index.html`](./index.html) to view the longer timeline, tables and evidence links. Both work locally without a wallet connection, RPC endpoint, API key, external JavaScript library or live blockchain request. They must **not** be described as live monitors. Branches in `flow.html` are selected research routes, not an exhaustive graph of every destination.
 
+## release checkpoint / 7 november 2026
+
+**public repository status:** this evidence archive is available in the repository's `main` branch as of 7 november 2026, including the original research and separately dated b016–b017 addenda. the investigation is **not closed**; later developments need new dated records.
+
+**quality controls:** a local offline archive audit returned `323/323 pass` and a playwright/chromium browser audit returned `76/76 pass` on 30 october after the original interactive fixes. subsequent source notes and a new guide link in `index.html` were added after that test. **no new full browser run of the exact 7 november release revision has been claimed**. archived test results and limitations remain in [the dated qa report](./qa-2026-10-30-retest.md). software tests validate presentation and retained data consistency; they do not independently prove all reported incident claims.
+
+**editorial boundary:** medium articles and x posts are intentionally not included. source-attributed content is separated from directly matched blockchain receipt/log observations.
+
 ## start here / readers and reviewers
 
 - **[case guide: from the beginning to 7 november 2026](./case-guide-start-to-2026-11-07.md)** — a chronological, plain-language explanation, glossary, evidence categories and a route to original transactions.
