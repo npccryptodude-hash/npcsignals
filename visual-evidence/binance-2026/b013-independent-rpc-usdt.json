@@ -1,0 +1,82 @@
+{
+  "case": "binance-2026-10-29",
+  "checkpoint": "B013-independent-rpc-first-hop-usdt-v1",
+  "checked_on": "2026-10-30",
+  "classification": "verified-from-two-public-ethereum-rpc-providers",
+  "canonical_usdt_contract": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+  "transfer_topic0": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+  "providers": [
+    {
+      "provider": "publicnode",
+      "endpoint": "https://ethereum-rpc.publicnode.com",
+      "response_sha256": "01366b239de52d268cba3087c0a9ae76fa272e9cab38089a72438e702379f2e2",
+      "transactions": [
+        {
+          "transaction_hash": "0x68d7d69deaeb9750c38020b4f8d3728146ca8d2267eba1e38cf9b56722ad659a",
+          "block_number": 26300799,
+          "block_hash": "0xa16b1b8b0b342b99ba0217209d439e3d11bd0983f85e11a1c66cc42b6839ffb9",
+          "transaction_status": "success",
+          "token_contract": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+          "token_log_index": 700,
+          "from": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+          "to": "0x9749292d74fd460982d0912ea9515ea24736c762",
+          "raw_amount": "500000000000000",
+          "decimals": 6,
+          "amount_usdt": "500000000"
+        },
+        {
+          "transaction_hash": "0x1fc0ef33a767132edad434834a5555b30fcb5a171206c03b86175ef6dafac81c",
+          "block_number": 26300815,
+          "block_hash": "0x2d62d66105d69465f9372f3f9103dc224b253770cbe8611e19f8755d9440b10b",
+          "transaction_status": "success",
+          "token_contract": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+          "token_log_index": 916,
+          "from": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+          "to": "0x0ddf0480016e6bcb2c1f5d190d221fba1320697e",
+          "raw_amount": "200000000000000",
+          "decimals": 6,
+          "amount_usdt": "200000000"
+        }
+      ]
+    },
+    {
+      "provider": "blastapi",
+      "endpoint": "https://eth-mainnet.public.blastapi.io",
+      "response_sha256": "01366b239de52d268cba3087c0a9ae76fa272e9cab38089a72438e702379f2e2",
+      "transactions": [
+        {
+          "transaction_hash": "0x68d7d69deaeb9750c38020b4f8d3728146ca8d2267eba1e38cf9b56722ad659a",
+          "block_number": 26300799,
+          "block_hash": "0xa16b1b8b0b342b99ba0217209d439e3d11bd0983f85e11a1c66cc42b6839ffb9",
+          "transaction_status": "success",
+          "token_contract": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+          "token_log_index": 700,
+          "from": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+          "to": "0x9749292d74fd460982d0912ea9515ea24736c762",
+          "raw_amount": "500000000000000",
+          "decimals": 6,
+          "amount_usdt": "500000000"
+        },
+        {
+          "transaction_hash": "0x1fc0ef33a767132edad434834a5555b30fcb5a171206c03b86175ef6dafac81c",
+          "block_number": 26300815,
+          "block_hash": "0x2d62d66105d69465f9372f3f9103dc224b253770cbe8611e19f8755d9440b10b",
+          "transaction_status": "success",
+          "token_contract": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+          "token_log_index": 916,
+          "from": "0x5227f603c1ee34ce3c06efe6477003bdfccb2f8c",
+          "to": "0x0ddf0480016e6bcb2c1f5d190d221fba1320697e",
+          "raw_amount": "200000000000000",
+          "decimals": 6,
+          "amount_usdt": "200000000"
+        }
+      ]
+    }
+  ],
+  "verified_first_hop_total_usdt": "700000000",
+  "limitations": [
+    "These two direct first-hop USDT transfers alone are independently RPC cross-checked; other B007-B012 downstream transfers retain explorer-data status.",
+    "Two RPC endpoints may rely on overlapping upstream infrastructure; distinct provider agreement is not proof of independent consensus clients.",
+    "This check does not establish who controlled recipient wallets, funds recovery, issuer freezes, any other asset amount or cross-chain transfers."
+  ]
+}

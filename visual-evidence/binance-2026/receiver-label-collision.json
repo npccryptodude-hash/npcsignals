@@ -1,0 +1,27 @@
+{
+  "case": "binance-2026-10-29",
+  "checkpoint": "receiver-first-page-token-label-collision",
+  "observed_on": "2026-10-30",
+  "source": "https://eth.blockscout.com/api/v2/addresses/0x5227f603C1eE34CE3C06eFe6477003BDfCCB2f8c/token-transfers?filter=from",
+  "source_first_page_sha256": "4eff613044bec7255ba6af6a1b4ecd7d72f8c5701520491796c980cd95bc5324",
+  "coverage": "first 50 descending token-transfer events only; additional pages not yet reviewed",
+  "receiving_wallet": "0x5227f603C1eE34CE3C06eFe6477003BDfCCB2f8c",
+  "canonical_ethereum_usdt_contract": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+  "observed_different_contract": "0x11D0647b8Fee5662eAb6f0257404Ee57C7261cAc",
+  "observed_token_symbol": "USDT",
+  "observed_token_name": "Tether USD",
+  "observed_contract_is_canonical_usdt": false,
+  "illustrative_noncanonical_events": [
+    {"timestamp_utc":"2026-10-30T05:10:11Z","transaction_hash":"0x126cfcfc00f4ebdc970aa6ae0d524fa2b50bffafe0593a75a5ecfe2f6f3479d0","raw_amount":"200000000000000","decimals":6},
+    {"timestamp_utc":"2026-10-30T04:43:35Z","transaction_hash":"0x18bcbf1d097c3b15e57285de58da95669dc276aa6662204c6e9fad9051f5afae","raw_amount":"500000000000000","decimals":6},
+    {"timestamp_utc":"2026-10-30T04:39:35Z","transaction_hash":"0x689c12e5d53f3c9780886b0675b6224900826c3f6eed20bf9dc682a62d2ede97","raw_amount":"200000000000000","decimals":6}
+  ],
+  "classification": "verified-explorer-data-contract-mismatch",
+  "interpretation": "These events must not be included in genuine USDT movement totals merely because the token symbol and display name match. No allegation about token deployer intent or ownership is established.",
+  "next_checks": [
+    "Page through the receiver's full outgoing event history",
+    "Filter by canonical token contract addresses rather than symbol",
+    "Reconcile ETH as native value separately from token events",
+    "Compare source events against transaction receipts and independent RPC data"
+  ]
+}

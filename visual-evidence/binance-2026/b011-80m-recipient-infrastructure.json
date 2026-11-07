@@ -1,0 +1,185 @@
+{
+  "case": "binance-2026-10-29",
+  "checkpoint": "B011-80m-recipient-infrastructure-v1",
+  "checked_on": "2026-10-30",
+  "scope": "11 direct canonical-USDT token-event recipients of B010 80m subbranch",
+  "source": "Blockscout Ethereum API v2 address metadata and B010 token event ledger",
+  "classification": "single-provider-explorer-metadata-observation",
+  "recipient_count": 11,
+  "contract_addresses": 10,
+  "addresses_without_reported_contract_code": 1,
+  "canonical_usdt_to_contracts": "50000000",
+  "canonical_usdt_to_no_contract_code_address": "30000000",
+  "grouped_amounts": [
+    {
+      "type": "contract",
+      "blockscout_name": "UniswapV3Pool",
+      "amount_usdt": "35310000",
+      "events": 13
+    },
+    {
+      "type": "no_contract_code_reported",
+      "blockscout_name": "unlabelled",
+      "amount_usdt": "30000000",
+      "events": 1
+    },
+    {
+      "type": "contract",
+      "blockscout_name": "PoolManager",
+      "amount_usdt": "13410000",
+      "events": 2
+    },
+    {
+      "type": "contract",
+      "blockscout_name": "Uniswap V2",
+      "amount_usdt": "1040000",
+      "events": 2
+    },
+    {
+      "type": "contract",
+      "blockscout_name": "UniswapV2Pair",
+      "amount_usdt": "240000",
+      "events": 2
+    }
+  ],
+  "recipient_metadata": [
+    {
+      "address": "0x000000000004444c5dc75cB358380D2e3dE08A90",
+      "blockscout_is_contract": true,
+      "blockscout_is_verified": true,
+      "blockscout_name": "PoolManager",
+      "creator_address_hash": "0x48E516B34A1274f49457b9C6182097796D0498Cb",
+      "token_transfer_event_count": 2,
+      "canonical_usdt_received_raw": "13410000000000",
+      "canonical_usdt_received": "13410000",
+      "metadata_source": "https://eth.blockscout.com/api/v2/addresses/0x000000000004444c5dc75cB358380D2e3dE08A90",
+      "metadata_response_sha256": "3f5df809d9b3cf71502ddf8684f7d3274009f12ee33b46d9fb9b36126491289d"
+    },
+    {
+      "address": "0x0d4a11d5EEaaC28EC3F61d100daF4d40471f1852",
+      "blockscout_is_contract": true,
+      "blockscout_is_verified": true,
+      "blockscout_name": "Uniswap V2",
+      "creator_address_hash": "0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f",
+      "token_transfer_event_count": 2,
+      "canonical_usdt_received_raw": "1040000000000",
+      "canonical_usdt_received": "1040000",
+      "metadata_source": "https://eth.blockscout.com/api/v2/addresses/0x0d4a11d5EEaaC28EC3F61d100daF4d40471f1852",
+      "metadata_response_sha256": "45604d9714d5b6b86aa7ff8809ad3ce7243dc540639e9e2134fef8d4d770ee3f"
+    },
+    {
+      "address": "0x11b815efB8f581194ae79006d24E0d814B7697F6",
+      "blockscout_is_contract": true,
+      "blockscout_is_verified": true,
+      "blockscout_name": "UniswapV3Pool",
+      "creator_address_hash": "0x1F98431c8aD98523631AE4a59f267346ea31F984",
+      "token_transfer_event_count": 2,
+      "canonical_usdt_received_raw": "2250000000000",
+      "canonical_usdt_received": "2250000",
+      "metadata_source": "https://eth.blockscout.com/api/v2/addresses/0x11b815efB8f581194ae79006d24E0d814B7697F6",
+      "metadata_response_sha256": "d81864f9282ae6ba3177f7a8cac874da5ac1cf0b5fdb211ac6f1a2f185b54438"
+    },
+    {
+      "address": "0x3041CbD36888bECc7bbCBc0045E3B1f144466f5f",
+      "blockscout_is_contract": true,
+      "blockscout_is_verified": true,
+      "blockscout_name": "UniswapV2Pair",
+      "creator_address_hash": "0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f",
+      "token_transfer_event_count": 2,
+      "canonical_usdt_received_raw": "240000000000",
+      "canonical_usdt_received": "240000",
+      "metadata_source": "https://eth.blockscout.com/api/v2/addresses/0x3041CbD36888bECc7bbCBc0045E3B1f144466f5f",
+      "metadata_response_sha256": "a293f78662ff4ee8683a4e44d2331deca298b65419ccd3e42e13bd349c730fa4"
+    },
+    {
+      "address": "0x3416cF6C708Da44DB2624D63ea0AAef7113527C6",
+      "blockscout_is_contract": true,
+      "blockscout_is_verified": true,
+      "blockscout_name": "UniswapV3Pool",
+      "creator_address_hash": "0x1F98431c8aD98523631AE4a59f267346ea31F984",
+      "token_transfer_event_count": 2,
+      "canonical_usdt_received_raw": "640000000000",
+      "canonical_usdt_received": "640000",
+      "metadata_source": "https://eth.blockscout.com/api/v2/addresses/0x3416cF6C708Da44DB2624D63ea0AAef7113527C6",
+      "metadata_response_sha256": "0a89b81a112cd72db7518a3ea108bfec1423fa8666e1b81d72ccbfa6ffb28696"
+    },
+    {
+      "address": "0x4e68Ccd3E89f51C3074ca5072bbAC773960dFa36",
+      "blockscout_is_contract": true,
+      "blockscout_is_verified": true,
+      "blockscout_name": "UniswapV3Pool",
+      "creator_address_hash": "0x1F98431c8aD98523631AE4a59f267346ea31F984",
+      "token_transfer_event_count": 2,
+      "canonical_usdt_received_raw": "18520000000000",
+      "canonical_usdt_received": "18520000",
+      "metadata_source": "https://eth.blockscout.com/api/v2/addresses/0x4e68Ccd3E89f51C3074ca5072bbAC773960dFa36",
+      "metadata_response_sha256": "e6d533197a4c0eca9eda97ad12b827533fe2964202e7a43e8c15b85cfb299935"
+    },
+    {
+      "address": "0x56534741CD8B152df6d48AdF7ac51f75169A83b2",
+      "blockscout_is_contract": true,
+      "blockscout_is_verified": true,
+      "blockscout_name": "UniswapV3Pool",
+      "creator_address_hash": "0x1F98431c8aD98523631AE4a59f267346ea31F984",
+      "token_transfer_event_count": 2,
+      "canonical_usdt_received_raw": "7370000000000",
+      "canonical_usdt_received": "7370000",
+      "metadata_source": "https://eth.blockscout.com/api/v2/addresses/0x56534741CD8B152df6d48AdF7ac51f75169A83b2",
+      "metadata_response_sha256": "f6d81215bb994f5d288d84928884cf067c432fadffe042d8472945b3528ac33c"
+    },
+    {
+      "address": "0x9Db9e0e53058C89e5B94e29621a205198648425B",
+      "blockscout_is_contract": true,
+      "blockscout_is_verified": true,
+      "blockscout_name": "UniswapV3Pool",
+      "creator_address_hash": "0x1F98431c8aD98523631AE4a59f267346ea31F984",
+      "token_transfer_event_count": 2,
+      "canonical_usdt_received_raw": "4860000000000",
+      "canonical_usdt_received": "4860000",
+      "metadata_source": "https://eth.blockscout.com/api/v2/addresses/0x9Db9e0e53058C89e5B94e29621a205198648425B",
+      "metadata_response_sha256": "42238a0b43061de51e621322aadf252e45ebd153718caaa4bf060c4a39e2a5af"
+    },
+    {
+      "address": "0xC5aF84701f98Fa483eCe78aF83F11b6C38ACA71D",
+      "blockscout_is_contract": true,
+      "blockscout_is_verified": true,
+      "blockscout_name": "UniswapV3Pool",
+      "creator_address_hash": "0x1F98431c8aD98523631AE4a59f267346ea31F984",
+      "token_transfer_event_count": 1,
+      "canonical_usdt_received_raw": "150000000000",
+      "canonical_usdt_received": "150000",
+      "metadata_source": "https://eth.blockscout.com/api/v2/addresses/0xC5aF84701f98Fa483eCe78aF83F11b6C38ACA71D",
+      "metadata_response_sha256": "3847e7ab8af84943ae01a83c453db513c466f6b673fcb45a52e354c0e41de4d3"
+    },
+    {
+      "address": "0xc7bBeC68d12a0d1830360F8Ec58fA599bA1b0e9b",
+      "blockscout_is_contract": true,
+      "blockscout_is_verified": true,
+      "blockscout_name": "UniswapV3Pool",
+      "creator_address_hash": "0x1F98431c8aD98523631AE4a59f267346ea31F984",
+      "token_transfer_event_count": 2,
+      "canonical_usdt_received_raw": "1520000000000",
+      "canonical_usdt_received": "1520000",
+      "metadata_source": "https://eth.blockscout.com/api/v2/addresses/0xc7bBeC68d12a0d1830360F8Ec58fA599bA1b0e9b",
+      "metadata_response_sha256": "30009b3c59b8d5c8636091316273d73e9cdbcf177bbbde830b9d175654b03f13"
+    },
+    {
+      "address": "0xCcBEF95633ADB5Cd2b5038DB5a38d77E726cA263",
+      "blockscout_is_contract": false,
+      "blockscout_is_verified": false,
+      "blockscout_name": null,
+      "creator_address_hash": null,
+      "token_transfer_event_count": 1,
+      "canonical_usdt_received_raw": "30000000000000",
+      "canonical_usdt_received": "30000000",
+      "metadata_source": "https://eth.blockscout.com/api/v2/addresses/0xCcBEF95633ADB5Cd2b5038DB5a38d77E726cA263",
+      "metadata_response_sha256": "5e19c5f2d5f40375ec84fb4945646242dbad38c67f8a0d3dd92746dd7698ebe1"
+    }
+  ],
+  "limitations": [
+    "Contract name and verification status come from Blockscout and were not independently decoded or verified against a separate node.",
+    "Token-event transfers to Uniswap-style pools or a PoolManager do not by themselves prove swap execution, realized proceeds, custody or subsequent asset disposition.",
+    "An address without reported contract code is not proof of human ownership or beneficial control.",
+    "The 80m is a subset of earlier 700m USDT tracing and must not be added again."
+  ]
+}
