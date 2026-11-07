@@ -10,6 +10,16 @@ This folder contains a static, locally renderable visual evidence prototype for 
 
 Open [`flow.html`](./flow.html) to follow the selective, interactive canonical-USDT routes, or [`index.html`](./index.html) to view the longer timeline, tables and evidence links. Both work locally without a wallet connection, RPC endpoint, API key, external JavaScript library or live blockchain request. They must **not** be described as live monitors. Branches in `flow.html` are selected research routes, not an exhaustive graph of every destination.
 
+## start here / readers and reviewers
+
+- **[case guide: from the beginning to 7 november 2026](./case-guide-start-to-2026-11-07.md)** — a chronological, plain-language explanation, glossary, evidence categories and a route to original transactions.
+- **[b017: developments during 1–7 november](./b017-weekly-developments-2026-11-01-to-07.md)** — a self-contained, dated weekly annex with source-specific recovery and laundering figures.
+- **[b016: fbi attribution update](./b016-fbi-attribution-20261101.md)** — what the agency published, versus what individual wallet activity can show.
+- **[documentation standard](./documentation-standard.md)** — required claim provenance, evidence classifications, correction history and student-friendly explanations.
+- **[visual timeline](./index.html)** and **[interactive selected transfer routes](./flow.html)** — figures and source links. these are static, selected views, not a full live chain monitor.
+
+**usage rule:** the explanatory guide is a map to evidence, not proof by itself. cite the linked original source or receipt and its time, scope, and limitations. new facts go into dated annexes rather than being retroactively inserted as facts known on 30 october.
+
 ## Evidence policy
 
 - `reported` — a named source identifies an event; direct chain verification is pending.
@@ -51,9 +61,9 @@ Only the Ethereum transaction facts explicitly checked in the checkpoint qualify
 - `b015-independent-rpc-80m.json` independently cross-checks all **20 canonical-USDT transfer events in the 80m split** (three transactions) plus the **30m onward event** (fourth transaction), including token contract, sender, recipient, raw value, block hash and log index. All event details match two public Ethereum RPC providers. The 30m event is a later movement of part of the same 80m, **not an additional 30m**. These checks do not establish swap outcomes or a recipient's current holdings.
 - Run `python3 -B audit_archive.py` for a read-only, offline consistency audit of ledger amounts, canonical contract IDs, RPC checkpoint agreement and publication guards. The audit validates relationships among retained research records; it cannot replace a new blockchain query or identify beneficiaries.
 
-## Draft editorial package (not published)
+## Editorial separation
 
-`medium-draft.md` and `x-draft.md` are lower-case, source-limited drafts for a future short Medium research note and an X post. Hold both until editorial review and a public archive URL are approved. The draft X post intentionally contains a placeholder link; it is not ready to publish.
+medium and x publication drafts are intentionally kept outside this evidence repository. the archive holds research records, source notes and reproducible visualizations only. older deleted drafts may still exist in git history.
 
 ## Relationship to earlier research
 
