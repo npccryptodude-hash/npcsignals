@@ -1,12 +1,12 @@
 # binance / visual evidence archive
 
-> npcsignals · research prototype · 30 october 2026
+> npcsignals · evidence archive · original research 30 october 2026 · documentary updates through 7 november 2026
 
 **status: selected ethereum token logs independently cross-checked; fbi official attribution dated 31 october 2026; identity and ledger-to-fbi address overlap unresolved**
 
 On 31 october 2026 the fbi publicly attributed this attack to north korea / tradertraitor. This is **official government attribution**, not an independent npcsignals finding about who controlled the B006–B015 addresses. The fbi has published a list of implicated or closely connected ethereum addresses; an exact comparison to our address graph remains pending. See [`b016-fbi-attribution-20261101.md`](./b016-fbi-attribution-20261101.md) and the [primary fbi advisory](https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack).
 
-This folder contains a static, locally renderable visual evidence prototype for the reported Binance security incident of 29 October 2026. It does not independently attribute the incident to any individual or organization. The three Ethereum transactions have now been checked against Blockscout API responses; the scope of that verification is precisely recorded in `evidence-checkpoint.json`. Broader asset flows, exchange labels, signing-system compromise and human attribution are not independently established.
+This folder contains a static, locally renderable visual evidence prototype for the reported Binance security incident of 29 October 2026. It does not independently attribute the incident to any individual or organization. The original three Ethereum transaction leads were checked against Blockscout responses; the retained B013–B015 files subsequently cross-checked selected canonical-USDT receipts/logs against two public RPC endpoints. Their exact scopes must not be generalized to the whole incident. Broader asset flows, exchange labels, signing-system compromise and human attribution are not independently established.
 
 Open [`flow.html`](./flow.html) to follow the selective, interactive canonical-USDT routes, or [`index.html`](./index.html) to view the longer timeline, tables and evidence links. Both work locally without a wallet connection, RPC endpoint, API key, external JavaScript library or live blockchain request. They must **not** be described as live monitors. Branches in `flow.html` are selected research routes, not an exhaustive graph of every destination.
 
@@ -28,7 +28,7 @@ Open [`flow.html`](./flow.html) to follow the selective, interactive canonical-U
 - `unresolved` — insufficient evidence to conclude.
 - `rejected` — evidence contradicts the hypothesis.
 
-Only the Ethereum transaction facts explicitly checked in the checkpoint qualify for `verified`. `b004-token-ledger.json` contains all 63 token transfer events returned across the two pages of Blockscout's API: 63 distinct contracts, one sender and one receiver. Address roles, motives and cross-chain claims remain `reported` or `unresolved`.
+Only the Ethereum transaction facts checked in the retained `evidence-checkpoint.json` and the specifically scoped B013–B015 RPC receipt files qualify for their respective verification levels. `b004-token-ledger.json` contains all 63 token transfer events returned across the two pages of Blockscout's API: 63 distinct contracts, one sender and one receiver. Address roles, motives and cross-chain claims remain `reported` or `unresolved`.
 
 ## Sources to independently inspect
 
