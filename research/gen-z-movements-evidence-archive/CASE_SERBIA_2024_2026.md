@@ -18,36 +18,42 @@ student networks remained central during nearly two years of protest and helped 
 
 **CONFIRMED**
 
-serbia's election commission certified the 25 october 2026 parliamentary election results.
+serbia voted on **25 october 2026**.
+
+on **5 november 2026**, the election commission **declared the final result**.
 
 the students' list won:
 
 - **140 of 250 seats**;
 - a parliamentary majority sufficient to form a government.
 
-the former ruling serbian progressive party won 103 seats; minority parties hold the remaining seats.
+the serbian progressive party won 103 seats; minority parties hold the remaining seats.
 
 ## transition status
 
 **CONFIRMED**
 
-the certified result clears the way for a parliament and government led by the student movement.
+the declared final result clears the way for a parliament and government led by the student movement.
 
-as of 8 november 2026, the result has been certified, but the institutional transition is still underway. the new governing structure has not yet had enough time in office for claims of durable reform to be tested.
+as of 8 november 2026:
 
-## inherited-state problem
+- mandates still need to be allocated;
+- parliament must convene before the new government fully takes office;
+- claims of durable institutional reform cannot yet be tested.
 
-**CONFIRMED context**
+## investigations and accountability claims
 
-the outgoing government and existing security institutions remain relevant during the transition.
+**UNRESOLVED IN THIS ARCHIVE**
 
-associated press reported ongoing investigations involving suspected election fraud, attacks on protesters, corruption and police abuse of students.
+the Part V publication draft refers to investigations into alleged election fraud, attacks on protesters, corruption and police abuse, but the archive does not currently hold a verified source sufficient to preserve that package of claims as CONFIRMED.
+
+these claims should remain outside the evidentiary core until sourced directly.
 
 ## interpretation
 
 **SUPPORTED**
 
-serbia demonstrates a successful transition from:
+serbia demonstrates a transition from:
 
 mobilization power → organizational power → electoral power.
 
@@ -64,19 +70,18 @@ grievance → sustained mobilization → durable organization → electoral vehi
 
 ## key sources
 
-- associated press, 6 november 2026  
-  https://apnews.com/article/6313af42f5226c09827d1eac8bb21b6c
+- associated press report on final result, 5 november 2026  
+  publication draft currently links an AP republication:  
+  https://www.lanacion.com.ar/usa/declaration-of-final-vote-results-in-serbia-paves-way-for-student-movement-to-form-government-nid05112026/
 
 - crta, preliminary election observation  
   https://crta.rs/en/the-crta-election-observation-mission-presented-its-preliminary-assessment-of-election-day-mobilization-against-electoral-engineering/
 
-- crta  
-  https://crta.rs/en/
-
 ## open research
 
-- preserve official final vote and seat-allocation documents;
+- preserve a direct election-commission document for the final result;
+- obtain the canonical AP URL;
+- source the investigation / accountability paragraph separately;
 - map candidate-selection and government-formation process;
 - record first cabinet appointments;
-- track rule-of-law, media, policing and anti-corruption reforms separately;
 - distinguish announced reforms from enacted and implemented reforms.
