@@ -20,6 +20,9 @@ Open [`flow.html`](./flow.html) to follow the selective, interactive canonical-U
 
 ## start here / readers and reviewers
 
+**recommended first read: [the visual, evidence-linked story](./VISUAL_STORY.md)** — a native github-readable timeline, incident-mechanism diagram, 700m usdt flow and financial comparison. the same story is also available as a [standalone visual webpage](./story.html), which github displays as html source unless hosted or opened as a local file.
+
+
 - **[case guide: from the beginning to 7 november 2026](./case-guide-start-to-2026-11-07.md)** — a chronological, plain-language explanation, glossary, evidence categories and a route to original transactions.
 - **[b017: developments during 1–7 november](./b017-weekly-developments-2026-11-01-to-07.md)** — a self-contained, dated weekly annex with source-specific recovery and laundering figures.
 - **[b016: fbi attribution update](./b016-fbi-attribution-20261101.md)** — what the agency published, versus what individual wallet activity can show.
