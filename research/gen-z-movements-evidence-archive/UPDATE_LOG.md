@@ -1,41 +1,38 @@
 # update log
 
+## 2026-11-08 — v0.5
+
+reconciled the archive against the sourced publication-ready draft of **who is gen z? part 5 — after the uprising**.
+
+corrections:
+
+- serbia final-result date changed from 6 november to **5 november 2026**;
+- serbia wording changed from **certified** to **declared final result**;
+- unsupported / unrecovered serbia investigation claims removed from CONFIRMED status and placed in source-verification pending;
+- bangladesh NCP result recorded as **six of 300 seats**;
+- bangladesh **98 / 15 / 20** ordinance breakdown credited to **International Crisis Group**, as quoted in the UK government assessment;
+- bangladesh broader reform status phrased as **limited, while still early in the new government's term**;
+- thailand **1,469** figure attributed to HRW's **8 april 2026 UPR submission** and marked as a reported snapshot because the same figure appeared in earlier HRW material;
+- france 5 november entry narrowed to the fact directly supported by the current Euronews source: participation of **five major trade unions** alongside students;
+- broader france shared-demand wording is not treated as verified from Euronews;
+- Medium series index now records Part V as a **publication-ready sourced draft** pending its canonical Medium URL;
+- source index now flags Reuters / AP republication links and preserves a requirement to recover canonical URLs where possible.
+
 ## 2026-11-08 — v0.4
 
-added the next evidence-maintenance layer.
-
 added:
-
-- THAILAND_YEAR_BY_YEAR_LEGAL_TABLE.md — annual legal milestones from the 2020 protest cycle through 2026;
-- BANGLADESH_REFORM_CHECKPOINTS.md — reform-by-reform status separating design, enactment and implementation;
-- DOCUMENT_LINK_MANIFEST.md — durable metadata and source-navigation layer;
-- MEDIUM_SERIES_INDEX.md — verified publication index with a no-guessed-link rule;
-- INDEX.md — lightweight entry page intended to reduce GitHub directory-loading issues.
-
-research improvements:
-
-- thailand aggregate counts are now treated as dated snapshots with overlap warnings;
-- bangladesh reform claims now distinguish enacted laws from contested independence and implementation;
-- medium articles are formally separated from the evidence base;
-- external documents are preserved through metadata and canonical links rather than copied wholesale.
-
-next work:
-
-- identify and verify canonical links for Gen Z Part 1 and Part 2;
-- create article-ready visual assets derived from verified diagrams;
-- continue Serbia institutional checkpoints as parliament and government formation proceed;
-- continue France event ledger if the movement changes phase;
-- extend Bangladesh and Thailand trackers when new primary or high-quality monitoring sources appear.
+- thailand year-by-year legal table;
+- bangladesh reform checkpoints;
+- document / link manifest;
+- medium series index;
+- lightweight INDEX.md.
 
 ## 2026-11-08 — v0.3
 
-added the first visual and event-level documentation layer.
-
 added:
-
-- VISUAL_TIMELINES.md;
-- FRANCE_EVENT_LEDGER.md;
-- SERBIA_CHECKPOINTS.md.
+- visual timelines;
+- france event ledger;
+- serbia checkpoints.
 
 ## 2026-11-08 — v0.2
 
