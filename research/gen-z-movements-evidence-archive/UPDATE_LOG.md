@@ -1,5 +1,30 @@
 # update log
 
+## 2026-11-08 — v0.3
+
+added the first visual and event-level documentation layer.
+
+added:
+
+- VISUAL_TIMELINES.md — rendered mermaid diagrams for the four-power model, comparative pathways, france scaling and serbia's institutional transition;
+- FRANCE_EVENT_LEDGER.md — dated chronology from the first documented school-level digital coordination in september through the post-break phase and 5 november cross-sector strike;
+- SERBIA_CHECKPOINTS.md — explicit transition gates from certified election result through mandate allocation, parliament, government formation, legislation and implementation.
+
+research significance:
+
+- france is now documented as a sequence rather than a single protest label: local grievance → replication → aggregation → coalition expansion;
+- the archive separates peaceful mass participation from violent episodes instead of treating them as equivalent;
+- serbia now has a fail-safe rule against confusing electoral turnover with institutional transformation;
+- visual diagrams are treated as navigation aids, not evidence.
+
+next work:
+
+- thailand year-by-year legal-case table;
+- bangladesh reform implementation checkpoints;
+- official-document preservation / link manifest;
+- published medium-series index;
+- visual assets suitable for article publication derived from the verified archive.
+
 ## 2026-11-08 — v0.2
 
 expanded the archive from case summaries into a more reusable evidence system.
@@ -21,16 +46,6 @@ updated:
 - master timeline;
 - evidence ledger;
 - README navigation.
-
-current next work:
-
-- visual timeline and comparison graphics;
-- official-document preservation where licensing and repository format allow;
-- france day-by-day event ledger;
-- serbia government-formation and reform checkpoints;
-- bangladesh reform implementation checkpoints;
-- thailand year-by-year legal-case table;
-- links to the published gen z medium series.
 
 ## 2026-11-07 — v0.1
 
