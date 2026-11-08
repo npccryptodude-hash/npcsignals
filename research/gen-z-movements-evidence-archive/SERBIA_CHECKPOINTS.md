@@ -1,6 +1,6 @@
 # serbia — institutional checkpoints
 
-version: **0.3**
+version: **0.5**
 
 status date: **8 november 2026**
 
@@ -8,7 +8,7 @@ purpose: prevent the archive from treating electoral victory as institutional re
 
 ## checkpoint 01 — final result
 
-**date:** 6 november 2026  
+**date:** 5 november 2026  
 **status:** PASS / CONFIRMED
 
 the Republic Election Commission declared final results:
@@ -17,13 +17,13 @@ the Republic Election Commission declared final results:
 - Serbian Progressive Party: 103 seats;
 - remaining seats: ethnic-minority parties.
 
-**evidence:** Associated Press citing the Republic Election Commission.
+**evidence:** Associated Press report citing the election commission; publication draft currently carries a republication link.
 
 ## checkpoint 02 — mandate allocation
 
 **status:** PENDING
 
-Serbian election rules require the election commission to formally allocate parliamentary mandates to candidates.
+the election commission must formally allocate parliamentary mandates.
 
 **archive rule:** do not mark parliament as constituted until mandate allocation is documented.
 
@@ -31,7 +31,7 @@ Serbian election rules require the election commission to formally allocate parl
 
 **status:** PENDING
 
-Associated Press reports that the inaugural session must be held within 30 days after mandate allocation / the post-result process described in Serbian election rules.
+the new parliament must convene before the new government can fully take office.
 
 **archive rule:** record:
 - session date;
@@ -66,19 +66,15 @@ watch:
 
 personnel replacement alone does not equal institutional reform.
 
-## checkpoint 06 — rule-of-law actions
+## checkpoint 06 — investigations / rule-of-law actions
 
-**status:** LIVE / EARLY SIGNALS ONLY
+**status:** SOURCE VERIFICATION PENDING
 
-before the new government takes office, AP reports detentions linked to:
-- suspected election fraud;
-- attacks on student protesters;
-- corruption;
-- alleged police abuse.
+the publication draft references investigations into alleged election fraud, attacks on protesters, corruption and police abuse.
 
-nine police officers were detained over alleged torture and harassment of protesting students in August 2026.
+the archive does not currently classify those claims as confirmed because the supporting source was not independently recovered during the article source check.
 
-**classification:** CONFIRMED events, but **NOT YET ATTRIBUTABLE** to institutional reform by the incoming student-backed government.
+**archive rule:** do not attribute pre-government investigations to reform by the incoming government without a verified timeline and source.
 
 ## checkpoint 07 — legislation
 
@@ -88,7 +84,7 @@ record separately:
 1. proposal;
 2. bill introduced;
 3. parliamentary passage;
-4. presidential promulgation where applicable;
+4. promulgation where applicable;
 5. implementing regulations;
 6. implementation;
 7. measurable effect.
@@ -125,8 +121,3 @@ a first meaningful assessment should distinguish:
 **electoral turnover** from **institutional transformation**.
 
 the archive should not declare the latter based on election results alone.
-
-## primary source
-
-Associated Press, 6 November 2026:  
-https://apnews.com/article/serbia-election-results-parliament-6313af42f5226c09827d1eac8bb21b6c
