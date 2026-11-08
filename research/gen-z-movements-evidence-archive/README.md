@@ -1,6 +1,6 @@
 # gen z movements evidence archive
 
-status: **v0.2 / public research archive**
+status: **v0.3 / public research archive**
 
 last updated: **2026-11-08**
 
@@ -43,9 +43,12 @@ the archive is designed so that students, teachers, researchers and other reader
 - actors and organizations directory
 - evidence ledger
 - france edge matrix
+- france event ledger
 - thailand legal-case tracker
 - bangladesh reform tracker
 - serbia institutional tracker
+- serbia institutional checkpoints
+- visual timelines and comparison diagrams
 - comparative framework
 - educator / reader guide
 - update log
@@ -66,6 +69,12 @@ these should not be treated as interchangeable.
 medium articles and social posts are not treated as evidence simply because npcsignals published them.
 
 claims in this archive should trace back to original documents, official records, court material, election authorities, established monitoring organizations, international organizations, or strong independent journalism.
+
+## visual policy
+
+visual diagrams in this archive are summaries of documented relationships and chronology. they do not create new evidence.
+
+where a diagram simplifies a disputed or unresolved point, the case file and evidence ledger control.
 
 ## editorial principle
 
