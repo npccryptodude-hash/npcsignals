@@ -1,8 +1,8 @@
 # gen z movements evidence archive
 
-status: **v0.1 / public research archive**
+status: **v0.2 / public research archive**
 
-last updated: **2026-11-07**
+last updated: **2026-11-08**
 
 ## purpose
 
@@ -36,6 +36,19 @@ the archive is designed so that students, teachers, researchers and other reader
 - bangladesh 2024–2026
 - serbia 2024–2026
 - france 2026
+
+## supporting research layers
+
+- source index
+- actors and organizations directory
+- evidence ledger
+- france edge matrix
+- thailand legal-case tracker
+- bangladesh reform tracker
+- serbia institutional tracker
+- comparative framework
+- educator / reader guide
+- update log
 
 ## core analytical distinction
 
