@@ -1,6 +1,6 @@
 # gen z movements evidence archive
 
-status: **v0.3 / public research archive**
+status: **v0.4 / public research archive**
 
 last updated: **2026-11-08**
 
@@ -17,6 +17,8 @@ the archive is designed so that students, teachers, researchers and other reader
 - inspect the sources behind a claim;
 - compare different movements without assuming they are identical;
 - see what happened after the visible protest phase ended.
+
+for a lighter entry point, open [INDEX.md](./INDEX.md).
 
 ## evidence labels
 
@@ -40,15 +42,19 @@ the archive is designed so that students, teachers, researchers and other reader
 ## supporting research layers
 
 - source index
+- document / link manifest
 - actors and organizations directory
 - evidence ledger
 - france edge matrix
 - france event ledger
 - thailand legal-case tracker
+- thailand year-by-year legal table
 - bangladesh reform tracker
+- bangladesh reform checkpoints
 - serbia institutional tracker
 - serbia institutional checkpoints
 - visual timelines and comparison diagrams
+- medium series index
 - comparative framework
 - educator / reader guide
 - update log
