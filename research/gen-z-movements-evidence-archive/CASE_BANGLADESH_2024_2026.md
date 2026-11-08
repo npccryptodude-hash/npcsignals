@@ -10,13 +10,13 @@ it also shows that some institutional reforms can survive a transition even when
 
 student protests began around the public-sector quota system and widened into a broader movement against the government.
 
-on 5 august 2024, prime minister sheikh hasina left the country. the army announced her resignation and plans for an interim government. student leaders demanded that a civilian interim government be formed in consultation with them.
+on 5 august 2024, prime minister sheikh hasina left the country and an interim government later formed under muhammad yunus.
 
 ## human-rights record
 
 **CONFIRMED**
 
-ohchr documented serious allegations of disproportionate and unlawful force during the protests, including the use of live ammunition. later reporting described serious and systematic human-rights violations during the repression.
+ohchr documented serious allegations of disproportionate and unlawful force during the protests. later reporting described serious and systematic human-rights violations during the repression.
 
 ## transition and reform agenda
 
@@ -31,33 +31,31 @@ the interim government established reform commissions covering:
 - policing;
 - anti-corruption institutions.
 
-these processes fed into the july national charter and a wider reform agenda.
-
 ## political outcome
 
 **CONFIRMED**
 
-in the february 2026 parliamentary election:
+in the 12 february 2026 parliamentary election:
 
 - the bangladesh nationalist party won a large parliamentary majority;
-- tarique rahman became prime minister on 17 february 2026;
-- the youth-led national citizen party won only limited parliamentary representation.
+- the youth-led national citizen party won **six of 300 seats**, according to Reuters reporting;
+- tarique rahman became prime minister on 17 february 2026.
 
 ## reform implementation under elected government
 
 **CONFIRMED / PARTIAL**
 
-uk government fact-finding published in october 2026 reported that the bnp government reviewed interim-government ordinances and converted many into law.
+the elected government reviewed **133 ordinances** from the interim period.
 
-examples include:
+the **98 retained unchanged / 15 revised / 20 repealed or allowed to lapse** breakdown is attributed to **International Crisis Group**, as quoted in the UK government's october 2026 assessment.
 
-- changes to the code of criminal procedure intended to strengthen safeguards against arbitrary arrest;
-- the enforced disappearance prevention and redress bill, passed 7 september 2026;
-- a national human rights commission bill, passed 7 september 2026.
+the same government assessment reports:
 
-some civil-society and opposition actors argued that replacement laws were weaker than the interim-government versions.
-
-sources interviewed during the june 2026 fact-finding mission also described progress on the wider reform agenda as limited, while acknowledging that the government was still early in its term.
+- changes addressing arbitrary arrest were retained;
+- new legislation on enforced disappearance was passed in september 2026;
+- new legislation on the national human rights commission was passed in september 2026;
+- civil-society and opposition actors criticized parts of the replacement framework as weaker than interim versions;
+- interviewed sources described wider reform progress as **limited**, while noting that it was still early in the new government's term.
 
 ## interpretation
 
@@ -82,9 +80,12 @@ mobilization → regime collapse → transitional reform → election → establ
 - uk home office, fact-finding mission, bangladesh, october 2026  
   https://www.gov.uk/government/publications/bangladesh-country-policy-and-information-notes/report-of-a-fact-finding-mission-bangladesh-political-situation-october-2026-accessible
 
+- Reuters post-election reporting, 13 february 2026, currently preserved through a republication link in the publication draft.
+
 ## open research
 
+- obtain and preserve the canonical Reuters URL or a direct primary election result source for the six-seat NCP result;
 - complete chronology from quota ruling to hasina's departure;
 - separate protest deaths, retaliatory violence and post-collapse violence;
 - document NCP organizational development and parliamentary activity;
-- track implementation of july charter commitments through 2027.
+- track implementation of reform commitments through 2027.
