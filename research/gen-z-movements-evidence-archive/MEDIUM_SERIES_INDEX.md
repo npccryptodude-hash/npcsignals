@@ -1,6 +1,6 @@
 # who is gen z? — publication index
 
-version: **0.5**
+version: **0.6**
 
 this file links publication outputs to the research archive.
 
@@ -36,9 +36,12 @@ part 1 and part 2 are known to exist in the series context, but their canonical 
 **who is gen z? part 5**  
 **after the uprising**
 
-publication text dated: **8 november 2026**
+published: **8 november 2026**
 
-status: **PUBLICATION-READY SOURCED DRAFT / CANONICAL MEDIUM URL NOT YET RECORDED**
+status: **PUBLISHED / CANONICAL MEDIUM URL RECORDED**
+
+link:  
+https://medium.com/@npcsignals/who-is-gen-z-part-5-94dc2565a637
 
 core question:
 
