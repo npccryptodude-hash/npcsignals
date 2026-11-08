@@ -20,7 +20,7 @@ updated: **2026-11-08**
 
 **2024–2025** — accountability and institutional reform become central post-uprising issues.
 
-**12 february 2026** — parliamentary election held. bnp wins a large majority; the youth-led national citizen party wins limited representation.
+**12 february 2026** — parliamentary election held. bnp wins a large majority; the youth-led national citizen party wins six of 300 seats.
 
 **17 february 2026** — tarique rahman sworn in as prime minister.
 
@@ -34,7 +34,7 @@ updated: **2026-11-08**
 
 **25 october 2026** — parliamentary election.
 
-**6 november 2026** — final result certified. the students' list wins 140 of 250 seats, clearing the way for a student-movement-led government.
+**5 november 2026** — the election commission declares the final result. the students' list wins 140 of 250 seats, clearing the way for a student-movement-led government.
 
 ## france
 
@@ -48,7 +48,7 @@ updated: **2026-11-08**
 
 **2 november 2026** — schools reopen after midterm break; blockades resume at reduced scale.
 
-**5 november 2026** — major cross-sector strike and protest day links students with national union mobilization.
+**5 november 2026** — five major trade unions participate in a nationwide strike and demonstration day alongside students.
 
 **7 november 2026** — school-level protests persist, with growing tension involving parents, staff, school leaders and police.
 
