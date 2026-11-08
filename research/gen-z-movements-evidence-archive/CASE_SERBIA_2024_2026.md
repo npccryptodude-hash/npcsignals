@@ -4,6 +4,8 @@
 
 serbia is the clearest current example in this archive of a student-led protest movement converting sustained mobilization into national electoral power.
 
+the case has now entered the institutional transition phase.
+
 ## trigger
 
 the movement followed the november 2024 collapse of the novi sad railway-station canopy, which killed 16 people and intensified public demands around accountability and alleged corruption.
@@ -16,7 +18,7 @@ student networks remained central during nearly two years of protest and helped 
 
 **CONFIRMED**
 
-serbia's election commission certified the october 2026 parliamentary election results.
+serbia's election commission certified the 25 october 2026 parliamentary election results.
 
 the students' list won:
 
@@ -24,6 +26,22 @@ the students' list won:
 - a parliamentary majority sufficient to form a government.
 
 the former ruling serbian progressive party won 103 seats; minority parties hold the remaining seats.
+
+## transition status
+
+**CONFIRMED**
+
+the certified result clears the way for a parliament and government led by the student movement.
+
+as of 8 november 2026, the result has been certified, but the institutional transition is still underway. the new governing structure has not yet had enough time in office for claims of durable reform to be tested.
+
+## inherited-state problem
+
+**CONFIRMED context**
+
+the outgoing government and existing security institutions remain relevant during the transition.
+
+associated press reported ongoing investigations involving suspected election fraud, attacks on protesters, corruption and police abuse of students.
 
 ## interpretation
 
@@ -46,15 +64,19 @@ grievance → sustained mobilization → durable organization → electoral vehi
 
 ## key sources
 
-- associated press, 6 november 2026, final vote results certified  
+- associated press, 6 november 2026  
   https://apnews.com/article/6313af42f5226c09827d1eac8bb21b6c
 
-- crta, election observation and post-election analysis  
+- crta, preliminary election observation  
+  https://crta.rs/en/the-crta-election-observation-mission-presented-its-preliminary-assessment-of-election-day-mobilization-against-electoral-engineering/
+
+- crta  
   https://crta.rs/en/
 
 ## open research
 
 - preserve official final vote and seat-allocation documents;
-- map the student list's candidate-selection process;
-- document coalition agreements and first government appointments;
-- create a post-election institutional reform tracker.
+- map candidate-selection and government-formation process;
+- record first cabinet appointments;
+- track rule-of-law, media, policing and anti-corruption reforms separately;
+- distinguish announced reforms from enacted and implemented reforms.
