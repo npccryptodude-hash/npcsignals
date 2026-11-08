@@ -1,14 +1,14 @@
 # serbia institutional tracker
 
-version: **0.2**
+version: **0.5**
 
 status: **live post-election case**
 
-## certified election result
+## final election result
 
 **CONFIRMED**
 
-the serbian election commission certified the 25 october 2026 parliamentary election.
+the serbian election commission declared the final result on **5 november 2026** following the 25 october parliamentary election.
 
 studentska lista — studenti pobeđuju won **140 of 250 seats**.
 
@@ -18,34 +18,35 @@ the serbian progressive party won 103 seats, with minority parties holding the r
 
 **CONFIRMED**
 
-the certified result clears the way for a parliament and government led by the student movement.
+the result clears the way for a parliament and government led by the student movement.
 
-as of the first week of november:
+as of 8 november:
 
-- mandates still had to be allocated;
-- parliament was required to convene within the constitutional / legal timetable;
-- the new government had not yet fully taken office.
+- mandates still have to be allocated;
+- parliament must convene before the new government fully takes office;
+- institutional reform remains unmeasurable at this stage.
 
 ## inherited-state problem
 
-**CONFIRMED context / UNRESOLVED outcome**
+**CONFIRMED AS ANALYTICAL CONTEXT**
 
-the outgoing governing structure and police remained in place during the transition period.
+an electoral majority inherits ministries, prosecutors, regulators, public broadcasters, civil servants, procurement systems, state-owned companies and informal networks that do not disappear on election night.
 
-associated press reported ongoing investigations and detentions involving suspected:
+this is an analytical framework, not proof that any specific inherited institution is acting unlawfully.
 
-- election fraud;
-- attacks on protesters;
-- corruption;
-- police abuse of students.
+## investigation claims
+
+**UNRESOLVED**
+
+claims concerning ongoing investigations into election fraud, attacks on protesters, corruption and police abuse are not currently preserved as confirmed evidence in this tracker because the source package has not been independently verified for the archive.
 
 ## institutional tests to track
 
 ### rule of law
 - prosecutorial independence;
-- handling of corruption cases;
+- corruption cases;
 - accountability for attacks on protesters;
-- treatment of police-abuse allegations.
+- police-abuse allegations.
 
 ### state administration
 - senior appointments;
@@ -62,9 +63,6 @@ associated press reported ongoing investigations and detentions involving suspec
 - voter-register integrity;
 - campaign-finance and media-equality rules.
 
-### european integration
-- whether reform commitments alter serbia's stalled eu-accession process.
-
 ## analytical significance
 
 serbia has crossed from:
@@ -75,7 +73,7 @@ the archive now tracks whether it can convert that into **institutional power**.
 
 ## key sources
 
-- https://apnews.com/article/6313af42f5226c09827d1eac8bb21b6c
+- AP report on final results, 5 november 2026, currently available in the publication file through a republication link
 - https://crta.rs/en/the-crta-election-observation-mission-presented-its-preliminary-assessment-of-election-day-mobilization-against-electoral-engineering/
 - https://crta.rs/en/
 
