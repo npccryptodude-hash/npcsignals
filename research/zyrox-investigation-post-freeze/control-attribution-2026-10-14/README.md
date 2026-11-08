@@ -2,6 +2,12 @@
 
 Research date: 14 October 2026 UTC. Baseline: `b21e5ec2467ff35cb06369d05f5170f5913a697e`. Additive continuation only; historical reports and frozen evidence are not altered. Research took substantially less than the 4–6 hour maximum; that limit was not treated as a minimum. No 384-file audit was repeated.
 
+## start here / visual and educational guide
+
+**[six wallets. seven signers. one transaction. — visual evidence story](./VISUAL_STORY.md)** is the recommended starting point for readers, educators and journalists. github renders its diagrams directly. a [responsive standalone visual case page](./story.html) presents the same bounded findings when opened as an html page. both retain the original 14 october research cutoff; they do **not** add new transaction verification or alter historic evidence.
+
+original medium article: [six wallets. seven signers. one transaction.](https://medium.com/@npcsignals/six-wallets-seven-signers-one-transaction-4c95601a555a). a source-linked explanation of the six source transfers and seven signers is presented first, followed by historical binance-labelled financial routes, the bounded zyrox key comparison and explicit limits on human ownership attribution.
+
 ## Executive findings
 
 **CONFIRMED:** The GLITCH transaction previously summarized principally as the creator's 70-million-token transfer contains **six source-authorized transfers totalling 116,513,762.335674 GLITCH**, with seven transaction signers and the receiving seller as fee payer. The five additional sources contribute **46,513,762.335674 GLITCH**. All six source token balances decrease to zero; recipient balance increases from 2,936,950.790841 to 119,450,713.126515 GLITCH. The seller pays **35,700 lamports once**, with no native balance change in the other six signers. This directly establishes multiparty transaction execution within GLITCH, not shared possession of their keys.
