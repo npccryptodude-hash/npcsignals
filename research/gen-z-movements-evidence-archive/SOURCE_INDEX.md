@@ -1,6 +1,6 @@
 # source index
 
-version: **0.2**
+version: **0.5**
 
 this index lists the main source families used in the archive. case files should cite the strongest available source directly rather than citing this index.
 
@@ -15,7 +15,6 @@ this index lists the main source families used in the archive. case files should
 
 **tier 2 — independent monitoring / international organizations**
 - ohchr
-- osce / odihr
 - crta
 - human rights watch
 - amnesty international
@@ -25,26 +24,24 @@ this index lists the main source families used in the archive. case files should
 - associated press
 - le monde
 - bbc
+- euronews
 
 **tier 4 — secondary / contextual**
-- specialist media
-- academic research
-- archived movement statements
-- public social-media posts, used cautiously and only where provenance is clear
+- international crisis group analysis quoted through a verified government assessment;
+- specialist media;
+- academic research;
+- archived movement statements.
 
 ## thailand
 
-- human rights watch — world report 2026: thailand  
-  https://www.hrw.org/world-report/2026/country-chapters/thailand
-
-- human rights watch — free speech activists get 32-month sentences, 24 february 2026  
-  https://www.hrw.org/news/2026/02/24/thailand-free-speech-activists-get-32-month-sentences
-
-- human rights watch — submission to thailand's universal periodic review, 8 april 2026  
+- HRW — submission to thailand's universal periodic review, 8 april 2026  
   https://www.hrw.org/news/2026/04/08/submission-to-the-universal-periodic-review-of-thailand
 
-- amnesty international — thailand human-rights reporting  
-  https://www.amnesty.org/en/location/asia-and-the-pacific/south-east-asia-and-the-pacific/thailand/
+- HRW — world report 2026: thailand  
+  https://www.hrw.org/world-report/2026/country-chapters/thailand
+
+- HRW — free speech activists get 32-month sentences, 24 february 2026  
+  https://www.hrw.org/news/2026/02/24/thailand-free-speech-activists-get-32-month-sentences
 
 ## bangladesh
 
@@ -57,38 +54,21 @@ this index lists the main source families used in the archive. case files should
 - uk home office — fact-finding mission, bangladesh, october 2026  
   https://www.gov.uk/government/publications/bangladesh-country-policy-and-information-notes/report-of-a-fact-finding-mission-bangladesh-political-situation-october-2026-accessible
 
-- reuters — election and post-uprising reporting, february 2026
+- reuters — post-election reporting, 13 february 2026; canonical Reuters URL still to be recovered in archive
 
 ## serbia
 
-- associated press — final election results certified, 6 november 2026  
-  https://apnews.com/article/6313af42f5226c09827d1eac8bb21b6c
-
-- crta — preliminary election observation, 26 october 2026  
+- associated press — final result declared 5 november 2026; canonical AP URL still to be recovered in archive
+- crta — preliminary election observation  
   https://crta.rs/en/the-crta-election-observation-mission-presented-its-preliminary-assessment-of-election-day-mobilization-against-electoral-engineering/
-
-- crta — ongoing post-election / democratic-institutions reporting  
+- crta  
   https://crta.rs/en/
 
 ## france
 
-- le monde — high-school protest archive  
-  https://www.lemonde.fr/en/french-high-school-protests/
-
-- le monde — 29 september 2026, protests spread beyond paris region  
-  https://www.lemonde.fr/en/france/article/2026/09/29/high-school-protests-spread-across-france-pitting-radical-left-against-government_6758067_7.html
-
-- le monde — 8 october 2026, police intervention and arrests  
-  https://www.lemonde.fr/en/france/article/2026/10/08/french-high-school-protests-the-questions-raised-by-two-weeks-of-police-intervention_6758395_7.html
-
-- le monde — 27 october 2026, government measures  
-  https://www.lemonde.fr/en/france/article/2026/10/27/french-government-announces-measures-to-address-student-protests_6765310_7.html
-
-- le monde — 5 november 2026, cross-sector strike and convergence  
-  https://www.lemonde.fr/en/politics/article/2026/11/05/french-students-unions-and-yellow-vest-protestors-bet-on-common-front-in-new-strike_6772570_5.html
-
-- le monde — 7 november 2026, post-break blockade tensions  
-  https://www.lemonde.fr/en/france/article/2026/11/07/french-high-school-protests-tensions-rose-where-students-resumed-blockades-after-midterm-break_6774488_7.html
+- le monde protest reporting retained for the broader chronology where independently verified;
+- euronews — 4 november 2026, five major unions and 5 november strike  
+  https://fr.euronews.com/2026/11/04/france-greve-generale-le-5-novembre-apres-trois-samedis-de-manifestations
 
 ## source-use rule
 
@@ -97,4 +77,8 @@ a source may establish:
 2. an attributed claim;
 3. an interpretation.
 
-these must not be collapsed into one category. a government statement that a group "controls" a protest is evidence that the government made that claim, not proof that control existed.
+these must not be collapsed into one category.
+
+a source cited through another verified publication must be credited to the original source when the wording depends on that original source.
+
+a republication of Reuters or AP may preserve the report, but the archive should still seek the canonical URL.
