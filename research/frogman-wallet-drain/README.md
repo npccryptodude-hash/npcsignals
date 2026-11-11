@@ -12,6 +12,18 @@ The current evidence reaches verified protocol deposits, bridge settlements, Hyp
 
 This README is the reader-facing summary. Technical records, transaction-level evidence, methodology and evidence classifications remain in the repository.
 
+## educational visual evidence / 11 november 2026
+
+The original verified research checkpoint remains **10 October 2026 / F0607**. The 11 November update adds an educational navigation layer and third-party source comparison, **not a new independently verified blockchain checkpoint**.
+
+- [Visual evidence map — follow the routes and evidence boundaries](./EDUCATIONAL_VISUAL_EVIDENCE.md)
+- [Evidence trace tracker — confirmed records vs external claims](./EVIDENCE_TRACE_TRACKER.md)
+- [Timeline — incident, checkpoints and dated source snapshots](./TIMELINE.md)
+
+The visual map is designed for readers learning how to trace on-chain funds. It separates transaction-level confirmation from inferred connections, pooled/privacy boundaries, and unverified account-count claims. External reports describe 35 and 41 Hyperliquid accounts respectively; their address sets and snapshot times have **not** been independently reconciled. No fresh November balance or redemption check has been completed.
+
+---
+
 ## Current evidence boundary
 
 The strongest current finding is narrow:
