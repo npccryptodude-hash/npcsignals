@@ -30,7 +30,11 @@ or are we
 
 ---
 
-## Research archive
+## research archive
+
+[browse all investigations by topic](research/README.md) — crypto investigations, politics and power, society and institutions, methods and evidence audits. original research records and frozen checkpoints remain accessible.
+
+## historical research reference
 
 ### DDR-01 — Demographic Change & Electoral Competition
 
