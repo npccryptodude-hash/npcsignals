@@ -28,9 +28,9 @@ this is the reader-facing index for the existing research archive. original inve
 
 ## methods and audits
 
-- [ai performance claims — narrative and evidence audit](ai-performance-narrative-audit-/)
+- [ai performance claims — narrative and evidence audit](ai-performance-narrative-audit-2026/README.md)
 - [authority handover — technical documentation](authority-handover/)
-- [tarore — narrative and evidence audit](tarore-narrative-audit-2026/)
+- [traoré — political narrative and evidence audit](traore-narrative-audit-2026/README.md)
 - [gcr-01 — original research files (topic not yet verified)](gcr-01/)
 
 ## how to read this archive
