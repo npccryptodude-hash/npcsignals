@@ -105,3 +105,30 @@ All five transactions show Success and native Arbitrum USDC transfers to Hyperli
 | arbi-20 | 02:53:38 | 512436790 | `0xe120D6d7042faBB3376F27E0E3351d7f3b913c0E` | 48894.883204 | [transaction](https://arbiscan.io/tx/0xed9cc64e93d490aa9bc002d33f7d89502f38793d16bb3d9f0dd081fcc2320899) |
 
 **scope:** 20 of 35 published Arbitrum deposit transactions individually inspected; 15 remain. No first-party Hyperliquid balance or redemption verification has been performed. The amounts are already part of the external inventory and must not be added as new losses.
+
+
+## source-ledger inventory for remaining 15 rows — 12 november 2026
+
+**status: external source indexed, NOT independently verified.** These rows are transcribed from the published Onchain Files #014 ledger. Values are rounded by that source. The destination account, exact token amount, receipt success and Hyperliquid credit must be checked against full primary records before promotion to confirmed. Arbiscan was not accessible for independent inspection in this pass.
+
+| external row | 7 oct utc | source abbreviated wallet | reported usdc (rounded) | original source |
+|---|---|---|---:|---|
+| arbi-21 | 02:54 | `0x6c3b…a3c4` | 48,888 | [onchain files #014](https://www.onchainfiles.io/files/014-frogman-token2049/) |
+| arbi-22 | 02:58 | `0xd974…d77c` | 48,875 | [onchain files #014](https://www.onchainfiles.io/files/014-frogman-token2049/) |
+| arbi-23 | 03:01 | `0x70dd…bf0b` | 48,905 | [onchain files #014](https://www.onchainfiles.io/files/014-frogman-token2049/) |
+| arbi-24 | 03:02 | `0x7140…23f2` | 48,947 | [onchain files #014](https://www.onchainfiles.io/files/014-frogman-token2049/) |
+| arbi-25 | 03:04 | `0xbe46…a2b8` | 49,102 | [onchain files #014](https://www.onchainfiles.io/files/014-frogman-token2049/) |
+| arbi-26 | 03:06 | `0xc039…e346` | 48,472 | [onchain files #014](https://www.onchainfiles.io/files/014-frogman-token2049/) |
+| arbi-27 | 03:06 | `0x6eef…f5d7` | 48,594 | [onchain files #014](https://www.onchainfiles.io/files/014-frogman-token2049/) |
+| arbi-28 | 03:07 | `0x4f55…de34` | 48,711 | [onchain files #014](https://www.onchainfiles.io/files/014-frogman-token2049/) |
+| arbi-29 | 03:09 | `0xc4b2…3ef2` | 98,144 | [onchain files #014](https://www.onchainfiles.io/files/014-frogman-token2049/) |
+| arbi-30 | 03:12 | `0xccca…e9cc` | 98,047 | [onchain files #014](https://www.onchainfiles.io/files/014-frogman-token2049/) |
+| arbi-31 | 03:15 | `0x7cac…fb49` | 98,057 | [onchain files #014](https://www.onchainfiles.io/files/014-frogman-token2049/) |
+| arbi-32 | 03:25 | `0xcf92…e230` | 40,144 | [onchain files #014](https://www.onchainfiles.io/files/014-frogman-token2049/) |
+| arbi-33 | 03:27 | `0xceb5…1042` | 43,936 | [onchain files #014](https://www.onchainfiles.io/files/014-frogman-token2049/) |
+| arbi-34 | 03:31 | `0x6da8…3637` | 43,540 | [onchain files #014](https://www.onchainfiles.io/files/014-frogman-token2049/) |
+| arbi-35 | 03:37 | `0xdf26…44c1` | 41,827 | [onchain files #014](https://www.onchainfiles.io/files/014-frogman-token2049/) |
+
+**reconciliation:** 35/35 external deposit rows now indexed across the two sections of this archive; **20/35 previously reported as directly checked**, 15/35 source-only. This update does **not** increase the independent-verification count. Previous receipt assertions should be reproducibly re-audited before the project presents 20/35 as a fully audited finding.
+
+**important:** onchain files' monitoring widget shows a last-check date of 13 october 2026. No live november XMR1 balance, withdrawal or native monero redemption status is established by that widget.
