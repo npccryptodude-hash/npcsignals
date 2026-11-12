@@ -4,19 +4,19 @@ this is a consolidated navigation page for the existing gamdom investigation. th
 
 ## case records
 
-- [g006](../gamdom-incident-2026-10-g006/)
-- [g008](../gamdom-incident-2026-10-g008/)
-- [g009](../gamdom-incident-2026-10-g009/)
-- [g010](../gamdom-incident-2026-10-g010/)
-- [g011](../gamdom-incident-2026-10-g011/)
-- [g012](../gamdom-incident-2026-10-g012/)
-- [g013](../gamdom-incident-2026-10-g013/)
-- [g014](../gamdom-incident-2026-10-g014/)
-- [g015](../gamdom-incident-2026-10-g015/)
+- [historical transactions and recipient control (g006)](../gamdom-incident-2026-10-g006/)
+- [upstream funding and transaction authorization (g008)](../gamdom-incident-2026-10-g008/)
+- [upstream funding and historical balances (g009)](../gamdom-incident-2026-10-g009/)
+- [ethereum incident-origin reconstruction (g010)](../gamdom-incident-2026-10-g010/)
+- [bnb chain incident-origin reconstruction (g011)](../gamdom-incident-2026-10-g011/)
+- [cross-chain settlement and order verification (g012)](../gamdom-incident-2026-10-g012/)
+- [hot deposits and cross-chain payout evidence (g013)](../gamdom-incident-2026-10-g013/)
+- [payout authorization and unresolved evidence (g014)](../gamdom-incident-2026-10-g014/)
+- [ownership, authorization and principal accounting (g015)](../gamdom-incident-2026-10-g015/)
 
 ## shared investigation
 
-- [shared gamdom investigation](../gamdom-incident-2026-10/)
+- [original incident reconstruction and g005 checkpoint](../gamdom-incident-2026-10/)
 
 ## frozen checkpoint integrity
 
