@@ -56,3 +56,20 @@ The following three receipts were inspected directly on Arbiscan. Each shows a s
 | arbi-05 | 01:56:40 | 512423646 | `0x888795F84f5F81352a7639f1254662ae5897E223` | 93,549.620787 | [arbiscan](https://arbiscan.io/tx/0x0ddf411d8745a28b5efdd1c42ab0a1526c53f1c92b622b36c0f6baf595dc3a9c) |
 
 **progress:** 5 of 35 externally reported deposit transactions checked individually, 30 outstanding. The Arbitrum transfers alone do not verify first-party Hyperliquid credit/fills, current account holdings, redemption, common control or attribution. Do not add the five deposits to the external 2,029,874 USDC figure: they are a subset.
+
+
+## further receipt checks — 12 november 2026 (arbi-06 through arbi-10)
+
+Five additional externally listed Arbitrum transactions were inspected against Arbiscan's transaction details and ERC-20 transfer events. Each has **Success** status and transfers native Arbitrum USDC (contract `0xaf88d065e77c8cC2239327C5EDb3A432268e5831`) to the address labelled Hyperliquid Deposit Bridge 2 (`0x2Df1c51E09aECF9cacB7bc98cB1742757f163dF7`).
+
+| id | utc 7 oct 2026 | block | sender | exact usdc | explorer |
+|---|---|---:|---|---:|---|
+| arbi-06 | 02:05:09 | 512425661 | `0xa3cA6199D8692eC40d0287e615b48d0e8cdE9abe` | 91,232.216513 | [receipt](https://arbiscan.io/tx/0x107db810fd86893dc4cf8df03c1753236e04fc2d7b3f17304b34dfb840c1fa51) |
+| arbi-07 | 02:09:51 | 512426794 | `0x4079067aa1BdfF060c6C45155966D81C79e754e9` | 91,353.381339 | [receipt](https://arbiscan.io/tx/0x0ed5e25dfa5a8a702349a7c05c6e6afe28fd4161ad4c87c056a0460bef9056c6) |
+| arbi-08 | 02:13:35 | 512427700 | `0x68B3A77db46418905C7eaf63324d4adCcE06A680` | 91,283.855105 | [receipt](https://arbiscan.io/tx/0xe295cfe85f341c4abb36c74a22ea62c767788712410f7d10df4b55abcad99b85) |
+| arbi-09 | 02:18:05 | 512428778 | `0xd9249DE6224382CE7791600d1D1F9E5fDF633abB` | 91,382.763365 | [receipt](https://arbiscan.io/tx/0xdffada3de106b8639c6af7e25fc106e075f1c1b02f9ffd8e6facb70413bcf0d8) |
+| arbi-10 | 02:19:24 | 512429103 | `0xd8D06aEcFB5dE45D0dcb655DE57650d0231B0Ef5` | 5,228.747925 | [receipt](https://arbiscan.io/tx/0x36e8c7e021615d79470419f7939ded6ac67db60b4db5c4ae8795be13dea311d7) |
+
+**cumulative scope:** 10 / 35 external deposit transaction receipts individually inspected; 25 remain. This verifies transaction execution, not account-level credits, subsequent trades, current balances or human control. Do not sum these values as new losses.
+
+**editorial note:** all transactions occurred in october; the review date is november. There is no confirmed new november fund movement in these five receipts.
