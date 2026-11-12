@@ -14,10 +14,10 @@ source: https://www.onchainfiles.io/files/014-frogman-token2049/
 
 | external row | timestamp utc (7 oct 2026) | shortened account | reported usdc | explorer source |
 |---|---|---|---:|---|
-| hl-ext-01 | 01:45 | 0x9cb1…c01f | 60,417 | https://arbiscan.io/tx/0xc0e57329 |
-| hl-ext-02 | 01:49 | 0xd7ef…e6b1 | 100,542 | https://arbiscan.io/tx/0xd0904491 |
-| hl-ext-03 | 01:52 | 0x68d6…1ac4 | 93,738 | https://arbiscan.io/tx/0x953cb320 |
-| hl-ext-04 | 02:21 | 0x3e2d…40a1 | 26,823 | https://arbiscan.io/tx/0x963c5625 |
+| hl-ext-01 | 01:45 | 0x9cb1…c01f | 60,417 | [original ledger row](https://www.onchainfiles.io/files/014-frogman-token2049/) |
+| hl-ext-02 | 01:49 | 0xd7ef…e6b1 | 100,542 | [original ledger row](https://www.onchainfiles.io/files/014-frogman-token2049/) |
+| hl-ext-03 | 01:52 | 0x68d6…1ac4 | 93,738 | [original ledger row](https://www.onchainfiles.io/files/014-frogman-token2049/) |
+| hl-ext-04 | 02:21 | 0x3e2d…40a1 | 26,823 | [original ledger row](https://www.onchainfiles.io/files/014-frogman-token2049/) |
 
 **warning:** explorer links above are intentionally *not* treated as complete transaction hashes. shortened values are search identifiers only; use the original source's clickable explorer links to recover complete identifiers. no fabricated full hash is supplied.
 
