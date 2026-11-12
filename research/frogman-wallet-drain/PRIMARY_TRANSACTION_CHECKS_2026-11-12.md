@@ -73,3 +73,20 @@ Five additional externally listed Arbitrum transactions were inspected against A
 **cumulative scope:** 10 / 35 external deposit transaction receipts individually inspected; 25 remain. This verifies transaction execution, not account-level credits, subsequent trades, current balances or human control. Do not sum these values as new losses.
 
 **editorial note:** all transactions occurred in october; the review date is november. There is no confirmed new november fund movement in these five receipts.
+
+
+## additional direct explorer checks — arbi-11 to arbi-15 (12 november 2026)
+
+Each Arbiscan transaction page reports **Success** and an ERC-20 transfer of native Arbitrum USDC (`0xaf88d065e77c8cC2239327C5EDb3A432268e5831`) to Hyperliquid Deposit Bridge 2 (`0x2Df1c51E09aECF9cacB7bc98cB1742757f163dF7`). Times refer to **7 october 2026 UTC**, not new november transfers.
+
+| id | time utc | block | from | usdc | source |
+|---|---|---:|---|---:|---|
+| arbi-11 | 02:28:45 | 512431230 | `0x3b80EEB4bdCebdd93dbbBE16758020e07F41a65C` | 39060.017148 | [arbiscan](https://arbiscan.io/tx/0xfb53cfae8da01080872d645803f8e697e8a864a98a16a0ddbd3e8d1acdc47267) |
+| arbi-12 | 02:29:24 | 512431372 | `0x1137e3fdF575bD635dB491c2B60B5DAc7ae74371` | 39037.205601 | [arbiscan](https://arbiscan.io/tx/0x4e91e92e22531f398718516843815a9e5e678108c02d176aef46681480a5a3bc) |
+| arbi-13 | 02:31:02 | 512431736 | `0x1B1C3046fa9DFC9d5eF66BF00D62A777044F829c` | 39023.538376 | [arbiscan](https://arbiscan.io/tx/0xc51e075dce89cfa5d2ff41c9d75a3ae28770cf72ca6e3c9ad78f45ddadd7a537) |
+| arbi-14 | 02:32:17 | 512432029 | `0x97bFc50655ae2f06eD26EC5C67F476D2BDD0308f` | 39091.006653 | [arbiscan](https://arbiscan.io/tx/0xae5ffb5aa2732bf327772e35fa7523e730006d926a3494a17deb20286b7bafcc) |
+| arbi-15 | 02:33:35 | 512432326 | `0x3Bc6095627E177E7C4C7Bf3f0E3C5182625ed81d` | 39091.478119 | [arbiscan](https://arbiscan.io/tx/0xc67cb35c17bca0d12db1c9118b6a97a6957f6ae0b2fa1127681f6baf3c029931) |
+
+**subtotal of these five:** 195,303.245897 USDC. This is a subset of externally reported deposits, not an additional loss. The five full transaction hashes and sender addresses are distinct. This establishes the Arbitrum token transfers only; Mayan source-side settlements, first-party Hyperliquid account credits, XMR1 trades, withdrawals and November balances are not established by these receipts.
+
+**progress:** 15 of 35 externally reported deposit transactions inspected, 20 pending. Preserve the original independently verified 10 october checkpoint.
