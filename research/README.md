@@ -4,6 +4,17 @@ npcsignals is an independent research project combining investigations, evidence
 
 this is the reader-facing index for the existing research archive. original investigation paths remain unchanged while a complete link and evidence-dependency audit is pending.
 
+## browse by topic
+
+- [crypto investigations — token launches, wallet tracing and exchange evidence](01-crypto-investigations/README.md)
+- [politics and power — elections, political claims and institutions](02-politics-and-power/README.md)
+- [society and institutions — protests, public infrastructure and case studies](03-society-and-institutions/README.md)
+- [methods and audits — evidence quality, source verification and archive controls](04-methodology-and-audits/README.md)
+
+these category pages organize navigation. original frozen source paths remain accessible below.
+
+## original source entry points
+
 ## crypto investigations
 
 - [frogman wallet drain](frogman-wallet-drain/README.md) — cross-chain reconstruction, evidence boundaries and educational trace tracker
