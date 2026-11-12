@@ -17,7 +17,7 @@ from pathlib import Path
 USDC = "0xaf88d065e77c8cc2239327c5edb3a432268e5831"
 BRIDGE = "0x2df1c51e09aecf9cacb7bc98cb1742757f163df7"
 TRANSFER_TOPIC = "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef"
-PATTERN = re.compile(r"\\|\\s*arbi-(\\d+)\\s*\\|[^\\n]*?https://arbiscan\\.io/tx/(0x[a-fA-F0-9]{64})")
+PATTERN = re.compile(r"\|\s*arbi-(\d+)\s*\|[^\n]*?https://arbiscan\.io/tx/(0x[a-fA-F0-9]{64})")
 
 def rpc(url, method, params):
     data = json.dumps({"jsonrpc":"2.0","id":1,"method":method,"params":params}).encode()
@@ -77,6 +77,9 @@ def main():
         raise ValueError("no transaction hashes found")
     if len(set(mapping.values())) != len(mapping):
         raise ValueError("duplicate hashes in receipt list")
+    chain_id = int(rpc(args.rpc, "eth_chainId", []), 16)
+    if chain_id != 42161:
+        raise ValueError(f"wrong chain id: {chain_id}; expected arbitrum one (42161)")
     results=[]
     for index, tx in sorted(mapping.items()):
         try:
@@ -92,7 +95,7 @@ def main():
         "rows_found":len(mapping),
         "results":results,
     }
-    args.out.write_text(json.dumps(report,indent=2)+"\\n",encoding="utf-8")
+    args.out.write_text(json.dumps(report,indent=2)+"\n",encoding="utf-8")
     confirmed=sum(r["status"]=="confirmed" for r in results)
     print(f"verified {confirmed}/{len(results)} transaction receipts; saved {args.out}")
     return 0 if confirmed==len(results) and len(results)==35 else 1
