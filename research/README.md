@@ -10,16 +10,7 @@ this is the reader-facing index for the existing research archive. original inve
 - [zyrox investigation](zyrox-investigation/README.md) — token launch, transaction-level evidence and frozen checkpoints
 - [zyrox post-freeze research](zyrox-investigation-post-freeze/) — subsequent separately documented checkpoints
 - [glitch investigation](glitch-investigation/) — transaction and funding-network evidence
-- [gamdom g006](gamdom-incident-2026-10-g006/) — incident evidence
-- [gamdom g008](gamdom-incident-2026-10-g008/)
-- [gamdom g009](gamdom-incident-2026-10-g009/)
-- [gamdom g010](gamdom-incident-2026-10-g010/)
-- [gamdom g011](gamdom-incident-2026-10-g011/)
-- [gamdom g012](gamdom-incident-2026-10-g012/)
-- [gamdom g013](gamdom-incident-2026-10-g013/)
-- [gamdom g014](gamdom-incident-2026-10-g014/)
-- [gamdom g015](gamdom-incident-2026-10-g015/)
-- [gamdom shared investigation](gamdom-incident-2026-10/)
+- [gamdom incident — all case records](gamdom-case-index/README.md) — shared investigation and g006–g015 case navigation
 - [binance evidence package](evidence/binance-v2.0-2026-10-14/)
 
 ## politics and institutional research
