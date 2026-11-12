@@ -24,6 +24,12 @@ The visual map is designed for readers learning how to trace on-chain funds. It 
 
 ---
 
+### phase 2 / external transaction reconciliation — 12 november 2026
+
+- [phase 2 external evidence comparison and verification checklist](./PHASE_2_EXTERNAL_RECONCILIATION.md)
+
+This annex extracts the published 35-account / 2,029,874 USDC / 3,586.8 XMR1 external inventory as a **third-party claim** and identifies specific transactions and evidence boundaries for independent reproduction. It does not alter the frozen 10 October independently verified checkpoint. No new November account-state verification is claimed.
+
 ## Current evidence boundary
 
 The strongest current finding is narrow:
