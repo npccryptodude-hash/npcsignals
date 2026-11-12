@@ -70,3 +70,12 @@ a missing `README.md` is **not** evidence that the directory is missing or empty
 6. review a path-by-path migration diff; do not change main without approval.
 
 **audit status: partial, source-checked; not a complete repository-wide link audit.**
+
+## reproducible repository-wide check added
+
+- [read-only link and sha256 inventory tool](tools/audit_archive.py)
+- run from a complete git checkout: `python3 research/tools/audit_archive.py`
+- report output: `research/archive_audit_report.json` (generated locally, not yet committed)
+- a nonzero exit indicates missing tracked files or unresolved relative links; some links may intentionally point to external generated artifacts and require manual classification.
+- **execution status: not run.** the available execution container could not resolve github.com, and the connected github interface does not expose a recursive tree or execute repository scripts. no integrity-test pass is claimed.
+- project-specific offline `verify.py` scripts remain separately required for frozen evidence packages.
