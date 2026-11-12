@@ -18,6 +18,8 @@ this is a consolidated navigation page for the existing gamdom investigation. th
 
 - [shared gamdom investigation](../gamdom-incident-2026-10/)
 
-## planned structure
+## frozen checkpoint integrity
 
-`cases/g006/` through `cases/g015/` may be used after a controlled migration. do not infer missing g007 from this index. no source evidence, original timestamps, hashes or frozen findings are changed by this navigation page.
+g006 explicitly documents that the g005 integrity script covers all descendants, which is why g006 was created as a sibling directory. g008 likewise documents preservation of prior evidence directories. g015 references previous frozen checkpoints for reproducible verification. these are intentional evidence boundaries, not merely naming clutter.
+
+**do not move, rename, or nest the original checkpoint directories as a cosmetic cleanup.** any future migration requires a reproduced integrity and reference audit first. this page consolidates navigation without changing the underlying source records. no g007 is asserted or reconstructed.
