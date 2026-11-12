@@ -39,4 +39,7 @@ start with the investigation readme where available. follow the dated timeline, 
 
 ## restructuring status
 
+- [migration plan and evidence-integrity gates](ARCHIVE_MIGRATION_PLAN.md)
+
+
 this index is an additive, non-destructive first step. directory names above are historical entry points, not the final proposed taxonomy. no investigation has been relocated, merged, renamed or deleted. before any migration, verify the full tree, source links, frozen manifests, relative references and external citations. keep legacy entry points accessible.
