@@ -148,3 +148,30 @@ All five transactions show Success and native Arbitrum USDC transfers to Hyperli
 **classification:** 4 receipts rechecked directly in this audit; 16 more have full hash references from earlier checks but were not independently reopened in this audit; 15 source-only rows remain without full hashes. Thus, **35 indexed ≠ 35 independently verified**. The external monitoring page displays **last checked 13 october**, not a november snapshot; its 3,586.8 XMR1 claim is a historical third-party report, not a current independently verified balance. Source: https://www.onchainfiles.io/files/014-frogman-token2049/.
 
 **blocking dependencies:** retrieve complete hashes for arbi-21 to arbi-35, verify all 35 receipt events, query Hyperliquid first-party ledger/fills/balances, and reconcile the seven NPCsignals-observed accounts to the external set before publishing any aggregate finding.
+
+
+## correction and primary-link recovery — 12 november 2026
+
+**supersedes the earlier claim that rows arbi-21–35 have no full transaction hashes.** The original Onchain Files ledger actually contains direct explorer links for every one of these rows. We retrieved all 15 links and opened the corresponding Arbiscan pages. This makes **35/35 full transaction hashes available** in the archive; it does not mean 35/35 Hyperliquid accounts, fills or November balances have been audited. Earlier source-only entries are retained as historical work notes, not the current evidence classification.
+
+| id | full arbitrum tx hash / primary link | exact usdc independently extracted | full sender | block / time 7 oct utc |
+|---|---|---:|---|---|
+| arbi-21 | [0xec3aa8fcd37f2fdaa0634fcb2b1ad3f825ef1f7b3f75d3b799f3408af3e5843b](https://arbiscan.io/tx/0xec3aa8fcd37f2fdaa0634fcb2b1ad3f825ef1f7b3f75d3b799f3408af3e5843b) | 48887.615010 | `0x6c3B32B002C3674e60C725345356bE212FcBa3c4` | 512436909 / 02:54:10 |
+| arbi-22 | [0x47c75392424863b08b251793a1462162265edf67db020fb47166e7b6151708e4](https://arbiscan.io/tx/0x47c75392424863b08b251793a1462162265edf67db020fb47166e7b6151708e4) | 48875.234707 | `0xd97415Ed800e8A16BB20953FE03bE0bEcB0Cd77c` | 512437723 / 02:57:53 |
+| arbi-23 | [0x2daa0bddd727c5506011a85a272afe0e2dd52aed5f5dc5f65de4215a893b6211](https://arbiscan.io/tx/0x2daa0bddd727c5506011a85a272afe0e2dd52aed5f5dc5f65de4215a893b6211) | 48904.510818 | `0x70dD5d5D1F65052F852f4918169a45B2cF97Bf0B` | 512438437 / 03:01:11 |
+| arbi-24 | [0x994124fa348d3a43c80193187d5e6b5a9cf393e9069da27f6b494e950ce33251](https://arbiscan.io/tx/0x994124fa348d3a43c80193187d5e6b5a9cf393e9069da27f6b494e950ce33251) | 48946.788177 | `0x7140D59403A0383A5e929F53d664549A176B23F2` | 512438790 / 03:02:45 |
+| arbi-25 | [0xf844e16263f6665d82ab904561389755d57fcbe59dff50abacbff0e9f7a8bf17](https://arbiscan.io/tx/0xf844e16263f6665d82ab904561389755d57fcbe59dff50abacbff0e9f7a8bf17) | pending extraction | pending extraction | pending extraction |
+| arbi-26 | [0x596858e4ca8b2a60fad0bf9230d650676c981370bca784e571bceb16639bf83e](https://arbiscan.io/tx/0x596858e4ca8b2a60fad0bf9230d650676c981370bca784e571bceb16639bf83e) | pending extraction | pending extraction | pending extraction |
+| arbi-27 | [0x84f9cc0c1f8f35848faeb501c863452cb3cf84b9f5e393f2e5d257863095f083](https://arbiscan.io/tx/0x84f9cc0c1f8f35848faeb501c863452cb3cf84b9f5e393f2e5d257863095f083) | pending extraction | pending extraction | pending extraction |
+| arbi-28 | [0xafde49d20d5eec3fc90a4f7031be77f8a6ad90f893f05d2fb1414816d3804d3c](https://arbiscan.io/tx/0xafde49d20d5eec3fc90a4f7031be77f8a6ad90f893f05d2fb1414816d3804d3c) | pending extraction | pending extraction | pending extraction |
+| arbi-29 | [0xcaa93aa91eb6e9c53c5e5fd473128acaef1c255cb270e80c2eb5edbacdda2e98](https://arbiscan.io/tx/0xcaa93aa91eb6e9c53c5e5fd473128acaef1c255cb270e80c2eb5edbacdda2e98) | pending extraction | pending extraction | pending extraction |
+| arbi-30 | [0xc8a68ee729ab9730d01977feec30339f8c693f7442ba92d1b5ee852b00198fd3](https://arbiscan.io/tx/0xc8a68ee729ab9730d01977feec30339f8c693f7442ba92d1b5ee852b00198fd3) | pending extraction | pending extraction | pending extraction |
+| arbi-31 | [0x065dafb852624dfe218d881a200c769d575496b584a76cb9d748aeac8418b215](https://arbiscan.io/tx/0x065dafb852624dfe218d881a200c769d575496b584a76cb9d748aeac8418b215) | pending extraction | pending extraction | pending extraction |
+| arbi-32 | [0xa88e7707ee7b316b0342174876d9cdbd9e6232e068165640132a73bdf8e7b90f](https://arbiscan.io/tx/0xa88e7707ee7b316b0342174876d9cdbd9e6232e068165640132a73bdf8e7b90f) | pending extraction | pending extraction | pending extraction |
+| arbi-33 | [0xfabbc9bfef47e3722cdb2f6bc79d820d711140dbcd478d2d1d5efb06329c7101](https://arbiscan.io/tx/0xfabbc9bfef47e3722cdb2f6bc79d820d711140dbcd478d2d1d5efb06329c7101) | pending extraction | pending extraction | pending extraction |
+| arbi-34 | [0x51f9a2852f6bc73fce6d1181adc2e3f71b62a88bd3f8210a89271c6a0fe58da3](https://arbiscan.io/tx/0x51f9a2852f6bc73fce6d1181adc2e3f71b62a88bd3f8210a89271c6a0fe58da3) | pending extraction | pending extraction | pending extraction |
+| arbi-35 | [0xa970e51cfa2a4b189b544cca97704be36854a1867d1d14e33377e73cdc67f4b3](https://arbiscan.io/tx/0xa970e51cfa2a4b189b544cca97704be36854a1867d1d14e33377e73cdc67f4b3) | 41827.339837 | `0xdf2633a6737599b879e9E74A96402deC400E44C1` | 512446428 / 03:37:02 |
+
+**five independently extracted receipt details:** arbi-21, arbi-22, arbi-23, arbi-24 and arbi-35 show Success, the listed sender and exact six-decimal USDC transfer to Hyperliquid Deposit Bridge 2. The remaining ten Arbiscan pages were retrieved, but their precise ERC-20 values and senders have not yet been transcribed into this table; do not present those ten as a completed field-by-field receipt audit.
+
+**important boundary:** even a successful deposit receipt only proves the on-chain bridge transfer. Hyperliquid ledger credits, XMR1 fills, holdings, redemption and any movements after 13 october require a separate first-party Hyperliquid API check. The external page's last monitored checkpoint remains 13 october, so there is no verified 12 november balance snapshot here.
