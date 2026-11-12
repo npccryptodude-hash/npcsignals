@@ -10,7 +10,7 @@ this is the reader-facing index for the existing research archive. original inve
 - [zyrox investigation](zyrox-investigation/README.md) — token launch, transaction-level evidence and frozen checkpoints
 - [zyrox post-freeze research](zyrox-investigation-post-freeze/) — subsequent separately documented checkpoints
 - [glitch investigation](glitch-investigation/) — transaction and funding-network evidence
-- [gamdom incident — all case records](gamdom-case-index/README.md) — shared investigation and g006–g015 case navigation
+- [gamdom incident — investigation and evidence checkpoints](gamdom-case-index/README.md) — shared investigation and g006–g015 case navigation
 - [binance evidence package](evidence/binance-v2.0-2026-10-14/)
 
 ## politics and institutional research
@@ -18,7 +18,7 @@ this is the reader-facing index for the existing research archive. original inve
 - [democratic representation stress test](democratic-representation-stress-test-2026/)
 - [presidential claim stress test](presidential-claim-stress-test-2025-2026/)
 - [netanyahu unga claim stress test](netanyahu-unga-2026-claim-stress-test/)
-- [ddr-01](ddr-01/)
+- [demographic change and elections — 15-country study (ddr-01)](ddr-01/)
 - [tennessee execution protocol stress test](tennessee-execution-protocol-stress-test-2026/)
 
 ## society and movements
