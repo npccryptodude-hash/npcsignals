@@ -31,7 +31,13 @@ this is the reader-facing index for the existing research archive. original inve
 - [ai performance claims — narrative and evidence audit](ai-performance-narrative-audit-/)
 - [authority handover — technical documentation](authority-handover/)
 - [tarore — narrative and evidence audit](tarore-narrative-audit-2026/)
-- [gcr-01 — research record (description pending source review)](gcr-01/)
+- [gcr-01 — original research files (topic not yet verified)](gcr-01/)
+
+## how to read this archive
+
+link titles describe the research topic in plain language. identifiers such as ddr-01, gcr-01 and g006 remain in the source record for provenance and cross-reference. the directory name shown by github may still use the historical identifier: changing link text does not rename the directory.
+
+for example, [demographic change and elections — 15-country study](ddr-01/DDR01_ARCHIVE_SUMMARY_v1.2.md) is the readable entry point to the frozen ddr-01 study. its reference version is v1.2, dated 21 september 2026. the study examines whether demographic change influences electoral competition across different political systems; it does not establish a universal advantage for any political party.
 
 ## reading and evidence standards
 
