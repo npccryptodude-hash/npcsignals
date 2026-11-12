@@ -43,3 +43,16 @@ flowchart LR
 2. retrieve complete address inventory and compare with the npcsignals v0.2 findings.
 3. verify hyperliquid account credits, fills and withdrawals from first-party records at a timestamped current checkpoint.
 4. avoid promoting third-party reported balances to independently confirmed findings without reproduction.
+
+
+## additional verified receipts — 12 november 2026
+
+The following three receipts were inspected directly on Arbiscan. Each shows a successful Arbitrum USDC transfer to Hyperliquid Deposit Bridge 2 (`0x2Df1c51E09aECF9cacB7bc98cB1742757f163dF7`).
+
+| id | utc 7 oct 2026 | block | originating address | exact usdc | full transaction hash |
+|---|---|---:|---|---:|---|
+| arbi-03 | 01:49:41 | 512422057 | `0xd7efd720aDf271B7173Dd01a9b81668892Bee6B1` | 100,542.304581 | [arbiscan](https://arbiscan.io/tx/0xd09044916f0e5402351d6edc68cc7afa48a00e08800791a02e0f48f554f1255e) |
+| arbi-04 | 01:52:53 | 512422775 | `0x68d6E20a28F9d50Ebf798ccf9fae9e3D5e4F1ac4` | 93,738.289817 | [arbiscan](https://arbiscan.io/tx/0x953cb3206cf345b500e518316a07151f10835663ce4e55f8e972d2d78e78ff87) |
+| arbi-05 | 01:56:40 | 512423646 | `0x888795F84f5F81352a7639f1254662ae5897E223` | 93,549.620787 | [arbiscan](https://arbiscan.io/tx/0x0ddf411d8745a28b5efdd1c42ab0a1526c53f1c92b622b36c0f6baf595dc3a9c) |
+
+**progress:** 5 of 35 externally reported deposit transactions checked individually, 30 outstanding. The Arbitrum transfers alone do not verify first-party Hyperliquid credit/fills, current account holdings, redemption, common control or attribution. Do not add the five deposits to the external 2,029,874 USDC figure: they are a subset.
