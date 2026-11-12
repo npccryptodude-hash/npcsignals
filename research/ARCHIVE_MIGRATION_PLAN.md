@@ -34,6 +34,12 @@ research/
 
 this is a proposed logical structure, not a claim that these directories already exist.
 
+## newly verified integrity constraint — gamdom
+
+source readmes confirm that g006 was intentionally stored as a sibling of g005 because the g005 integrity script covers all descendants. g008 explicitly preserves prior directories as frozen sibling checkpoints, and g015 refers to prior frozen checkpoints for offline reproduction. **do not physically move, rename, nest or add files inside these frozen case directories without first reproducing all integrity checks and resolving path dependencies.** a central navigation index is safe; a physical migration is not yet authorized by the evidence audit. this finding overrides the provisional gamdom destination map below.
+
+binance v2.0 is also an archival evidence package with independent offline verification; its original source path must be preserved until manifest and reference validation is complete.
+
 ## migration controls
 
 1. inventory every tracked path, its blob hash, size and relative references.
@@ -49,8 +55,8 @@ this is a proposed logical structure, not a claim that these directories already
 
 | current path | proposed destination | status |
 | --- | --- | --- |
-| `research/gamdom-incident-2026-10-g006/` | `research/01-crypto-investigations/gamdom/cases/g006/` | pending dependency audit |
-| `research/gamdom-incident-2026-10-g008/` through `-g015/` | corresponding `gamdom/cases/g###/` | pending dependency audit |
+| `research/gamdom-incident-2026-10-g006/` | keep original path; index under gamdom | **blocked: frozen ancestor integrity and cross-checkpoint dependencies** |
+| `research/gamdom-incident-2026-10-g008/` through `-g015/` | keep original paths; index under gamdom | **blocked pending checkpoint integrity verification** |
 | `research/gamdom-incident-2026-10/` | `research/01-crypto-investigations/gamdom/` | pending collision and dependency audit |
 | `research/frogman-wallet-drain/` | `research/01-crypto-investigations/frogman/` | pending published-link audit |
 | `research/zyrox-investigation/` and `research/zyrox-investigation-post-freeze/` | `research/01-crypto-investigations/zyrox/` with separate checkpoint sections | pending manifest and link audit |
