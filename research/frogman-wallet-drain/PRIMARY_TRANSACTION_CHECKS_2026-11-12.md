@@ -90,3 +90,18 @@ Each Arbiscan transaction page reports **Success** and an ERC-20 transfer of nat
 **subtotal of these five:** 195,303.245897 USDC. This is a subset of externally reported deposits, not an additional loss. The five full transaction hashes and sender addresses are distinct. This establishes the Arbitrum token transfers only; Mayan source-side settlements, first-party Hyperliquid account credits, XMR1 trades, withdrawals and November balances are not established by these receipts.
 
 **progress:** 15 of 35 externally reported deposit transactions inspected, 20 pending. Preserve the original independently verified 10 october checkpoint.
+
+
+## direct explorer verification — arbi-16 to arbi-20 (12 november 2026)
+
+All five transactions show Success and native Arbitrum USDC transfers to Hyperliquid Deposit Bridge 2. The dates below are historical 7 october UTC timestamps.
+
+| id | time utc | block | sender | usdc (exact) | explorer |
+|---|---|---:|---|---:|---|
+| arbi-16 | 02:43:52 | 512434626 | `0x278D8D16F49e88F3D706A804c6DA24c6FEcCB3F0` | 39178.420630 | [transaction](https://arbiscan.io/tx/0xdbf8f5abda55c8d6cb2b2644018d0e0f9acd0f79f12a2dc62e4d33a65aee6533) |
+| arbi-17 | 02:46:35 | 512435221 | `0x122BC1C10b2DdBa24dfA793Ea7fA3FB2f934Ce58` | 48940.066463 | [transaction](https://arbiscan.io/tx/0xcf6f66118d59eb9e52f550e2b2bfa1731619319d0e529cb83222f7ceb87d5d77) |
+| arbi-18 | 02:47:40 | 512435464 | `0x9B3b38F9969dEe372c31549f33F66f8384D237a5` | 48899.340289 | [transaction](https://arbiscan.io/tx/0x5182919313ca43a68fbe726459f517989f2dd89215a0a259112cdb89664e1896) |
+| arbi-19 | 02:51:49 | 512436386 | `0x8FF77D08460A885E10131F124422Dfe1C00aD4c3` | 48919.974918 | [transaction](https://arbiscan.io/tx/0xfa481712ae1e5a19bb86b053b9735d5a15c88b4138337b6deb0b27024aaf6f35) |
+| arbi-20 | 02:53:38 | 512436790 | `0xe120D6d7042faBB3376F27E0E3351d7f3b913c0E` | 48894.883204 | [transaction](https://arbiscan.io/tx/0xed9cc64e93d490aa9bc002d33f7d89502f38793d16bb3d9f0dd081fcc2320899) |
+
+**scope:** 20 of 35 published Arbitrum deposit transactions individually inspected; 15 remain. No first-party Hyperliquid balance or redemption verification has been performed. The amounts are already part of the external inventory and must not be added as new losses.
