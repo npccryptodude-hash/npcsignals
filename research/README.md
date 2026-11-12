@@ -19,25 +19,30 @@ this is the reader-facing index for the existing research archive. original inve
 - [presidential claims — evidence and fact-checking study](presidential-claim-stress-test-2025-2026/)
 - [netanyahu un speech — claims and evidence analysis](netanyahu-unga-2026-claim-stress-test/)
 - [demographic change and elections — 15-country study (ddr-01)](ddr-01/)
-- [tennessee execution protocol — evidence review](tennessee-execution-protocol-stress-test-2026/)
+- [tennessee execution protocol — christa pike case](tennessee-execution-protocol-stress-test-2026/)
 
 ## society and movements
 
 - [gen z movements — international protests and evidence archive](gen-z-movements-evidence-archive/)
-- [norway's welfare system — infrastructure and long-term pressures](norway-welfare-infrastructure-2001-2036/)
+- [norway — schools, hospitals and elderly-care infrastructure](norway-welfare-infrastructure-2001-2036/)
 
 ## methods and audits
 
-- [ai performance claims — narrative and evidence audit](ai-performance-narrative-audit-2026/README.md)
-- [authority handover — technical documentation](authority-handover/)
-- [traoré — political narrative and evidence audit](traore-narrative-audit-2026/README.md)
-- [gcr-01 — original research files (topic not yet verified)](gcr-01/)
+- [distribution depth is not evidence depth — ai trading-claim audit](ai-performance-narrative-audit-2026/README.md)
+- [authority handover — documents (scope pending verification)](authority-handover/)
+- [ibrahim traoré — claims about burkina faso examined](traore-narrative-audit-2026/README.md)
+- [gcr-01 — research files (topic pending verification)](gcr-01/)
 
 ## how to read this archive
 
 link titles describe the research topic in plain language. identifiers such as ddr-01, gcr-01 and g006 remain in the source record for provenance and cross-reference. the directory name shown by github may still use the historical identifier: changing link text does not rename the directory.
 
 for example, [demographic change and elections — 15-country study](ddr-01/DDR01_ARCHIVE_SUMMARY_v1.2.md) is the readable entry point to the frozen ddr-01 study. its reference version is v1.2, dated 21 september 2026. the study examines whether demographic change influences electoral competition across different political systems; it does not establish a universal advantage for any political party.
+
+## audit status
+
+- [link and evidence-preservation audit — 12 november 2026](LINK_AND_PRESERVATION_AUDIT_2026-11-12.md)
+- some directory-only links remain unverified because their contents have not yet been enumerated. an absent readme does not prove a directory is absent.
 
 ## reading and evidence standards
 
