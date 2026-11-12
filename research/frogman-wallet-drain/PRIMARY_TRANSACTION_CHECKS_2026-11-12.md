@@ -132,3 +132,19 @@ All five transactions show Success and native Arbitrum USDC transfers to Hyperli
 **reconciliation:** 35/35 external deposit rows now indexed across the two sections of this archive; **20/35 previously reported as directly checked**, 15/35 source-only. This update does **not** increase the independent-verification count. Previous receipt assertions should be reproducibly re-audited before the project presents 20/35 as a fully audited finding.
 
 **important:** onchain files' monitoring widget shows a last-check date of 13 october 2026. No live november XMR1 balance, withdrawal or native monero redemption status is established by that widget.
+
+
+## re-audit checkpoint — 12 november 2026
+
+**registry integrity check:** 35 sequential source rows are present. Rows arbi-01 to arbi-20 include 20 distinct full-length transaction hashes, with no repeated hash in that set. Their recorded exact USDC amounts sum to **1175687.100840 USDC** (integer six-decimal arithmetic). This subtotal is not new money and must not be added to the source's overall 2,029,874 USDC estimate.
+
+**independent explorer spot-check:** four sampled receipts (arbi-01, arbi-03, arbi-15, arbi-20) were re-opened on Arbiscan and agree with the file on transaction success, sender, timestamp, amount, and Hyperliquid Deposit Bridge 2 recipient:
+
+- [arbi-01](https://arbiscan.io/tx/0xc0e57329de131312e346161d70d2e7eb4626f12b4ed642af6b1def28d813669f)
+- [arbi-03](https://arbiscan.io/tx/0xd09044916f0e5402351d6edc68cc7afa48a00e08800791a02e0f48f554f1255e)
+- [arbi-15](https://arbiscan.io/tx/0xc67cb35c17bca0d12db1c9118b6a97a6957f6ae0b2fa1127681f6baf3c029931)
+- [arbi-20](https://arbiscan.io/tx/0xed9cc64e93d490aa9bc002d33f7d89502f38793d16bb3d9f0dd081fcc2320899)
+
+**classification:** 4 receipts rechecked directly in this audit; 16 more have full hash references from earlier checks but were not independently reopened in this audit; 15 source-only rows remain without full hashes. Thus, **35 indexed ≠ 35 independently verified**. The external monitoring page displays **last checked 13 october**, not a november snapshot; its 3,586.8 XMR1 claim is a historical third-party report, not a current independently verified balance. Source: https://www.onchainfiles.io/files/014-frogman-token2049/.
+
+**blocking dependencies:** retrieve complete hashes for arbi-21 to arbi-35, verify all 35 receipt events, query Hyperliquid first-party ledger/fills/balances, and reconcile the seven NPCsignals-observed accounts to the external set before publishing any aggregate finding.
