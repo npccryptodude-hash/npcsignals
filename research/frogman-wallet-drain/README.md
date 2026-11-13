@@ -30,6 +30,17 @@ The visual map is designed for readers learning how to trace on-chain funds. It 
 
 This annex extracts the published 35-account / 2,029,874 USDC / 3,586.8 XMR1 external inventory as a **third-party claim** and identifies specific transactions and evidence boundaries for independent reproduction. It does not alter the frozen 10 October independently verified checkpoint. No new November account-state verification is claimed.
 
+## publication readiness / 13 november 2026
+
+- [publication readiness review and evidence limits](./PUBLICATION_READINESS_2026-11-13.md)
+- [35 arbitrum transaction links and receipt spot checks](./PRIMARY_TRANSACTION_CHECKS_2026-11-12.md)
+- [read-only arbitrum receipt verifier](./verify_arbitrum_receipts.py)
+- [hyperliquid live-data access limitation](./HYPERLIQUID_FIRST_PARTY_CHECK_2026-11-12.md)
+
+**editorial conclusion:** a source-linked historical reconstruction is feasible. a claim that all 35 hyperliquid accounts were independently reconciled, or that xmr1 has not moved since october, is **not** supported by the present audit. the last independently reproduced npcsignals checkpoint remains 10 october; the external monitoring page reports its last check as 13 october. no medium publication has been made.
+
+---
+
 ## Current evidence boundary
 
 The strongest current finding is narrow:
