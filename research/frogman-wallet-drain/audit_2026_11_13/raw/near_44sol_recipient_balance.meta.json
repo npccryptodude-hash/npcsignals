@@ -1,0 +1,18 @@
+{
+  "url": "https://api.mainnet-beta.solana.com",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "getBalance",
+    "params": [
+      "4PMiFg7qoEpqAMwEyZnM7xPqvNotGc6ihboAvp8PcKbk",
+      {
+        "commitment": "finalized"
+      }
+    ]
+  },
+  "started_utc": "2026-11-13T08:29:43.186351+00:00",
+  "retrieved_utc": "2026-11-13T08:29:47.279718+00:00",
+  "http_status": 200,
+  "sha256": "6eb13716d7b411a5b42b1f301af606e52d8f0ab5150ea8a587c57678c0aa65a7"
+}

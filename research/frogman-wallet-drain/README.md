@@ -1,26 +1,50 @@
-# Frogman Investigation — Public Evidence Summary
+# frogman wallet drain / public evidence record
 
-**Status:** Ongoing investigation  
-**Documentation language:** English  
-**Latest verified checkpoint:** `398fd4dd363cee636e4fe7a24fa4c243ff5becd2`  
-**Latest finding ID:** `F0607`  
-**Checkpoint date:** 10 October 2026
+## latest verified account checkpoint / 13 november 2026
 
-NPCsignals is independently reconstructing parts of the publicly reported Frogman wallet-drain incident across Solana and EVM chains.
+**35 / 35 externally listed accounts reconciled.** successful arbitrum receipts and exact hyperliquid account credits total **2,029,874.462280 usdc**. **537 xmr1 buy fills**, minus **2.512517 xmr1** fees, reconcile to **3,586.797483 xmr1** in the queried november balances. no xmr1 sells or external-transfer/withdrawal ledger entries were returned; separate post-13-october queries also returned no activity. this is a timestamped rpc/api observation, not lifetime completeness, ownership or native monero proof.
 
-The current evidence reaches verified protocol deposits, bridge settlements, Hyperliquid account credits and subsequent XMR1 purchases. It does **not** establish a withdrawal into native Monero, the final beneficiary, the attacker's identity or the compromise method.
+- [updated technical main report](./audit_2026_11_13/TECHNICAL_REPORT.md)
+- [35-account audit with primary links](./audit_2026_11_13/ACCOUNT_AUDIT.md)
+- [downloadable account table](./audit_2026_11_13/accounts.csv)
+- [visual timeline and money-flow map](./audit_2026_11_13/VISUAL_TIMELINE_AND_FLOW.md)
+- [confirmed findings, limits and technical obstacles](./audit_2026_11_13/LIMITATIONS.md)
+- [exact totals and observation times](./audit_2026_11_13/summary.json)
 
-This README is the reader-facing summary. Technical records, transaction-level evidence, methodology and evidence classifications remain in the repository.
+spot states were observed 13 november, 08:17:14–08:21:23 utc; each raw response records its exact retrieval time. the 35 accounts include all six earlier relay accounts, the separate mayan account and an additional across-linked credit already in the archive. the earlier seven-account coverage summary was incomplete as a description of all credit checks. these overlapping amounts must not be added together.
+
+**publication status:** ready for a bounded account/money-flow reconstruction with stated limits. privacy cash withdrawal attribution, comprehensive victim-loss allocation, compromise method, human control, native monero settlement and recovery remain unresolved. one older upstream-label html byte mismatch is explained by lf/crlf conversion; original evidence remains unchanged. the medium draft is delivered separately and is not stored in github.
+
+## additional findings / separate from the external 35
+
+[one additional hyperliquid account and new october 27 movements](./audit_2026_11_13/ADDITIONAL_FINDINGS.md): 55.569140 usdc credited and 0.089937 net xmr1 on a distinct account outside the published list. total audited coverage is therefore 36 accounts, while the 35-account baseline stays separately reproducible. the old 4-eth holding was spent on 27 october; its new mayan order and subsequent supported solana association are documented with explicit boundaries.
+
+## historical research checkpoints
+
+older checkpoint text follows for continuity. statements that the live audit is blocked or the 35-account audit is pending are superseded by the linked november audit.
+
+
+**status:** ongoing investigation  
+**documentation language:** english  
+**latest verified checkpoint:** `398fd4dd363cee636e4fe7a24fa4c243ff5becd2`  
+**latest finding id:** `F0607`  
+**checkpoint date:** 10 october 2026
+
+npcsignals is independently reconstructing parts of the publicly reported frogman wallet-drain incident across solana and evm chains.
+
+the current evidence reaches verified protocol deposits, bridge settlements, hyperliquid account credits and subsequent xmr1 purchases. it does **not** establish a withdrawal into native monero, the final beneficiary, the attacker's identity or the compromise method.
+
+this readme is the reader-facing summary. technical records, transaction-level evidence, methodology and evidence classifications remain in the repository.
 
 ## educational visual evidence / 11 november 2026
 
-The original verified research checkpoint remains **10 October 2026 / F0607**. The 11 November update adds an educational navigation layer and third-party source comparison, **not a new independently verified blockchain checkpoint**.
+the original verified research checkpoint remains **10 october 2026 / f0607**. the 11 november update adds an educational navigation layer and third-party source comparison, **not a new independently verified blockchain checkpoint**.
 
-- [Visual evidence map — follow the routes and evidence boundaries](./EDUCATIONAL_VISUAL_EVIDENCE.md)
-- [Evidence trace tracker — confirmed records vs external claims](./EVIDENCE_TRACE_TRACKER.md)
-- [Timeline — incident, checkpoints and dated source snapshots](./TIMELINE.md)
+- [visual evidence map — follow the routes and evidence boundaries](./EDUCATIONAL_VISUAL_EVIDENCE.md)
+- [evidence trace tracker — confirmed records vs external claims](./EVIDENCE_TRACE_TRACKER.md)
+- [timeline — incident, checkpoints and dated source snapshots](./TIMELINE.md)
 
-The visual map is designed for readers learning how to trace on-chain funds. It separates transaction-level confirmation from inferred connections, pooled/privacy boundaries, and unverified account-count claims. External reports describe 35 and 41 Hyperliquid accounts respectively; their address sets and snapshot times have **not** been independently reconciled. No fresh November balance or redemption check has been completed.
+the visual map is designed for readers learning how to trace on-chain funds. it separates transaction-level confirmation from inferred connections, pooled/privacy boundaries, and unverified account-count claims. external reports describe 35 and 41 hyperliquid accounts respectively; their address sets and snapshot times have **not** been independently reconciled. no fresh november balance or redemption check has been completed.
 
 ---
 
@@ -28,7 +52,7 @@ The visual map is designed for readers learning how to trace on-chain funds. It 
 
 - [phase 2 external evidence comparison and verification checklist](./PHASE_2_EXTERNAL_RECONCILIATION.md)
 
-This annex extracts the published 35-account / 2,029,874 USDC / 3,586.8 XMR1 external inventory as a **third-party claim** and identifies specific transactions and evidence boundaries for independent reproduction. It does not alter the frozen 10 October independently verified checkpoint. No new November account-state verification is claimed.
+this annex extracts the published 35-account / 2,029,874 usdc / 3,586.8 xmr1 external inventory as a **third-party claim** and identifies specific transactions and evidence boundaries for independent reproduction. it does not alter the frozen 10 october independently verified checkpoint. no new november account-state verification is claimed.
 
 ## publication readiness / 13 november 2026
 
@@ -41,126 +65,126 @@ This annex extracts the published 35-account / 2,029,874 USDC / 3,586.8 XMR1 ext
 
 ---
 
-## Current evidence boundary
+## current evidence boundary
 
-The strongest current finding is narrow:
+the strongest current finding is narrow:
 
-> Bridge deposits linked to the examined Frogman routes were followed by XMR1 purchases on matched Hyperliquid accounts.
+> bridge deposits linked to the examined frogman routes were followed by xmr1 purchases on matched hyperliquid accounts.
 
-That statement is supported by transaction-specific bridge records, exact transaction-hash and amount correspondence, first-party Hyperliquid account data and reproduced trading activity.
+that statement is supported by transaction-specific bridge records, exact transaction-hash and amount correspondence, first-party hyperliquid account data and reproduced trading activity.
 
-It is **not** evidence that native Monero was withdrawn or received.
+it is **not** evidence that native monero was withdrawn or received.
 
-No verified external XMR1 redemption into native Monero has been established. No final recipient has been identified.
+no verified external xmr1 redemption into native monero has been established. no final recipient has been identified.
 
-## Solana / Privacy Cash
+## solana / privacy cash
 
-NPCsignals independently reproduced **10 successful Privacy Cash deposits totaling 13,240.973780900 SOL**.
+npcsignals independently reproduced **10 successful privacy cash deposits totaling 13,240.973780900 sol**.
 
-The approximate amount, publicly reported as 13,241 SOL, was already known. The contribution here is independent reproduction of the deposits from transaction records, including program calls and transfers into the pool.
+the approximate amount, publicly reported as 13,241 sol, was already known. the contribution here is independent reproduction of the deposits from transaction records, including program calls and transfers into the pool.
 
-No withdrawal has been defensibly linked to those deposits.
+no withdrawal has been defensibly linked to those deposits.
 
-A verified Privacy Cash deposit shows that funds entered the protocol. It does not identify who later withdrew them. Mixed source balances are preserved in the evidence model and the total should not be described as exclusively victim-funded without qualification.
+a verified privacy cash deposit shows that funds entered the protocol. it does not identify who later withdrew them. mixed source balances are preserved in the evidence model and the total should not be described as exclusively victim-funded without qualification.
 
-## EVM bridge reconstruction
+## evm bridge reconstruction
 
-Multiple EVM-side routes have been independently reconstructed using transaction-specific evidence and protocol identifiers.
+multiple evm-side routes have been independently reconstructed using transaction-specific evidence and protocol identifiers.
 
-Verified protocol boundaries in the investigation include routes involving Relay, Across, Chainflip, Mayan, NEAR Intents and LI.FI. These records improve the precision of the route reconstruction, but protocol use by itself does not identify a human operator or beneficiary.
+verified protocol boundaries in the investigation include routes involving relay, across, chainflip, mayan, near intents and li.fi. these records improve the precision of the route reconstruction, but protocol use by itself does not identify a human operator or beneficiary.
 
-Bridge inputs, settlement outputs, account credits and subsequent trades are successive representations of value. They must not be added together as separate losses.
+bridge inputs, settlement outputs, account credits and subsequent trades are successive representations of value. they must not be added together as separate losses.
 
-## Hyperliquid account activity
+## hyperliquid account activity
 
-The earlier verified block contains **six matched Hyperliquid accounts** whose examined deposit credits total **561,850.214994 USDC**.
+the earlier verified block contains **six matched hyperliquid accounts** whose examined deposit credits total **561,850.214994 usdc**.
 
-Those same accounts subsequently recorded **205 reproduced XMR1 spot fills**, spending **561,824.8582 USDC**.
+those same accounts subsequently recorded **205 reproduced xmr1 spot fills**, spending **561,824.8582 usdc**.
 
-A later account reached through a separately reproduced Mayan route received a matched **26,823.206875 USDC** Hyperliquid deposit. The account then recorded **28 XMR1 buy fills** across three orders:
+a later account reached through a separately reproduced mayan route received a matched **26,823.206875 usdc** hyperliquid deposit. the account then recorded **28 xmr1 buy fills** across three orders:
 
-- 26,817.3668 USDC spent
-- 47.18 XMR1 bought gross
-- 0.033026 XMR1 in recorded fees
-- 47.146974 XMR1 net
+- 26,817.3668 usdc spent
+- 47.18 xmr1 bought gross
+- 0.033026 xmr1 in recorded fees
+- 47.146974 xmr1 net
 
-The recorded balances reconcile at the documented checkpoint.
+the recorded balances reconcile at the documented checkpoint.
 
-No external withdrawal, bridge-out or native Monero receipt was verified for the examined XMR1 account activity.
+no external withdrawal, bridge-out or native monero receipt was verified for the examined xmr1 account activity.
 
-## What is confirmed
+## what is confirmed
 
-Within the documented scope, the repository contains independently reproduced evidence for:
+within the documented scope, the repository contains independently reproduced evidence for:
 
-- Solana transaction activity and the ten Privacy Cash deposits
-- selected EVM bridge origins and destination settlements
-- exact Hyperliquid deposit credits matched by transaction hash and amount
-- XMR1 spot purchases on matched Hyperliquid accounts
+- solana transaction activity and the ten privacy cash deposits
+- selected evm bridge origins and destination settlements
+- exact hyperliquid deposit credits matched by transaction hash and amount
+- xmr1 spot purchases on matched hyperliquid accounts
 - selected downstream routing and funding relationships
 - protocol-specific execution boundaries for the reconstructed routes
 
-Each finding remains limited to the evidence attached to its finding ID and source record.
+each finding remains limited to the evidence attached to its finding id and source record.
 
-## What remains unresolved
+## what remains unresolved
 
-The investigation does **not** currently establish:
+the investigation does **not** currently establish:
 
 - attacker identity
 - relevant human wallet-controller identity
 - compromise method
 - final beneficiary
-- a verified native Monero withdrawal or receipt
+- a verified native monero withdrawal or receipt
 - a complete end-to-end allocation of every mixed or pooled balance
 - a complete final destination for all examined value
 - recovery status
 
-Common funding does not establish common control. A bridge, router, relayer, transaction submitter or protocol account is not automatically the beneficiary.
+common funding does not establish common control. a bridge, router, relayer, transaction submitter or protocol account is not automatically the beneficiary.
 
-## Evidence classifications
+## evidence classifications
 
-The investigation keeps evidence classes separate:
+the investigation keeps evidence classes separate:
 
-- **CONFIRMED** — independently reproduced transaction, protocol or account fact at the stated scope
-- **SUPPORTED** — concrete evidence supports the interpretation, but the point is not independently conclusive
-- **CLAIMED** — externally reported and preserved as a claim
-- **UNRESOLVED** — the available evidence does not settle the question
+- **confirmed** — independently reproduced transaction, protocol or account fact at the stated scope
+- **supported** — concrete evidence supports the interpretation, but the point is not independently conclusive
+- **claimed** — externally reported and preserved as a claim
+- **unresolved** — the available evidence does not settle the question
 
-The latest finding, **F0607**, is explicitly UNRESOLVED for upstream case provenance.
+the latest finding, **f0607**, is explicitly unresolved for upstream case provenance.
 
-## Where the trail currently stops
+## where the trail currently stops
 
-The public evidence currently reaches account-level XMR1 activity on Hyperliquid and several verified protocol/funding boundaries.
+the public evidence currently reaches account-level xmr1 activity on hyperliquid and several verified protocol/funding boundaries.
 
-It does not reach an identified final beneficiary.
+it does not reach an identified final beneficiary.
 
-**The money trail is better documented. The person behind it is not.**
+**the money trail is better documented. the person behind it is not.**
 
-## Repository structure
+## repository structure
 
-### Frozen v0.1 archive
+### frozen v0.1 archive
 
-The original v0.1 evidence package remains preserved and unchanged under [frogman_research_v0_1/](./frogman_research_v0_1/).
+the original v0.1 evidence package remains preserved and unchanged under [frogman_research_v0_1/](./frogman_research_v0_1/).
 
-The frozen archive contains the original transaction records, ledgers, methodology, source records and checksums. The original reports remain unchanged.
+the frozen archive contains the original transaction records, ledgers, methodology, source records and checksums. the original reports remain unchanged.
 
-- [Complete v0.1 file inventory](./evidence_inventory_v0.1.json)
-- [Frozen source report](./frogman_research_v0_1/master_investigation_report.md)
-- [Preserved v0.1 report](./master_investigation_report_v0.1.md)
+- [complete v0.1 file inventory](./evidence_inventory_v0.1.json)
+- [frozen source report](./frogman_research_v0_1/master_investigation_report.md)
+- [preserved v0.1 report](./master_investigation_report_v0.1.md)
 
-Original ZIP SHA256:
+original zip sha256:
 
 `3fc70011e6e03ee4c6561981050ad9f1a77f1995f69dc2608aa94123694447d9`
 
-### Ongoing v0.2 research
+### ongoing v0.2 research
 
-New investigation work is stored under [v0.2/](./v0.2/).
+new investigation work is stored under [v0.2/](./v0.2/).
 
-The v0.2 material contains the expanding findings ledger, raw protocol records, transaction reconstructions, account-level evidence, routing analysis, reproducibility records and unresolved-question boundaries.
+the v0.2 material contains the expanding findings ledger, raw protocol records, transaction reconstructions, account-level evidence, routing analysis, reproducibility records and unresolved-question boundaries.
 
-The repository is designed so that reader-facing claims can be checked against the underlying technical evidence rather than relying on narrative alone.
+the repository is designed so that reader-facing claims can be checked against the underlying technical evidence rather than relying on narrative alone.
 
-## Publication status
+## publication status
 
-No final long-form Frogman article is published from this research checkpoint.
+no final long-form frogman article is published from this research checkpoint.
 
-This repository remains the public evidence record while the investigation is ongoing.
+this repository remains the public evidence record while the investigation is ongoing.

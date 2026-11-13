@@ -1,0 +1,98 @@
+[
+  {
+    "manifest": "v0.2/mayan_verification_2026_10_09/SHA256SUMS.json",
+    "match": 98,
+    "mismatch": 0,
+    "missing": 0
+  },
+  {
+    "manifest": "v0.2/robinhood_disposal_settlement_2026_10_09/SHA256SUMS.json",
+    "match": 1212,
+    "mismatch": 0,
+    "missing": 0
+  },
+  {
+    "manifest": "v0.2/robinhood_disposal_2026_10_09/SHA256SUMS.json",
+    "match": 176,
+    "mismatch": 0,
+    "missing": 0
+  },
+  {
+    "manifest": "v0.2/unlabeled_824a_verification_2026_10_09/SHA256SUMS.json",
+    "match": 97,
+    "mismatch": 0,
+    "missing": 0
+  },
+  {
+    "manifest": "v0.2/common_funder_bounded_2026_10_10/SHA256SUMS.json",
+    "match": 26,
+    "mismatch": 0,
+    "missing": 0
+  },
+  {
+    "manifest": "v0.2/inbound_sender_attribution_2026_10_10/SHA256SUMS.json",
+    "match": 56,
+    "mismatch": 1,
+    "missing": 0
+  },
+  {
+    "manifest": "v0.2/unlabeled_2625_verification_2026_10_09/SHA256SUMS.json",
+    "match": 61,
+    "mismatch": 0,
+    "missing": 0
+  },
+  {
+    "manifest": "v0.2/robinhood_funding_gateway_2026_10_09/SHA256SUMS.json",
+    "match": 158,
+    "mismatch": 0,
+    "missing": 0
+  },
+  {
+    "manifest": "v0.2/robinhood_funding_direct_2026_10_09/SHA256SUMS.json",
+    "match": 287,
+    "mismatch": 0,
+    "missing": 0
+  },
+  {
+    "manifest": "v0.2/chainflip_verification_2026_10_09/SHA256SUMS.json",
+    "match": 64,
+    "mismatch": 0,
+    "missing": 0
+  },
+  {
+    "manifest": "v0.2/unlabeled_a3ca_verification_2026_10_09/SHA256SUMS.json",
+    "match": 93,
+    "mismatch": 0,
+    "missing": 0
+  },
+  {
+    "manifest": "v0.2/unlabeled_4521_verification_2026_10_09/SHA256SUMS.json",
+    "match": 35,
+    "mismatch": 0,
+    "missing": 0
+  },
+  {
+    "manifest": "v0.2/hyperliquid_withdrawal_recheck_2026_10_10/SHA256SUMS.json",
+    "match": 10,
+    "mismatch": 0,
+    "missing": 0
+  },
+  {
+    "manifest": "v0.2/arbitrum_preceding_credit_2026_10_10/SHA256SUMS.json",
+    "match": 73,
+    "mismatch": 0,
+    "missing": 0
+  },
+  {
+    "manifest": "v0.2/hyperliquid_matched_account_2026_10_10/SHA256SUMS.json",
+    "match": 36,
+    "mismatch": 0,
+    "missing": 0
+  },
+  {
+    "manifest": "v0.2/near_intents_verification_2026_10_09/SHA256SUMS.json",
+    "match": 117,
+    "mismatch": 0,
+    "missing": 0
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "frozen_inventory_entries": 57,
+  "frozen_mismatches": [],
+  "text_manifests": [
+    {
+      "manifest": "frogman_research_v0_1/SHA256SUMS.txt",
+      "match": 56,
+      "mismatches": [],
+      "missing": []
+    },
+    {
+      "manifest": "v0.2/SHA256SUMS_v0.2.txt",
+      "match": 1494,
+      "mismatches": [],
+      "missing": []
+    },
+    {
+      "manifest": "v0.2/across_verification_2026_10_09/SHA256SUMS.txt",
+      "match": 28,
+      "mismatches": [],
+      "missing": []
+    },
+    {
+      "manifest": "v0.2/continuation_2026_10_08/SHA256SUMS.txt",
+      "match": 176,
+      "mismatches": [],
+      "missing": []
+    },
+    {
+      "manifest": "v0.2/continuation_2026_10_09/SHA256SUMS.txt",
+      "match": 84,
+      "mismatches": [],
+      "missing": []
+    },
+    {
+      "manifest": "v0.2/robinhood_linkage_2026_10_09/SHA256SUMS.txt",
+      "match": 144,
+      "mismatches": [],
+      "missing": []
+    }
+  ]
+}

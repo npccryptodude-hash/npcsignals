@@ -1,0 +1,855 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Onchain Files #014 · Frogman at TOKEN2049: $4M drained overnight, $2M found waiting to become Monero</title>
+<meta name="description" content="Frogman's wallets were drained at TOKEN2049. We traced both routes to 35 Hyperliquid accounts holding 3,586.8 XMR1 (≈ $2M), Wagyu's Monero token, not yet redeemed.">
+<meta property="og:title" content="Onchain Files #014 · Frogman at TOKEN2049: $4M drained overnight, $2M found waiting to become Monero">
+<meta property="og:description" content="Frogman's wallets were drained at TOKEN2049. We traced both routes to 35 Hyperliquid accounts holding 3,586.8 XMR1 (≈ $2M), Wagyu's Monero token, not yet redeemed.">
+<meta property="og:image" content="https://www.onchainfiles.io/assets/og-site.png">
+<meta property="og:url" content="https://www.onchainfiles.io/files/014-frogman-token2049/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@onchain_files">
+<script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
+<script defer src="/_vercel/insights/script.js"></script>
+<link rel="icon" type="image/png" href="../../assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3-sankey@0.12.3/dist/d3-sankey.min.js"></script>
+<style>
+/* Onchain Files case page. Generated from cases/<id>/case.json by engine/src/site/build.ts. */
+:root{
+  --bg:#06080c; --panel:#0c1016; --panel2:#111722; --line:#1c2431; --line2:#273142;
+  --ink:#e9ecf1; --soft:#c3cad5; --muted:#8b95a5; --dim:#5d6676;
+  --accent:#3b74ff; --accent-soft:rgba(59,116,255,.14);
+  --verified:#4fbf8f; --inferred:#e58fbf; --attributed:#e0aa52; --reported:#7fa7e3; --unknown:#ab9fd0; --alert:#ff6b5e;
+  --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500; --s5:#d55181; --s6:#9085e9; --s7:#e66767; --s0:#5d6676;
+  --display:"Archivo","Helvetica Neue",Arial,sans-serif;
+  --body:"IBM Plex Sans","Helvetica Neue",Arial,sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{background:var(--bg)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+a:focus-visible,button:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.wrap{max-width:1120px;margin:0 auto;padding-inline:24px}
+.mono{font-family:var(--mono)}
+.eyebrow{font-family:var(--mono);font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+h1,h2,h3{font-family:var(--display);margin:0;text-wrap:balance;line-height:1.1}
+h2{font-size:clamp(1.6rem,3vw,2.2rem);font-weight:800;letter-spacing:-.02em}
+h3{font-size:1.05rem;font-weight:700}
+p{margin:0}
+.lede{color:var(--muted);max-width:66ch}
+.num{font-variant-numeric:tabular-nums}
+
+.nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:rgba(6,8,12,.88);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:12px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-family:var(--display);font-weight:700}
+.brand img{width:32px;height:32px}
+.nav nav{display:flex;gap:20px;font-size:.88rem;color:var(--muted);align-items:center}
+.nav nav a{text-decoration:none} .nav nav a:hover{color:var(--ink)}
+@media (max-width:760px){.nav nav a.opt{display:none}}
+
+.chip{display:inline-block;font-family:var(--mono);font-size:.62rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;padding:2px 7px;border:1px solid currentColor;border-radius:3px;white-space:nowrap;vertical-align:2px;line-height:1.5}
+.chip.v{color:var(--verified)} .chip.i{color:var(--inferred)} .chip.a{color:var(--attributed)} .chip.r{color:var(--reported)} .chip.u{color:var(--unknown)}
+.live{display:inline-flex;align-items:center;gap:8px;font-family:var(--mono);font-size:.72rem;letter-spacing:.14em;color:var(--alert)}
+.live i{width:7px;height:7px;border-radius:50%;background:var(--alert)}
+@media (prefers-reduced-motion:no-preference){.live i{animation:pulse 2s infinite}}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(255,107,94,.55)}70%{box-shadow:0 0 0 8px rgba(255,107,94,0)}100%{box-shadow:0 0 0 0 rgba(255,107,94,0)}}
+
+/* hero */
+.hero{padding-block:56px 32px;display:grid;gap:22px}
+.crumbs{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center}
+.hero h1{font-size:clamp(2.4rem,6vw,4.4rem);font-weight:800;letter-spacing:-.035em}
+.hero h1 span{color:var(--accent)}
+.hero .route{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-family:var(--mono);font-size:.82rem}
+.hero .route b{font-weight:500;padding:4px 10px;border:1px solid var(--line2);border-radius:3px;background:var(--panel)}
+.hero .route em{font-style:normal;color:var(--dim)}
+.hero .dek{font-size:1.12rem;color:var(--soft);max-width:64ch}
+.hero .dek strong{color:var(--ink);font-weight:600}
+
+.tiles{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.tile{background:var(--panel);padding:20px 20px 18px;display:grid;gap:6px;align-content:start}
+.tile .n{font-family:var(--display);font-weight:800;font-size:clamp(1.5rem,2.6vw,2rem);letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.tile .n small{font-size:.55em;color:var(--muted);font-weight:600;margin-left:4px}
+.tile .d{font-size:.84rem;color:var(--muted);line-height:1.45}
+.tile.key{background:linear-gradient(180deg,rgba(59,116,255,.16),rgba(59,116,255,.04));}
+@media (max-width:820px){.tiles{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+.monitor{display:grid;grid-template-columns:auto repeat(4,minmax(0,1fr));gap:12px 28px;align-items:center;padding:14px 18px;border:1px solid var(--line);border-radius:6px;background:var(--panel)}
+.monitor .k{font-family:var(--mono);font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;color:var(--dim)}
+.monitor .v{font-family:var(--mono);font-size:.86rem}
+@media (max-width:820px){.monitor{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.locknote{font-size:.82rem;color:var(--dim)}
+
+section.block{padding-top:84px;display:grid;gap:26px}
+section.block > *,.hero > *,.panel > *{min-width:0}
+.head{display:grid;gap:12px}
+
+/* charts */
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:20px 20px 16px}
+.chart-title{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:6px}
+.chart-title h3{font-size:1rem}
+.chart-title .u{font-family:var(--mono);font-size:.72rem;color:var(--muted)}
+.scroll{overflow-x:auto}
+.viz svg{display:block;width:100%;height:auto}
+.viz .axis text{font:11px var(--mono);fill:var(--muted)}
+.viz .axis line,.viz .axis path{stroke:var(--line2)}
+.viz .grid line{stroke:var(--line);stroke-dasharray:2 3}
+.viz .grid path{display:none}
+.viz .lab{font:600 12.5px var(--body);fill:var(--ink)}
+.viz .lab2{font:12px var(--mono);fill:var(--muted)}
+.viz .ann{font:11px var(--mono);fill:var(--soft)}
+.legend{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:.84rem;color:var(--soft);margin-top:10px}
+.legend span{display:inline-flex;align-items:center;gap:7px}
+.legend i{width:11px;height:11px;border-radius:2px;display:inline-block}
+.note{font-size:.84rem;color:var(--muted);margin-top:10px;max-width:80ch}
+.tip{position:fixed;pointer-events:none;z-index:50;background:#0b0f15;border:1px solid var(--line2);border-radius:5px;padding:10px 12px;font-size:.82rem;line-height:1.45;max-width:300px;box-shadow:0 12px 30px rgba(0,0,0,.5);opacity:0;transition:opacity .08s}
+.tip b{font-family:var(--display);font-weight:700;font-size:.9rem;display:block;margin-bottom:2px}
+.tip .m{font-family:var(--mono);color:var(--soft);font-size:.78rem}
+.fallback{color:var(--muted);font-size:.9rem;padding:20px 0}
+
+/* findings */
+.findings{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.find{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:20px 20px 18px;display:grid;gap:10px;align-content:start;position:relative}
+.find .no{font-family:var(--mono);font-size:.72rem;color:var(--accent)}
+.find .chips{display:flex;flex-wrap:wrap;gap:6px}
+.find p{color:var(--soft);font-size:.93rem}
+.find .ev{font-family:var(--mono);font-size:.72rem;color:var(--dim);border-top:1px dashed var(--line2);padding-top:10px;word-break:break-word}
+.find.wide{grid-column:1/-1}
+@media (max-width:820px){.findings{grid-template-columns:1fr}}
+
+/* flow map */
+.flowwrap{overflow-x:auto}
+svg.flow{display:block;width:100%;min-width:760px;height:auto}
+.flow .n{fill:var(--bg);stroke:var(--line2)}
+.flow .n.key{stroke:var(--accent);stroke-width:1.6}
+.flow .n.attr{stroke:var(--attributed);stroke-dasharray:2 3}
+.flow .t{font:600 13.5px var(--display);fill:var(--ink)}
+.flow .s{font:12px var(--body);fill:var(--muted)}
+.flow .h{font:500 11px var(--mono);letter-spacing:.14em;fill:var(--dim)}
+.flow .lbl{font:600 12px var(--mono);fill:var(--ink)}
+.flow .e{fill:none;stroke:#6b7686;stroke-width:1.4}
+.flow .e.direct{stroke:var(--verified);stroke-width:3}
+.flow .e.inf{stroke:var(--inferred);stroke-width:1.8;stroke-dasharray:6 4}
+.flow .ah{fill:#6b7686} .flow .ahd{fill:var(--verified)} .flow .ahi{fill:var(--inferred)}
+.keyrow{display:flex;flex-wrap:wrap;gap:8px 22px;font-size:.84rem;color:var(--muted);margin-top:12px}
+.keyrow span{display:inline-flex;align-items:center;gap:8px}
+.keyrow i{display:inline-block;width:28px;border-top:2px solid #6b7686}
+.keyrow i.d{border-top:4px solid var(--verified)} .keyrow i.f{border-top:2px dashed var(--inferred)} .keyrow i.a{height:12px;width:20px;border:1.5px dotted var(--attributed)}
+
+.ceu{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1.1fr) minmax(0,.9fr);border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.ceu .col{padding:22px;display:grid;gap:12px;align-content:start;border-left:1px solid var(--line);min-width:0}
+.ceu .col:first-child{border-left:0}
+.ceu .claim{background:var(--panel2)}
+.ceu blockquote{margin:0;font-family:var(--display);font-size:1.18rem;font-weight:600;line-height:1.3}
+.ceu .src{font-family:var(--mono);font-size:.72rem;color:var(--muted)}
+.ceu ul{list-style:none;margin:0;padding:0;display:grid;gap:11px}
+.ceu li{display:grid;grid-template-columns:auto 1fr;gap:10px;align-items:baseline;font-size:.9rem;color:var(--soft)}
+.ceu li p{min-width:0}
+@media (max-width:900px){.ceu{grid-template-columns:1fr}.ceu .col{border-left:0;border-top:1px solid var(--line)}.ceu .col:first-child{border-top:0}}
+.flow .hit{fill:none;stroke:transparent;stroke-width:16;cursor:pointer;pointer-events:stroke}
+.flow .hit:focus{outline:none}
+.flow .hit:hover + .e,.flow .e.sel{filter:drop-shadow(0 0 4px rgba(59,116,255,.9))}
+.flow path.e.sel{stroke:var(--accent)}
+.edge{margin-top:14px;border:1px solid var(--line2);border-radius:6px;background:var(--panel2);padding:16px 18px;display:grid;gap:10px}
+.edge .t{font-family:var(--display);font-weight:700;font-size:1.02rem}
+.edge dl{margin:0;display:grid;grid-template-columns:8.5rem 1fr;gap:6px 14px;font-size:.88rem}
+.edge dt{font-family:var(--mono);font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:var(--dim);padding-top:3px}
+.edge dd{margin:0;color:var(--soft);min-width:0;word-break:break-word}
+.edge dd a{font-family:var(--mono);font-size:.8rem}
+.edge .hint{color:var(--muted);font-size:.88rem}
+@media (max-width:560px){.edge dl{grid-template-columns:1fr}}
+/* tables */
+.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:6px;background:var(--panel)}
+table{border-collapse:collapse;width:100%;font-size:.88rem;min-width:680px}
+th,td{text-align:left;padding:11px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-family:var(--mono);font-weight:500;text-transform:uppercase;letter-spacing:.12em;font-size:.66rem;color:var(--dim);background:var(--panel2)}
+tr:last-child td{border-bottom:0}
+td.n{font-family:var(--mono);text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+td .mono{font-size:.8rem;word-break:break-all}
+td a{text-decoration-color:var(--dim);text-underline-offset:3px}
+td a:hover{text-decoration-color:var(--accent)}
+.barcell{display:flex;align-items:center;gap:10px;min-width:160px}
+.barcell span{display:block;height:8px;border-radius:0 4px 4px 0;background:var(--accent)}
+tfoot td{border-top:1px solid var(--line2);font-weight:600}
+
+/* timeline list */
+.tl{display:grid;gap:0;border-left:1px solid var(--line2);margin-left:6px}
+.tl .e{display:grid;grid-template-columns:9rem 1fr;gap:14px;padding:9px 0 9px 18px;position:relative}
+.tl .e::before{content:"";position:absolute;left:-5px;top:16px;width:9px;height:9px;border-radius:50%;background:var(--bg);border:1.5px solid var(--muted)}
+.tl .e.hot::before{background:var(--alert);border-color:var(--alert)}
+.tl .e.btc::before{background:var(--accent);border-color:var(--accent)}
+.tl .w{font-family:var(--mono);font-size:.78rem;color:var(--muted);padding-top:2px}
+.tl .x{color:var(--soft);font-size:.93rem;min-width:0}
+.tl .x b{color:var(--ink);font-weight:600}
+@media (max-width:560px){.tl .e{grid-template-columns:1fr;gap:0}}
+
+/* knowledge */
+.know{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.know > div{background:var(--panel);border:1px solid var(--line);border-top-width:3px;border-radius:6px;padding:16px;display:grid;gap:10px;align-content:start}
+.know ul{margin:0;padding-left:1.05em;display:grid;gap:7px;font-size:.88rem;color:var(--soft)}
+.know .chip{justify-self:start}
+.know .kv{border-top-color:var(--verified)} .know .ki{border-top-color:var(--inferred)} .know .ka{border-top-color:var(--attributed)} .know .kr{border-top-color:var(--reported)} .know .ku{border-top-color:var(--unknown)}
+
+details{border:1px solid var(--line);border-radius:6px;background:var(--panel)}
+details summary{cursor:pointer;padding:14px 18px;font-family:var(--display);font-weight:600;list-style:none;display:flex;justify-content:space-between}
+details summary::after{content:"+";color:var(--muted);font-family:var(--mono)}
+details[open] summary::after{content:"–"}
+details .tablewrap{border:0;border-top:1px solid var(--line);border-radius:0}
+
+.std{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}
+.std > div{display:grid;gap:8px;align-content:start;font-size:.86rem;color:var(--muted)}
+@media (max-width:900px){.std{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.sources{margin:0;padding-left:1.1em;display:grid;gap:6px;font-size:.9rem;color:var(--soft)}
+.callout{border:1px solid var(--line);border-left:3px solid var(--attributed);border-radius:6px;padding:14px 18px;background:var(--panel);font-size:.92rem;color:var(--soft)}
+footer{margin-top:90px;padding-block:28px 48px;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;justify-content:space-between;gap:14px;font-size:.84rem;color:var(--dim)}
+footer a{text-decoration:none} footer a:hover{color:var(--ink)}
+
+/* cases menu */
+.nav details.cases{border:0;background:none;border-radius:0}
+.nav details.cases summary{padding:0;font-family:inherit;font-weight:400;justify-content:flex-start}
+.nav details.cases[open] summary::after,.nav details.cases summary::after{content:""}
+.nav .brand{white-space:nowrap}
+.cases{position:relative}
+.cases summary{list-style:none;cursor:pointer;display:inline-flex;align-items:center;gap:6px;color:var(--muted);font-size:.9rem}
+.cases summary::-webkit-details-marker{display:none}
+.cases summary::after{content:"";width:6px;height:6px;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;transform:rotate(45deg) translateY(-2px);transition:transform .15s}
+.cases[open] summary::after{transform:rotate(-135deg) translateY(-1px)}
+.cases summary:hover,.cases[open] summary{color:var(--ink)}
+.cases .menu{position:absolute;right:0;top:calc(100% + 14px);width:340px;max-width:calc(100vw - 32px);background:#0b0f15;border:1px solid var(--line2);border-radius:8px;padding:6px;box-shadow:0 18px 40px rgba(0,0,0,.55);display:grid;gap:2px;z-index:30}
+.cases .menu a{display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:center;padding:10px 12px;border-radius:6px;text-decoration:none;color:var(--ink)}
+.cases .menu a:hover,.cases .menu a:focus-visible,.cases .menu a.cur{background:var(--panel2)}
+.cases .menu .id{font-family:var(--mono);font-size:.72rem;color:var(--accent);letter-spacing:.06em}
+.cases .menu b{display:block;font-family:var(--display);font-weight:700;font-size:.92rem}
+.cases .menu small{display:block;color:var(--muted);font-size:.76rem;line-height:1.35}
+.cases .menu i{width:7px;height:7px;border-radius:50%;background:var(--alert)}
+.cases .menu .all{grid-template-columns:1fr;border-top:1px solid var(--line);border-radius:0 0 6px 6px;margin-top:4px;padding-top:11px;color:var(--muted);font-size:.84rem}
+@media (max-width:560px){.cases .menu{position:fixed;left:16px;right:16px;top:62px;width:auto}}
+
+
+.chip{display:inline-block;font-family:var(--mono);font-size:.62rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;padding:2px 7px;border:1px solid currentColor;border-radius:3px;white-space:nowrap;vertical-align:2px;line-height:1.5}
+.chip.v{color:var(--verified)} .chip.i{color:var(--inferred)} .chip.a{color:var(--attributed)} .chip.r{color:var(--reported)} .chip.u{color:var(--unknown)}
+.live{display:inline-flex;align-items:center;gap:8px;font-family:var(--mono);font-size:.72rem;letter-spacing:.14em;color:var(--alert)}
+.live i{width:7px;height:7px;border-radius:50%;background:var(--alert)}
+@media (prefers-reduced-motion:no-preference){.live i{animation:pulse 2s infinite}}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(255,107,94,.55)}70%{box-shadow:0 0 0 8px rgba(255,107,94,0)}100%{box-shadow:0 0 0 0 rgba(255,107,94,0)}}
+
+/* hero */
+.hero{padding-block:56px 32px;display:grid;gap:22px}
+.crumbs{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center}
+.hero h1{font-size:clamp(2.4rem,6vw,4.4rem);font-weight:800;letter-spacing:-.035em}
+.hero h1 span{color:var(--accent)}
+.hero .route{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-family:var(--mono);font-size:.82rem}
+.hero .route b{font-weight:500;padding:4px 10px;border:1px solid var(--line2);border-radius:3px;background:var(--panel)}
+.hero .route em{font-style:normal;color:var(--dim)}
+.hero .dek{font-size:1.12rem;color:var(--soft);max-width:64ch}
+.hero .dek strong{color:var(--ink);font-weight:600}
+
+.tiles{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.tile{background:var(--panel);padding:20px 20px 18px;display:grid;gap:6px;align-content:start}
+.tile .n{font-family:var(--display);font-weight:800;font-size:clamp(1.5rem,2.6vw,2rem);letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.tile .n small{font-size:.55em;color:var(--muted);font-weight:600;margin-left:4px}
+.tile .d{font-size:.84rem;color:var(--muted);line-height:1.45}
+.tile.key{background:linear-gradient(180deg,rgba(59,116,255,.16),rgba(59,116,255,.04));}
+@media (max-width:820px){.tiles{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+.monitor{display:grid;grid-template-columns:auto repeat(4,minmax(0,1fr));gap:12px 28px;align-items:center;padding:14px 18px;border:1px solid var(--line);border-radius:6px;background:var(--panel)}
+.monitor .k{font-family:var(--mono);font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;color:var(--dim)}
+.monitor .v{font-family:var(--mono);font-size:.86rem}
+@media (max-width:820px){.monitor{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.locknote{font-size:.82rem;color:var(--dim)}
+
+section.block{padding-top:84px;display:grid;gap:26px}
+section.block > *,.hero > *,.panel > *{min-width:0}
+.head{display:grid;gap:12px}
+
+/* charts */
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:20px 20px 16px}
+.chart-title{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:6px}
+.chart-title h3{font-size:1rem}
+.chart-title .u{font-family:var(--mono);font-size:.72rem;color:var(--muted)}
+.scroll{overflow-x:auto}
+.viz svg{display:block;width:100%;height:auto}
+.viz .axis text{font:11px var(--mono);fill:var(--muted)}
+.viz .axis line,.viz .axis path{stroke:var(--line2)}
+.viz .grid line{stroke:var(--line);stroke-dasharray:2 3}
+.viz .grid path{display:none}
+.viz .lab{font:600 12.5px var(--body);fill:var(--ink)}
+.viz .lab2{font:12px var(--mono);fill:var(--muted)}
+.viz .ann{font:11px var(--mono);fill:var(--soft)}
+.legend{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:.84rem;color:var(--soft);margin-top:10px}
+.legend span{display:inline-flex;align-items:center;gap:7px}
+.legend i{width:11px;height:11px;border-radius:2px;display:inline-block}
+.note{font-size:.84rem;color:var(--muted);margin-top:10px;max-width:80ch}
+.tip{position:fixed;pointer-events:none;z-index:50;background:#0b0f15;border:1px solid var(--line2);border-radius:5px;padding:10px 12px;font-size:.82rem;line-height:1.45;max-width:300px;box-shadow:0 12px 30px rgba(0,0,0,.5);opacity:0;transition:opacity .08s}
+.tip b{font-family:var(--display);font-weight:700;font-size:.9rem;display:block;margin-bottom:2px}
+.tip .m{font-family:var(--mono);color:var(--soft);font-size:.78rem}
+.fallback{color:var(--muted);font-size:.9rem;padding:20px 0}
+
+/* findings */
+.findings{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.find{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:20px 20px 18px;display:grid;gap:10px;align-content:start;position:relative}
+.find .no{font-family:var(--mono);font-size:.72rem;color:var(--accent)}
+.find .chips{display:flex;flex-wrap:wrap;gap:6px}
+.find p{color:var(--soft);font-size:.93rem}
+.find .ev{font-family:var(--mono);font-size:.72rem;color:var(--dim);border-top:1px dashed var(--line2);padding-top:10px;word-break:break-word}
+.find.wide{grid-column:1/-1}
+@media (max-width:820px){.findings{grid-template-columns:1fr}}
+
+/* flow map */
+.flowwrap{overflow-x:auto}
+svg.flow{display:block;width:100%;min-width:760px;height:auto}
+.flow .n{fill:var(--bg);stroke:var(--line2)}
+.flow .n.key{stroke:var(--accent);stroke-width:1.6}
+.flow .n.attr{stroke:var(--attributed);stroke-dasharray:2 3}
+.flow .t{font:600 13.5px var(--display);fill:var(--ink)}
+.flow .s{font:12px var(--body);fill:var(--muted)}
+.flow .h{font:500 11px var(--mono);letter-spacing:.14em;fill:var(--dim)}
+.flow .lbl{font:600 12px var(--mono);fill:var(--ink)}
+.flow .e{fill:none;stroke:#6b7686;stroke-width:1.4}
+.flow .e.direct{stroke:var(--verified);stroke-width:3}
+.flow .e.inf{stroke:var(--inferred);stroke-width:1.8;stroke-dasharray:6 4}
+.flow .ah{fill:#6b7686} .flow .ahd{fill:var(--verified)} .flow .ahi{fill:var(--inferred)}
+.keyrow{display:flex;flex-wrap:wrap;gap:8px 22px;font-size:.84rem;color:var(--muted);margin-top:12px}
+.keyrow span{display:inline-flex;align-items:center;gap:8px}
+.keyrow i{display:inline-block;width:28px;border-top:2px solid #6b7686}
+.keyrow i.d{border-top:4px solid var(--verified)} .keyrow i.f{border-top:2px dashed var(--inferred)} .keyrow i.a{height:12px;width:20px;border:1.5px dotted var(--attributed)}
+
+.ceu{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1.1fr) minmax(0,.9fr);border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.ceu .col{padding:22px;display:grid;gap:12px;align-content:start;border-left:1px solid var(--line);min-width:0}
+.ceu .col:first-child{border-left:0}
+.ceu .claim{background:var(--panel2)}
+.ceu blockquote{margin:0;font-family:var(--display);font-size:1.18rem;font-weight:600;line-height:1.3}
+.ceu .src{font-family:var(--mono);font-size:.72rem;color:var(--muted)}
+.ceu ul{list-style:none;margin:0;padding:0;display:grid;gap:11px}
+.ceu li{display:grid;grid-template-columns:auto 1fr;gap:10px;align-items:baseline;font-size:.9rem;color:var(--soft)}
+.ceu li p{min-width:0}
+@media (max-width:900px){.ceu{grid-template-columns:1fr}.ceu .col{border-left:0;border-top:1px solid var(--line)}.ceu .col:first-child{border-top:0}}
+.flow .hit{fill:none;stroke:transparent;stroke-width:16;cursor:pointer;pointer-events:stroke}
+.flow .hit:focus{outline:none}
+.flow .hit:hover + .e,.flow .e.sel{filter:drop-shadow(0 0 4px rgba(59,116,255,.9))}
+.flow path.e.sel{stroke:var(--accent)}
+.edge{margin-top:14px;border:1px solid var(--line2);border-radius:6px;background:var(--panel2);padding:16px 18px;display:grid;gap:10px}
+.edge .t{font-family:var(--display);font-weight:700;font-size:1.02rem}
+.edge dl{margin:0;display:grid;grid-template-columns:8.5rem 1fr;gap:6px 14px;font-size:.88rem}
+.edge dt{font-family:var(--mono);font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:var(--dim);padding-top:3px}
+.edge dd{margin:0;color:var(--soft);min-width:0;word-break:break-word}
+.edge dd a{font-family:var(--mono);font-size:.8rem}
+.edge .hint{color:var(--muted);font-size:.88rem}
+@media (max-width:560px){.edge dl{grid-template-columns:1fr}}
+/* tables */
+.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:6px;background:var(--panel)}
+table{border-collapse:collapse;width:100%;font-size:.88rem;min-width:680px}
+th,td{text-align:left;padding:11px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-family:var(--mono);font-weight:500;text-transform:uppercase;letter-spacing:.12em;font-size:.66rem;color:var(--dim);background:var(--panel2)}
+tr:last-child td{border-bottom:0}
+td.n{font-family:var(--mono);text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+td .mono{font-size:.8rem;word-break:break-all}
+td a{text-decoration-color:var(--dim);text-underline-offset:3px}
+td a:hover{text-decoration-color:var(--accent)}
+.barcell{display:flex;align-items:center;gap:10px;min-width:160px}
+.barcell span{display:block;height:8px;border-radius:0 4px 4px 0;background:var(--accent)}
+tfoot td{border-top:1px solid var(--line2);font-weight:600}
+
+/* timeline list */
+.tl{display:grid;gap:0;border-left:1px solid var(--line2);margin-left:6px}
+.tl .e{display:grid;grid-template-columns:9rem 1fr;gap:14px;padding:9px 0 9px 18px;position:relative}
+.tl .e::before{content:"";position:absolute;left:-5px;top:16px;width:9px;height:9px;border-radius:50%;background:var(--bg);border:1.5px solid var(--muted)}
+.tl .e.hot::before{background:var(--alert);border-color:var(--alert)}
+.tl .e.btc::before{background:var(--accent);border-color:var(--accent)}
+.tl .w{font-family:var(--mono);font-size:.78rem;color:var(--muted);padding-top:2px}
+.tl .x{color:var(--soft);font-size:.93rem;min-width:0}
+.tl .x b{color:var(--ink);font-weight:600}
+@media (max-width:560px){.tl .e{grid-template-columns:1fr;gap:0}}
+
+/* knowledge */
+.know{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.know > div{background:var(--panel);border:1px solid var(--line);border-top-width:3px;border-radius:6px;padding:16px;display:grid;gap:10px;align-content:start}
+.know ul{margin:0;padding-left:1.05em;display:grid;gap:7px;font-size:.88rem;color:var(--soft)}
+.know .chip{justify-self:start}
+.know .kv{border-top-color:var(--verified)} .know .ki{border-top-color:var(--inferred)} .know .ka{border-top-color:var(--attributed)} .know .kr{border-top-color:var(--reported)} .know .ku{border-top-color:var(--unknown)}
+
+details{border:1px solid var(--line);border-radius:6px;background:var(--panel)}
+details summary{cursor:pointer;padding:14px 18px;font-family:var(--display);font-weight:600;list-style:none;display:flex;justify-content:space-between}
+details summary::after{content:"+";color:var(--muted);font-family:var(--mono)}
+details[open] summary::after{content:"–"}
+details .tablewrap{border:0;border-top:1px solid var(--line);border-radius:0}
+
+.std{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}
+.std > div{display:grid;gap:8px;align-content:start;font-size:.86rem;color:var(--muted)}
+@media (max-width:900px){.std{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.sources{margin:0;padding-left:1.1em;display:grid;gap:6px;font-size:.9rem;color:var(--soft)}
+.callout{border:1px solid var(--line);border-left:3px solid var(--attributed);border-radius:6px;padding:14px 18px;background:var(--panel);font-size:.92rem;color:var(--soft)}
+footer{margin-top:90px;padding-block:28px 48px;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;justify-content:space-between;gap:14px;font-size:.84rem;color:var(--dim)}
+footer a{text-decoration:none} footer a:hover{color:var(--ink)}
+
+.draftbar{position:sticky;top:57px;z-index:19;background:#3a1512;border-bottom:1px solid var(--alert);color:#ffd2cc;font-family:var(--mono);font-size:.78rem;letter-spacing:.06em;padding:8px 0;text-align:center}
+.flow .sep{stroke:var(--line2);stroke-dasharray:3 4}
+.flow .elbl{font:600 11.5px var(--mono);fill:var(--soft)}
+.ceu li p,.find p,.tl .x,.edge dd{overflow-wrap:anywhere}
+
+</style>
+<style id="ofintel-css">
+.ofi,.ofw,.oft,.ofx,.ofexp,.ofa{--money:#34d399;--money2:#14b8a6}
+.ofi{padding:56px 0;border-bottom:1px solid var(--line);background:linear-gradient(180deg,rgba(52,211,153,.035),transparent 70%)}
+.ofi .top{display:flex;justify-content:space-between;align-items:end;gap:24px;flex-wrap:wrap;margin-bottom:26px}
+.ofi h2{font-size:clamp(1.5rem,2.6vw,2.1rem);font-weight:500;letter-spacing:-.01em}.ofi h2 span{color:var(--money)}
+.ofi .live{display:inline-flex;align-items:center;gap:8px}.ofi .live i{width:8px;height:8px;border-radius:50%;background:var(--money);box-shadow:0 0 0 0 rgba(52,211,153,.6);animation:ofip 2s infinite}
+@keyframes ofip{0%{box-shadow:0 0 0 0 rgba(52,211,153,.55)}70%{box-shadow:0 0 0 10px rgba(52,211,153,0)}100%{box-shadow:0 0 0 0 rgba(52,211,153,0)}}
+@media (prefers-reduced-motion:reduce){.ofi .live i{animation:none}}
+.ofi .kpis{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));border:1px solid var(--line2);border-radius:14px;background:var(--panel);overflow:hidden}
+.ofi .k{padding:20px 20px 18px;border-left:1px solid var(--line)}.ofi .k:first-child{border-left:0}
+.ofi .k b{display:block;font-size:clamp(1.3rem,2.2vw,1.9rem);font-weight:500;font-variant-numeric:tabular-nums;line-height:1.15}
+.ofi .k small{display:block;margin-top:6px;font-family:var(--mono);font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.ofi .k.m b{color:var(--money)}.ofi .k.f b{color:#7fd3ff}
+@media (max-width:900px){.ofi .kpis{grid-template-columns:repeat(3,1fr)}.ofi .k:nth-child(4){border-left:0}.ofi .k:nth-child(n+4){border-top:1px solid var(--line)}}
+@media (max-width:520px){.ofi .kpis{grid-template-columns:repeat(2,1fr)}.ofi .k{border-left:0!important;border-top:1px solid var(--line)}.ofi .k:nth-child(odd){border-right:1px solid var(--line)}.ofi .k:nth-child(-n+2){border-top:0}}
+.ofi .stop{margin-top:22px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.ofi .stop a{display:block;padding:16px 18px;border:1px solid var(--line2);border-radius:12px;text-decoration:none;background:var(--panel)}
+.ofi .stop a:hover{border-color:var(--money)}.ofi .stop em{font-style:normal;font-family:var(--mono);font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.ofi .stop b{display:block;font-size:1.25rem;font-weight:500;margin:4px 0 2px;color:var(--money)}.ofi .stop span{font-size:.88rem;color:var(--soft)}
+@media (max-width:800px){.ofi .stop{grid-template-columns:1fr}}
+.ofi .links{display:flex;gap:22px;flex-wrap:wrap;margin-top:18px;font-family:var(--mono);font-size:.78rem}.ofi .links a{color:var(--soft)}
+.ofw{padding:72px 0;border-bottom:1px solid var(--line)}
+.ofw ol{list-style:none;margin:22px 0 0;padding:0;border-top:1px solid var(--line)}
+.ofw li{display:grid;grid-template-columns:130px 52px minmax(0,1fr) auto;gap:14px;align-items:baseline;padding:13px 0;border-bottom:1px solid var(--line);font-size:.95rem}
+.ofw li.hot p b{color:var(--ink)}.ofw time{font-family:var(--mono);font-size:.76rem;color:var(--muted)}.ofw time b{color:var(--soft);font-weight:500}
+.ofw .file{font-family:var(--mono);font-size:.76rem;color:var(--money);text-decoration:none}.ofw p{color:var(--soft)}
+@media (max-width:640px){.ofw li{grid-template-columns:1fr auto;gap:4px 10px}.ofw li p{grid-column:1/-1}.ofw li .chip{display:none}}
+.oft{padding:72px 0;border-bottom:1px solid var(--line)}
+.oft .box{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:28px;align-items:center;padding:34px 36px;border:1px solid rgba(255,107,94,.45);border-radius:16px;background:radial-gradient(120% 140% at 0% 0%,rgba(255,107,94,.08),transparent 60%),var(--panel)}
+.oft h2{font-size:clamp(1.5rem,2.6vw,2.1rem);font-weight:500}.oft p{color:var(--soft);margin-top:10px;max-width:640px}
+.oft .btn{border-color:var(--alert);color:var(--ink)}.oft .btn:hover{background:rgba(255,107,94,.12)}
+@media (max-width:700px){.oft .box{grid-template-columns:1fr;padding:26px 22px}}
+.ofx{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line2);border-radius:12px;overflow:hidden;margin:18px 0}
+.ofx div{background:var(--panel);padding:16px 18px}.ofx b{display:block;font-size:1.15rem;font-weight:500}.ofx small{font-family:var(--mono);font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+@media (max-width:700px){.ofx{grid-template-columns:1fr 1fr}}
+</style>
+<!--ofnav:css--><style>
+.ofnav{position:sticky;top:0;z-index:50;background:rgba(5,7,11,.86);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid #18202c;font-family:"IBM Plex Sans","Inter",system-ui,-apple-system,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased}
+.ofnav *{box-sizing:border-box}
+.ofnav .ofn-in{max-width:1200px;margin:0 auto;padding:0 24px;height:64px;display:flex;align-items:center;gap:28px}
+.ofnav .ofn-brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:#e8ecf2;white-space:nowrap;flex:0 0 auto}
+.ofnav .ofn-brand img{display:block;border-radius:50%}
+.ofnav .ofn-brand span{font-family:"IBM Plex Mono","DejaVu Sans Mono",ui-monospace,monospace;font-size:.86rem;font-weight:500;letter-spacing:.24em;text-transform:uppercase}
+.ofnav nav{display:flex;align-items:center;gap:26px;margin-left:auto;font-size:.92rem}
+.ofnav nav > a,.ofnav summary{color:#c0c8d4;text-decoration:none;white-space:nowrap;cursor:pointer;padding:6px 0;border-bottom:1.5px solid transparent;transition:color .15s}
+.ofnav nav > a:hover,.ofnav summary:hover{color:#fff}
+.ofnav nav > a[aria-current],.ofnav details > summary[aria-current]{color:#fff;border-bottom-color:#3b74ff}
+.ofnav details{position:relative;margin:0;padding:0;border:0;background:none;border-radius:0;box-shadow:none}
+.ofnav details > summary{margin:0;background:none;border:0;border-bottom:1.5px solid transparent;border-radius:0;font:inherit;font-weight:400;letter-spacing:normal;text-transform:none;box-shadow:none}
+.ofnav details[open] > summary{background:none;border-color:transparent}
+.ofnav summary{list-style:none;display:flex;align-items:center;gap:6px}
+.ofnav summary::-webkit-details-marker{display:none}
+.ofnav details > summary::after{content:"";width:6px;height:6px;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;transform:translateY(-2px) rotate(45deg);opacity:.7;transition:transform .15s}
+.ofnav details[open] > summary::after{content:"";transform:translateY(1px) rotate(-135deg)}
+.ofnav .menu{position:absolute;top:calc(100% + 12px);left:-16px;width:440px;max-height:min(70vh,560px);overflow:auto;background:#0a0e15;border:1px solid #222c3a;border-radius:12px;padding:6px;box-shadow:0 18px 50px rgba(0,0,0,.55)}
+.ofnav .menu.narrow{width:300px}
+.ofnav .menu a{font-weight:400;display:flex;gap:12px;align-items:flex-start;padding:10px 12px;border-radius:8px;text-decoration:none;color:#c0c8d4}
+.ofnav .menu a:hover,.ofnav .menu a[aria-current]{background:#121926;color:#fff}
+.ofnav .menu .n{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:.72rem;color:#5a6474;padding-top:3px;min-width:34px}
+.ofnav .menu b{display:block;font-weight:500;color:#e8ecf2;font-size:.9rem;line-height:1.35}
+.ofnav .menu small{display:block;color:#8a94a4;font-size:.78rem;line-height:1.4;margin-top:2px}
+.ofnav .menu i{width:7px;height:7px;border-radius:50%;background:#34d399;box-shadow:0 0 0 3px rgba(52,211,153,.15);margin:7px 2px 0 auto;flex:0 0 auto}
+.ofnav .menu a.all{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:.76rem;letter-spacing:.06em;color:#7fa7ff;border-top:1px solid #18202c;border-radius:0 0 8px 8px;margin-top:4px}
+.ofnav .ofn-social{display:flex;gap:6px;margin-left:4px}
+.ofnav a.ofn-cta{color:#ff8d82;border:1px solid rgba(255,107,94,.45);background:rgba(255,107,94,.08);border-radius:999px;padding:7px 14px;font-weight:600;text-decoration:none;transition:.15s}
+.ofnav a.ofn-cta:hover,.ofnav a.ofn-cta[aria-current=page]{color:#130404;background:#ff6b5e;border-color:#ff6b5e}
+.ofnav .ofn-social a{display:grid;place-items:center;width:34px;height:34px;border:1px solid #222c3a;border-radius:50%;color:#c0c8d4;text-decoration:none;transition:.15s}
+.ofnav .ofn-social a:hover{color:#fff;border-color:#3b74ff;background:rgba(59,116,255,.12)}
+.ofnav .ofn-social em{display:none}
+.ofnav .ofn-burger{display:none;margin-left:auto;width:42px;height:42px;border:1px solid #222c3a;border-radius:10px;background:transparent;cursor:pointer;flex-direction:column;justify-content:center;align-items:center;gap:5px}
+.ofnav .ofn-burger span{display:block;width:18px;height:1.5px;background:#e8ecf2;transition:.2s}
+.ofnav.open .ofn-burger span:nth-child(1){transform:translateY(6.5px) rotate(45deg)}
+.ofnav.open .ofn-burger span:nth-child(2){opacity:0}
+.ofnav.open .ofn-burger span:nth-child(3){transform:translateY(-6.5px) rotate(-45deg)}
+@media (max-width:860px){
+  .ofnav .ofn-in{padding:0 16px;height:58px}
+  .ofnav .ofn-brand span{font-size:.78rem;letter-spacing:.2em}
+  .ofnav .ofn-burger{display:flex}
+  .ofnav nav{display:none;position:absolute;left:0;right:0;top:100%;flex-direction:column;align-items:stretch;gap:0;background:#070a10;border-bottom:1px solid #18202c;padding:8px 16px 18px;max-height:calc(100vh - 58px);overflow:auto}
+  .ofnav.open nav{display:flex}
+  .ofnav nav > a,.ofnav details > summary{padding:14px 2px;border-bottom:1px solid #121925;font-size:1rem}
+  .ofnav nav > a[aria-current],.ofnav details > summary[aria-current]{border-bottom-color:#121925;color:#fff;box-shadow:inset 3px 0 0 #3b74ff;padding-left:12px}
+  .ofnav summary{justify-content:space-between}
+  .ofnav .menu,.ofnav .menu.narrow{position:static;width:auto;max-height:none;border:0;box-shadow:none;background:transparent;padding:4px 0 8px}
+  .ofnav .ofn-social{margin:16px 0 0;gap:10px}
+  .ofnav .ofn-social a{width:auto;height:auto;border-radius:10px;padding:10px 14px;gap:8px;display:flex;flex:1;justify-content:center}
+  .ofnav .ofn-social em{display:inline;font-style:normal;font-size:.9rem}
+}
+</style><!--/ofnav:css-->
+</head>
+<body>
+<header class="ofnav" data-ofnav data-ofsections='[["#map","Map"],["#evidence","Evidence"]]'>
+  <div class="ofn-in">
+    <a class="ofn-brand" href="../../" aria-label="Onchain Files home"><img src="../../assets/logo.png" alt="" width="30" height="30"><span>Onchain Files</span></a>
+    <button class="ofn-burger" type="button" aria-expanded="false" aria-controls="ofn-links" aria-label="Menu"><span></span><span></span><span></span></button>
+    <nav id="ofn-links" aria-label="Primary">
+      <details class="dd"><summary aria-current="page">Files</summary><div class="menu"><a href="../../files/015-ledger-users-drained/"><span class="n">#015</span><span><b>Ledger users drained: $86M+ taken, 11.45M USDT frozen, ≈ 8,700 ETH and ≈ 204 BTC still traceable</b><small>Wallet drain · Ethereum, BNB Chain, TRON, Bitcoin · Oct 7–9, 2026</small></span><i title="Watched"></i></a><a href="../../files/014-frogman-token2049/" aria-current="page"><span class="n">#014</span><span><b>Frogman at TOKEN2049: $4M drained overnight, $2M found waiting to become Monero</b><small>Wallet drain · Solana, Base, BNB Chain, Robinhood Chain → Hyperliquid · Oct 6, 2026</small></span><i title="Watched"></i></a><a href="../../files/013-79thvault-79au/"><span class="n">#013</span><span><b>79thVault: 2.01M 79AU sold in an hour, 15,000 BNB returned a day later</b><small>Privileged sell · BNB Chain → Ethereum · Oct 7, 2026</small></span></a><a href="../../files/012-poisoning-machine/"><span class="n">#012</span><span><b>Address poisoning: one wrong copy-paste, one poisoning machine</b><small>Address poisoning · Ethereum · Oct 6, 2026</small></span><i title="Watched"></i></a><a href="../../files/011-xrp-healthcare/"><span class="n">#011</span><span><b>XRP Healthcare: 4,011 wallets, one weak key generator, 445,198 DAI still sitting</b><small>XRP Healthcare · XRPL → Ethereum · Sep 3–4, 2026</small></span><i title="Watched"></i></a><a href="../../files/010-neutron-governance/"><span class="n">#010</span><span><b>Neutron: a vote bought, a chain restarted, 794 ETH still sitting</b><small>Neutron · Cosmos → Ethereum · Sep 21–22, 2026</small></span><i title="Watched"></i></a><a href="../../files/009-nostra-oracle/"><span class="n">#009</span><span><b>Nostra: $421 of collateral, $3.5M borrowed, $2M still sitting</b><small>Nostra · Starknet → Ethereum · Sep 17, 2026</small></span><i title="Watched"></i></a><a href="../../files/008-singularitynet-bridge/"><span class="n">#008</span><span><b>SingularityNET bridge: tokens from nothing, then four exits</b><small>SingularityNET · Ethereum → Bitcoin, Monero · Sep 19, 2026</small></span><i title="Watched"></i></a><a href="../../files/007-duelbits-hot-wallets/"><span class="n">#007</span><span><b>Duelbits hot-wallet hack: five chains, one wallet, then Tornado</b><small>Duelbits · 5 chains · Sep 24, 2026</small></span><i title="Watched"></i></a><a href="../../files/006-liquid-network/"><span class="n">#006</span><span><b>Liquid Network exploit: 4,000 BTC from nothing</b><small>Liquid · Bitcoin · Sep 6, 2026</small></span><i title="Watched"></i></a><a href="../../files/005-base-vault-wsteth/"><span class="n">#005</span><span><b>Base vault exploit: 1,783 wstETH</b><small>Unnamed vault · Base · Oct 4, 2026</small></span><i title="Watched"></i></a><a href="../../files/004-bitget-hot-wallets/"><span class="n">#004</span><span><b>Bitget hot-wallet hack: where $387M went</b><small>Bitget · 9 chains · Sep 24, 2026</small></span><i title="Watched"></i></a><a href="../../files/003-one-wallet-five-tokens/"><span class="n">#003</span><span><b>One wallet, five tokens: $380M of volume, traded with itself</b><small>BNB Chain · wash trading · Sep 30 – Oct 2, 2026</small></span></a><a href="../../files/002-flashloop-adapter/"><span class="n">#002</span><span><b>FlashLoopAdapter exploit</b><small>Aave-linked · Ethereum · Oct 1, 2026</small></span></a><a href="../../files/001-near-intents/"><span class="n">#001</span><span><b>NEAR Intents exploit</b><small>BNB Chain · Ethereum · Bitcoin · Sep 30, 2026</small></span></a><a class="all" href="../../#files">All files →</a></div></details>
+      <details class="dd"><summary>This File</summary><div class="menu narrow"><a href="#map"><span><b>Map</b></span></a><a href="#evidence"><span><b>Evidence</b></span></a></div></details>
+      <a href="../../scoreboard/">Scoreboard</a>
+      <a href="../../wire/">Wire</a>
+      <a href="../../actors/">Actors</a>
+      <a href="../../rewards/">Rewards</a>
+      <a href="../../check/">Check a wallet</a>
+      <a class="ofn-cta" href="../../report/">Report a theft</a>
+      <details class="dd"><summary>About</summary><div class="menu narrow"><a href="../../#process"><span><b>How we work</b><small>Method, evidence statuses, sign-off</small></span></a><a href="../../how/"><span><b>How do you know?</b><small>Our method, one case at a time</small></span></a><a href="../../record/"><span><b>Record</b><small>Every claim we made and how it held up</small></span></a><a href="../../tips/"><span><b>Send a tip</b><small>Saw something linked to a case?</small></span></a><a href="../../partners/"><span><b>For security teams</b><small>Exchanges, issuers, swap services</small></span></a></div></details>
+      <span class="ofn-social"><a href="https://x.com/onchain_files" rel="noopener" aria-label="Onchain Files on X" title="@onchain_files on X"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M17.75 3h3.07l-6.7 7.66L22 21h-6.17l-4.83-6.32L5.47 21H2.4l7.17-8.2L2 3h6.33l4.37 5.77L17.75 3Zm-1.08 16.2h1.7L7.4 4.73H5.58l11.09 14.47Z"/></svg><em>X</em></a><a href="https://t.me/onchain_files01" rel="noopener" aria-label="Onchain Files alerts on Telegram" title="Alerts on Telegram"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path fill="currentColor" d="M21.94 4.3 18.9 18.63c-.23 1.01-.83 1.26-1.67.78l-4.62-3.4-2.23 2.14c-.25.25-.45.45-.93.45l.33-4.7 8.56-7.73c.37-.33-.08-.52-.58-.19L7.18 12.65 2.63 11.23c-.99-.31-1.01-.99.21-1.47l17.8-6.86c.82-.3 1.54.2 1.3 1.4Z"/></svg><em>Telegram</em></a></span>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="hero">
+    <div class="crumbs"><span class="eyebrow">File #014 · Frogman at TOKEN2049: $4M drained overnight, $2M found waiting to become Monero</span><span class="live"><i></i>MONITORING</span><span class="eyebrow" style="color:var(--dim)">v1.0 · findings locked · Oct 8, 2026</span></div>
+    <h1>Drained in his sleep. <span>Half of it still in reach.</span></h1>
+    <div class="route" aria-label="Route"><b>Two wallets drained at 04:14 SGT</b><em>→</em><b>Privacy Cash · Across</b><em>→</em><b>Mayan · LI.FI</b><em>→</em><b>Arbitrum USDC</b><em>→</em><b>3,586.8 XMR1 on Hyperliquid</b></div>
+    <p class="dek"><strong>In the early hours of Oct 7 in Singapore, during TOKEN2049, trader Frogman's Solana and EVM wallets were emptied within about a minute, while he slept.</strong> The thief laundered the Solana side through Privacy Cash and Mayan, and the EVM side through Across and LI.FI. Both roads end at the same place: 35 fresh Hyperliquid accounts that bought XMR1, a Monero token issued by Wagyu.xyz. As of our last check none of it had been redeemed to Monero.</p>
+    <div class="tiles">
+      <div class="tile"><span class="n">≈ $4M</span><span class="d">Reported stolen: BP, MARSCOIN, CASHCAT and smaller tokens across Solana, Base, BNB Chain and Robinhood Chain.</span></div>
+      <div class="tile"><span class="n">96%<small>out in minutes</small></span><span class="d">13,241 SOL went into Privacy Cash; 12,693 SOL came out to 29 brand-new wallets in identical batches within the same half hour (Inferred).</span></div>
+      <div class="tile"><span class="n">35<small>Hyperliquid accounts</small></span><span class="d">One deposit each, 2,029,874 USDC in total, all spent on XMR1.</span></div>
+      <div class="tile key"><span class="n">3,586.8<small>XMR1</small></span><span class="d">≈ $2M still sitting in those accounts, not yet redeemed to Monero. Watched every 5 minutes.</span></div>
+    </div>
+    <div class="monitor" aria-label="Monitoring status">
+      <span class="live"><i></i>MONITORING</span>
+      <div><p class="k">XMR1 held</p><p class="v">3,586.8 in 35 accounts</p></div>
+      <div><p class="k">Redeemed</p><p class="v">None so far</p></div>
+      <div><p class="k">Freezable</p><p class="v">No issuer freeze; Wagyu controls redemption</p></div>
+      <div><p class="k">Last checked</p><p class="v">Oct 13</p></div>
+    </div>
+    <p class="locknote">The findings are locked. The status bar updates when the watched addresses move. Additions are logged below.</p>
+
+  </section>
+
+  <!--ofexposure--><section class="ofexp" id="exposure" style="padding:40px 0 8px"><div>
+    <p class="eyebrow">Current exposure</p>
+    <div class="ofx"><div><small>Stolen</small><b>≈ $4M</b></div><div><small>Returned</small><b>—</b></div><div><small>Frozen</small><b>—</b></div><div><small>Still traceable</small><b>≈ $1.9M</b></div></div>
+    <p class="eyebrow" style="margin-top:22px">Where it can still be stopped</p>
+    <ul style="margin:10px 0 0;padding-left:18px;color:var(--soft);line-height:1.7"><li><b>Monitored, not freezable today</b> · XMR, ETH held in self-custody. If it reaches an exchange or a service, that is the moment to act; we watch for it around the clock.</li><li><b>Law enforcement</b> · a full evidence pack (every transaction, CSV) is available on request.</li></ul>
+  </div></section><!--/ofexposure-->
+<section class="block" id="claim" style="padding-top:48px">
+    <div class="ceu">
+      <div class="col claim"><p class="eyebrow">The claim</p>
+        <blockquote>"Drained at 4:30am while I was asleep."</blockquote>
+        <p class="src">Frogman (@frogmanhaha) on X, Oct 7, 2026 <span class="chip r">Project-reported</span></p>
+        <blockquote style="font-size:1rem;color:var(--soft)">"About $4M lost: 1.43M BP, 13.96M MARSCOIN, 3.7M CASHCAT and more."</blockquote>
+        <p class="src">Lookonchain on X, Oct 7, 2026 (paraphrased) <span class="chip r">Project-reported</span></p></div>
+      <div class="col"><p class="eyebrow">The evidence</p><ul>
+        <li><span class="chip v">Verified</span><p>Solana, Oct 6, 20:14:54–20:15:34 UTC: the victim wallet 9wMS…v8zQ sent 1,429,939 BP, 15.87M ZesMG, 7,859.97 USDC and 0.29 SOL to 69Fn…CFS in four transactions.</p></li>
+        <li><span class="chip v">Verified</span><p>Between 20:36 and 21:00 UTC, 69Fn…CFS deposited 13,240.97 SOL into Privacy Cash in ten transactions.</p></li>
+        <li><span class="chip i">Inferred</span><p>In the same window, 12,693 SOL left Privacy Cash for 29 fresh wallets (2–3 transactions each, ever), in identical batches: 9 × 331.83, 8 × 413.54 SOL and so on. Amount and timing, not proof.</p></li>
+        <li><span class="chip v">Direct link</span><p>Oct 7, 02:27–03:36 UTC: 25 of those wallets passed the SOL to a second fresh wallet each, which swapped and bridged it with Mayan to Arbitrum: 1,284,323 USDC in 25 new wallets. Mayan's records link every source and destination.</p></li>
+        <li><span class="chip v">Verified</span><p>Every one of those Arbitrum wallets deposited its USDC into Hyperliquid within minutes, then bought XMR1, Wagyu.xyz's Monero token.</p></li>
+        <li><span class="chip v">Verified</span><p>The EVM side ended the same way: 10 more fresh wallets, funded from the attacker's collector 0x427C…bA83 after an Across crossing, bridged ETH to Arbitrum USDC through LI.FI (745,551 USDC) and bought XMR1 on Hyperliquid.</p></li></ul></div>
+      <div class="col"><p class="eyebrow">The unknown</p><ul>
+        <li><span class="chip u">Unknown</span><p>How the keys were taken. Both wallets were emptied by transactions signed with their own keys, which points to a stolen key or seed, not a phishing signature. The victim has not said how.</p></li>
+        <li><span class="chip u">Unknown</span><p>Who controls the accounts. Identity leads, if any, go to the victim, exchanges and authorities, never on this page.</p></li>
+        <li><span class="chip u">Unknown</span><p>About 2,000 SOL of Privacy Cash withdrawals, four wallets' worth, went by other routes we are still following.</p></li></ul></div>
+    </div>
+  </section>
+
+
+  <section class="block" id="findings">
+    <div class="head">
+      <p class="eyebrow">01 · Key findings</p>
+      <h2>What the chain shows.</h2>
+    </div>
+    <div class="findings">
+      <article class="find wide"><span class="no">F1</span><h3>Two wallets, about one minute</h3><div class="chips"><span class="chip v">Verified</span></div>
+        <p>At 20:14 UTC on Oct 6 (04:14 in Singapore) the Solana wallet started paying out its tokens to a single fresh receiver. At 20:15 the EVM wallet sent Basecat and BLUECHIP on Base to the attacker's collector 0x427C…bA83; BNB Chain and Robinhood Chain followed. Gas for the EVM side had been staged about ten minutes earlier. Every transfer was signed by the victim's own key.</p>
+        <p class="ev">Evidence: Solana 57wSAHgVrsNf…; Base 0x49c104ab…f11c.</p></article>
+      <article class="find"><span class="no">F2</span><h3>A mixer that barely mixed</h3><div class="chips"><span class="chip v">Verified</span><span class="chip i">Inferred</span></div>
+        <p>After selling the tokens on Meteora, the receiver put 13,241 SOL into Privacy Cash in ten deposits. Withdrawals to 29 brand-new wallets began three minutes after the first deposit and ended three minutes after the last, in identical batches. That is 96% of what went in, out in the same half hour.</p>
+        <p class="ev">Evidence: Deposits 2z3oR5xtnE9m… to 3f9ABQgo1xe4…; withdrawal rVdFaFNggNUt…</p></article>
+      <article class="find"><span class="no">F3</span><h3>Six hours later: 25 bridges in 70 minutes</h3><div class="chips"><span class="chip v">Direct link</span></div>
+        <p>At 02:27 UTC the wallets woke up. Each sent its SOL to a second fresh wallet, which swapped it on Jupiter and bridged it with Mayan Swift to Arbitrum, one every few minutes. Mayan's explorer records each crossing: 1,284,323 USDC delivered to 25 new Arbitrum addresses.</p>
+        <p class="ev">Evidence: e.g. bridge 7dAqvMMyA9Ne… → 0x3b80…a65c, fill 0xb142f40104…</p></article>
+      <article class="find"><span class="no">F4</span><h3>The EVM road: Across, then LI.FI</h3><div class="chips"><span class="chip v">Verified</span></div>
+        <p>The collector moved about 363 ETH to Ethereum through 24 Across deposits from Base, BNB Chain and Robinhood Chain, then split it: 35 ETH to six wallets, 18.5 ETH to four, smaller amounts to others. Ten of those branches each funded a fresh wallet that sent its ETH through LI.FI and received USDC on Arbitrum.</p>
+        <p class="ev">Evidence: Collector outflow 0x34fa1689d4…; LI.FI 0x1ccc5f8252…</p></article>
+      <article class="find wide"><span class="no">F5</span><h3>Both roads end in the same token</h3><div class="chips"><span class="chip v">Verified</span></div>
+        <p>All 35 Arbitrum wallets deposited into Hyperliquid, one deposit each, and bought XMR1: a Monero token issued on Hyperliquid by Wagyu.xyz, which can be redeemed for real Monero through Wagyu. Together they hold 3,586.8 XMR1, about $2M. None had been redeemed at our last check. Wagyu controls that redemption, which makes it the one place where this money can still be stopped.</p>
+        <p class="ev">Evidence: Hyperliquid public info API: ledger, balances and fills per account (Table in the ledger below).</p></article>
+      <article class="find"><span class="no">F6</span><h3>Thieves phishing thieves</h3><div class="chips"><span class="chip v">Verified</span></div>
+        <p>While the money sat on Arbitrum, an address-poisoning bot sent the attacker's wallets fake "USDC" from a look-alike of the Hyperliquid bridge address, hoping the thief would copy the wrong one. Those transfers are not counted anywhere in this File.</p>
+        <p class="ev">Evidence: Fake token contract 0x27117f7e…c587.</p></article>
+      <article class="find"><span class="no">F7</span><h3>Smaller exits</h3><div class="chips"><span class="chip a">Attributed</span></div>
+        <p>Two 18.5 ETH branches went into Chainflip deposit channels, 2 ETH into NEAR Intents, and 4 ETH sits untouched in one wallet (watched). These come from our public-source sweep, checked against explorer labels; the Chainflip swap records are still being resolved.</p>
+        <p class="ev">Evidence: Chainflip channels 0x1d68…89F2, 0x4bf5…6ad0; 4 ETH at 0x4521…fF58.</p></article>
+    </div>
+  </section>
+
+
+  <section class="block" id="map">
+    <div class="head">
+      <p class="eyebrow">02 · The whole trail</p>
+      <h2>Where the money went</h2>
+      <p class="lede">Grey: a transfer we read on-chain. Teal: a bridge record linking both chains. Pink, dashed: an amount and timing match. Times UTC.</p>
+    </div>
+    <div class="panel">
+      <div class="flowwrap">
+<svg class="flow" viewBox="0 0 1160 238" role="img" aria-label="Grey: a transfer we read on-chain. Teal: a bridge record linking both chains. Pink, dashed: an amount and timing match. Times UTC.">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path class="ah" d="M0 0L10 5L0 10z"/></marker><marker id="ahd" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path class="ahd" d="M0 0L10 5L0 10z"/></marker><marker id="ahi" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path class="ahi" d="M0 0L10 5L0 10z"/></marker></defs>
+<text class="h" x="20" y="22">VICTIM</text>
+<text class="h" x="210" y="22">THIEF</text>
+<line class="sep" x1="200" y1="12" x2="200" y2="232"/>
+<text class="h" x="400" y="22">WASHING</text>
+<line class="sep" x1="390" y1="12" x2="390" y2="232"/>
+<text class="h" x="590" y="22">FRESH WALLETS</text>
+<line class="sep" x1="580" y1="12" x2="580" y2="232"/>
+<text class="h" x="780" y="22">BRIDGE</text>
+<line class="sep" x1="770" y1="12" x2="770" y2="232"/>
+<text class="h" x="970" y="22">NOW</text>
+<line class="sep" x1="960" y1="12" x2="960" y2="232"/>
+<path class="e" d="M190 73 C198 73 198 73 206 73" marker-end="url(#ah)" data-k="0"/>
+<path class="e" d="M190 165 C198 165 198 165 206 165" marker-end="url(#ah)" data-k="1"/>
+<path class="e" d="M380 73 C388 73 388 73 396 73" marker-end="url(#ah)" data-k="2"/>
+<path class="e" d="M380 165 C388 165 388 165 396 165" marker-end="url(#ah)" data-k="3"/>
+<path class="e inf" d="M570 73 C578 73 578 73 586 73" marker-end="url(#ahi)" data-k="4"/>
+<text class="elbl" x="578" y="65" text-anchor="middle" paint-order="stroke" stroke="#0c1016" stroke-width="4">inferred</text>
+<path class="e" d="M570 165 C578 165 578 165 586 165" marker-end="url(#ah)" data-k="5"/>
+<path class="e direct" d="M760 73 C768 73 768 73 776 73" marker-end="url(#ahd)" data-k="6"/>
+<path class="e" d="M760 165 C768 165 768 165 776 165" marker-end="url(#ah)" data-k="7"/>
+<path class="e" d="M950 73 C958 73 958 119 966 119" marker-end="url(#ah)" data-k="8"/>
+<path class="e" d="M950 165 C958 165 958 119 966 119" marker-end="url(#ah)" data-k="9"/>
+<rect class="n" x="20" y="44" width="170" height="58" rx="3"/><text class="t" x="32" y="68">Solana wallet</text><text class="s" x="32" y="88">9wMS…v8zQ</text>
+<rect class="n" x="20" y="136" width="170" height="58" rx="3"/><text class="t" x="32" y="160">EVM wallet</text><text class="s" x="32" y="180">0x14AA…5794</text>
+<rect class="n key" x="210" y="44" width="170" height="58" rx="3"/><text class="t" x="222" y="68">Receiver</text><text class="s" x="222" y="88">69Fn…CFS</text>
+<rect class="n key" x="210" y="136" width="170" height="58" rx="3"/><text class="t" x="222" y="160">Collector</text><text class="s" x="222" y="180">0x427C…bA83</text>
+<rect class="n attr" x="400" y="44" width="170" height="58" rx="3"/><text class="t" x="412" y="68">Privacy Cash</text><text class="s" x="412" y="88">13,241 SOL in</text>
+<rect class="n attr" x="400" y="136" width="170" height="58" rx="3"/><text class="t" x="412" y="160">Across → Ethereum</text><text class="s" x="412" y="180">≈ 363 ETH</text>
+<rect class="n" x="590" y="44" width="170" height="58" rx="3"/><text class="t" x="602" y="68">29 fresh wallets</text><text class="s" x="602" y="88">12,693 SOL out</text>
+<rect class="n" x="590" y="136" width="170" height="58" rx="3"/><text class="t" x="602" y="160">10 fresh wallets</text><text class="s" x="602" y="180">≈ 282 ETH</text>
+<rect class="n attr" x="780" y="44" width="170" height="58" rx="3"/><text class="t" x="792" y="68">Mayan → Arbitrum</text><text class="s" x="792" y="88">1.28M USDC</text>
+<rect class="n attr" x="780" y="136" width="170" height="58" rx="3"/><text class="t" x="792" y="160">LI.FI → Arbitrum</text><text class="s" x="792" y="180">746K USDC</text>
+<rect class="n key" x="970" y="90" width="170" height="58" rx="3"/><text class="t" x="982" y="114">Hyperliquid · XMR1</text><text class="s" x="982" y="134">35 accounts · 3,586.8</text>
+</svg>
+      </div>
+      <div class="edge" id="edge" aria-live="polite"><p class="hint">Click or tap any line in the map to see its evidence: status, transactions, time and amount.</p></div>
+      <div class="keyrow"><span><i></i>Verified transfer</span><span><i class="d"></i>Direct cross-chain link</span><span><i class="f"></i>Inferred link</span><span><i class="a"></i>Named by label</span></div>
+      
+    </div>
+  </section>
+
+  <section class="block" id="evidence">
+    <div class="head">
+      <p class="eyebrow">03 · Evidence map</p>
+      <h2>Every link, and what supports it.</h2>
+    </div>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Link</th><th>Evidence</th><th>Status</th></tr></thead>
+      <tbody>
+        <tr><td>Victim → thief</td><td>Transfers signed by the victim's keys</td><td><span class="chip v">Verified</span></td></tr>
+        <tr><td>Thief → Privacy Cash</td><td>Ten pool deposits</td><td><span class="chip v">Verified</span></td></tr>
+        <tr><td>Privacy Cash → 29 fresh wallets</td><td>Amount and timing</td><td><span class="chip i">Inferred</span></td></tr>
+        <tr><td>Fresh wallets → Arbitrum</td><td>Mayan swap records</td><td><span class="chip v">Direct link</span></td></tr>
+        <tr><td>EVM collector → 10 fresh wallets → Arbitrum</td><td>Ethereum transfers, LI.FI</td><td><span class="chip v">Verified</span></td></tr>
+        <tr><td>Arbitrum → Hyperliquid → XMR1</td><td>Bridge deposits, Hyperliquid ledger and fills</td><td><span class="chip v">Verified</span></td></tr>
+        <tr><td>Who did it</td><td>—</td><td><span class="chip u">Unknown</span></td></tr>
+      </tbody>
+    </table></div>
+    <div class="know">
+      <div class="kv"><span class="chip v">Verified</span><ul><li>3,586.8 XMR1 held in 35 Hyperliquid accounts</li><li>Every hop after Privacy Cash</li><li>4 ETH unspent in one wallet</li></ul></div>
+      <div class="ki"><span class="chip i">Inferred</span><ul><li>Which Privacy Cash withdrawals are the thief's</li></ul></div>
+      <div class="kr"><span class="chip r">Project-reported</span><ul><li>≈ $4M total loss (victim and trackers)</li></ul></div>
+      <div class="ku"><span class="chip u">Unknown</span><ul><li>How the keys were stolen</li><li>Who controls the accounts</li></ul></div>
+    </div>
+    <p class="callout">XMR1 has no issuer freeze, but it only becomes Monero through Wagyu.xyz. A hold on redemption for these accounts is the one remaining lever. Our evidence pack is available to Wagyu, Hyperliquid, the victim and law enforcement.</p>
+  </section>
+
+  <section class="block" id="events">
+    <div class="head"><p class="eyebrow">04 · Timeline</p><h2>In order.</h2></div>
+    <div class="tl">
+      <div class="e hot"><span class="w">Oct 6 · 20:14</span><span class="x">Solana wallet drained to <b>69Fn…CFS</b> (BP, ZesMG, USDC, SOL)</span></div>
+      <div class="e hot"><span class="w">Oct 6 · 20:15</span><span class="x">EVM wallet drained on Base, then BNB Chain and Robinhood Chain</span></div>
+      <div class="e"><span class="w">Oct 6 · 20:36</span><span class="x">First Privacy Cash deposit; tokens already sold on Meteora</span></div>
+      <div class="e"><span class="w">Oct 6 · 20:39</span><span class="x">First withdrawal to a fresh wallet: <b>331.83 SOL</b> (Inferred)</span></div>
+      <div class="e"><span class="w">Oct 6 · 21:00</span><span class="x">Last of ten deposits: <b>13,241 SOL</b> in total</span></div>
+      <div class="e"><span class="w">Oct 6 · 23:40</span><span class="x">EVM collector starts moving ≈ 363 ETH to Ethereum through Across</span></div>
+      <div class="e"><span class="w">Oct 7 · 01:45</span><span class="x">EVM route: first LI.FI swap to Arbitrum USDC, deposited into Hyperliquid</span></div>
+      <div class="e hot"><span class="w">Oct 7 · 02:27</span><span class="x">Solana route: first Mayan bridge to Arbitrum</span></div>
+      <div class="e hot"><span class="w">Oct 7 · 03:37</span><span class="x">Last Hyperliquid deposit. All 35 accounts now hold XMR1</span></div>
+      <div class="e"><span class="w">Oct 7 · 14:45</span><span class="x">Our check: 3,586.8 XMR1 still held, none redeemed. Wagyu.xyz and Hyperliquid notified</span></div>
+      <div class="e"><span class="w">Oct 8 · 06:41</span><span class="x">Still held. Watched every 5 minutes</span></div>
+    </div>
+  </section>
+
+  <section class="block" id="ledger">
+    <div class="head"><p class="eyebrow">05 · Ledger</p><h2>The transactions.</h2><p class="lede">Key transactions, oldest first. The full list of every hop is in the evidence pack.</p></div>
+    <details open>
+      <summary>Transactions</summary>
+      <div class="tablewrap"><table>
+        <thead><tr><th>UTC</th><th>Event</th><th style="text-align:right">Amount</th><th>Transaction</th></tr></thead>
+        <tbody>
+          <tr><td>Oct 6 · 20:14</td><td>Victim → receiver</td><td class="n">1429939.16 tokens</td><td><a class="mono" href="https://solscan.io/tx/57wSAHgVrsNf7hDvnnEDnpjb6fF1nWj6h9bGKLB5ivKRLwT7TZia4USS1u1GZWsndXK3TB6LKGy3Aj62jMhMu1aj" rel="noopener">57wSAHgVrs…u1aj</a></td></tr>
+          <tr><td>Oct 6 · 20:15</td><td>Victim → receiver</td><td class="n">15871096.45 tokens</td><td><a class="mono" href="https://solscan.io/tx/3D3a45d4HYvvNfD4h5o4YSMc1PpW8QFpx4rxrCVvTPMN3wZJb2KTBfC3FncLJGhb7dUVYvCmXuJC8J89ppMbLG5f" rel="noopener">3D3a45d4HY…LG5f</a></td></tr>
+          <tr><td>Oct 6 · 20:15</td><td>Victim → receiver</td><td class="n">7859.97 tokens</td><td><a class="mono" href="https://solscan.io/tx/2opj8gEvy5whjXfnVRa3y98JcVZtFg95A5pq9EuWDGVLNkd8B3rhfcXNgM8NAg6HWjDSbbD9TQn5wwYZd3zUJTug" rel="noopener">2opj8gEvy5…JTug</a></td></tr>
+          <tr><td>Oct 6 · 20:15</td><td>Victim → receiver</td><td class="n">0.29 SOL</td><td><a class="mono" href="https://solscan.io/tx/2ZjeSc8CfVQnkRzm9oYSvNSYzNLVwYAFCpBRoQyu8eBnTUhT9GTQHhzU4AnGvZtcNhQS2wUUfrTeyhJogDunUJtG" rel="noopener">2ZjeSc8CfV…UJtG</a></td></tr>
+          <tr><td>Oct 6 · 20:15</td><td>EVM drain (Basecat)</td><td class="n">2,839,603 Basecat</td><td><a class="mono" href="https://basescan.org/tx/0x49c104ab3e7ef960198cc0e0ae6254f56fe0cd63440c5af442ac64d6b755f11c" rel="noopener">0x49c104ab…f11c</a></td></tr>
+          <tr><td>Oct 6 · 20:36</td><td>Into Privacy Cash</td><td class="n">550 SOL</td><td><a class="mono" href="https://solscan.io/tx/2z3oR5xtnE9mkk3F5Y7HFf3NZxzNtKJBEx3Fwzo9jcERr288dCQDiX6mjF8ECcu4wS6umS5jZes7Tcyv8rUatumN" rel="noopener">2z3oR5xtnE…tumN</a></td></tr>
+          <tr><td>Oct 6 · 20:39</td><td>Into Privacy Cash</td><td class="n">1000 SOL</td><td><a class="mono" href="https://solscan.io/tx/2RQzMvMEjC4UbWBzxdFrthgQAWvmKepgdPqXCghe6tEoSS9M8aqMYsosnECkxM3N4ipYbF1vXBmkjEkqBRNz4wdd" rel="noopener">2RQzMvMEjC…4wdd</a></td></tr>
+          <tr><td>Oct 6 · 20:41</td><td>Into Privacy Cash</td><td class="n">1000 SOL</td><td><a class="mono" href="https://solscan.io/tx/2rmwmvV6o3t88NqFzkScnAmLp6MQSNdSwdM6fVEpFjbnQmivPdR5pg132WG6yoRbwMr6vxhVuctEoHWbZ7srV1bh" rel="noopener">2rmwmvV6o3…V1bh</a></td></tr>
+          <tr><td>Oct 6 · 20:44</td><td>Into Privacy Cash</td><td class="n">1000 SOL</td><td><a class="mono" href="https://solscan.io/tx/4dMYbos32EUJEX6S3PAQZEY2Xn3XAJS5ytRVZyHxbE24i31zrUJAdcimYRvcsu4d8Ac9P8mj6huz6fZz5PuV57DW" rel="noopener">4dMYbos32E…57DW</a></td></tr>
+          <tr><td>Oct 6 · 20:47</td><td>Into Privacy Cash</td><td class="n">1666 SOL</td><td><a class="mono" href="https://solscan.io/tx/4bjhir5fURcbzsgkEZLRXc3ZuHuShYWDdPeubiYGQ4mWJNjhHMtJd7sJXDPffLm2CsWkZWqfNGr96UQTgPAgjmdM" rel="noopener">4bjhir5fUR…jmdM</a></td></tr>
+          <tr><td>Oct 6 · 20:50</td><td>Into Privacy Cash</td><td class="n">1666 SOL</td><td><a class="mono" href="https://solscan.io/tx/3UtUPbZbsSFqMTcSPG5s9nv3yihtPhjiG53inP5eMmfKwZkwsEv8dGrbY59mszAm6AwNbaHuHTrSM5gebF7s99BA" rel="noopener">3UtUPbZbsS…99BA</a></td></tr>
+          <tr><td>Oct 6 · 20:52</td><td>Into Privacy Cash</td><td class="n">1700 SOL</td><td><a class="mono" href="https://solscan.io/tx/4LiSTZUKyB4eoN6BFNwZRmXviqNwmJLUHWCvPhLqeRyWQb5nz6yJAeKnAY7H1xeyHxwpj2fYq3vn6BhXFNPw8Bmp" rel="noopener">4LiSTZUKyB…8Bmp</a></td></tr>
+          <tr><td>Oct 6 · 20:55</td><td>Into Privacy Cash</td><td class="n">1700 SOL</td><td><a class="mono" href="https://solscan.io/tx/Y93jwy61fQGerS8PnroExyMKkczavyzntqu3UfsSKmyWZc2BQcnG9nTmzpCkP81D5Fw1YtAPHUXLhkc37K716Aj" rel="noopener">Y93jwy61fQ…16Aj</a></td></tr>
+          <tr><td>Oct 6 · 20:58</td><td>Into Privacy Cash</td><td class="n">1700 SOL</td><td><a class="mono" href="https://solscan.io/tx/xUu8jqmsvU4GoXjAJvihPhuYPd8P65URTQM6XWnysGtkjrfd1fmWaLiq3FntXrecfaLDQ3yxA3hqTBiicSG4hvU" rel="noopener">xUu8jqmsvU…4hvU</a></td></tr>
+          <tr><td>Oct 6 · 21:00</td><td>Into Privacy Cash</td><td class="n">1258.97 SOL</td><td><a class="mono" href="https://solscan.io/tx/3f9ABQgo1xe4gVrDYxFJTSVvfeEz6pucS2ARDypLis6cMDDiT8X789Jf9ipR71n8ZjbvnAu1e9vQHquFwz21DWYm" rel="noopener">3f9ABQgo1x…DWYm</a></td></tr>
+          <tr><td>Oct 7 · 02:28</td><td>Mayan bridge → 0x3b80…a65c</td><td class="n">331.83 SOL → 39,060 USDC</td><td><a class="mono" href="https://solscan.io/tx/7dAqvMMyA9NebRbEwCKMvbCq8LdJQeGi1wBsubDxRiEcHsf68ao9FhBf1UEbERuMWQJ6PCJ4LrfFguq2hQzLaTW" rel="noopener">7dAqvMMyA9…LaTW</a></td></tr>
+          <tr><td>Oct 7 · 02:29</td><td>Mayan bridge → 0x1137…4371</td><td class="n">331.83 SOL → 39,037 USDC</td><td><a class="mono" href="https://solscan.io/tx/2sHmsb9H73tqtDpetApgnW9jkv6eUqCJjd4TYh7SVXV1i2bFCKX73L3HyT4LTPopqomeZYJzS3KzogoADPmSTj3L" rel="noopener">2sHmsb9H73…Tj3L</a></td></tr>
+          <tr><td>Oct 7 · 02:30</td><td>Mayan bridge → 0x1b1c…829c</td><td class="n">331.83 SOL → 39,024 USDC</td><td><a class="mono" href="https://solscan.io/tx/3wt8h3gBJPSvhwTgkjw74dePHkcmUTmQBNiLVY3E9trqT18LtNAPocpTFNGfCLju5mkjgeMukK8wqsLDA1HV7W8g" rel="noopener">3wt8h3gBJP…7W8g</a></td></tr>
+          <tr><td>Oct 7 · 02:31</td><td>Mayan bridge → 0x97bf…308f</td><td class="n">331.83 SOL → 39,091 USDC</td><td><a class="mono" href="https://solscan.io/tx/WWdojHW5kbKxHWGa1bGWR3EUw7v23kvwYYUvJzXzEMwie67yrHAkmggLvF3mocRbaxrPQ1eDxnM8wQsppd2c1Wh" rel="noopener">WWdojHW5kb…c1Wh</a></td></tr>
+          <tr><td>Oct 7 · 02:33</td><td>Mayan bridge → 0x3bc6…d81d</td><td class="n">331.83 SOL → 39,091 USDC</td><td><a class="mono" href="https://solscan.io/tx/2MoRkueDDXfV7MB7ea49zcqpgBLaDdgL2CY3NP1WB7CmNRmL2kjE2D7rWAQrRY1nGovFpcY8rNwvAL2u8YznyQQg" rel="noopener">2MoRkueDDX…yQQg</a></td></tr>
+          <tr><td>Oct 7 · 02:43</td><td>Mayan bridge → 0x278d…b3f0</td><td class="n">331.83 SOL → 39,178 USDC</td><td><a class="mono" href="https://solscan.io/tx/5re8QhFAdDYgxBMosGyFipt1hPK4ZHKbzbL97UcJgQhUmnnKJdPeeScL2PFWSXxERLJJEQ7ZbKWm3Q3mgVm4E1bT" rel="noopener">5re8QhFAdD…E1bT</a></td></tr>
+          <tr><td>Oct 7 · 02:46</td><td>Mayan bridge → 0x122b…ce58</td><td class="n">413.54 SOL → 48,940 USDC</td><td><a class="mono" href="https://solscan.io/tx/29YW5a4Mxc6QMtwWjMUuQftahdcg8vNTncsxRGjgcTgXjF5SCKLrQLq8vd2QCx7HPdXwRMXuinXov2DWsoisAmrP" rel="noopener">29YW5a4Mxc…AmrP</a></td></tr>
+          <tr><td>Oct 7 · 02:47</td><td>Mayan bridge → 0x9b3b…37a5</td><td class="n">413.54 SOL → 48,899 USDC</td><td><a class="mono" href="https://solscan.io/tx/33ZEia8xKPPqKbqWzJFwGtR4hxx5HmQ2u61DcFMnr9wRPk6u4CeqgobruqAZbVQ73tY73iUyMpRYbrWL9egWA53h" rel="noopener">33ZEia8xKP…A53h</a></td></tr>
+          <tr><td>Oct 7 · 02:51</td><td>Mayan bridge → 0x8ff7…d4c3</td><td class="n">413.54 SOL → 48,920 USDC</td><td><a class="mono" href="https://solscan.io/tx/4GAzugaZbyNYwX67kiLDDg3EWw68yCntviKpsgFFJmLLKUxNafSgme78AeWRrZXsJHKzJxN5XxhHwJakyg2idUWX" rel="noopener">4GAzugaZby…dUWX</a></td></tr>
+          <tr><td>Oct 7 · 02:53</td><td>Mayan bridge → 0xe120…3c0e</td><td class="n">413.54 SOL → 48,895 USDC</td><td><a class="mono" href="https://solscan.io/tx/LB8Q5UJLeeNeUiHMX699pJfYdrcoZ8DERVJYV3WLEEicQXro8CCNAWTcRdD4iaFKXp5i8yz7JrYxXqMvzi5Nojj" rel="noopener">LB8Q5UJLee…Nojj</a></td></tr>
+          <tr><td>Oct 7 · 02:53</td><td>Mayan bridge → 0x6c3b…a3c4</td><td class="n">413.54 SOL → 48,888 USDC</td><td><a class="mono" href="https://solscan.io/tx/x63npYTCqQzRJ9qomBpXJWYcad19CTJM7e4hpUPsahunKEdDRVF1rbPgJWbRMHhJtHLFRKFSNoEkojZw5gpe7r1" rel="noopener">x63npYTCqQ…e7r1</a></td></tr>
+          <tr><td>Oct 7 · 02:57</td><td>Mayan bridge → 0xd974…d77c</td><td class="n">413.54 SOL → 48,875 USDC</td><td><a class="mono" href="https://solscan.io/tx/4hqzLVx4qcaDYHPdrpd9aG8J9QJuXWjsi6wchmT3u834x9iHaayeY7ZSbQFjeYkzxDDmVb8vZTNEjbAPU2ifQypb" rel="noopener">4hqzLVx4qc…Qypb</a></td></tr>
+          <tr><td>Oct 7 · 03:00</td><td>Mayan bridge → 0x70dd…bf0b</td><td class="n">413.54 SOL → 48,905 USDC</td><td><a class="mono" href="https://solscan.io/tx/4T7CSkYukcQUETWbQdbsFCQ5jnhxLGirysL9ETvhmhEYDEyfeHbEd4LGgQh8RpebRa8wrzQXEgqTaE2nwVY7b66c" rel="noopener">4T7CSkYukc…b66c</a></td></tr>
+          <tr><td>Oct 7 · 03:02</td><td>Mayan bridge → 0x7140…23f2</td><td class="n">413.54 SOL → 48,947 USDC</td><td><a class="mono" href="https://solscan.io/tx/YztAQ2DSBdDuGzK15opQnQLKTmeQWT25Qj4ZXoqns2gd1NfvzvQSkibQpDcVjWeTQczLjvxVAYWZXVmf37SCUfU" rel="noopener">YztAQ2DSBd…CUfU</a></td></tr>
+          <tr><td>Oct 7 · 03:03</td><td>Mayan bridge → 0xbe46…a2b8</td><td class="n">414.54 SOL → 49,102 USDC</td><td><a class="mono" href="https://solscan.io/tx/3qoTbtHu3zveN2tqUJYVTk9ZHSH7k3Z2t5RGRmMgBtBckyXKMDLqSiCrj4i8Aa8zLJ7G5GRXeTzEiccYDoR1sEbq" rel="noopener">3qoTbtHu3z…sEbq</a></td></tr>
+          <tr><td>Oct 7 · 03:06</td><td>Mayan bridge → 0xc039…e346</td><td class="n">409.56 SOL → 48,472 USDC</td><td><a class="mono" href="https://solscan.io/tx/3QuRRGqqVR5dgzTJSfzDWPRZLMGam6qPqfQ9hquzUuhGUQzse2JrRyZMY13jdZb5PoVJiDBxxWoDoxp2ZBNRpYKV" rel="noopener">3QuRRGqqVR…pYKV</a></td></tr>
+          <tr><td>Oct 7 · 03:06</td><td>Mayan bridge → 0x6eef…f5d7</td><td class="n">410.55 SOL → 48,594 USDC</td><td><a class="mono" href="https://solscan.io/tx/ZM78mebnPXwrwAcgMkz5ckkDt97v4fkw7YqSiDDxqoa21EGyVwGuJ447yJrFzKurLDy9CGgyjGY2xdo3WEGbNx3" rel="noopener">ZM78mebnPX…bNx3</a></td></tr>
+          <tr><td>Oct 7 · 03:07</td><td>Mayan bridge → 0x4f55…de34</td><td class="n">411.55 SOL → 48,711 USDC</td><td><a class="mono" href="https://solscan.io/tx/2x7G6Gnwh3m77j3zCKFSBFpjAYxHRbXjqQeBSKFpSKDqACB3cPfj6zBC9S1EhXDFTvKFXQgYGS6odb4NgR7jpfsd" rel="noopener">2x7G6Gnwh3…pfsd</a></td></tr>
+          <tr><td>Oct 7 · 03:08</td><td>Mayan bridge → 0xc4b2…3ef2</td><td class="n">416.53 SOL → 98,144 USDC</td><td><a class="mono" href="https://solscan.io/tx/5nvo5yn8ppLLhnukvqwUGZeqtpbAaDz51jR8Hm77TT1QQTAJqqfPawLQr4N9sE16Cn9WSseMs1N425s4k3W14Ttt" rel="noopener">5nvo5yn8pp…4Ttt</a></td></tr>
+          <tr><td>Oct 7 · 03:12</td><td>Mayan bridge → 0xccca…e9cc</td><td class="n">414.54 SOL → 98,047 USDC</td><td><a class="mono" href="https://solscan.io/tx/431wL8b4MsX14FY4Et5wCrLPk3rN2Yx49NCCpyPRqvqt1bHq8RJZhXpDouUiabs4akmaYUY7gyx6ZTPt75dCWUVm" rel="noopener">431wL8b4Ms…WUVm</a></td></tr>
+          <tr><td>Oct 7 · 03:15</td><td>Mayan bridge → 0x7cac…fb49</td><td class="n">415.53 SOL → 98,057 USDC</td><td><a class="mono" href="https://solscan.io/tx/4TXswLbzzNts1WygRNw8WUSzURUgRL8UcqPqfPDDSaoDWMwK98D6GMqWcjfEEqryDkEoadb5N7ywujbyDSmQtcqM" rel="noopener">4TXswLbzzN…tcqM</a></td></tr>
+          <tr><td>Oct 7 · 03:24</td><td>Mayan bridge → 0xcf92…e230</td><td class="n">339.8 SOL → 40,144 USDC</td><td><a class="mono" href="https://solscan.io/tx/32m1zaZBkwPFPMC6iZsyp4ADgmYFLFTT2gd9hLhFhQfVgZb5QoGhZqvLrbXQXYyqKygtcgC1aisnFKhs1Rdzr2mw" rel="noopener">32m1zaZBkw…r2mw</a></td></tr>
+          <tr><td>Oct 7 · 03:26</td><td>Mayan bridge → 0xceb5…1042</td><td class="n">371.69 SOL → 43,936 USDC</td><td><a class="mono" href="https://solscan.io/tx/ic1xXRJ6FWqoWBPkNQ74Xvhb1h3c6whj2m3MxEE8RkyGhsWwnis8muarTX6FwSadzr7XSQjCWYdWNezXwWUKnRj" rel="noopener">ic1xXRJ6FW…KnRj</a></td></tr>
+          <tr><td>Oct 7 · 03:31</td><td>Mayan bridge → 0x6da8…3637</td><td class="n">368.7 SOL → 43,540 USDC</td><td><a class="mono" href="https://solscan.io/tx/YWJfEHbSzGwXY6oT2rgRuDDEJwynhpNkszx3896nVobiE7pXUuPUei6ypMVcUZJxprrwWkwKJ9JBXiUdhser23s" rel="noopener">YWJfEHbSzG…r23s</a></td></tr>
+          <tr><td>Oct 7 · 03:36</td><td>Mayan bridge → 0xdf26…44c1</td><td class="n">353.75 SOL → 41,827 USDC</td><td><a class="mono" href="https://solscan.io/tx/5sCfKf183N7SjPwUYVYJj5btSSujyNykavoVg2s3twwa6CqiLKXVkv7YLhHHJUYbhgfRHFps22rwdaDXthNVqa7k" rel="noopener">5sCfKf183N…qa7k</a></td></tr>
+          <tr><td>Oct 7 · 01:45</td><td>Hyperliquid deposit 0x9cb1…c01f</td><td class="n">60,417 USDC</td><td><a class="mono" href="https://arbiscan.io/tx/0xc0e57329de131312e346161d70d2e7eb4626f12b4ed642af6b1def28d813669f" rel="noopener">0xc0e57329…669f</a></td></tr>
+          <tr><td>Oct 7 · 01:49</td><td>Hyperliquid deposit 0xd7ef…e6B1</td><td class="n">100,542 USDC</td><td><a class="mono" href="https://arbiscan.io/tx/0xd09044916f0e5402351d6edc68cc7afa48a00e08800791a02e0f48f554f1255e" rel="noopener">0xd0904491…255e</a></td></tr>
+          <tr><td>Oct 7 · 01:52</td><td>Hyperliquid deposit 0x68d6…1ac4</td><td class="n">93,738 USDC</td><td><a class="mono" href="https://arbiscan.io/tx/0x953cb3206cf345b500e518316a07151f10835663ce4e55f8e972d2d78e78ff87" rel="noopener">0x953cb320…ff87</a></td></tr>
+          <tr><td>Oct 7 · 01:56</td><td>Hyperliquid deposit 0x8887…E223</td><td class="n">93,550 USDC</td><td><a class="mono" href="https://arbiscan.io/tx/0x0ddf411d8745a28b5efdd1c42ab0a1526c53f1c92b622b36c0f6baf595dc3a9c" rel="noopener">0x0ddf411d…3a9c</a></td></tr>
+          <tr><td>Oct 7 · 02:05</td><td>Hyperliquid deposit 0xa3cA…9abe</td><td class="n">91,232 USDC</td><td><a class="mono" href="https://arbiscan.io/tx/0x107db810fd86893dc4cf8df03c1753236e04fc2d7b3f17304b34dfb840c1fa51" rel="noopener">0x107db810…fa51</a></td></tr>
+          <tr><td>Oct 7 · 02:09</td><td>Hyperliquid deposit 0x4079…54e9</td><td class="n">91,353 USDC</td><td><a class="mono" href="https://arbiscan.io/tx/0x0ed5e25dfa5a8a702349a7c05c6e6afe28fd4161ad4c87c056a0460bef9056c6" rel="noopener">0x0ed5e25d…56c6</a></td></tr>
+          <tr><td>Oct 7 · 02:13</td><td>Hyperliquid deposit 0x68B3…A680</td><td class="n">91,284 USDC</td><td><a class="mono" href="https://arbiscan.io/tx/0xe295cfe85f341c4abb36c74a22ea62c767788712410f7d10df4b55abcad99b85" rel="noopener">0xe295cfe8…9b85</a></td></tr>
+          <tr><td>Oct 7 · 02:18</td><td>Hyperliquid deposit 0xd924…3abB</td><td class="n">91,383 USDC</td><td><a class="mono" href="https://arbiscan.io/tx/0xdffada3de106b8639c6af7e25fc106e075f1c1b02f9ffd8e6facb70413bcf0d8" rel="noopener">0xdffada3d…f0d8</a></td></tr>
+          <tr><td>Oct 7 · 02:19</td><td>Hyperliquid deposit 0xd8D0…0Ef5</td><td class="n">5,229 USDC</td><td><a class="mono" href="https://arbiscan.io/tx/0x36e8c7e021615d79470419f7939ded6ac67db60b4db5c4ae8795be13dea311d7" rel="noopener">0x36e8c7e0…11d7</a></td></tr>
+          <tr><td>Oct 7 · 02:21</td><td>Hyperliquid deposit 0x3E2d…40a1</td><td class="n">26,823 USDC</td><td><a class="mono" href="https://arbiscan.io/tx/0x963c56253dedcfd5ff9f944c91eb9cb9e94d12701d9165f66a40b9aa0b4cfc1f" rel="noopener">0x963c5625…fc1f</a></td></tr>
+          <tr><td>Oct 7 · 02:28</td><td>Hyperliquid deposit 0x3b80…a65c</td><td class="n">39,060 USDC</td><td><a class="mono" href="https://arbiscan.io/tx/0xfb53cfae8da01080872d645803f8e697e8a864a98a16a0ddbd3e8d1acdc47267" rel="noopener">0xfb53cfae…7267</a></td></tr>
+          <tr><td>Oct 7 · 02:29</td><td>Hyperliquid deposit 0x1137…4371</td><td class="n">39,037 USDC</td><td><a class="mono" href="https://arbiscan.io/tx/0x4e91e92e22531f398718516843815a9e5e678108c02d176aef46681480a5a3bc" rel="noopener">0x4e91e92e…a3bc</a></td></tr>
+          <tr><td>Oct 7 · 02:31</td><td>Hyperliquid deposit 0x1b1c…829c</td><td class="n">39,024 USDC</td><td><a class="mono" href="https://arbiscan.io/tx/0xc51e075dce89cfa5d2ff41c9d75a3ae28770cf72ca6e3c9ad78f45ddadd7a537" rel="noopener">0xc51e075d…a537</a></td></tr>
+          <tr><td>Oct 7 · 02:32</td><td>Hyperliquid deposit 0x97bf…308f</td><td class="n">39,091 USDC</td><td><a class="mono" href="https://arbiscan.io/tx/0xae5ffb5aa2732bf327772e35fa7523e730006d926a3494a17deb20286b7bafcc" rel="noopener">0xae5ffb5a…afcc</a></td></tr>
+          <tr><td>Oct 7 · 02:33</td><td>Hyperliquid deposit 0x3bc6…d81d</td><td class="n">39,091 USDC</td><td><a class="mono" href="https://arbiscan.io/tx/0xc67cb35c17bca0d12db1c9118b6a97a6957f6ae0b2fa1127681f6baf3c029931" rel="noopener">0xc67cb35c…9931</a></td></tr>
+          <tr><td>Oct 7 · 02:43</td><td>Hyperliquid deposit 0x278d…b3f0</td><td class="n">39,178 USDC</td><td><a class="mono" href="https://arbiscan.io/tx/0xdbf8f5abda55c8d6cb2b2644018d0e0f9acd0f79f12a2dc62e4d33a65aee6533" rel="noopener">0xdbf8f5ab…6533</a></td></tr>
+          <tr><td>Oct 7 · 02:46</td><td>Hyperliquid deposit 0x122b…ce58</td><td class="n">48,940 USDC</td><td><a class="mono" href="https://arbiscan.io/tx/0xcf6f66118d59eb9e52f550e2b2bfa1731619319d0e529cb83222f7ceb87d5d77" rel="noopener">0xcf6f6611…5d77</a></td></tr>
+          <tr><td>Oct 7 · 02:47</td><td>Hyperliquid deposit 0x9b3b…37a5</td><td class="n">48,899 USDC</td><td><a class="mono" href="https://arbiscan.io/tx/0x5182919313ca43a68fbe726459f517989f2dd89215a0a259112cdb89664e1896" rel="noopener">0x51829193…1896</a></td></tr>
+          <tr><td>Oct 7 · 02:51</td><td>Hyperliquid deposit 0x8ff7…d4c3</td><td class="n">48,920 USDC</td><td><a class="mono" href="https://arbiscan.io/tx/0xfa481712ae1e5a19bb86b053b9735d5a15c88b4138337b6deb0b27024aaf6f35" rel="noopener">0xfa481712…6f35</a></td></tr>
+          <tr><td>Oct 7 · 02:53</td><td>Hyperliquid deposit 0xe120…3c0e</td><td class="n">48,895 USDC</td><td><a class="mono" href="https://arbiscan.io/tx/0xed9cc64e93d490aa9bc002d33f7d89502f38793d16bb3d9f0dd081fcc2320899" rel="noopener">0xed9cc64e…0899</a></td></tr>
+          <tr><td>Oct 7 · 02:54</td><td>Hyperliquid deposit 0x6c3b…a3c4</td><td class="n">48,888 USDC</td><td><a class="mono" href="https://arbiscan.io/tx/0xec3aa8fcd37f2fdaa0634fcb2b1ad3f825ef1f7b3f75d3b799f3408af3e5843b" rel="noopener">0xec3aa8fc…843b</a></td></tr>
+          <tr><td>Oct 7 · 02:58</td><td>Hyperliquid deposit 0xd974…d77c</td><td class="n">48,875 USDC</td><td><a class="mono" href="https://arbiscan.io/tx/0x47c75392424863b08b251793a1462162265edf67db020fb47166e7b6151708e4" rel="noopener">0x47c75392…08e4</a></td></tr>
+          <tr><td>Oct 7 · 03:01</td><td>Hyperliquid deposit 0x70dd…bf0b</td><td class="n">48,905 USDC</td><td><a class="mono" href="https://arbiscan.io/tx/0x2daa0bddd727c5506011a85a272afe0e2dd52aed5f5dc5f65de4215a893b6211" rel="noopener">0x2daa0bdd…6211</a></td></tr>
+          <tr><td>Oct 7 · 03:02</td><td>Hyperliquid deposit 0x7140…23f2</td><td class="n">48,947 USDC</td><td><a class="mono" href="https://arbiscan.io/tx/0x994124fa348d3a43c80193187d5e6b5a9cf393e9069da27f6b494e950ce33251" rel="noopener">0x994124fa…3251</a></td></tr>
+          <tr><td>Oct 7 · 03:04</td><td>Hyperliquid deposit 0xbe46…a2b8</td><td class="n">49,102 USDC</td><td><a class="mono" href="https://arbiscan.io/tx/0xf844e16263f6665d82ab904561389755d57fcbe59dff50abacbff0e9f7a8bf17" rel="noopener">0xf844e162…bf17</a></td></tr>
+          <tr><td>Oct 7 · 03:06</td><td>Hyperliquid deposit 0xc039…e346</td><td class="n">48,472 USDC</td><td><a class="mono" href="https://arbiscan.io/tx/0x596858e4ca8b2a60fad0bf9230d650676c981370bca784e571bceb16639bf83e" rel="noopener">0x596858e4…f83e</a></td></tr>
+          <tr><td>Oct 7 · 03:06</td><td>Hyperliquid deposit 0x6eef…f5d7</td><td class="n">48,594 USDC</td><td><a class="mono" href="https://arbiscan.io/tx/0x84f9cc0c1f8f35848faeb501c863452cb3cf84b9f5e393f2e5d257863095f083" rel="noopener">0x84f9cc0c…f083</a></td></tr>
+          <tr><td>Oct 7 · 03:07</td><td>Hyperliquid deposit 0x4f55…de34</td><td class="n">48,711 USDC</td><td><a class="mono" href="https://arbiscan.io/tx/0xafde49d20d5eec3fc90a4f7031be77f8a6ad90f893f05d2fb1414816d3804d3c" rel="noopener">0xafde49d2…4d3c</a></td></tr>
+          <tr><td>Oct 7 · 03:09</td><td>Hyperliquid deposit 0xc4b2…3ef2</td><td class="n">98,144 USDC</td><td><a class="mono" href="https://arbiscan.io/tx/0xcaa93aa91eb6e9c53c5e5fd473128acaef1c255cb270e80c2eb5edbacdda2e98" rel="noopener">0xcaa93aa9…2e98</a></td></tr>
+          <tr><td>Oct 7 · 03:12</td><td>Hyperliquid deposit 0xccca…e9cc</td><td class="n">98,047 USDC</td><td><a class="mono" href="https://arbiscan.io/tx/0xc8a68ee729ab9730d01977feec30339f8c693f7442ba92d1b5ee852b00198fd3" rel="noopener">0xc8a68ee7…8fd3</a></td></tr>
+          <tr><td>Oct 7 · 03:15</td><td>Hyperliquid deposit 0x7cac…fb49</td><td class="n">98,057 USDC</td><td><a class="mono" href="https://arbiscan.io/tx/0x065dafb852624dfe218d881a200c769d575496b584a76cb9d748aeac8418b215" rel="noopener">0x065dafb8…b215</a></td></tr>
+          <tr><td>Oct 7 · 03:25</td><td>Hyperliquid deposit 0xcf92…e230</td><td class="n">40,144 USDC</td><td><a class="mono" href="https://arbiscan.io/tx/0xa88e7707ee7b316b0342174876d9cdbd9e6232e068165640132a73bdf8e7b90f" rel="noopener">0xa88e7707…b90f</a></td></tr>
+          <tr><td>Oct 7 · 03:27</td><td>Hyperliquid deposit 0xceb5…1042</td><td class="n">43,936 USDC</td><td><a class="mono" href="https://arbiscan.io/tx/0xfabbc9bfef47e3722cdb2f6bc79d820d711140dbcd478d2d1d5efb06329c7101" rel="noopener">0xfabbc9bf…7101</a></td></tr>
+          <tr><td>Oct 7 · 03:31</td><td>Hyperliquid deposit 0x6da8…3637</td><td class="n">43,540 USDC</td><td><a class="mono" href="https://arbiscan.io/tx/0x51f9a2852f6bc73fce6d1181adc2e3f71b62a88bd3f8210a89271c6a0fe58da3" rel="noopener">0x51f9a285…8da3</a></td></tr>
+          <tr><td>Oct 7 · 03:37</td><td>Hyperliquid deposit 0xdf26…44c1</td><td class="n">41,827 USDC</td><td><a class="mono" href="https://arbiscan.io/tx/0xa970e51cfa2a4b189b544cca97704be36854a1867d1d14e33377e73cdc67f4b3" rel="noopener">0xa970e51c…f4b3</a></td></tr>
+        </tbody>
+      </table></div>
+    </details>
+  </section>
+
+  <section class="block" id="method">
+    <div class="head"><p class="eyebrow">06 · Method and standard</p><h2>How we know.</h2></div>
+    <p class="lede">Solana transactions and balances, Ethereum, Base and Arbitrum transfers, Mayan swap records and Hyperliquid's public info API (ledger, balances, fills), read by the Onchain Files engine. The Privacy Cash link is an amount and timing match and is marked Inferred. The EVM drain, Across and split transfers were first collected by our public-source team from explorers and checked against on-chain data. The victim appears only through his own public posts and the wallets the trackers published; no other personal details are used.</p>
+    <div class="std">
+      <div><span class="chip v">Verified</span><p>Read on-chain by us. A direct link is proven by records on both chains.</p></div>
+      <div><span class="chip i">Inferred</span><p>Our deduction from patterns. The method is stated.</p></div>
+      <div><span class="chip a">Attributed</span><p>Someone else's claim or label. The source is named.</p></div>
+      <div><span class="chip r">Project-reported</span><p>A statement from the project involved.</p></div>
+      <div><span class="chip u">Unknown</span><p>What we could not establish, listed.</p></div>
+    </div>
+    <div class="head" style="margin-top:20px"><h3>Sources</h3></div>
+    <ul class="sources">
+      <li><a href="https://x.com/frogmanhaha/status/2107702850679943584">Frogman on X (Oct 7, 2026)</a></li>
+      <li><a href="https://x.com/lookonchain/status/2107718754830549440">Lookonchain on X (Oct 7, 2026)</a></li>
+      <li><a href="https://explorer-api.mayan.finance/v3/swap/trx/7dAqvMMyA9NebRbEwCKMvbCq8LdJQeGi1wBsubDxRiEcHsf68ao9FhBf1UEbERuMWQJ6PCJ4LrfFguq2hQzLaTW">Mayan explorer API</a></li>
+      <li><a href="https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/info-endpoint">Hyperliquid info API docs</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <a class="brand" href="../../" style="font-size:.95rem;color:var(--ink)"><img src="../../assets/logo.png" alt="" width="24" height="24" style="width:24px;height:24px">Onchain Files</a>
+    <span>File #014 · v1.0 · Oct 8, 2026 · Corrections: <a href="https://x.com/onchain_files">@onchain_files</a> · <a href="../../tips/">Send a tip</a></span>
+  </footer>
+</main>
+<div class="tip" id="tip" role="tooltip"></div>
+<script>
+const CASE={"window":null,"sankey":null,"D":[["Solana drain","v","1.43M BP + 15.87M ZesMG + 7,860 USDC","Oct 6 · 20:14–20:15","<a href=\"https://solscan.io/tx/57wSAHgVrsNf7hDvnnEDnpjb6fF1nWj6h9bGKLB5ivKRLwT7TZia4USS1u1GZWsndXK3TB6LKGy3Aj62jMhMu1aj\" rel=\"noopener\">1429939.16 BPxxfRCXkUVhig4HS1Lh7kZqV6SPJ</a>, <a href=\"https://solscan.io/tx/3D3a45d4HYvvNfD4h5o4YSMc1PpW8QFpx4rxrCVvTPMN3wZJb2KTBfC3FncLJGhb7dUVYvCmXuJC8J89ppMbLG5f\" rel=\"noopener\">15871096.45 ZesMGYmokFiEuDvNzWeMhB7jxF6e</a>, <a href=\"https://solscan.io/tx/2opj8gEvy5whjXfnVRa3y98JcVZtFg95A5pq9EuWDGVLNkd8B3rhfcXNgM8NAg6HWjDSbbD9TQn5wwYZd3zUJTug\" rel=\"noopener\">7859.97 EPjFWdd5AufqSSqeM2qN1xzybapC8G4w</a>, <a href=\"https://solscan.io/tx/2ZjeSc8CfVQnkRzm9oYSvNSYzNLVwYAFCpBRoQyu8eBnTUhT9GTQHhzU4AnGvZtcNhQS2wUUfrTeyhJogDunUJtG\" rel=\"noopener\">0.29 SOL</a>","Signed by the victim's key.","Solana · Base · BNB Chain · Robinhood Chain · Ethereum · Arbitrum · Hyperliquid",[]],["EVM drain","v","Base, BNB Chain, Robinhood Chain","Oct 6 · 20:15","<a href=\"https://basescan.org/tx/0x49c104ab3e7ef960198cc0e0ae6254f56fe0cd63440c5af442ac64d6b755f11c\" rel=\"noopener\">Basecat</a>, <a href=\"https://basescan.org/tx/0x036248bca26184dd6b4cf25d0dcc67acb5c4f58d28411eee4d2148c1b6582fd8\" rel=\"noopener\">BLUECHIP</a>","Signed by the victim's key.","Solana · Base · BNB Chain · Robinhood Chain · Ethereum · Arbitrum · Hyperliquid",[]],["Into Privacy Cash","v","13,240.97 SOL in 10 deposits","Oct 6 · 20:36–21:00","<a href=\"https://solscan.io/tx/2z3oR5xtnE9mkk3F5Y7HFf3NZxzNtKJBEx3Fwzo9jcERr288dCQDiX6mjF8ECcu4wS6umS5jZes7Tcyv8rUatumN\" rel=\"noopener\">550 SOL</a>, <a href=\"https://solscan.io/tx/2RQzMvMEjC4UbWBzxdFrthgQAWvmKepgdPqXCghe6tEoSS9M8aqMYsosnECkxM3N4ipYbF1vXBmkjEkqBRNz4wdd\" rel=\"noopener\">1000 SOL</a>, <a href=\"https://solscan.io/tx/2rmwmvV6o3t88NqFzkScnAmLp6MQSNdSwdM6fVEpFjbnQmivPdR5pg132WG6yoRbwMr6vxhVuctEoHWbZ7srV1bh\" rel=\"noopener\">1000 SOL</a>, <a href=\"https://solscan.io/tx/4dMYbos32EUJEX6S3PAQZEY2Xn3XAJS5ytRVZyHxbE24i31zrUJAdcimYRvcsu4d8Ac9P8mj6huz6fZz5PuV57DW\" rel=\"noopener\">1000 SOL</a>, <a href=\"https://solscan.io/tx/4bjhir5fURcbzsgkEZLRXc3ZuHuShYWDdPeubiYGQ4mWJNjhHMtJd7sJXDPffLm2CsWkZWqfNGr96UQTgPAgjmdM\" rel=\"noopener\">1666 SOL</a>, <a href=\"https://solscan.io/tx/3UtUPbZbsSFqMTcSPG5s9nv3yihtPhjiG53inP5eMmfKwZkwsEv8dGrbY59mszAm6AwNbaHuHTrSM5gebF7s99BA\" rel=\"noopener\">1666 SOL</a>, <a href=\"https://solscan.io/tx/4LiSTZUKyB4eoN6BFNwZRmXviqNwmJLUHWCvPhLqeRyWQb5nz6yJAeKnAY7H1xeyHxwpj2fYq3vn6BhXFNPw8Bmp\" rel=\"noopener\">1700 SOL</a>, <a href=\"https://solscan.io/tx/Y93jwy61fQGerS8PnroExyMKkczavyzntqu3UfsSKmyWZc2BQcnG9nTmzpCkP81D5Fw1YtAPHUXLhkc37K716Aj\" rel=\"noopener\">1700 SOL</a>, <a href=\"https://solscan.io/tx/xUu8jqmsvU4GoXjAJvihPhuYPd8P65URTQM6XWnysGtkjrfd1fmWaLiq3FntXrecfaLDQ3yxA3hqTBiicSG4hvU\" rel=\"noopener\">1700 SOL</a>, <a href=\"https://solscan.io/tx/3f9ABQgo1xe4gVrDYxFJTSVvfeEz6pucS2ARDypLis6cMDDiT8X789Jf9ipR71n8ZjbvnAu1e9vQHquFwz21DWYm\" rel=\"noopener\">1258.97 SOL</a>","Program 9fhQ…yAjC (Privacy Cash).","Solana · Base · BNB Chain · Robinhood Chain · Ethereum · Arbitrum · Hyperliquid",[]],["Across to Ethereum","v","≈ 363 ETH in 24 deposits","Oct 6 · 23:40 – Oct 7 · 00:22","<a href=\"https://basescan.org/tx/0x2310d627c3c369a73b480bd1bb6bdcffd26615ba84ce02a0f36858722890d366\" rel=\"noopener\">43.625 ETH from Base</a>","Across deposit records.","Solana · Base · BNB Chain · Robinhood Chain · Ethereum · Arbitrum · Hyperliquid",[]],["Withdrawals to fresh wallets","i","12,693 SOL","Oct 6 · 20:39–21:03","<a href=\"https://solscan.io/tx/5QAE46BGMvHGAkTe7ntYPmFXZKMUJpeSxoMKsinHXxjGKc9tSXwDTDfVDHMztqH5Qz7hKMLu6yUSn2mE8MRXorjF\" rel=\"noopener\">331.83 SOL → 6Top…xYLq</a>, <a href=\"https://solscan.io/tx/5YPNJAV4Dqz7h4fA6HhucfFVJpottY6izDDnHKvcmwh8huBB7fvgpHeigYJKSs19gJn3Ko9ApZpz9hR5nVZnRx6Q\" rel=\"noopener\">331.83 SOL → 4DPg…YxNi</a>, <a href=\"https://solscan.io/tx/rVdFaFNggNUtVtPJ6UQJTSpZWBNAenzQA2EjByeppj8MT6ixWSHfEtrisAVEGfPEfPCNSuRm3pTczztg64cY6ak\" rel=\"noopener\">331.83 SOL → 7vYe…7KTV</a>, <a href=\"https://solscan.io/tx/26bUZvd8NTaZs9X2KMUQzYS52YQVqDuJz2cL1BwPemBAvJBjNtG8BZMnr7Pqy5LtQzByY8fJu1ZU2mihwFWGxL1x\" rel=\"noopener\">331.83 SOL → 7LJB…PPAL</a>, <a href=\"https://solscan.io/tx/2cJeTrDc7TMjoAj8iggLBa85BpqbZiXTPWvHqS1ZahvFWABU2Rgfsii3bUwWEjf8DAXnTjyW4ztKTQKScu5CaJfn\" rel=\"noopener\">331.83 SOL → J8NP…9PpU</a>, <a href=\"https://solscan.io/tx/4KBAB72Z4N6WF9hBqidMfa3qoacHEQ5npb1z6m57jy2oev39TipaiEhcSPZUpNd8xSStGDGEmy7vcPuNAVuc71ub\" rel=\"noopener\">331.83 SOL → 6uuN…jitz</a>, <a href=\"https://solscan.io/tx/41kPk4yJiBNEdJJcz6XNYEac8C5Ytde2YGuEFBtPQDHtqcTEehtLwjk8oAE1JK3E5UbV8aKYyHY3VjcZAjiwcKTi\" rel=\"noopener\">331.83 SOL → 3V4X…A7TD</a>, <a href=\"https://solscan.io/tx/5WRWzBtYueTWrVpYArsDpHEYjWEaj1wpnZMUvq8P44vR2JR2iVEZQ2DVU5QYT45VXSgMctZ8H7ddvwURRpH3VLvL\" rel=\"noopener\">331.83 SOL → GvvK…DFw2</a>","Privacy Cash hides the link. Amount, timing and fresh-wallet pattern only.","Solana · Base · BNB Chain · Robinhood Chain · Ethereum · Arbitrum · Hyperliquid",[]],["Collector splits","v","35 / 18.5 / 4 ETH branches","Oct 6 · 23:41 – Oct 7 · 02:18","<a href=\"https://etherscan.io/tx/0x34fa1689d4c5f1536fa1d31a2551999de672a0433d06f2a04297c3ac4c105ca0\" rel=\"noopener\">18.50 ETH → 0x13af…a48a</a>, <a href=\"https://etherscan.io/tx/0x60f111e77801bdfa77b897903cb5b586562adcb34de9ba3cac72bd96bd25240c\" rel=\"noopener\">18.50 ETH → 0xffd7…4ab3</a>, <a href=\"https://etherscan.io/tx/0x37bdacbff2fb780c54fd65a79234ef73ada43510d4f7e94f95da95124f97506c\" rel=\"noopener\">18.50 ETH → 0xc25c…a9a9</a>, <a href=\"https://etherscan.io/tx/0x5c9449cc0171f3c99132a640d9e9a5316343a8cc6d3a03d9575e11c1d7be42bb\" rel=\"noopener\">18.50 ETH → 0x4076…12bd</a>, <a href=\"https://etherscan.io/tx/0x256e23f3f796ae3e894d53dc55e00c10f4587342bad1a548611e26bf888b8598\" rel=\"noopener\">4.00 ETH → 0x114e…4a7a</a>, <a href=\"https://etherscan.io/tx/0x6eea8dafb3153339f5e3b558afec6c6a7c91ba0d3e3f4f11b106049f117f52d4\" rel=\"noopener\">4.00 ETH → 0x3b74…ee9a</a>, <a href=\"https://etherscan.io/tx/0xeb61708b358adfb0bae70d3972d65e0e754a027e1bbb1cdf46d33d47c4481dbd\" rel=\"noopener\">45.00 ETH → 0x40ac…b811</a>, <a href=\"https://etherscan.io/tx/0xb702d3f24586a8f8c74530573e17609b43fa18c088e11c2591cd5c6eb5a49ea6\" rel=\"noopener\">15.00 ETH → 0x40ac…b811</a>, <a href=\"https://etherscan.io/tx/0x3902c808cd20136c203bb596b194df239d86ad7d7f92abd27144554ecf96b310\" rel=\"noopener\">35.00 ETH → 0xc96e…9e68</a>, <a href=\"https://etherscan.io/tx/0x1c11dd43f8f19a4b6edde47ae3f4648617337d9df000a645b8d827b051e621b3\" rel=\"noopener\">35.00 ETH → 0xaf53…e513</a>, <a href=\"https://etherscan.io/tx/0x3789975ee044ca6f6a17a2522491152528c644ebc74760ba808c03284acd5d3d\" rel=\"noopener\">35.00 ETH → 0xdb5f…6ec7</a>, <a href=\"https://etherscan.io/tx/0x40b2dbfa574a55c164af13c1d15f37479d43bd40f17745500b7d6a24fb5aba2d\" rel=\"noopener\">35.00 ETH → 0x471d…c7eb</a>, <a href=\"https://etherscan.io/tx/0x54ef8bb24152d4dbeb87ee2dcd754386d6d73e814058caa1295f95a612011b26\" rel=\"noopener\">35.00 ETH → 0x31d1…0670</a>, <a href=\"https://etherscan.io/tx/0x94a897e1ccac338de2846a207179eaf0dd11aee71adb8e0cc934ea5ad5f3c388\" rel=\"noopener\">35.00 ETH → 0x6457…7641</a>, <a href=\"https://etherscan.io/tx/0x204c2bf7375b0d44cc648f630a09a9c32e93fe8cedc416f6587012c2afa7cc99\" rel=\"noopener\">10.25 ETH → 0xec96…7405</a>","Ethereum transfers.","Solana · Base · BNB Chain · Robinhood Chain · Ethereum · Arbitrum · Hyperliquid",[]],["Mayan Swift to Arbitrum","d","1,284,323 USDC","Oct 7 · 02:27–03:36","<a href=\"https://solscan.io/tx/7dAqvMMyA9NebRbEwCKMvbCq8LdJQeGi1wBsubDxRiEcHsf68ao9FhBf1UEbERuMWQJ6PCJ4LrfFguq2hQzLaTW\" rel=\"noopener\">331.83 SOL → 0x3b80…a65c</a>, <a href=\"https://solscan.io/tx/2sHmsb9H73tqtDpetApgnW9jkv6eUqCJjd4TYh7SVXV1i2bFCKX73L3HyT4LTPopqomeZYJzS3KzogoADPmSTj3L\" rel=\"noopener\">331.83 SOL → 0x1137…4371</a>, <a href=\"https://solscan.io/tx/3wt8h3gBJPSvhwTgkjw74dePHkcmUTmQBNiLVY3E9trqT18LtNAPocpTFNGfCLju5mkjgeMukK8wqsLDA1HV7W8g\" rel=\"noopener\">331.83 SOL → 0x1b1c…829c</a>, <a href=\"https://solscan.io/tx/WWdojHW5kbKxHWGa1bGWR3EUw7v23kvwYYUvJzXzEMwie67yrHAkmggLvF3mocRbaxrPQ1eDxnM8wQsppd2c1Wh\" rel=\"noopener\">331.83 SOL → 0x97bf…308f</a>, <a href=\"https://solscan.io/tx/2MoRkueDDXfV7MB7ea49zcqpgBLaDdgL2CY3NP1WB7CmNRmL2kjE2D7rWAQrRY1nGovFpcY8rNwvAL2u8YznyQQg\" rel=\"noopener\">331.83 SOL → 0x3bc6…d81d</a>, <a href=\"https://solscan.io/tx/5re8QhFAdDYgxBMosGyFipt1hPK4ZHKbzbL97UcJgQhUmnnKJdPeeScL2PFWSXxERLJJEQ7ZbKWm3Q3mgVm4E1bT\" rel=\"noopener\">331.83 SOL → 0x278d…b3f0</a>, <a href=\"https://solscan.io/tx/29YW5a4Mxc6QMtwWjMUuQftahdcg8vNTncsxRGjgcTgXjF5SCKLrQLq8vd2QCx7HPdXwRMXuinXov2DWsoisAmrP\" rel=\"noopener\">413.54 SOL → 0x122b…ce58</a>, <a href=\"https://solscan.io/tx/33ZEia8xKPPqKbqWzJFwGtR4hxx5HmQ2u61DcFMnr9wRPk6u4CeqgobruqAZbVQ73tY73iUyMpRYbrWL9egWA53h\" rel=\"noopener\">413.54 SOL → 0x9b3b…37a5</a>, <a href=\"https://solscan.io/tx/4GAzugaZbyNYwX67kiLDDg3EWw68yCntviKpsgFFJmLLKUxNafSgme78AeWRrZXsJHKzJxN5XxhHwJakyg2idUWX\" rel=\"noopener\">413.54 SOL → 0x8ff7…d4c3</a>, <a href=\"https://solscan.io/tx/LB8Q5UJLeeNeUiHMX699pJfYdrcoZ8DERVJYV3WLEEicQXro8CCNAWTcRdD4iaFKXp5i8yz7JrYxXqMvzi5Nojj\" rel=\"noopener\">413.54 SOL → 0xe120…3c0e</a>","Mayan explorer records (source and fill tx).","Solana · Base · BNB Chain · Robinhood Chain · Ethereum · Arbitrum · Hyperliquid",[]],["LI.FI to Arbitrum USDC","v","745,551 USDC","Oct 7 · 01:45–02:21","<a href=\"https://etherscan.io/tx/0x1ccc5f8252b7526196559af98022083107cda7317c787e8a3d511d88b8eef11f\" rel=\"noopener\">35.00 ETH from 0x68d6…1ac4</a>, <a href=\"https://etherscan.io/tx/0xdc868a5f0a211154b818dc96ff8a0e5a8ef2b7a26ef4cc0ed66a6b18a49f4362\" rel=\"noopener\">35.00 ETH from 0x8887…E223</a>, <a href=\"https://etherscan.io/tx/0xa7da5d044b2a34fd2105862dfed7b947254bd7ff12d7567e91be48d649f18d3c\" rel=\"noopener\">37.50 ETH from 0xd7ef…e6B1</a>, <a href=\"https://etherscan.io/tx/0xc6be781b6e8f3da34d4e6d6bf3311af39b61cd8681666dd08585c797b795dceb\" rel=\"noopener\">22.50 ETH from 0x9cb1…c01f</a>, <a href=\"https://etherscan.io/tx/0x321064d6fcab77a911a2af5d452269588e621c590796716f5fa9f7528dd7f32a\" rel=\"noopener\">35.00 ETH from 0xa3cA…9abe</a>, <a href=\"https://etherscan.io/tx/0x8d9c1f92bb72579372e43ca8a47bb1787c8d652ffd366deb9a99d81a1f45a084\" rel=\"noopener\">35.00 ETH from 0x4079…54e9</a>, <a href=\"https://etherscan.io/tx/0x8c0803288283195b973a6587507e6d02884b60241b63dad310c0a08c8c76871a\" rel=\"noopener\">35.00 ETH from 0x68B3…A680</a>, <a href=\"https://etherscan.io/tx/0xba287a4b921f1280694f005aee33a08939c1a8cafd4a30ba4251384c87a99818\" rel=\"noopener\">35.00 ETH from 0xd924…3abB</a>, <a href=\"https://etherscan.io/tx/0xefa46658dead085751916c1368ed2590d72fa34dce36abf5c6b5a8cbcfc0d624\" rel=\"noopener\">10.25 ETH from 0x3E2d…40a1</a>, <a href=\"https://etherscan.io/tx/0x02a75634730a041464e30360893b715991640231af5f55ab28435a5a7f3f3a18\" rel=\"noopener\">2.00 ETH from 0xd8D0…0Ef5</a>","LI.FI Diamond 0x1231DEB6…; USDC arrives on Arbitrum to the same address.","Solana · Base · BNB Chain · Robinhood Chain · Ethereum · Arbitrum · Hyperliquid",[]],["Deposit into Hyperliquid","v","1,284,323 USDC → XMR1","Oct 7 · 02:28–03:37","<a href=\"https://arbiscan.io/tx/0xfb53cfae8da01080872d645803f8e697e8a864a98a16a0ddbd3e8d1acdc47267\" rel=\"noopener\">0x3b80…a65c</a>, <a href=\"https://arbiscan.io/tx/0x4e91e92e22531f398718516843815a9e5e678108c02d176aef46681480a5a3bc\" rel=\"noopener\">0x1137…4371</a>, <a href=\"https://arbiscan.io/tx/0xc51e075dce89cfa5d2ff41c9d75a3ae28770cf72ca6e3c9ad78f45ddadd7a537\" rel=\"noopener\">0x1b1c…829c</a>, <a href=\"https://arbiscan.io/tx/0xae5ffb5aa2732bf327772e35fa7523e730006d926a3494a17deb20286b7bafcc\" rel=\"noopener\">0x97bf…308f</a>, <a href=\"https://arbiscan.io/tx/0xc67cb35c17bca0d12db1c9118b6a97a6957f6ae0b2fa1127681f6baf3c029931\" rel=\"noopener\">0x3bc6…d81d</a>, <a href=\"https://arbiscan.io/tx/0xdbf8f5abda55c8d6cb2b2644018d0e0f9acd0f79f12a2dc62e4d33a65aee6533\" rel=\"noopener\">0x278d…b3f0</a>, <a href=\"https://arbiscan.io/tx/0xcf6f66118d59eb9e52f550e2b2bfa1731619319d0e529cb83222f7ceb87d5d77\" rel=\"noopener\">0x122b…ce58</a>, <a href=\"https://arbiscan.io/tx/0x5182919313ca43a68fbe726459f517989f2dd89215a0a259112cdb89664e1896\" rel=\"noopener\">0x9b3b…37a5</a>, <a href=\"https://arbiscan.io/tx/0xfa481712ae1e5a19bb86b053b9735d5a15c88b4138337b6deb0b27024aaf6f35\" rel=\"noopener\">0x8ff7…d4c3</a>, <a href=\"https://arbiscan.io/tx/0xed9cc64e93d490aa9bc002d33f7d89502f38793d16bb3d9f0dd081fcc2320899\" rel=\"noopener\">0xe120…3c0e</a>","Hyperliquid Bridge2 0x2df1…3df7; Hyperliquid ledger.","Solana · Base · BNB Chain · Robinhood Chain · Ethereum · Arbitrum · Hyperliquid",[]],["Deposit into Hyperliquid","v","745,551 USDC → XMR1","Oct 7 · 01:45–02:21","<a href=\"https://arbiscan.io/tx/0x953cb3206cf345b500e518316a07151f10835663ce4e55f8e972d2d78e78ff87\" rel=\"noopener\">0x68d6…1ac4</a>, <a href=\"https://arbiscan.io/tx/0x0ddf411d8745a28b5efdd1c42ab0a1526c53f1c92b622b36c0f6baf595dc3a9c\" rel=\"noopener\">0x8887…E223</a>, <a href=\"https://arbiscan.io/tx/0xd09044916f0e5402351d6edc68cc7afa48a00e08800791a02e0f48f554f1255e\" rel=\"noopener\">0xd7ef…e6B1</a>, <a href=\"https://arbiscan.io/tx/0xc0e57329de131312e346161d70d2e7eb4626f12b4ed642af6b1def28d813669f\" rel=\"noopener\">0x9cb1…c01f</a>, <a href=\"https://arbiscan.io/tx/0x107db810fd86893dc4cf8df03c1753236e04fc2d7b3f17304b34dfb840c1fa51\" rel=\"noopener\">0xa3cA…9abe</a>, <a href=\"https://arbiscan.io/tx/0x0ed5e25dfa5a8a702349a7c05c6e6afe28fd4161ad4c87c056a0460bef9056c6\" rel=\"noopener\">0x4079…54e9</a>, <a href=\"https://arbiscan.io/tx/0xe295cfe85f341c4abb36c74a22ea62c767788712410f7d10df4b55abcad99b85\" rel=\"noopener\">0x68B3…A680</a>, <a href=\"https://arbiscan.io/tx/0xdffada3de106b8639c6af7e25fc106e075f1c1b02f9ffd8e6facb70413bcf0d8\" rel=\"noopener\">0xd924…3abB</a>, <a href=\"https://arbiscan.io/tx/0x963c56253dedcfd5ff9f944c91eb9cb9e94d12701d9165f66a40b9aa0b4cfc1f\" rel=\"noopener\">0x3E2d…40a1</a>, <a href=\"https://arbiscan.io/tx/0x36e8c7e021615d79470419f7939ded6ac67db60b4db5c4ae8795be13dea311d7\" rel=\"noopener\">0xd8D0…0Ef5</a>","Hyperliquid Bridge2; Hyperliquid ledger.","Solana · Base · BNB Chain · Robinhood Chain · Ethereum · Arbitrum · Hyperliquid",[]]],"selected":0,"statusLabel":{"v":"<span class=\"chip v\">Verified</span>","d":"<span class=\"chip v\">Verified</span> <span class=\"chip v\">Direct link</span>","i":"<span class=\"chip i\">Inferred</span>","a":"<span class=\"chip v\">Verified transfer</span> <span class=\"chip a\">Name from label</span>","r":"<span class=\"chip r\">Project-reported</span>","u":"<span class=\"chip u\">Unknown</span>"}};
+(function(){
+const tip=document.getElementById('tip');
+function showTip(h,e){tip.innerHTML=h;tip.style.opacity=1;moveTip(e)}
+function moveTip(e){const w=tip.offsetWidth,h=tip.offsetHeight;let x=e.clientX+14,y=e.clientY+14;if(x+w>innerWidth-8)x=e.clientX-w-14;if(y+h>innerHeight-8)y=e.clientY-h-14;tip.style.left=x+'px';tip.style.top=y+'px'}
+function hideTip(){tip.style.opacity=0}
+const css=n=>getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+/* clickable edges */
+const svg=document.querySelector('svg.flow'),panel=document.getElementById('edge');
+if(svg){const edges=[...svg.querySelectorAll('path.e')];edges.forEach(p=>{const k=+p.dataset.k,d=CASE.D[k];if(!d)return;
+ const h=document.createElementNS('http://www.w3.org/2000/svg','path');h.setAttribute('d',p.getAttribute('d'));h.setAttribute('class','hit');h.setAttribute('tabindex','0');h.setAttribute('role','button');h.setAttribute('aria-label',d[0]);p.parentNode.insertBefore(h,p);
+ const pick=()=>{edges.forEach(e=>e.classList.remove('sel'));p.classList.add('sel');panel.innerHTML='<div>'+CASE.statusLabel[d[1]]+'</div><p class="t">'+d[0]+'</p><dl><dt>Chain</dt><dd>'+d[6]+'</dd><dt>Amount</dt><dd>'+d[2]+'</dd><dt>Time (UTC)</dt><dd>'+d[3]+'</dd><dt>Transactions</dt><dd>'+d[4]+'</dd>'+d[7].map(r=>'<dt>'+r[0]+'</dt><dd>'+r[1]+'</dd>').join('')+'<dt>Evidence</dt><dd>'+d[5]+'</dd></dl>';};
+ h.addEventListener('click',pick);h.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();pick();}});if(k===CASE.selected)setTimeout(pick,0);});}
+if(!window.d3||!d3.sankey){document.querySelectorAll('.fallback').forEach(f=>f.textContent='The charts need JavaScript and a network connection. The tables below hold the same figures.');return;}
+/* one-day window */
+function drawWin(){const W=CASE.window;if(!W)return;const box=document.getElementById('win');box.innerHTML='';
+ const day=t=>new Date(W.day+'T'+(t.length===5?t+':00':t)+'Z');
+ const w=Math.max(box.clientWidth,680),h=200,m={l:16,r:16,b:30},y0=110;
+ const x=d3.scaleUtc([day(W.from),day(W.to)],[m.l,w-m.r]);
+ const svg=d3.select(box).append('svg').attr('viewBox','0 0 '+w+' '+h).attr('role','img').attr('aria-label',W.h2);
+ if(W.shade){svg.append('rect').attr('x',x(day(W.shade.from))).attr('y',y0-26).attr('width',x(day(W.shade.to))-x(day(W.shade.from))).attr('height',52).attr('rx',3).attr('fill',css('--accent')).attr('opacity',.14);
+  svg.append('text').attr('class','ann').attr('x',x(day(W.shade.from))+10).attr('y',y0-32).text(W.shade.label);}
+ svg.append('line').attr('x1',m.l).attr('x2',w-m.r).attr('y1',y0).attr('y2',y0).attr('stroke',css('--line2'));
+ const span=(day(W.to)-day(W.from))/36e5;
+ svg.append('g').attr('class','axis').attr('transform','translate(0,'+(h-m.b)+')').call(d3.axisBottom(x).ticks(d3.utcHour.every(span>12||w<800?2:1)).tickFormat(d3.utcFormat('%H:%M')).tickSizeOuter(0));
+ const col={fund:css('--attributed'),prep:css('--muted'),hot:css('--alert'),pool:css('--attributed'),poison:css('--s7'),msg:css('--reported'),info:css('--soft')};
+ W.events.filter(d=>d.show).forEach(d=>{const X=x(day(d.t)),up=d.show==='up',ty=up?y0-62:y0+44;
+  svg.append('line').attr('x1',X).attr('x2',X).attr('y1',y0+(up?-8:8)).attr('y2',up?ty+6:ty-14).attr('stroke',css('--line2'));
+  svg.append('text').attr('class','lab').attr('x',X+4).attr('y',ty).text(d.label+' '+d.t.slice(0,5));});
+ const g=svg.append('g').selectAll('g').data(W.events).join('g').attr('transform',d=>'translate('+x(day(d.t))+','+y0+')');
+ g.append('circle').attr('r',d=>d.kind==='poison'?3.5:6).attr('fill',d=>d.kind==='poison'?'none':col[d.kind]).attr('stroke',d=>col[d.kind]).attr('stroke-width',d=>d.kind==='poison'?1.5:2);
+ g.append('circle').attr('r',12).attr('fill','transparent').on('pointerenter',(e,d)=>showTip('<b>'+d.label+'</b><span class="m">'+W.day+', '+d.t+' UTC</span>'+(d.detail?'<br>'+d.detail:''),e)).on('pointermove',moveTip).on('pointerleave',hideTip);}
+/* sankey */
+function drawSankey(){const S=CASE.sankey;if(!S)return;const box=document.getElementById('sk1');box.innerHTML='';
+ const w=Math.max(box.clientWidth,680),h=Math.max(300,60*S.nodes.length);
+ const pal=[css('--s1'),css('--s2'),css('--s3'),css('--s4'),css('--s5'),css('--s6'),css('--s7')];
+ const nodes=S.nodes.map((n,i)=>({...n,color:n.color?(n.color.startsWith('--')?css(n.color):n.color):pal[i%pal.length]}));
+ const svg=d3.select(box).append('svg').attr('viewBox','0 0 '+w+' '+h).attr('role','img').attr('aria-label',S.title);
+ const g=d3.sankey().nodeId(d=>d.id).nodeWidth(12).nodePadding(32).nodeAlign(d3.sankeyJustify).extent([[1,10],[w-1,h-10]])({nodes,links:S.links.map(l=>({...l}))});
+ const f=v=>v.toLocaleString('en-US',{maximumFractionDigits:v<1?3:2})+' '+S.unit;
+ svg.append('g').attr('fill','none').selectAll('path').data(g.links).join('path').attr('d',d3.sankeyLinkHorizontal()).attr('stroke',d=>d.source.color).attr('stroke-opacity',.38).attr('stroke-width',d=>Math.max(1.5,d.width))
+  .on('pointerenter',function(e,d){d3.select(this).attr('stroke-opacity',.7);showTip('<b>'+d.source.name+' → '+d.target.name+'</b><span class="m">'+f(d.value)+'</span>'+(d.note?'<br>'+d.note:''),e)}).on('pointermove',moveTip).on('pointerleave',function(){d3.select(this).attr('stroke-opacity',.38);hideTip()});
+ const node=svg.append('g').selectAll('g').data(g.nodes).join('g');
+ node.append('rect').attr('x',d=>d.x0).attr('y',d=>d.y0).attr('width',d=>d.x1-d.x0).attr('height',d=>Math.max(2,d.y1-d.y0)).attr('rx',2).attr('fill',d=>d.color).on('pointerenter',(e,d)=>showTip('<b>'+d.name+'</b><span class="m">'+f(d.value)+'</span>'+(d.note?'<br>'+d.note:''),e)).on('pointermove',moveTip).on('pointerleave',hideTip);
+ const lab=node.append('text').attr('x',d=>d.x0<w/2?d.x1+8:d.x0-8).attr('y',d=>(d.y0+d.y1)/2).attr('text-anchor',d=>d.x0<w/2?'start':'end');
+ lab.each(function(d){const t=d3.select(this),small=(d.y1-d.y0)<34,X=d.x0<w/2?d.x1+8:d.x0-8;if(small){t.attr('dy','0.35em');t.append('tspan').attr('class','lab').text(d.name);t.append('tspan').attr('class','lab2').text('  '+f(d.value));}else{t.append('tspan').attr('class','lab').attr('dy','-0.15em').text(d.name);t.append('tspan').attr('class','lab2').attr('x',X).attr('dy','1.25em').text(f(d.value)+(d.tag?' · '+d.tag:''));}});}
+function drawAll(){drawWin();drawSankey();}
+drawAll();let rt;addEventListener('resize',()=>{clearTimeout(rt);rt=setTimeout(drawAll,150)});
+})();
+</script>
+<script>document.querySelectorAll('details.cases').forEach(d=>{document.addEventListener('click',e=>{if(!d.contains(e.target))d.removeAttribute('open')});document.addEventListener('keydown',e=>{if(e.key==='Escape')d.removeAttribute('open')});d.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>d.removeAttribute('open')))});</script>
+<!--ofnav:js--><script>(()=>{const h=document.querySelector('[data-ofnav]');if(!h)return;const b=h.querySelector('.ofn-burger'),ds=[...h.querySelectorAll('details')];
+b&&b.addEventListener('click',()=>{const o=h.classList.toggle('open');b.setAttribute('aria-expanded',o)});
+ds.forEach(d=>d.addEventListener('toggle',()=>{if(d.open)ds.forEach(x=>x!==d&&x.removeAttribute('open'))}));
+document.addEventListener('click',e=>{if(!h.contains(e.target)){ds.forEach(d=>d.removeAttribute('open'));h.classList.remove('open');b&&b.setAttribute('aria-expanded','false')}});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){ds.forEach(d=>d.removeAttribute('open'));h.classList.remove('open')}});
+h.querySelectorAll('nav a').forEach(a=>a.addEventListener('click',()=>{h.classList.remove('open');ds.forEach(d=>d.removeAttribute('open'))}));})();</script><!--/ofnav:js-->
+</body>
+</html>

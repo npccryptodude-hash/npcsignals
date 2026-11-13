@@ -1,0 +1,13 @@
+{
+  "url": "https://api.hyperliquid.xyz/info",
+  "request": {
+    "type": "userFillsByTime",
+    "user": "0xd7efd720adf271b7173dd01a9b81668892bee6b1",
+    "startTime": 0,
+    "endTime": 1794557830302
+  },
+  "started_utc": "2026-11-13T08:17:18.826897+00:00",
+  "retrieved_utc": "2026-11-13T08:17:23.107271+00:00",
+  "http_status": 200,
+  "sha256": "343a155a3ca9cc087487203f20d2ee80dd57bd629c14ab8aa8fec6de592547aa"
+}

@@ -1,0 +1,19 @@
+{
+  "url": "https://api.mainnet-beta.solana.com",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "getSignaturesForAddress",
+    "params": [
+      "JA3iQS6ZSv6L2jhnKR2XMCJThJVorvNydUmYDf6Bwhs6",
+      {
+        "limit": 1000,
+        "commitment": "finalized"
+      }
+    ]
+  },
+  "started_utc": "2026-11-13T08:19:38.407428+00:00",
+  "retrieved_utc": "2026-11-13T08:19:42.445539+00:00",
+  "http_status": 200,
+  "sha256": "253830ad74eb9ab299279f510144870738d74313bb8195d194d9b338710fe407"
+}

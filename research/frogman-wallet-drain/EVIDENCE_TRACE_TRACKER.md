@@ -1,3 +1,5 @@
+> latest: [13 november independent 35-account audit](./audit_2026_11_13/README.md); older checkpoint sections below remain dated historical records.
+
 # frogman — evidence trace tracker
 
 **updated:** 2026-11-11  
@@ -39,3 +41,25 @@ append new rows with utc observation time, chain, full address, transaction hash
 - external: [solsentry statement mirrored on nitter](https://nitter.gq/crashdiniz)
 
 **no independent live blockchain recheck was completed for this 11 november editorial update.**
+
+## superseding verification / 13 november 2026
+
+| trace | observation | class | evidence / limits |
+|---|---|---|---|
+| ft-013 | 35 arbitrum deposits / 2,029,874.462280 usdc | confirmed | [receipts](./audit_2026_11_13/receipts.json); successful native-usdc events and block inclusion |
+| ft-014 | 35 identical account credits | confirmed | [account audit](./audit_2026_11_13/ACCOUNT_AUDIT.md); exact transaction hashes and amounts |
+| ft-015 | 537 xmr1 buy fills / 3,586.797483 net xmr1 | confirmed | [fills](./audit_2026_11_13/fills.json); fees and spot balances reconcile |
+| ft-016 | november returned histories and current balances | confirmed within api scope | [timestamps](./audit_2026_11_13/summary.json); no returned external-transfer entries; no consensus/lifetime completeness claim |
+| ft-017 | 70 separate post-13-october queries return empty | confirmed query result | [recent checks](./audit_2026_11_13/recent_window_check.json); not a proof about unqueried accounts or private records |
+| ft-018 | one historical explorer-label checksum mismatch | confirmed integrity exception | [exception](./audit_2026_11_13/integrity_exception.json); original file retained |
+| ft-019 | 25 additional mayan api refreshes and two chainflip status refreshes blocked | unresolved refresh | [limitations](./audit_2026_11_13/LIMITATIONS.md); individual access-error records preserved |
+
+ft-008's 35-account count and rounded deposit/xmr1 totals are now reproduced for the published set. ft-011's unknown november account state is superseded by this dated snapshot. ft-009's 41-account set and ft-010's native monero receipt remain unresolved.
+
+## additional verified findings
+
+| trace | observation | class | evidence |
+|---|---|---|---|
+| ft-020 | additional account outside external 35 | confirmed deposit/credit/fill/balance | [new edges](./audit_2026_11_13/new_edges_summary.json); 55.569140 usdc / 0.089937 net xmr1 |
+| ft-021 | 27 oct 4-eth branch outflow and mayan lock | confirmed ethereum facts | [additional findings](./audit_2026_11_13/ADDITIONAL_FINDINGS.md); solana order-state match supported, not fully confirmed |
+| ft-022 | historical checksum discrepancy explained | confirmed newline transformation | [crlf reconstruction](./audit_2026_11_13/integrity_normalization_recheck.json); original bytes unchanged |

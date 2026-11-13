@@ -1,0 +1,147 @@
+[
+  {
+    "script": "v0.2/across_verification_2026_10_09/verify_across.py",
+    "exit_code": 0,
+    "stdout": "6230e11a5c8799ac7524f2bb294\",\n  \"transaction_status\": \"success\",\n  \"event_contract\": \"0x5c7bcd6e7de5423a257d81b442095a1a6ced35c5\",\n  \"event_signature\": \"FilledRelay(bytes32,bytes32,uint256,uint256,uint256,uint256,uint256,uint32,uint32,bytes32,bytes32,bytes32,bytes32,bytes32,(bytes32,bytes32,uint256,uint8))\",\n  \"event_topic\": \"0x44b559f101f8fbcc8a0ea43fa91a05a729a5ea6e14a7c75aa750374690137208\",\n  \"log_index\": 658,\n  \"origin_chain_id_as_emitted\": 8453,\n  \"deposit_id_as_emitted\": 6301830,\n  \"input_token_as_emitted\": \"0x4200000000000000000000000000000000000006\",\n  \"output_token\": \"0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2\",\n  \"input_amount_wei_as_emitted\": \"43625009525741763214\",\n  \"output_amount_wei\": \"43614308988719623177\",\n  \"input_amount_token_units_as_emitted\": \"43.625009525741763214\",\n  \"output_amount_token_units\": \"43.614308988719623177\",\n  \"input_minus_output_as_emitted\": \"0.010700537022140037\",\n  \"fee_limitation\": \"Emitted input/output difference only, not independently reproduced origin debit or verified breakdown of protocol/relayer fees.\",\n  \"repayment_chain_id_as_emitted\": 8453,\n  \"relayer_as_emitted\": \"0xfd03abcadaf3f930fa4e37eb2f6ea3a44a41b7f0\",\n  \"fill_deadline\": 1791336923,\n  \"exclusivity_deadline\": 1791330035,\n  \"exclusive_relayer_as_emitted\": \"0xfd03abcadaf3f930fa4e37eb2f6ea3a44a41b7f0\",\n  \"depositor_as_emitted\": \"0x427c4b37de0714821b09c4fc655a713abbcfba83\",\n  \"recipient_as_emitted\": \"0x427c4b37de0714821b09c4fc655a713abbcfba83\",\n  \"message_hash\": \"0x0000000000000000000000000000000000000000000000000000000000000000\",\n  \"updated_message_hash\": \"0x0000000000000000000000000000000000000000000000000000000000000000\",\n  \"updated_recipient\": \"0x427c4b37de0714821b09c4fc655a713abbcfba83\",\n  \"updated_output_amount_wei\": \"43614308988719623177\",\n  \"fill_type\": 0,\n  \"origin_transaction_hint\": \"0x2310d627c3c369a73b480bd1bb6bdcffd26615ba84ce02a0f36858722890d366\",\n  \"origin_transaction_reproduced\": true,\n  \"origin_to_fill_classification\": \"CONFIRMED; see F0433-F0434\",\n  \"service_or_owner_attribution\": \"Origin sender reproduced separately in F0433; no custody or beneficial-owner identification\",\n  \"source_record\": \"raw_sources/eth_getTransactionReceipt_0x5d6b414f8b7ecdcee5ffdb378ceb3de228cec732037437d759900ed7b34d1b1a.response.json\",\n  \"interface_record\": \"continuation_2026_10_09/raw/across_interface_source.response.json\"\n}\n{\n  \"origin\": {\n    \"ID\": \"F0433\",\n    \"classification\": \"CONFIRMED\",\n    \"record_type\": \"origin deposit; same bridge value, not additive loss\",\n    \"chain\": \"Base\",\n    \"chain_id\": 8453,\n    \"transaction_hash\": \"0x2310d627c3c369a73b480bd1bb6bdcffd26615ba84ce02a0f36858722890d366\",\n    \"block_number\": 52270327,\n    \"timestamp_UTC\": \"2026-10-06T23:40:01+00:00\",\n    \"sender\": \"0x427c4b37de0714821b09c4fc655a713abbcfba83\",\n    \"recipient_contract\": \"0x09aea4b2242abc8bb4bb78d537a67a245a7bec64\",\n    \"status\": \"success\",\n    \"event_signature\": \"FundsDeposited(bytes32,bytes32,uint256,uint256,uint256,uint256,uint32,uint32,uint32,bytes32,bytes32,bytes32,bytes)\",\n    \"event_topic\": \"0x32ed1a409ef04c7b0227189c3a103dc5ac10e775a15b785dcc510201f7c25ad3\",\n    \"log_index\": 566,\n    \"native_ETH_value_wei\": \"43625009525741763214\",\n    \"deposited_token_address\": \"0x4200000000000000000000000000000000000006\",\n    \"deposited_amount_wei\": \"43625009525741763214\",\n    \"asset_logic\": \"Native ETH value equals FundsDeposited inputAmount; matching WETH Deposit event wraps value at origin pool.\",\n    \"destination_chain_id\": 1,\n    \"destination_recipient\": \"0x427c4b37de0714821b09c4fc655a713abbcfba83\",\n    \"output_token\": \"0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2\",\n    \"output_amount_wei\": \"43614308988719623177\",\n    \"deposit_id\": 6301830,\n    \"quote_timestamp\": 1791329723,\n    \"fill_deadline\": 1791336923,\n    \"exclusivity_deadline\": 1791330035,\n    \"exclusive_relayer\": \"0xfd03abcadaf3f930fa4e37eb2f6ea3a44a41b7f0\",\n    \"message_hex\": \"0x\",\n    \"execution_fee_ETH\": \"3.87217674663E-7\",\n    \"L1_fee_ETH\": \"9.839461549E-9\",\n    \"fee_limitations\": \"Separate receipt execution/L1 components, not asserted complete fee decomposition or bridge fee split.\",\n    \"source_records\": [\n      \"access/base_official_eth_getTransactionByHash.response.txt\",\n      \"access/base_official_eth_getTransactionReceipt.response.txt\",\n      \"access/base_drpc_eth_getTransactionReceipt.response.txt\",\n      \"access/base_official_origin_block.response.txt\"\n    ]\n  },\n  \"edge\": {\n    \"ID\": \"F0434\",\n    \"classification\": \"CONFIRMED\",\n    \"record_type\": \"cross_chain_edge; association only, not additional transfer/loss\",\n    \"origin_transaction\": \"0x2310d627c3c369a73b480bd1bb6bdcffd26615ba84ce02a0f36858722890d366\",\n    \"origin_chain_id\": 8453,\n    \"destination_transaction\": \"0x5d6b414f8b7ecdcee5ffdb378ceb3de228cec732037437d759900ed7b34d1b1a\",\n    \"destination_chain_id\": 1,\n    \"deposit_id\": 6301830,\n    \"origin_amount_wei\": \"43625009525741763214\",\n    \"destination_amount_wei\": \"43614308988719623177\",\n    \"sender\": \"0x427c4b37de0714821b09c4fc655a713abbcfba83\",\n    \"destination_recipient\": \"0x427c4b37de0714821b09c4fc655a713abbcfba83\",\n    \"bridge\": \"Across deposit/fill protocol event correspondence\",\n    \"matched_parameters\": [\n      \"origin chain\",\n      \"destination chain\",\n      \"deposit ID\",\n      \"depositor\",\n      \"recipient\",\n      \"input token\",\n      \"output token\",\n      \"input amount\",\n      \"output amount\",\n      \"exclusive relayer\",\n      \"fill deadline\",\n      \"exclusivity deadline\",\n      \"empty origin message and zero fill message hash\"\n    ],\n    \"evidence\": [\n      \"F0432\",\n      \"F0433\",\n      \"continuation_2026_10_09/raw/across_deposit_status_hint.response.json\"\n    ],\n    \"input_output_difference_token_units\": \"0.010700537022140037\",\n    \"fee_limitation\": \"Exact difference established; division among bridge/relayer/LP fees unresolved.\",\n    \"provenance_boundary\": \"Deterministic protocol linkage through mixed bridge liquidity. No common owner, final beneficiary, prior funding source or Robinhood association inferred.\"\n  }\n}\n",
+    "stderr": ""
+  },
+  {
+    "script": "v0.2/arbitrum_preceding_credit_2026_10_10/verify.py",
+    "exit_code": 0,
+    "stdout": "PASS: public-pinned 603 prior records preserved; credit/request receipt and block inclusion; exact Transfer and official ABI topics; withdrawal account/hash/nonce/amount/message; code-state errors retained; checksums\n",
+    "stderr": ""
+  },
+  {
+    "script": "v0.2/chainflip_verification_2026_10_09/verify_chainflip.py",
+    "exit_code": 0,
+    "stdout": "PASS: two exact origin/API/finalized-settlement edges; six additive ledger rows; 464 prior rows unchanged\n",
+    "stderr": ""
+  },
+  {
+    "script": "v0.2/common_funder_bounded_2026_10_10/verify.py",
+    "exit_code": 0,
+    "stdout": "PASS: 593 prior records preserved; ten existing funding edges and total; bounded 178 history records/nonce sequence; new inbound receipt/block inclusion; EOA code; no metadata identity; checksums\n",
+    "stderr": ""
+  },
+  {
+    "script": "v0.2/continuation_2026_10_08/verify_collector.py",
+    "exit_code": 0,
+    "stdout": "{\n  \"classification\": \"CONFIRMED\",\n  \"chain_id\": 42161,\n  \"address\": \"0x2df1c51e09aecf9cacb7bc98cb1742757f163df7\",\n  \"token\": \"0xaf88d065e77c8cc2239327c5edb3a432268e5831\",\n  \"examined_block_range\": [\n    512422000,\n    512881298\n  ],\n  \"snapshot_timestamp\": \"2026-10-08T12:31:48+00:00\",\n  \"USDC_balance\": \"393259622.336699\",\n  \"event_count\": 4264,\n  \"positive_inflow_events\": 2098,\n  \"positive_outflow_events\": 2166,\n  \"all_observed_USDC_inflows\": \"25935939.636907\",\n  \"all_observed_USDC_outflows\": \"32445986.601148\",\n  \"case_linked_USDC_inflows\": \"561850.214994\",\n  \"other_observed_USDC_inflows\": \"25374089.421913\",\n  \"receipt_verified_context_events\": [\n    {\n      \"ID\": \"F0207\",\n      \"timestamp\": \"2026-10-07T01:51:25Z\",\n      \"chain\": \"Arbitrum (42161)\",\n      \"tx/signature\": \"0x4919141b0ae81c4abfc4ac8fd0674184086a647432a920cc24f7249e686984ce\",\n      \"source\": \"0x1c5e083e60fd0143eab8f162d49941e885beae8a\",\n      \"destination\": \"0x2df1c51e09aecf9cacb7bc98cb1742757f163df7\",\n      \"asset\": \"USDC\",\n      \"amount\": \"51\",\n      \"USD value if available\": \"\",\n      \"action\": \"token transfer event\",\n      \"protocol\": \"UNRESOLVED\",\n      \"signer/authority if known\": \"0x1c5e083e60fd0143eab8f162d49941e885beae8a (transaction sender only)\",\n      \"provenance status\": \"mixed; no exclusive incident allocation to onward outflow\",\n      \"classification\": \"CONFIRMED\",\n      \"source_record\": \"raw/0x4919141b0ae81c4abfc4ac8fd0674184086a647432a920cc24f7249e686984ce_receipt.response.json\",\n      \"notes\": \"Context event, not an additional incident loss. Sender identity, common ownership and linkage to a particular Relay deposit are NOT ESTABLISHED.\",\n      \"token_contract\": \"0xaf88d065e77c8cc2239327c5edb3a432268e5831\",\n      \"raw_token_units\": \"51000000\",\n      \"log_index\": 0,\n      \"block_number\": 512422444,\n      \"network_fee_ETH\": \"0.000000926415516\"\n    },\n    {\n      \"ID\": \"F0208\",\n      \"timestamp\": \"2026-10-07T01:53:56Z\",\n      \"chain\": \"Arbitrum (42161)\",\n      \"tx/signature\": \"0x5d0803e0bfa074fad49f000d7a8e387c6e20ec2ebbabcd336b412648b71db86a\",\n      \"source\": \"0x2df1c51e09aecf9cacb7bc98cb1742757f163df7\",\n      \"destination\": \"0x023a3d058020fb76cca98f01b3c48c8938a22355\",\n      \"asset\": \"USDC\",\n      \"amount\": \"150395.42\",\n      \"USD value if available\": \"\",\n      \"action\": \"token transfer event\",\n      \"protocol\": \"UNRESOLVED\",\n      \"signer/authority if known\": \"0x58e1b0e63c905d5982324fcd9108582623b8132e (transaction sender only)\",\n      \"provenance status\": \"mixed; no exclusive incident allocation to onward outflow\",\n      \"classification\": \"CONFIRMED\",\n      \"source_record\": \"raw/0x5d0803e0bfa074fad49f000d7a8e387c6e20ec2ebbabcd336b412648b71db86a_receipt.response.json\",\n      \"notes\": \"Context event, not an additional incident loss. Sender identity, common ownership and linkage to a particular Relay deposit are NOT ESTABLISHED.\",\n      \"token_contract\": \"0xaf88d065e77c8cc2239327c5edb3a432268e5831\",\n      \"raw_token_units\": \"150395420000\",\n      \"log_index\": 3,\n      \"block_number\": 512423012,\n      \"network_fee_ETH\": \"0.0000022638825\"\n    }\n  ],\n  \"provenance\": \"mixed\",\n  \"limits\": \"Only USDC in the specified window. Full lifetime and other-token history not examined. Aggregate events are RPC log observations; only the two context events and six previously saved case transfers have individual receipt/block reproduction. No exclusive attribution of subsequent outflows, exchange identity, beneficiary or common control is established.\",\n  \"contract_code_bytes\": 19394,\n  \"opening_balance_query\": \"UNRESOLVED: provider returned historical state unavailable; inferred opening balance is not independently confirmed.\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "script": "v0.2/continuation_2026_10_08/verify_hyperliquid.py",
+    "exit_code": 0,
+    "stdout": "{'classification': 'CONFIRMED', 'scope': 'Six first-party account-ledger responses; query period 1791317400000\u20131791464400000 ms. Not a HyperCore consensus proof, lifetime completeness assertion, signer verification or physical coin match.', 'exact_hash_and_amount_matched_deposits': 6, 'deposit_credits_USDC': '561850.214994', 'internal_transfers_to_spot_USDC': '561850.19', 'arithmetic_difference_USDC': '0.024994', 'difference_explanation': 'UNRESOLVED; not assigned to a fee, loss, retained balance or rounding without account evidence.', 'ledger_range': ['F0209', 'F0220'], 'provenance': 'Deterministic deposit-account association reproduced; physical custody mixed. Arbitrary bridge withdrawals remain unmatched.', 'negative_findings': 'No beneficial owner, compromise method, recovery or ultimate beneficiary established.'}\n",
+    "stderr": ""
+  },
+  {
+    "script": "v0.2/continuation_2026_10_08/verify_spot_fills.py",
+    "exit_code": 0,
+    "stdout": "{'classification': 'CONFIRMED', 'ledger_range': ['F0221', 'F0425'], 'fill_count': 205, 'total_USDC_cost': '561824.8582', 'total_net_XMR1': '997.950945', 'total_fees_XMR1': '0.699055', 'total_remaining_spot_USDC': '25.3318', 'limits': 'Current metadata and separately timed account snapshots are not historical consensus proofs. Full lifetime funding, native Monero conversion, issuer redemption, ultimate beneficiary and account control remain UNRESOLVED.'}\n",
+    "stderr": ""
+  },
+  {
+    "script": "v0.2/continuation_2026_10_09/verify_followup.py",
+    "exit_code": 0,
+    "stdout": "{\n  \"classification\": \"CONFIRMED\",\n  \"starting_commit\": \"8ae2af0c9e3e58f4cb3c0f92a28c5406b7752a33\",\n  \"previous_last_ID\": \"F0425\",\n  \"new_ID_range\": [\n    \"F0426\",\n    \"F0431\"\n  ],\n  \"query_cutoff\": {\n    \"endTime_ms\": 1791529488870\n  },\n  \"perpetual_balance_total\": \"0.024994\",\n  \"accounts\": [\n    {\n      \"address\": \"0xd7efd720adf271b7173dd01a9b81668892bee6b1\",\n      \"new_returned_nonfunding_updates\": 0,\n      \"new_returned_fills\": 0,\n      \"XMR1_snapshot\": \"179.224455\",\n      \"spot_USDC_snapshot\": \"5.9906\",\n      \"perpetual_raw_USD_balance\": \"0.004581\",\n      \"classification\": \"CONFIRMED\",\n      \"notes\": \"Returned API observations only; not proof of complete funding history, no funding-rate review, consensus inclusion, signer or beneficial owner.\"\n    },\n    {\n      \"address\": \"0x68d6e20a28f9d50ebf798ccf9fae9e3d5e4f1ac4\",\n      \"new_returned_nonfunding_updates\": 0,\n      \"new_returned_fills\": 0,\n      \"XMR1_snapshot\": \"166.663254\",\n      \"spot_USDC_snapshot\": \"7.5102\",\n      \"perpetual_raw_USD_balance\": \"0.009817\",\n      \"classification\": \"CONFIRMED\",\n      \"notes\": \"Returned API observations only; not proof of complete funding history, no funding-rate review, consensus inclusion, signer or beneficial owner.\"\n    },\n    {\n      \"address\": \"0x888795f84f5f81352a7639f1254662ae5897e223\",\n      \"new_returned_nonfunding_updates\": 0,\n      \"new_returned_fills\": 0,\n      \"XMR1_snapshot\": \"166.263534\",\n      \"spot_USDC_snapshot\": \"1.5887\",\n      \"perpetual_raw_USD_balance\": \"0.000787\",\n      \"classification\": \"CONFIRMED\",\n      \"notes\": \"Returned API observations only; not proof of complete funding history, no funding-rate review, consensus inclusion, signer or beneficial owner.\"\n    },\n    {\n      \"address\": \"0x4079067aa1bdff060c6c45155966d81c79e754e9\",\n      \"new_returned_nonfunding_updates\": 0,\n      \"new_returned_fills\": 0,\n      \"XMR1_snapshot\": \"163.055781\",\n      \"spot_USDC_snapshot\": \"4.8408\",\n      \"perpetual_raw_USD_balance\": \"0.001339\",\n      \"classification\": \"CONFIRMED\",\n      \"notes\": \"Returned API observations only; not proof of complete funding history, no funding-rate review, consensus inclusion, signer or beneficial owner.\"\n    },\n    {\n      \"address\": \"0x68b3a77db46418905c7eaf63324d4adcce06a680\",\n      \"new_returned_nonfunding_updates\": 0,\n      \"new_returned_fills\": 0,\n      \"XMR1_snapshot\": \"162.326292\",\n      \"spot_USDC_snapshot\": \"3.3855\",\n      \"perpetual_raw_USD_balance\": \"0.005105\",\n      \"classification\": \"CONFIRMED\",\n      \"notes\": \"Returned API observations only; not proof of complete funding history, no funding-rate review, consensus inclusion, signer or beneficial owner.\"\n    },\n    {\n      \"address\": \"0xd9249de6224382ce7791600d1d1f9e5fdf633abb\",\n      \"new_returned_nonfunding_updates\": 0,\n      \"new_returned_fills\": 0,\n      \"XMR1_snapshot\": \"160.417629\",\n      \"spot_USDC_snapshot\": \"2.016\",\n      \"perpetual_raw_USD_balance\": \"0.003365\",\n      \"classification\": \"CONFIRMED\",\n      \"notes\": \"Returned API observations only; not proof of complete funding history, no funding-rate review, consensus inclusion, signer or beneficial owner.\"\n    }\n  ],\n  \"negative_finding_scope\": \"Six users, two history endpoints from incident start to explicit cutoff, plus separately timed spot/perpetual snapshots. No new returned fills or non-funding updates relative to saved responses; unchanged XMR1 spot balances. Not a claim of absolute absence of withdrawals, undisclosed orders or other-chain activity.\",\n  \"provenance\": \"No native Monero output or matched Wagyu withdrawal is established.\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "script": "v0.2/hyperliquid_matched_account_2026_10_10/verify.py",
+    "exit_code": 0,
+    "stdout": "PASS: prior 585 objects unchanged; deposit receipt/block/account credit; 28 distinct fills/three orders; position chain and exact spot arithmetic; dated residual/state; no returned external ledger event in scope; checksums\n",
+    "stderr": ""
+  },
+  {
+    "script": "v0.2/hyperliquid_withdrawal_recheck_2026_10_10/verify.py",
+    "exit_code": 0,
+    "stdout": "PASS: 602 prior records preserved; F0603 only appended; dated empty ledger response; checksums\n",
+    "stderr": ""
+  },
+  {
+    "script": "v0.2/inbound_sender_attribution_2026_10_10/verify.py",
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/workspace/scratch/29fc0c8af37c/offline_review/frogman-wallet-drain/v0.2/inbound_sender_attribution_2026_10_10/verify.py\", line 21, in <module>\n    for n,h in json.loads((P/'SHA256SUMS.json').read_text()).items():assert hashlib.sha256((P/n).read_bytes()).hexdigest()==h\n                                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+  },
+  {
+    "script": "v0.2/mayan_verification_2026_10_09/verify_mayan.py",
+    "exit_code": 0,
+    "stdout": "PASS: three exact origin/order/fulfillment/USDC edges; published VAA hash/bytes/batch match; three exact driver reimbursements; 470 prior rows unchanged\n",
+    "stderr": ""
+  },
+  {
+    "script": "v0.2/near_intents_verification_2026_10_09/verify_near.py",
+    "exit_code": 0,
+    "stdout": "PASS: exact Ethereum tx \u2192 NEAR credit/matching intent \u2192 OmniBridge nonce pair \u2192 finalized Solana transfer; fees reconcile; 480 prior rows unchanged\n",
+    "stderr": ""
+  },
+  {
+    "script": "v0.2/robinhood_disposal_2026_10_09/verify.py",
+    "exit_code": 0,
+    "stdout": "PASS: old 538 objects; 15 fresh fill receipts/blocks; seven native callback traces; four disposal/funding transactions; historical balances and service boundary; destination API lead stays SUPPORTED\n",
+    "stderr": ""
+  },
+  {
+    "script": "v0.2/robinhood_disposal_settlement_2026_10_09/verify.py",
+    "exit_code": 0,
+    "stdout": "PASS: prior 552 objects; exact scoped pool reconciliation; 15 outflows/nonce sequence; 29 onward native hops; ten funding-source edges; prior Mayan order/settlement; exact Hyperliquid hash+credit; no individual seven-fill allocation\n",
+    "stderr": ""
+  },
+  {
+    "script": "v0.2/robinhood_funding_direct_2026_10_09/verify.py",
+    "exit_code": 0,
+    "stdout": "PASS: prior 504 objects preserved, eight origin receipts, source/disposal receipts and totals, dated designator, explicit state/trace failures, evidence hashes\n",
+    "stderr": ""
+  },
+  {
+    "script": "v0.2/robinhood_funding_gateway_2026_10_09/verify.py",
+    "exit_code": 0,
+    "stdout": "PASS: prior 522 objects; seven prefund/bridge pairs, exact native values, events, full receipts/blocks, Merkle roots and hashes\n",
+    "stderr": ""
+  },
+  {
+    "script": "v0.2/robinhood_linkage_2026_10_09/verify_robinhood.py",
+    "exit_code": 0,
+    "stdout": "{\n  \"classification\": \"CONFIRMED\",\n  \"new_ID_range\": [\n    \"F0435\",\n    \"F0464\"\n  ],\n  \"matched_routes\": 15,\n  \"origin_ETH\": \"213.215761888326838512\",\n  \"destination_ETH\": \"213.164462838697324465\",\n  \"origin_senders\": [\n    \"0x07ae8551be970cb1cca11dd7a11f47ae82e70e67\",\n    \"0x427c4b37de0714821b09c4fc655a713abbcfba83\"\n  ],\n  \"service_or_owner_attribution\": \"NOT ESTABLISHED\",\n  \"limits\": \"15 routes only; does not establish all 23 Ethereum credits came from Robinhood or all origin deposits derive from affected-wallet assets.\"\n}\n",
+    "stderr": ""
+  },
+  {
+    "script": "v0.2/unlabeled_2625_verification_2026_10_09/verify.py",
+    "exit_code": 0,
+    "stdout": "PASS: prior 490 objects, exact transactions, pooled accounting, account types and evidence hashes\n",
+    "stderr": ""
+  },
+  {
+    "script": "v0.2/unlabeled_4521_verification_2026_10_09/verify.py",
+    "exit_code": 0,
+    "stdout": "PASS: prior 494 objects, case receipt, code, balance, nonce, bounded history and evidence hashes\n",
+    "stderr": ""
+  },
+  {
+    "script": "v0.2/unlabeled_824a_verification_2026_10_09/verify.py",
+    "exit_code": 0,
+    "stdout": "PASS: 486 prior objects unchanged; transactions, continuity, accounting, account types and raw evidence hashes verified\n",
+    "stderr": ""
+  },
+  {
+    "script": "v0.2/unlabeled_a3ca_verification_2026_10_09/verify.py",
+    "exit_code": 0,
+    "stdout": "PASS: 497 prior objects unchanged; exact receipts/blocks, full Across event correspondence, API records, USDC outflow and HL deposit credit, hashes\n",
+    "stderr": ""
+  },
+  {
+    "script": "v0.2/verify_chain_extensions.py",
+    "exit_code": 0,
+    "stdout": "{'ledger_range': ['F0187', 'F0206'], 'rows': 20, 'earliest_reproduced_Robinhood_transfer_UTC': '2026-10-06T20:14:00Z', 'Arbitrum_consolidation_destination': '0x2df1c51e09aecf9cacb7bc98cb1742757f163df7', 'Arbitrum_USDC_consolidated': '561850.214994', 'zero_value_events_excluded': 6, 'scope': 'Robinhood source and candidate Transfer events in 20:10\u201321:10 UTC window; Arbitrum USDC sender-filter logs in blocks 512422000\u2013512820654. Does not establish no earlier native/approval transactions or later outflows.'}\n",
+    "stderr": ""
+  },
+  {
+    "script": "v0.2/verify_relay_pairs.py",
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"/workspace/scratch/29fc0c8af37c/offline_review/frogman-wallet-drain/v0.2/verify_relay_pairs.py\", line 3, in <module>\n    from Crypto.Hash import keccak\nModuleNotFoundError: No module named 'Crypto'\n",
+    "dependency_retry": "pycryptodome installed into isolated scratch path; see relay_recheck.json for actual result"
+  }
+]

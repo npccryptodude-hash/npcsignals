@@ -1,0 +1,128 @@
+[
+  {
+    "signature": "2n6KBeBGczqdcuGdkJh6fwu5NwYLF26eWdRpwHy47bCdAWpZ52vACEzTX9sBPYw91qedBF9DeYgaJV5x85VZob5k",
+    "utc": "2026-10-07T02:21:49+00:00",
+    "source": "JA3iQS6ZSv6L2jhnKR2XMCJThJVorvNydUmYDf6Bwhs6",
+    "destination": "7iGKnB9CSQLWsVX4V9Q9R61P3PFgJnLdyvPBvQutr5Gm",
+    "lamports": 473000000,
+    "sol": "0.473",
+    "raw": "raw/solana_near_history_tx_0.json"
+  },
+  {
+    "signature": "4ZQryAYrmejnhZgz95CapsNL6bs9RkUTJcKHRVFDgV4GHgb8D2bhsGsYUNbFkQxbsNaMMGUQWUbYDGf9NtrRuZqp",
+    "utc": "2026-10-07T01:18:41+00:00",
+    "source": "4PMiG3ymeyVq1VPqGkwAqfuDDfpJZThk3oYZt6mB8Kbk",
+    "destination": "JA3iQS6ZSv6L2jhnKR2XMCJThJVorvNydUmYDf6Bwhs6",
+    "lamports": 10000,
+    "sol": "0.00001",
+    "raw": "raw/solana_near_history_tx_1.json"
+  },
+  {
+    "signature": "2Q14Xs6UFtB2B9GdkFA8dhoWmhCMmcfaMeoSuuPhmmbeHFEMdQ1ygb4MurG9WGr81tmQ3JUmmZJQC7a6SsEbir7T",
+    "utc": "2026-10-07T01:17:06+00:00",
+    "source": "JA3iQS6ZSv6L2jhnKR2XMCJThJVorvNydUmYDf6Bwhs6",
+    "destination": "4PMiFg7qoEpqAMwEyZnM7xPqvNotGc6ihboAvp8PcKbk",
+    "lamports": 44000000000,
+    "sol": "44",
+    "raw": "raw/solana_near_history_tx_2.json"
+  },
+  {
+    "signature": "664ymqCCGaTribMUr5Ezix1L8b5DdXSeRFx48qu1PpNUGjZSTZdy7YEqVbhSCdYZfzBCQGCj16iFMt1f19tmVweK",
+    "utc": "2026-10-07T01:15:35+00:00",
+    "source": "DuSs7rCr7oTLHjM29QQ8NwDViaahTU58qqxaJVyAkgbn",
+    "destination": "FvULawNPGBbuwYus74ECaQoV1oH9Tk6XPN7VPN51NYds",
+    "lamports": 1310,
+    "sol": "0.00000131",
+    "raw": "raw/solana_near_history_tx_3.json"
+  },
+  {
+    "signature": "664ymqCCGaTribMUr5Ezix1L8b5DdXSeRFx48qu1PpNUGjZSTZdy7YEqVbhSCdYZfzBCQGCj16iFMt1f19tmVweK",
+    "utc": "2026-10-07T01:15:35+00:00",
+    "source": "6tckHFBpiJ8YgYN8FUskvtvTpXQZ55g5LHeo1kvELoDQ",
+    "destination": "JA3iQS6ZSv6L2jhnKR2XMCJThJVorvNydUmYDf6Bwhs6",
+    "lamports": 44473890045,
+    "sol": "44.473890045",
+    "raw": "raw/solana_near_history_tx_3.json"
+  },
+  {
+    "signature": "664ymqCCGaTribMUr5Ezix1L8b5DdXSeRFx48qu1PpNUGjZSTZdy7YEqVbhSCdYZfzBCQGCj16iFMt1f19tmVweK",
+    "utc": "2026-10-07T01:15:35+00:00",
+    "source": "DuSs7rCr7oTLHjM29QQ8NwDViaahTU58qqxaJVyAkgbn",
+    "destination": "9bFNrXNb2WTx8fMHXCheaZqkLZ3YCCaiqTftHxeintHy",
+    "lamports": 100,
+    "sol": "1E-7",
+    "raw": "raw/solana_near_history_tx_3.json"
+  },
+  {
+    "signature": "jieBqP7yrZBy6GEspoQGd9oSNAoJCJxdvuHT54YrAioJeM6susLJknaBbxKR6h1bBuEXZgtRe9QaeBctfY4ePCX",
+    "utc": "2026-10-07T01:20:34+00:00",
+    "source": "DjWNBCXNUj8ShBfGYyHEzpuZ9nitAAipTXBG7bRSjggx",
+    "destination": "4PMiFg7qoEpqAMwEyZnM7xPqvNotGc6ihboAvp8PcKbk",
+    "lamports": 10000,
+    "sol": "0.00001",
+    "raw": "raw/near_44sol_recipient_tx_0.json"
+  },
+  {
+    "signature": "2Q14Xs6UFtB2B9GdkFA8dhoWmhCMmcfaMeoSuuPhmmbeHFEMdQ1ygb4MurG9WGr81tmQ3JUmmZJQC7a6SsEbir7T",
+    "utc": "2026-10-07T01:17:06+00:00",
+    "source": "JA3iQS6ZSv6L2jhnKR2XMCJThJVorvNydUmYDf6Bwhs6",
+    "destination": "4PMiFg7qoEpqAMwEyZnM7xPqvNotGc6ihboAvp8PcKbk",
+    "lamports": 44000000000,
+    "sol": "44",
+    "raw": "raw/near_44sol_recipient_tx_4.json"
+  },
+  {
+    "signature": "5KwYivn8GRHjizbMBMEDvWGHo8eoBVFvdQDTW7gCWVhEw3uRWWyZw2Fk9MGBVYfKCCrQbzoYFY1TZS6MqHU284CQ",
+    "utc": "2026-10-07T01:18:35+00:00",
+    "source": "JA3ifh3dYqFehyUuFLMd7VXbHNgWTX2oKvZPqQSXDhs6",
+    "destination": "4PMiFg7qoEpqAMwEyZnM7xPqvNotGc6ihboAvp8PcKbk",
+    "lamports": 10000,
+    "sol": "0.00001",
+    "raw": "raw/near_44sol_recipient_tx_2.json"
+  },
+  {
+    "signature": "57JwW5o3s8pux6x7we8S1oNjqViJe9LkdtMFj1vjvMQeKV8DU5QyVtdYR9KLmSMt4yXAGqoaZYsdPmtCDW97KPeb",
+    "utc": "2026-10-07T01:19:01+00:00",
+    "source": "4PMiFg7qoEpqAMwEyZnM7xPqvNotGc6ihboAvp8PcKbk",
+    "destination": "DjWN6eDmNcettEf3HWpQQYcQitmMAQvYRcrF9H78jggx",
+    "lamports": 43998506547,
+    "sol": "43.998506547",
+    "raw": "raw/near_44sol_recipient_tx_1.json"
+  },
+  {
+    "signature": "3BaAUiBBAVNwSeqiSCuUnqndBUGA52jgfpWUTgxJkJS3pgNLPo9Hcd8jTfMxXBcLEAuQxsH8nGKsxkmf9LRLzoy7",
+    "utc": "2026-10-07T01:17:39+00:00",
+    "source": "JA3iaXKsqzB9GpPmLxfG5RZ5RLF7WwNjTbmJb4hYehs6",
+    "destination": "4PMiFg7qoEpqAMwEyZnM7xPqvNotGc6ihboAvp8PcKbk",
+    "lamports": 1000,
+    "sol": "0.000001",
+    "raw": "raw/near_44sol_recipient_tx_3.json"
+  },
+  {
+    "signature": "4WDk2t9DhLiZWCv6UvRQ1EBXazM1CjWYWJuJDXae3YLcc2CA6yGtSzkgEP4UWyNZ3gM5HiLTffNYRaBGFPTiX1PG",
+    "utc": "2026-10-07T02:21:56+00:00",
+    "source": "6jqHUj7bLzf7frNttM92d1vi4VmnePgmv39GR53e5RUa",
+    "destination": "7iGKnB9CSQLWsVX4V9Q9R61P3PFgJnLdyvPBvQutr5Gm",
+    "lamports": 15000000,
+    "sol": "0.015",
+    "raw": "raw/near_0473sol_recipient_tx_1.json"
+  },
+  {
+    "signature": "2n6KBeBGczqdcuGdkJh6fwu5NwYLF26eWdRpwHy47bCdAWpZ52vACEzTX9sBPYw91qedBF9DeYgaJV5x85VZob5k",
+    "utc": "2026-10-07T02:21:49+00:00",
+    "source": "JA3iQS6ZSv6L2jhnKR2XMCJThJVorvNydUmYDf6Bwhs6",
+    "destination": "7iGKnB9CSQLWsVX4V9Q9R61P3PFgJnLdyvPBvQutr5Gm",
+    "lamports": 473000000,
+    "sol": "0.473",
+    "raw": "raw/near_0473sol_recipient_tx_2.json"
+  },
+  {
+    "signature": "2v4LbSYLeXydAn11Q5NrYkk96VYA3WaLTGuP1fsHqEDDVFkVftuDM9zZLNz5aUU5WcGUHnX8Z4aQ9dqQkga4GZhN",
+    "utc": "2026-10-07T02:22:00+00:00",
+    "source": "7iGKnB9CSQLWsVX4V9Q9R61P3PFgJnLdyvPBvQutr5Gm",
+    "destination": "7uTT8Xi5RWXzy7h9XL244GRgEycDYDhLjr3ZyNdXi8pZ",
+    "lamports": 473000000,
+    "sol": "0.473",
+    "raw": "raw/near_0473sol_recipient_tx_0.json"
+  }
+]

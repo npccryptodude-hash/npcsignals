@@ -1,0 +1,20 @@
+{
+  "url": "https://api.mainnet-beta.solana.com",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "getTransaction",
+    "params": [
+      "5jMGWhyrJQtoJNf1xmFmiHsn4ZUvJJUWCZP6pCHga3P1JzRxzHVWgtpF7zdLs2g2Tc1jUnApMQ9GKoDaqAMyQR97",
+      {
+        "encoding": "jsonParsed",
+        "commitment": "finalized",
+        "maxSupportedTransactionVersion": 0
+      }
+    ]
+  },
+  "started_utc": "2026-11-13T08:37:48.841314+00:00",
+  "retrieved_utc": "2026-11-13T08:37:54.837466+00:00",
+  "http_status": 200,
+  "sha256": "2d33f45731291362e17d572f38df1f0cc6a508fcb00ab0136a7ed735e46e0c3e"
+}

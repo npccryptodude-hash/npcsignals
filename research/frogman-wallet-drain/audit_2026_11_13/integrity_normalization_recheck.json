@@ -1,0 +1,10 @@
+{
+  "original_path": "v0.2/inbound_sender_attribution_2026_10_10/access/explorer_label.response.txt",
+  "explanation": "LF to CRLF conversion reproduces the historical digest exactly; original repository file and manifest unchanged",
+  "reconstructed_file": "explorer_label_original_digest_crlf.txt",
+  "expected_sha256": "e334481a0bbcd6e22047ebccf264a9daae658f5cd57150db1afbc730dbf022f5",
+  "actual_reconstructed_sha256": "e334481a0bbcd6e22047ebccf264a9daae658f5cd57150db1afbc730dbf022f5",
+  "isolated_copy_verifier_exit": 0,
+  "stdout": "PASS: 597 prior rows preserved; bounded nonces; successful receipt/block inclusion; exact Relay order/hash/fee match; Arbitrum USDC log chain and order payload; replenishment chronology; evidence and checksums\n",
+  "stderr": ""
+}

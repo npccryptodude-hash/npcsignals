@@ -1,0 +1,13 @@
+{
+  "url": "https://api.hyperliquid.xyz/info",
+  "request": {
+    "type": "userNonFundingLedgerUpdates",
+    "user": "0xdf2633a6737599b879e9e74a96402dec400e44c1",
+    "startTime": 0,
+    "endTime": 1794558079877
+  },
+  "started_utc": "2026-11-13T08:21:31.790398+00:00",
+  "retrieved_utc": "2026-11-13T08:21:35.784082+00:00",
+  "http_status": 200,
+  "sha256": "64198d0574b2d6a99a3bea366f5ce2104dbd894ea790e97876973ab25e0f1676"
+}

@@ -1,3 +1,5 @@
+> **current verification / 13 november 2026:** the previous live-access limitation is superseded by the [35-account audit](./audit_2026_11_13/README.md). all 35 receipts, exact account credits, fills and current balances have now been reconciled. the older text below is a historical checkpoint and must not be used as the current account-audit status. privacy cash withdrawal provenance, identity and native monero receipt remain unresolved.
+
 # frogman / publication readiness review — 13 november 2026
 
 **editorial status: ready for a bounded historical reconstruction; not ready for a claimed complete current balance / final destination report. no medium publication authorized or performed.**

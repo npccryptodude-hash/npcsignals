@@ -1,0 +1,11 @@
+{
+  "url": "https://api.hyperliquid.xyz/info",
+  "request": {
+    "type": "spotClearinghouseState",
+    "user": "0xc0396d9e21be49b5986e413ff2ab5297a1e6e346"
+  },
+  "started_utc": "2026-11-13T08:20:12.437861+00:00",
+  "retrieved_utc": "2026-11-13T08:20:16.461288+00:00",
+  "http_status": 200,
+  "sha256": "c3a4dcdfc88330656b5ee458fa8440c555c1332a0d9a35821b504ad44f263c14"
+}

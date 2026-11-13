@@ -1,0 +1,566 @@
+{
+  "queries": 70,
+  "nonempty": 0,
+  "rows": [
+    {
+      "id": "arbi-01",
+      "type": "userFillsByTime",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:21:54.321852+00:00"
+    },
+    {
+      "id": "arbi-01",
+      "type": "userNonFundingLedgerUpdates",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:21:58.082951+00:00"
+    },
+    {
+      "id": "arbi-02",
+      "type": "userFillsByTime",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:21:54.294698+00:00"
+    },
+    {
+      "id": "arbi-02",
+      "type": "userNonFundingLedgerUpdates",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:21:58.094866+00:00"
+    },
+    {
+      "id": "arbi-03",
+      "type": "userFillsByTime",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:21:54.296345+00:00"
+    },
+    {
+      "id": "arbi-03",
+      "type": "userNonFundingLedgerUpdates",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:21:58.083825+00:00"
+    },
+    {
+      "id": "arbi-04",
+      "type": "userFillsByTime",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:21:54.295328+00:00"
+    },
+    {
+      "id": "arbi-04",
+      "type": "userNonFundingLedgerUpdates",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:21:58.087985+00:00"
+    },
+    {
+      "id": "arbi-05",
+      "type": "userFillsByTime",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:21:54.295549+00:00"
+    },
+    {
+      "id": "arbi-05",
+      "type": "userNonFundingLedgerUpdates",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:21:58.077166+00:00"
+    },
+    {
+      "id": "arbi-06",
+      "type": "userFillsByTime",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:02.455851+00:00"
+    },
+    {
+      "id": "arbi-06",
+      "type": "userNonFundingLedgerUpdates",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:06.575547+00:00"
+    },
+    {
+      "id": "arbi-07",
+      "type": "userFillsByTime",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:02.468660+00:00"
+    },
+    {
+      "id": "arbi-07",
+      "type": "userNonFundingLedgerUpdates",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:06.617899+00:00"
+    },
+    {
+      "id": "arbi-08",
+      "type": "userFillsByTime",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:02.463484+00:00"
+    },
+    {
+      "id": "arbi-08",
+      "type": "userNonFundingLedgerUpdates",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:06.526211+00:00"
+    },
+    {
+      "id": "arbi-09",
+      "type": "userFillsByTime",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:02.471294+00:00"
+    },
+    {
+      "id": "arbi-09",
+      "type": "userNonFundingLedgerUpdates",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:06.575258+00:00"
+    },
+    {
+      "id": "arbi-10",
+      "type": "userFillsByTime",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:02.409141+00:00"
+    },
+    {
+      "id": "arbi-10",
+      "type": "userNonFundingLedgerUpdates",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:06.575406+00:00"
+    },
+    {
+      "id": "arbi-11",
+      "type": "userFillsByTime",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:10.752764+00:00"
+    },
+    {
+      "id": "arbi-11",
+      "type": "userNonFundingLedgerUpdates",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:14.502848+00:00"
+    },
+    {
+      "id": "arbi-12",
+      "type": "userFillsByTime",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:10.734272+00:00"
+    },
+    {
+      "id": "arbi-12",
+      "type": "userNonFundingLedgerUpdates",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:14.425996+00:00"
+    },
+    {
+      "id": "arbi-13",
+      "type": "userFillsByTime",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:10.746939+00:00"
+    },
+    {
+      "id": "arbi-13",
+      "type": "userNonFundingLedgerUpdates",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:14.450813+00:00"
+    },
+    {
+      "id": "arbi-14",
+      "type": "userFillsByTime",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:10.565648+00:00"
+    },
+    {
+      "id": "arbi-14",
+      "type": "userNonFundingLedgerUpdates",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:14.416957+00:00"
+    },
+    {
+      "id": "arbi-15",
+      "type": "userFillsByTime",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:10.752535+00:00"
+    },
+    {
+      "id": "arbi-15",
+      "type": "userNonFundingLedgerUpdates",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:14.475200+00:00"
+    },
+    {
+      "id": "arbi-16",
+      "type": "userFillsByTime",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:17.865025+00:00"
+    },
+    {
+      "id": "arbi-16",
+      "type": "userNonFundingLedgerUpdates",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:21.830323+00:00"
+    },
+    {
+      "id": "arbi-17",
+      "type": "userFillsByTime",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:17.835251+00:00"
+    },
+    {
+      "id": "arbi-17",
+      "type": "userNonFundingLedgerUpdates",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:21.828426+00:00"
+    },
+    {
+      "id": "arbi-18",
+      "type": "userFillsByTime",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:17.780715+00:00"
+    },
+    {
+      "id": "arbi-18",
+      "type": "userNonFundingLedgerUpdates",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:21.820463+00:00"
+    },
+    {
+      "id": "arbi-19",
+      "type": "userFillsByTime",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:17.832088+00:00"
+    },
+    {
+      "id": "arbi-19",
+      "type": "userNonFundingLedgerUpdates",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:21.826044+00:00"
+    },
+    {
+      "id": "arbi-20",
+      "type": "userFillsByTime",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:17.846234+00:00"
+    },
+    {
+      "id": "arbi-20",
+      "type": "userNonFundingLedgerUpdates",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:21.835357+00:00"
+    },
+    {
+      "id": "arbi-21",
+      "type": "userFillsByTime",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:25.745637+00:00"
+    },
+    {
+      "id": "arbi-21",
+      "type": "userNonFundingLedgerUpdates",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:29.628830+00:00"
+    },
+    {
+      "id": "arbi-22",
+      "type": "userFillsByTime",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:25.747275+00:00"
+    },
+    {
+      "id": "arbi-22",
+      "type": "userNonFundingLedgerUpdates",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:29.624549+00:00"
+    },
+    {
+      "id": "arbi-23",
+      "type": "userFillsByTime",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:25.699745+00:00"
+    },
+    {
+      "id": "arbi-23",
+      "type": "userNonFundingLedgerUpdates",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:29.661853+00:00"
+    },
+    {
+      "id": "arbi-24",
+      "type": "userFillsByTime",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:25.767480+00:00"
+    },
+    {
+      "id": "arbi-24",
+      "type": "userNonFundingLedgerUpdates",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:29.660815+00:00"
+    },
+    {
+      "id": "arbi-25",
+      "type": "userFillsByTime",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:25.756742+00:00"
+    },
+    {
+      "id": "arbi-25",
+      "type": "userNonFundingLedgerUpdates",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:29.656820+00:00"
+    },
+    {
+      "id": "arbi-26",
+      "type": "userFillsByTime",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:33.660610+00:00"
+    },
+    {
+      "id": "arbi-26",
+      "type": "userNonFundingLedgerUpdates",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:37.567316+00:00"
+    },
+    {
+      "id": "arbi-27",
+      "type": "userFillsByTime",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:33.660911+00:00"
+    },
+    {
+      "id": "arbi-27",
+      "type": "userNonFundingLedgerUpdates",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:37.496665+00:00"
+    },
+    {
+      "id": "arbi-28",
+      "type": "userFillsByTime",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:33.664590+00:00"
+    },
+    {
+      "id": "arbi-28",
+      "type": "userNonFundingLedgerUpdates",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:37.536548+00:00"
+    },
+    {
+      "id": "arbi-29",
+      "type": "userFillsByTime",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:33.684643+00:00"
+    },
+    {
+      "id": "arbi-29",
+      "type": "userNonFundingLedgerUpdates",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:37.527708+00:00"
+    },
+    {
+      "id": "arbi-30",
+      "type": "userFillsByTime",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:33.666087+00:00"
+    },
+    {
+      "id": "arbi-30",
+      "type": "userNonFundingLedgerUpdates",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:37.491883+00:00"
+    },
+    {
+      "id": "arbi-31",
+      "type": "userFillsByTime",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:43.071548+00:00"
+    },
+    {
+      "id": "arbi-31",
+      "type": "userNonFundingLedgerUpdates",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:47.046194+00:00"
+    },
+    {
+      "id": "arbi-32",
+      "type": "userFillsByTime",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:43.078312+00:00"
+    },
+    {
+      "id": "arbi-32",
+      "type": "userNonFundingLedgerUpdates",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:47.037899+00:00"
+    },
+    {
+      "id": "arbi-33",
+      "type": "userFillsByTime",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:43.048970+00:00"
+    },
+    {
+      "id": "arbi-33",
+      "type": "userNonFundingLedgerUpdates",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:47.041744+00:00"
+    },
+    {
+      "id": "arbi-34",
+      "type": "userFillsByTime",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:43.079930+00:00"
+    },
+    {
+      "id": "arbi-34",
+      "type": "userNonFundingLedgerUpdates",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:47.086847+00:00"
+    },
+    {
+      "id": "arbi-35",
+      "type": "userFillsByTime",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:43.057933+00:00"
+    },
+    {
+      "id": "arbi-35",
+      "type": "userNonFundingLedgerUpdates",
+      "records": 0,
+      "request_start_ms": 1791849600000,
+      "request_end_ms": 1794558110184,
+      "retrieved_utc": "2026-11-13T08:22:46.992152+00:00"
+    }
+  ]
+}

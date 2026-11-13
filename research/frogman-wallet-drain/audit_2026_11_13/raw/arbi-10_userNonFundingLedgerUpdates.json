@@ -1,0 +1,1 @@
+[{"time":1791339571889,"hash":"0x36e8c7e021615d79470419f7939ded6ac67db60b4db5c4ae8795be13dea311d7","delta":{"type":"deposit","usdc":"5228.747925"}},{"time":1791339581547,"hash":"0x295fbbf4b8a754702ad9044601f37c02098600da53aa7342cd28674777ab2e5a","delta":{"type":"accountClassTransfer","usdc":"5228.74","toPerp":false}}]

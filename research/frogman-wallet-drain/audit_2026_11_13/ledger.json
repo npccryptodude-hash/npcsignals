@@ -1,0 +1,737 @@
+[
+  {
+    "account_id": "arbi-01",
+    "account": "0x9cb119168265469a849e1864c87a57999a4bc01f",
+    "time": 1791337539858,
+    "hash": "0xc0e57329de131312e346161d70d2e7eb4626f12b4ed642af6b1def28d813669f",
+    "delta": {
+      "type": "deposit",
+      "usdc": "60416.783132"
+    }
+  },
+  {
+    "account_id": "arbi-01",
+    "account": "0x9cb119168265469a849e1864c87a57999a4bc01f",
+    "time": 1791337551182,
+    "hash": "0x7de8908d00aaba257f6204460183e80212ea00729badd8f721b13bdfbfae9410",
+    "delta": {
+      "type": "accountClassTransfer",
+      "usdc": "60416.78",
+      "toPerp": false
+    }
+  },
+  {
+    "account_id": "arbi-02",
+    "account": "0x3e2d81f7a5659e4760ba929ef88eed40ef6640a1",
+    "time": 1791339677688,
+    "hash": "0x963c56253dedcfd5ff9f944c91eb9cb9e94d12701d9165f66a40b9aa0b4cfc1f",
+    "delta": {
+      "type": "deposit",
+      "usdc": "26823.206875"
+    }
+  },
+  {
+    "account_id": "arbi-02",
+    "account": "0x3e2d81f7a5659e4760ba929ef88eed40ef6640a1",
+    "time": 1791339687461,
+    "hash": "0xae174d72edc43664af91044601f940020ad4005888c7553651dff8c5acc8104f",
+    "delta": {
+      "type": "accountClassTransfer",
+      "usdc": "26823.2",
+      "toPerp": false
+    }
+  },
+  {
+    "account_id": "arbi-03",
+    "account": "0xd7efd720adf271b7173dd01a9b81668892bee6b1",
+    "time": 1791337789546,
+    "hash": "0xd09044916f0e5402351d6edc68cc7afa48a00e08800791a02e0f48f554f1255e",
+    "delta": {
+      "type": "deposit",
+      "usdc": "100542.304581"
+    }
+  },
+  {
+    "account_id": "arbi-03",
+    "account": "0xd7efd720adf271b7173dd01a9b81668892bee6b1",
+    "time": 1791337797752,
+    "hash": "0xa1dda728195b4c2da357044601919a0201b3000db45e6aff45a6527ad85f2618",
+    "delta": {
+      "type": "accountClassTransfer",
+      "usdc": "100542.3",
+      "toPerp": false
+    }
+  },
+  {
+    "account_id": "arbi-04",
+    "account": "0x68d6e20a28f9d50ebf798ccf9fae9e3d5e4f1ac4",
+    "time": 1791337977383,
+    "hash": "0x953cb3206cf345b500e518316a07151f10835663ce4e55f8e972d2d78e78ff87",
+    "delta": {
+      "type": "deposit",
+      "usdc": "93738.289817"
+    }
+  },
+  {
+    "account_id": "arbi-04",
+    "account": "0x68d6e20a28f9d50ebf798ccf9fae9e3d5e4f1ac4",
+    "time": 1791337989637,
+    "hash": "0x15e88e957e9fd99217620446019bf1020334007b1992f864b9b139e83d93b37c",
+    "delta": {
+      "type": "accountClassTransfer",
+      "usdc": "93738.28",
+      "toPerp": false
+    }
+  },
+  {
+    "account_id": "arbi-05",
+    "account": "0x888795f84f5f81352a7639f1254662ae5897e223",
+    "time": 1791338207669,
+    "hash": "0x0ddf411d8745a28b5efdd1c42ab0a1526c53f1c92b622b36c0f6baf595dc3a9c",
+    "delta": {
+      "type": "deposit",
+      "usdc": "93549.620787"
+    }
+  },
+  {
+    "account_id": "arbi-05",
+    "account": "0x888795f84f5f81352a7639f1254662ae5897e223",
+    "time": 1791338217354,
+    "hash": "0xe13da116e8f59385e2b7044601a8ae02105900fc83f8b25785064c69a7f96d70",
+    "delta": {
+      "type": "accountClassTransfer",
+      "usdc": "93549.62",
+      "toPerp": false
+    }
+  },
+  {
+    "account_id": "arbi-06",
+    "account": "0xa3ca6199d8692ec40d0287e615b48d0e8cde9abe",
+    "time": 1791338722171,
+    "hash": "0x107db810fd86893dc4cf8df03c1753236e04fc2d7b3f17304b34dfb840c1fa51",
+    "delta": {
+      "type": "deposit",
+      "usdc": "91232.216513"
+    }
+  },
+  {
+    "account_id": "arbi-06",
+    "account": "0xa3ca6199d8692ec40d0287e615b48d0e8cde9abe",
+    "time": 1791338730041,
+    "hash": "0x7e19b9d45b95bca17f93044601c4e50209c000b9f698db7321e265271a99968c",
+    "delta": {
+      "type": "accountClassTransfer",
+      "usdc": "91232.21",
+      "toPerp": false
+    }
+  },
+  {
+    "account_id": "arbi-07",
+    "account": "0x4079067aa1bdff060c6c45155966d81c79e754e9",
+    "time": 1791338996769,
+    "hash": "0x0ed5e25dfa5a8a702349a7c05c6e6afe28fd4161ad4c87c056a0460bef9056c6",
+    "delta": {
+      "type": "deposit",
+      "usdc": "91353.381339"
+    }
+  },
+  {
+    "account_id": "arbi-07",
+    "account": "0x4079067aa1bdff060c6c45155966d81c79e754e9",
+    "time": 1791339011752,
+    "hash": "0xed71b0d379d3d379eeeb044601d46d02059c00b914d6f24b913a5c2638d7ad64",
+    "delta": {
+      "type": "accountClassTransfer",
+      "usdc": "91353.38",
+      "toPerp": false
+    }
+  },
+  {
+    "account_id": "arbi-08",
+    "account": "0x68b3a77db46418905c7eaf63324d4adcce06a680",
+    "time": 1791339224343,
+    "hash": "0xe295cfe85f341c4abb36c74a22ea62c767788712410f7d10df4b55abcad99b85",
+    "delta": {
+      "type": "deposit",
+      "usdc": "91283.855105"
+    }
+  },
+  {
+    "account_id": "arbi-08",
+    "account": "0x68b3a77db46418905c7eaf63324d4adcce06a680",
+    "time": 1791339236348,
+    "hash": "0x013814103ce40dd702b1044601e0c602027800f5d7e72ca9a500bf62fbe7e7c1",
+    "delta": {
+      "type": "accountClassTransfer",
+      "usdc": "91283.85",
+      "toPerp": false
+    }
+  },
+  {
+    "account_id": "arbi-09",
+    "account": "0xd9249de6224382ce7791600d1d1f9e5fdf633abb",
+    "time": 1791339496031,
+    "hash": "0xdffada3de106b8639c6af7e25fc106e075f1c1b02f9ffd8e6facb70413bcf0d8",
+    "delta": {
+      "type": "deposit",
+      "usdc": "91382.763365"
+    }
+  },
+  {
+    "account_id": "arbi-09",
+    "account": "0xd9249de6224382ce7791600d1d1f9e5fdf633abb",
+    "time": 1791339501895,
+    "hash": "0xbf3feb6c9e5b37cbc0b9044601ef3b02089e0052395e569d630896bf5d5f11b6",
+    "delta": {
+      "type": "accountClassTransfer",
+      "usdc": "91382.76",
+      "toPerp": false
+    }
+  },
+  {
+    "account_id": "arbi-10",
+    "account": "0xd8d06aecfb5de45d0dcb655de57650d0231b0ef5",
+    "time": 1791339571889,
+    "hash": "0x36e8c7e021615d79470419f7939ded6ac67db60b4db5c4ae8795be13dea311d7",
+    "delta": {
+      "type": "deposit",
+      "usdc": "5228.747925"
+    }
+  },
+  {
+    "account_id": "arbi-10",
+    "account": "0xd8d06aecfb5de45d0dcb655de57650d0231b0ef5",
+    "time": 1791339581547,
+    "hash": "0x295fbbf4b8a754702ad9044601f37c02098600da53aa7342cd28674777ab2e5a",
+    "delta": {
+      "type": "accountClassTransfer",
+      "usdc": "5228.74",
+      "toPerp": false
+    }
+  },
+  {
+    "account_id": "arbi-11",
+    "account": "0x3b80eeb4bdcebdd93dbbbe16758020e07f41a65c",
+    "time": 1791340130618,
+    "hash": "0xfb53cfae8da01080872d645803f8e697e8a864a98a16a0ddbd3e8d1acdc47267",
+    "delta": {
+      "type": "deposit",
+      "usdc": "39060.017148"
+    }
+  },
+  {
+    "account_id": "arbi-11",
+    "account": "0x3b80eeb4bdcebdd93dbbbe16758020e07f41a65c",
+    "time": 1791340146346,
+    "hash": "0xe8d6e29d3ef1881bea50044602128402050b0082d9f4a6ed8c9f8deffdf56206",
+    "delta": {
+      "type": "accountClassTransfer",
+      "usdc": "39060.01",
+      "toPerp": false
+    }
+  },
+  {
+    "account_id": "arbi-12",
+    "account": "0x1137e3fdf575bd635db491c2b60b5dac7ae74371",
+    "time": 1791340171064,
+    "hash": "0x4e91e92e22531f398718516843815a9e5e678108c02d176aef46681480a5a3bc",
+    "delta": {
+      "type": "deposit",
+      "usdc": "39037.205601"
+    }
+  },
+  {
+    "account_id": "arbi-12",
+    "account": "0x1137e3fdf575bd635db491c2b60b5dac7ae74371",
+    "time": 1791340182106,
+    "hash": "0x26a6d25c443db1642820044602147b02026c0041df30d036ca6f7daf03318b4e",
+    "delta": {
+      "type": "accountClassTransfer",
+      "usdc": "39037.2",
+      "toPerp": false
+    }
+  },
+  {
+    "account_id": "arbi-13",
+    "account": "0x1b1c3046fa9dfc9d5ef66bf00d62a777044f829c",
+    "time": 1791340266885,
+    "hash": "0xc51e075dce89cfa5d2ff41c9d75a3ae28770cf72ca6e3c9ad78f45ddadd7a537",
+    "delta": {
+      "type": "deposit",
+      "usdc": "39023.538376"
+    }
+  },
+  {
+    "account_id": "arbi-13",
+    "account": "0x1b1c3046fa9dfc9d5ef66bf00d62a777044f829c",
+    "time": 1791340282705,
+    "hash": "0x112e929070497fbc12a80446021a1c0207f000760b4c9e8eb4f73de32f4d59a6",
+    "delta": {
+      "type": "accountClassTransfer",
+      "usdc": "39023.53",
+      "toPerp": false
+    }
+  },
+  {
+    "account_id": "arbi-14",
+    "account": "0x97bfc50655ae2f06ed26ec5c67f476d2bdd0308f",
+    "time": 1791340344326,
+    "hash": "0xae5ffb5aa2732bf327772e35fa7523e730006d926a3494a17deb20286b7bafcc",
+    "delta": {
+      "type": "deposit",
+      "usdc": "39091.006653"
+    }
+  },
+  {
+    "account_id": "arbi-14",
+    "account": "0x97bfc50655ae2f06ed26ec5c67f476d2bdd0308f",
+    "time": 1791340353371,
+    "hash": "0x9a9185c1dfe4d4789c0b0446021e170203d300a77ae7f34a3e5a31149ee8ae63",
+    "delta": {
+      "type": "accountClassTransfer",
+      "usdc": "39091.0",
+      "toPerp": false
+    }
+  },
+  {
+    "account_id": "arbi-15",
+    "account": "0x3bc6095627e177e7c4c7bf3f0e3c5182625ed81d",
+    "time": 1791340421236,
+    "hash": "0xc67cb35c17bca0d12db1c9118b6a97a6957f6ae0b2fa1127681f6baf3c029931",
+    "delta": {
+      "type": "deposit",
+      "usdc": "39091.478119"
+    }
+  },
+  {
+    "account_id": "arbi-15",
+    "account": "0x3bc6095627e177e7c4c7bf3f0e3c5182625ed81d",
+    "time": 1791340431826,
+    "hash": "0x80d026bf27f294588249044602228402021b00a4c2f5b32a2498d211e6f66e43",
+    "delta": {
+      "type": "accountClassTransfer",
+      "usdc": "39091.47",
+      "toPerp": false
+    }
+  },
+  {
+    "account_id": "arbi-16",
+    "account": "0x278d8d16f49e88f3d706a804c6da24c6feccb3f0",
+    "time": 1791341039191,
+    "hash": "0xdbf8f5abda55c8d6cb2b2644018d0e0f9acd0f79f12a2dc62e4d33a65aee6533",
+    "delta": {
+      "type": "deposit",
+      "usdc": "39178.42063"
+    }
+  },
+  {
+    "account_id": "arbi-16",
+    "account": "0x278d8d16f49e88f3d706a804c6da24c6feccb3f0",
+    "time": 1791341049065,
+    "hash": "0xa39c4a87b3febab1a51604460244f3020270006d4ef1d9834764f5da72f2949c",
+    "delta": {
+      "type": "accountClassTransfer",
+      "usdc": "39178.42",
+      "toPerp": false
+    }
+  },
+  {
+    "account_id": "arbi-17",
+    "account": "0x122bc1c10b2ddba24dfa793ea7fa3fb2f934ce58",
+    "time": 1791341201276,
+    "hash": "0xcf6f66118d59eb9e52f550e2b2bfa1731619319d0e529cb83222f7ceb87d5d77",
+    "delta": {
+      "type": "deposit",
+      "usdc": "48940.066463"
+    }
+  },
+  {
+    "account_id": "arbi-17",
+    "account": "0x122bc1c10b2ddba24dfa793ea7fa3fb2f934ce58",
+    "time": 1791341215938,
+    "hash": "0xf38970a4c3f7dc9cf5030446024e4c0208f3008a5efafb6f97521bf782fbb687",
+    "delta": {
+      "type": "accountClassTransfer",
+      "usdc": "48940.06",
+      "toPerp": false
+    }
+  },
+  {
+    "account_id": "arbi-18",
+    "account": "0x9b3b38f9969dee372c31549f33f66f8384d237a5",
+    "time": 1791341265079,
+    "hash": "0x5182919313ca43a68fbe726459f517989f2dd89215a0a259112cdb89664e1896",
+    "delta": {
+      "type": "deposit",
+      "usdc": "48899.340289"
+    }
+  },
+  {
+    "account_id": "arbi-18",
+    "account": "0x9b3b38f9969dee372c31549f33f66f8384d237a5",
+    "time": 1791341277040,
+    "hash": "0x34ea84d953608951366404460251c50204e500beee63a823d8b3302c1264633b",
+    "delta": {
+      "type": "accountClassTransfer",
+      "usdc": "48899.34",
+      "toPerp": false
+    }
+  },
+  {
+    "account_id": "arbi-19",
+    "account": "0x8ff77d08460a885e10131f124422dfe1c00ad4c3",
+    "time": 1791341515782,
+    "hash": "0xfa481712ae1e5a19bb86b053b9735d5a15c88b4138337b6deb0b27024aaf6f35",
+    "delta": {
+      "type": "deposit",
+      "usdc": "48919.974918"
+    }
+  },
+  {
+    "account_id": "arbi-19",
+    "account": "0x8ff77d08460a885e10131f124422dfe1c00ad4c3",
+    "time": 1791341529717,
+    "hash": "0xb5b115b4e89aa4bab72a0446025fb202064f009a839dc38c5979c107a79e7ea5",
+    "delta": {
+      "type": "accountClassTransfer",
+      "usdc": "48919.97",
+      "toPerp": false
+    }
+  },
+  {
+    "account_id": "arbi-20",
+    "account": "0xe120d6d7042fabb3376f27e0e3351d7f3b913c0e",
+    "time": 1791341624022,
+    "hash": "0xed9cc64e93d490aa9bc002d33f7d89502f38793d16bb3d9f0dd081fcc2320899",
+    "delta": {
+      "type": "deposit",
+      "usdc": "48894.883204"
+    }
+  },
+  {
+    "account_id": "arbi-20",
+    "account": "0xe120d6d7042fabb3376f27e0e3351d7f3b913c0e",
+    "time": 1791341638985,
+    "hash": "0x2a5e5db08be74dbb2bd804460265a30201d7009626ea6c8dce2709034aeb27a5",
+    "delta": {
+      "type": "accountClassTransfer",
+      "usdc": "48894.88",
+      "toPerp": false
+    }
+  },
+  {
+    "account_id": "arbi-21",
+    "account": "0x6c3b32b002c3674e60c725345356be212fcba3c4",
+    "time": 1791341658194,
+    "hash": "0xec3aa8fcd37f2fdaa0634fcb2b1ad3f825ef1f7b3f75d3b799f3408af3e5843b",
+    "delta": {
+      "type": "deposit",
+      "usdc": "48887.61501"
+    }
+  },
+  {
+    "account_id": "arbi-21",
+    "account": "0x6c3b32b002c3674e60c725345356be212fcba3c4",
+    "time": 1791341667216,
+    "hash": "0xe477301dd31f18bee5f0044602671e02011b00036e123790883fdb709212f2a9",
+    "delta": {
+      "type": "accountClassTransfer",
+      "usdc": "48887.61",
+      "toPerp": false
+    }
+  },
+  {
+    "account_id": "arbi-22",
+    "account": "0xd97415ed800e8a16bb20953fe03be0becb0cd77c",
+    "time": 1791341880909,
+    "hash": "0x47c75392424863b08b251793a1462162265edf67db020fb47166e7b6151708e4",
+    "delta": {
+      "type": "deposit",
+      "usdc": "48875.234707"
+    }
+  },
+  {
+    "account_id": "arbi-22",
+    "account": "0xd97415ed800e8a16bb20953fe03be0becb0cd77c",
+    "time": 1791341890011,
+    "hash": "0x3d74d71be65ed2343eee04460273060202e700018151f106e13d826ea552ac1e",
+    "delta": {
+      "type": "accountClassTransfer",
+      "usdc": "48875.23",
+      "toPerp": false
+    }
+  },
+  {
+    "account_id": "arbi-23",
+    "account": "0x70dd5d5d1f65052f852f4918169a45b2cf97bf0b",
+    "time": 1791342076723,
+    "hash": "0x2daa0bddd727c5506011a85a272afe0e2dd52aed5f5dc5f65de4215a893b6211",
+    "delta": {
+      "type": "deposit",
+      "usdc": "48904.510818"
+    }
+  },
+  {
+    "account_id": "arbi-23",
+    "account": "0x70dd5d5d1f65052f852f4918169a45b2cf97bf0b",
+    "time": 1791342091640,
+    "hash": "0x1c2ba03331b2fabf1da50446027df902030e0018ccb61991bff44b85f0b6d4a9",
+    "delta": {
+      "type": "accountClassTransfer",
+      "usdc": "48904.51",
+      "toPerp": false
+    }
+  },
+  {
+    "account_id": "arbi-24",
+    "account": "0x7140d59403a0383a5e929f53d664549a176b23f2",
+    "time": 1791342169883,
+    "hash": "0x994124fa348d3a43c80193187d5e6b5a9cf393e9069da27f6b494e950ce33251",
+    "delta": {
+      "type": "deposit",
+      "usdc": "48946.788177"
+    }
+  },
+  {
+    "account_id": "arbi-24",
+    "account": "0x7140d59403a0383a5e929f53d664549a176b23f2",
+    "time": 1791342182274,
+    "hash": "0x35e3c16876940487375d04460283070204c6004e11972359d9ac6cbb3597de71",
+    "delta": {
+      "type": "accountClassTransfer",
+      "usdc": "48946.78",
+      "toPerp": false
+    }
+  },
+  {
+    "account_id": "arbi-25",
+    "account": "0xbe46fb8d0e5bf321716b3f1ea09ea1dcf1d4a2b8",
+    "time": 1791342257094,
+    "hash": "0xf844e16263f6665d82ab904561389755d57fcbe59dff50abacbff0e9f7a8bf17",
+    "delta": {
+      "type": "deposit",
+      "usdc": "49101.856316"
+    }
+  },
+  {
+    "account_id": "arbi-25",
+    "account": "0xbe46fb8d0e5bf321716b3f1ea09ea1dcf1d4a2b8",
+    "time": 1791342268569,
+    "hash": "0xedf3322063a535ffef6c04460287c102019d0005fea854d191bbdd7322a90fea",
+    "delta": {
+      "type": "accountClassTransfer",
+      "usdc": "49101.85",
+      "toPerp": false
+    }
+  },
+  {
+    "account_id": "arbi-26",
+    "account": "0xc0396d9e21be49b5986e413ff2ab5297a1e6e346",
+    "time": 1791342395192,
+    "hash": "0x596858e4ca8b2a60fad0bf9230d650676c981370bca784e571bceb16639bf83e",
+    "delta": {
+      "type": "deposit",
+      "usdc": "48471.802743"
+    }
+  },
+  {
+    "account_id": "arbi-26",
+    "account": "0xc0396d9e21be49b5986e413ff2ab5297a1e6e346",
+    "time": 1791342407522,
+    "hash": "0xca5b5a4f0c611b77cbd50446028f2e0204280034a7643a496e2405a1cb64f562",
+    "delta": {
+      "type": "accountClassTransfer",
+      "usdc": "48471.8",
+      "toPerp": false
+    }
+  },
+  {
+    "account_id": "arbi-27",
+    "account": "0x6eef320de5c0db6bae5a80bbce3cb821efd5f5d7",
+    "time": 1791342408946,
+    "hash": "0x84f9cc0c1f8f35848faeb501c863452cb3cf84b9f5e393f2e5d257863095f083",
+    "delta": {
+      "type": "deposit",
+      "usdc": "48594.127054"
+    }
+  },
+  {
+    "account_id": "arbi-27",
+    "account": "0x6eef320de5c0db6bae5a80bbce3cb821efd5f5d7",
+    "time": 1791342418496,
+    "hash": "0x5c5851d46ef252065dd20446028fcf02025400ba09f570d80020fd272df62bf1",
+    "delta": {
+      "type": "accountClassTransfer",
+      "usdc": "48594.12",
+      "toPerp": false
+    }
+  },
+  {
+    "account_id": "arbi-28",
+    "account": "0x4f55dc5c4fd5a8bbbfc64ef00ee4266ce214de34",
+    "time": 1791342460614,
+    "hash": "0xafde49d20d5eec3fc90a4f7031be77f8a6ad90f893f05d2fb1414816d3804d3c",
+    "delta": {
+      "type": "deposit",
+      "usdc": "48710.865591"
+    }
+  },
+  {
+    "account_id": "arbi-28",
+    "account": "0x4f55dc5c4fd5a8bbbfc64ef00ee4266ce214de34",
+    "time": 1791342475071,
+    "hash": "0x54667db4030d541d55e0044602930802046000999e0072eff82f2906c2012e07",
+    "delta": {
+      "type": "accountClassTransfer",
+      "usdc": "48710.86",
+      "toPerp": false
+    }
+  },
+  {
+    "account_id": "arbi-29",
+    "account": "0xc4b267ef5c98a4d3fee2b2279b2ac07abad93ef2",
+    "time": 1791342560172,
+    "hash": "0xcaa93aa91eb6e9c53c5e5fd473128acaef1c255cb270e80c2eb5edbacdda2e98",
+    "delta": {
+      "type": "deposit",
+      "usdc": "98143.667441"
+    }
+  },
+  {
+    "account_id": "arbi-29",
+    "account": "0xc4b267ef5c98a4d3fee2b2279b2ac07abad93ef2",
+    "time": 1791342570780,
+    "hash": "0x2a22c403219769352b9c044602988102021400e8bc9a8807cdeb6f55e09b431f",
+    "delta": {
+      "type": "accountClassTransfer",
+      "usdc": "98143.66",
+      "toPerp": false
+    }
+  },
+  {
+    "account_id": "arbi-30",
+    "account": "0xcccabc637364d6a6fe1ecf347b59d8e73ad4e9cc",
+    "time": 1791342775425,
+    "hash": "0xc8a68ee729ab9730d01977feec30339f8c693f7442ba92d1b5ee852b00198fd3",
+    "delta": {
+      "type": "deposit",
+      "usdc": "98047.193822"
+    }
+  },
+  {
+    "account_id": "arbi-30",
+    "account": "0xcccabc637364d6a6fe1ecf347b59d8e73ad4e9cc",
+    "time": 1791342790539,
+    "hash": "0xa9c0084afde305f3ab39044602a4880202be003098e624c54d88b39dbce6dfde",
+    "delta": {
+      "type": "accountClassTransfer",
+      "usdc": "98047.19",
+      "toPerp": false
+    }
+  },
+  {
+    "account_id": "arbi-31",
+    "account": "0x7cac0d851934a0cc58560a430a3f7ae907e3fb49",
+    "time": 1791342939895,
+    "hash": "0x065dafb852624dfe218d881a200c769d575496b584a76cb9d748aeac8418b215",
+    "delta": {
+      "type": "deposit",
+      "usdc": "98057.063139"
+    }
+  },
+  {
+    "account_id": "arbi-31",
+    "account": "0x7cac0d851934a0cc58560a430a3f7ae907e3fb49",
+    "time": 1791342948026,
+    "hash": "0xcf54bb40be106d7dd0ce044602ad23020472002659138c4f731d66937d144768",
+    "delta": {
+      "type": "accountClassTransfer",
+      "usdc": "98057.06",
+      "toPerp": false
+    }
+  },
+  {
+    "account_id": "arbi-32",
+    "account": "0xcf92ef3e2517968f04f372f0c2dd0d6873b2e230",
+    "time": 1791343523698,
+    "hash": "0xa88e7707ee7b316b0342174876d9cdbd9e6232e068165640132a73bdf8e7b90f",
+    "delta": {
+      "type": "deposit",
+      "usdc": "40143.596886"
+    }
+  },
+  {
+    "account_id": "arbi-32",
+    "account": "0xcf92ef3e2517968f04f372f0c2dd0d6873b2e230",
+    "time": 1791343532279,
+    "hash": "0xaf19b48c4088fd0bb093044602cd1b0202590071db8c1bdd52e25fdeff8cd6f6",
+    "delta": {
+      "type": "accountClassTransfer",
+      "usdc": "40143.59",
+      "toPerp": false
+    }
+  },
+  {
+    "account_id": "arbi-33",
+    "account": "0xceb5c49b9340f34f0c41a37a88c34806efcc1042",
+    "time": 1791343658386,
+    "hash": "0xfabbc9bfef47e3722cdb2f6bc79d820d711140dbcd478d2d1d5efb06329c7101",
+    "delta": {
+      "type": "deposit",
+      "usdc": "43935.953104"
+    }
+  },
+  {
+    "account_id": "arbi-33",
+    "account": "0xceb5c49b9340f34f0c41a37a88c34806efcc1042",
+    "time": 1791343674321,
+    "hash": "0xbcaabe533a16c0cbbe24044602d52c0202450038d519df9d607369a5f91a9ab6",
+    "delta": {
+      "type": "accountClassTransfer",
+      "usdc": "43935.95",
+      "toPerp": false
+    }
+  },
+  {
+    "account_id": "arbi-34",
+    "account": "0x6da83a14fac1dd16e299c8537811abcefc783637",
+    "time": 1791343885609,
+    "hash": "0x51f9a2852f6bc73fce6d1181adc2e3f71b62a88bd3f8210a89271c6a0fe58da3",
+    "delta": {
+      "type": "deposit",
+      "usdc": "43539.746795"
+    }
+  },
+  {
+    "account_id": "arbi-34",
+    "account": "0x6da83a14fac1dd16e299c8537811abcefc783637",
+    "time": 1791343898075,
+    "hash": "0x0f69da565a14c03310e3044602e16e02037b003bf517df05b33285a919189a1d",
+    "delta": {
+      "type": "accountClassTransfer",
+      "usdc": "43539.74",
+      "toPerp": false
+    }
+  },
+  {
+    "account_id": "arbi-35",
+    "account": "0xdf2633a6737599b879e9e74a96402dec400e44c1",
+    "time": 1791344228034,
+    "hash": "0xa970e51cfa2a4b189b544cca97704be36854a1867d1d14e33377e73cdc67f4b3",
+    "delta": {
+      "type": "deposit",
+      "usdc": "41827.339837"
+    }
+  },
+  {
+    "account_id": "arbi-35",
+    "account": "0xdf2633a6737599b879e9e74a96402dec400e44c1",
+    "time": 1791344238619,
+    "hash": "0x5e335fe3639b34475fad044602f44e02017300c8fe9e531901fc0b36229f0e32",
+    "delta": {
+      "type": "accountClassTransfer",
+      "usdc": "41827.33",
+      "toPerp": false
+    }
+  }
+]

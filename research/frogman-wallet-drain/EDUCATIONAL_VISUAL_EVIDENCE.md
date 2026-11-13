@@ -1,3 +1,5 @@
+> latest: [13 november independent 35-account audit](./audit_2026_11_13/README.md); older checkpoint sections below remain dated historical records.
+
 # frogman wallet drain — educational visual evidence
 
 **npc / investigation / 001**  
@@ -73,3 +75,7 @@ a privacy cash deposit does not reveal a withdrawal owner. shared funding does n
 - [source and verification tracker](./EVIDENCE_TRACE_TRACKER.md)
 
 **editorial rule:** no implication that these third-party counts are new november transactions. no november balance or redemption verification has yet been completed.
+
+## november account verification
+
+the historical subset diagram above is superseded in account coverage by the [35-account money-flow map and complete visual timeline](./audit_2026_11_13/VISUAL_TIMELINE_AND_FLOW.md). 35 matched credits total 2,029,874.462280 usdc; 537 buys reconcile after token fees to 3,586.797483 xmr1 in the november spot observations. these account facts do not close the privacy cash withdrawal-provenance gap. see the [individual account evidence](./audit_2026_11_13/ACCOUNT_AUDIT.md).

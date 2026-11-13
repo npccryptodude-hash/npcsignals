@@ -1,0 +1,6 @@
+{
+  "path": "v0.2/inbound_sender_attribution_2026_10_10/access/explorer_label.response.txt",
+  "expected_sha256": "e334481a0bbcd6e22047ebccf264a9daae658f5cd57150db1afbc730dbf022f5",
+  "actual_sha256": "37e084e76a0265cb76df111932b0e807975388fc022885402b172653d927ec7c",
+  "action": "original bytes and historical manifest preserved; no new label attribution relies on this file"
+}

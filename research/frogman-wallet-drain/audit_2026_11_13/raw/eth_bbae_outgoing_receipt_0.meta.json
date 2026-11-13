@@ -1,0 +1,15 @@
+{
+  "url": "https://mainnet.gateway.tenderly.co",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_getTransactionReceipt",
+    "params": [
+      "0x38c7c72a6da978ee29e18649d5005d8978fbde862c0f78eb18fd70325e6939bf"
+    ]
+  },
+  "started_utc": "2026-11-13T08:36:02.125710+00:00",
+  "retrieved_utc": "2026-11-13T08:36:06.180251+00:00",
+  "http_status": 200,
+  "sha256": "80a143a50d2d877535094417bdceeee61937e0baed22f245d0352645632dccf3"
+}

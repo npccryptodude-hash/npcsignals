@@ -1,0 +1,44 @@
+{
+  "oct27_outflow": {
+    "hash": "0x40fdd541a98a97bb30da88a4370b78a7bd370467cfcfe6fc718ddec93dcbcc2f",
+    "utc": "2026-10-27T05:46:47+00:00",
+    "from": "0x4521ef4df51a7689d4db5d8fc598685cb226ff58",
+    "to": "0xbbae94f15c551920f45ad9a099e2a6b821822e3e",
+    "eth": "3.999998840651572",
+    "gas_eth": "9.34355751E-7",
+    "source_before_eth": "4",
+    "source_after_eth": "2.24992677E-7",
+    "source_later_eth": "3.999999999994704",
+    "classification": "confirmed transfer and dated states; later replenishment origin unresolved"
+  },
+  "oct27_mayan_lock": {
+    "hash": "0x38c7c72a6da978ee29e18649d5005d8978fbde862c0f78eb18fd70325e6939bf",
+    "utc": "2026-10-27T06:30:11+00:00",
+    "from": "0xbbae94f15c551920f45ad9a099e2a6b821822e3e",
+    "to": "0x337685fdab40d39bd02028545a4ffa7d287cc3e2",
+    "eth": "3.998918422844160119",
+    "order_hash": "0x47ecec44471cd15a4550897590a825a94e50aa43900e893f88ca2fa0a75b5fcb",
+    "classification": "confirmed ethereum native/weth lock and order event; solana settlement association supported pending independent order-state/pda verification"
+  },
+  "additional_hyperliquid_account": {
+    "account": "0xa8f219e59033fe2593151d951a142c1f958fd949",
+    "deposit_tx": "0xcf22021a2e1c38c911ad92e5642e40de0a86c99c0730f94a591f9b5f72bed9d3",
+    "usdc": "55.56914",
+    "xmr1_gross": "0.09",
+    "xmr1_fee": "0.000063",
+    "xmr1_net": "0.089937",
+    "spot_usdc": "4.602",
+    "perp_usdc": "0.00914",
+    "classification": "confirmed deposit/credit/fill/balance facts; retained separately from external 35",
+    "check_time_utc": "2026-11-13T08:36:23.123692+00:00"
+  },
+  "relay_correspondence": {
+    "api_request": "0x1791339718cbff5ef08b4ee2b300d84793ec5af37220ebe3560ec7e549c21f43",
+    "source_signature": "2v4LbSYLeXydAn11Q5NrYkk96VYA3WaLTGuP1fsHqEDDVFkVftuDM9zZLNz5aUU5WcGUHnX8Z4aQ9dqQkga4GZhN",
+    "destination_hash": "0x430a6d5eb90fcd7cda103bd502fd3b82953749b98317402e3a5945571b05f9eb",
+    "matching_32_byte_identifier": "0xa4a2a75e06b787f17b76b82aa20e07e4f7457a0b2eee4f3e11343dc97e1b3fc5",
+    "output_usdc": "55.56914",
+    "scope": "exact first-party in/out pair, successful source transfer and destination receipt, identical 32-byte event/calldata field; standalone program-source decoding not performed"
+  },
+  "scope": "no human identity, exclusive mixed-balance allocation, native monero redemption or exhaustive platform inventory claim"
+}

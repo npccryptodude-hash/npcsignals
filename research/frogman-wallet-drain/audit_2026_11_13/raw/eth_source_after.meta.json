@@ -1,0 +1,16 @@
+{
+  "url": "https://mainnet.gateway.tenderly.co",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_getBalance",
+    "params": [
+      "0x4521ef4df51a7689d4db5d8fc598685cb226ff58",
+      "0x1910839"
+    ]
+  },
+  "started_utc": "2026-11-13T08:33:38.796036+00:00",
+  "retrieved_utc": "2026-11-13T08:33:42.703807+00:00",
+  "http_status": 200,
+  "sha256": "d165e57d0ea5d96c82c99d665b591b4e3f7d68522a7c392eadf9e0d4cea6776a"
+}

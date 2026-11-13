@@ -1,0 +1,11 @@
+{
+  "url": "https://api.hyperliquid.xyz/info",
+  "request": {
+    "type": "openOrders",
+    "user": "0xc4b267ef5c98a4d3fee2b2279b2ac07abad93ef2"
+  },
+  "started_utc": "2026-11-13T08:20:54.693518+00:00",
+  "retrieved_utc": "2026-11-13T08:20:58.743121+00:00",
+  "http_status": 200,
+  "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+}

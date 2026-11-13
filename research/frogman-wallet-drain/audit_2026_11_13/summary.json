@@ -1,0 +1,49 @@
+{
+  "accounts": 35,
+  "metadata_token": {
+    "name": "XMR1",
+    "szDecimals": 2,
+    "weiDecimals": 8,
+    "index": 404,
+    "tokenId": "0xbb2057659bd378d17e2e151bb04bdcaa",
+    "isCanonical": false,
+    "evmContract": null,
+    "fullName": "XMR - Wagyu.xyz",
+    "deployerTradingFeeShare": "1.0"
+  },
+  "market": {
+    "tokens": [
+      404,
+      0
+    ],
+    "name": "@260",
+    "index": 260,
+    "isCanonical": false
+  },
+  "totals": {
+    "verified_usdc": "2029874.462280",
+    "hyperliquid_credit_usdc": "2029874.462280",
+    "xmr1_bought": "3589.31",
+    "xmr1_sold": "0",
+    "xmr1_fees": "2.512517",
+    "net_xmr1": "3586.797483",
+    "current_xmr1": "3586.797483",
+    "usdc_spent": "2029710.6357",
+    "spot_usdc": "163.6443",
+    "perp_usdc": "0.182280"
+  },
+  "fills": 537,
+  "ledger_records": 70,
+  "post_13_oct_records": 0,
+  "withdrawals_or_other_transfers_returned": 0,
+  "snapshot_start_utc": "2026-11-13T08:17:14.308354+00:00",
+  "snapshot_end_utc": "2026-11-13T08:21:23.802410+00:00",
+  "earliest_history_end_utc": "2026-11-13T08:17:10.300000+00:00",
+  "last_activity_utc": "2026-10-07T03:37:25.691000+00:00",
+  "overlap": {
+    "newly reconciled account": 27,
+    "six relay accounts": 6,
+    "separate mayan account": 1,
+    "additional across credit already in archive": 1
+  }
+}

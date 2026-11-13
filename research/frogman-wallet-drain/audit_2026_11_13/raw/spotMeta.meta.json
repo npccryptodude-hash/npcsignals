@@ -1,0 +1,10 @@
+{
+  "url": "https://api.hyperliquid.xyz/info",
+  "request": {
+    "type": "spotMeta"
+  },
+  "started_utc": "2026-11-13T08:17:06.248081+00:00",
+  "retrieved_utc": "2026-11-13T08:17:10.296428+00:00",
+  "http_status": 200,
+  "sha256": "b7208875d169f6d83ed3741f2f072b5645b5bfc00442667da9f963fec85faf8a"
+}

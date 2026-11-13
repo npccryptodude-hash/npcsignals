@@ -1,0 +1,15 @@
+{
+  "url": "https://arbitrum.gateway.tenderly.co",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_getTransactionByHash",
+    "params": [
+      "0xe295cfe85f341c4abb36c74a22ea62c767788712410f7d10df4b55abcad99b85"
+    ]
+  },
+  "started_utc": "2026-11-13T08:15:14.327439+00:00",
+  "retrieved_utc": "2026-11-13T08:15:18.150507+00:00",
+  "http_status": 200,
+  "sha256": "af3284fd5a8d3b90a3c02cf637d08f911c2c9c4e7ce084cc4562a15f325eaac6"
+}

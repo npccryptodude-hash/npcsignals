@@ -1,0 +1,10 @@
+{
+  "path": "v0.2/inbound_sender_attribution_2026_10_10/access/explorer_label.response.txt",
+  "versions_examined": [
+    {
+      "commit": "554963adad68fffab14595885584a7d772542c24",
+      "sha256": "37e084e76a0265cb76df111932b0e807975388fc022885402b172653d927ec7c",
+      "expected_match": false
+    }
+  ]
+}
