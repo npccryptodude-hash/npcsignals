@@ -1,6 +1,6 @@
 # telenor / myanmar — research dossier
 
-status: preliminary research / not publication-ready
+status: ongoing investigation / not publication-ready
 updated: 2026-11-15
 editorial principle: document, not judge
 
