@@ -62,7 +62,7 @@ the baseline markdown scan found 41 missing local targets. one editable welfare 
 
 all new subject entrances and their document targets are checked. workbook links retain exact filenames. [external availability results](EXTERNAL_LINKS.md) distinguish accessible pages, blocked sources, unavailable endpoints and dated 404 observations. rpc roots may require post requests; access denial is not proof that a source is false or deleted.
 
-live rendering checks and their limits are recorded in [navigation validation](NAVIGATION_VALIDATION.md).
+actual github desktop rendering and sampled case navigation were inspected. mobile-width rendering could not be executed in this environment and remains an acceptance item. details are recorded in [navigation validation](NAVIGATION_VALIDATION.md).
 
 ## internal material and historical provenance
 
@@ -72,13 +72,13 @@ some original dated glitch checkpoints contain research instructions from their 
 
 ## sensitive-material review
 
-pattern checks found provider access identifiers in historical acquisition material. whether they are intentionally public examples or account-bound credentials requires owner review. values have not been reproduced in this report, moved to a new public file or tested against a provider account. no private signing-key block or github-token pattern was found by the bounded scans; that is not a guarantee that the complete git history contains no sensitive information.
+pattern checks found provider access identifiers in historical acquisition material. whether they are intentionally public examples or account-bound credentials requires owner review. values have not been reproduced in this report, moved to a new public file or tested against a provider account. no private signing-key block or github-token pattern was found by the bounded scans, which included 381 zip members and five gzip bundles; that is not a guarantee that the complete git history contains no sensitive information.
 
 if an identifier belongs to an account, revoke or rotate it first. an agreed redacted derivative must remain separate from the immutable original and its provenance. ordinary deletion would leave git history intact. any history rewrite requires separate approval.
 
 ## acceptance and review decisions
 
-safe navigation and documentation changes are reviewable in the pull request. the branch should remain unmerged while full acceptance is requested: three pre-existing digest exceptions and provider-identifier ownership are unresolved. selecting an authoritative reader-document revision, accepting a documented exception, rotating credentials or approving history treatment must be explicit decisions; this maintenance pass does not silently decide them.
+safe navigation and documentation changes are reviewable in the pull request. the branch should remain unmerged while full acceptance is requested: three pre-existing digest exceptions, provider-identifier ownership and mobile rendering acceptance are unresolved. selecting an authoritative reader-document revision, accepting a documented exception, rotating credentials or approving history treatment must be explicit decisions; this maintenance pass does not silently decide them.
 
 no medium publication, website update, contact with subjects, fund transfer or history rewrite was performed.
 
