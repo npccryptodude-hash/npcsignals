@@ -1,0 +1,116 @@
+{
+  "review_date": "2026-11-15",
+  "base_commit": "1abf5eb64d75d285f25cef8998ca3c7b86415d34",
+  "complete_presidential_archive_files_read": [
+    {
+      "path": "research/presidential-claim-stress-test-2025-2026/CHANGELOG.md",
+      "sha256": "57afa401eee9b9cad01aea65a718c0a253af38815867353bee091b4ce63523ef"
+    },
+    {
+      "path": "research/presidential-claim-stress-test-2025-2026/NPCsignals_Presidential_Claim_Stress_Test_Ledger_v1.0.xlsx",
+      "sha256": "2ff8be2c756ddc73f0c7ce24ab9afdf59f2e2b5158404347c5766db949671222"
+    },
+    {
+      "path": "research/presidential-claim-stress-test-2025-2026/NPCsignals_Trump_Claim_Stress_Test_Blind_Second_Pass (1).xlsx",
+      "sha256": "d618142444374f5e4419b4620c7e87313516741affb86a38d89e5bf347d5b4d5"
+    },
+    {
+      "path": "research/presidential-claim-stress-test-2025-2026/README.md",
+      "sha256": "4d0d1268bfc11850338c5d166f0d8c20ab50d9b00865db10e6f7794f5df0fab4"
+    },
+    {
+      "path": "research/presidential-claim-stress-test-2025-2026/START_HERE.md",
+      "sha256": "d237cf2952a85f420f5fd5b2fdbb96bfca05d8a338b6509903acc8ade3ecf789"
+    },
+    {
+      "path": "research/presidential-claim-stress-test-2025-2026/UNGA-2026-SPEECH-SUPPLEMENT.md",
+      "sha256": "2c033e44545401ee792b9d91e9fdf1aaa8acaa534e871806c46f87db8e658905"
+    }
+  ],
+  "phase_2_review": {
+    "path": "archive-maintenance/EDITORIAL_REVIEW_2026-11-15.md",
+    "sha256": "f6733a63b6b2650c7bc76b39ab2ed6d11ac75b6d557508a3c39d80aa896023dc"
+  },
+  "workbook_read_scope": "all cells in all seven main-workbook sheets and both separate blind-workbook sheets were extracted read-only; claim inputs, scores, summaries, disagreement records and package metadata were examined",
+  "first_main_workbook_upload": {
+    "commit": "91295bc938e93c94da61b8e7d24d2fd4a6ed1aa7",
+    "timestamp_recorded_in_commit": "2026-09-03T16:10:51+02:00",
+    "git_blob": "bb064820c772b3248ba2ad4f8888a6d3704207e7",
+    "original_path": "research/presidential-claim-stress-test-2025-2026/NPCsignals_Trump_Claim_Ledger_v1_0_INTER_RATER_AUDIT (1).xlsx",
+    "current_main_workbook_identical_to_first_upload": true,
+    "uploader_attribution_limit": "the commit author npcsignal is an upload attribution, not proof of scorer identity or independence"
+  },
+  "rename_commit": "50490d6",
+  "first_overview_commit": "9eb38dad1e901254ec75b7bcf422a1a54dfe5f64",
+  "first_overview_time": "2026-09-03T16:05:23+02:00",
+  "provenance_limitation": "completed-review assertions predate the workbook deposit. no raw completed independent-scoring packet, named reviewer, reviewer attestation, scoring-session log, or record proving score concealment was located. empty packets and populated comparison results coexist in the original upload. git chronology alone cannot resolve the historical process.",
+  "package_metadata": {
+    "core_properties_present": false,
+    "reviewer_comments_present": false,
+    "formula_cells": 0,
+    "main_zip_member_timestamp": "2026-09-03 11:27:36, timezone unspecified",
+    "blind_zip_member_timestamp": "2026-09-03 10:14:10, timezone unspecified",
+    "limits": "container timestamps are not signed scoring dates or evidence of authorship"
+  },
+  "repository_search": {
+    "reachable_named_objects": 8123,
+    "searched_text_workbook_compressed_blob_versions": 6138,
+    "archive_members_examined": 404,
+    "match_paths": [
+      {
+        "path": "archive-maintenance/EDITORIAL_REVIEW_2026-11-15.md",
+        "git_blob": "c9f50a0a608412a1bd9acb59406a8a170b4d1401"
+      },
+      {
+        "path": "research/evidence/binance-v2.0-2026-10-14/original_archives/NPCsignals_Additional_Binance_Transfers_2026-09-30_v1_0.zip!NPCsignals_Additional_Exchange_Transfers/ZYROX_primary_ledger.md",
+        "archive_member": true
+      },
+      {
+        "path": "research/evidence/binance-v2.0-2026-10-14/original_archives/NPCsignals_Binance_U300_Evidence_Package_v1_0.zip!NPCsignals_Binance_U300/ZYROX_primary_ledger.md",
+        "archive_member": true
+      },
+      {
+        "path": "research/evidence/binance-v2.0-2026-10-14/originals/NPCsignals_Additional_Exchange_Transfers/ZYROX_primary_ledger.md",
+        "git_blob": "08cf6b40c8aac00fb5d378ad1bc9b655bce62e55"
+      },
+      {
+        "path": "research/gamdom/g011/coverage_report.md",
+        "git_blob": "b97e15194166dc9e70bfb8bf0aeacadf1ab82b31"
+      },
+      {
+        "path": "research/presidential-claim-stress-test-2025-2026/CHANGELOG.md",
+        "git_blob": "028af64dc90f48bb49721c6929b988a3a671cb03"
+      },
+      {
+        "path": "research/presidential-claim-stress-test-2025-2026/NPCsignals_Presidential_Claim_Stress_Test_Ledger_v1.0.xlsx!xl/worksheets/sheet3.xml",
+        "archive_member": true
+      },
+      {
+        "path": "research/presidential-claim-stress-test-2025-2026/NPCsignals_Presidential_Claim_Stress_Test_Ledger_v1.0.xlsx!xl/worksheets/sheet6.xml",
+        "archive_member": true
+      },
+      {
+        "path": "research/presidential-claim-stress-test-2025-2026/README.md",
+        "git_blob": "2df6b7feb0c1c79ff5266745ca971c9277da0518"
+      },
+      {
+        "path": "research/presidential-claim-stress-test-2025-2026/START_HERE.md",
+        "git_blob": "2195a037e2ab4904cbfeaa1467d37dccbffc0fb5"
+      },
+      {
+        "path": "research/presidential-claim-stress-test-2025-2026/START_HERE.md",
+        "git_blob": "9f5e3b00cfbc27975149aa0357a127866689205e"
+      },
+      {
+        "path": "research/presidential-claim-stress-test-2025-2026/CHANGELOG.md",
+        "git_blob": "a83d9cf0688aceb0af3ab0df83a271e56193578d"
+      },
+      {
+        "path": "research/presidential-claim-stress-test-2025-2026/README.md",
+        "git_blob": "53b68af5d1849741cdf39cbaca60be55b096cc4a"
+      }
+    ],
+    "scope": "all locally reachable fetched refs and their history; text-like formats, workbook xml, zip members including nested zip archives, and gzip payloads; not private, unpushed, dangling or unavailable history"
+  },
+  "control_sample_outcome": "no item-level 50-claim control dataset located in searched reachable repository material; aggregate references only. this does not establish that private or unpushed material never existed."
+}
