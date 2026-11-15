@@ -2,7 +2,7 @@
 
 [project home](../README.md) · [research archive](../research/INDEX.md)
 
-**final review result: ready for owner approval with explicit historical exceptions; pull request 3 remains unmerged.** the provider flags and narrow-width test gap are resolved within the stated scope. the three original checksum mismatches remain visible and are explained in the [final acceptance review](ACCEPTANCE_REVIEW.md); this is not a claim of clean original-manifest results.
+**final review result: owner acceptance recorded; ready for merging with explicit historical exceptions. pull request 3 remains unmerged.** the provider flags and narrow-width test gap are resolved within the stated scope. the three original checksum mismatches remain visible and are explained in the [final acceptance review](ACCEPTANCE_REVIEW.md); this is not a claim of clean original-manifest results.
 
 baseline: `75fcb4966e4c21590cce363fcff2d94641d41257`. work is on a separate branch. no research conclusions, raw evidence, original manifests or git history were rewritten.
 
@@ -86,8 +86,10 @@ no key was tested, revoked or rotated. current endpoint validity and private acc
 | passed controls | all 16 indexed entrances and new local paths; unchanged original evidence; sampled mobile-width reflow; three practical reader routes; pinned original-snapshot reproductions; provider-publication matches |
 | historical limitations accepted for review interpretation | two readme/snapshot scope differences; two later visual files outside the control snapshot; one exact line-ending explanation; 40 preserved-source link defects with resolution guide; G009 row-order proposal explicitly distinct from an unchanged-verifier pass |
 | test-scope limits | no physical-phone/safari certification, no recruited human participants, no live credential testing, no new source-authenticity or blockchain consensus proof |
-| owner approval still required | accept the documented historical exceptions and public-demo-key preservation, and approve the stated test scope before any decision to merge |
+| owner acceptance recorded | three historical checksum exceptions and the mobile-width test accepted; public-demo-key retention accepted conditionally on no contradictory private-account information; see [owner decisions](OWNER_ACCEPTANCE.md) |
 | unresolved technical blocker in the reviewed scope | none identified after the bounded final review; contradictory new credential or evidence information would reopen a blocker |
+
+the actual merge still requires a separate owner instruction. no auto-merge is authorized.
 
 the complete version-by-version assessment, original commits and owner decisions are in [final acceptance review](ACCEPTANCE_REVIEW.md). acceptance of an explained exception must not be described as a matching original hash. strict original checks continue to expose their known failures.
 

@@ -2,7 +2,7 @@
 
 15 november 2026 · [quality report](REPORT.md) · [navigation tests](NAVIGATION_VALIDATION.md)
 
-**recommendation: ready for owner approval with explicit historical exceptions. no merge has been performed.** the earlier unspecified credential and mobile-width blockers have been resolved within the scope below. the three original checksum mismatches remain visible; explained provenance is not converted into a clean original-manifest result.
+**owner acceptance recorded: ready for merging with the documented historical exceptions. no merge has been performed.** the earlier unspecified credential and mobile-width blockers have been resolved within the scope below. the three original checksum mismatches remain visible; explained provenance is not converted into a clean original-manifest result.
 
 review started at `c1de3499671fe9dd3275cae49dbeb42a101d8b58`. two reader-entry link improvements were added in `585e9a6045887e12d5e22591edf9640a62f44ce4`. the review continues in the same branch and pull request, without a new reorganization.
 
@@ -88,13 +88,15 @@ successful practical routes:
 - school reader: norway findings in 3; original ministry chapter reached in the combined findings-and-sources session after 6 content-link activations, 1 browser-back action and 1 cookie choice.
 - journalist: preserved original glitch transaction response in 3 after a direct link was added. the slot and signature-bearing response is accessible in github’s read-only source view; its minified format remains a technical-source limitation.
 
-## remaining decisions and blockers
+## owner decisions and merge boundary
 
-**no unclassified technical blocker remains within this review’s scope.** the owner’s final approval has not been given or presumed.
+**no unclassified technical blocker remains within this review’s scope.** the owner has now explicitly accepted the three historical checksum exceptions and the responsive-width test, and conditionally accepted retention of the two public nodereal demo keys. see [owner acceptance](OWNER_ACCEPTANCE.md).
 
-1. accept the three fully described historical exceptions, including the control package’s expanded presentation layer, without requiring original manifests to certify later reader material.
-2. accept preservation of the provider-published public demonstration values. contradictory private-account information would reopen a security blocker and require separate authorization before any key action.
-3. approve the documented narrow-width test scope; physical-device/safari and recruited-human tests were not performed and are not claimed.
+1. accepted by the owner: the three fully described historical exceptions, including the control package’s expanded presentation layer, without requiring original manifests to certify later reader material.
+2. conditionally accepted by the owner: preservation of the provider-published public demonstration values, provided no private-account information contradicts the public-demo classification. contradictory private-account information would reopen a security blocker and require separate authorization before any key action.
+3. accepted by the owner: the documented narrow-width test scope; physical-device/safari and recruited-human tests were not performed and are not claimed.
+
+actual merging into main remains separately unauthorized. marking this pull request ready is not permission to merge or enable auto-merge.
 
 the strict original hash audit still reports its three mismatches by design. an explained historical exception is not a green original checksum test. no evidence was deleted, original checksum updated, git history rewritten, website changed or pull request merged.
 

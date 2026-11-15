@@ -43,6 +43,6 @@ primary documents, retrieved 15 november 2026:
 
 ## owner decision
 
-**recommended:** retain these provider-published demonstration values in the frozen historical evidence, with this provenance note. this review supplies no reason to rotate a privately owned credential, and the owner cannot revoke a provider’s shared demonstration key on the provider’s behalf.
+**owner decision recorded:** retain these provider-published demonstration values in the frozen historical evidence, provided no information shows private-account ownership. see [owner acceptance](OWNER_ACCEPTANCE.md). this review supplies no reason to rotate a privately owned credential, and the owner cannot revoke a provider’s shared demonstration key on the provider’s behalf.
 
 if the owner has separate account records showing that either value is account-bound or was privately issued, treat that new evidence as a blocker: approve revocation/rotation first, then choose an explicitly versioned redacted derivative and historical treatment. deletion from the current tree would not erase git history. no such action is taken here.
