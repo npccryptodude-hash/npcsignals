@@ -28,13 +28,5 @@ Historical traffic metadata is not the content of communications. Separate data 
 7. Secondary court reporting (17 Sep 2026): https://www.aftenposten.no/norge/i/pB8nVo/myanmar-saken-gruppesoeksmaal-mot-telenor-skal-behandles-i-tingretten
 8. Litigant's process tracker (partisan/party source; cross-check): https://nicolaiprydz.no/pages/status
 
-## next verification tasks
-- Obtain the actual court ruling and appeal disposition.
-- Read NCP final statement and SKUP methodology in full; build claim-to-document index with page numbers.
-- Trace ownership and decision authority, distinguish Telenor Myanmar vs Telenor ASA vs state shareholder.
-- Locate documentary evidence for each specific disclosure and assess redaction/security.
-- Establish precise equipment classification and licensing question.
-- Audit Norwegian media coverage by publication date before claiming a coverage gap.
-- Build evidence timeline, actor graph, data flow and source table.
-
-No contact with affected persons, no publication, and no inference of criminal guilt from charges.
+## publication and safety boundaries
+This is a preliminary evidence dossier. Criminal charges do not establish guilt. Distinguish verified procedural facts, allegations, responses and unresolved evidentiary questions. Protect identities of vulnerable customers.
