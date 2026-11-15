@@ -1,0 +1,137 @@
+{
+  "review_date": "2026-11-15",
+  "reviewed_head": "c1de3499671fe9dd3275cae49dbeb42a101d8b58",
+  "originals_changed": false,
+  "versions": [
+    {
+      "id": "zyrox-main",
+      "path": "research/zyrox-investigation/README.md",
+      "manifest": "research/zyrox-investigation/SOURCE_INTEGRITY.json",
+      "expected_sha256": "cfe144861a10ae71a0441bc5d22bd9ca895a725ab08471a46a8b69f6a1ee45db",
+      "actual_sha256": "faf3e8ca8000748a5fdf40d6aadb5db1c552ce33ee0f267d73b73a39482f5a5a",
+      "versions": [
+        {
+          "commit": "1ebc01f4dddd6350990750b8ca8b76408a449297",
+          "date": "2026-10-11T05:16:29-07:00",
+          "subject": "Update ZYROX README to checkpoint v0.121",
+          "bytes": 4190,
+          "sha256": "faf3e8ca8000748a5fdf40d6aadb5db1c552ce33ee0f267d73b73a39482f5a5a",
+          "matches_manifest": false
+        },
+        {
+          "commit": "9ec50006c26411295fda65b710d4880cdec5cda3",
+          "date": "2026-10-11T04:52:16-07:00",
+          "subject": "Add latest ZYROX investigation findings to README",
+          "bytes": 3500,
+          "sha256": "1e8a164943d9b29450b0298513d54778d796f275ae4248975aa434949d4dc50b",
+          "matches_manifest": false
+        },
+        {
+          "commit": "6f5e17d265ea45edffb78a89a80b844a69760a42",
+          "date": "2026-10-10T06:11:59-07:00",
+          "subject": "Mark ZYROX investigation as ongoing",
+          "bytes": 2392,
+          "sha256": "020a5627a494e42889bea8de556c20c372a9fe84efa1a1234cfc6fd563699914",
+          "matches_manifest": false
+        },
+        {
+          "commit": "049ca4889861fce989e2efe96e4c0d4538b4aa8c",
+          "date": "2026-10-07T20:41:11+02:00",
+          "subject": "Rebuild ZYROX evidence repository in English",
+          "bytes": 2273,
+          "sha256": "cfe144861a10ae71a0441bc5d22bd9ca895a725ab08471a46a8b69f6a1ee45db",
+          "matches_manifest": true
+        },
+        {
+          "commit": "17a0763b6932a396af274434462d3b10180948c1",
+          "date": "2026-10-06T13:26:36+02:00",
+          "subject": "Complete validated public-link Medium copy and package integrity metadata",
+          "bytes": 2448,
+          "sha256": "5f0ede3a5ee6f8dbf0eae20c1749ec3d6cb3e7f61dc3b49a728d6d25b292bf52",
+          "matches_manifest": false
+        },
+        {
+          "commit": "64ac82545e900cf87f5bbbfaea31b00a68e8839b",
+          "date": "2026-10-06T13:25:04+02:00",
+          "subject": "Add frozen ZYROX evidence package and publication QA",
+          "bytes": 2376,
+          "sha256": "5f97c36246aa1dde74479fe75a4b1c4fad18069918e84884f51ca4c1354fee81",
+          "matches_manifest": false
+        }
+      ]
+    },
+    {
+      "id": "control-attribution",
+      "path": "research/zyrox-investigation-post-freeze/control-attribution-2026-10-14/README.md",
+      "manifest": "research/zyrox-investigation-post-freeze/control-attribution-2026-10-14/SHA256SUMS.json",
+      "expected_sha256": "70409eb9f0325cc76b2da8cc5567ae765ca3dfa747d71f64e82d77c199d40d45",
+      "actual_sha256": "d7aff06e984fd569d6d760748a0800bec0a37b5667cd92a80f9bb1f88246788c",
+      "versions": [
+        {
+          "commit": "470e8589bafde7f84a57d078e77f2294d76f0db8",
+          "date": "2026-11-08T06:32:31-08:00",
+          "subject": "Feature pedagogical visual GLITCH consolidation investigation in technical archive",
+          "bytes": 11230,
+          "sha256": "d7aff06e984fd569d6d760748a0800bec0a37b5667cd92a80f9bb1f88246788c",
+          "matches_manifest": false
+        },
+        {
+          "commit": "5259354b80c5c8f37cba4fb2b179bf44e6141a2e",
+          "date": "2026-10-14T09:06:19-07:00",
+          "subject": "Add bounded ZYROX/GLITCH authority comparison and GLITCH consolidation evidence",
+          "bytes": 10326,
+          "sha256": "70409eb9f0325cc76b2da8cc5567ae765ca3dfa747d71f64e82d77c199d40d45",
+          "matches_manifest": true
+        }
+      ]
+    },
+    {
+      "id": "frogman-label",
+      "path": "research/frogman-wallet-drain/v0.2/inbound_sender_attribution_2026_10_10/access/explorer_label.response.txt",
+      "manifest": "research/frogman-wallet-drain/v0.2/inbound_sender_attribution_2026_10_10/SHA256SUMS.json",
+      "expected_sha256": "e334481a0bbcd6e22047ebccf264a9daae658f5cd57150db1afbc730dbf022f5",
+      "actual_sha256": "37e084e76a0265cb76df111932b0e807975388fc022885402b172653d927ec7c",
+      "versions": [
+        {
+          "commit": "554963adad68fffab14595885584a7d772542c24",
+          "date": "2026-10-10T11:46:21+02:00",
+          "subject": "Record F0598\u2013F0602: exact Relay funding-sender execution attribution",
+          "bytes": 841345,
+          "sha256": "37e084e76a0265cb76df111932b0e807975388fc022885402b172653d927ec7c",
+          "matches_manifest": false
+        }
+      ],
+      "crlf_reconstruction_matches": true,
+      "lf_bytes": 7158,
+      "crlf_bytes": 0,
+      "normalization_only_delta": 7158
+    }
+  ],
+  "isolated_reproduction": {
+    "control_original_snapshot": {
+      "commit": "5259354b80c5c8f37cba4fb2b179bf44e6141a2e",
+      "entries": 63,
+      "exit_code": 0,
+      "stdout": "PASS: complete manifest; 11 successful finalized receipts; native fee conservation; 10 new ledger rows; consolidation token reconciliation; five terminal histories / 96 references; bounded no-match comparison\n",
+      "stderr": ""
+    },
+    "frogman_isolated_line_endings": {
+      "exit_code": 0,
+      "stdout": "PASS: 597 prior rows preserved; bounded nonces; successful receipt/block inclusion; exact Relay order/hash/fee match; Arbitrum USDC log chain and order payload; replenishment chronology; evidence and checksums\n",
+      "stderr": ""
+    },
+    "zyrox_snapshot_manifest_with_original_readme": {
+      "entries": 23,
+      "matching_entries": 23
+    }
+  },
+  "control_snapshot_coverage": {
+    "manifest_entries": 63,
+    "current_files_excluding_manifest": 65,
+    "later_unlisted_reader_files": [
+      "VISUAL_STORY.md",
+      "story.html"
+    ],
+    "missing_original_entries": 0
+  }
+}

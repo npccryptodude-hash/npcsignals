@@ -2,7 +2,7 @@
 
 [project home](../README.md) · [research archive](../research/INDEX.md)
 
-**result: navigation and preservation improvements prepared; full acceptance remains blocked by declared pre-existing integrity exceptions and credential-ownership review.** this report does not claim a completely clean archive.
+**final review result: ready for owner approval with explicit historical exceptions; pull request 3 remains unmerged.** the provider flags and narrow-width test gap are resolved within the stated scope. the three original checksum mismatches remain visible and are explained in the [final acceptance review](ACCEPTANCE_REVIEW.md); this is not a claim of clean original-manifest results.
 
 baseline: `75fcb4966e4c21590cce363fcff2d94641d41257`. work is on a separate branch. no research conclusions, raw evidence, original manifests or git history were rewritten.
 
@@ -17,6 +17,7 @@ baseline: `75fcb4966e4c21590cce363fcff2d94641d41257`. work is on a separate bran
 - replaced one obsolete frogman work checklist with a dated research-status explanation and the later account audit.
 - repaired the binance consistency checker’s requirement for removed editorial drafts. its financial assertions are unchanged; all 323 checks pass.
 - added a separate gamdom compatibility runner and explicit row-order proposal without changing frozen scripts.
+- completed the requested final review in pull request 3; reader walkthroughs added direct original-receipt, loss-accounting and ownership links to the existing glitch/gamdom entrances without reorganizing evidence.
 
 ## complete mapping and preservation
 
@@ -42,6 +43,8 @@ the separate telenor–myanmar branch is linked explicitly without being merged 
 | zyrox/glitch control-attribution `README.md` | differs from its frozen manifest entry | unchanged; disclosed to readers |
 | frogman upstream explorer-label response | differs from the stored digest | unchanged; the existing november audit documents lf/crlf normalization, not a new authentic source capture |
 
+the original control-attribution manifest also predates two presentation additions, `VISUAL_STORY.md` and `story.html`; its strict current-folder coverage test is not claimed to pass. the exact original 63-file snapshot was reconstructed from its commit and its unchanged verifier passes. both readme histories and the frogman lf/crlf reproduction are recorded in [the exception review](HASH_EXCEPTION_REVIEW.json).
+
 all other declared entries match; this is not a claim that every original capture has a manifest or that a matching hash proves source authenticity. [frogman’s existing integrity explanation](../research/frogman-wallet-drain/audit_2026_11_13/integrity_exception.json) remains part of its evidence package.
 
 ## gamdom relocation and reproducibility
@@ -62,7 +65,7 @@ the baseline markdown scan found 41 missing local targets. one editable welfare 
 
 all new subject entrances and their document targets are checked. workbook links retain exact filenames. [external availability results](EXTERNAL_LINKS.md) distinguish accessible pages, blocked sources, unavailable endpoints and dated 404 observations. rpc roots may require post requests; access denial is not proof that a source is false or deleted.
 
-actual github desktop rendering and sampled case navigation were inspected. mobile-width rendering could not be executed in this environment and remains an acceptance item. details are recorded in [navigation validation](NAVIGATION_VALIDATION.md).
+actual github desktop rendering was inspected in the earlier pass. the final review now also exercised the homepage, index and eight subjects at measured 340/454 css-pixel widths, with 25 live observations and three counted reader-perspective walkthroughs. no sampled entrance article overflowed horizontally or contained a table. this supersedes the earlier mobile-width blocker; physical-device and safari behavior are not certified. see [navigation validation](NAVIGATION_VALIDATION.md).
 
 ## internal material and historical provenance
 
@@ -72,15 +75,23 @@ some original dated glitch checkpoints contain research instructions from their 
 
 ## sensitive-material review
 
-pattern checks found provider access identifiers in historical acquisition material. whether they are intentionally public examples or account-bound credentials requires owner review. values have not been reproduced in this report, moved to a new public file or tested against a provider account. no private signing-key block or github-token pattern was found by the bounded scans, which included 381 zip members and five gzip bundles; that is not a guarantee that the complete git history contains no sensitive information.
+the two flagged values are nodereal authentication-format demonstration keys that exactly match the provider’s explicitly shareable public-key table. they occur in ten original gamdom acquisition/source-register/archive files. values, suffixes and usable keyed endpoints are omitted from all new reports. [the redacted provider review](PROVIDER_IDENTIFIER_REVIEW.md) identifies the exact files and distinguishes public ids, public demo access, format examples and private account access.
 
-if an identifier belongs to an account, revoke or rotate it first. an agreed redacted derivative must remain separate from the immutable original and its provenance. ordinary deletion would leave git history intact. any history rewrite requires separate approval.
+no key was tested, revoked or rotated. current endpoint validity and private account ownership were not inferred. none of these two flags remains an unmatched potential private credential. if the owner has contradictory account-specific information, safe account-side action requires separate authorization before approval. no history rewrite or ordinary deletion was attempted.
 
-## acceptance and review decisions
+## acceptance categories
 
-safe navigation and documentation changes are reviewable in the pull request. the branch should remain unmerged while full acceptance is requested: three pre-existing digest exceptions, provider-identifier ownership and mobile rendering acceptance are unresolved. selecting an authoritative reader-document revision, accepting a documented exception, rotating credentials or approving history treatment must be explicit decisions; this maintenance pass does not silently decide them.
+| category | final review disposition |
+| --- | --- |
+| passed controls | all 16 indexed entrances and new local paths; unchanged original evidence; sampled mobile-width reflow; three practical reader routes; pinned original-snapshot reproductions; provider-publication matches |
+| historical limitations accepted for review interpretation | two readme/snapshot scope differences; two later visual files outside the control snapshot; one exact line-ending explanation; 40 preserved-source link defects with resolution guide; G009 row-order proposal explicitly distinct from an unchanged-verifier pass |
+| test-scope limits | no physical-phone/safari certification, no recruited human participants, no live credential testing, no new source-authenticity or blockchain consensus proof |
+| owner approval still required | accept the documented historical exceptions and public-demo-key preservation, and approve the stated test scope before any decision to merge |
+| unresolved technical blocker in the reviewed scope | none identified after the bounded final review; contradictory new credential or evidence information would reopen a blocker |
 
-no medium publication, website update, contact with subjects, fund transfer or history rewrite was performed.
+the complete version-by-version assessment, original commits and owner decisions are in [final acceptance review](ACCEPTANCE_REVIEW.md). acceptance of an explained exception must not be described as a matching original hash. strict original checks continue to expose their known failures.
+
+no medium publication, website update, contact with subjects, fund transfer, key action, history rewrite or pull-request merge was performed.
 
 ## reproduce
 

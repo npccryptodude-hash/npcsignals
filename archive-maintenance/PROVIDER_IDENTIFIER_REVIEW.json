@@ -1,0 +1,46 @@
+{
+  "review_date": "2026-11-15",
+  "values_and_partial_suffixes_omitted": true,
+  "network_requests_with_candidate_keys": 0,
+  "keys_revoked_or_rotated": 0,
+  "primary_source": "https://docs.nodereal.io/reference/getting-started-with-your-api",
+  "method": "exact in-memory comparison with the primary document retrieved through web access; separate direct Python requests could not retrieve NodeReal docs and are not used as negative evidence",
+  "identifiers": [
+    {
+      "id": "provider-id-1",
+      "provider": "nodereal",
+      "length": 32,
+      "locations": [
+        "research/gamdom/g011/collect.py",
+        "research/gamdom/g011/rpc_archive.json.gz [decompressed]",
+        "research/gamdom/g011/source_register.json"
+      ],
+      "classification": "provider-published shareable demonstration access key",
+      "official_public_table_match": true,
+      "official_table_context": "ethereum mainnet",
+      "current_functionality": "not tested",
+      "account_ownership": "not inferred from public documentation"
+    },
+    {
+      "id": "provider-id-2",
+      "provider": "nodereal",
+      "length": 32,
+      "locations": [
+        "research/gamdom/g011/extend.py",
+        "research/gamdom/g011/rpc_archive.json.gz [decompressed]",
+        "research/gamdom/g011/source_register.json",
+        "research/gamdom/g012/acquisition_archive.json.gz [decompressed]",
+        "research/gamdom/g012/collect.py",
+        "research/gamdom/g012/source_register.json",
+        "research/gamdom/g013/acquisition_archive.json.gz [decompressed]",
+        "research/gamdom/g013/collect.py",
+        "research/gamdom/g013/source_register.json"
+      ],
+      "classification": "provider-published shareable demonstration access key",
+      "official_public_table_match": true,
+      "official_table_context": "bsc mainnet; opbnb mainnet and testnet",
+      "current_functionality": "not tested",
+      "account_ownership": "not inferred from public documentation"
+    }
+  ]
+}
