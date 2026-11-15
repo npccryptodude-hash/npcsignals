@@ -28,11 +28,3 @@ one entrance per subject. start with the short explanation, then follow the repo
 
 - **[ai trading-performance narratives](ai-performance-narrative-audit-2026/START_HERE.md)** — archived.
 - **[gen z political participation: early framework](gcr-01/README.md)** — archived.
-
-## separate branch
-
-[telenor and myanmar — research branch](https://github.com/npccryptodude-hash/npcsignals/blob/research/telenor-myanmar-2026/research/telenor-myanmar/README.md) is not merged into this archive. its own dated research status applies. this audit does not merge or certify it.
-
-## preservation and quality
-
-original sources, technical bundles and dated checkpoints remain in place. the [quality report](../archive-maintenance/REPORT.md) explains known integrity exceptions, the gamdom verification adapter and preserved source-link defects. [status definitions](READING_GUIDE.md) distinguish work status from evidence strength.

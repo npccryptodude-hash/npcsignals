@@ -10,7 +10,7 @@ we document verifiable events, financial movements, institutional decisions and 
 
 - [investigations and research](research/INDEX.md) — choose a subject and open its short explanation.
 - [how to read the evidence](research/READING_GUIDE.md) — evidence labels, timelines, original sources and research status.
-- [archive quality and preservation](archive-maintenance/REPORT.md) — checks, known exceptions and reproducibility.
+- [current archive status](archive-maintenance/CURRENT_STATUS.md) — merged updates, research limits and preserved audit records.
 
 no knowledge of git, programming or blockchain technology is needed to begin. reports explain the case; transaction records and technical datasets allow closer checking.
 
