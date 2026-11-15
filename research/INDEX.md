@@ -11,8 +11,8 @@ This page is a navigation index. It does not replace source ledgers or original 
 | frogman wallet drain | [main case](frogman-wallet-drain/README.md) | ongoing investigation |
 | zyrox | [main case](zyrox-investigation/README.md) · [post-freeze](zyrox-investigation-post-freeze/) | ongoing investigation |
 | glitch | [evidence](glitch-investigation/) | ongoing investigation |
-| gamdom | [incident overview](gamdom-incident-2026-10/README.md) | ongoing investigation |
-| gamdom individual records | [g006](gamdom-incident-2026-10-g006/) · [g008](gamdom-incident-2026-10-g008/) · [g009](gamdom-incident-2026-10-g009/) · [g010](gamdom-incident-2026-10-g010/) · [g011](gamdom-incident-2026-10-g011/) · [g012](gamdom-incident-2026-10-g012/) · [g013](gamdom-incident-2026-10-g013/) · [g014](gamdom-incident-2026-10-g014/) · [g015](gamdom-incident-2026-10-g015/) | evidence records |
+| gamdom | [incident overview](gamdom/g005/README.md) | ongoing investigation |
+| gamdom individual records | [g006](gamdom/g006/) · [g008](gamdom/g008/) · [g009](gamdom/g009/) · [g010](gamdom/g010/) · [g011](gamdom/g011/) · [g012](gamdom/g012/) · [g013](gamdom/g013/) · [g014](gamdom/g014/) · [g015](gamdom/g015/) | evidence records |
 | exchange attribution / binance | [evidence archive](evidence/binance-v2.0-2026-10-14/README.md) · [audit](audits/binance-v2.0-2026-10-14/VERIFICATION_REPORT.md) | under verification |
 
 ## society, institutions and public claims
