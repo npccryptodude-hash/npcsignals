@@ -42,4 +42,4 @@ these are availability/content checks, not perpetual availability guarantees or 
 
 the edited entrances use short paragraphs, lists, descriptive links and no tables. the recorded click paths are reviewer walkthroughs, not recruited-user tests. no new physical iphone/safari test is claimed. the prior accepted mobile-width result remains historical and unchanged.
 
-the final public-branch check verifies the six changed/added files and their linked repository targets against the draft branch. main is not changed by this pull request. unresolved research provenance is detailed in [the editorial review](EDITORIAL_REVIEW_2026-11-15.md); link success and byte preservation do not resolve it.
+the public-branch check returned http 200 for all 31 tested github urls: the six changed/added files and their linked repository targets on the draft branch. the published git tree matched the locally validated tree exactly. main is not changed by this pull request. unresolved research provenance is detailed in [the editorial review](EDITORIAL_REVIEW_2026-11-15.md); link success and byte preservation do not resolve it.
