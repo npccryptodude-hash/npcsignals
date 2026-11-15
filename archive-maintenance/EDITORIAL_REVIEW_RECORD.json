@@ -1,0 +1,475 @@
+{
+  "review_date": "2026-11-15",
+  "base_commit": "45682ee3879d20d703e04fe3e1d5a4fd96e939e8",
+  "scope": "editorial reading of entrances, central conclusions, methods, limitations and source references; selected row and source checks, not independent re-adjudication of every finding; long documents reviewed with emphasis on relevant sections",
+  "subjects": [
+    {
+      "subject": "frogman wallet drain",
+      "research_status_unchanged": "ongoing investigation",
+      "quality_rating_after": "needs improvement",
+      "central_documents_reviewed": [
+        {
+          "path": "research/frogman-wallet-drain/START_HERE.md",
+          "sha256": "4a4433026a614a40eceb112eb67174ee13af42f260885997b76cc1a265b96faf"
+        },
+        {
+          "path": "research/frogman-wallet-drain/audit_2026_11_13/TECHNICAL_REPORT.md",
+          "sha256": "0ce0d8cf7893c94db151516ed72e257a476ed86b90bcf58cbe18ee6d6465801e"
+        },
+        {
+          "path": "research/frogman-wallet-drain/audit_2026_11_13/ADDITIONAL_FINDINGS.md",
+          "sha256": "5882c3b1aa3db7521de419b354464fd76bd6a7a84e51af6d389cdeaab20c43b8"
+        },
+        {
+          "path": "research/frogman-wallet-drain/audit_2026_11_13/LIMITATIONS.md",
+          "sha256": "a448cc971a8371d8599b0563b193df9ec67e26d5042c358b945a86b8d73fbe57"
+        },
+        {
+          "path": "research/frogman-wallet-drain/v0.2/methodology_and_reproducibility_v0.2.md",
+          "sha256": "0e6f28f0dfb33156a964f96c7464547b2ff892f892f392ad6dccc9ecee50c576"
+        }
+      ]
+    },
+    {
+      "subject": "zyrox token launch",
+      "research_status_unchanged": "ongoing investigation",
+      "quality_rating_after": "needs improvement",
+      "central_documents_reviewed": [
+        {
+          "path": "research/zyrox-investigation/START_HERE.md",
+          "sha256": "8b4d70536dd3636f80931c377a86b227cc555829ad4f922ff38c64c139cebc84"
+        },
+        {
+          "path": "research/zyrox-investigation/report/ZYROX_Main_Report_v1_1_Verified.md",
+          "sha256": "36202850247d59f4b999d9fa03ab911de165d43538930ae801bda959259ed801"
+        },
+        {
+          "path": "research/zyrox-investigation/evidence/EVIDENCE_GUIDE.md",
+          "sha256": "528a5835c0049b69931cb39cc15d940b3b9682257fe282b68434e934737cf3aa"
+        },
+        {
+          "path": "research/zyrox-investigation/evidence/TRANSACTION_LINKS.md",
+          "sha256": "de60b2febdf9c2d6d1952e2767d1ada28a4b3a39d535ef317361681b96a59fed"
+        }
+      ]
+    },
+    {
+      "subject": "gamdom incident",
+      "research_status_unchanged": "ongoing investigation",
+      "quality_rating_after": "needs improvement",
+      "central_documents_reviewed": [
+        {
+          "path": "research/gamdom/README.md",
+          "sha256": "6e0e3520bd885ec0067e08097c8f7e7891b92fef045bda217dfba7072f2f69a7"
+        },
+        {
+          "path": "research/gamdom/g015/README.md",
+          "sha256": "aa3aa9deae2b9a5993ae0081ca4c29c495a41b9f10fdd18a2d77938209e73dcf"
+        },
+        {
+          "path": "research/gamdom/g015/coverage_report.md",
+          "sha256": "c053d968132ad866715c34b554077f95b6afc425e89aa635e3b363ea4ca1f35c"
+        },
+        {
+          "path": "research/gamdom/g015/loss_reconciliation.md",
+          "sha256": "2d1c423d6a7f4277ba32333eba0859eab35b6bd8bdd9a4715f630b0327b577bf"
+        },
+        {
+          "path": "research/gamdom/g015/primary_source_assessment.md",
+          "sha256": "b7af07481f6c341331288ce6a625215dd8ced6fd4d1318330b2925797f494be4"
+        },
+        {
+          "path": "research/gamdom/g015/wallet_attribution_matrix.md",
+          "sha256": "c4cd730258d2b7ad90db95024822303676ed4ccd2fba05ffecd7768fefd29aaf"
+        }
+      ]
+    },
+    {
+      "subject": "glitch token launch",
+      "research_status_unchanged": "ongoing investigation",
+      "quality_rating_after": "good",
+      "central_documents_reviewed": [
+        {
+          "path": "research/glitch-investigation/README.md",
+          "sha256": "a39b0040a837e7febdb1739da92bfcb6e5d6e4c21f537629873d88a90e91fee4"
+        },
+        {
+          "path": "research/zyrox-investigation-post-freeze/control-attribution-2026-10-14/README.md",
+          "sha256": "d7aff06e984fd569d6d760748a0800bec0a37b5667cd92a80f9bb1f88246788c"
+        }
+      ]
+    },
+    {
+      "subject": "binance incident reconstruction",
+      "research_status_unchanged": "ongoing investigation",
+      "quality_rating_after": "needs improvement",
+      "central_documents_reviewed": [
+        {
+          "path": "research/binance-incident/README.md",
+          "sha256": "4eb384b90e0adac18249c66580179a67c66c633838a5731ad98e2899d2974e53"
+        },
+        {
+          "path": "visual-evidence/binance-2026/case-guide-start-to-2026-11-07.md",
+          "sha256": "f5adfe7493d38b41253a1342591efb05205a30b1222a082b1d22997e71d59802"
+        },
+        {
+          "path": "visual-evidence/binance-2026/b016-fbi-attribution-20261101.md",
+          "sha256": "b76dfab46a5bbb81f305588118fe044e91ebb70c24dbf15b7fd40fdd69e41b6c"
+        },
+        {
+          "path": "visual-evidence/binance-2026/b017-weekly-developments-2026-11-01-to-07.md",
+          "sha256": "6b0d38ba37c075e3cb11b5a2d4d149415026b09a8f076e01ee528ecc757dbc58"
+        }
+      ]
+    },
+    {
+      "subject": "exchange-attributed wallet transfers",
+      "research_status_unchanged": "under verification",
+      "quality_rating_after": "good",
+      "central_documents_reviewed": [
+        {
+          "path": "research/exchange-attribution/README.md",
+          "sha256": "0366ed350fcc982ac2e8e06c8d5632996336f8764c8b4112788a75974c402e6b"
+        },
+        {
+          "path": "research/evidence/binance-v2.0-2026-10-14/README.md",
+          "sha256": "31bedee5cb1d2e3bb72caeaedce71a015ca1524a7b2a7c3b15e3908ea9cd4db3"
+        },
+        {
+          "path": "research/evidence/binance-v2.0-2026-10-14/documentation-reconciliation.md",
+          "sha256": "dcf54376b30f1c630ff44598ac3179e387164f1cc8b75ef27f7705b05fe62bce"
+        }
+      ]
+    },
+    {
+      "subject": "gen z movements and institutional change",
+      "research_status_unchanged": "ongoing research",
+      "quality_rating_after": "requires verification",
+      "central_documents_reviewed": [
+        {
+          "path": "research/gen-z-movements-evidence-archive/START_HERE.md",
+          "sha256": "6fd06c06906ea47b5a6e72c071d97294468cb3ae656ec6d6980f4aee684ee28b"
+        },
+        {
+          "path": "research/gen-z-movements-evidence-archive/README.md",
+          "sha256": "73d273b3a85195e9043f578f269938289187c9237b17b2b47aebf9f30236f42f"
+        },
+        {
+          "path": "research/gen-z-movements-evidence-archive/COMPARATIVE_FRAMEWORK.md",
+          "sha256": "f01eafa53aeead44b75b4f6823c52b35dac87ad4a1482e7374f6aa963e90a972"
+        },
+        {
+          "path": "research/gen-z-movements-evidence-archive/EVIDENCE_LEDGER.md",
+          "sha256": "335e647bb766cc962bf4e5f8acd8618c2093ed895dfd5048599ca2a7412b110d"
+        },
+        {
+          "path": "research/gen-z-movements-evidence-archive/UPDATE_LOG.md",
+          "sha256": "1ed2b5387f25dbd67acacc0a91f15cd0c1efa903ea362cc90ca6cc65453e08ea"
+        },
+        {
+          "path": "research/gen-z-movements-evidence-archive/SOURCE_INDEX.md",
+          "sha256": "6d65f92a16781f8ac81e5c15cb6a94bc1ad4d407601ce8fce73b0b64b3ff0a34"
+        },
+        {
+          "path": "research/gen-z-movements-evidence-archive/DOCUMENT_LINK_MANIFEST.md",
+          "sha256": "7c7882f96c421c500bfaf88ebd273dbdf60e81e405302a80ac38bcf11ec3d166"
+        },
+        {
+          "path": "research/gen-z-movements-evidence-archive/CASE_THAILAND_2020_2026.md",
+          "sha256": "498293f0c2a5bebbab3e5318cb4e4a9c2522c3a57b8d78c2b207612a1c5b718a"
+        },
+        {
+          "path": "research/gen-z-movements-evidence-archive/CASE_BANGLADESH_2024_2026.md",
+          "sha256": "0127570fb35d3acb9f5bbb7dc30fa8aeda71d89cfe0966fe88666684c5bd0f60"
+        },
+        {
+          "path": "research/gen-z-movements-evidence-archive/CASE_SERBIA_2024_2026.md",
+          "sha256": "b836c3a3ddd1e1453afca4998ebb391b555bde941b3846a2c81ef55ddaa4bff1"
+        },
+        {
+          "path": "research/gen-z-movements-evidence-archive/CASE_FRANCE_2026.md",
+          "sha256": "f4f4a58386ddade0c573b420c06e5e3b62397cb1c5da443a5620b260f58a0147"
+        }
+      ]
+    },
+    {
+      "subject": "democratic representation and governing power",
+      "research_status_unchanged": "ongoing research",
+      "quality_rating_after": "requires verification",
+      "central_documents_reviewed": [
+        {
+          "path": "research/democratic-representation-stress-test-2026/START_HERE.md",
+          "sha256": "a148f8143b779acdfe5b118c54713d783baea3b7b1fd276ffd6393c254a832e1"
+        },
+        {
+          "path": "research/democratic-representation-stress-test-2026/README.md",
+          "sha256": "1c98e3e83a3d9075857da0b1a895c826b52645cc63bedc033356801774e0ef8f"
+        },
+        {
+          "path": "research/democratic-representation-stress-test-2026/METHODS.md",
+          "sha256": "6eeb180762bf30f26d94c1170e337db02026d5b63fb54cc037532869ba959e2e"
+        },
+        {
+          "path": "research/democratic-representation-stress-test-2026/FINDINGS_LEDGER.md",
+          "sha256": "f7fe1743ae4023153b71ca0a681ea1dd52aa99167c36128baa00be8c054da966"
+        },
+        {
+          "path": "research/democratic-representation-stress-test-2026/PRE_SCORE_FREEZE_v1.1.md",
+          "sha256": "3797f50e0763755e2ffe1f54a7b44399b9c538af3eeea5c072c5b87070731dba"
+        },
+        {
+          "path": "research/democratic-representation-stress-test-2026/AUDIT_LEDGER_v1.2.md",
+          "sha256": "b78236ba65cdc605222262be92627cd8a608cda23d00dd125e701a8ab75d82da"
+        },
+        {
+          "path": "research/democratic-representation-stress-test-2026/FINAL_TEMPORAL_SOURCE_AUDIT_v1.0.md",
+          "sha256": "20d2a1406f861fbb90bc60680af78c48939135278d71292e235e34ae9f9bc94f"
+        }
+      ]
+    },
+    {
+      "subject": "demographic change and electoral competition",
+      "research_status_unchanged": "archived",
+      "quality_rating_after": "needs improvement",
+      "central_documents_reviewed": [
+        {
+          "path": "research/ddr-01/README.md",
+          "sha256": "e9bcf9ff1db7a947fcc7e36ad3ba698ee56fc0fa8595999738b6281c7649e7bb"
+        },
+        {
+          "path": "research/democratic-representation-stress-test-2026/DDR01_ARCHIVE_SUMMARY_v1.0.md",
+          "sha256": "6df552b38f63f07803aac334e9ea8d095fa0cc0a61ba76950fd8e5863dedfad6"
+        },
+        {
+          "path": "research/democratic-representation-stress-test-2026/DDR01_CROSS_COUNTRY_LEDGER_v1.0.md",
+          "sha256": "2b8113c2099d2f4f25a385a003e26188acb5768c1c9aff838d4aa9569b9bea4f"
+        }
+      ]
+    },
+    {
+      "subject": "norway: welfare buildings and public capacity",
+      "research_status_unchanged": "ongoing research",
+      "quality_rating_after": "good",
+      "central_documents_reviewed": [
+        {
+          "path": "research/norway-welfare-infrastructure-2001-2036/START_HERE.md",
+          "sha256": "ed4b18956f2ae6750e8ca0a7da4679b636a83af33b41f7a6b21cd88062300f8c"
+        },
+        {
+          "path": "research/norway-welfare-infrastructure-2001-2036/deep-research-en.md",
+          "sha256": "0dcc0fb57e415b48af0a6cfc58774ac5d4f1ef6d4d1694c7c47ce18262a772d5"
+        },
+        {
+          "path": "research/norway-welfare-infrastructure-2001-2036/findings.md",
+          "sha256": "7e321e016464bdcbf4ec171a648465a9c6b7e35df6ad8c43daf3f1a9f7f79608"
+        },
+        {
+          "path": "research/norway-welfare-infrastructure-2001-2036/methodology.md",
+          "sha256": "fc1d0c5ac408ce2e01c9d115372f34d0ecc32649271615a0998a3a3f18599984"
+        },
+        {
+          "path": "research/norway-welfare-infrastructure-2001-2036/final-verification-2026-11-04.md",
+          "sha256": "3d3b2524bad239d4d1c73437aab2838696155bc1f88b390e678c01c7ae8a5544"
+        },
+        {
+          "path": "research/norway-welfare-infrastructure-2001-2036/full-check-status-2026-11-04.md",
+          "sha256": "25e99c60e05035a6cbfabadc735735c3c1e5ed35f4c2df215b0f7450430e303b"
+        },
+        {
+          "path": "research/norway-welfare-infrastructure-2001-2036/unresolved.md",
+          "sha256": "12426e43f207f32eb95be1c824232242f8051bb580705f03fe3ff554c0afec9b"
+        }
+      ]
+    },
+    {
+      "subject": "presidential claims and supporting evidence",
+      "research_status_unchanged": "under verification",
+      "quality_rating_after": "requires verification",
+      "central_documents_reviewed": [
+        {
+          "path": "research/presidential-claim-stress-test-2025-2026/START_HERE.md",
+          "sha256": "d237cf2952a85f420f5fd5b2fdbb96bfca05d8a338b6509903acc8ade3ecf789"
+        },
+        {
+          "path": "research/presidential-claim-stress-test-2025-2026/README.md",
+          "sha256": "4d0d1268bfc11850338c5d166f0d8c20ab50d9b00865db10e6f7794f5df0fab4"
+        },
+        {
+          "path": "research/presidential-claim-stress-test-2025-2026/CHANGELOG.md",
+          "sha256": "57afa401eee9b9cad01aea65a718c0a253af38815867353bee091b4ce63523ef"
+        },
+        {
+          "path": "research/presidential-claim-stress-test-2025-2026/UNGA-2026-SPEECH-SUPPLEMENT.md",
+          "sha256": "2c033e44545401ee792b9d91e9fdf1aaa8acaa534e871806c46f87db8e658905"
+        },
+        {
+          "path": "research/presidential-claim-stress-test-2025-2026/NPCsignals_Presidential_Claim_Stress_Test_Ledger_v1.0.xlsx",
+          "sha256": "2ff8be2c756ddc73f0c7ce24ab9afdf59f2e2b5158404347c5766db949671222"
+        },
+        {
+          "path": "research/presidential-claim-stress-test-2025-2026/NPCsignals_Trump_Claim_Stress_Test_Blind_Second_Pass (1).xlsx",
+          "sha256": "d618142444374f5e4419b4620c7e87313516741affb86a38d89e5bf347d5b4d5"
+        }
+      ]
+    },
+    {
+      "subject": "netanyahu: un speech claim audit",
+      "research_status_unchanged": "archived",
+      "quality_rating_after": "requires verification",
+      "central_documents_reviewed": [
+        {
+          "path": "research/netanyahu-unga-2026-claim-stress-test/START_HERE.md",
+          "sha256": "cc9c144fcde0333dcbfcd9776805d68f0bde26e4efabc4b8537df5b3ab820c72"
+        },
+        {
+          "path": "research/netanyahu-unga-2026-claim-stress-test/findings.md",
+          "sha256": "a27bb8a3cd57d1ac27b3b12a5328faeca6f67b81ca9a39b1cbfc648eac4fda29"
+        },
+        {
+          "path": "research/netanyahu-unga-2026-claim-stress-test/methodology.md",
+          "sha256": "dc77e0cce2c1b21c573d5442d0f6ae3cada034d38784a5fcbcd4ce4bc018bae7"
+        },
+        {
+          "path": "research/netanyahu-unga-2026-claim-stress-test/source-notes.md",
+          "sha256": "46fb9013c1407ab4ec4f31c436488405f939b21442c465c0082a58132e06e3ec"
+        },
+        {
+          "path": "research/netanyahu-unga-2026-claim-stress-test/contradiction-log.md",
+          "sha256": "c2578b07050559f035e514709b85f3558218aa8fe75a661a2a4c4404f21f21ea"
+        },
+        {
+          "path": "research/netanyahu-unga-2026-claim-stress-test/article/medium-draft.md",
+          "sha256": "d8ff27cf8fd7591aa7d3757b5af8d890836c0050a59b997f54029d418d2981d5"
+        },
+        {
+          "path": "research/netanyahu-unga-2026-claim-stress-test/final-evidence-ledger.csv",
+          "sha256": "913be8e6c8a08b165046402dec81d364c4e0298e33cf590efb29bcf249a0d464"
+        }
+      ]
+    },
+    {
+      "subject": "tennessee execution protocol",
+      "research_status_unchanged": "under verification",
+      "quality_rating_after": "needs improvement",
+      "central_documents_reviewed": [
+        {
+          "path": "research/tennessee-execution-protocol-stress-test-2026/START_HERE.md",
+          "sha256": "581ffaaf9b4289f23fb8703428d9ddc788f9a21066aa23c9dfcf79135c3433d8"
+        },
+        {
+          "path": "research/tennessee-execution-protocol-stress-test-2026/README.md",
+          "sha256": "01f4bb18f4914167db52e0f5745b18343dc2533a4748475784dd6ceed8425734"
+        },
+        {
+          "path": "research/tennessee-execution-protocol-stress-test-2026/protocol-analysis.md",
+          "sha256": "d38ecf38ce5b8c31170e5bcecaa0bcf1c454bbb166b4b88104c104e572c41e23"
+        },
+        {
+          "path": "research/tennessee-execution-protocol-stress-test-2026/sources.md",
+          "sha256": "6779a6a50aacb62679ae95e28bab549d90ea9942e2a174b20235bc802e3c3f02"
+        },
+        {
+          "path": "research/tennessee-execution-protocol-stress-test-2026/unresolved.md",
+          "sha256": "af301a5d37e6aad326446ef9c537e2095c940896a67819b2fd7b7bd9227aa8a6"
+        }
+      ]
+    },
+    {
+      "subject": "ibrahim traoré: documented record and online claims",
+      "research_status_unchanged": "archived",
+      "quality_rating_after": "requires verification",
+      "central_documents_reviewed": [
+        {
+          "path": "research/traore-narrative-audit-2026/START_HERE.md",
+          "sha256": "df8af1149484a53e9e8277581ec64be01f9d8e65b65c93f0fe714d3f93739998"
+        },
+        {
+          "path": "research/traore-narrative-audit-2026/README.md",
+          "sha256": "2ec6a417bed2d3b3d582283a91997c0acb8c8fdaa296d607164da31114a133ae"
+        },
+        {
+          "path": "research/traore-narrative-audit-2026/findings.md",
+          "sha256": "63c60b7aea1f78cadaf4aaaa867f81e8eff095d2ac046d3cac55949773dafb3f"
+        },
+        {
+          "path": "research/traore-narrative-audit-2026/methodology.md",
+          "sha256": "28dcd4a2bbc6ceb42f08ee795ef5b0e5b65ebaebd64b29118c0cdf5c8fa3fea3"
+        },
+        {
+          "path": "research/traore-narrative-audit-2026/sample-summary.md",
+          "sha256": "8483c9af0369629653e2167ffd5ce6554fd799d458bfc6d014d7c836c4dde7e3"
+        },
+        {
+          "path": "research/traore-narrative-audit-2026/contradiction-log.md",
+          "sha256": "5b701244a55d9ee37adee49d67e3772dd3fa1ce2f813427530cd5acb8aabb489"
+        },
+        {
+          "path": "research/traore-narrative-audit-2026/article/medium-draft.md",
+          "sha256": "2dd04002ce9aa6ffee6283c82a9d574536bc0f704426821a02e788065ac92a75"
+        },
+        {
+          "path": "research/traore-narrative-audit-2026/evidence-ledger.csv",
+          "sha256": "5fb4fca9ce8a9c3dca475b811215a5fbadbdb7ff0f51811d9a3301b962281794"
+        }
+      ]
+    },
+    {
+      "subject": "ai trading-performance narratives",
+      "research_status_unchanged": "archived",
+      "quality_rating_after": "good",
+      "central_documents_reviewed": [
+        {
+          "path": "research/ai-performance-narrative-audit-2026/START_HERE.md",
+          "sha256": "fa43a99edbb64a4045f732b84d5e722581ae44486924645fc21bf24e4c8af5ff"
+        },
+        {
+          "path": "research/ai-performance-narrative-audit-2026/README.md",
+          "sha256": "b83a91c586282512adc7a6baa8e821a1b569ac1849ee6b276cfead524aeea65d"
+        },
+        {
+          "path": "research/ai-performance-narrative-audit-2026/article-longform.md",
+          "sha256": "baea4287f065ebbfaaedb2db6feb296af9686a4c87e74ce4759d733dbd8728e9"
+        },
+        {
+          "path": "research/ai-performance-narrative-audit-2026/methodology.md",
+          "sha256": "16f24ad240b6e50a0541c741cdc5d826bcc41ca9edbea4d2a152073c1f9dd250"
+        },
+        {
+          "path": "research/ai-performance-narrative-audit-2026/source-index.md",
+          "sha256": "137febc90f04417ec7ab3e9d04d9d65b64423c9e67213aaf92c403492ef09d8e"
+        },
+        {
+          "path": "research/ai-performance-narrative-audit-2026/limitations.md",
+          "sha256": "50bfa910198b8fa501b84f961429ba12de5982384fc2ab2c7c40d15883182530"
+        },
+        {
+          "path": "research/ai-performance-narrative-audit-2026/corrections.md",
+          "sha256": "9dd5a2f9ddf149926deaed8bd2f056461c8b7c8d107cdc58c5c67c8a8dcb9adf"
+        },
+        {
+          "path": "research/ai-performance-narrative-audit-2026/FREEZE-READINESS.md",
+          "sha256": "cedd579b6f01f860d67f5a5e9ea2ecdef12207d7fb6100b526b46febdd8e0e74"
+        },
+        {
+          "path": "research/ai-performance-narrative-audit-2026/evidence-ledger-v1.0.csv",
+          "sha256": "11cfce0862e8d4c5913229b31b33e8e023a2a22d8957f4f816ee865cc9dbb49c"
+        }
+      ]
+    },
+    {
+      "subject": "gen z political participation: early framework",
+      "research_status_unchanged": "archived",
+      "quality_rating_after": "requires verification",
+      "central_documents_reviewed": [
+        {
+          "path": "research/gcr-01/README.md",
+          "sha256": "7f480bfdd5381cfb4ec25b641719edb9cd00c2311f6527cf64b92a88e9773024"
+        },
+        {
+          "path": "research/gcr-01/GCR01_RESEARCH_FRAME_v0.1.md",
+          "sha256": "381abe9837eab688da67611b82ae42f3b6e9965ad952343bc50d181110bac9ac"
+        }
+      ]
+    }
+  ]
+}
