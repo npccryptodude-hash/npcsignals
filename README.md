@@ -38,7 +38,7 @@ start here: **[browse investigations and research](research/INDEX.md)**
 | --- | --- | --- |
 | frogman wallet drain | [investigation](research/frogman-wallet-drain/README.md) | ongoing investigation |
 | zyrox / glitch | [zyrox](research/zyrox-investigation/README.md) · [glitch](research/glitch-investigation/) | ongoing investigation / historical evidence |
-| gamdom incident | [case index](research/gamdom-incident-2026-10/README.md) | ongoing investigation |
+| gamdom incident | [case index](research/gamdom/g005/README.md) | ongoing investigation |
 | gen z movements | [evidence archive](research/gen-z-movements-evidence-archive/README.md) | ongoing research |
 | democratic representation | [research](research/democratic-representation-stress-test-2026/README.md) | ongoing research |
 | ai performance narratives | [audit](research/ai-performance-narrative-audit-2026/README.md) | archived audit |
