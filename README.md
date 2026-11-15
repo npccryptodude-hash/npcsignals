@@ -30,31 +30,19 @@ or are we
 
 ---
 
-## Research archive
+## research archive
 
-### DDR-01 — Demographic Change & Electoral Competition
+start here: **[browse investigations and research](research/INDEX.md)**
 
-**Current version:** v1.2  
-**v1.0 freeze point:** 19 September 2026  
-**v1.1 update:** Germany 2026 state-election addendum  
-**v1.2 freeze point:** 21 September 2026  
-**v1.2 update:** Scope expanded to the full 15-country comparative stress test  
-**Classification:** NOT A SIGNAL
+| subject | archive | status |
+| --- | --- | --- |
+| frogman wallet drain | [investigation](research/frogman-wallet-drain/README.md) | ongoing investigation |
+| zyrox / glitch | [zyrox](research/zyrox-investigation/README.md) · [glitch](research/glitch-investigation/) | ongoing investigation / historical evidence |
+| gamdom incident | [case index](research/gamdom-incident-2026-10/README.md) | ongoing investigation |
+| gen z movements | [evidence archive](research/gen-z-movements-evidence-archive/README.md) | ongoing research |
+| democratic representation | [research](research/democratic-representation-stress-test-2026/README.md) | ongoing research |
+| ai performance narratives | [audit](research/ai-performance-narrative-audit-2026/README.md) | archived audit |
 
-DDR-01 is a 15-country stress test of whether demographic change enters electoral competition through observable mechanisms, while separating direct electoral participation, indirect political reaction, partial evidence, null/insufficient cases, and non-comparable cleavage systems.
+Other investigations, claim audits and technical evidence are linked in the [full index](research/INDEX.md). Original evidence files and historical versions remain in place.
 
-Current files:
-
-- [DDR-01 archive summary v1.2](research/ddr-01/DDR01_ARCHIVE_SUMMARY_v1.2.md)
-- [DDR-01 cross-country ledger v1.2](research/ddr-01/DDR01_CROSS_COUNTRY_LEDGER_v1.2.md)
-
-Earlier versions remain preserved:
-
-- [DDR-01 archive summary v1.1](research/ddr-01/DDR01_ARCHIVE_SUMMARY_v1.1.md)
-- [DDR-01 cross-country ledger v1.1](research/ddr-01/DDR01_CROSS_COUNTRY_LEDGER_v1.1.md)
-- [DDR-01 archive summary v1.0](research/ddr-01/DDR01_ARCHIVE_SUMMARY_v1.0.md)
-- [DDR-01 cross-country ledger v1.0](research/ddr-01/DDR01_CROSS_COUNTRY_LEDGER_v1.0.md)
-
-Core result:
-
-> Mechanism confirmed. Direction unresolved. Structural break absent.
+**status labels**: ongoing investigation · ongoing research · under verification · completed · archived. A status label describes the work, not the truth or legal outcome of a claim.
