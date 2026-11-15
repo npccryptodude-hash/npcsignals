@@ -22,4 +22,4 @@ BSC JSON-RPC responds, with affected-address nonce 4 and candidate receiving-add
 
 New request/response records are in raw_sources. Run decode_and_verify_conversion.py with OpenSSL to verify the binary signatures. Run reconcile_accounting.py against the sibling frozen archive directory to reproduce accounting. build_update.py regenerates only this checkpoint ledger; do not run after appending later IDs. Source snapshots establish observed state at retrieval, not historical deployed bytecode equivalence. Some collection scripts retain investigative queries and are not comprehensive address-history scanners.
 
-Next priority: acquire independent EVM transaction history and verify Relay request identifiers against both source deposits and destination fills. A protocol API label alone is insufficient for provenance continuity. No identity, compromise method, exchange freeze, recovery or ultimate beneficiary has been established.
+A protocol API label alone is insufficient for provenance continuity. No identity, compromise method, exchange freeze, recovery or ultimate beneficiary has been established.
