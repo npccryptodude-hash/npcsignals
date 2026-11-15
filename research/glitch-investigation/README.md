@@ -26,6 +26,9 @@ ongoing investigation. this label describes the research work, not guilt, legal 
 
 ## read the evidence
 
+- [read the visual explanation](../zyrox-investigation-post-freeze/control-attribution-2026-10-14/VISUAL_STORY.md)
+- [inspect the preserved original transaction response](../zyrox-investigation-post-freeze/control-attribution-2026-10-14/raw/3ttmcRNck85nUEcnaTZ3nmMWpq9sAdCwjq8EF56Zz4wzsi3dz2AB1G18FibKKmqNzShVexFVanogoAUSJeJXojy1.rpc.json)
+- [check the consolidation amounts and signers](../zyrox-investigation-post-freeze/control-attribution-2026-10-14/consolidation-audit.json)
 - [read the later primary-receipt findings](<../zyrox-investigation-post-freeze/control-attribution-2026-10-14/README.md>)
 - [read the evidence referral with explicit limits](<../authority-handover/2026-10-14/ZYROX_GLITCH_EVIDENCE_HANDOVER_EN_v1_0.md>)
 - [review the eight-transfer checkpoint](<GLITCH_v0.20_MEXC_recovered_eight_receipts.md>)

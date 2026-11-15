@@ -26,6 +26,8 @@ ongoing investigation. this label describes the research work, not guilt, legal 
 
 ## read the evidence
 
+- [read the loss-accounting explanation](g015/loss_reconciliation.md)
+- [check what is known about source-wallet ownership](g015/wallet_attribution_matrix.md)
 - [read the ownership and principal audit](<g015/README.md>)
 - [read the original incident reconstruction](<g005/README.md>)
 - [understand the payout-evidence boundary](<g014/README.md>)
