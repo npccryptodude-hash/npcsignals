@@ -54,5 +54,3 @@ a **historical reconstruction with a transparent 13 november research-status not
 - [receipt source ledger](./PRIMARY_TRANSACTION_CHECKS_2026-11-12.md)
 - [read-only arbitrum verifier](./verify_arbitrum_receipts.py)
 - [hyperliquid first-party verification limitation](./HYPERLIQUID_FIRST_PARTY_CHECK_2026-11-12.md)
-
-**next reproducible milestone:** obtain an arbitrum rpc and hyperliquid info api response, capture raw timestamped outputs, verify all 35 receipts, map unique addresses to the seven earlier accounts, and compare fills and withdrawals against the historical checkpoint. update this gate before making any stronger current-status claim.
