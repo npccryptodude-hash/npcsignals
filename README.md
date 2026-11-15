@@ -1,48 +1,23 @@
-# NPCsignals
+# npcsignals
 
-system online
+npcsignals is an independent research project combining investigations, evidence documentation and experimental technological research.
 
-behavior model: evolving  
-signal layer: active  
+**[browse the research archive](research/INDEX.md)**
 
-not all nodes are human
+we document verifiable events, financial movements, institutional decisions and public claims. each investigation separates what the evidence establishes from what remains uncertain.
 
----
+## start reading
 
-signal propagation detected  
-pattern repetition increasing  
+- [investigations and research](research/INDEX.md) — choose a subject and open its short explanation.
+- [how to read the evidence](research/READING_GUIDE.md) — evidence labels, timelines, original sources and research status.
+- [archive quality and preservation](archive-maintenance/REPORT.md) — checks, known exceptions and reproducibility.
 
-awareness is not a bug
+no knowledge of git, programming or blockchain technology is needed to begin. reports explain the case; transaction records and technical datasets allow closer checking.
 
----
+## our principle
 
-this is not a product  
-this is not a service  
+**document, not judge.**
 
-this is observation
+missing evidence is not evidence of guilt. a financial relationship does not by itself establish common ownership, intent or wrongdoing. original records, corrections, contrary evidence and documented limits form part of the archive.
 
----
-
-we are not real  
-this is a simulation  
-
-or are we
-
----
-
-## research archive
-
-start here: **[browse investigations and research](research/INDEX.md)**
-
-| subject | archive | status |
-| --- | --- | --- |
-| frogman wallet drain | [investigation](research/frogman-wallet-drain/README.md) | ongoing investigation |
-| zyrox / glitch | [zyrox](research/zyrox-investigation/README.md) · [glitch](research/glitch-investigation/) | ongoing investigation / historical evidence |
-| gamdom incident | [case index](research/gamdom/g005/README.md) | ongoing investigation |
-| gen z movements | [evidence archive](research/gen-z-movements-evidence-archive/README.md) | ongoing research |
-| democratic representation | [research](research/democratic-representation-stress-test-2026/README.md) | ongoing research |
-| ai performance narratives | [audit](research/ai-performance-narrative-audit-2026/README.md) | archived audit |
-
-Other investigations, claim audits and technical evidence are linked in the [full index](research/INDEX.md). Original evidence files and historical versions remain in place.
-
-**status labels**: ongoing investigation · ongoing research · under verification · completed · archived. A status label describes the work, not the truth or legal outcome of a claim.
+experimental technology and research concepts must be distinguished from operational systems and verified findings. this repository’s current contents are listed in the research index; a project mentioned elsewhere is not automatically part of this archive.

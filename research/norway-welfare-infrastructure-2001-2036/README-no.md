@@ -40,7 +40,7 @@ Programlogikk:
 - [unresolved-no.md](unresolved-no.md)
 - [contradiction-log-no.md](contradiction-log-no.md)
 - [model-derivation-and-macro-scale-no.md](model-derivation-and-macro-scale-no.md)
-- [external-review-notes-2026-09-30-no.md](external-review-notes-2026-09-30-no.md)
+- [external-review-notes-2026-09-30-no.md](external-review-notes-2026-09-30.md)
 - [opportunity-cost-stress-test.md](opportunity-cost-stress-test.md)
 
 - [final-verification-2026-10-11.md](final-verification-2026-10-11.md)

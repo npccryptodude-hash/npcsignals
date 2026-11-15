@@ -39,13 +39,9 @@ flowchart LR
 
 **source dates:** the transactions occurred 7 october; the verification review was conducted 12 november. this is not evidence of new november fund movements.
 
-## next steps
+## research status
 
-1. inspect remaining 33 deposit receipts from the published external ledger.
-2. retrieve complete address inventory and compare with the npcsignals v0.2 findings.
-3. verify hyperliquid account credits, fills and withdrawals from first-party records at a timestamped current checkpoint.
-4. avoid promoting third-party reported balances to independently confirmed findings without reproduction.
-
+the deposit inventory, account-credit reconciliation and first-party trading checks contemplated at this checkpoint were subsequently addressed in the [13 november account audit](audit_2026_11_13/ACCOUNT_AUDIT.md). the dated receipt checks below retain their original scope; third-party reported balances require independent reproduction before being described as confirmed.
 
 ## additional verified receipts — 12 november 2026
 

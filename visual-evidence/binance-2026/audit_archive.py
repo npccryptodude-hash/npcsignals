@@ -107,10 +107,11 @@ check("onward 30m tx agreement", b012["30m_branch"]["canonical_usdt_transfer_has
 check("onward 30m raw agreement", Decimal(b015["providers"][0]["records"][-1]["raw_amount"]) == Decimal(30_000_000 * 10**6))
 check("80m contract/no-code split", Decimal(str(b011["canonical_usdt_to_contracts"])) + Decimal(str(b011["canonical_usdt_to_no_contract_code_address"])) == Decimal(80_000_000))
 
-for page in ("README.md", "index.html", "flow.html", "medium-draft.md", "x-draft.md"):
+# Public archive deliverables; editorial drafts are intentionally kept outside GitHub.
+# Maintenance correction: 2026-11-15. Ledger assertions above are unchanged.
+for page in ("README.md", "index.html", "flow.html", "story.html", "VISUAL_STORY.md", "case-guide-start-to-2026-11-07.md"):
     check("page exists " + page, (ROOT / page).is_file())
 check("flow offline no scripts", "<script src=" not in (ROOT / "flow.html").read_text())
-check("draft X link placeholder", "http" not in (ROOT / "x-draft.md").read_text().lower())
 
 print("BINANCE_ARCHIVE_AUDIT: PASS")
 print("CHECKS:", len(checks))
