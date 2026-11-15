@@ -1,0 +1,270 @@
+{
+  "review_date": "2026-11-15",
+  "method": "actual GitHub pages in Chromium, browser zoom producing measured narrow CSS viewports; not user-agent or physical-device emulation",
+  "initial_head": "c1de3499671fe9dd3275cae49dbeb42a101d8b58",
+  "navigation_fix_head": "585e9a6045887e12d5e22591edf9640a62f44ce4",
+  "physical_viewport_before_zoom": [
+    1363,
+    936
+  ],
+  "zoom_levels_percent": [
+    300,
+    400
+  ],
+  "restored_css_viewport": [
+    1363,
+    936
+  ],
+  "observations": [
+    {
+      "label": "research index",
+      "css_width": 454,
+      "css_height": 312,
+      "article_client_width": 383,
+      "article_scroll_width": 383,
+      "document_scroll_width": 449,
+      "tables": 0,
+      "content_links": 21
+    },
+    {
+      "label": "research index",
+      "css_width": 340,
+      "css_height": 234,
+      "article_client_width": 271,
+      "article_scroll_width": 271,
+      "document_scroll_width": 337,
+      "tables": 0,
+      "content_links": 21
+    },
+    {
+      "label": "homepage readme file view",
+      "css_width": 340,
+      "css_height": 234,
+      "article_client_width": 271,
+      "article_scroll_width": 271,
+      "document_scroll_width": 337,
+      "tables": 0,
+      "content_links": 4
+    },
+    {
+      "label": "gamdom",
+      "css_width": 340,
+      "css_height": 234,
+      "article_client_width": 271,
+      "article_scroll_width": 271,
+      "document_scroll_width": 337,
+      "tables": 0,
+      "content_links": 7
+    },
+    {
+      "label": "gamdom",
+      "css_width": 454,
+      "css_height": 312,
+      "article_client_width": 383,
+      "article_scroll_width": 383,
+      "document_scroll_width": 449,
+      "tables": 0,
+      "content_links": 7
+    },
+    {
+      "label": "frogman",
+      "css_width": 454,
+      "css_height": 312,
+      "article_client_width": 383,
+      "article_scroll_width": 383,
+      "document_scroll_width": 449,
+      "tables": 0,
+      "content_links": 8
+    },
+    {
+      "label": "frogman",
+      "css_width": 340,
+      "css_height": 234,
+      "article_client_width": 271,
+      "article_scroll_width": 271,
+      "document_scroll_width": 337,
+      "tables": 0,
+      "content_links": 8
+    },
+    {
+      "label": "zyrox",
+      "css_width": 340,
+      "css_height": 234,
+      "article_client_width": 271,
+      "article_scroll_width": 271,
+      "document_scroll_width": 337,
+      "tables": 0,
+      "content_links": 9
+    },
+    {
+      "label": "zyrox",
+      "css_width": 454,
+      "css_height": 312,
+      "article_client_width": 383,
+      "article_scroll_width": 383,
+      "document_scroll_width": 449,
+      "tables": 0,
+      "content_links": 9
+    },
+    {
+      "label": "glitch",
+      "css_width": 340,
+      "css_height": 234,
+      "article_client_width": 271,
+      "article_scroll_width": 271,
+      "document_scroll_width": 337,
+      "tables": 0,
+      "content_links": 7
+    },
+    {
+      "label": "glitch",
+      "css_width": 454,
+      "css_height": 312,
+      "article_client_width": 383,
+      "article_scroll_width": 383,
+      "document_scroll_width": 449,
+      "tables": 0,
+      "content_links": 7
+    },
+    {
+      "label": "gen z movements",
+      "css_width": 340,
+      "css_height": 234,
+      "article_client_width": 271,
+      "article_scroll_width": 271,
+      "document_scroll_width": 337,
+      "tables": 0,
+      "content_links": 8
+    },
+    {
+      "label": "gen z movements",
+      "css_width": 454,
+      "css_height": 312,
+      "article_client_width": 383,
+      "article_scroll_width": 383,
+      "document_scroll_width": 449,
+      "tables": 0,
+      "content_links": 8
+    },
+    {
+      "label": "norway welfare",
+      "css_width": 340,
+      "css_height": 234,
+      "article_client_width": 271,
+      "article_scroll_width": 271,
+      "document_scroll_width": 337,
+      "tables": 0,
+      "content_links": 8
+    },
+    {
+      "label": "norway welfare",
+      "css_width": 454,
+      "css_height": 312,
+      "article_client_width": 383,
+      "article_scroll_width": 383,
+      "document_scroll_width": 449,
+      "tables": 0,
+      "content_links": 8
+    },
+    {
+      "label": "presidential claims",
+      "css_width": 340,
+      "css_height": 234,
+      "article_client_width": 271,
+      "article_scroll_width": 271,
+      "document_scroll_width": 337,
+      "tables": 0,
+      "content_links": 7
+    },
+    {
+      "label": "presidential claims",
+      "css_width": 454,
+      "css_height": 312,
+      "article_client_width": 383,
+      "article_scroll_width": 383,
+      "document_scroll_width": 449,
+      "tables": 0,
+      "content_links": 7
+    },
+    {
+      "label": "ai performance narratives",
+      "css_width": 340,
+      "css_height": 234,
+      "article_client_width": 271,
+      "article_scroll_width": 271,
+      "document_scroll_width": 337,
+      "tables": 0,
+      "content_links": 8
+    },
+    {
+      "label": "ai performance narratives",
+      "css_width": 454,
+      "css_height": 312,
+      "article_client_width": 383,
+      "article_scroll_width": 383,
+      "document_scroll_width": 449,
+      "tables": 0,
+      "content_links": 8
+    },
+    {
+      "label": "repository homepage",
+      "css_width": 340,
+      "css_height": 234,
+      "article_client_width": 271,
+      "article_scroll_width": 271,
+      "document_scroll_width": 337,
+      "tables": 0,
+      "content_links": 4
+    },
+    {
+      "label": "repository homepage",
+      "css_width": 454,
+      "css_height": 312,
+      "article_client_width": 383,
+      "article_scroll_width": 383,
+      "document_scroll_width": 449,
+      "tables": 0,
+      "content_links": 4
+    },
+    {
+      "label": "glitch after direct source links",
+      "css_width": 340,
+      "css_height": 234,
+      "article_client_width": 271,
+      "article_scroll_width": 271,
+      "document_scroll_width": 337,
+      "tables": 0,
+      "content_links": 10
+    },
+    {
+      "label": "glitch after direct source links",
+      "css_width": 454,
+      "css_height": 312,
+      "article_client_width": 383,
+      "article_scroll_width": 383,
+      "document_scroll_width": 449,
+      "tables": 0,
+      "content_links": 10
+    },
+    {
+      "label": "gamdom after direct evidence links",
+      "css_width": 340,
+      "css_height": 234,
+      "article_client_width": 271,
+      "article_scroll_width": 271,
+      "document_scroll_width": 337,
+      "tables": 0,
+      "content_links": 9
+    },
+    {
+      "label": "gamdom after direct evidence links",
+      "css_width": 454,
+      "css_height": 312,
+      "article_client_width": 383,
+      "article_scroll_width": 383,
+      "document_scroll_width": 449,
+      "tables": 0,
+      "content_links": 9
+    }
+  ]
+}
