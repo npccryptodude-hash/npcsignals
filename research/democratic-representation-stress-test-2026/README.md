@@ -6,6 +6,7 @@ The project does not rank countries by a single democracy score. It tests how vo
 
 Status
 
+Research status: ongoing research
 Framework: FROZEN v1.0
 Countries: 15
 Dimensions: 6
@@ -174,18 +175,6 @@ Important limitation
 
 The project is exploratory and case-based. It is designed as a stress instrument and longitudinal archive, not as a definitive democracy index. Cross-country causal claims remain provisional unless explicitly marked as supported.
 
-Next steps
-
-1. Wait for formal Swedish Election Authority determination.
-2. Merge the resolved rows into the final 90-case scoring ledger.
-3. Run one last temporal/source audit.
-4. Run full numerical rescoring from scratch.
-5. Freeze the numerical first pass.
-6. Run controlled second-pass review.
-7. Run sensitivity analysis.
-8. Test non-compensatory safeguards separately from the base arithmetic result.
-9. Freeze the first 2026 baseline report.
-10. Continue the same framework through 2028.
 
 NPCsignals
 Observe → Filter → Validate → Stress → Archive → Review
