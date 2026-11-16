@@ -1,0 +1,46 @@
+{
+  "url": "https://api.mainnet-beta.solana.com",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "getBalance",
+    "params": [
+      "G82K2R2RgJyBwfezs6ey2TXPzjR7oNEGr9WTMWinGTda",
+      {
+        "commitment": "finalized"
+      }
+    ]
+  },
+  "started_utc": "2026-11-16T08:24:21.222759+00:00",
+  "http_status": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "96",
+    "date": "Mon, 16 Nov 2026 08:24:23 GMT",
+    "x-rpc-node": "fra286",
+    "x-ratelimit-tier": "free",
+    "x-ratelimit-method-limit": "150",
+    "x-ratelimit-method-remaining": "149",
+    "x-ratelimit-rps-limit": "250",
+    "x-ratelimit-rps-remaining": "248",
+    "x-ratelimit-endpoint-limit": "unlimited",
+    "x-ratelimit-endpoint-remaining": "-16370",
+    "x-ratelimit-conn-limit": "40",
+    "x-ratelimit-conn-remaining": "39",
+    "x-ratelimit-connrate-limit": "40",
+    "x-ratelimit-connrate-remaining": "39",
+    "x-ratelimit-pubsub-limit": "5",
+    "x-ratelimit-pubsub-remaining": "5",
+    "access-control-allow-origin": "backend_traffic",
+    "access-control-allow-methods": "OPTIONS, POST, GET",
+    "access-control-allow-headers": "authorization, *",
+    "access-control-max-age": "86400",
+    "allow": "OPTIONS, POST, GET",
+    "alt-svc": "h3=\":443\"; ma=60",
+    "x-envoy-upstream-service-time": "295",
+    "server": "envoy",
+    "connection": "close"
+  },
+  "retrieved_utc": "2026-11-16T08:24:24.392312+00:00",
+  "sha256": "9ded9e934b4751a16954c22475e2dfce9688b770e4c2936fea8c3a0fa5701163"
+}

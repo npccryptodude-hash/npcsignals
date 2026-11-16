@@ -1,0 +1,26 @@
+{
+  "url": "https://api.hyperliquid.xyz/info",
+  "request": {
+    "type": "spotClearinghouseState",
+    "user": "0x6eef320de5c0db6bae5a80bbce3cb821efd5f5d7"
+  },
+  "started_utc": "2026-11-16T08:24:16.590648+00:00",
+  "http_status": 200,
+  "headers": {
+    "content-type": "application/json",
+    "content-length": "169",
+    "server": "envoy",
+    "date": "Mon, 16 Nov 2026 08:24:22 GMT",
+    "access-control-expose-headers": "*",
+    "access-control-allow-origin": "*",
+    "vary": "origin,access-control-request-method,access-control-request-headers",
+    "x-cache": "Miss from cloudfront",
+    "via": "1.1 584ccb16a19abf8b0f7eb7449c4025a0.cloudfront.net (CloudFront)",
+    "x-amz-cf-pop": "WAW51-P6",
+    "x-amz-cf-id": "5JB3dJ4fhUUaquawBdQQn83AUIdkX5xLx4LRkArn2-KDPv0hO9UuVg==",
+    "x-envoy-upstream-service-time": "560",
+    "connection": "close"
+  },
+  "retrieved_utc": "2026-11-16T08:24:22.658890+00:00",
+  "sha256": "79ad960c6612bfca65089d9a3f49d53f4bc30a5baa8bad41cad30e80efdce041"
+}

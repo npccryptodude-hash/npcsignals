@@ -1,0 +1,23 @@
+{
+  "url": "https://explorer-api.mayan.finance/v3/swap/trx/0x38c7c72a6da978ee29e18649d5005d8978fbde862c0f78eb18fd70325e6939bf",
+  "request": null,
+  "started_utc": "2026-11-16T08:22:48.510790+00:00",
+  "http_status": 200,
+  "headers": {
+    "date": "Mon, 16 Nov 2026 08:22:52 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "6144",
+    "server-timing": "cfCacheStatus;desc=\"DYNAMIC\"",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "access-control-allow-credentials": "true",
+    "etag": "W/\"1800-9g6a4W6xGcEnUgTNY5CPwAnXpzM\"",
+    "cf-cache-status": "DYNAMIC",
+    "server": "envoy",
+    "cf-ray": "a5b5171f5a59ee3f-WAW",
+    "x-envoy-upstream-service-time": "77",
+    "connection": "close"
+  },
+  "retrieved_utc": "2026-11-16T08:22:52.103406+00:00",
+  "sha256": "329ec3c1e549093981ed723a39aab118efd563f7eac53c47ae516dfbf88569d9"
+}

@@ -1,0 +1,13 @@
+{
+  "history_cutoff_utc": "2026-11-16T08:20:33.096000+00:00",
+  "accounts": 36,
+  "baseline_xmr1": "3586.887420",
+  "current_xmr1": "3586.887420",
+  "successful_spot_snapshots": 36,
+  "accounts_with_coverage_issues": 0,
+  "new_fills_returned": 0,
+  "new_ledger_records_returned": 0,
+  "changed_xmr1_accounts": [],
+  "snapshot_start_utc": "2026-11-16T08:20:58.344498+00:00",
+  "snapshot_end_utc": "2026-11-16T08:25:40.685886+00:00"
+}

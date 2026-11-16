@@ -1,0 +1,40 @@
+"""Offline comparison; exact Decimal arithmetic and conservative coverage flags."""
+import json,hashlib,datetime,csv
+from pathlib import Path
+from decimal import Decimal as D
+P=Path(__file__).resolve().parent;B=P.parent/'audit_2026_11_13'
+def read(n):
+ try:return json.loads((P/'raw'/f'{n}.response').read_bytes())
+ except Exception:return None
+def base(n):return json.loads((B/f'{n}.json').read_text())
+def canon(x):return json.dumps(x,sort_keys=True,separators=(',',':'))
+def utc(ms):return datetime.datetime.fromtimestamp(ms/1000,datetime.timezone.utc).isoformat() if ms else None
+rows=json.loads((P/'baseline_accounts.json').read_text());out=[]
+for r in rows:
+ n=r['id'];pre=r['raw_prefix'];spot=read(n+'_spotClearinghouseState');f=read(n+'_userFillsByTime');l=read(n+'_userNonFundingLedgerUpdates');ff=read(n+'_full_userFillsByTime');ll=read(n+'_full_userNonFundingLedgerUpdates')
+ bf=base(pre+'_userFillsByTime');bl=base(pre+'_userNonFundingLedgerUpdates')
+ oldf={canon(x) for x in bf};oldl={canon(x) for x in bl};newf=[x for x in ff if canon(x) not in oldf] if isinstance(ff,list) else None;newl=[x for x in ll if canon(x) not in oldl] if isinstance(ll,list) else None
+ issues=[]
+ for k,v in [('interval fills',f),('interval ledger',l),('full fills',ff),('full ledger',ll)]:
+  if not isinstance(v,list):issues.append(k+' unavailable')
+  elif len(v)>=500:issues.append(k+' >=500: pagination/retention review required')
+ if isinstance(ff,list) and not oldf.issubset({canon(x) for x in ff}):issues.append('baseline fills missing/changed')
+ if isinstance(ll,list) and not oldl.issubset({canon(x) for x in ll}):issues.append('baseline ledger missing/changed')
+ cur=None
+ if isinstance(spot,dict) and isinstance(spot.get('balances'),list):cur=sum((D(x['total']) for x in spot['balances'] if x['token']==404),D(0))
+ else:issues.append('spot snapshot unavailable')
+ xfills=[x for x in (newf or []) if x['coin']=='@260']
+ last=max([x.get('time',0) for x in (ff or [])+(ll or [])],default=0)
+ types={}
+ for x in newl or []:
+  t=x.get('delta',{}).get('type','unknown');types[t]=types.get(t,0)+1
+ meta=json.loads((P/'raw'/f'{n}_spotClearinghouseState.meta.json').read_text()) if cur is not None else {}
+ out.append({'id':n,'account':r['sender'],'baseline_xmr1':r['current_xmr1'],'current_xmr1':str(cur) if cur is not None else None,'delta_xmr1':str(cur-D(r['current_xmr1'])) if cur is not None else None,'new_xmr1_buy_gross':str(sum((D(x['sz']) for x in xfills if x['side']=='B'),D(0))) if newf is not None else None,'new_xmr1_sell_gross':str(sum((D(x['sz']) for x in xfills if x['side']=='A'),D(0))) if newf is not None else None,'interval_fills':len(f) if isinstance(f,list) else None,'interval_ledger':len(l) if isinstance(l,list) else None,'new_fills':newf,'new_ledger':newl,'new_ledger_types':types,'new_deposits_returned':sum(x.get('delta',{}).get('type')=='deposit' for x in (newl or [])) if newl is not None else None,'new_withdrawals_returned':sum(x.get('delta',{}).get('type')=='withdraw' for x in (newl or [])) if newl is not None else None,'internal_transfers_returned':sum('transfer' in x.get('delta',{}).get('type','').lower() for x in (newl or [])) if newl is not None else None,'baseline_last_activity_utc':utc(max([x.get('time',0) for x in bf+bl],default=0)),'latest_activity_utc':utc(last),'observed_utc':meta.get('retrieved_utc'),'coverage_issues':issues,'coverage':'returned histories consistent; no cap reached; server completeness not independently guaranteed' if not issues else 'incomplete','redemption_scope':'no new outgoing ledger event returned' if newl==[] and not issues else 'review raw ledger / incomplete; native monero receipt not established'})
+(P/'accounts_diff.json').write_text(json.dumps(out,indent=2)+'\n')
+summary={'history_cutoff_utc':utc(json.loads((P/'run.json').read_text())['history_end_ms']),'accounts':len(out),'baseline_xmr1':str(sum((D(r['baseline_xmr1']) for r in out),D(0))),'current_xmr1':str(sum((D(r['current_xmr1']) for r in out if r['current_xmr1'] is not None),D(0))),'successful_spot_snapshots':sum(r['current_xmr1'] is not None for r in out),'accounts_with_coverage_issues':sum(bool(r['coverage_issues']) for r in out),'new_fills_returned':sum(len(r['new_fills'] or []) for r in out),'new_ledger_records_returned':sum(len(r['new_ledger'] or []) for r in out),'changed_xmr1_accounts':[r['id'] for r in out if r['delta_xmr1'] is not None and D(r['delta_xmr1'])!=0], 'snapshot_start_utc':min(r['observed_utc'] for r in out if r['observed_utc']),'snapshot_end_utc':max(r['observed_utc'] for r in out if r['observed_utc'])}
+(P/'summary.json').write_text(json.dumps(summary,indent=2)+'\n')
+lines=['# frogman / hyperliquid recheck / 16 november 2026','','[summary](summary.json) · [per-account data](accounts_diff.json) · [ethereum / solana follow-up](ROUTE_REPORT.md)','','all 36 addresses come from the unchanged 13 november checkpoint: 35 external-inventory accounts plus one separately audited account. requests and exact response bytes, utc retrieval times, headers and sha256 are retained in `raw/`. snapshots are sequential, not simultaneous. history end is fixed in [run metadata](run.json); the interval starts one second before each baseline history cutoff to avoid a boundary gap. full returned histories are also compared with baseline objects.','','## observed change','','```json',json.dumps(summary,indent=2),'```','','## per-account differences','','buys and sells are gross xmr1 units; ledger count includes deposits, withdrawals and internal transfers. every nonzero or unknown ledger result must be inspected in accounts_diff.json; a zero means zero returned records, not proof of exhaustive platform history.','','| account | address | 13 nov xmr1 | 16 nov xmr1 | delta | buys | sells | new ledger | latest returned activity (utc) | coverage issues |','|---|---|---:|---:|---:|---:|---:|---:|---|---|']
+for r in out:lines.append('| '+' | '.join(str(x) for x in [r['id'],r['account'],r['baseline_xmr1'],r['current_xmr1'],r['delta_xmr1'],r['new_xmr1_buy_gross'],r['new_xmr1_sell_gross'],len(r['new_ledger']) if r['new_ledger'] is not None else 'unknown',r['latest_activity_utc'], '; '.join(r['coverage_issues']) or 'none detected'])+' |')
+lines+=['','## interpretation and publication readiness','','the official info api documents a general 500-element/distinct-block pagination threshold and a fills-specific 2,000 response / 10,000 most-recent history limit. this comparison flags 500 or more records and missing baseline records; it never equates a failed request with zero activity. source: https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/info-endpoint .','','where interval histories are empty, baseline histories remain present, and balances reconcile unchanged, the supported wording is: “no new fills or non-funding ledger activity was returned for these 36 addresses through the recorded history cutoff; the dated spot snapshots show the reported balances.” server-side retention, all other addresses, protocol-specific off-platform redemptions and native monero receipts are not independently proven. no native monero no-redemption claim is justified.','','the bounded historical reconstruction remains publication-ready subject to final editorial review. this refresh supports a dated account-status paragraph only for successfully checked accounts. it does not resolve privacy cash withdrawal provenance, human control, exploit attribution, or the mixed-funding destination boundaries. the ethereum history improvement is new documentation of older events, not automatically activity since 13 november. no medium publication was performed.','','## preservation and reproduction','','the original checkpoint and all pre-existing files remain unchanged. `collect.py` and `collect_route.py` are read-only network collectors; do not rerun into this directory. `python build_report.py` reproduces account differences offline from retained responses. [baseline account inventory](baseline_accounts.json).']
+(P/'README.md').write_text('\n'.join(lines)+'\n')
+print(json.dumps(summary,indent=2))

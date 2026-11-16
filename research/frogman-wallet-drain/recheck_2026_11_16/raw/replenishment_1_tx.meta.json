@@ -1,0 +1,32 @@
+{
+  "url": "https://mainnet.gateway.tenderly.co",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_getTransactionByHash",
+    "params": [
+      "0xdce724c09240b09a8184811197300223d23080ec2a196ddf6ef4c08a97e0edc4"
+    ]
+  },
+  "started_utc": "2026-11-16T08:23:34.835578+00:00",
+  "http_status": 200,
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "vary": "Origin",
+    "x-tdly-egress-limit": "1000000000",
+    "x-tdly-egress-remaining": "999987069",
+    "x-tdly-egress-reset-timestamp": "1794903664896",
+    "x-tdly-limit": "20",
+    "x-tdly-remaining": "19",
+    "x-tdly-reset-timestamp": "1794817421596",
+    "date": "Mon, 16 Nov 2026 08:23:40 GMT",
+    "content-length": "719",
+    "x-envoy-upstream-service-time": "235",
+    "server": "envoy",
+    "via": "1.1 google",
+    "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "connection": "close"
+  },
+  "retrieved_utc": "2026-11-16T08:23:40.718474+00:00",
+  "sha256": "5eca6b690ecab53fcda13c79d2c7273b9ab06b6d2e01aa250dc4945bb39f920d"
+}

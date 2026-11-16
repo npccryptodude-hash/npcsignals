@@ -1,0 +1,28 @@
+{
+  "url": "https://api.hyperliquid.xyz/info",
+  "request": {
+    "type": "userNonFundingLedgerUpdates",
+    "user": "0xe120d6d7042fabb3376f27e0e3351d7f3b913c0e",
+    "startTime": 0,
+    "endTime": 1794817233096
+  },
+  "started_utc": "2026-11-16T08:23:29.005413+00:00",
+  "http_status": 200,
+  "headers": {
+    "content-type": "application/json",
+    "content-length": "321",
+    "server": "envoy",
+    "date": "Mon, 16 Nov 2026 08:23:34 GMT",
+    "access-control-expose-headers": "*",
+    "access-control-allow-origin": "*",
+    "vary": "origin,access-control-request-method,access-control-request-headers",
+    "x-cache": "Miss from cloudfront",
+    "via": "1.1 0417fc4cd131525d7bfe1f1d34277a38.cloudfront.net (CloudFront)",
+    "x-amz-cf-pop": "WAW51-P6",
+    "x-amz-cf-id": "jsyJSnDPAUKegJyXXiG3hfw_JW4OcYp8_7ozpJv0rDPnQ0Naqdc-QQ==",
+    "x-envoy-upstream-service-time": "534",
+    "connection": "close"
+  },
+  "retrieved_utc": "2026-11-16T08:23:35.067930+00:00",
+  "sha256": "397a0144ec9388d01c81ca571755a83ceb49e34c9961cddc85328aea57253c99"
+}

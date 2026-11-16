@@ -1,0 +1,26 @@
+{
+  "url": "https://api.hyperliquid.xyz/info",
+  "request": {
+    "type": "openOrders",
+    "user": "0xcf92ef3e2517968f04f372f0c2dd0d6873b2e230"
+  },
+  "started_utc": "2026-11-16T08:25:05.257156+00:00",
+  "http_status": 200,
+  "headers": {
+    "content-type": "application/json",
+    "content-length": "2",
+    "server": "envoy",
+    "date": "Mon, 16 Nov 2026 08:25:10 GMT",
+    "access-control-expose-headers": "*",
+    "access-control-allow-origin": "*",
+    "vary": "origin,access-control-request-method,access-control-request-headers",
+    "x-cache": "Miss from cloudfront",
+    "via": "1.1 42deb4754a5439a360d5489b705a1ee6.cloudfront.net (CloudFront)",
+    "x-amz-cf-pop": "WAW51-P6",
+    "x-amz-cf-id": "71vTJs7o8xzeZRf7BdGd_2sSbGT3rwpykiJrSzehB5gNn5nccNlYjA==",
+    "x-envoy-upstream-service-time": "610",
+    "connection": "close"
+  },
+  "retrieved_utc": "2026-11-16T08:25:11.280431+00:00",
+  "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+}

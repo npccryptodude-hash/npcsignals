@@ -1,0 +1,9 @@
+{
+  "result": "pass",
+  "account_count": 36,
+  "raw_response_hashes_checked": 293,
+  "xmr1_total": "3586.887420",
+  "all_baseline_history_objects_retained": true,
+  "new_returned_fills_and_ledger_records": 0,
+  "warning": "api server completeness and native monero redemptions not independently established"
+}

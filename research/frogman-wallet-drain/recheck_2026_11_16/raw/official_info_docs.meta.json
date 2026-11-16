@@ -1,0 +1,31 @@
+{
+  "url": "https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/info-endpoint.md",
+  "request": null,
+  "started_utc": "2026-11-16T08:20:41.101565+00:00",
+  "http_status": 200,
+  "headers": {
+    "date": "Mon, 16 Nov 2026 08:20:46 GMT",
+    "content-type": "text/markdown; charset=utf-8",
+    "cf-ray": "a5b5140f8d94ee3f-WAW",
+    "cache-control": "s-maxage=56362, stale-while-revalidate=2592000",
+    "etag": "\"3945a8368f51bf639da03b32e11e5876\"",
+    "server": "envoy",
+    "strict-transport-security": "max-age=31536000",
+    "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, accept-encoding, accept",
+    "content-security-policy": "default-src 'self' *; script-src 'self' 'unsafe-inline' 'unsafe-eval' *; style-src 'self' 'unsafe-inline' blob: *; img-src * 'self' blob: data:; connect-src *; font-src *; frame-src *; object-src 'none'; base-uri 'self' https://static-2c.gitbook.com; form-action 'self' https://static-2c.gitbook.com *; frame-ancestors https: ionic: capacitor: ;",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "x-content-type-options": "nosniff",
+    "x-gitbook-route-site": "hyperliquid.gitbook.io/hyperliquid-docs/",
+    "x-gitbook-route-type": "static",
+    "x-gitbook-target": "2c",
+    "x-opennext-cache": "HIT",
+    "x-opennext-request-id": "0.9i7zt42v2l4",
+    "x-robots-tag": "index, follow",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "x-envoy-upstream-service-time": "127",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "retrieved_utc": "2026-11-16T08:20:46.799258+00:00",
+  "sha256": "f4228fc7734af5dbf420e5bdf2b25c248a5b5287035ab2d8a645dc14ce64f0bd"
+}
