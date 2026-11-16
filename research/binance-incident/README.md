@@ -18,7 +18,7 @@ the existing case guide, token ledger and weekly supplement distinguish observed
 
 ## what remains uncertain
 
-this quality audit does not independently re-investigate the incident or refresh its news cutoff. later recovery, individual responsibility and events outside the saved window require separate evidence.
+the linked records describe their saved observation windows. later recovery, individual responsibility and events outside those windows require separate evidence.
 
 ## research status
 
