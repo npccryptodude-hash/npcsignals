@@ -1,10 +1,10 @@
-# tekstalternativer for figurene
+# accessible text alternatives for figures
 
-Årstallene gjelder referanseåret i kilden. Alle verdier er rapporterte statistiske enheter, med betingede verdier i egen kolonne. Fast geografi beholder nasjonale forskjeller i klassifisering. De uavklarte avvikene beskrives i [rapporten](../phase23/REPORT.md#10-uavklarte-avvik).
+Years are source reference years. All values represent reported statistical entries, with conditional scenarios in a separate column. Fixed geography does not harmonize national classification. Unresolved discrepancies are described in the [phase 23 report](../phase23/REPORT.md) and the [English editorial draft](EDITORIAL_REPORT_DRAFT.md).
 
-## 01 og 02 · geografi, angrepsposter og pågripelser
+## 01 and 02 · geography, reported attack entries and arrests
 
-| år | original eu28, angrep | fast eu27, angrep | fast eu27, pågripelser |
+| year | original eu28 attacks | fixed eu27 attacks | fixed eu27 arrests |
 |---|---:|---:|---:|
 | 2015 | 211 | 108 | 943 |
 | 2016 | 142 | 66 | 853 |
@@ -18,20 +18,22 @@
 | 2024 | — | 58 | 449 |
 | 2025 | — | 45 | 486 |
 
-## 03 · senere revisjoner og betinget følsomhet
+The original eu28 column applies through 2019; the later years have no comparable original eu28 entry. The original 2015 chart observation of 193 is unresolved.
 
-| år | fast eu27 | senere offisielt | betinget scenario |
+## 03 · later official revisions and conditional sensitivity
+
+| year | original fixed eu27 | later official revision | conditional scenario |
 |---|---:|---:|---:|
 | 2020 | 57 | 56 | 56 |
 | 2021 | 15 | 18 | 22 |
 | 2022 | 28 | — | 50 |
 | 2023 | 120 | — | 94 |
 
-De betingede verdiene bruker de to offisielle revisjonene og flytter 26 eldre poster fra 2023 til 2021 og 2022. Individuelle koblinger og mulig overlapp er uavklart.
+The conditional series uses the two later official revisions and reallocates 26 older french entries from the 2023 reporting cohort to the stated occurrence years 2021 and 2022. Individual matches and potential overlap remain unresolved. A blank official-revision field means no verified later value in this dataset, not zero.
 
-## 04 · identifikasjonsdekning
+## 04 · identification coverage
 
-| år | poster | tilstrekkelig | kandidat | uidentifisert |
+| year | original statistical entries | adequately identified | candidate | unidentified |
 |---|---:|---:|---:|---:|
 | 2015 | 211 | 9 | 3 | 199 |
 | 2016 | 142 | 20 | 1 | 121 |
@@ -45,10 +47,12 @@ De betingede verdiene bruker de to offisielle revisjonene og flytter 26 eldre po
 | 2024 | 58 | 9 | 7 | 42 |
 | 2025 | 45 | 7 | 17 | 21 |
 
-Andelene bruker opprinnelige statistiske poster per år som nevner. 17 kandidatposter kan i 2025 knyttes til 18 mulige identiteter. Fysisk hendelsesdekning kan ikke utledes.
+Each year's denominator is its original reporting cohort, including the uk through 2019. In 2025, 18 possible event identities relate to 17 candidate entries. The figures describe the investigation's public-source linkage coverage, not the existence of physical incidents or europol's internal evidence.
 
-## 05 og 06 · institusjoner og rettskilder
+## 05 and 06 · institutional and judicial observations
 
-[Institusjonelle observasjoner med eksakt telleenhet](../phase23/institutional_counts.csv) · [Rettslige observasjoner med dato og kildetype](../phase23/judicial_chain.csv)
+[Institutional observations with exact counting units](../phase23/institutional_counts.csv) · [judicial observations with dates and source types](../phase23/judicial_chain.csv).
 
-[Lesbar omtale av institusjonene](../phase23/REPORT.md#9-institusjonelle-rapporteringsforskjeller) · [Lesbar omtale av rettskildene](../phase23/REPORT.md#8-rettslige-og-organisatoriske-eksempler)
+[Institutional reporting analysis](../phase23/REPORT.md) · [judicial case analysis](../phase23/REPORT.md) · [English source guide](../phase25/SOURCE_GUIDE.md).
+
+**release warning:** the inherited SVG assets may still contain Norwegian labels and remain subject to translation, accessibility checks and final export review.
