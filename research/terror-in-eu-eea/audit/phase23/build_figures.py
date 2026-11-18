@@ -5,6 +5,7 @@ from html import escape
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
+LEGAL_SOURCE = "BGH original notice 091/2026 and disposition 3 StR 55/26"
 SOURCE_COMMIT = "d1f675eb785db712655c6952e43f3a57dd31f66c"
 INK = "#162436"
 BLUE = "#235886"
@@ -74,21 +75,23 @@ class Figure:
 
 def annual_figures(output, rows):
     fig = Figure("eu28 og fast eu27, 2015–2019",
-                 "To stolper per år. Originalserien inkluderer Storbritannia; fast EU27 trekker fra den britiske raden.", 410)
+                 "To stolper per år. Originalserien inkluderer Storbritannia; fast EU27 trekker fra den britiske raden.", 435)
     fig.label(30, 69, "venstre: original eu28 · høyre: fast eu27", 14)
     fig.bars(rows[:5], ["original_attacks", "fixed_eu27_attacks"], 108, 300, 250, 50,
              [BLUE, TEAL], "rapporterte angrepsposter")
     fig.label(30, 356, "britiske poster trukket fra: " + " / ".join(r["included_uk_attacks"] for r in rows[:5]), 13)
     fig.label(30, 376, "2015: figurobservasjonen 193 har uavklart grunnlag; 211 er originalt årstall.", 12)
+    fig.label(30, 395, "fast geografi beholder nasjonal rapporteringspraksis.", 12)
     fig.save(output, "01_geography.svg")
 
     fig = Figure("rapporterte tall ved fast eu27-geografi",
-                 "Elleve år med angrepsposter og pågripelser i to separate paneler med nullbaserte akser.", 630)
+                 "Elleve år med angrepsposter og pågripelser i to separate paneler med nullbaserte akser.", 655)
     fig.bars(rows, ["fixed_eu27_attacks"], 91, 245, 150, 30, [BLUE], "angrepsposter")
     fig.bars(rows, ["fixed_eu27_arrests"], 330, 485, 1000, 200, [TEAL], "rapporterte pågripelser")
-    fig.label(30, 538, "2020: fast eu27 fjerner geografibruddet i originalserien.", 13)
+    fig.label(30, 538, "fra 2020: britisk rad er ute av originalserien; fast eu27 bruker samme geografi gjennom perioden.", 13)
     fig.label(30, 561, "2023: 26 eldre poster i angrepskohorten; 426 pågripelser mot senere tabellsum 431.", 13)
     fig.label(30, 584, "2015: 193 er en separat figurobservasjon · 2025: aldersnevneren 347/344 er uavklart.", 12)
+    fig.label(30, 606, "rapporterte kohorter; faktisk hendelsesfrekvens kan ikke utledes.", 12)
     fig.save(output, "02_eu27_series.svg")
 
     selected = rows[5:9]
@@ -105,12 +108,13 @@ def annual_figures(output, rows):
             fig.rect(x, y - 4, 8, 8, AMBER)
             fig.label(x + 11, round(y + 4, 2), revision, 12)
     fig.label(30, 372, "senere offisielle tall: 56 (2020) og 18 (2021); øvrige markører mangler.", 13)
-    fig.label(30, 398, "scenario: fire eldre poster til 2021 og 22 til 2022, med 26 trukket fra 2023.", 12)
+    fig.label(30, 398, "scenario: offisielle revisjoner og omfordeling av 26 eldre poster til 2021 (+4) og 2022 (+22).", 12)
     fig.label(30, 424, "2015, utenfor panelet: 193 i senere figur har uavklart grunnlag.", 12)
+    fig.label(30, 450, "omfordelingen er betinget; enkelthendelser og mulig overlapp er uavklart.", 12)
     fig.save(output, "03_revisions.svg")
 
     fig = Figure("identifikasjon av statistiske poster",
-                 "Tre stablede andeler for hvert år. Total og eksakte klassetall står under hver stolpe.", 475)
+                 "Tre stablede andeler for hvert år. Total og eksakte klassetall står under hver stolpe.", 500)
     fig.label(30, 70, "nederst: tilstrekkelig · midten: kandidat · øverst: uidentifisert", 14)
     fig.grid(68, 104, 846, 319, 100, 25, percent=True)
     for i, row in enumerate(rows):
@@ -128,6 +132,7 @@ def annual_figures(output, rows):
         fig.label(center, 383, "/".join(map(str, counts)), 10, "middle")
     fig.label(30, 420, "original geografi: eu28 til og med 2019; eu27 fra 2020.", 13)
     fig.label(30, 442, "i 2025 svarer 17 kandidatposter til 18 mulige identiteter.", 12)
+    fig.label(30, 464, "den fysiske hendelsesdekningen kan ikke utledes av disse andelene.", 12)
     fig.save(output, "04_coverage.svg")
 
 
@@ -152,23 +157,26 @@ def qualitative_figures(output):
 
     events = read(HERE / "judicial_chain.csv")
     fig = Figure("rettslige og organisatoriske beviskjeder",
-                 "Daterte rader viser initial vurdering, dom og rettskraft i A100, PETs oppsummering for Holbæk og to kildetyper for Solingen.", 425)
+                 "Daterte rader viser initial vurdering, dom og rettskraft i A100, PETs oppsummering for Holbæk og flere kildetyper for Solingen.", 490)
     labels = {
         "initial assessment": "innledende mistanke om islamistisk angrep",
         "first instance": "domstolen avviser klassifisering og beslutter plassering",
         "finality": "BGH forkaster revisjonen; avgjørelsen er rettskraftig",
         "appeal reported": "PET oppgir ankefunn om terrorforsøk og finansiering",
         "official assessment published": "Europol omtaler kommunikasjon og oppmuntring",
-        "finality reported": "gjengitt BGH-melding oppgir rettskraft for drap og IS-medlemskap",
+        "court summary published": "BGH gjengir oppmuntring og råd fra IS-kontakter",
     }
     for i, row in enumerate(sorted(events, key=lambda item: (item["case"], item["date"]))):
         y = 103 + i * 39
         fig.rect(30, y - 23, 820, 34, "#eef3f7" if i % 2 == 0 else "#ffffff")
         fig.label(44, y, row["case"], 14, bold=True)
         fig.label(145, y, row["date"], 13)
-        fig.label(255, y, labels[row["stage"]], 13)
-    fig.label(30, 365, "A100: kobling til slettet europolpost står som kandidat.", 13)
-    fig.label(30, 389, "rettslige funn, offisielle vurderinger og gjengitte meldinger dokumenterer avgrensede forhold.", 12)
+        label = ("BGH forkaster revisjonen; draps- og medlemskapsdommen er rettskraftig"
+                 if row["case"] == "Solingen" and row["stage"] == "finality" else labels[row["stage"]])
+        fig.label(255, y, label, 13)
+    fig.label(30, 405, "A100: kobling til slettet europolpost står som kandidat.", 13)
+    fig.label(30, 428, "sakene gir ikke grunnlag for å fastslå en felles operativ kommandostruktur.", 12)
+    fig.label(30, 452, LEGAL_SOURCE, 12)
     fig.save(output, "06_judicial.svg")
 
 

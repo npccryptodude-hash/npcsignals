@@ -11,6 +11,7 @@
 - [Phase 21 reporting mechanisms, denominator and evidence priorities](PHASE_21_REPORTING_MECHANISMS.md)
 - [Phase 22 controlled historical analysis](PHASE_22_HISTORICAL_ANALYSIS.md)
 - [Phase 23 internal editorial package](phase23/REPORT.md)
+- [Phase 24 adversarial editorial audit](phase24/AUDIT.md)
 - [Publication decisions and remediation](PUBLICATION_READINESS.md)
 
 ## Statistical controls

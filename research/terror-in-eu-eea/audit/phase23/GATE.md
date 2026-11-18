@@ -11,7 +11,7 @@ Status applies to the exact internal wording and assets. All claims remain pendi
 | 05 retrospective reporting | Ready for qualified editorial review | Keep original, official revision and conditional scenario distinct. |
 | 06 arrests | Ready for qualified editorial review | Keep denominator caveats and distinguish verdicts. |
 | 07 identification | Ready for qualified editorial review | Keep original scope, denominator and candidate distinction. |
-| 08 judicial and organisational examples | Ready for qualified editorial review | Preserve PET summary, BGH reproduction and case-specific limits. |
+| 08 judicial and organisational examples | Ready for qualified editorial review | Preserve PET summary, original BGH source and case-specific limits. |
 | 09 institutional differences | Ready for qualified editorial review | Keep country, institution, unit and unknown links visible. |
 | 10 discrepancies | Ready for qualified editorial review | Continue reporting all conflicts as unresolved. |
 | 11 supported conclusions | Ready for qualified editorial review | Restrict to observed reporting cohorts and stated calculations. |
@@ -26,3 +26,5 @@ Status applies to the exact internal wording and assets. All claims remain pendi
 | Pooled physical incidence, command trends and conviction conversion | Not suitable for publication | Current inferences are unsupported. |
 
 Mandatory before release: a separate editorial reviewer must sign off on claim wording, court-stage and source-origin labels, references and retained discrepancies. Review the intended export and any standalone extract for readable labels, attached captions and accessible equivalents. Correct any omissions or stronger language introduced during editing. Rebuild and compare assets at the proposed release commit, complete NPCsignals' privacy and harm review, then obtain explicit publication approval. Technical validation permits internal review only.
+
+[Phase 24 gate and audit verdict](../phase24/AUDIT.md#publication-gate).

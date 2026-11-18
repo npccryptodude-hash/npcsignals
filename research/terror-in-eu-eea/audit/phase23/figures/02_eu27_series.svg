@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="630" viewBox="0 0 880 630" role="img" aria-labelledby="title description">
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="655" viewBox="0 0 880 655" role="img" aria-labelledby="title description">
 <title id="title">rapporterte tall ved fast eu27-geografi</title>
 <desc id="description">Elleve år med angrepsposter og pågripelser i to separate paneler med nullbaserte akser.</desc>
 <metadata>NPCsignals internal review. Source commit d1f675eb785db712655c6952e43f3a57dd31f66c.</metadata>
 <g font-family="sans-serif">
-<rect x="0.00" y="0.00" width="880.00" height="630.00" fill="#ffffff"/>
+<rect x="0.00" y="0.00" width="880.00" height="655.00" fill="#ffffff"/>
 <text x="30" y="39" font-size="24" text-anchor="start" fill="#162436" font-weight="bold">rapporterte tall ved fast eu27-geografi</text>
 <text x="30" y="78" font-size="13" text-anchor="start" fill="#162436" font-weight="bold">angrepsposter</text>
 <rect x="68.00" y="245.00" width="778.00" height="1.00" fill="#c9d3df"/>
@@ -97,9 +97,10 @@
 <text x="807.0" y="508" font-size="12" text-anchor="middle" fill="#162436">2025</text>
 <rect x="793.00" y="409.67" width="26.00" height="75.33" fill="#17746b"/>
 <text x="807.0" y="404.67" font-size="12" text-anchor="middle" fill="#162436">486</text>
-<text x="30" y="538" font-size="13" text-anchor="start" fill="#162436">2020: fast eu27 fjerner geografibruddet i originalserien.</text>
+<text x="30" y="538" font-size="13" text-anchor="start" fill="#162436">fra 2020: britisk rad er ute av originalserien; fast eu27 bruker samme geografi gjennom perioden.</text>
 <text x="30" y="561" font-size="13" text-anchor="start" fill="#162436">2023: 26 eldre poster i angrepskohorten; 426 pågripelser mot senere tabellsum 431.</text>
 <text x="30" y="584" font-size="12" text-anchor="start" fill="#162436">2015: 193 er en separat figurobservasjon · 2025: aldersnevneren 347/344 er uavklart.</text>
-<text x="30" y="614" font-size="11" text-anchor="start" fill="#162436">npcsignals · internt utkast · kildegrunnlag d1f675e</text>
+<text x="30" y="606" font-size="12" text-anchor="start" fill="#162436">rapporterte kohorter; faktisk hendelsesfrekvens kan ikke utledes.</text>
+<text x="30" y="639" font-size="11" text-anchor="start" fill="#162436">npcsignals · internt utkast · kildegrunnlag d1f675e</text>
 </g>
 </svg>

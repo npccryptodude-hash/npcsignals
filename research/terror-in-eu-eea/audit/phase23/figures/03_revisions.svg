@@ -44,8 +44,9 @@
 <rect x="416.75" y="286.16" width="8.00" height="8.00" fill="#9b4c14"/>
 <text x="427.75" y="294.16" font-size="12" text-anchor="start" fill="#162436">18</text>
 <text x="30" y="372" font-size="13" text-anchor="start" fill="#162436">senere offisielle tall: 56 (2020) og 18 (2021); øvrige markører mangler.</text>
-<text x="30" y="398" font-size="12" text-anchor="start" fill="#162436">scenario: fire eldre poster til 2021 og 22 til 2022, med 26 trukket fra 2023.</text>
+<text x="30" y="398" font-size="12" text-anchor="start" fill="#162436">scenario: offisielle revisjoner og omfordeling av 26 eldre poster til 2021 (+4) og 2022 (+22).</text>
 <text x="30" y="424" font-size="12" text-anchor="start" fill="#162436">2015, utenfor panelet: 193 i senere figur har uavklart grunnlag.</text>
+<text x="30" y="450" font-size="12" text-anchor="start" fill="#162436">omfordelingen er betinget; enkelthendelser og mulig overlapp er uavklart.</text>
 <text x="30" y="474" font-size="11" text-anchor="start" fill="#162436">npcsignals · internt utkast · kildegrunnlag d1f675e</text>
 </g>
 </svg>

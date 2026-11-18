@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="410" viewBox="0 0 880 410" role="img" aria-labelledby="title description">
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="435" viewBox="0 0 880 435" role="img" aria-labelledby="title description">
 <title id="title">eu28 og fast eu27, 2015–2019</title>
 <desc id="description">To stolper per år. Originalserien inkluderer Storbritannia; fast EU27 trekker fra den britiske raden.</desc>
 <metadata>NPCsignals internal review. Source commit d1f675eb785db712655c6952e43f3a57dd31f66c.</metadata>
 <g font-family="sans-serif">
-<rect x="0.00" y="0.00" width="880.00" height="410.00" fill="#ffffff"/>
+<rect x="0.00" y="0.00" width="880.00" height="435.00" fill="#ffffff"/>
 <text x="30" y="39" font-size="24" text-anchor="start" fill="#162436" font-weight="bold">eu28 og fast eu27, 2015–2019</text>
 <text x="30" y="69" font-size="14" text-anchor="start" fill="#162436">venstre: original eu28 · høyre: fast eu27</text>
 <text x="30" y="95" font-size="13" text-anchor="start" fill="#162436" font-weight="bold">rapporterte angrepsposter</text>
@@ -46,6 +46,7 @@
 <text x="779.0" y="252.76" font-size="12" text-anchor="middle" fill="#162436">55</text>
 <text x="30" y="356" font-size="13" text-anchor="start" fill="#162436">britiske poster trukket fra: 103 / 76 / 107 / 60 / 64</text>
 <text x="30" y="376" font-size="12" text-anchor="start" fill="#162436">2015: figurobservasjonen 193 har uavklart grunnlag; 211 er originalt årstall.</text>
-<text x="30" y="394" font-size="11" text-anchor="start" fill="#162436">npcsignals · internt utkast · kildegrunnlag d1f675e</text>
+<text x="30" y="395" font-size="12" text-anchor="start" fill="#162436">fast geografi beholder nasjonal rapporteringspraksis.</text>
+<text x="30" y="419" font-size="11" text-anchor="start" fill="#162436">npcsignals · internt utkast · kildegrunnlag d1f675e</text>
 </g>
 </svg>
