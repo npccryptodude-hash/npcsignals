@@ -5,7 +5,7 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-SOURCE = ROOT.parent / "phase23" / "figures"
+SOURCE = ROOT / "phase23" / "figures"
 TARGET = ROOT / "phase25" / "figures"
 MANIFEST = ROOT / "phase25" / "figure_translations.json"
 TAG = re.compile(r"<(title|desc|text)([^>]*)>([^<]*)</\\1>")
