@@ -1,92 +1,93 @@
-# terrorstatistikken i europa: hva måler vi egentlig?
+# terrorism statistics in europe: what are we actually measuring?
 
-internt redaksjonelt utkast · npcsignals · 18. november 2026
+internal editorial draft · npcsignals · 18 november 2026
 
-**status:** ikke publisert. teksten er en leservendt omstrukturering av det kontrollerte fase 23-utkastet etter fase 24-revisjonen, ikke en ny datainnsamling eller uavhengig menneskelig godkjenning.
+**status:** unpublished. this reader-facing narrative reorganizes the phase 23 report following the phase 24 audit. it is not new data collection or independent human editorial approval.
 
-**dokumentasjonsgrunnlag:** [fase 23-rapporten](../phase23/REPORT.md), [påstandsregisteret](../phase23/claims.csv), [fase 24-revisjonen](AUDIT.md), [figurene og bildetekstene](../phase23/FIGURES.md) og [tekstalternativene](TEXT_ALTERNATIVES.md). c-numrene nedenfor viser til det eksisterende påstandsregisteret. alle tall gjelder rapporterte statistiske poster, ikke en fullstendig telling av fysiske terrorhendelser.
+**evidence base:** [phase 23 report](../phase23/REPORT.md), [claim register](../phase23/claims.csv), [phase 24 audit](AUDIT.md), [figure captions](../phase23/FIGURES.md), and [accessible text alternatives](TEXT_ALTERNATIVES.md). claim identifiers below refer to the existing evidence register. all attack counts describe reported statistical entries, not a complete census of physical terrorist incidents.
 
-## når 119 blir 55
+## when 119 becomes 55
 
-fra 2019 til 2020 falt antallet terrorangrep i europols opprinnelige årsserier fra 119 til 57. uten en nærmere kontroll kan det se ut som et dramatisk fall i registrert terroraktivitet.
+europol's originally published annual series records 119 terrorist attack entries in 2019 and 57 in 2020. without examining the underlying scope, the change appears dramatic.
 
-men de to tallene dekker ikke samme geografi. 2019-utgaven inkluderer storbritannia; fra 2020 er det britiske bidraget ute av eu-serien. av de 119 rapporterte angrepspostene i 2019 kom 64 fra storbritannia. når dette bidraget trekkes fra, står 55 igjen for den faste eu27-geografien. sammenligningen blir dermed 55 i 2019 mot 57 i 2020. en senere offisiell utgave oppgir dessuten 56 for 2020. [c01–c03, c05]
+but these observations do not cover the same territory. the 2019 edition includes the united kingdom; the uk contribution is absent from the eu series for 2020. of the 119 entries in 2019, 64 came from the uk. subtracting that row leaves 55 entries for a fixed eu27 comparison. the comparison therefore becomes **55 in 2019 versus 57 in 2020**. a later official edition gives 56 for 2020. [c01–c03, c05]
 
-dette beviser ikke at terrortrusselen var uendret. det viser at den opprinnelige sammenligningen blander to geografiske områder. også etter justeringen kan nasjonale rapporterings- og klassifiseringspraksiser være forskjellige.
+this does not prove that the terrorism threat remained constant. it demonstrates that the unadjusted comparison mixes geographic scopes. national classification and reporting practices may still differ after the adjustment.
 
-**hovedillustrasjon 01:** [geografisammenligning 2015–2019](../phase23/figures/01_geography.svg) **sammen med** [eu27-serien 2015–2025](../phase23/figures/02_eu27_series.svg), der 2020-verdien 57 vises. figur 01 alene slutter i 2019 og kan ikke illustrere hele 2019–2020-sammenligningen. i en senere publisering kan en egen sammenstillingsfigur vise 2019 original 119, 2019 fast eu27 55 og 2020 eu27 57, eventuelt den senere offisielle verdien 56 som separat markør. den er foreløpig ikke produsert. behold forbehold om ulike rapporteringspraksiser og den uavklarte 2015-figurobservasjonen 193.
+**primary illustration 01:** use [the 2015–2019 geographic comparison](../phase23/figures/01_geography.svg) together with [the eu27 series through 2025](../phase23/figures/02_eu27_series.svg), which includes 2020. figure 01 alone ends in 2019 and cannot illustrate the entire 2019–2020 comparison. a future purpose-built panel could show 2019 original 119, 2019 fixed eu27 55, and 2020 eu27 57, with the later official value 56 clearly distinguished. that panel has not yet been produced. preserve the national-practice caveat and the unresolved 2015 chart observation of 193.
 
-## når rapporteringsåret ikke er hendelsesåret
+## when the reporting year is not the occurrence year
 
-i den opprinnelige eu27-serien står 28 rapporterte angrepsposter i 2022 og 120 i 2023. økningen er 92 poster. men 2023-kohorten inkluderer 26 franske separatistposter som gjelder tidligere hendelsesår: fire fra 2021 og 22 fra 2022. [c04, c06]
+the original fixed-eu27 reporting series records 28 attack entries in 2022 and 120 in 2023: an increase of 92 entries. however, the 2023 reporting cohort includes 26 french separatist entries referring to earlier occurrence years, four assigned to 2021 and 22 assigned to 2022. [c04, c06]
 
-npcsignals har derfor beholdt to ulike framstillinger. den ene gjengir de opprinnelige årsrapportene. den andre er en **betinget følsomhetsberegning** som også tar hensyn til senere offisielle justeringer: 2020 går fra 57 til 56 og 2021 fra 15 til 18. når de 26 franske postene i tillegg fordeles på de oppgitte hendelsesårene, blir den betingede serien 56 i 2020, 22 i 2021, 50 i 2022 og 94 i 2023. økningen fra 2022 til 2023 blir da 44, ikke 92. [c05–c06]
+the investigation therefore keeps two distinct representations. one preserves the original annual reporting cohorts. the other is a **conditional sensitivity calculation** that also incorporates later official adjustments: 2020 changes from 57 to 56 and 2021 from 15 to 18. when the 26 french entries are conditionally allocated to their stated occurrence years, the scenario reads 56 in 2020, 22 in 2021, 50 in 2022 and 94 in 2023. the increase from 2022 to 2023 is then 44 rather than 92. [c05–c06]
 
-det er en illustrasjon av hvor mye en årsvis sammenligning kan påvirkes av rapporteringskohorten. det er **ikke** en ny offisiell hendelsesårstelling. individuelle koblinger og mulig overlapp er ikke tilstrekkelig avklart. vi kan derfor ikke bruke scenariet til å fastslå hvor mange fysiske terrorhendelser som faktisk fant sted hvert år.
+this illustrates how strongly a year-to-year comparison can depend on the reporting cohort. it is **not** a new official occurrence-year series. individual event matches and possible overlap remain unresolved. the scenario cannot establish the number of physical terrorist incidents that occurred in each year.
 
-**hovedillustrasjon 02 — figur 03:** [revisjoner og følsomhet](../phase23/figures/03_revisions.svg). offisielle revisjoner skal vises som egne markører, adskilt fra det betingede scenariet. manglende revisjonstall må ikke tegnes som null.
+**primary illustration 02 — figure 03:** [revisions and sensitivity](../phase23/figures/03_revisions.svg). show official revisions as separate markers, not as equivalent to the conditional scenario. absent official revisions must never be plotted as zero.
 
-## samme ord, forskjellige telleenheter
+## similar terms, different counting units
 
-rapporteringen samles ikke inn fra én enkelt europeisk hendelsesdatabase med offentlig tilgjengelige nøkler som lar oss følge hver sak gjennom alle institusjoner.
+the reviewed public records do not provide a single keyed european event roster that permits every incident to be followed across the relevant institutions.
 
-for 2025 omtaler nordrhein-westfalen fem jihadistisk motiverte angrep i tyskland. en føderal kilde navngir fire steder, mens europol rapporterer fire fullførte tyske jihadistiske angrepsposter. i frankrike omtaler den nasjonale antiterrorpåtalemyndigheten pnat tre fullførte jihadistisk inspirerte angrep, mens europol oppgir to fullførte franske jihadistiske poster. [c14–c15]
+for 2025, north rhine-westphalia describes five jihadist-motivated attacks in germany. a federal source names four locations, while europol reports four completed german jihadist attack entries. in france, the national counterterrorism prosecution authority, pnat, describes three completed jihadist-inspired attacks, while europol reports two completed french jihadist entries. [c14–c15]
 
-slike forskjeller dokumenterer at kildene har ulike avgrensninger og telleenheter. de identifiserer **ikke** i seg selv en utelatt hendelse, en feilregistrering eller en bestemt overføring mellom myndigheter.
+these contrasts show different source-specific scopes and counting units. they do **not**, on their own, identify a missing event, a reporting error or a specific transfer between institutions.
 
-den samme begrensningen gjelder pågripelser og rettslige avgjørelser. med fast eu27-geografi er de rapporterte pågripelsestallene 943 i 2015, 380 i 2022 og 486 i 2025. eurojust oppgir for 2025 406 fellende avgjørelser og 99 frifinnelser i sin rapportering av avsluttede saker. disse tallene gjelder ikke den samme identifiserte gruppen personer og kan ikke brukes til å beregne en domfellelsesandel av årets pågripelser. [c07–c08]
+the same caution applies to arrests and judicial decisions. fixed-eu27 reported arrest counts are 943 in 2015, 380 in 2022 and 486 in 2025. eurojust's 2025 reporting includes 406 convictions and 99 acquittals in completed judicial proceedings. these are not the same identified population as the people arrested during 2025. no conviction-to-arrest conversion rate can be inferred. [c07–c08]
 
-**supplerende illustrasjon — figur 05:** [institusjonelle tellinger](../phase23/figures/05_institutions.svg). institusjon, år, kategori og telleenhet må følge hvert tall, også ved deling utenfor rapporten.
+**supplementary illustration — figure 05:** [institutional counts](../phase23/figures/05_institutions.svg). each displayed number must retain its issuer, reference year, category and counting unit, including when shared separately.
 
-## hva vet vi om postene bak statistikken?
+## what can we identify behind the statistical entries?
 
-undersøkelsen har også forsøkt å koble de statistiske postene til identifiserbare hendelser i tilgjengelige kilder.
+the investigation also attempted to link statistical entries to identifiable incidents using available sources.
 
-i de opprinnelige årsrapportenes til sammen 1 129 angrepsposter er 168 tilstrekkelig identifisert, 35 registrert som kandidatposter og 926 uidentifisert. dette omfatter den britiske raden til og med 2019. for 2025 er fordelingen sju tilstrekkelig identifiserte, 17 kandidatposter og 21 uidentifiserte av 45. [c09–c10]
+across 1,129 entries in the original annual reporting cohorts, 168 were adequately identified, 35 were candidate entries and 926 remained unidentified. this denominator includes the uk row through 2019. for 2025, the respective figures are seven adequately identified, 17 candidates and 21 unidentified out of 45. [c09–c10]
 
-dette er en måling av **undersøkelsens koblingsdekning i offentlig tilgjengelig dokumentasjon**. den sier ikke at 926 hendelser er udokumenterte hos myndighetene, eller at de ikke fant sted. én statistisk post kan også ha flere konkurrerende identitetskandidater. i 2025 gjelder 18 mulige identiteter 17 kandidatposter.
+these figures measure **this investigation's ability to link published statistical entries to available source material**. they do not establish that europol lacks internal documentation for 926 incidents, or that those incidents did not occur. a single statistical entry may have several competing event candidates. in 2025, 18 possible identities relate to 17 candidate entries.
 
-**hovedillustrasjon 03 — figur 04:** [identifikasjonsdekning](../phase23/figures/04_coverage.svg). prosentandeler må alltid ledsages av eksakte antall og definisjonen av «statistisk post». figuren må aldri omtales som «andelen terrorangrep europol ikke kan dokumentere».
+**primary illustration 03 — figure 04:** [identification coverage](../phase23/figures/04_coverage.svg). show exact counts and define the statistical denominator. never label this as the proportion of attacks that europol cannot document.
 
-## hva en rettsavgjørelse faktisk fastslår
+## what a judicial decision actually establishes
 
-tre rettslige eksempler viser hvorfor klassifisering, etterforskning, ansvarspåstand og rettslig konklusjon må holdes fra hverandre.
+three judicial examples illustrate why initial classification, investigation, allegations and court findings must be kept separate.
 
-i den tyske a100-saken avviste domstolen en islamistisk angrepsklassifisering og besluttet psykiatrisk plassering. avgjørelsen ble rettskraftig etter bundesgerichtshofs behandling 16. februar 2023. koblingen mellom denne saken og en ikke navngitt post som senere ble fjernet fra europols statistikk, er fortsatt bare en kandidat. [c11]
+in germany's a100 case, the court rejected the islamist-attack characterization and ordered psychiatric placement. the decision became final following the federal court of justice's review on 16 february 2023. linking this case to an unnamed entry subsequently removed from europol's figures remains only a candidate hypothesis. [c11]
 
-i holbæk-saken oppgir den danske etterretningstjenesten pet at ankedommen mot hovedtiltalte omfattet terrorforsøk og terrorfinansiering. det er en myndighetsoppsummering av et avgrenset rettslig resultat. videre prøving og eventuell ekstern operativ styring er ikke avklart i kildene som er kontrollert. [c12]
+in the holbæk case, the danish security and intelligence service, pet, reports that the principal defendant's appellate judgment concerned attempted terrorism and terrorist financing. this is an official agency summary of a specific judicial outcome. any further appellate disposition and external operational direction remain unverified in the reviewed sources. [c12]
 
-i solingen-saken forkastet bundesgerichtshof revisjonen **12. mai 2026**, og meldingen ble offentliggjort **22. mai**. den omtaler blant annet underinstansens funn om råd og oppmuntring fra is-kontakter. dette er ikke det samme som dokumentasjon for at kontaktene utøvde operativ kommando. [c13]
+in the solingen case, the federal court of justice dismissed the appeal on **12 may 2026**; the announcement was published on **22 may**. it summarizes lower-court findings about encouragement and advice from is contacts. that finding is not equivalent to verified operational command by those contacts. [c13]
 
-eksemplene er valgt for å vise ulike bevisgrenser, ikke fordi de representerer et statistisk utvalg eller dokumenterer en felles kommandostruktur.
+the three cases illustrate different evidentiary boundaries. they are not a representative sample and do not establish a common command structure.
 
-**vedleggsillustrasjon — figur 06:** [rettslige beviskjeder](../phase23/figures/06_judicial.svg). oppgi kildetype og rettslig stadium på hver rad. behold skillet mellom avgjørelsesdato og publiseringsdato.
+**appendix illustration — figure 06:** [judicial evidence chains](../phase23/figures/06_judicial.svg). retain issuer, source type and judicial stage in each row, and distinguish the decision date from the announcement date.
 
-## avvik som fortsatt står åpne
+## discrepancies that remain unresolved
 
-noen motstridende opplysninger lar seg ikke avklare med de tilgjengelige kildene:
+some published observations cannot yet be reconciled using the available sources:
 
-- **2015:** en europolfigur viser 193, mens tekst og årsgrunnlag bruker 211.
-- **2016:** europol oppgir 379 skadde samlet, mens tre hendelsesbeskrivelser summerer til 597. definisjonene er ikke dokumentert slik at tallene kan forenes.
-- **2023:** originalutgaven og senere hovedoversikt oppgir 426 pågripelser; retrospektive kategoritabeller summerer til 431.
-- **2025:** 347 jihadistiske pågripelser står i tabellen, mens aldersfotnoten bruker 344.
-- **korsika, oktober 2023:** det franske innenriksdepartementet oppgir 32 registrerte forhold om ødeleggelse eller forsøk på ødeleggelse, mens europol beskriver 34 angrep. [c16–c18]
+- **2015:** one europol chart shows 193, while the accompanying text and annual data use 211.
+- **2016:** europol reports 379 injured overall, while three incident narratives add to 597. the sources do not provide a common measurement definition that resolves the difference.
+- **2023:** the original edition and a later overview report 426 arrests, while retrospective category tables sum to 431.
+- **2025:** the table reports 347 jihadist arrests, while an age footnote uses 344.
+- **corsica, october 2023:** the french interior ministry reports 32 recorded acts of destruction or attempted destruction, while europol describes 34 attacks. [c16–c18]
 
-avvikene er beholdt fordi de påvirker hva som kan beregnes eller sammenlignes. de dokumenterer ikke i seg selv forsømmelse, manipulering eller uredelighet.
+these differences remain visible because they affect interpretation and potential calculations. they do not, by themselves, establish negligence, manipulation or misconduct.
 
-## hva kan vi konkludere med?
+## what can we conclude?
 
-denne gjennomgangen viser at lesningen av europols terrorstatistikk avhenger av minst tre spørsmål: **hvilke land inngår, hvilket år føres en post i, og hva teller institusjonen?**
+interpreting europol's terrorism statistics requires at least three questions: **which countries are included, which reporting year contains an entry, and what does each institution count?**
 
-det er mulig å etterprøve mange av de publiserte totalene og vise hvor sammenligninger endres når geografi og rapporteringskohort skilles fra hverandre. men dette materialet gir ikke grunnlag for en komplett telling av fysiske terrorhendelser i de 31 undersøkte landene eller en samlet trend i faktisk angrepsfrekvens. det gir heller ikke sammenlignbare serier for unike personer, skader, finansiering eller operativ kommando. [c19–c20]
+many published totals can be checked, and the consequences of fixed geography and different reporting cohorts can be shown. but the current evidence does not support a complete census of physical terrorist incidents across the 31-country research grid or a single trend in actual attack frequency. nor does it establish comparable longitudinal series for unique individuals, injuries, financing or operational command. [c19–c20]
 
-**poenget er ikke at statistikken er verdiløs. poenget er at et tall først blir meningsfullt når vi vet hva det teller.**
+**the point is not that the statistics are worthless. a number becomes meaningful only when its counting unit and scope are clear.**
 
 ---
 
-## redaksjonelle sperrer før publisering
+## editorial release restrictions
 
-- dette er et nytt leservendt utkast; de 20 kontrollerte påstandene og kildeobservasjonene forblir uendret i sine opprinnelige filer.
-- planlagt figurrekkefølge i hovedartikkelen: (1) figur 01 og 02 i felles geografisk sammenheng, inntil en egen 2019–2020-sammenstilling er laget; (2) figur 03 om revisjoner og følsomhet; (3) figur 04 om identifikasjonsdekning. figur 05 kan plasseres etter avsnittet om institusjoner. figur 06 og hele figur 02 kan også gjøres tilgjengelige i dokumentasjonsvedlegget. ingen figur er godkjent som endelig mobil- eller publiseringsasset. alle seks må ha riktige bildetekster og tekstalternativer.
-- ingen enkeltstående figur eller sosialt utdrag kan distribueres uten enhet, geografi, kilde og nødvendige forbehold.
-- rapporten krever fortsatt uavhengig menneskelig redaksjonell kontroll, vurdering av endelig eksport, personvern- og skadevurdering i publiseringskonteksten og eksplisitt publiseringstillatelse.
+- this is a reader-facing draft; the original 20 audited claims and source observations remain unchanged in their underlying files.
+- planned main-article order: (1) figures 01 and 02 together to support the geographic comparison, pending a purpose-built 2019–2020 panel; (2) figure 03 for revisions and sensitivity; (3) figure 04 for identification coverage. figure 05 supports the institutional section; figure 06 and the complete figure 02 belong in the evidence appendix as well.
+- no graphic or excerpt may be distributed without its counting unit, territory, source and necessary qualifications.
+- all six figures require captions, accessible equivalents and review of the actual mobile export before any release.
+- independent human editorial approval, review of the final export and its privacy/harm implications, and explicit publication authorization remain mandatory.
