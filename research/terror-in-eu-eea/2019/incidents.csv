@@ -1,0 +1,29 @@
+incident_id,event_date,country_iso2,locality,category,outcome_cell,confidence,deaths,injuries,source_ids,qualification
+NL19-UTR,2019-03-18,NL,Utrecht,jihadism,completed,adequate,4,2,EU19;NL-UTR,p. 35; Europol specifies two seriously injured.
+FR19-PP,2019-10-03,FR,Paris police headquarters,jihadism,completed,adequate,4,,EU19,p. 36; perpetrator death separate.
+GB19-FIS,2019-11-29,GB,"Fishmongers’ Hall, London",jihadism,completed,adequate,2,,EU19;GB-FIS,p. 36; two victims; attacker death separate.
+FR19-CON,2019-03-05,FR,Condé-sur-Sarthe,jihadism,failed,adequate,0,2,EU19,p. 35 expressly reported failed despite harm.
+FR19-LYO,2019-05-24,FR,Lyon,jihadism,failed,adequate,0,13,EU19;FR-LYO,p. 36 describes outcome as failed despite injuries.
+IT19-MIL,2019-09-17,IT,Milan,jihadism,failed,adequate,0,1,EU19,p. 36; fourth failed case inferred from four-case narrative and p. 84 margins.
+IT19-ROM,2019-11-04,IT,Rome,jihadism,failed,adequate,0,0,EU19,p. 36 expressly reported failed.
+DE19-JAN,2019-01-30,DE,Germany,jihadism,foiled,adequate,,,EU19,p. 37 or 38; arrest or disruption date; planned conduct reported.
+FR19-MAR,2019-03-25,FR,France,jihadism,foiled,adequate,,,EU19,p. 37 or 38; arrest or disruption date; planned conduct reported.
+FR19-APR,2019-04-26,FR,Paris,jihadism,foiled,adequate,,,EU19,p. 37 or 38; arrest or disruption date; planned conduct reported.
+BG19-PLO,2019-06-06,BG,Plovdiv,jihadism,foiled,adequate,,,EU19,p. 37 or 38; arrest or disruption date; planned conduct reported.
+BE19-BRU,2019-06-22,BE,Brussels,jihadism,foiled,adequate,,,EU19,p. 37 or 38; arrest or disruption date; planned conduct reported.
+GB19-LUT,2019-07-03,GB,Luton,jihadism,foiled,adequate,,,EU19,p. 37 or 38; arrest or disruption date; planned conduct reported.
+FR19-JUL,2019-07-23,FR,France,jihadism,foiled,adequate,,,EU19,p. 37 or 38; arrest or disruption date; planned conduct reported.
+FR19-SEP,2019-09-23,FR,France,jihadism,foiled,adequate,,,EU19,p. 37 or 38; arrest or disruption date; planned conduct reported.
+GB19-STP,2019-10-16,GB,London,jihadism,foiled,adequate,,,EU19,p. 37 or 38; arrest or disruption date; planned conduct reported.
+DE19-OFF,2019-11-12,DE,Offenbach,jihadism,foiled,adequate,,,EU19,p. 37 or 38; arrest or disruption date; planned conduct reported.
+DE19-BER,2019-11-19,DE,Berlin,jihadism,foiled,adequate,,,EU19,p. 37 or 38; arrest or disruption date; planned conduct reported.
+NL19-ZOE,2019-11-25,NL,Zoetermeer and The Hague,jihadism,foiled,adequate,,,EU19,p. 37 or 38; arrest or disruption date; planned conduct reported.
+DK19-DEC-1,2019-12-11,DK,Denmark,jihadism,foiled,adequate,,,EU19,p. 38 expressly reports two separate plots in one disruption. Placeholder ordinal only; plot particulars cannot be attributed individually.
+DK19-DEC-2,2019-12-11,DK,Denmark,jihadism,foiled,adequate,,,EU19,p. 38 expressly reports two separate plots in one disruption. Placeholder ordinal only; plot particulars cannot be attributed individually.
+GB19-SUR,2019-03-16,GB,Surrey,right_wing,completed,adequate,0,1,EU19,p. 65; court treated behaviour as a terrorist act despite the offences of conviction.
+LT19-VIL,2019-10-06,LT,Vilnius,right_wing,failed,adequate,,,EU19;LT-VIL,pp. 65 and 84; national security report separately discusses subsequent proceedings.
+PL19-WAR,2019-11-10,PL,Warsaw,right_wing,foiled,adequate,,,EU19,p. 65; reported foiled.
+GB19-MCK,2019-04-18,GB,Derry/Londonderry,separatist,unresolved_outcome,candidate,1,,EU19;GB-MCK;GB-MCK-NC,p. 54 discusses the case with the NI security cohort; individual allocation not explicit. Death is not included in the headline 10.
+DE19-HAL,2019-10-09,DE,Halle,context_only,outside_original_attack_count,outside_scope,2,,EU19;DE-HAL,TE-SAT pp. 18 and 66 excludes the case from original right-wing statistics; court findings are separate.
+DE19-LUB,2019-06-02,DE,Wolfhagen-Istha,context_only,outside_original_attack_count,outside_scope,1,,EU19,pp. 18 and 66 excludes this case from original right-wing statistics.
+NO19-BAE,2019-08-10,NO,Bærum,national,outside_original_attack_count,outside_scope,,,EU19,National event mentioned by Europol; not part of its EU attack count.

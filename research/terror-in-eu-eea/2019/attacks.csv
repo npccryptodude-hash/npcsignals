@@ -1,0 +1,26 @@
+country_iso2,category,outcome,total,geography_component,source_id,locator
+BE,jihadism,foiled,1,fixed_EU27,EU19,p. 84; pp. 18 and 35–38 for outcome joins
+BG,jihadism,foiled,1,fixed_EU27,EU19,p. 84; pp. 18 and 35–38 for outcome joins
+CZ,single_issue,foiled,2,fixed_EU27,EU19,p. 84; pp. 18 and 35–38 for outcome joins
+DK,jihadism,foiled,2,fixed_EU27,EU19,p. 84; pp. 18 and 35–38 for outcome joins
+FR,jihadism,completed,1,fixed_EU27,EU19,p. 84; pp. 18 and 35–38 for outcome joins
+FR,jihadism,failed,2,fixed_EU27,EU19,p. 84; pp. 18 and 35–38 for outcome joins
+FR,jihadism,foiled,4,fixed_EU27,EU19,p. 84; pp. 18 and 35–38 for outcome joins
+DE,jihadism,foiled,3,fixed_EU27,EU19,p. 84; pp. 18 and 35–38 for outcome joins
+GR,left_wing_anarchist,unresolved_outcome,2,fixed_EU27,EU19,p. 84; pp. 18 and 35–38 for outcome joins
+GR,not_specified,unresolved_outcome,2,fixed_EU27,EU19,p. 84; pp. 18 and 35–38 for outcome joins
+IT,jihadism,failed,2,fixed_EU27,EU19,p. 84; pp. 18 and 35–38 for outcome joins
+IT,left_wing_anarchist,unresolved_outcome,22,fixed_EU27,EU19,p. 84; pp. 18 and 35–38 for outcome joins
+IT,not_specified,unresolved_outcome,4,fixed_EU27,EU19,p. 84; pp. 18 and 35–38 for outcome joins
+LT,right_wing,failed,1,fixed_EU27,EU19,p. 84; pp. 18 and 35–38 for outcome joins
+NL,jihadism,completed,1,fixed_EU27,EU19,p. 84; pp. 18 and 35–38 for outcome joins
+NL,jihadism,foiled,1,fixed_EU27,EU19,p. 84; pp. 18 and 35–38 for outcome joins
+PL,right_wing,foiled,1,fixed_EU27,EU19,p. 84; pp. 18 and 35–38 for outcome joins
+ES,left_wing_anarchist,unresolved_outcome,2,fixed_EU27,EU19,p. 84; pp. 18 and 35–38 for outcome joins
+ES,separatist,unresolved_outcome,1,fixed_EU27,EU19,p. 84; pp. 18 and 35–38 for outcome joins
+GB,jihadism,completed,1,UK_contribution,EU19,p. 84; pp. 18 and 35–38 for outcome joins
+GB,jihadism,foiled,2,UK_contribution,EU19,p. 84; pp. 18 and 35–38 for outcome joins
+GB,right_wing,completed,1,UK_contribution,EU19,p. 84; pp. 18 and 35–38 for outcome joins
+GB,right_wing,foiled,3,UK_contribution,EU19,p. 84; pp. 18 and 35–38 for outcome joins
+GB,separatist,unresolved_outcome,56,UK_contribution,EU19,p. 84; pp. 18 and 35–38 for outcome joins
+GB,single_issue,foiled,1,UK_contribution,EU19,p. 84; pp. 18 and 35–38 for outcome joins

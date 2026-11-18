@@ -48,3 +48,5 @@ no medium publication is authorised by this research setup.
 [2021 statistical baseline](2021/BASELINE.md) · [retrospective reporting reconciliation](2021/REPORTING_RECONCILIATION.md) · [2021–2025 comparison](2021/COMPARABILITY_2021_2025.md) · [2021 evidence gaps](2021/PROGRESS.md).
 
 [2020 statistical baseline](2020/BASELINE.md) · [German judicial reclassification audit](2020/RECLASSIFICATION_AUDIT.md) · [2020–2025 comparison](2020/COMPARABILITY_2020_2025.md) · [2020 evidence gaps](2020/PROGRESS.md).
+
+[2019 statistical baseline](2019/BASELINE.md) · [UK membership and reporting geography](2019/GEOGRAPHY_AUDIT.md) · [2019–2025 comparison](2019/COMPARABILITY_2019_2025.md) · [2019 evidence gaps](2019/PROGRESS.md).
