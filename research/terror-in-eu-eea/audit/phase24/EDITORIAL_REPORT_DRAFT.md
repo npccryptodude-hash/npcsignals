@@ -20,7 +20,7 @@ dette beviser ikke at terrortrusselen var uendret. det viser at den opprinnelige
 
 i den opprinnelige eu27-serien står 28 rapporterte angrepsposter i 2022 og 120 i 2023. økningen er 92 poster. men 2023-kohorten inkluderer 26 franske separatistposter som gjelder tidligere hendelsesår: fire fra 2021 og 22 fra 2022. [c04, c06]
 
-npcs​​ignals har derfor beholdt to ulike framstillinger. den ene gjengir de opprinnelige årsrapportene. den andre er en **betinget følsomhetsberegning** som også tar hensyn til senere offisielle justeringer: 2020 går fra 57 til 56 og 2021 fra 15 til 18. når de 26 franske postene i tillegg fordeles på de oppgitte hendelsesårene, blir den betingede serien 56 i 2020, 22 i 2021, 50 i 2022 og 94 i 2023. økningen fra 2022 til 2023 blir da 44, ikke 92. [c05–c06]
+npcsignals har derfor beholdt to ulike framstillinger. den ene gjengir de opprinnelige årsrapportene. den andre er en **betinget følsomhetsberegning** som også tar hensyn til senere offisielle justeringer: 2020 går fra 57 til 56 og 2021 fra 15 til 18. når de 26 franske postene i tillegg fordeles på de oppgitte hendelsesårene, blir den betingede serien 56 i 2020, 22 i 2021, 50 i 2022 og 94 i 2023. økningen fra 2022 til 2023 blir da 44, ikke 92. [c05–c06]
 
 det er en illustrasjon av hvor mye en årsvis sammenligning kan påvirkes av rapporteringskohorten. det er **ikke** en ny offisiell hendelsesårstelling. individuelle koblinger og mulig overlapp er ikke tilstrekkelig avklart. vi kan derfor ikke bruke scenariet til å fastslå hvor mange fysiske terrorhendelser som faktisk fant sted hvert år.
 
