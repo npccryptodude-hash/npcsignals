@@ -17,4 +17,4 @@
 
 **limitations:** the adjustment aligns geographic scope, not national coding practices. it cannot establish a change in the actual terrorism threat. the later revision must remain visually and textually distinct. the original 2015 chart discrepancy (193 versus 211) is outside the plotted period.
 
-**accessibility:** all values and caveats are presented as text above. the SVG has a title and descriptive alternative. final rendering at mobile size and any exported bitmap remain untested and must be checked before release.
+**accessibility:** all values and caveats are presented as text above. the SVG has a title and descriptive alternative. the dedicated [360 px version](mobile/01_2019_2020_geography.svg) was rendered and checked for this review. any final dissemination export remains subject to human review.

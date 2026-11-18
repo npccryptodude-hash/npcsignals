@@ -4,7 +4,7 @@ internal editorial draft · npcsignals · 18 november 2026
 
 **status:** unpublished. this reader-facing narrative reorganizes the phase 23 report following the phase 24 audit. it is not new data collection or independent human editorial approval.
 
-**reader-facing citation index:** [phase 25 source guide](../phase25/SOURCE_GUIDE.md), with edition links, page locators and an evidence map. source links still require final independent verification.
+**reader-facing citation index:** [phase 25 source guide](../phase25/SOURCE_GUIDE.md), with edition links, page locators and an evidence map. the [claim matrix](../phase25/CLAIM_VERIFICATION.csv) records direct checks and limitations.
 
 **evidence base:** [phase 23 report](../phase23/REPORT.md), [claim register](../phase23/claims.csv), [phase 24 audit](AUDIT.md), [figure captions](../phase23/FIGURES.md), and [accessible text alternatives](TEXT_ALTERNATIVES.md). claim identifiers below refer to the existing evidence register. all attack counts describe reported statistical entries, not a complete census of physical terrorist incidents.
 
@@ -16,7 +16,7 @@ but these observations do not cover the same territory. the 2019 edition include
 
 this does not prove that the terrorism threat remained constant. it demonstrates that the unadjusted comparison mixes geographic scopes. national classification and reporting practices may still differ after the adjustment.
 
-**primary illustration 01:** [2019–2020 geographic comparison](../phase25/figures/01_2019_2020_geography.svg), showing the original 2019 EU28 total 119, fixed-EU27 2019 total 55, original 2020 EU27 total 57 and separately labelled later official revision 56. source: TE-SAT 2020 pp. 84–85, TE-SAT 2021 pp. 99–100 and TE-SAT 2023 p. 9 n. 4. [full original geographic context](../phase25/figures/01_geography_en.svg) and [eleven-year fixed-EU27 series](../phase25/figures/02_eu27_series_en.svg) remain in the evidence appendix. the 2015 chart discrepancy of 193 versus 211 remains unresolved.
+**primary illustration 01:** [2019–2020 geographic comparison](../phase25/figures/01_2019_2020_geography.svg), showing the original 2019 EU28 total 119, fixed-EU27 2019 total 55, original 2020 EU27 total 57 and separately labelled later official revision 56. source: TE-SAT 2020 p. 84, TE-SAT 2021 pp. 12 and 99 and TE-SAT 2023 p. 9 n. 4. [full original geographic context](../phase25/figures/01_geography_en.svg) and [eleven-year fixed-EU27 series](../phase25/figures/02_eu27_series_en.svg) remain in the evidence appendix. the 2015 chart discrepancy of 193 versus 211 remains unresolved.
 
 ## when the reporting year is not the occurrence year
 
@@ -69,7 +69,7 @@ the three cases illustrate different evidentiary boundaries. they are not a repr
 some published observations cannot yet be reconciled using the available sources:
 
 - **2015:** one europol chart shows 193, while the accompanying text and annual data use 211.
-- **2016:** europol reports 379 injured overall, while three incident narratives add to 597. the sources do not provide a common measurement definition that resolves the difference.
+- **2016:** europol reports 379 injured overall, while three incident narratives add to 597. its annex gives 374 for jihadist casualties, using the annex’s own terminology. the sources do not provide a common measurement definition that resolves the difference.
 - **2023:** the original edition and a later overview report 426 arrests, while retrospective category tables sum to 431.
 - **2025:** the table reports 347 jihadist arrests, while an age footnote uses 344.
 - **corsica, october 2023:** the french interior ministry reports 32 recorded acts of destruction or attempted destruction, while europol describes 34 attacks. [c16–c18]
@@ -91,5 +91,5 @@ many published totals can be checked, and the consequences of fixed geography an
 - this is a reader-facing draft; the original 20 audited claims and source observations remain unchanged in their underlying files.
 - planned main-article order: (1) the new phase 25 2019–2020 geographic comparison; (2) phase 23 figure 03 for revisions and sensitivity; (3) phase 23 figure 04 for identification coverage. figure 05 supports the institutional section; figure 06 and the complete figure 02 belong in the evidence appendix as well.
 - no graphic or excerpt may be distributed without its counting unit, territory, source and necessary qualifications.
-- all six existing figures and the new phase 25 figure require English captions, accessible equivalents and review of the actual mobile export before any release. the English phase 25 copies and translated captions are available, but mobile export and independent source checks remain release blockers. original historical research files are preserved.
+- all seven figures have checked [english desktop and mobile layouts](../phase25/FIGURE_VALIDATION.md), captions and text alternatives. final dissemination formats require separate human review. original historical research files are preserved.
 - independent human editorial approval, review of the final export and its privacy/harm implications, and explicit publication authorization remain mandatory.

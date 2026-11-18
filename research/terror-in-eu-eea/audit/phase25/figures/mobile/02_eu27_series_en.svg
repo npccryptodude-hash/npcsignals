@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:lang="en" width="360" height="599" viewBox="0 0 360 599" role="img" aria-labelledby="title desc">
+<title id="title">Reported counts at fixed EU27</title>
+<desc id="desc">2015: 108 / 943 | 2016: 66 / 853 | 2017: 98 / 807 | 2018: 69 / 783 | 2019: 55 / 723 | 2020: 57 / 449 | 2021: 15 / 388 | 2022: 28 / 380 | 2023: 120 / 426 | 2024: 58 / 449 | 2025: 45 / 486. Each row: reported attack entries / reported arrests. From 2020 the UK is outside the original series. 2023 contains 26 older attack entries; arrests 426 versus later annex sum 431. The 2015 chart value 193 and 2025 age denominator 347/344 remain unresolved. Sources: TE-SAT 2016–2026. The series does not measure physical attack frequency.</desc>
+<metadata>NPCsignals internal review. Statistical source commit d1f675eb785db712655c6952e43f3a57dd31f66c.</metadata>
+<rect width="100%" height="100%" fill="#fff"/>
+<g font-family="DejaVu Sans, sans-serif" fill="#162436">
+<text x="16" y="23" font-size="19" font-weight="bold">Reported counts at fixed</text>
+<text x="16" y="47" font-size="19" font-weight="bold">EU27</text>
+<rect x="12" y="63" width="336" height="26" fill="#eef3f7"/>
+<text x="18" y="79" font-size="13" font-weight="bold">2015</text>
+<text x="178" y="79" font-size="13">108 / 943</text>
+<rect x="12" y="91" width="336" height="26" fill="#eef3f7"/>
+<text x="18" y="107" font-size="13" font-weight="bold">2016</text>
+<text x="178" y="107" font-size="13">66 / 853</text>
+<rect x="12" y="119" width="336" height="26" fill="#eef3f7"/>
+<text x="18" y="135" font-size="13" font-weight="bold">2017</text>
+<text x="178" y="135" font-size="13">98 / 807</text>
+<rect x="12" y="147" width="336" height="26" fill="#eef3f7"/>
+<text x="18" y="163" font-size="13" font-weight="bold">2018</text>
+<text x="178" y="163" font-size="13">69 / 783</text>
+<rect x="12" y="175" width="336" height="26" fill="#eef3f7"/>
+<text x="18" y="191" font-size="13" font-weight="bold">2019</text>
+<text x="178" y="191" font-size="13">55 / 723</text>
+<rect x="12" y="203" width="336" height="26" fill="#eef3f7"/>
+<text x="18" y="219" font-size="13" font-weight="bold">2020</text>
+<text x="178" y="219" font-size="13">57 / 449</text>
+<rect x="12" y="231" width="336" height="26" fill="#eef3f7"/>
+<text x="18" y="247" font-size="13" font-weight="bold">2021</text>
+<text x="178" y="247" font-size="13">15 / 388</text>
+<rect x="12" y="259" width="336" height="26" fill="#eef3f7"/>
+<text x="18" y="275" font-size="13" font-weight="bold">2022</text>
+<text x="178" y="275" font-size="13">28 / 380</text>
+<rect x="12" y="287" width="336" height="26" fill="#eef3f7"/>
+<text x="18" y="303" font-size="13" font-weight="bold">2023</text>
+<text x="178" y="303" font-size="13">120 / 426</text>
+<rect x="12" y="315" width="336" height="26" fill="#eef3f7"/>
+<text x="18" y="331" font-size="13" font-weight="bold">2024</text>
+<text x="178" y="331" font-size="13">58 / 449</text>
+<rect x="12" y="343" width="336" height="26" fill="#eef3f7"/>
+<text x="18" y="359" font-size="13" font-weight="bold">2025</text>
+<text x="178" y="359" font-size="13">45 / 486</text>
+<text x="16" y="395" font-size="13">Each row: reported attack entries /</text>
+<text x="16" y="413" font-size="13">reported arrests. From 2020 the UK is</text>
+<text x="16" y="431" font-size="13">outside the original series.</text>
+<text x="16" y="455" font-size="13">2023 contains 26 older attack entries;</text>
+<text x="16" y="473" font-size="13">arrests 426 versus later annex sum 431. The</text>
+<text x="16" y="491" font-size="13">2015 chart value 193 and 2025 age</text>
+<text x="16" y="509" font-size="13">denominator 347/344 remain unresolved.</text>
+<text x="16" y="533" font-size="13">Sources: TE-SAT 2016–2026. The series does</text>
+<text x="16" y="551" font-size="13">not measure physical attack frequency.</text>
+<text x="16" y="575" font-size="13">NPCsignals · internal draft · d1f675e</text>
+</g>
+</svg>

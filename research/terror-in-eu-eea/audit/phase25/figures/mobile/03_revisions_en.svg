@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:lang="en" width="360" height="439" viewBox="0 0 360 439" role="img" aria-labelledby="title desc">
+<title id="title">Revisions and conditional sensitivity</title>
+<desc id="desc">2020: 57 / 56 / 56 | 2021: 15 / 18 / 22 | 2022: 28 / — / 50 | 2023: 120 / — / 94. Fixed EU27 / later official / conditional. A dash means no later official marker. The scenario adds four older entries to 2021 and 22 to 2022, taking 26 from 2023. It also includes the official revisions. Individual joins and overlap remain unresolved. The 193 chart value for 2015 is unresolved and outside this comparison. Sources: TE-SAT 2023 p. 9 n. 4; TE-SAT 2024 p. 51 n. 75.</desc>
+<metadata>NPCsignals internal review. Statistical source commit d1f675eb785db712655c6952e43f3a57dd31f66c.</metadata>
+<rect width="100%" height="100%" fill="#fff"/>
+<g font-family="DejaVu Sans, sans-serif" fill="#162436">
+<text x="16" y="23" font-size="19" font-weight="bold">Revisions and conditional</text>
+<text x="16" y="47" font-size="19" font-weight="bold">sensitivity</text>
+<rect x="12" y="63" width="336" height="26" fill="#eef3f7"/>
+<text x="18" y="79" font-size="13" font-weight="bold">2020</text>
+<text x="178" y="79" font-size="13">57 / 56 / 56</text>
+<rect x="12" y="91" width="336" height="26" fill="#eef3f7"/>
+<text x="18" y="107" font-size="13" font-weight="bold">2021</text>
+<text x="178" y="107" font-size="13">15 / 18 / 22</text>
+<rect x="12" y="119" width="336" height="26" fill="#eef3f7"/>
+<text x="18" y="135" font-size="13" font-weight="bold">2022</text>
+<text x="178" y="135" font-size="13">28 / — / 50</text>
+<rect x="12" y="147" width="336" height="26" fill="#eef3f7"/>
+<text x="18" y="163" font-size="13" font-weight="bold">2023</text>
+<text x="178" y="163" font-size="13">120 / — / 94</text>
+<text x="16" y="199" font-size="13">Fixed EU27 / later official / conditional.</text>
+<text x="16" y="217" font-size="13">A dash means no later official marker.</text>
+<text x="16" y="241" font-size="13">The scenario adds four older entries to</text>
+<text x="16" y="259" font-size="13">2021 and 22 to 2022, taking 26 from 2023.</text>
+<text x="16" y="277" font-size="13">It also includes the official revisions.</text>
+<text x="16" y="295" font-size="13">Individual joins and overlap remain</text>
+<text x="16" y="313" font-size="13">unresolved.</text>
+<text x="16" y="337" font-size="13">The 193 chart value for 2015 is unresolved</text>
+<text x="16" y="355" font-size="13">and outside this comparison. Sources:</text>
+<text x="16" y="373" font-size="13">TE-SAT 2023 p. 9 n. 4; TE-SAT 2024 p. 51 n.</text>
+<text x="16" y="391" font-size="13">75.</text>
+<text x="16" y="415" font-size="13">NPCsignals · internal draft · d1f675e</text>
+</g>
+</svg>

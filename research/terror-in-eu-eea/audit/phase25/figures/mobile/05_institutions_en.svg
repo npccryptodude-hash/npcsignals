@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:lang="en" width="360" height="437" viewBox="0 0 360 437" role="img" aria-labelledby="title desc">
+<title id="title">Institutional counts, 2025</title>
+<desc id="desc">DE · NRW: 5 · jihadist-motivated attacks nationwide | DE · Federal government: 4 · locations named in federal answer | DE · Europol: 4 · completed jihadist entries | FR · PNAT: 3 · completed jihadist-inspired attacks | FR · Europol: 2 · completed jihadist entries. Different units; no common event key or missing incident is established. Sources: NRW 2025 pp. 28, 216; Bundestag 21/4296 p. 18; PNAT bundle p. 27; TE-SAT 2026 pp. 19, 47.</desc>
+<metadata>NPCsignals internal review. Statistical source commit d1f675eb785db712655c6952e43f3a57dd31f66c.</metadata>
+<rect width="100%" height="100%" fill="#fff"/>
+<g font-family="DejaVu Sans, sans-serif" fill="#162436">
+<text x="16" y="23" font-size="19" font-weight="bold">Institutional counts, 2025</text>
+<rect x="12" y="39" width="336" height="44" fill="#eef3f7"/>
+<text x="18" y="55" font-size="13" font-weight="bold">DE · NRW</text>
+<text x="178" y="55" font-size="13">5 · jihadist-motivated</text>
+<text x="178" y="73" font-size="13">attacks nationwide</text>
+<rect x="12" y="85" width="336" height="44" fill="#eef3f7"/>
+<text x="18" y="101" font-size="13" font-weight="bold">DE · Federal</text>
+<text x="18" y="119" font-size="13" font-weight="bold">government</text>
+<text x="178" y="101" font-size="13">4 · locations named in</text>
+<text x="178" y="119" font-size="13">federal answer</text>
+<rect x="12" y="131" width="336" height="44" fill="#eef3f7"/>
+<text x="18" y="147" font-size="13" font-weight="bold">DE · Europol</text>
+<text x="178" y="147" font-size="13">4 · completed jihadist</text>
+<text x="178" y="165" font-size="13">entries</text>
+<rect x="12" y="177" width="336" height="62" fill="#eef3f7"/>
+<text x="18" y="193" font-size="13" font-weight="bold">FR · PNAT</text>
+<text x="178" y="193" font-size="13">3 · completed</text>
+<text x="178" y="211" font-size="13">jihadist-inspired</text>
+<text x="178" y="229" font-size="13">attacks</text>
+<rect x="12" y="241" width="336" height="44" fill="#eef3f7"/>
+<text x="18" y="257" font-size="13" font-weight="bold">FR · Europol</text>
+<text x="178" y="257" font-size="13">2 · completed jihadist</text>
+<text x="178" y="275" font-size="13">entries</text>
+<text x="16" y="311" font-size="13">Different units; no common event key or</text>
+<text x="16" y="329" font-size="13">missing incident is established.</text>
+<text x="16" y="353" font-size="13">Sources: NRW 2025 pp. 28, 216; Bundestag</text>
+<text x="16" y="371" font-size="13">21/4296 p. 18; PNAT bundle p. 27; TE-SAT</text>
+<text x="16" y="389" font-size="13">2026 pp. 19, 47.</text>
+<text x="16" y="413" font-size="13">NPCsignals · internal draft · d1f675e</text>
+</g>
+</svg>

@@ -9,8 +9,9 @@ ROOT = Path(__file__).resolve().parent
 SOURCE = ROOT / "phase23" / "figures"
 TARGET = ROOT / "phase25" / "figures"
 MANIFEST = ROOT / "phase25" / "figure_translations.json"
-TAG = re.compile(r"<(title|desc|text)([^>]*)>([^<]*)</\\1>")
-NUMBER = re.compile(r"(?<![A-Za-z])\\d+(?:[.,]\\d+)?")
+from phase25.build_layouts import outputs
+TAG = re.compile(r"<(title|desc|text)([^>]*)>([^<]*)</\1>")
+NUMBER = re.compile(r"(?<![A-Za-z])\d+(?:[.,]\d+)?")
 
 def convert(source, pairs):
     replacements = dict(pairs)
@@ -45,6 +46,15 @@ def main():
         else:
             destination.write_text(expected, encoding="utf-8")
         print(f"PASS: {name}")
+    for name, expected in outputs():
+        destination = TARGET / name
+        if args.check:
+            if destination.read_text(encoding="utf-8") != expected:
+                raise SystemExit(f"FAIL: {destination}")
+        else:
+            destination.parent.mkdir(parents=True, exist_ok=True)
+            destination.write_text(expected, encoding="utf-8")
+    print("PASS: deterministic lead and seven mobile layouts")
     lead = (TARGET / "01_2019_2020_geography.svg").read_text(encoding="utf-8")
     with (ROOT.parent / "data" / "phase22_annual_analysis.csv").open(
         encoding="utf-8", newline=""

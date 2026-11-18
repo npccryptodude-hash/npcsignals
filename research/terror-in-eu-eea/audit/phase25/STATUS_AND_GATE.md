@@ -1,43 +1,31 @@
-# phase 25 — source presentation and visual production checkpoint
+# phase 25 — final figure and source validation
 
-date: 18 november 2026
-status: **English figure copies complete; final mobile and source-verification gates blocked**
+Review date: 18 November 2026. Verified starting checkpoint `cdd3572e8232ee1e1615b0ce48c01e80fd5fd26f` on `research/terror-eu-eea-foundation-2026`, draft PR #7. Starting main `18ff335e85b36f072a03a19faac8ee051fb32867`.
 
-## completed
+| Gate | Result |
+|---|---|
+| Technical verification | PASS. Original statistical and analytical CSVs and all six historical SVGs reproduce byte for byte. Phase 24 independent recomputation passes. The English build check passes for all 14 outputs. |
+| Desktop rendering | PASS at 900 px. Zero baselines, separate revised markers, source locators and numeric labels checked. |
+| Mobile rendering | PASS for seven dedicated 360 px layouts. Use these versions or the text alternatives on narrow screens. Shrunken desktop assets retain small type. |
+| Claim verification | All C01–C20 checked. Evidence limitations remain explicit in the matrix. Holbæk's signed judgment and later disposition and the Solingen lower-court reasons are NOT REVERIFIED. |
+| Editorial handoff | Ready for independent human editorial review. Human signoff, final dissemination-format review and explicit publication authorization remain pending. |
 
-1. created [an English reader-facing source guide](SOURCE_GUIDE.md) linking all eleven annual TE-SAT editions from the versioned dataset, with printed-page locators and a claim-to-evidence map for c01–c20.
-2. created [an English 2019–2020 geographic comparison SVG](figures/01_2019_2020_geography.svg) showing 119, 55, 57 and the separately labelled later official revision 56. the arithmetic 119 − 64 = 55 was checked against the annual dataset and c03.
-3. created [an English accessible text alternative](figures/01_2019_2020_geography_ALT.md).
-4. translated [phase 23 figure captions](../phase23/FIGURES.md) and [phase 24 text alternatives](../phase24/TEXT_ALTERNATIVES.md) to English while retaining the numerical observations and caveats.
-5. updated [the English editorial report](../phase24/EDITORIAL_REPORT_DRAFT.md) to link to the new figure and source guide.
+The initial build check failed because the SVG tag and numeric regular expressions were over-escaped. After repair, the six existing translations matched their committed SVG bytes exactly, including unchanged geometry and numeric labels relative to their originals. The lead chart now derives values and bar widths from the analytical dataset. Mobile rows use that same dataset and the committed institutional and judicial records. Column overlaps found in early mobile rendering were corrected. Historical Norwegian source artifacts remain versioned as audit evidence. The active editorial and figure package is in English.
 
-6. added six English SVG copies in [phase 25 figures](figures/), preserving the original SVG geometry, coordinates and numeric text labels. a [versioned translation manifest](figure_translations.json) and [deterministic rebuild/check script](../build_english_figures.py) were added. the original phase 23 SVGs remain untouched.
-7. recorded selected direct primary-source checks and explicit unresolved items in [the verification ledger](DIRECT_SOURCE_VERIFICATION.md).
-8. updated the editorial report to link to the English copies.
+The recalculation SHA-256 remains `fc351da07034e81754741f8fc3963855d62627747c84e366f634f9fcb5a6ab9f`. The analytical CSV SHA-256 remains `d88bbcae61083b791dc253f834d754767618f96e90c3d960ac41fa23ef02507d`.
 
-## independently checked within this session
+## Unresolved issues
 
-- the branch matched the phase 24 head before phase 25 edits.
-- annual dataset values for 2019 and 2020 agree with the new figure and source guide.
-- the existing figure 01 ends in 2019, so the new panel addresses a genuine editorial mismatch.
-- the existing phase 24 figure inspection warns that labels are too small at 360 px for comfortable standalone reading.
+| Issue | Retained disposition |
+|---|---|
+| 2015 original 211 versus 193 in later charts | Both preserved. No revised value established. |
+| 2016 379 overall versus 597 from three cases, with annex 374 jihadist casualties | Scope and measurement remain incompatible or unknown. |
+| 2023 arrests 426 versus retrospective annex sum 431 | 426 remains baseline. 431 is a reconstruction. |
+| 2025 jihadist arrests 347 versus age note 344 | Separate printed denominators, with no derived age share. |
+| October 2023 Corsica 32 national facts versus 34 Europol attacks | Separate units and unknown event mapping. |
+| A100, Essen, French candidate entries and historical cohort mapping | Candidate or unknown relationships retained. No exact linkage inferred. |
+| Holbæk and Solingen documentary limits | Agency/court-summary provenance preserved. No inference of external operational command. |
 
-## outstanding defects and constraints
+[English report](../phase24/EDITORIAL_REPORT_DRAFT.md) · [Source guide](SOURCE_GUIDE.md) · [Direct-source verification](DIRECT_SOURCE_VERIFICATION.md) · [Figure validation and reproducible build](FIGURE_VALIDATION.md)
 
-**language:** the reader-facing figure set, figure captions and text alternatives now have English versions. original historical files, including the phase 23 SVG generator and report, retain Norwegian and remain in the repository as preserved audit evidence. a separate repository-wide English-only remediation remains necessary if the requirement applies retroactively to all historical files.
-
-**figure validation:** six English copies have text-only translations and a committed byte-for-byte rebuild script, plus a dataset-value check for the new lead figure. the checks were not executed in a checked-out repository in this session; source/translated geometry was compared in the GitHub tool workflow. no actual 360 px raster/export inspection was completed. final mobile versions remain unapproved. the lead figure is a static source-controlled graphic with dataset-value validation, not yet generated from a complete deterministic drawing routine.
-
-**citation completeness:** selected primary sources were reopened and compared in the [direct-source ledger](DIRECT_SOURCE_VERIFICATION.md), including Europol 2026 and Bundestag 21/4296. the 2019 PDF was too large for retrieval and the BGH page returned access denied; other source links remain unverified. this is a partial source audit, not a completed claim-by-claim verification.
-
-**editorial signoff:** no independent human editorial review has occurred. no final-format export or full privacy/harm assessment has been completed.
-
-## next controlled tasks
-
-1. execute the deterministic figure check in a clean repository checkout; inspect exported English graphics at 360 px and resolve any label overflow. preserve the original historical assets as audit evidence.
-2. add a fully generated version of the new geographic SVG or document its controlled static production process, and run its dataset validation and accessibility checks.
-3. create mobile-specific figure exports, visually inspect at the intended width, and test that captions and caveats remain attached.
-4. complete remaining direct judicial and institutional source checks, all c01–c20 citation placements, and external edition links against the original documents.
-5. conduct an independent human editorial review, then a final publication gate assessment.
-
-**publication verdict:** blocked. no merge, public deployment, contact with subjects, or modification of main is authorized.
+Publication, deployment, contact with investigated parties and merge remain outside this phase.

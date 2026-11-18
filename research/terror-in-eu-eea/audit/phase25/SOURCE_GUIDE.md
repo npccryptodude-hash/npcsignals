@@ -7,7 +7,7 @@ internal evidence presentation · 18 november 2026 · not publication clearance
 - each claim reference in the [editorial report](../phase24/EDITORIAL_REPORT_DRAFT.md) maps to the [audited claim register](../phase23/claims.csv). these are traceability identifiers, not substitutes for readable citations.
 - original reporting cohorts, later official revisions and conditional calculations are different evidence classes. retain the distinction in article text and graphics.
 - source links below point to known original publications or internal evidence records. page numbers are printed pages as recorded in the audited claim register; PDF viewer pagination may differ.
-- the links have been transcribed from the versioned research dataset and claim register. this phase has not independently re-downloaded or verified each external PDF.
+- all eleven edition PDFs were reopened and checked at the linked statistical pages. the [source register](REOPENED_SOURCES.csv) contains exact URLs, edition dates, locators and fingerprints. the [claim matrix](CLAIM_VERIFICATION.csv) states which propositions each passage supports.
 
 ## annual original editions
 
@@ -20,9 +20,9 @@ internal evidence presentation · 18 november 2026 · not publication clearance
 | 2019 | TE-SAT 2020 | 84–85 | [europol PDF](https://www.europol.europa.eu/cms/sites/default/files/documents/european_union_terrorism_situation_and_trend_report_te-sat_2020_0.pdf) |
 | 2020 | TE-SAT 2021 | 99–100 | [europol PDF](https://www.europol.europa.eu/cms/sites/default/files/documents/tesat_2021_0.pdf) |
 | 2021 | TE-SAT 2022 | 82–83 | [europol PDF](https://www.europol.europa.eu/cms/sites/default/files/documents/Tesat_Report_2022_0.pdf) |
-| 2022 | TE-SAT 2023 | 79–80 | [archived PDF in research source register](https://tpcoe.gov.pl/download/11/636/EuropeanUnionTerrorismSituationandTrendreport2023.pdf) |
-| 2023 | TE-SAT 2024 | 61–62 | [archived full edition](https://www.pvtweb.de/fileadmin/user_upload-/Dateien_zum_Download/TE-SAT_2024.pdf) |
-| 2024 | TE-SAT 2025 | 62–63 | [archived PDF in research source register](https://tpcoe.gov.pl/download/10/4691/EUTE-SAT2025.pdf) |
+| 2022 | TE-SAT 2023 | 79–80 | [EU Publications Office PDF](https://publications.europa.eu/resource/cellar/1694f1b5-9a38-11ee-b164-01aa75ed71a1.0001.01/DOC_1) |
+| 2023 | TE-SAT 2024 | 62–63 | [EU Publications Office full edition](https://publications.europa.eu/resource/cellar/052be61e-d3bc-11ef-be2a-01aa75ed71a1.0001.01/DOC_1) |
+| 2024 | TE-SAT 2025 | 62–63 | [EU Publications Office PDF](https://publications.europa.eu/resource/cellar/a8035d30-5241-11f0-a9d0-01aa75ed71a1.0001.01/DOC_1) |
 | 2025 | TE-SAT 2026 | 19–22; 47–49 | [europol PDF](https://www.europol.europa.eu/cms/sites/default/files/documents/EU-TE-SAT-2026.pdf) |
 
 ## narrative evidence map
@@ -40,6 +40,6 @@ internal evidence presentation · 18 november 2026 · not publication clearance
 | unresolved numerical conflicts | c16–c18 | TE-SAT 2016 p. 44; TE-SAT 2017 pp. 10–11, 23–24, 49; TE-SAT 2024 pp. 51, 63; TE-SAT 2026 pp. 18, 22, 27 n. 36, 49–52; French Senate answer 03246 p. 4146. retain as unreconciled observations. |
 | supported conclusions and limits | c19–c20 | [phase 22 historical analysis](../PHASE_22_HISTORICAL_ANALYSIS.md), [denominator decisions](../phase21_denominators.csv), [publication readiness](../PUBLICATION_READINESS.md). no physical incident census or cross-year command trend. |
 
-## release blocker
+## review status
 
-the annual edition links are a useful source index, but the institutional and judicial entries above still require an editor to verify direct public URLs and page locators in the final release context. no missing link may be fabricated. all twenty claims remain subject to independent human review.
+The [direct-source verification](DIRECT_SOURCE_VERIFICATION.md) records the remaining evidence limits. All claims remain subject to independent human editorial review and explicit publication authorization.
