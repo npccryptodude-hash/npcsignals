@@ -56,3 +56,7 @@ no medium publication is authorised by this research setup.
 [2017 statistical baseline](2017/BASELINE.md) · [EU28 to EU27 audit](2017/GEOGRAPHY_AUDIT.md) · [2017–2025 comparison](2017/COMPARABILITY_2017_2025.md) · [2017 evidence gaps](2017/PROGRESS.md).
 
 [2016 statistical baseline](2016/BASELINE.md) · [EU28 to EU27 audit](2016/GEOGRAPHY_AUDIT.md) · [2016–2025 comparison](2016/COMPARABILITY_2016_2025.md) · [2016 evidence gaps](2016/PROGRESS.md).
+
+[2015 statistical baseline](2015/BASELINE.md) · [EU28 to EU27 audit](2015/GEOGRAPHY_AUDIT.md) · [2015 evidence gaps](2015/PROGRESS.md).
+
+[2015–2025 consolidated comparison](COMPARABILITY_2015_2025.md) · [Research-wide statistical reconciliation](STATISTICAL_RECONCILIATION_2015_2025.md).

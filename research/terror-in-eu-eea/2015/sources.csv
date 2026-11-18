@@ -1,0 +1,23 @@
+source_id,publisher,date_or_year,locator,url
+EU15,Europol,2016-07-19,"Full TE-SAT 2016 covering 2015; pp. 10, 22–23, 35, 37, 44–45, 51–53; retrieved 2026-11-18; 60 pages; 4038824 bytes; SHA-256 45ebdbaac89072e05c581d441210bf42fa36e470100a3799455b3cf428d40fa5",https://www.europol.europa.eu/cms/sites/default/files/documents/europol_tesat_2016.pdf
+EU15-META,EU Publications Office,2017-04-26,Repository release date; original report 2016; PDF DOI 10.2813/525171,https://op.europa.eu/en/publication-detail/-/publication/9f76f4b8-105f-11e7-8a35-01aa75ed71a1/language-en
+EU15-PUB,Europol,2016-07-19,"Publisher release page, updated 2021-12-06",https://www.europol.europa.eu/publications-events/main-reports/european-union-terrorism-situation-and-trend-report-te-sat-2016
+EU16,Europol,2017,"TE-SAT 2017 pp. 10, 49–50 retain 211 and 1077",https://www.europol.europa.eu/cms/sites/default/files/documents/tesat2017_0.pdf
+EU17,Europol,2018,TE-SAT 2018 p. 9 Fig. 1 displays 193 for 2015; no explanatory correction identified,https://www.europol.europa.eu/cms/sites/default/files/documents/tesat_2018_1.pdf
+EU18,Europol,2019,TE-SAT 2019 pp. 13 and 15 2015 historical charts 211 attacks and 1077 arrests,https://www.europol.europa.eu/cms/sites/default/files/documents/tesat_2019_final.pdf
+GB-REV,Independent Reviewer of Terrorism Legislation,2016,The Terrorism Acts in 2015; independent UK and NI coverage,https://www.gov.uk/government/publications/the-terrorism-acts-in-2015
+GB-NI,High Court of Justice in Northern Ireland,2023,NIKB 12 cites official 2015 reported 16 security-target attacks,https://www.judiciaryni.uk/files/judiciaryni/decisions/%5B2023%5D%20NIKB%2012Final%20-%20Approved.pdf
+GB-PSNI,PSNI,2021,"FOI F-2021-01152 gives cross-year separate s. 41 arrest scope, not calendar 2015 row",https://www.psni.police.uk/sites/default/files/2022-10/01152%20Terror%20Arrests.pdf
+DK-RISK,Danish Emergency Management Agency,2022,National Risk Profile 2022; Copenhagen terrorism case,https://www.brs.dk/globalassets/brs---beredskabsstyrelsen/dokumenter/krisestyring-og-beredskabsplanlagning/2022/-national-risk-profile-2022-.pdf
+FR-JAN,French Ministry of Justice,2020,Proceeding scope and timeline for the three January attack dates,https://www.justice.gouv.fr/actualites/actualite/proces-attentats-7-8-9-janvier-2015
+FR-JAN-AP,Le Parisien,2022-10-21,Reported January appeal verdict,https://www.leparisien.fr/faits-divers/video-proces-en-appel-des-attentats-de-janvier-2015-pour-riss-lhistoire-judiciaire-se-termine-mais-celle-des-victimes-continuera-21-10-2022-ZJRKBTPD2BFJJK7ZLZ4AWXWCA.php
+FR-INQ,Assemblée nationale,2016-07,Report 3922; official inquiry into the 2015 attacks and investigation,https://www.assemblee-nationale.fr/14/pdf/rap-enq/r3922.pdf
+FR-NAT,Assemblée nationale,2021,Annex of attacks in France; includes 21 August Thalys,https://www2.assemblee-nationale.fr/content/download/407991/3980790/version/2/file/20210928%2BVDef%2Bsec%2Bsommaire%2Bprojet%2Brapport%2Bpublic%2Bdpr.pdf
+FR-PAR-CIV,Cour d’appel de Paris,2022-10-25,"Civil ruling press release verifies 29 June criminal judgment, with civil scope separate",https://www.cours-appel.justice.fr/sites/default/files/2022-10/Communique_de_presse_V13_IC_%20anonyme.pdf
+FR-PAR-VER,Reuters,2022-06-29,Case-by-case disposition reporting,https://whbl.com/2022/06/29/how-french-court-ruled-in-paris-islamist-attacks-trial/
+FR-PAR-END,Le Parisien,2022-07-12,Reports expiry of appeal period without appeal,https://www.leparisien.fr/faits-divers/proces-des-attentats-du-13-novembre-abdeslam-ni-aucun-des-autres-condamnes-nont-fait-appel-12-07-2022-UGTU4CWUTFG6XGZCZXISSE3VCM.php
+FR-THA,Reuters,2022-12-08,Thalys appeal life sentence reported,https://www.boursorama.com/actualite-economique/actualites/france-perpetuite-confirmee-en-appel-pour-l-auteur-de-l-attentat-manque-du-thalys-en-2015-c28b33d18cc3fd0828a21ff787bb467d
+NO-CAT,Norwegian PST,,National assessment catalogue,https://www.pst.no/alle-artikler/trusselvurderinger/
+IS-CAT,Icelandic government,,National security catalogue,https://www.stjornarradid.is/verkefni/almannaoryggi/thjodaroryggi/itarefni/
+LI-CAT,Landespolizei,,Annual reports catalogue,https://www.landespolizei.li/ueber-uns/jahresberichte
+DK-AQ,AFP via The Local,2016-09-27,Reported acquittals on alleged complicity in the second Copenhagen attack,https://www.thelocal.dk/20160927/danes-accused-of-aiding-2015-copenhagen-attacker-acquitted

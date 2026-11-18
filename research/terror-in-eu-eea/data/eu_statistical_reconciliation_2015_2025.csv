@@ -1,0 +1,12 @@
+reference_year,original_scope,original_attacks,original_arrests,included_uk_attacks,included_uk_arrests,later_official_attack_revision,unexplained_later_chart,fixed_eu27_attacks,fixed_eu27_arrests,occurrence_sensitivity_delta,occurrence_sensitivity_attacks,adequate_slots,candidate_slots,unidentified_slots,source_locator
+2015,EU28_including_UK,211,1077,103,134,,193,108,943,0,108,9,3,199,2015/BASELINE.md
+2016,EU28_including_UK,142,1002,76,149,,,66,853,0,66,20,1,121,2016/BASELINE.md
+2017,EU28_including_UK,205,1219,107,412,,,98,807,0,98,27,1,177,2017/BASELINE.md
+2018,EU28_including_UK,129,1056,60,273,,,69,783,0,69,22,0,107,2018/BASELINE.md
+2019,EU28_including_UK,119,1004,64,281,,,55,723,0,55,24,1,94,2019/BASELINE.md
+2020,EU27,57,449,0,0,56,,57,449,-1,56,15,0,42,2020/BASELINE.md
+2021,EU27,15,388,0,0,18,,15,388,7,22,14,1,0,2021/BASELINE.md
+2022,EU27,28,380,0,0,,,28,380,22,50,12,3,13,2022/BASELINE.md
+2023,EU27,120,426,0,0,,,120,426,-26,94,9,1,110,2023/BASELINE.md
+2024,EU27,58,449,0,0,,,58,449,0,58,9,7,42,2024/BASELINE.md
+2025,EU27,45,486,0,0,,,45,486,0,45,7,17,21,2025_EUROPE_COMPARATIVE_REPORT.md

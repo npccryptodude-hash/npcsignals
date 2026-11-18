@@ -1,0 +1,15 @@
+metric_id,geography,measure,value,source_ids,locator
+ALL-DEAD,EU28,victim_deaths,151,EU15,p. 10; France 148 Denmark two Greece one
+ALL-INJ,EU28,injuries_strictly_more_than,360,EU15,p. 10; bound not exact
+J-DEAD,EU28,jihadist_victim_deaths_overview,150,EU15,pp. 10 and 22
+J-DEAD-ANNEX,EU28,jihadist_victim_deaths_annex_narrative,148,EU15,p. 44; conflicts with overview if read as EU-wide
+J-INJ,EU28,jihadist_injuries_strictly_more_than,250,EU15,p. 10; weak lower bound
+J-INJ-ANNEX,EU28,jihadist_injuries_strictly_more_than_annex,350,EU15,p. 44; stronger lower bound
+NOV-INJ,FR,published_November_case_injuries,368,EU15,pp. 10 and 22; case count distinct from aggregate bound
+FIXED-DEAD,fixed_EU27,derived_same_scope_deaths,151,EU15,p. 10 explicitly places all headline deaths in FR DK GR
+FIXED-INJ,fixed_EU27,all_ideology_injury_count_unverified,,EU15,p. 10 does not give full national injury breakdown
+FR-ATT-OV,FR,overview_country_attack_total,72,EU15,p. 10; annex p. 44 country row 73
+FR-SEP-OV,FR,overview_separatist_attack_total,50,EU15,p. 10; annex p. 44 category cell 47
+NI-NS,GB-NIR,national_security_target_attacks,16,EU15;GB-NI,pp. 35 and 44 n. 1; not categorised as separatist in table; exact overlap with 103 unverified
+NI-ARR,GB-NIR,separate_section_41_count_in_2015_unverified,,GB-PSNI;GB-REV,No aligned same-year value extracted; no subtraction
+LATER-FIG-2015,EU28,later_unexplained_historical_attack_chart_value,193,EU17,p. 9 fig. 1; differs from original 211 and TE-SAT 2019 historical chart

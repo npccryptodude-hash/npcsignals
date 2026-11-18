@@ -1,0 +1,16 @@
+incident_id,event_date,country_iso2,locality,category,outcome_cell,confidence,deaths,injuries,source_ids,qualification
+FR15-CH,2015-01-07,FR,Paris,jihadism,completed,adequate,12,8,EU15;FR-JAN,pp. 10 and 22–23; original case figures; Charlie Hebdo and immediate surrounding acts described together.
+FR15-MON,2015-01-08,FR,Montrouge,jihadism,completed,adequate,1,1,EU15;FR-JAN,p. 22; distinct from following day; same perpetrator as Hyper Cacher.
+FR15-HC,2015-01-09,FR,Paris Hyper Cacher,jihadism,completed,adequate,4,,EU15;FR-JAN,p. 22; distinct event in same domestic proceeding.
+DK15-KRU,2015-02-14,DK,Copenhagen Krudttønden,jihadism,completed,adequate,1,3,EU15;DK-RISK,p. 23; first Copenhagen attack.
+DK15-SYN,2015-02-15,DK,Copenhagen synagogue,jihadism,completed,adequate,1,2,EU15;DK-RISK,p. 23 says some hours later and p. 10 groups same day; national risk profile uses night of 14–15 February.
+FR15-NIC,2015-02-03,FR,Nice,jihadism,unresolved_outcome,adequate,0,3,EU15,pp. 10 and 22; separately named French event; statistical outcome not keyed.
+FR15-SQF,2015-06-26,FR,Saint-Quentin-Fallavier,jihadism,unresolved_outcome,adequate,1,,EU15,pp. 10 and 22; national follow-up source limited; outcome unkeyed.
+FR15-NOV,2015-11-13,FR,Paris and Saint-Denis,jihadism,unresolved_outcome,adequate,130,368,EU15;FR-INQ;FR-PAR-CIV;FR-PAR-VER,"pp. 10, 22 and 44; unquestionably in original cohort. One representative slot counted as a lower bound; precise multiple-slot allocation outstanding."
+FR15-THA,2015-08-21,FR,Thalys train in France,jihadism,unresolved_outcome,candidate,0,,EU15;FR-NAT;FR-THA,p. 23 thematic example and national terrorist trial; exact mapping within 15 French slots unverified.
+GR15-STI,2015-02-21,GR,Stilida,left_wing_anarchist,unresolved_outcome,adequate,1,,EU15,p. 37 names one of two Greek entries; outcome class not keyed.
+IT15-BAR,2015-08-12,IT,Bari,left_wing_anarchist,unresolved_outcome,candidate,0,1,EU15,"p. 37 narrates six physical reports across four Italian slots; distinct case candidate, no deterministic join."
+IT15-ROM,2015-08-12,IT,Rome,left_wing_anarchist,unresolved_outcome,candidate,0,0,EU15,"p. 37 narrates six physical reports across four Italian slots; distinct case candidate, no deterministic join."
+BE15-VER,2015-01-16,BE,Verviers,context_only,outside_original_attack_count,outside_scope,,,EU15;FR-INQ,"p. 23 describes foiled plot, but Belgium has no original attack row."
+DE15-BER,2015-09-17,DE,Berlin,context_only,outside_original_attack_count,outside_scope,,,EU15,p. 23 describes case without German attack row.
+GB15-LEY,2015-12-06,GB,London Underground,context_only,outside_original_categorised_count,outside_scope,0,3,EU15,p. 23 description; no evidence whether included in UK unspecified 103.
