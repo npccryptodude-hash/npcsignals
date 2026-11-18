@@ -37,3 +37,11 @@ the earlier provisional germany reconciliation note relied on an early 2025 asse
 ## next checks
 
 obtain appeal status, full written judgment if available, and procedural status of second accused. compare court findings against Europol TE-SAT 2026 classification without inferring extra connections.
+
+## appellate and accomplice procedural check — 2026-11-18
+
+The defence filed a revision on 17 March 2026, confirmed by a Berlin courts spokesperson. No subsequent BGH disposition was established in the sources reviewed. https://www.deutschlandfunk.de/urteil-zu-messerangriff-an-holocaust-mahnmal-nicht-rechtskraeftig-106.html
+
+The federal prosecutor's 9 September 2026 original statement confirms an indictment filed on 21 August against Khalaf A. for alleged assistance to attempted murder and dangerous bodily harm. He had been in pretrial custody since 27 May 2026. The alleged encouragement on the afternoon before the attack remains a prosecutorial allegation, not a conviction. https://www.presseportal.de/blaulicht/pm/14981/6348674
+
+The March 2026 court finding that an IS member guided the attacker over months is stronger than the initial February 2025 prosecution's ideology-only description. Formal IS membership was not established by the court. The separate accused's alleged in-person encouragement must not be assumed to be organisational IS direction.
