@@ -1,0 +1,15 @@
+record_id,incident_id,date,stage_or_relationship,evidence_status,finding_or_allegation,finality,source_ids
+HAG-J1,NL18-HAG,2019-07,trial,confirmed,District court rejected terrorist intent and ordered compulsory psychiatric treatment.,later_appeal,NL-HAG;EU19
+HAG-J2,NL18-HAG,2021-05-11,appeal,reported,Appeal court likewise rejected terrorist intent and ordered compulsory psychiatric treatment.,cassation_status_unverified,NL-HAG-AP
+AMS-J1,NL18-AMS,2019-10,trial,confirmed,Trial court sentenced attacker to 26 years 8 months for terrorist conduct.,superseded_by_appeal_sentence,NL-AMS;NL-AMS-AP
+AMS-J2,NL18-AMS,2020-11,appeal,reported,25-year appeal sentence.,cassation_status_unverified,NL-AMS-AP
+STR-J1,FR18-STR,2026-04-17,appeal,reported,Thirty-year sentence upheld; reported assistance procuring weapon used in attack.,cassation_filed_disposition_unverified,FR-STR-AP;FR-STR-CAS
+STR-R1,FR18-STR,2018-12,responsibility_claim,reported,IS publicly claimed attacker as a soldier. Claim does not establish operational command or organisational financing.,not_applicable,EU18
+STR-R2,FR18-STR,2026-04-17,material_assistance,reported,Judicially assessed procurement assistance attributed to an individual in appeal coverage; organisational direction unverified.,cassation_filed_disposition_unverified,FR-STR-AP;FR-STR-CAS
+TRE-J1,FR18-TRE,2024-02-23,trial,confirmed,Gendarmerie account records verdicts for associates and sentences ranging from 12 months to five years.,later_appeals_not_verified,FR-TRE
+TRE-R1,FR18-TRE,2018-03,responsibility_claim,reported,"Europol records IS claim without establishing command, contact or financing.",not_applicable,EU18
+PAR-R1,FR18-PAR,2018-05,responsibility_claim_and_pledge,reported,Europol records IS responsibility claim and a published allegiance video.,not_applicable,EU18
+LIE-R1,BE18-LIE,2018-05,responsibility_claim,reported,Europol records IS responsibility claim; communication or direction not established by claim.,not_applicable,EU18
+MAN-J1,GB18-MAN,2019-11,sentencing,confirmed,Police record life sentence with 11-year minimum following attempted murder and terrorism-information guilty pleas.,further_appeal_not_verified,GB-MAN
+MAC-J1,IT18-MAC,2018-10-03,trial,reported,ANSA reports 12-year sentence.,later_confirmed_in_cassation,IT-MAC
+MAC-J2,IT18-MAC,2021-03-24,cassation,reported,Confirmed 12-year sentence and racial hatred aggravation; no original judgment retrieved.,reported_final,IT-MAC-CAS

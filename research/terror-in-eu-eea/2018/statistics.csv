@@ -1,0 +1,10 @@
+metric_id,geography,measure,value,source_ids,locator
+ALL-DEAD,original_EU28,victim_deaths,13,EU18,pp. 14 and 68
+ALL-INJ,original_EU28,injuries,53,EU18,pp. 14 and 68
+J-INJ,original_EU28,jihadist_injuries,46,EU18,p. 30
+EU27-DEAD,fixed_EU27,derived_same_scope_victim_deaths,13,EU18,pp. 14 and 30–32; completed-case deaths 4+1+3+5; no UK fatality in headline
+EU27-INJ,fixed_EU27,all_attack_injuries_unverified,,EU18,No verified UK total compatible with 53
+NI-SEC,GB-NIR,security_related_incidents_in_UK_row,56,EU18;GB-REV,pp. 12 and 68
+NI-NS,GB-NIR,national_security_attacks,1,EU18;GB-REV;GB-NS,p. 12 n. 1; distinct narrower measure
+NI-ARR,GB-NIR,additional_arrests_outside_UK_row,148,EU18,p. 69 footnote
+NL-UNSPEC-PRINT,NL,annex_printed_unspecified_attack_cell,4,EU18,p. 68; not allocated because same row total is four and already fully accounted for

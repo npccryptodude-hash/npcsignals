@@ -1,0 +1,22 @@
+source_id,publisher,date_or_year,locator,url
+EU18,Europol,2019-06-27,"Full TE-SAT 2019; DOI 10.2813/788404; retrieved 2026-11-18; 82 pages; 11874700 bytes; SHA-256 e233dd615a6d97ace37802e2372f4fbc5a43cf68368b11530b117e2158bcf0d2; pp. 12–16, 30–32, 53–57, 61–63, 68–69, 78–80",https://www.europol.europa.eu/cms/sites/default/files/documents/tesat_2019_final.pdf
+EU18-META,Europol,2019-06-27,Publication page updated 2021-12-06,https://www.europol.europa.eu/publications-events/main-reports/terrorism-situation-and-trend-report-2019-te-sat
+EU18-EP,European Parliament,2019,LIBE document copy of the full original report,https://www.europarl.europa.eu/meetdocs/2014_2019/plmrep/COMMITTEES/LIBE/DV/2019/09-04/5_tesat_2019_EN.pdf
+EU19,Europol,2020-06-23,TE-SAT 2020 p. 36 mental health box; describes subsequent Hague judgment,https://www.europol.europa.eu/cms/sites/default/files/documents/european_union_terrorism_situation_and_trend_report_te-sat_2020_0.pdf
+EU20,Europol,2021-06-22,TE-SAT 2021 p. 12 historical comparisons exclude UK separately,https://www.europol.europa.eu/cms/sites/default/files/documents/tesat_2021_0.pdf
+GB-REV,Independent Reviewer of Terrorism Legislation,2020,The Terrorism Acts in 2018; distinct security definitions and 56 UK security cases,https://terrorismlegislationreviewer.independent.gov.uk/wp-content/uploads/2020/03/Terrorism-Acts-in-2018-Report.pdf
+GB-NS,UK Parliament,2026-04-14,HLWS1514 calendar-year national security attack series,https://questions-statements.parliament.uk/written-statements/detail/2026-04-14/hlws1514
+GB-MAN,Greater Manchester Police,2019-11,Manchester Victoria sentencing announcement,https://www.gmp.police.uk/news/greater-manchester/news/news/2019/november/a-man-who-stabbed-three-people-during-a-planned-attack-at-victoria-train-station-on-new-years-eve-has-been-jailed-for-life/
+NL-HAG,District Court The Hague,2019-07,ECLI:NL:RBDHA:2019:7308 via judgment mirror,https://www.uitspraken.nl/uitspraak/rechtbank-den-haag/strafrecht/strafrecht-overig/eerste-aanleg-meervoudig/ecli-nl-rbdha-2019-7308
+NL-HAG-AP,NOS,2021-05-11,Appeal finding retained psychiatric placement and rejected terrorism intent,https://nos.nl/artikel/2380271-haagse-steker-malek-f-geen-terrorist-weer-veroordeeld-tot-tbs
+NL-AMS,District Court Amsterdam,2019-10,Original trial disposition announcement,https://www.rechtspraak.nl/organisatie-en-contact/organisatie/rechtbanken/rechtbank-amsterdam/nieuws/2019/10/26-jaar-en-8-maanden-voor-terroristische-aanslag-op-amsterdam-cs
+NL-AMS-AP,NOS,2020-11,Appeal sentencing report; 25 years,https://nos.nl/artikel/2356833-iets-lagere-straf-voor-aanslagpleger-amsterdam-centraal
+NL-ARN,Rotterdam District Court,2020,ECLI:NL:RBROT:2020:8979 via judgment mirror; September arrest and court findings,https://www.zoekrechtspraak.nl/uitspraak/ECLI%3ANL%3ARBROT%3A2020%3A8979
+FR-TRE,Gendarmerie nationale,2024-02,Trial verdict report and victim numbers,https://www.gendarmerie.interieur.gouv.fr/gendinfo/actualites/2024/proces-des-attentats-de-trebes-et-carcassonne-des-peines-de-12-mois-a-5-ans-de-prison-prononcees
+FR-STR-AP,TF1 Info,2026-04-17,Reported 30-year appeal judgment and procurement finding,https://www.tf1info.fr/justice-faits-divers/attentat-au-marche-de-noel-de-strasbourg-peine-de-30-ans-de-reclusion-confirmee-contre-audrey-mondjehi-2436693.html
+FR-STR-CAS,Dernières Nouvelles d’Alsace,2026-04-27,Defence confirms cassation filing; outcome unverified,https://www.dna.fr/societe/2026/04/27/condamne-a-30-ans-de-reclusion-en-appel-audrey-mondjehi-se-pourvoit-en-cassation
+IT-MAC,ANSA,2018-10-03,Reports Macerata first-instance sentence,https://www.ansa.it/sito/notizie/cronaca/2018/10/03/macerata-traini-condannato-a-12-anni_496daf5b-be57-44c3-9ee9-f44f868f89d8.html
+NO-PST,Norwegian PST,,National assessments catalogue only,https://www.pst.no/alle-artikler/trusselvurderinger/
+IS-CAT,Icelandic government,,National security catalogue,https://www.stjornarradid.is/verkefni/almannaoryggi/thjodaroryggi/itarefni/
+LI-CAT,Landespolizei,,Annual report catalogue,https://www.landespolizei.li/ueber-uns/jahresberichte
+IT-MAC-CAS,ANSA,2021-03-24,Cassation confirmed 12-year sentence and racial hatred aggravation,https://www.ansa.it/sito/notizie/cronaca/2021/03/24/strage-macerata-cassazione-condanna-traini-a-12-anni-_7591c22a-1b42-4bfd-8ac0-06126c5f751e.html
