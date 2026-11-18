@@ -24,3 +24,14 @@ See [Phase 19 remediation](PHASE_19_REMEDIATION.md#publication-assessment-and-ph
 3. Keep all death and injury observations at their published scope, with definition and date. Unknown inclusion thresholds, different victim definitions, and the 2016 contradiction preclude a pooled casualty series.
 4. Preserve the distinction between outcome allocations and outcome margins, and statistical slots and physical acts. Seek national submissions and appeal decisions for the 2025 unresolved mappings. Maintain an observable difference between exact ID uniqueness and entity resolution across registers.
 5. Obtain the missing legal reasons and case-level finality documents before releasing stronger claims about organisation, responsibility or financing. Keep arrest counts distinct from attackers, convictions and unique people across years. Keep Northern Ireland measures, national legal classifications, absent rows and verified zeros in their own reporting scopes.
+
+## Phase 22 analytical readiness
+
+| Decision | Findings and use |
+|---|---|
+| Suitable for qualified publication | Verified annual reported counts, original and fixed EU27 scopes, documented revisions, and narrowly scoped court holdings with accurate stage and source labels. Attach the 193 chart, 2023 arrest appendix and 2025 age-denominator caveats where relevant. |
+| Suitable only as a methodological illustration | Conditional occurrence-year sensitivity, confidence proportions in the frozen crosswalk, reporting-chain comparisons and the purposive judicial sample. Show assumptions, units and selection scope. |
+| Requires additional primary evidence | Exact removal or mapping keys for A100, Essen and French cohorts; same-event reporting scope and missing judicial finality; scope-matched 2016 casualty totals and reconciled age denominator. |
+| Unsupported by current data | A comprehensive 31-country incident census, trend in physical attack incidence, harmonised long-run ideological risk, pooled injury trend, unique-person estimates, same-year conviction-to-arrest rates and cross-case command or financing trends. |
+
+See the [historical analysis](PHASE_22_HISTORICAL_ANALYSIS.md) and [visualisation specification](PHASE_22_VISUALISATION_SPEC.md). These classifications concern evidence quality and scope. Release remains subject to approval.

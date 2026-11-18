@@ -9,6 +9,7 @@
 - [Phase 19 evidence remediation](PHASE_19_REMEDIATION.md)
 - [Phase 20 event linkage](PHASE_20_EVENT_LINKAGE.md)
 - [Phase 21 reporting mechanisms, denominator and evidence priorities](PHASE_21_REPORTING_MECHANISMS.md)
+- [Phase 22 controlled historical analysis](PHASE_22_HISTORICAL_ANALYSIS.md)
 - [Publication decisions and remediation](PUBLICATION_READINESS.md)
 
 ## Statistical controls

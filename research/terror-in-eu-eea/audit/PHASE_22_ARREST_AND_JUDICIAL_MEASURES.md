@@ -1,0 +1,22 @@
+# Phase 22 — Arrest measures and case-specific judicial evidence
+
+Internal draft · [Historical analysis](PHASE_22_HISTORICAL_ANALYSIS.md) · [Denominator register](phase21_denominators.csv)
+
+## Arrests and adjudication
+
+The original arrest totals reflect reported persons arrested for terrorism-related offences in the edition scope. Fixed EU27 removes the identified UK arrest rows through 2019. Some edition totals exclude even related national measures, such as the 148 Northern Ireland arrests outside the 2018 UK row. Belgium's 149 unspecified arrests in 2018 remain unspecified. No reweighting for enforcement or incomplete reporting is justified. The 2023 original 426 and later retrospective category sum 431 are retained as separate observations. For 2025 the 347 jihadist arrests and footnote denominator 344 remain in conflict. The repeated count of 15 missing ages leaves the two populations unreconciled. No age fraction is calculated. [Phase 21 checks](PHASE_21_REPORTING_MECHANISMS.md#discrepancy-and-denominator-decisions)
+
+Eurojust reports one verdict per person within a proceeding under the rules of TE-SAT 2026 pp. 23–24 nn. 31–33. National contributions differ in their treatment of finality and the edition takes the latest judgment when an appeal concludes within the same year. The 406 convictions and 99 acquittals reported for 2025 concern concluded proceedings in the contributing scope. Arrests, suspects, perpetrators and verdicts differ in cohort, unit and timing. No same-year conviction-to-arrest rate or estimate of unique people across years is supported.
+
+## Case sample and evidence level
+
+This sample spans different evidence types and establishes no frequency or common structure. An unestablished relationship remains open within the reviewed sources.
+
+| Case | Allegation, findings and finality | Ideology, membership and communication | Assistance, financing and command |
+|---|---|---|---|
+| **Manchester, 2017** | Central Criminal Court sentencing remarks verify Hashem Abedi's conviction and deliberate participation. The inquiry is a separate evidentiary process. Further appellate status is outside this sample. | The inquiry's assessments of assistance and knowledge are qualified. Organisational membership and communications as a chain of command are unestablished here. | The inquiry assesses probable assistance/training and limits the evidence about family knowledge. Individual participation is judicially supported. Organisational financing and command are unestablished in these sources. |
+| **Berlin A100, 2020** | Initial suspicion of an Islamist attack. Landgericht 521 Ks 1/21 rejected the classification, found conduct amounting to attempted murder with criminal responsibility excluded and ordered psychiatric placement. BGH 4 StR 329/22 dismissed revision, making the decision final. | Initial motive assessment and the court's account of religious elements within delusion have different statuses. No verified membership or operational communication here. | No supported operational assistance, financing or command finding in the cited proceedings. The separate statistical deletion link is a candidate. |
+| **Holbæk, 2021** | PET's official summary reports the appellate finding against the principal defendant, including attempted terrorism and financing. Further appeal remains unverified in the register. | PET reports case-specific links in the support finding. Allegations outside the court result, personal motivation and formal membership need separate proof. | PET reports a financing finding and communication-account assistance to an IS fighter. The reviewed record does not establish that the fighter directed the attack plan. |
+| **Solingen, 2024** | A reproduced BGH release reports finality of the murder and IS membership judgment, 3 StR 55/26. Europol's attribution is a separate source layer. | Membership is reported in the judicial disposition. Europol reports messaging and encouragement, alongside a responsibility claim. | The cited passages leave case-specific financing and command unestablished. Preserve the distinction between reported encouragement and a judicial finding of operational assistance. |
+
+Exact locators [Manchester GB-MAN and GB-INQ, inquiry §§22.55–22.56](../2017/sources.csv) · [A100 court and finality provenance](../2020/RECLASSIFICATION_AUDIT.md) · [Holbæk HOL-J1 and HOL-R1](../2021/proceedings_relationships.csv) · [Solingen J-SOL and R-SOL](../2024/proceedings_relationships.csv).
