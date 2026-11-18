@@ -30,3 +30,7 @@ eu te-sat 2024 reports 120 eu attacks. its map labels require manual country ver
 create full 31-country by 11-year matrix (341 country-years), with missingness explicit; verify source coverage and definitions per year; retrieve 2025 country outcomes from the official 2026 annex; add uk/no/is/li national sources.
 
 primary source: https://www.europol.europa.eu/cms/sites/default/files/documents/EU_TE-SAT_2025.pdf
+
+## 2025 coverage update — 2026-11-18
+
+See the [31-country matrix](data/terror_2025_coverage.csv) and [comparative audit](2025_EUROPE_COMPARATIVE_REPORT.md). This dated extraction supplements the historical coverage matrix. An absent TE-SAT attack row is kept distinct from scoped national zeros and from national sources using other metrics.

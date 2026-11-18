@@ -28,3 +28,5 @@ no medium publication is authorised by this research setup.
 [Reconciliation, release status and exact gaps](2025_INCIDENT_RECONCILIATION.md) supersedes the earlier provisional mapping wherever it documents new evidence. The structured incident, source, casualty, relationship and judicial extracts are under [data](data/).
 
 [Further verification and consolidated evidence gaps, 18 November 2026](2025_EVIDENCE_FOLLOW_UP_2026-11-18.md).
+
+[2025 comparative report, 31-country coverage and next priorities](2025_EUROPE_COMPARATIVE_REPORT.md).
