@@ -1,63 +1,63 @@
-# redaksjonell helhetskontroll og figurplan
+# editorial narrative review and figure plan
 
-internt arbeidsnotat · 18. november 2026 · etter fase 24 · ingen publiseringsgodkjenning
+internal working note · 18 november 2026 · following phase 24 · not approved for publication
 
-## kontrollert grunnlag
+## reviewed sources
 
-- [leservendt rapportutkast](EDITORIAL_REPORT_DRAFT.md)
-- [opprinnelig rapport med 20 kontrollerte påstander](../phase23/REPORT.md) og [påstandsregister](../phase23/claims.csv)
-- [fase 24-revisjon](AUDIT.md), [figurinspeksjon](FIGURE_INSPECTION.md), [figurtekster](../phase23/FIGURES.md) og [tekstalternativer](TEXT_ALTERNATIVES.md)
+- [reader-facing draft](EDITORIAL_REPORT_DRAFT.md)
+- [original report with 20 audited claims](../phase23/REPORT.md) and [claim register](../phase23/claims.csv)
+- [phase 24 audit](AUDIT.md), [figure inspection](FIGURE_INSPECTION.md), [figure captions](../phase23/FIGURES.md), and [accessible alternatives](TEXT_ALTERNATIVES.md)
 
-dette er en redaksjonell gjennomgang av eksisterende kilder og artefakter, ikke ny primærkildeverifikasjon. ingen menneskelig uavhengig godkjenning er gitt.
+this is an editorial review of existing evidence and assets, not a new primary-source investigation. independent human editorial approval has not been obtained.
 
-## helhetsvurdering
+## narrative assessment
 
-**hovedvinkel:** hva europols terrorstatistikk måler, hvordan den rapporteres, og hvordan geografi, årskohorter og institusjonelle telleenheter påvirker tolkningen. ingen påstand om samlet endring i faktisk terrortrussel.
+**editorial focus:** what europol's terrorism statistics measure, how they are reported, and how geography, reporting cohorts and institutional counting units shape interpretation. do not claim an overall change in the actual terrorism threat.
 
-**styrke:** den geografiske 2019–2020-kontrasten er konkret og godt egnet som inngang. etterregistreringene forklarer hvorfor rapporteringsåret ikke alltid er hendelsesåret. identifikasjonsdekningen viser begrensningen i undersøkelsens offentlige hendelseskoblinger.
+**strength:** the 2019–2020 geographic comparison is a concrete opening. retrospective entries explain why the reporting year may differ from the occurrence year. identification coverage demonstrates the limits of the investigation's public event-linkage evidence.
 
-**redaksjonell risiko:** leseren kan oppfatte følsomhetsscenariet som offisiell revidert telling, eller tolke 926 uidentifiserte statistiske poster som «udokumenterte angrep» hos europol. hold presiseringene i brødtekst, bildetekster, sosiale utdrag og forhåndsvisninger.
+**main risks:** readers may mistake the conditional sensitivity scenario for an official revised series, or interpret 926 unidentified statistical entries as attacks for which europol has no internal documentation. retain the qualifications in the body, captions, previews and standalone extracts.
 
-**retorisk balanse:** ikke fremstill tallforskjeller mellom institusjoner som bevis på feil eller skjuling. behold eksemplene som kontraster i definisjon, omfang og rapporteringsenhet.
+**balance:** do not characterize cross-institutional count differences as evidence of suppression, misconduct or error. treat them as source-specific differences in definitions, scope and counting units unless stronger evidence emerges.
 
-## figurvalg og rekkefølge
+## figure selection and placement
 
-| plass | figur | beslutning | nødvendig kontroll |
+| placement | figure | editorial decision | required control |
 |---|---|---|---|
-| 1 | f01 geografi + f02 eu27-serie | **hovedillustrasjon i par**. f01 dekker bare 2015–2019 og kan ikke alene dokumentere 2019–2020-overgangen. | ved senere produksjon foretrekk en egen treverdifigur: 2019 original 119, 2019 fast eu27 55, 2020 eu27 57; senere offisiell 56 må merkes separat. ingen ny figur er produsert i denne gjennomgangen. |
-| 2 | f03 revisjoner og følsomhet | **hovedillustrasjon**. | merk 56 og 18 som offisielle revisjoner, 56/22/50/94 som betinget scenario. ikke vis manglende offisielle verdier som null. |
-| 3 | f04 identifikasjonsdekning | **hovedillustrasjon**. | eksakte antall 168/35/926 av 1129; opprinnelig eu28/eu27-nevner, og ingen påstand om europols interne dokumentasjonsdekning. |
-| 4 | f05 institusjonelle tellinger | **supplerende figur** ved avsnitt om nasjonale og europeiske institusjoner. | kilde, enhet og land må vises ved hvert tall; ikke tegn en implisitt dataflyt. |
-| vedlegg | f06 rettslige beviskjeder | **dokumentasjonsvedlegg** med lenke fra rettsavsnittet. | hold kildeklassene og beslutnings-/publiseringsdatoene adskilt. |
-| vedlegg / kontekst | f02 full eu27-serie | **også tilgjengelig som fullstendig serie**, selv om 2020-datapunktet brukes ved figur 1. | angrep og pågripelser på separate akser/paneler; ingen årsaksslutning. |
+| 1 | f01 geography + f02 eu27 series | **paired lead illustration**. f01 ends in 2019 and cannot alone support the 2019–2020 comparison. | preferably produce a dedicated three-value panel for 2019 original 119, 2019 fixed eu27 55, and 2020 eu27 57. if the later official 56 is shown, label it separately. this panel has not been produced. |
+| 2 | f03 revisions and sensitivity | **primary illustration**. | show 56 and 18 as official revisions and 56/22/50/94 as a conditional scenario. missing official revision values are not zero. |
+| 3 | f04 identification coverage | **primary illustration**. | retain 168/35/926 of 1,129, the mixed original eu28/eu27 denominator and the distinction from europol's internal evidence. |
+| 4 | f05 institutional counts | **supplementary illustration** adjacent to the institutional reporting discussion. | each number retains its country, issuer, source scope and unit; do not imply a verified common event roster. |
+| appendix | f06 judicial evidence chains | **evidence appendix** with an in-text link. | retain source classes, judicial stages and distinct decision/publication dates. |
+| appendix / context | f02 complete eu27 series | **retain the full series** even if its 2020 data point also supports the lead comparison. | separate attack and arrest panels; no causal inference. |
 
-## kildelinker og dokumentasjon
+## source presentation
 
-det leservendte utkastet har c01–c20 som interne kryssreferanser, men dette er **ikke ferdige leservendte kildelenker**. før publisering må redaksjonen lage kildevisning med dokumenttittel, utgave, side/avsnitt og direkte lenke når tilgjengelig, og kontrollere at hver c-henvisning peker til relevant post i påstandsregisteret. det er ikke tilstrekkelig å lenke bare til en csv-fil uten forklaring.
+the reader-facing draft uses c01–c20 as internal cross-references. **these are not yet reader-friendly source citations.** before publication, each supported assertion needs a source display with document title, edition, precise page or paragraph, and direct link where available. editorial review must confirm that each claim reference maps to the appropriate entry in the existing claim register. a bare csv link is not a sufficient presentation for general readers.
 
-rettseksemplene bør i første publiseringsversjon ha direkte kildehenvisninger til domstol eller myndighet med presis kildetype. a100-slettingskoblingen er kandidat; holbæk er pet-oppsummering; solingen har avgjørelsesdato 12. mai 2026 og meldingsdato 22. mai 2026.
+judicial examples should use direct court or agency links with accurate source type. the a100 deletion link remains a candidate; holbæk is attributed to pet's summary; solingen distinguishes the decision on 12 may 2026 from the announcement on 22 may.
 
-## lesbarhet og tilgjengelighet
+## accessibility and export
 
-fase 24 fant små etiketter ved 360 px. eksisterende svg-filer er derfor **ikke godkjent som frittstående mobilgrafikk**. før publisering må endelig format gjennomgås visuelt i mobilstørrelse, inkludert alle bildetekster, tall, forkortelser og skjermleseralternativer. eksport eller beskjæring må ikke fjerne forbehold.
+phase 24 identified small labels at 360 px. the current svg files are therefore **not approved as standalone mobile graphics**. review the actual release format at mobile size, including numbers, caveats, captions and screen-reader alternatives. cropping or preview generation must not remove critical qualifications.
 
-## anbefalt publiseringsstruktur
+## recommended article structure
 
-1. åpning med geografisk sammenligning.
-2. etterregistreringer og offisielle revisjoner.
-3. forskjeller mellom institusjonelle telleenheter.
-4. dokumentasjons- og hendelseskoblingsgrenser.
-5. kort rettslig illustrasjon, med utvidet dokumentasjon i vedlegg.
-6. uavklarte avvik.
-7. konklusjon med avgrensninger.
-8. separat kilde- og metodevedlegg med full årstabell og alle seks figurer.
+1. open with the geographic comparison.
+2. explain retrospective reporting and official revisions.
+3. contrast institutional counting units.
+4. explain identification and event-linkage limitations.
+5. provide a short judicial illustration, with extended evidence in an appendix.
+6. preserve unresolved discrepancies.
+7. conclude with explicitly bounded findings.
+8. attach a source and methods appendix with the complete annual table and all six figures.
 
-## sperrer
+## release gates
 
-- menneskelig uavhengig redaksjonell godkjenning: **mangler**.
-- endelig eksport, mobilvisning og universell utforming: **mangler**.
-- personvern-/skadevurdering av endelig publiseringskontekst: **mangler**.
-- eksplisitt publiseringstillatelse: **mangler**.
-- main, pr-status og publisering: **skal ikke endres i dette arbeidet**.
+- independent human editorial approval: **pending**.
+- final export, mobile rendering and accessibility: **pending**.
+- privacy and harm assessment of the actual release context: **pending**.
+- explicit authorization to publish: **pending**.
+- main, pull request state and public deployment: **must remain unchanged**.
 
-**redaksjonell konklusjon:** utkastet er egnet for menneskelig vurdering med tre hovedillustrasjoner og dokumentasjonsvedlegg. det er ikke publiseringsklart.
+**editorial verdict:** suitable for independent human review with three lead illustrations and a documented evidence appendix. not cleared for publication.
