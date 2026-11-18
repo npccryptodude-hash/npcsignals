@@ -16,7 +16,7 @@ but these observations do not cover the same territory. the 2019 edition include
 
 this does not prove that the terrorism threat remained constant. it demonstrates that the unadjusted comparison mixes geographic scopes. national classification and reporting practices may still differ after the adjustment.
 
-**primary illustration 01:** [2019–2020 geographic comparison](../phase25/figures/01_2019_2020_geography.svg), showing the original 2019 EU28 total 119, fixed-EU27 2019 total 55, original 2020 EU27 total 57 and separately labelled later official revision 56. source: TE-SAT 2020 pp. 84–85, TE-SAT 2021 pp. 99–100 and TE-SAT 2023 p. 9 n. 4. [full original geographic context](../phase23/figures/01_geography.svg) and [eleven-year fixed-EU27 series](../phase23/figures/02_eu27_series.svg) remain in the evidence appendix. the 2015 chart discrepancy of 193 versus 211 remains unresolved.
+**primary illustration 01:** [2019–2020 geographic comparison](../phase25/figures/01_2019_2020_geography.svg), showing the original 2019 EU28 total 119, fixed-EU27 2019 total 55, original 2020 EU27 total 57 and separately labelled later official revision 56. source: TE-SAT 2020 pp. 84–85, TE-SAT 2021 pp. 99–100 and TE-SAT 2023 p. 9 n. 4. [full original geographic context](../phase25/figures/01_geography_en.svg) and [eleven-year fixed-EU27 series](../phase25/figures/02_eu27_series_en.svg) remain in the evidence appendix. the 2015 chart discrepancy of 193 versus 211 remains unresolved.
 
 ## when the reporting year is not the occurrence year
 
@@ -26,7 +26,7 @@ the investigation therefore keeps two distinct representations. one preserves th
 
 this illustrates how strongly a year-to-year comparison can depend on the reporting cohort. it is **not** a new official occurrence-year series. individual event matches and possible overlap remain unresolved. the scenario cannot establish the number of physical terrorist incidents that occurred in each year.
 
-**primary illustration 02 — figure 03:** [revisions and sensitivity](../phase23/figures/03_revisions.svg). show official revisions as separate markers, not as equivalent to the conditional scenario. absent official revisions must never be plotted as zero.
+**primary illustration 02 — figure 03:** [revisions and sensitivity](../phase25/figures/03_revisions_en.svg). show official revisions as separate markers, not as equivalent to the conditional scenario. absent official revisions must never be plotted as zero.
 
 ## similar terms, different counting units
 
@@ -38,7 +38,7 @@ these contrasts show different source-specific scopes and counting units. they d
 
 the same caution applies to arrests and judicial decisions. fixed-eu27 reported arrest counts are 943 in 2015, 380 in 2022 and 486 in 2025. eurojust's 2025 reporting includes 406 convictions and 99 acquittals in completed judicial proceedings. these are not the same identified population as the people arrested during 2025. no conviction-to-arrest conversion rate can be inferred. [c07–c08]
 
-**supplementary illustration — figure 05:** [institutional counts](../phase23/figures/05_institutions.svg). each displayed number must retain its issuer, reference year, category and counting unit, including when shared separately.
+**supplementary illustration — figure 05:** [institutional counts](../phase25/figures/05_institutions_en.svg). each displayed number must retain its issuer, reference year, category and counting unit, including when shared separately.
 
 ## what can we identify behind the statistical entries?
 
@@ -48,7 +48,7 @@ across 1,129 entries in the original annual reporting cohorts, 168 were adequate
 
 these figures measure **this investigation's ability to link published statistical entries to available source material**. they do not establish that europol lacks internal documentation for 926 incidents, or that those incidents did not occur. a single statistical entry may have several competing event candidates. in 2025, 18 possible identities relate to 17 candidate entries.
 
-**primary illustration 03 — figure 04:** [identification coverage](../phase23/figures/04_coverage.svg). show exact counts and define the statistical denominator. never label this as the proportion of attacks that europol cannot document.
+**primary illustration 03 — figure 04:** [identification coverage](../phase25/figures/04_coverage_en.svg). show exact counts and define the statistical denominator. never label this as the proportion of attacks that europol cannot document.
 
 ## what a judicial decision actually establishes
 
@@ -62,7 +62,7 @@ in the solingen case, the federal court of justice dismissed the appeal on **12 
 
 the three cases illustrate different evidentiary boundaries. they are not a representative sample and do not establish a common command structure.
 
-**appendix illustration — figure 06:** [judicial evidence chains](../phase23/figures/06_judicial.svg). retain issuer, source type and judicial stage in each row, and distinguish the decision date from the announcement date.
+**appendix illustration — figure 06:** [judicial evidence chains](../phase25/figures/06_judicial_en.svg). retain issuer, source type and judicial stage in each row, and distinguish the decision date from the announcement date.
 
 ## discrepancies that remain unresolved
 
@@ -91,5 +91,5 @@ many published totals can be checked, and the consequences of fixed geography an
 - this is a reader-facing draft; the original 20 audited claims and source observations remain unchanged in their underlying files.
 - planned main-article order: (1) the new phase 25 2019–2020 geographic comparison; (2) phase 23 figure 03 for revisions and sensitivity; (3) phase 23 figure 04 for identification coverage. figure 05 supports the institutional section; figure 06 and the complete figure 02 belong in the evidence appendix as well.
 - no graphic or excerpt may be distributed without its counting unit, territory, source and necessary qualifications.
-- all six existing figures and the new phase 25 figure require English captions, accessible equivalents and review of the actual mobile export before any release. several inherited phase 23/24 captions and SVG labels are still in Norwegian; this language remediation is an explicit release blocker.
+- all six existing figures and the new phase 25 figure require English captions, accessible equivalents and review of the actual mobile export before any release. the English phase 25 copies and translated captions are available, but mobile export and independent source checks remain release blockers. original historical research files are preserved.
 - independent human editorial approval, review of the final export and its privacy/harm implications, and explicit publication authorization remain mandatory.
