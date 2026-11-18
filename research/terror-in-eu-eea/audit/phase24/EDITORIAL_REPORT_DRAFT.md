@@ -4,6 +4,8 @@ internal editorial draft · npcsignals · 18 november 2026
 
 **status:** unpublished. this reader-facing narrative reorganizes the phase 23 report following the phase 24 audit. it is not new data collection or independent human editorial approval.
 
+**reader-facing citation index:** [phase 25 source guide](../phase25/SOURCE_GUIDE.md), with edition links, page locators and an evidence map. source links still require final independent verification.
+
 **evidence base:** [phase 23 report](../phase23/REPORT.md), [claim register](../phase23/claims.csv), [phase 24 audit](AUDIT.md), [figure captions](../phase23/FIGURES.md), and [accessible text alternatives](TEXT_ALTERNATIVES.md). claim identifiers below refer to the existing evidence register. all attack counts describe reported statistical entries, not a complete census of physical terrorist incidents.
 
 ## when 119 becomes 55
@@ -14,7 +16,7 @@ but these observations do not cover the same territory. the 2019 edition include
 
 this does not prove that the terrorism threat remained constant. it demonstrates that the unadjusted comparison mixes geographic scopes. national classification and reporting practices may still differ after the adjustment.
 
-**primary illustration 01:** use [the 2015–2019 geographic comparison](../phase23/figures/01_geography.svg) together with [the eu27 series through 2025](../phase23/figures/02_eu27_series.svg), which includes 2020. figure 01 alone ends in 2019 and cannot illustrate the entire 2019–2020 comparison. a future purpose-built panel could show 2019 original 119, 2019 fixed eu27 55, and 2020 eu27 57, with the later official value 56 clearly distinguished. that panel has not yet been produced. preserve the national-practice caveat and the unresolved 2015 chart observation of 193.
+**primary illustration 01:** [2019–2020 geographic comparison](../phase25/figures/01_2019_2020_geography.svg), showing the original 2019 EU28 total 119, fixed-EU27 2019 total 55, original 2020 EU27 total 57 and separately labelled later official revision 56. source: TE-SAT 2020 pp. 84–85, TE-SAT 2021 pp. 99–100 and TE-SAT 2023 p. 9 n. 4. [full original geographic context](../phase23/figures/01_geography.svg) and [eleven-year fixed-EU27 series](../phase23/figures/02_eu27_series.svg) remain in the evidence appendix. the 2015 chart discrepancy of 193 versus 211 remains unresolved.
 
 ## when the reporting year is not the occurrence year
 
@@ -87,7 +89,7 @@ many published totals can be checked, and the consequences of fixed geography an
 ## editorial release restrictions
 
 - this is a reader-facing draft; the original 20 audited claims and source observations remain unchanged in their underlying files.
-- planned main-article order: (1) figures 01 and 02 together to support the geographic comparison, pending a purpose-built 2019–2020 panel; (2) figure 03 for revisions and sensitivity; (3) figure 04 for identification coverage. figure 05 supports the institutional section; figure 06 and the complete figure 02 belong in the evidence appendix as well.
+- planned main-article order: (1) the new phase 25 2019–2020 geographic comparison; (2) phase 23 figure 03 for revisions and sensitivity; (3) phase 23 figure 04 for identification coverage. figure 05 supports the institutional section; figure 06 and the complete figure 02 belong in the evidence appendix as well.
 - no graphic or excerpt may be distributed without its counting unit, territory, source and necessary qualifications.
-- all six figures require captions, accessible equivalents and review of the actual mobile export before any release.
+- all six existing figures and the new phase 25 figure require English captions, accessible equivalents and review of the actual mobile export before any release. several inherited phase 23/24 captions and SVG labels are still in Norwegian; this language remediation is an explicit release blocker.
 - independent human editorial approval, review of the final export and its privacy/harm implications, and explicit publication authorization remain mandatory.
