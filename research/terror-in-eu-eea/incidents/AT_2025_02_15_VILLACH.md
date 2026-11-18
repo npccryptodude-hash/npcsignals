@@ -1,7 +1,7 @@
 # villach, austria — 2025-02-15
 
 reviewed 2026-11-18
-status: completed jihadist attack; **final conviction verified in official court announcement plus contemporary public-broadcaster follow-up**
+status: completed jihadist attack; **conviction confirmed by court announcement; later finality reported by ORF citing the court spokesperson**
 fatalities: 1 (14-year-old boy)
 injuries: 5 (serious)
 weapon: knife

@@ -41,7 +41,7 @@ A defence lawyer filed a revision with the Bundesgerichtshof on 8 June 2026, fol
 
 The federal prosecutor's original indictment alleges IS membership beginning in Syria in 2015, combat and organisational functions until November 2016, and continued ideological allegiance after entry to Germany in 2023. https://www.presseportal.de/blaulicht/pm/14981/6171449
 
-WDR's direct court reporting confirms the life sentence, four attempted murders, and court finding of serious guilt. The sources reviewed do not independently establish that IS commanded the 18 May 2025 attack. Prior membership and operational tasking are separate facts.
+WDR reports the life sentence, four attempted murders, and the court finding of particularly serious guilt. The original judgment has not been verified here. The sources reviewed do not independently establish that IS commanded the 18 May 2025 attack. Prior membership and operational tasking are separate facts.
 
 ## Original Europol — 2026-11-18
 
