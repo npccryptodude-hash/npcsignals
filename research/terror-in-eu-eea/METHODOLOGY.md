@@ -2,7 +2,7 @@
 
 ## scope
 
-include all 27 current eu members and norway, iceland, liechtenstein. distinguish geographic territory at event date from institutional membership at reporting date. track the uk separately when historical europol editions include it; never silently combine it with the fixed 30-country series.
+fixed research area: 27 current eu members plus norway, iceland, liechtenstein and the united kingdom (31 countries). the title "terror in eu/eea" is shorthand and explicitly includes the uk outside eu/eea membership. distinguish geographic territory at event date from institutional membership at reporting date. use a fixed 31-country comparison for 2015–2025 and track 2026 separately. the uk is included throughout, including after its eu departure on 2020-01-31. never treat historical europol eu totals as the fixed 31-country total; separately supplement uk and non-eu eea records where necessary.
 
 ## categories
 
