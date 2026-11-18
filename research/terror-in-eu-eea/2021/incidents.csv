@@ -1,0 +1,19 @@
+incident_id,event_date,country_iso2,locality,category,outcome_cell,confidence,deaths,injuries,source_ids,qualification
+FR21-RAM,2021-04-23,FR,Rambouillet,jihadism,completed,adequate,1,,EU21,p. 22; perpetrator death separate.
+ES21-ROL,2021-09-17,ES,Roldán,jihadism,completed,adequate,1,5,EU21;ES-ROL,p. 22; statistical label retained although national determination was pending. RTVE reported two injured.
+DE21-ICE,2021-11-06,DE,Neumarkt district,jihadism,completed,adequate,0,5,EU21;DE-ICE;DE-ICE-F,p. 22; Europol injury count distinct from four travelling victims in court release.
+DK21-HOL,2021-02,DK,Holbæk and related locations,jihadism,foiled,adequate,,,EU21;DK-PET,pp. 25–26; 6 and 8 February operation; one Danish slot. German arrest in same operation is not a second slot.
+FR21-MAN,2021-03-10,FR,Mantes-la-Jolie,jihadism,foiled,adequate,,,EU21,p. 25; distinct investigation from Marseille.
+FR21-MRS,2021-03-10,FR,Marseille,jihadism,foiled,adequate,,,EU21,p. 25; distinct investigation from Mantes-la-Jolie.
+FR21-BEZ,2021-04-04,FR,Béziers,jihadism,foiled,adequate,,,EU21;FR-BEZ,p. 25 date retained; Le Monde dates arrest to 3 April.
+SE21-STO,2021-04-10,SE,Stockholm County,jihadism,foiled,adequate,,,EU21,p. 25; reported disruption; judicial outcome unverified.
+HU21-KEC,2021-06-01,HU,Kecskemét,jihadism,foiled,adequate,,,EU21;HU-KEC,p. 25; investigation and declared allegiance distinguished from proven command.
+DE21-HAM,2021-08-26,DE,Hamburg,jihadism,foiled,adequate,,,EU21;DE-HAM,p. 25 named foiled example. Hagen on p. 26 appears in arrests and is not separately allocated.
+FR21-MEA,2021-11-29,FR,Meaux and Le Pecq,jihadism,foiled,adequate,,,EU21,p. 25; one reported plot.
+AT21-JUL,2021-07,AT,Austria,right_wing,foiled,adequate,,,EU21,p. 45; event date precision month.
+SE21-NOV,2021-11,SE,Sweden,right_wing,foiled,adequate,,,EU21,p. 45; event date precision month.
+BE21-MAY,2021-05,BE,Belgium,right_wing,failed,adequate,,,EU21,p. 45; outcome failed in annex; perpetrator death separate.
+GB21-AME,2021-10-15,GB,Leigh-on-Sea,national,outside_scope,outside_scope,1,,GB-AME;GB-REV,"National case, outside EU slots."
+GB21-LIV,2021-11-14,GB,Liverpool,national,outside_scope,outside_scope,,,GB-REV,"National case, outside EU slots."
+NO21-KON,2021-10-13,NO,Kongsberg,national,outside_scope,outside_scope,5,,NO-NOU,National context; no terror conviction established by source.
+DE21-BRA,2021-05-26,DE,Brandenburg near Berlin,left_wing_anarchist,completed,candidate,,,EU21;DE-BRA,"p. 59 discusses this sole named German example beside a warning that other violent incidents were unclassified. Police confirm investigation, without annex key or explicit terror qualification."

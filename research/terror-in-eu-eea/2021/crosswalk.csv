@@ -1,0 +1,13 @@
+cell_id,country_iso2,category,outcome,total,adequate,candidate,unidentified,incident_ids,source_id
+AT-right_wing-foiled,AT,right_wing,foiled,1,1,0,0,AT21-JUL,EU21
+BE-right_wing-failed,BE,right_wing,failed,1,1,0,0,BE21-MAY,EU21
+DE-jihadism-completed,DE,jihadism,completed,1,1,0,0,DE21-ICE,EU21
+DE-jihadism-foiled,DE,jihadism,foiled,1,1,0,0,DE21-HAM,EU21
+DE-left_wing_anarchist-completed,DE,left_wing_anarchist,completed,1,0,1,0,DE21-BRA,EU21
+DK-jihadism-foiled,DK,jihadism,foiled,1,1,0,0,DK21-HOL,EU21
+ES-jihadism-completed,ES,jihadism,completed,1,1,0,0,ES21-ROL,EU21
+FR-jihadism-completed,FR,jihadism,completed,1,1,0,0,FR21-RAM,EU21
+FR-jihadism-foiled,FR,jihadism,foiled,4,4,0,0,FR21-MAN;FR21-MRS;FR21-BEZ;FR21-MEA,EU21
+HU-jihadism-foiled,HU,jihadism,foiled,1,1,0,0,HU21-KEC,EU21
+SE-jihadism-foiled,SE,jihadism,foiled,1,1,0,0,SE21-STO,EU21
+SE-right_wing-foiled,SE,right_wing,foiled,1,1,0,0,SE21-NOV,EU21

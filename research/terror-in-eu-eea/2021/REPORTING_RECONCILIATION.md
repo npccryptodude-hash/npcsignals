@@ -1,0 +1,14 @@
+# Retrospective reporting provenance — 18 November 2026
+
+The [provenance ledger](provenance.csv) records four documented cross-year adjustments within the audit window. It extends the [Phase 10 evidence history](../2022/CROSS_YEAR_REPORTING_AUDIT.md) without changing those records. Source IDs and locators are local to [sources.csv](sources.csv).
+
+| Occurrence year | Original publication | Subsequent publication | Established change |
+|---|---|---|---|
+| 2020 | TE-SAT 2021 p. 99: 57 EU attacks | TE-SAT 2022 p. 7 retains 57. TE-SAT 2023 p. 9 n. 4 reports 56 | One German jihadist record removed after a court decision. Comparing the jihadist time series gives 14 → 13 and four foiled in both; the completed designation is an inference from the marginals. |
+| 2021 | TE-SAT 2022 p. 82: 15, with three right-wing and no French right-wing entries | TE-SAT 2023 p. 9 n. 4: 18. TE-SAT 2024 p. 35 retains three French entries in its historical category chart | Three French foiled right-wing attacks were subsequently reported for the 2021 reference year. The publication year of the first observed revision is 2023; the exact filing date is unknown. |
+| 2021 | TE-SAT 2022 p. 82: no French separatist entries | TE-SAT 2024 pp. 10–11, 50 and 61, later clarified in TE-SAT 2026 p. 47 n. 44 | Four completed separatist records occurred in 2021, were submitted in 2024 and were counted in the cohort reported under 2023. |
+| 2022 | TE-SAT 2023 p. 79: no French separatist entries | Same later publications | Twenty-two completed separatist records occurred in 2022, were submitted in 2024 and were counted in the cohort reported under 2023. |
+
+The 2020 annex independently establishes Germany's four original jihadist records and the 57 EU total. The later note does not name the German court, decision or affected event. No 2021 violent incident can supply that missing identity. French parliamentary materials and the PNAT activity booklet provide attack/project or referral context with different units and periods. They do not identify the three right-wing submissions or provide a dated list joining the 26 Corsican records to particular incidents. Coinciding totals or judicial years cannot establish an event match.
+
+No duplicate was established. For the omitted cohorts, event-level overlap under another label or identifier remains untestable without keyed returns. The German adjustment is a documented removal due to reclassification. A removed record and a duplicate are different findings. The 44 events occurring in 2023 remain in the earlier cohort register as a reconciliation comparator, with no retrospective adjustment assigned. Existing 2024 intra-edition discrepancies and 2025 national/Europol classification discrepancies remain documented in their year records. No further published retrospective adjustment for those occurrence years was verified in this pass.

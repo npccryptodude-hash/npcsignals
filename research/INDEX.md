@@ -26,7 +26,7 @@ one entrance per subject. start with the short explanation, then follow the repo
 
 ## methods and historical frameworks
 
-- **[european terrorism reporting](terror-in-eu-eea/START_HERE.md)** — draft research; statistical baselines for 2022–2025.
+- **[european terrorism reporting](terror-in-eu-eea/START_HERE.md)** — draft research; statistical baselines for 2021–2025.
 
 - **[ai trading-performance narratives](ai-performance-narrative-audit-2026/START_HERE.md)** — archived.
 - **[gen z political participation: early framework](gcr-01/README.md)** — archived.

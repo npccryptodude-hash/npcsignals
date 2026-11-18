@@ -44,3 +44,5 @@ no medium publication is authorised by this research setup.
 [2023 statistical baseline](2023/BASELINE.md) · [2023–2025 comparability](2023/COMPARABILITY_2023_2025.md) · [2023 progress and evidence gaps](2023/PROGRESS.md).
 
 [2022 statistical baseline](2022/BASELINE.md) · [cross-year reporting audit](2022/CROSS_YEAR_REPORTING_AUDIT.md) · [2022–2025 comparability](2022/COMPARABILITY_2022_2025.md) · [2022 evidence gaps](2022/PROGRESS.md).
+
+[2021 statistical baseline](2021/BASELINE.md) · [retrospective reporting reconciliation](2021/REPORTING_RECONCILIATION.md) · [2021–2025 comparison](2021/COMPARABILITY_2021_2025.md) · [2021 evidence gaps](2021/PROGRESS.md).

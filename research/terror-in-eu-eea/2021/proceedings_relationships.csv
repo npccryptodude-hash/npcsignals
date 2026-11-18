@@ -1,0 +1,16 @@
+record_id,incident_id,date,stage_or_relationship,evidence_status,finding_or_allegation,finality,source_ids
+ICE-J1,DE21-ICE,2022-12-23,trial_judgment,confirmed,Four travelling victims in court release; 14-year aggregate prison sentence.,later_final,DE-ICE;DE-ICE-F
+ICE-J2,DE21-ICE,2023-10-17,cassation_disposition,reported,3 StR 244/23 dismissed; BGH press release reproduced by DSV.,final_as_reported_in_BGH_release,DE-ICE-F
+ICE-R1,DE21-ICE,2022-12-23,ideological_motive,confirmed,Court found radical jihadist motive and solo decision. No membership or direction established in reviewed findings.,not_applicable,DE-ICE
+HOL-J1,DK21-HOL,2024-05-14,appeal_judgment,confirmed,"PET reports 16 years and expulsion for principal defendant, including attempted terrorism and financing.",further_appeal_not_verified,DK-PET
+HOL-R1,DK21-HOL,2024-05-14,financing_and_assistance,confirmed,PET reports financing conviction and separate support finding involving communication-account assistance to an IS fighter; this does not establish external direction of the attack plot.,further_appeal_not_verified,DK-PET
+HAM-J1,DE21-HAM,2022,trial_opening,confirmed,8 St 1/22; federal prosecution alleged ideological radicalisation and preparatory acts.,disposition_not_verified,DE-HAM
+ROL-J1,ES21-ROL,2021-09-21,investigated_as_possible_terrorism,reported,Audiencia Nacional investigation; final national classification not verified.,unknown,EU21;ES-ROL
+BEZ-J1,FR21-BEZ,2021-04-08,formal_investigation,reported,Reported mise en examen and detention.,disposition_not_verified,FR-BEZ
+BEZ-R1,FR21-BEZ,2021-04,online_chat_participation,reported,Europol reports participation in a chat group; no established organisation membership or command.,not_applicable,EU21
+KEC-J1,HU21-KEC,2022-02-25,first_instance,reported,Three years eight months; both sides appealed.,appeal_disposition_not_verified,HU-KEC
+KEC-R1,HU21-KEC,2021-06-01,declared_allegiance_and_communication,reported,Europol reports declared allegiance to IS and exchanges with IS-associated individuals; organisational status and direction unverified.,not_applicable,EU21
+AUT-R1,AT21-JUL,2021-07,historical_donation,reported,"Europol reports a prior donation to IBÖ; no evidence in the passage of plot financing, assistance or direction by the group.",not_applicable,EU21
+SWE-R1,SE21-NOV,2021-11,reported_links,reported,Europol reports links to NMR; membership and operational role unspecified.,not_applicable,EU21
+AME-J1,GB21-AME,2022-04-13,sentencing,confirmed,Whole-life order for murder; separate concurrent sentence for preparation of terrorist acts.,appeal_disposition_not_verified,GB-AME
+KON-J1,NO21-KON,2022,trial_disposition,confirmed,NOU summarises court finding of lack of criminal responsibility and compulsory mental health care.,finality_not_checked_against_judgment,NO-NOU
