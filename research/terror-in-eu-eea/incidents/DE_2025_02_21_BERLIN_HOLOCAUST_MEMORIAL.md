@@ -45,3 +45,7 @@ The defence filed a revision on 17 March 2026, confirmed by a Berlin courts spok
 The federal prosecutor's 9 September 2026 original statement confirms an indictment filed on 21 August against Khalaf A. for alleged assistance to attempted murder and dangerous bodily harm. He had been in pretrial custody since 27 May 2026. The alleged encouragement on the afternoon before the attack remains a prosecutorial allegation, not a conviction. https://www.presseportal.de/blaulicht/pm/14981/6348674
 
 The March 2026 court finding that an IS member guided the attacker over months is stronger than the initial February 2025 prosecution's ideology-only description. Formal IS membership was not established by the court. The separate accused's alleged in-person encouragement must not be assumed to be organisational IS direction.
+
+## Primary 2025 chronology — checked 2026-11-18
+
+The [federal prosecutor's 24 February 2025 takeover notice](https://www.presseportal.de/blaulicht/pm/14981/5977993) alleges attempted murder and records life-threatening injury to the victim. The [29 July announcement](https://www.presseportal.de/blaulicht/pm/14981/6086202) dates the indictment to 18 July. The exact revision filing date is unverified here. The 17 March 2026 press report date should be retained separately from the date of filing. No later BGH outcome or adjudication of the separate assistance allegation surfaced in this pass.

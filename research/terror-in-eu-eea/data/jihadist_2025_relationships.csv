@@ -1,0 +1,13 @@
+relation_id,incident_id,subject_id,predicate,object_id,evidence_status,evidence_stage,qualification,source_ids
+r-b-01,DE_2025_02_21_BERLIN_HOLOCAUST_MEMORIAL,actor-berlin,direct_communication,actor-berlin-contact,confirmed,first_instance_finding,Court found contact over months by messaging,de-b1
+r-b-02,DE_2025_02_21_BERLIN_HOLOCAUST_MEMORIAL,actor-berlin-contact,operational_guidance,actor-berlin,confirmed,first_instance_finding,Court described guided attack and preparation; senior command chain unspecified,de-b1
+r-b-03,DE_2025_02_21_BERLIN_HOLOCAUST_MEMORIAL,actor-berlin-contact,membership,org-is,confirmed,first_instance_finding,Court identified contact as IS member,de-b1
+r-b-04,DE_2025_02_21_BERLIN_HOLOCAUST_MEMORIAL,actor-berlin,attempted_membership,org-is,confirmed,first_instance_finding,Court convicted of attempted membership; acceptance not established,de-b1
+r-b-05,DE_2025_02_21_BERLIN_HOLOCAUST_MEMORIAL,actor-berlin-assistant,alleged_encouragement,actor-berlin,reported,indictment_allegation,Prosecutor alleges in-person encouragement; underlying guilt undecided,de-b2
+r-bi-01,DE_2025_05_18_BIELEFELD,actor-bielefeld,historical_membership,org-is,confirmed,Europol_account_and_indictment,Europol describes past membership; indictment alleges activities in 2015–2016; verify exact judicial finding,eu-full;de-bi2
+r-bi-02,DE_2025_05_18_BIELEFELD,actor-bielefeld,unspecified_continuing_connection,org-is,confirmed,Europol_account,TE-SAT says connection continued after 2023 arrival; nature and evidence unspecified,eu-full
+r-v-01,AT_2025_02_15_VILLACH,actor-villach,declared_allegiance,org-is,confirmed,Europol_account,Pledge plus online self-radicalisation described by Europol,eu-full
+r-v-02,AT_2025_02_15_VILLACH,actor-villach,terrorist_association,org-is,confirmed,judgment,Association conviction; does not separately establish orders for the attack,at-v2
+r-e-01,DE_2025_09_05_ESSEN,actor-essen,ideological_influence,ideology-jihadist,confirmed,first_instance_finding,Court describes online radicalisation and Islamist motivation; no specific group assigned,de-e2
+r-d-01,IE_2025_07_DUBLIN_KHAN,actor-dublin,ideological_influence,ideology-jihadist,reported,court_reporting,Reported self-description and ideological content; no specific group assigned,ie-d3;ie-d2
+r-es-01,ES_2025_11_22_VALLECAS,actor-vallecas,suspected_ideological_influence,ideology-jihadist,disputed,detention_review_reported,Interlocutory indicia from writings and video; defence disputes motive,es-v4

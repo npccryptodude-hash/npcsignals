@@ -21,3 +21,7 @@ EU publication: https://op.europa.eu/en/publication-detail/-/publication/51f6ac4
 Which two of the three French incidents Europol included is **not yet established**. Do not automatically treat Apt or Lyon as excluded. Potential explanations include legal classification, reporting cut-off, and differing definitions; these are hypotheses, not findings. Preserve both national and Europol metrics separately and seek original TE-SAT case-level source.
 
 The two French deaths (Mulhouse, Lyon) do not alone establish which incidents were included in Europol's five EU jihadist fatalities. A five-fatality aggregate could suggest an inclusion pattern, but arithmetic alone is not adequate evidence.
+
+## Full primary report checked — 2026-11-18
+
+[TE-SAT 2026 pp. 19–20 and 47](https://www.europol.europa.eu/cms/sites/default/files/documents/EU-TE-SAT-2026.pdf#page=19) confirms two French completed jihadist attacks and eight foiled. The French three-versus-two discrepancy remains open. See [the new reconciliation](2025_INCIDENT_RECONCILIATION.md).

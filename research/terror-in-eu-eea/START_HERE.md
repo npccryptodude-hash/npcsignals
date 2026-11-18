@@ -22,3 +22,7 @@ start with an all-category overview, then investigate jihadist terrorism in grea
 the project title is a shorthand, not a claim that the united kingdom belongs to the eu or eea. this is a schema and source foundation, not a completed dataset or publication-ready finding. europol eu totals must not be labelled 31-country research-area totals. the united kingdom and non-eu eea countries require independently checked records for years not covered by comparable eu reporting. historical membership changes, including the uk's eu exit on 2020-01-31, must be annotated.
 
 no medium publication is authorised by this research setup.
+
+## 2025 incident verification update — 2026-11-18
+
+[Reconciliation, release status and exact gaps](2025_INCIDENT_RECONCILIATION.md) supersedes the earlier provisional mapping wherever it documents new evidence. The structured incident, source, casualty, relationship and judicial extracts are under [data](data/).

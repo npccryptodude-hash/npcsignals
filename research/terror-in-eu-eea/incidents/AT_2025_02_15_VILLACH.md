@@ -19,3 +19,7 @@ https://kaernten.orf.at/stories/3356833/
 
 ## organisation relationship
 Court conviction includes terrorist association / criminal organisation and records intent to intimidate civilians not following IS goals. The prosecution's absence-of-accomplices finding does not establish an absence of ideological allegiance or association; nor does the conviction alone prove direct command by an identified IS handler for this attack. Keep association, allegiance, operational direction, and accomplices as separate evidence fields.
+
+## Original Europol — 2026-11-18
+
+[TE-SAT 2026 p. 30](https://www.europol.europa.eu/cms/sites/default/files/documents/EU-TE-SAT-2026.pdf#page=30) describes the unique 15 February Austrian incident, a pledge of allegiance and self-radicalisation online without guidance from others. The official court announcement and ORF's attributed finality confirmation remain distinct sources.

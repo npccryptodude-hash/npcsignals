@@ -25,3 +25,7 @@ Two separate physical acts must not automatically be counted as two Europol jiha
 ## outstanding primary verification
 
 Original Special Criminal Court sentencing record; prosecution evidence on communication/contacts; whether any appeal was lodged; precise injuries and charges.
+
+## Sentencing and scope check — 2026-11-18
+
+[RTÉ's 2 November 2026 court coverage](https://www.rte.ie/news/courts/2026/1102/1597649-abdullah-khan-court/) reports a guilty plea to eight charges, including two terrorism offences, and a six-and-a-half-year effective custodial term with four years post-release supervision. The formal sentencing order and any appeal remain unverified. [Europol p. 29](https://www.europol.europa.eu/cms/sites/default/files/documents/EU-TE-SAT-2026.pdf#page=29) describes all nine completed jihadist attacks as stabbings or one vehicle attack, supporting exclusion of the arson from this specific statistical category. The incident linkage for the stabbing is supported by the Irish Examiner attribution.

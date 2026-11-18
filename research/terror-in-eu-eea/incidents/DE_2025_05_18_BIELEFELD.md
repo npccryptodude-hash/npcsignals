@@ -42,3 +42,7 @@ A defence lawyer filed a revision with the Bundesgerichtshof on 8 June 2026, fol
 The federal prosecutor's original indictment alleges IS membership beginning in Syria in 2015, combat and organisational functions until November 2016, and continued ideological allegiance after entry to Germany in 2023. https://www.presseportal.de/blaulicht/pm/14981/6171449
 
 WDR's direct court reporting confirms the life sentence, four attempted murders, and court finding of serious guilt. The sources reviewed do not independently establish that IS commanded the 18 May 2025 attack. Prior membership and operational tasking are separate facts.
+
+## Original Europol — 2026-11-18
+
+[TE-SAT 2026 p. 27](https://www.europol.europa.eu/cms/sites/default/files/documents/EU-TE-SAT-2026.pdf#page=27) explicitly names Bielefeld and four critically injured victims. It describes past IS membership and a continuing connection after arrival in Germany. The public passage does not specify the basis or nature of that ongoing connection. The indictment offers evidence of alleged membership and ideological allegiance. Neither public record establishes tasking for the incident. No subsequent appeal resolution was located in this pass.

@@ -28,3 +28,7 @@ For 2025 the reviewed digest says nine jihadist attacks were completed: eight st
 3. for each, distinguish ideological motivation, propaganda exposure, allegiance claim, operational contact, logistical support, direct instruction and confirmed organisational membership.
 4. separately record criminal charges, judgments, appeals and acquittals, with case status as of the observation date.
 5. do not aggregate the EU-only 45 with UK or non-EU EEA sources until metric equivalence and geographic scope have been verified.
+
+## Primary-source check — 2026-11-18
+
+The earlier provisional CSV is retained as a record of ingestion. The original full [TE-SAT 2026](https://www.europol.europa.eu/cms/sites/default/files/documents/EU-TE-SAT-2026.pdf) annex p. 47 confirms the row totals and the 22 completed, 3 failed and 20 foiled totals. The text on p. 19 confirms Malta as one failed attack. See [the incident reconciliation](2025_INCIDENT_RECONCILIATION.md).

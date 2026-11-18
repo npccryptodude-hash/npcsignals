@@ -22,3 +22,9 @@ status labels: identified = official publication located; extracted = structured
 ## initial cross-check, eu only, 2025
 
 europol te-sat 2026 reports 45 total completed/failed/foiled attacks, of which 24 jihadist, 12 left-wing/anarchist and 5 right-wing; remaining 4 other categories. this is a preliminary source-level summary, not a validated 2015–2025 series or a 31-country total.
+
+## 2026-11-18 incident verification update
+
+- [Full TE-SAT 2026](https://www.europol.europa.eu/cms/sites/default/files/documents/EU-TE-SAT-2026.pdf), DOI 10.2813/5264545, pp. 5, 18–20, 27, 29–30, 47. Keep the existing Executive Summary identifier for its distinct edition.
+- [2025 incident reconciliation and publication gaps](2025_INCIDENT_RECONCILIATION.md).
+- [Structured 2025 verification sources](data/jihadist_2025_sources.csv).
