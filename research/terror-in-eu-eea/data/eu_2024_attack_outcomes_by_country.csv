@@ -1,0 +1,15 @@
+year,country_iso2,completed,failed,foiled,total,source_url,source_page,source_scope
+2024,AT,0,0,3,3,https://www.europol.europa.eu/cms/sites/default/files/documents/EU_TE-SAT_2025.pdf,62,eu_member_state_reported
+2024,BE,0,0,1,1,https://www.europol.europa.eu/cms/sites/default/files/documents/EU_TE-SAT_2025.pdf,62,eu_member_state_reported
+2024,CZ,1,0,1,2,https://www.europol.europa.eu/cms/sites/default/files/documents/EU_TE-SAT_2025.pdf,62,eu_member_state_reported
+2024,DK,2,0,0,2,https://www.europol.europa.eu/cms/sites/default/files/documents/EU_TE-SAT_2025.pdf,62,eu_member_state_reported
+2024,FR,5,0,9,14,https://www.europol.europa.eu/cms/sites/default/files/documents/EU_TE-SAT_2025.pdf,62,eu_member_state_reported
+2024,DE,2,0,4,6,https://www.europol.europa.eu/cms/sites/default/files/documents/EU_TE-SAT_2025.pdf,62,eu_member_state_reported
+2024,GR,2,1,0,3,https://www.europol.europa.eu/cms/sites/default/files/documents/EU_TE-SAT_2025.pdf,62,eu_member_state_reported
+2024,IE,1,0,0,1,https://www.europol.europa.eu/cms/sites/default/files/documents/EU_TE-SAT_2025.pdf,62,eu_member_state_reported
+2024,IT,17,3,0,20,https://www.europol.europa.eu/cms/sites/default/files/documents/EU_TE-SAT_2025.pdf,62,eu_member_state_reported
+2024,LT,1,1,0,2,https://www.europol.europa.eu/cms/sites/default/files/documents/EU_TE-SAT_2025.pdf,62,eu_member_state_reported
+2024,MT,1,0,0,1,https://www.europol.europa.eu/cms/sites/default/files/documents/EU_TE-SAT_2025.pdf,62,eu_member_state_reported
+2024,NL,1,0,0,1,https://www.europol.europa.eu/cms/sites/default/files/documents/EU_TE-SAT_2025.pdf,62,eu_member_state_reported
+2024,SK,1,0,0,1,https://www.europol.europa.eu/cms/sites/default/files/documents/EU_TE-SAT_2025.pdf,62,eu_member_state_reported
+2024,ES,0,0,1,1,https://www.europol.europa.eu/cms/sites/default/files/documents/EU_TE-SAT_2025.pdf,62,eu_member_state_reported
