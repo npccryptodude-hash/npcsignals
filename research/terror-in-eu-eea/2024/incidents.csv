@@ -1,0 +1,17 @@
+incident_id,event_date,country_iso2,locality,eu_category,eu_outcome_cell,confidence,deaths,injured,source_ids,qualification
+DE_2024_08_23_SOLINGEN,2024-08-23,DE,Solingen,jihadist,completed,adequate,3,10,EU24;DE-SOL,Named p. 25; court injury counts may differ
+DE_2024_05_31_MANNHEIM,2024-05-31,DE,Mannheim,jihadist,completed,candidate,1,5,EU24;DE-MAN,German trial reporting; explicit EU match pending
+IE_2024_08_15_GALWAY,2024-08-15,IE,Galway,jihadist,completed,adequate,,1,EU24;IE-GAL,Named p. 25; distinct from the 2025 Galway plot
+NL_2024_09_19_ERASMUSBRUG,2024-09-19,NL,Rotterdam,jihadist,completed,adequate,1,1,EU24;NL-ROT,Named p. 25; court confirmed terrorist intent and found lack of imputability
+SK_2024_05_15_HANDLOVA,2024-05-15,SK,Handlová,other,completed,adequate,,1,EU24;SK-FICO,Named p. 56; attempted assassination legally but completed attack in EU statistics
+CZ_2024_06_06_PRAGUE_BUS,2024-06-06,CZ,Prague,other,completed,adequate,,,EU24;CZ-PRA,Named p. 56; distinct from the associated thwarted plot
+CZ_2024_06_PRAGUE_PLOT,2024-06,CZ,Prague,other,foiled,adequate,,,EU24;CZ-PRA,p. 56 identifies one linked thwarted event; no separate slot per possible target
+MT_2024_05_30_LABOUR,2024-05-30,MT,Labour Party headquarters,other,completed,adequate,,,EU24;MT-LAB,Named p. 56; reported ongoing proceedings
+DK_2024_05_29_COPENHAGEN,2024-05-29,DK,Copenhagen,other,completed,adequate,,,EU24;DK-MAY,Named p. 56; no indictment as of July 2026 report
+IT_2024_03_18_MONTELLO,2024-03-18,IT,Montello,right_wing,completed,adequate,,,EU24;IT-MON,Named p. 34; EU outcome completed despite narrative language of attempt
+DK_2024_10_02_EMBASSY,2024-10-02,DK,Hellerup,other,completed,candidate,,,EU24;DK-EMB,Domestic terrorism conviction; EU submission unverified
+LT_2024_05_09_VILNIUS,2024-05-09,LT,Vilnius,other,completed,candidate,,,EU24;LT-VIL,Prosecutor confirms domestic judgment; EU submission unverified
+FR_2024_08_24_GRANDE_MOTTE,2024-08-24,FR,La Grande-Motte,jihadist,completed,candidate,,,EU24;FR-LGM,Reported domestic terror investigation; verify EU coding
+AT_2024_08_VIENNA_CONCERT,2024-08,AT,Vienna,jihadist,foiled,candidate,,,EU24;AT-CON;AT-VER,Europol p. 23 mentions an Austrian mass concert; attribution to this case plausible
+GR_2024_02_03_ATHENS_LABOUR,2024-02-03,GR,Athens,left_wing_anarchist,completed,candidate,,,EU24;GR-ATH;GR-NCTC,Occurrence and official third-country attribution; EU incident match unverified
+BE_2024_03_03_BRUSSELS_PLOT,2024-03-03,BE,Brussels (reported target),jihadist,foiled,candidate,,,EU24;BE-PLOT,Four suspects in public reporting fit p. 23 description; exact EU event join unverified

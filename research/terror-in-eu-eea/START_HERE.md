@@ -38,3 +38,5 @@ no medium publication is authorised by this research setup.
 [Phase 6 crosswalk and progress](2025_INCIDENT_IDENTIFICATION_PHASE6.md), [independent evidence audit](2025_INDEPENDENT_CROSSWALK_AUDIT_PHASE6.md), [Europol reporting methodology](2025_EUROPOL_REPORTING_METHOD.md) and [dated discrepancy register](2025_EVIDENCE_GAPS_PHASE6_2026-11-18.md).
 
 [Phase 7 source, statistical and publication-readiness audit](2025_PUBLICATION_READINESS_PHASE7.md) and [claim-to-source matrix](2025_CLAIM_VERIFICATION_PHASE7.md).
+
+[2024 statistical baseline and comparability](2024/BASELINE.md) · [2024 progress and evidence gaps](2024/PROGRESS.md). The provisional 2025 evidence baseline is preserved at commit 9a255e4.
