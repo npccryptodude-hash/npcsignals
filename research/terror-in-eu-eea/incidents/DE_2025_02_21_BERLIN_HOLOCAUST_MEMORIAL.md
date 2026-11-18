@@ -1,0 +1,39 @@
+# berlin holocaust memorial — 2025-02-21
+
+review date: 2026-11-18
+status: completed attack, court findings and additional prosecution documented; final appellate status not established
+country: de
+fatalities: 0
+injured: 1 (severely injured)
+source classification: islamist and antisemitic motivation established in berlin court judgment
+
+## incident and first judicial outcome
+
+on 21 february 2025 a spanish tourist was attacked with a knife at the memorial to the murdered jews of europe in berlin. on 5 march 2026 the kammergericht berlin sentenced the defendant to 13 years imprisonment for attempted murder, dangerous bodily harm and attempted membership in a foreign terrorist organisation.
+
+the court found that the defendant had been radicalised online, and an islamic state (is) member had inspired and prepared him for months through a messaging service. the court described the incident as a guided attack. it could not establish that is had formally accepted the defendant as a member. the court release explicitly said the judgment was not yet final.
+
+primary court release, 2026-03-05:
+https://www.berlin.de/gerichte/presse/pressemitteilungen-der-ordentlichen-gerichtsbarkeit/2026/pressemitteilung.1649817.php
+
+## separate alleged accomplice
+
+on 2026-09-09 the german federal prosecutor announced that charges had been filed on 2026-08-21 against a second individual for alleged assistance to attempted murder and dangerous bodily harm. prosecutors allege the person spent the afternoon before the attack with the defendant and encouraged him. this is an indictment, not a finding of guilt.
+
+federal prosecutor statement, 2026-09-09:
+https://www.presseportal.de/blaulicht/pm/14981/6348674
+
+## relationship evidence
+
+- attacker -> islamic state member: court-found messaging, ideological inspiration and preparation. no verified command hierarchy established in the source.
+- attacker -> islamic state organisation: attempted membership conviction at first instance; formal acceptance not proven.
+- alleged accomplice -> attacker: prosecution allegation of in-person encouragement on the afternoon of attack; not judicially established.
+- legal status: first-instance sentence 13 years, not final at announcement; appeal status requires a new check.
+
+## correction to earlier research
+
+the earlier provisional germany reconciliation note relied on an early 2025 assessment reporting no direct organisational/network link. that assessment is superseded in part by the 2026 court findings and subsequent indictment. preserve the original note as historical source context, but do not continue describing the case as lacking evidence of operational contacts.
+
+## next checks
+
+obtain appeal status, full written judgment if available, and procedural status of second accused. compare court findings against Europol TE-SAT 2026 classification without inferring extra connections.
