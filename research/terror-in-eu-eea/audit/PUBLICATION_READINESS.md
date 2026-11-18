@@ -15,6 +15,8 @@ Internal assessment. The reports may describe the official returns, their geogra
 
 See [Phase 19 remediation](PHASE_19_REMEDIATION.md#publication-assessment-and-phase-20) for the Phase 19 assessment and [Phase 20 event linkage](PHASE_20_EVENT_LINKAGE.md#confidence-publication-and-next-work) for the current implications of national and Europol roster differences.
 
+[Phase 21 publication controls](PHASE_21_REPORTING_MECHANISMS.md#evidence-priorities-and-publication-controls) add the denominator and edition checks, including the 2023 arrest appendix discrepancy. The [evidence-priority register](phase21_evidence_priorities.csv) gives the latest status and criteria for resuming searches.
+
 ## Limitations and priorities
 
 1. Retain reproducible report references for all graphics. Recover publisher copies of the three mirror-based editions if possible and record any meaningful text or layout changes. Request no external contact under the current scope. Verify 2025's arrest-age denominator only against independent public documentation.

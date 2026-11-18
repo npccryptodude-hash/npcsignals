@@ -7,7 +7,8 @@
 - [Report retrieval ledger](source_integrity.csv) and [2025 arrest rows](arrests_2025.csv)
 - [Phase 18 discrepancies and corrections](DISCREPANCIES.md)
 - [Phase 19 evidence remediation](PHASE_19_REMEDIATION.md)
-- [Phase 20 event linkage and current discrepancy status](PHASE_20_EVENT_LINKAGE.md)
+- [Phase 20 event linkage](PHASE_20_EVENT_LINKAGE.md)
+- [Phase 21 reporting mechanisms, denominator and evidence priorities](PHASE_21_REPORTING_MECHANISMS.md)
 - [Publication decisions and remediation](PUBLICATION_READINESS.md)
 
 ## Statistical controls

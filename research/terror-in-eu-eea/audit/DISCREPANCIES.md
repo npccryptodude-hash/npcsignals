@@ -1,6 +1,6 @@
 # Discrepancy and correction register — 18 November 2026
 
-This is the Phase 18 snapshot. See [Phase 19 remediation](PHASE_19_REMEDIATION.md) for subsequent findings and [Phase 20 event linkage](PHASE_20_EVENT_LINKAGE.md#discrepancy-review) for the latest assessment. All locators are printed page numbers. [Report URLs and retrieval checks](source_integrity.csv) identify the full PDFs consulted.
+This is the Phase 18 snapshot. See [Phase 19 remediation](PHASE_19_REMEDIATION.md) for subsequent findings and [Phase 20 event linkage](PHASE_20_EVENT_LINKAGE.md#discrepancy-review) for event-linkage findings. See [Phase 21](PHASE_21_REPORTING_MECHANISMS.md#discrepancy-and-denominator-decisions) for the 2023 retrospective arrest appendix and current denominator decisions. All locators are printed page numbers. [Report URLs and retrieval checks](source_integrity.csv) identify the full PDFs consulted.
 
 | Issue | Status | Evidence and statistical disposition |
 |---|---|---|
