@@ -1,0 +1,318 @@
+{
+  "review_date": "2026-11-15",
+  "scope": "separate annotations; no original source field, score or date is overwritten",
+  "sources": [
+    {
+      "source_id": "P001",
+      "url": "https://www.presidency.ucsb.edu/documents/address-before-joint-session-the-congress-4",
+      "title": "address before a joint session of congress",
+      "event_date": "2025-03-04",
+      "publication_date": null,
+      "access_date": "2026-11-15",
+      "source_type": "primary speech transcript reproduction",
+      "already_referenced_in_deposited_presidential_archive": true,
+      "passages": [
+        {
+          "claim_ids": [
+            "L012"
+          ],
+          "locator": "paragraph beginning as a result; retrieved text lines 80–82",
+          "paraphrase": "describes the preceding month as a record low for illegal border crossings."
+        }
+      ],
+      "limitations": "already cited by other rows. supplies a family occurrence, not proof of the exact event originally selected for L012 or its benchmark. an academic reproduction, not a deposited original recording."
+    },
+    {
+      "source_id": "P002",
+      "url": "https://www.govinfo.gov/content/pkg/DCPD-202600061/pdf/DCPD-202600061.pdf",
+      "title": "remarks on the trump accounts children savings program",
+      "event_date": "2026-01-28",
+      "publication_date": null,
+      "access_date": "2026-11-15",
+      "source_type": "official primary transcript",
+      "already_referenced_in_deposited_presidential_archive": true,
+      "passages": [
+        {
+          "claim_ids": [
+            "L018"
+          ],
+          "locator": "printed page 1, opening investment discussion",
+          "paraphrase": "states that investment coming into the country exceeds $18 trillion."
+        }
+      ],
+      "limitations": "already in L018 repeat-source field. a 2026 repeat does not supply the unspecified 2025 occurrence or establish binding realized investment."
+    },
+    {
+      "source_id": "P003",
+      "url": "https://www.presidency.ucsb.edu/documents/address-the-nation-the-economy-1",
+      "title": "address to the nation on the economy",
+      "event_date": "2025-12-17",
+      "publication_date": "2025-12-18",
+      "access_date": "2026-11-15",
+      "source_type": "primary speech transcript reproduction",
+      "already_referenced_in_deposited_presidential_archive": false,
+      "passages": [
+        {
+          "claim_ids": [
+            "L014"
+          ],
+          "locator": "energy paragraph; retrieved text line 61",
+          "paraphrase": "describes gasoline reaching $1.99 in some states."
+        },
+        {
+          "claim_ids": [
+            "L015"
+          ],
+          "locator": "military and foreign policy paragraph; retrieved text line 35",
+          "paraphrase": "asserts eight settlements of wars within ten months."
+        },
+        {
+          "claim_ids": [
+            "L018"
+          ],
+          "locator": "investment paragraph; retrieved text line 42",
+          "paraphrase": "asserts an $18 trillion investment total."
+        },
+        {
+          "claim_ids": [
+            "L019"
+          ],
+          "locator": "prices and groceries paragraphs; retrieved text lines 36–38",
+          "paraphrase": "says several prices and grocery costs are falling."
+        },
+        {
+          "claim_ids": [
+            "L055"
+          ],
+          "locator": "prescription drug paragraph; retrieved text line 53",
+          "excerpt": "by as much as 400, 500, and even 600 percent"
+        },
+        {
+          "claim_ids": [
+            "L022"
+          ],
+          "locator": "energy paragraph; retrieved text line 61",
+          "paraphrase": "predicts future electricity-price declines rather than stating they already occurred."
+        }
+      ],
+      "limitations": "official transcript reproduced by an academic archive. confirms utterances, not policy results, realized investment, statewide averages or war outcomes. for the undated rows, original sample-selection occurrence remains unknown. the source note says the transcript was released on 18 december 2025."
+    },
+    {
+      "source_id": "P004",
+      "url": "https://www.presidency.ucsb.edu/documents/address-the-nation-united-states-airstrikes-iran",
+      "title": "address to the nation on united states airstrikes on iran",
+      "event_date": "2025-06-21",
+      "publication_date": null,
+      "access_date": "2026-11-15",
+      "source_type": "primary speech transcript reproduction",
+      "already_referenced_in_deposited_presidential_archive": false,
+      "passages": [
+        {
+          "claim_ids": [
+            "L016"
+          ],
+          "locator": "opening result paragraph; retrieved text line 20",
+          "excerpt": "completely and totally obliterated"
+        }
+      ],
+      "limitations": "confirms the assertion, not physical damage or the scope of an entire nuclear programme. selecting this occurrence does not recover the original unspecified event."
+    },
+    {
+      "source_id": "P005",
+      "url": "https://www.rev.com/transcripts/presidential-cabinet-meeting-12-02-25",
+      "title": "presidential cabinet meeting transcript",
+      "event_date": "2025-12-02",
+      "publication_date": null,
+      "access_date": "2026-11-15",
+      "source_type": "primary speech transcript reproduction",
+      "already_referenced_in_deposited_presidential_archive": false,
+      "passages": [
+        {
+          "claim_ids": [
+            "L023"
+          ],
+          "locator": "president trump at 01:22:25",
+          "paraphrase": "claims current energy production exceeds every previous level."
+        }
+      ],
+      "limitations": "commercial transcript reproduction. identifies the president as speaker, unlike the immediately following reply by chris wright. no independent audio alignment or raw production series was reconstructed."
+    },
+    {
+      "source_id": "P006",
+      "url": "https://www.govinfo.gov/content/pkg/DCPD-202600046/pdf/DCPD-202600046.pdf",
+      "title": "remarks and question-and-answer session at the world economic forum in davos",
+      "event_date": "2026-01-21",
+      "publication_date": null,
+      "access_date": "2026-11-15",
+      "source_type": "official primary transcript",
+      "already_referenced_in_deposited_presidential_archive": false,
+      "passages": [
+        {
+          "claim_ids": [
+            "L027"
+          ],
+          "locator": "printed page 1, opening contrast with the previous administration",
+          "excerpt": "virtually no inflation"
+        }
+      ],
+      "limitations": "a dated 2026 family occurrence, not evidence of its accuracy or proof this was the event selected in the original undated row."
+    },
+    {
+      "source_id": "P007",
+      "url": "https://rollcall.com/factbase/trump/transcript/donald-trump-interview-trace-gallagher-fox-news-los-angeles-august-4-2026/",
+      "title": "trace gallagher fox news interview transcript",
+      "event_date": "2026-08-04",
+      "publication_date": null,
+      "access_date": "2026-11-15",
+      "source_type": "primary interview transcript reproduction",
+      "already_referenced_in_deposited_presidential_archive": false,
+      "passages": [
+        {
+          "claim_ids": [
+            "L041"
+          ],
+          "locator": "donald trump, 00:06:03–00:06:26",
+          "excerpt": "we're making hundreds of billions of dollars, and so are they"
+        }
+      ],
+      "limitations": "matches the existing event date and core wording. the workbook parenthetical specifying oil revenue is editorial context, not part of this quoted sentence. this is a transcript reproduction, not a recovered fox-hosted recording or an audit of revenue."
+    },
+    {
+      "source_id": "P008",
+      "url": "https://rollcall.com/factbase/trump/transcript/donald-trump-speech-small-business-summit-white-house-may-4-2026/",
+      "title": "small business summit at the white house transcript",
+      "event_date": "2026-05-04",
+      "publication_date": null,
+      "access_date": "2026-11-15",
+      "source_type": "primary speech transcript reproduction",
+      "already_referenced_in_deposited_presidential_archive": false,
+      "passages": [
+        {
+          "claim_ids": [
+            "L068"
+          ],
+          "locator": "donald trump, 00:13:54–00:14:25",
+          "excerpt": "Consumer confidence is way up."
+        }
+      ],
+      "limitations": "the comparison period and confidence series are unspecified. a may statement cannot automatically be assessed against a later may low or july series without fixing the time window."
+    },
+    {
+      "source_id": "P009",
+      "url": "https://www.presidency.ucsb.edu/documents/remarks-and-exchange-with-reporters-aboard-air-force-one-en-route-joint-base-andrews-8",
+      "title": "exchange with reporters aboard air force one en route to joint base andrews",
+      "event_date": "2026-07-08",
+      "publication_date": null,
+      "access_date": "2026-11-15",
+      "source_type": "primary speech transcript reproduction",
+      "already_referenced_in_deposited_presidential_archive": false,
+      "passages": [
+        {
+          "claim_ids": [
+            "L069",
+            "L070"
+          ],
+          "locator": "housing costs section; retrieved text line 296",
+          "paraphrase": "attributes a 40–50 percent rental-cost increase to housing unauthorized immigrants."
+        },
+        {
+          "claim_ids": [
+            "L076"
+          ],
+          "locator": "housing costs section; retrieved text line 295",
+          "paraphrase": "describes housing and rental costs as falling."
+        }
+      ],
+      "limitations": "L069 and L070 may be two formulations of one underlying assertion. L076 is only a related occurrence: housing/rental costs are not a defined home-sale price index. no deduplication or recoding is performed."
+    },
+    {
+      "source_id": "P010",
+      "url": "https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-increases-accountability-in-the-federal-workforce/",
+      "title": "fact sheet on accountability in the federal workforce",
+      "event_date": null,
+      "publication_date": "2026-06-03",
+      "access_date": "2026-11-15",
+      "source_type": "primary institutional statement",
+      "already_referenced_in_deposited_presidential_archive": false,
+      "passages": [
+        {
+          "claim_ids": [
+            "L075"
+          ],
+          "locator": "workforce section; retrieved text lines 164–165",
+          "paraphrase": "the white house reports a major reduction in the federal workforce."
+        }
+      ],
+      "limitations": "institutional statement, not an identified presidential utterance or the original undated claim. not the original employment dataset or proof of the precise number/window in the workbook."
+    },
+    {
+      "source_id": "P011",
+      "url": "https://www.eia.gov/TodayinEnergy/detail.php?id=67684",
+      "title": "the united states set record energy production in 2025, again",
+      "event_date": null,
+      "publication_date": "2026-05-11",
+      "access_date": "2026-11-15",
+      "source_type": "primary statistical agency publication",
+      "already_referenced_in_deposited_presidential_archive": false,
+      "passages": [
+        {
+          "claim_ids": [
+            "L023",
+            "L078"
+          ],
+          "locator": "opening production discussion; retrieved text lines 60–61",
+          "paraphrase": "reports record annual total energy and dry natural gas production for 2025."
+        }
+      ],
+      "limitations": "new benchmark pointer only. annual 2025 levels do not establish every claim about output at an unspecified 2025 date or causation; the underlying time series was not independently recalculated."
+    },
+    {
+      "source_id": "P012",
+      "url": "https://www.presidency.ucsb.edu/documents/address-before-joint-session-the-congress-the-state-the-union-31",
+      "title": "address before congress on the state of the union",
+      "event_date": "2026-02-24",
+      "publication_date": null,
+      "access_date": "2026-11-15",
+      "source_type": "primary speech transcript reproduction",
+      "already_referenced_in_deposited_presidential_archive": true,
+      "passages": [
+        {
+          "claim_ids": [
+            "L014"
+          ],
+          "locator": "gasoline paragraph; retrieved text line 43",
+          "paraphrase": "uses a some-places $1.99 formulation, distinct from the statewide interpretation."
+        },
+        {
+          "claim_ids": [
+            "L015"
+          ],
+          "locator": "foreign policy discussion; retrieved text line 338",
+          "paraphrase": "claims to have ended eight wars."
+        },
+        {
+          "claim_ids": [
+            "L018"
+          ],
+          "locator": "investment paragraph; retrieved text line 48",
+          "paraphrase": "states investment commitments exceed $18 trillion."
+        },
+        {
+          "claim_ids": [
+            "L078"
+          ],
+          "locator": "natural gas paragraph; retrieved text line 52",
+          "paraphrase": "asserts record natural gas production and credits policy."
+        },
+        {
+          "claim_ids": [
+            "L028"
+          ],
+          "locator": "gasoline paragraph; retrieved text line 43",
+          "paraphrase": "states gasoline costs below $2.30 in most states."
+        }
+      ],
+      "limitations": "already cited by several original rows. later 2026 occurrences do not automatically replace unspecified 2025 events. finding a statement does not reproduce its verdict. no audio check was performed."
+    }
+  ]
+}

@@ -1,0 +1,449 @@
+[
+  {
+    "url": "https://fullfact.org/world/donald-trump-sadiq-khan-sharia-law/",
+    "retrieved_at_date": "2026-11-15",
+    "content_read_for_adjudication": false,
+    "http_status": 200,
+    "final_url": "https://fullfact.org/world/donald-trump-sadiq-khan-sharia-law/",
+    "content_type": "text/html; charset=utf-8",
+    "response_bytes_read": 60060,
+    "page_title": "No evidence for Donald Trump\u2019s claim about Sharia law in London \u2013 Full Fact"
+  },
+  {
+    "url": "https://politifact.com/factchecks/2025/aug/22/jd-vance/big-beautiful-bill-biggest-tax-cut-history/",
+    "retrieved_at_date": "2026-11-15",
+    "content_read_for_adjudication": false,
+    "http_status": 200,
+    "final_url": "https://politifact.com/factchecks/2025/aug/22/jd-vance/big-beautiful-bill-biggest-tax-cut-history/",
+    "content_type": "text/html; charset=UTF-8",
+    "response_bytes_read": 563815,
+    "page_title": "Donald Trump\u2019s \u2018Big Beautiful\u2019 spending law was not the \u2018biggest tax cut\u2019 in US history \u2013 PolitiFact"
+  },
+  {
+    "url": "https://politifact.com/factchecks/2025/jan/24/donald-trump/donald-trump-goes-too-far-in-claim-that-jan-6-comm/",
+    "retrieved_at_date": "2026-11-15",
+    "content_read_for_adjudication": false,
+    "http_status": 200,
+    "final_url": "https://politifact.com/factchecks/2025/jan/24/donald-trump/donald-trump-goes-too-far-in-claim-that-jan-6-comm/",
+    "content_type": "text/html; charset=UTF-8",
+    "response_bytes_read": 575299,
+    "page_title": "Donald Trump\u2019s False claim that Jan. 6 committee deleted \u2018all\u2019 evidence \u2013 PolitiFact"
+  },
+  {
+    "url": "https://politifact.com/factchecks/2025/jul/10/donald-trump/china-very-few-wind-farms-renewable-energy/",
+    "retrieved_at_date": "2026-11-15",
+    "content_read_for_adjudication": false,
+    "http_status": 200,
+    "final_url": "https://politifact.com/factchecks/2025/jul/10/donald-trump/china-very-few-wind-farms-renewable-energy/",
+    "content_type": "text/html; charset=UTF-8",
+    "response_bytes_read": 561108,
+    "page_title": "Donald Trump said China has \u2018very, very few\u2019 wind farms. But it has more than any country. \u2013 PolitiFact"
+  },
+  {
+    "url": "https://politifact.com/factchecks/2025/jun/30/donald-trump/trump-tax-social-security-reconciliation-bill/",
+    "retrieved_at_date": "2026-11-15",
+    "content_read_for_adjudication": false,
+    "http_status": 200,
+    "final_url": "https://politifact.com/factchecks/2025/jun/30/donald-trump/trump-tax-social-security-reconciliation-bill/",
+    "content_type": "text/html; charset=UTF-8",
+    "response_bytes_read": 570212,
+    "page_title": "Trump says \u2018no tax on Social Security\u2019 with reconciliation bill. That\u2019s not true for everyone. \u2013 PolitiFact"
+  },
+  {
+    "url": "https://politifact.com/factchecks/2025/nov/14/donald-trump/tariff-deficit-reduction-25-percent/",
+    "retrieved_at_date": "2026-11-15",
+    "content_read_for_adjudication": false,
+    "http_status": 200,
+    "final_url": "https://politifact.com/factchecks/2025/nov/14/donald-trump/tariff-deficit-reduction-25-percent/",
+    "content_type": "text/html; charset=UTF-8",
+    "response_bytes_read": 561679,
+    "page_title": "President Donald Trump is wrong that tariff revenues have slashed US deficit by 25% \u2013 PolitiFact"
+  },
+  {
+    "url": "https://politifact.com/factchecks/2025/sep/05/donald-trump/wage-increase-500-dollars-2025-workers/",
+    "retrieved_at_date": "2026-11-15",
+    "content_read_for_adjudication": false,
+    "http_status": 200,
+    "final_url": "https://politifact.com/factchecks/2025/sep/05/donald-trump/wage-increase-500-dollars-2025-workers/",
+    "content_type": "text/html; charset=UTF-8",
+    "response_bytes_read": 560871,
+    "page_title": "Have US workers gained $500 in wages this year? One measure shows this, others don\u2019t. \u2013 PolitiFact"
+  },
+  {
+    "url": "https://politifact.com/factchecks/2026/aug/06/donald-trump/venezuela-oil-industry-us-gains/",
+    "retrieved_at_date": "2026-11-15",
+    "content_read_for_adjudication": false,
+    "http_status": 200,
+    "final_url": "https://politifact.com/factchecks/2026/aug/06/donald-trump/venezuela-oil-industry-us-gains/",
+    "content_type": "text/html; charset=UTF-8",
+    "response_bytes_read": 568081,
+    "page_title": "Trump gasses up US-Venezuela oil revenue, but \u2018hundreds of billions\u2019 is too high \u2013 PolitiFact"
+  },
+  {
+    "url": "https://politifact.com/factchecks/2026/jul/10/donald-trump/immigration-rental-housing-federal-reserve/",
+    "retrieved_at_date": "2026-11-15",
+    "content_read_for_adjudication": false,
+    "http_status": 200,
+    "final_url": "https://politifact.com/factchecks/2026/jul/10/donald-trump/immigration-rental-housing-federal-reserve/",
+    "content_type": "text/html; charset=UTF-8",
+    "response_bytes_read": 528668,
+    "page_title": "Trump exaggerates about how much illegal immigration raised rental housing prices \u2013 PolitiFact"
+  },
+  {
+    "url": "https://politifact.com/factchecks/2026/jul/14/donald-trump/ai-data-centers-electricty-grid/",
+    "retrieved_at_date": "2026-11-15",
+    "content_read_for_adjudication": false,
+    "http_status": 200,
+    "final_url": "https://politifact.com/factchecks/2026/jul/14/donald-trump/ai-data-centers-electricty-grid/",
+    "content_type": "text/html; charset=UTF-8",
+    "response_bytes_read": 566260,
+    "page_title": "Data centers need a lot of energy, but President Donald Trump\u2019s estimate is far too high \u2013 PolitiFact"
+  },
+  {
+    "url": "https://politifact.com/factchecks/2026/jul/24/donald-trump/new-jersey-illegal-immigrants-vote-save/",
+    "retrieved_at_date": "2026-11-15",
+    "content_read_for_adjudication": false,
+    "http_status": 200,
+    "final_url": "https://politifact.com/factchecks/2026/jul/24/donald-trump/new-jersey-illegal-immigrants-vote-save/",
+    "content_type": "text/html; charset=UTF-8",
+    "response_bytes_read": 574822,
+    "page_title": "Did \u2018thousands\u2019 of immigrants illegally vote in New Jersey? Trump hasn\u2019t proven that \u2013 PolitiFact"
+  },
+  {
+    "url": "https://politifact.com/factchecks/2026/jun/25/donald-trump/401k-second-term-balance-stock-market/",
+    "retrieved_at_date": "2026-11-15",
+    "content_read_for_adjudication": false,
+    "http_status": 200,
+    "final_url": "https://politifact.com/factchecks/2026/jun/25/donald-trump/401k-second-term-balance-stock-market/",
+    "content_type": "text/html; charset=UTF-8",
+    "response_bytes_read": 565850,
+    "page_title": "Donald Trump exaggerates 401(k) gains during his second term \u2013 PolitiFact"
+  },
+  {
+    "url": "https://politifact.com/factchecks/2026/mar/05/donald-trump/iran-nuclear-agreement-legitimate-right-weapons/",
+    "retrieved_at_date": "2026-11-15",
+    "content_read_for_adjudication": false,
+    "http_status": 200,
+    "final_url": "https://politifact.com/factchecks/2026/mar/05/donald-trump/iran-nuclear-agreement-legitimate-right-weapons/",
+    "content_type": "text/html; charset=UTF-8",
+    "response_bytes_read": 566892,
+    "page_title": "Trump wrong that a 2015 Obama-era deal gave Iran the right to nuclear weapons \u2013 PolitiFact"
+  },
+  {
+    "url": "https://rollcall.com/factbase/trump/transcript/donald-trump-remarks-bilat-joseph-aoun-lebanon-july-21-2026/",
+    "retrieved_at_date": "2026-11-15",
+    "content_read_for_adjudication": false,
+    "http_status": 200,
+    "final_url": "https://rollcall.com/factbase/trump/transcript/donald-trump-remarks-bilat-joseph-aoun-lebanon-july-21-2026/",
+    "content_type": "text/html; charset=UTF-8",
+    "response_bytes_read": 1589685,
+    "page_title": "Roll Call Factba.se - Remarks: Donald Trump Holds a Bilateral Meeting with Joseph Aoun of Lebanon - July 21, 2026"
+  },
+  {
+    "url": "https://rollcall.com/factbase/trump/transcript/donald-trump-remarks-healthcare-affordability-oval-office-august-31-2026/",
+    "retrieved_at_date": "2026-11-15",
+    "content_read_for_adjudication": false,
+    "http_status": 200,
+    "final_url": "https://rollcall.com/factbase/trump/transcript/donald-trump-remarks-healthcare-affordability-oval-office-august-31-2026/",
+    "content_type": "text/html; charset=UTF-8",
+    "response_bytes_read": 2109917,
+    "page_title": "Roll Call Factba.se - Remarks: Donald Trump Discusses Healthcare Affordability in the Oval Office - August 31, 2026"
+  },
+  {
+    "url": "https://www.cbsnews.com/news/trump-claims-biden-lost-300000-migrant-children-fact-check/",
+    "retrieved_at_date": "2026-11-15",
+    "content_read_for_adjudication": false,
+    "http_status": 200,
+    "final_url": "https://www.cbsnews.com/news/trump-claims-biden-lost-300000-migrant-children-fact-check/",
+    "content_type": "text/html; charset=UTF-8",
+    "response_bytes_read": 644473,
+    "page_title": "Trump claims Biden lost track of over 300,000 migrant children. Here's a fact check. - CBS News"
+  },
+  {
+    "url": "https://www.cbsnews.com/news/trump-speech-transcript-2025-joint-address-congress/",
+    "retrieved_at_date": "2026-11-15",
+    "content_read_for_adjudication": false,
+    "http_status": 200,
+    "final_url": "https://www.cbsnews.com/news/trump-speech-transcript-2025-joint-address-congress/",
+    "content_type": "text/html; charset=UTF-8",
+    "response_bytes_read": 743029,
+    "page_title": "Read Trump's speech transcript for the 2025 joint address to Congress - CBS News"
+  },
+  {
+    "url": "https://www.factcheck.org/2025/01/factchecking-trumps-inaugural-address/",
+    "retrieved_at_date": "2026-11-15",
+    "content_read_for_adjudication": false,
+    "http_status": 200,
+    "final_url": "https://www.factcheck.org/2025/01/factchecking-trumps-inaugural-address/",
+    "content_type": "text/html; charset=UTF-8",
+    "response_bytes_read": 145523,
+    "page_title": "FactChecking Trump's Inaugural Address - FactCheck.org"
+  },
+  {
+    "url": "https://www.factcheck.org/2025/03/factchecking-trumps-address-to-congress-2/",
+    "retrieved_at_date": "2026-11-15",
+    "content_read_for_adjudication": false,
+    "http_status": 200,
+    "final_url": "https://www.factcheck.org/2025/03/factchecking-trumps-address-to-congress-2/",
+    "content_type": "text/html; charset=UTF-8",
+    "response_bytes_read": 128818,
+    "page_title": "FactChecking Trump's Address to Congress - FactCheck.org"
+  },
+  {
+    "url": "https://www.factcheck.org/2025/03/trump-misleads-on-jobs/",
+    "retrieved_at_date": "2026-11-15",
+    "content_read_for_adjudication": false,
+    "http_status": 200,
+    "final_url": "https://www.factcheck.org/2025/03/trump-misleads-on-jobs/",
+    "content_type": "text/html; charset=UTF-8",
+    "response_bytes_read": 100396,
+    "page_title": "Trump Misleads on Jobs - FactCheck.org"
+  },
+  {
+    "url": "https://www.factcheck.org/2025/03/trumps-flawed-claim-that-tariffs-made-the-u-s-its-richest/",
+    "retrieved_at_date": "2026-11-15",
+    "content_read_for_adjudication": false,
+    "http_status": 200,
+    "final_url": "https://www.factcheck.org/2025/03/trumps-flawed-claim-that-tariffs-made-the-u-s-its-richest/",
+    "content_type": "text/html; charset=UTF-8",
+    "response_bytes_read": 108684,
+    "page_title": "Trump's Flawed Claim that Tariffs Made the U.S. Its 'Richest' - FactCheck.org"
+  },
+  {
+    "url": "https://www.factcheck.org/2025/04/trumps-false-claims-about-gas-egg-prices/",
+    "retrieved_at_date": "2026-11-15",
+    "content_read_for_adjudication": false,
+    "http_status": 200,
+    "final_url": "https://www.factcheck.org/2025/04/trumps-false-claims-about-gas-egg-prices/",
+    "content_type": "text/html; charset=UTF-8",
+    "response_bytes_read": 100437,
+    "page_title": "Trump's False Claims about Gas, Egg Prices - FactCheck.org"
+  },
+  {
+    "url": "https://www.factcheck.org/2025/04/trumps-misleading-tariff-chart/",
+    "retrieved_at_date": "2026-11-15",
+    "content_read_for_adjudication": false,
+    "http_status": 200,
+    "final_url": "https://www.factcheck.org/2025/04/trumps-misleading-tariff-chart/",
+    "content_type": "text/html; charset=UTF-8",
+    "response_bytes_read": 104552,
+    "page_title": "Trump's Misleading Tariff Chart - FactCheck.org"
+  },
+  {
+    "url": "https://www.factcheck.org/2025/06/trump-exaggerates-tariff-revenue-2/",
+    "retrieved_at_date": "2026-11-15",
+    "content_read_for_adjudication": false,
+    "http_status": 200,
+    "final_url": "https://www.factcheck.org/2025/06/trump-exaggerates-tariff-revenue-2/",
+    "content_type": "text/html; charset=UTF-8",
+    "response_bytes_read": 88551,
+    "page_title": "Trump Exaggerates Tariff Revenue - FactCheck.org"
+  },
+  {
+    "url": "https://www.factcheck.org/2025/07/are-prices-up-or-down-parsing-misleading-claims-by-trump-and-democrats/",
+    "retrieved_at_date": "2026-11-15",
+    "content_read_for_adjudication": false,
+    "http_status": 200,
+    "final_url": "https://www.factcheck.org/2025/07/are-prices-up-or-down-parsing-misleading-claims-by-trump-and-democrats/",
+    "content_type": "text/html; charset=UTF-8",
+    "response_bytes_read": 120731,
+    "page_title": "Are Prices Up or Down? Parsing Misleading Claims by Trump and Democrats - FactCheck.org"
+  },
+  {
+    "url": "https://www.factcheck.org/2025/08/no-evidence-for-trumps-claims-of-rigged-or-phony-job-numbers/",
+    "retrieved_at_date": "2026-11-15",
+    "content_read_for_adjudication": false,
+    "http_status": 200,
+    "final_url": "https://www.factcheck.org/2025/08/no-evidence-for-trumps-claims-of-rigged-or-phony-job-numbers/",
+    "content_type": "text/html; charset=UTF-8",
+    "response_bytes_read": 107022,
+    "page_title": "No Evidence for Trump's Claims of 'Rigged' or 'Phony' Job Numbers - FactCheck.org"
+  },
+  {
+    "url": "https://www.factcheck.org/2025/08/recapping-trumps-deceptive-tariff-claims/",
+    "retrieved_at_date": "2026-11-15",
+    "content_read_for_adjudication": false,
+    "http_status": 200,
+    "final_url": "https://www.factcheck.org/2025/08/recapping-trumps-deceptive-tariff-claims/",
+    "content_type": "text/html; charset=UTF-8",
+    "response_bytes_read": 109749,
+    "page_title": "Recapping Trump's Deceptive Tariff Claims - FactCheck.org"
+  },
+  {
+    "url": "https://www.factcheck.org/2025/09/trump-again-overstates-number-of-drug-overdose-deaths-in-u-s/",
+    "retrieved_at_date": "2026-11-15",
+    "content_read_for_adjudication": false,
+    "http_status": 200,
+    "final_url": "https://www.factcheck.org/2025/09/trump-again-overstates-number-of-drug-overdose-deaths-in-u-s/",
+    "content_type": "text/html; charset=UTF-8",
+    "response_bytes_read": 90250,
+    "page_title": "Trump Again Overstates Number of Drug Overdose Deaths in U.S. - FactCheck.org"
+  },
+  {
+    "url": "https://www.factcheck.org/2025/09/trump-misleads-on-climate-change-and-renewables-at-u-n/",
+    "retrieved_at_date": "2026-11-15",
+    "content_read_for_adjudication": false,
+    "http_status": 200,
+    "final_url": "https://www.factcheck.org/2025/09/trump-misleads-on-climate-change-and-renewables-at-u-n/",
+    "content_type": "text/html; charset=UTF-8",
+    "response_bytes_read": 107656,
+    "page_title": "Trump Misleads on Climate Change and Renewables at U.N. - FactCheck.org"
+  },
+  {
+    "url": "https://www.factcheck.org/2025/12/factchecking-trumps-rapid-fire-prime-time-address/",
+    "retrieved_at_date": "2026-11-15",
+    "content_read_for_adjudication": false,
+    "http_status": 200,
+    "final_url": "https://www.factcheck.org/2025/12/factchecking-trumps-rapid-fire-prime-time-address/",
+    "content_type": "text/html; charset=UTF-8",
+    "response_bytes_read": 122975,
+    "page_title": "FactChecking Trump's Rapid-Fire Prime-Time Address - FactCheck.org"
+  },
+  {
+    "url": "https://www.factcheck.org/2025/12/trumps-native-born-job-creation-claim-based-on-questionable-figures/",
+    "retrieved_at_date": "2026-11-15",
+    "content_read_for_adjudication": false,
+    "http_status": 200,
+    "final_url": "https://www.factcheck.org/2025/12/trumps-native-born-job-creation-claim-based-on-questionable-figures/",
+    "content_type": "text/html; charset=UTF-8",
+    "response_bytes_read": 105272,
+    "page_title": "Trump's Native-Born Job-Creation Claim Based on Questionable Figures - FactCheck.org"
+  },
+  {
+    "url": "https://www.factcheck.org/2026/02/factchecking-trumps-state-of-the-union-address/",
+    "retrieved_at_date": "2026-11-15",
+    "content_read_for_adjudication": false,
+    "http_status": 200,
+    "final_url": "https://www.factcheck.org/2026/02/factchecking-trumps-state-of-the-union-address/",
+    "content_type": "text/html; charset=UTF-8",
+    "response_bytes_read": 167313,
+    "page_title": "FactChecking Trump's State of the Union Address - FactCheck.org"
+  },
+  {
+    "url": "https://www.factcheck.org/2026/02/trump-misleads-on-drug-pricing-deals/",
+    "retrieved_at_date": "2026-11-15",
+    "content_read_for_adjudication": false,
+    "http_status": 200,
+    "final_url": "https://www.factcheck.org/2026/02/trump-misleads-on-drug-pricing-deals/",
+    "content_type": "text/html; charset=UTF-8",
+    "response_bytes_read": 120757,
+    "page_title": "Trump Misleads on Drug Pricing Deals - FactCheck.org"
+  },
+  {
+    "url": "https://www.factcheck.org/2026/02/trump-oversells-recent-u-s-economic-growth/",
+    "retrieved_at_date": "2026-11-15",
+    "content_read_for_adjudication": false,
+    "http_status": 200,
+    "final_url": "https://www.factcheck.org/2026/02/trump-oversells-recent-u-s-economic-growth/",
+    "content_type": "text/html; charset=UTF-8",
+    "response_bytes_read": 111317,
+    "page_title": "Trump Oversells Recent U.S. Economic Growth - FactCheck.org"
+  },
+  {
+    "url": "https://www.factcheck.org/2026/03/assessing-trumps-claims-on-irans-nuclear-and-missile-capabilities/",
+    "retrieved_at_date": "2026-11-15",
+    "content_read_for_adjudication": false,
+    "http_status": 200,
+    "final_url": "https://www.factcheck.org/2026/03/assessing-trumps-claims-on-irans-nuclear-and-missile-capabilities/",
+    "content_type": "text/html; charset=UTF-8",
+    "response_bytes_read": 117853,
+    "page_title": "Assessing Trump's Claims on Iran's Nuclear and Missile Capabilities - FactCheck.org"
+  },
+  {
+    "url": "https://www.factcheck.org/2026/03/without-providing-evidence-trump-pins-school-bombing-on-iran/",
+    "retrieved_at_date": "2026-11-15",
+    "content_read_for_adjudication": false,
+    "http_status": 200,
+    "final_url": "https://www.factcheck.org/2026/03/without-providing-evidence-trump-pins-school-bombing-on-iran/",
+    "content_type": "text/html; charset=UTF-8",
+    "response_bytes_read": 103613,
+    "page_title": "Without Providing Evidence, Trump Pins School Bombing on Iran - FactCheck.org"
+  },
+  {
+    "url": "https://www.factcheck.org/2026/04/trumps-numbers-april-2026-update/",
+    "retrieved_at_date": "2026-11-15",
+    "content_read_for_adjudication": false,
+    "http_status": 200,
+    "final_url": "https://www.factcheck.org/2026/04/trumps-numbers-april-2026-update/",
+    "content_type": "text/html; charset=UTF-8",
+    "response_bytes_read": 151102,
+    "page_title": "Trump's Numbers, April 2026 Update - FactCheck.org"
+  },
+  {
+    "url": "https://www.factcheck.org/2026/06/trump-makes-unsupported-claims-about-drug-flows/",
+    "retrieved_at_date": "2026-11-15",
+    "content_read_for_adjudication": false,
+    "http_status": 200,
+    "final_url": "https://www.factcheck.org/2026/06/trump-makes-unsupported-claims-about-drug-flows/",
+    "content_type": "text/html; charset=UTF-8",
+    "response_bytes_read": 99828,
+    "page_title": "Trump Makes Unsupported Claims About Drug Flows - FactCheck.org"
+  },
+  {
+    "url": "https://www.factcheck.org/2026/07/trumps-numbers-july-2026-update/",
+    "retrieved_at_date": "2026-11-15",
+    "content_read_for_adjudication": false,
+    "http_status": 200,
+    "final_url": "https://www.factcheck.org/2026/07/trumps-numbers-july-2026-update/",
+    "content_type": "text/html; charset=UTF-8",
+    "response_bytes_read": 151528,
+    "page_title": "Trump's Numbers, July 2026 Update - FactCheck.org"
+  },
+  {
+    "url": "https://www.pbs.org/newshour/politics/fact-checking-trumps-2025-address-to-congress",
+    "retrieved_at_date": "2026-11-15",
+    "content_read_for_adjudication": false,
+    "http_status": 200,
+    "final_url": "https://www.pbs.org/newshour/politics/fact-checking-trumps-2025-address-to-congress",
+    "content_type": "text/html; charset=UTF-8",
+    "response_bytes_read": 313249,
+    "page_title": "Fact-checking Trump's 2025 address to Congress | PBS News"
+  },
+  {
+    "url": "https://www.presidency.ucsb.edu/documents/address-before-joint-session-the-congress-4",
+    "retrieved_at_date": "2026-11-15",
+    "content_read_for_adjudication": false,
+    "http_status": 200,
+    "final_url": "https://www.presidency.ucsb.edu/documents/address-before-joint-session-the-congress-4",
+    "content_type": "text/html; charset=utf-8",
+    "response_bytes_read": 124859,
+    "page_title": "Address Before a Joint Session of the Congress | The American Presidency Project"
+  },
+  {
+    "url": "https://www.presidency.ucsb.edu/documents/address-before-joint-session-the-congress-the-state-the-union-31",
+    "retrieved_at_date": "2026-11-15",
+    "content_read_for_adjudication": false,
+    "http_status": 200,
+    "final_url": "https://www.presidency.ucsb.edu/documents/address-before-joint-session-the-congress-the-state-the-union-31",
+    "content_type": "text/html; charset=utf-8",
+    "response_bytes_read": 128459,
+    "page_title": "Address Before a Joint Session of the Congress on the State of the Union | The American Presidency Project"
+  },
+  {
+    "url": "https://www.reuters.com/world/asia-pacific/war-weighs-irans-economy-us-intensifies-sanctions-2026-08-29/",
+    "retrieved_at_date": "2026-11-15",
+    "content_read_for_adjudication": false,
+    "http_status": 401,
+    "error": "http error; this is not a verdict on the referenced claim"
+  },
+  {
+    "url": "https://www.washingtonpost.com/politics/2025/07/16/trump-false-claim-missing-immigrant-children/",
+    "retrieved_at_date": "2026-11-15",
+    "content_read_for_adjudication": false,
+    "http_status": 200,
+    "final_url": "https://www.washingtonpost.com/politics/2025/07/16/trump-false-claim-missing-immigrant-children/",
+    "content_type": "text/html; charset=utf-8",
+    "response_bytes_read": 1305968,
+    "page_title": "Trump\u2019s false claim that 10,000 of 300,000 \u2018missing\u2019 children have been found  - The Washington Post"
+  },
+  {
+    "url": "https://www.whitehouse.gov/releases/2025/04/icymi-president-trumps-largest-tax-cut-in-history/",
+    "retrieved_at_date": "2026-11-15",
+    "content_read_for_adjudication": false,
+    "http_status": 200,
+    "final_url": "https://www.whitehouse.gov/releases/2025/04/icymi-president-trumps-largest-tax-cut-in-history/",
+    "content_type": "text/html; charset=UTF-8",
+    "response_bytes_read": 268845,
+    "page_title": "ICYMI: President Trump\u2019s Largest Tax Cut in History \u2013 The White House"
+  }
+]

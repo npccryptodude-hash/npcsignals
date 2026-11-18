@@ -1,0 +1,201 @@
+{
+  "review_date": "2026-11-15",
+  "status_scope": "verification of the stated issue only; not a research verdict or status change",
+  "issues": [
+    {
+      "issue_id": "V01",
+      "status": "requires additional evidence",
+      "topic": "original control sample",
+      "evidence": "repository search located aggregate references but no 50-item selection/source/scoring ledger",
+      "remaining_limitation": "requires the original item list, mechanical selection method and evidence; do not reconstruct rows from percentages",
+      "claim_ids": []
+    },
+    {
+      "issue_id": "V02",
+      "status": "independently reproduced",
+      "topic": "eligible accuracy totals",
+      "evidence": "79 rows, L053 excluded, 9 supported + 9 mixed + 9 unsupported + 51 false/severe",
+      "remaining_limitation": "counts reproduce recorded labels, not all factual judgments",
+      "claim_ids": []
+    },
+    {
+      "issue_id": "V03",
+      "status": "independently reproduced",
+      "topic": "comparison arithmetic",
+      "evidence": "64/78 accuracy agreements; kappa 0.64453125; amplification weighted kappa 0.4778866842",
+      "remaining_limitation": "historical independence is not a mathematical output",
+      "claim_ids": []
+    },
+    {
+      "issue_id": "V04",
+      "status": "verified from existing evidence",
+      "topic": "comparison file provenance",
+      "evidence": "first upload 91295bc; current main workbook byte-identical to uploaded blob bb064820c772b3248ba2ad4f8888a6d3704207e7",
+      "remaining_limitation": "uploader attribution does not identify a scorer",
+      "claim_ids": []
+    },
+    {
+      "issue_id": "V05",
+      "status": "unresolved",
+      "topic": "historical reviewer identity and blindness",
+      "evidence": "completed-review prose conflicts with empty scoring outputs and pending-review notes",
+      "remaining_limitation": "no completed response packet, attestation or visibility record located; do not select an explanation",
+      "claim_ids": []
+    },
+    {
+      "issue_id": "V06",
+      "status": "verified from existing evidence",
+      "topic": "blank blind-scoring packets",
+      "evidence": "embedded 79-row packet and separate 78-row packet have zero completed scoring-output rows",
+      "remaining_limitation": "blank packets do not prove that no review ever happened",
+      "claim_ids": []
+    },
+    {
+      "issue_id": "V07",
+      "status": "verified from existing evidence",
+      "topic": "packet version difference",
+      "evidence": "embedded L042 inputs are older/incomplete; separate packet inputs match all 78 current eligible rows",
+      "remaining_limitation": "actual packet used for the recorded comparison is unresolved",
+      "claim_ids": [
+        "L042"
+      ]
+    },
+    {
+      "issue_id": "V08",
+      "status": "requires additional evidence",
+      "topic": "original amplification scoring",
+      "evidence": "changelog acknowledges original per-row assignments were not retained",
+      "remaining_limitation": "later 78-row reconstruction is reproducible, original aggregate process is not",
+      "claim_ids": []
+    },
+    {
+      "issue_id": "V09",
+      "status": "independently reproduced",
+      "topic": "partial persistence arithmetic",
+      "evidence": "24 stored comparable assignments, 21 persistent-amplification floor, 54 missing first-column persistence scores",
+      "remaining_limitation": "the underlying repeat search and final rates are not reproduced",
+      "claim_ids": []
+    },
+    {
+      "issue_id": "V10",
+      "status": "requires additional evidence",
+      "topic": "complete persistence evidence",
+      "evidence": "recorded repeat links and narratives exist, but exhaustive search is explicitly incomplete",
+      "remaining_limitation": "requires statement-by-statement chronology and dates of relevant corrective evidence",
+      "claim_ids": []
+    },
+    {
+      "issue_id": "V11",
+      "status": "independently reproduced",
+      "topic": "missing-url family occurrences",
+      "evidence": "dated transcript occurrences located for 11 of the 18 empty statement-url rows",
+      "remaining_limitation": "only L041 had an original explicit event date to match; the ten other selected historical occurrences remain unspecified",
+      "claim_ids": [
+        "L012",
+        "L014",
+        "L015",
+        "L016",
+        "L018",
+        "L019",
+        "L023",
+        "L027",
+        "L041",
+        "L068",
+        "L070"
+      ]
+    },
+    {
+      "issue_id": "V12",
+      "status": "requires additional evidence",
+      "topic": "remaining missing-url rows",
+      "evidence": "three related passages and four rows with no matching original statement located",
+      "remaining_limitation": "requires an attributable dated occurrence matching the exact metric, speaker and frozen window",
+      "claim_ids": [
+        "L022",
+        "L061",
+        "L071",
+        "L072",
+        "L073",
+        "L075",
+        "L076"
+      ]
+    },
+    {
+      "issue_id": "V13",
+      "status": "requires additional evidence",
+      "topic": "year and explicit date disagreements",
+      "evidence": "year 2026 conflicts with explicit 2025 date in three rows",
+      "remaining_limitation": "do not alter frozen fields; requires authoritative chronology before year-group analysis",
+      "claim_ids": [
+        "L029",
+        "L038",
+        "L044"
+      ]
+    },
+    {
+      "issue_id": "V14",
+      "status": "unresolved",
+      "topic": "claim-family overlap",
+      "evidence": "rental-cost rows L069/L070 share a matching primary assertion; border and energy pairs also overlap conceptually",
+      "remaining_limitation": "requires family-boundary rationale before asserting independence or changing denominator",
+      "claim_ids": [
+        "L069",
+        "L070",
+        "L012",
+        "L061",
+        "L023",
+        "L078"
+      ]
+    },
+    {
+      "issue_id": "V15",
+      "status": "requires additional evidence",
+      "topic": "primary benchmark reproducibility",
+      "evidence": "all original benchmark-url fields cite secondary reporting; no underlying agency data tables are deposited in this subject",
+      "remaining_limitation": "requires dated primary records, definitions, revisions and evidence-to-verdict reasoning",
+      "claim_ids": []
+    },
+    {
+      "issue_id": "V16",
+      "status": "independently reproduced",
+      "topic": "bounded percentage-reduction example",
+      "evidence": "L055 matches a dated primary transcript reproduction; conventional reductions above 100 percent imply a negative price",
+      "remaining_limitation": "does not measure actual discounts or infer intent; classification is unchanged",
+      "claim_ids": [
+        "L055"
+      ]
+    },
+    {
+      "issue_id": "V17",
+      "status": "requires additional evidence",
+      "topic": "restricted benchmark access",
+      "evidence": "L079 reuters benchmark returns http 401 in the direct probe",
+      "remaining_limitation": "requires accessible original dated inflation statistics or a lawful preserved copy; no bypass attempted",
+      "claim_ids": [
+        "L079"
+      ]
+    },
+    {
+      "issue_id": "V18",
+      "status": "requires additional evidence",
+      "topic": "claim-definition and time alignment",
+      "evidence": "future pledge versus enacted law in L020, bill-version timing in L056, superlative versus comparative growth in L074",
+      "remaining_limitation": "requires precise event, wording and benchmark definitions, not new invented scoring decisions",
+      "claim_ids": [
+        "L020",
+        "L056",
+        "L074"
+      ]
+    },
+    {
+      "issue_id": "V19",
+      "status": "independently reproduced",
+      "topic": "additional missing date candidate",
+      "evidence": "already cited transcript supplies 24 february 2026 for L028",
+      "remaining_limitation": "original date remains blank; statement accuracy requires separate source comparison",
+      "claim_ids": [
+        "L028"
+      ]
+    }
+  ]
+}
