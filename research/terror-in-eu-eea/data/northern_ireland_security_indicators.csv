@@ -1,0 +1,9 @@
+period_start,period_end,region,measure,value,unit,classification,source_url,notes
+2015-04-01,2016-03-31,Northern Ireland,shooting_incidents,36,incidents,security_situation,https://www.psni.police.uk/sites/default/files/2025-05/Security%20Situation%20Statistics%20to%20March%202025.pdf,financial_year_not_terror_attacks
+2015-04-01,2016-03-31,Northern Ireland,bombing_incidents,52,incidents,security_situation,https://www.psni.police.uk/sites/default/files/2025-05/Security%20Situation%20Statistics%20to%20March%202025.pdf,financial_year_not_terror_attacks
+2023-04-01,2024-03-31,Northern Ireland,shooting_incidents,25,incidents,security_situation,https://www.psni.police.uk/sites/default/files/2025-05/Security%20Situation%20Statistics%20to%20March%202025.pdf,financial_year_not_terror_attacks
+2023-04-01,2024-03-31,Northern Ireland,bombing_incidents,7,incidents,security_situation,https://www.psni.police.uk/sites/default/files/2025-05/Security%20Situation%20Statistics%20to%20March%202025.pdf,financial_year_not_terror_attacks
+2024-04-01,2025-03-31,Northern Ireland,shooting_incidents,18,incidents,security_situation,https://www.psni.police.uk/sites/default/files/2025-05/Security%20Situation%20Statistics%20to%20March%202025.pdf,financial_year_not_terror_attacks
+2024-04-01,2025-03-31,Northern Ireland,bombing_incidents,5,incidents,security_situation,https://www.psni.police.uk/sites/default/files/2025-05/Security%20Situation%20Statistics%20to%20March%202025.pdf,financial_year_not_terror_attacks
+2025-04-01,2026-03-31,Northern Ireland,shooting_incidents,8,incidents,security_situation,https://www.nisra.gov.uk/news/paramilitary-assaults-fall-lowest-level-1983,financial_year_not_terror_attacks
+2025-04-01,2026-03-31,Northern Ireland,bombing_incidents,19,incidents,security_situation,https://www.nisra.gov.uk/news/paramilitary-assaults-fall-lowest-level-1983,financial_year_not_terror_attacks
