@@ -1,0 +1,23 @@
+# France 2025 — PNAT versus Europol classification discrepancy
+
+reviewed 2026-11-18
+
+## primary French reporting
+
+The Paris judicial tribunal / PNAT 2025 activity publication explicitly says three jihadist-inspired attacks occurred in France in 2025: **Apt (Vaucluse), Mulhouse (Haut-Rhin), and Lyon (Rhône)**, causing two deaths in total. It also reports seven thwarted attacks in that segment.
+Primary publication: https://www.tribunal-de-paris.justice.fr/sites/default/files/2026-01/Plaquettes%20activit%C3%A9%202025%20TJP%20-%20PNF%20-%20PNAT%20-%20PNACO.pdf
+
+A French gendarmerie research note likewise enumerates Apt 25 January, Mulhouse 22 February, and Lyon 10 September 2025, and says three jihadist attacks, two deaths, nine injured.
+Primary government research: https://www.gendarmerie.interieur.gouv.fr/crgn/content/download/57190/file/Research_Note_CRGN_125_Terrorism_radical_Movements_2025.pdf
+
+## Europol classification
+
+Europol TE-SAT 2026 reports **two completed jihadist attacks in France**, with ten jihadist attacks in France overall, according to a detailed summary:
+https://lovguiden.dk/en/det-offentlige/europol/2026-07-13-europol-rapport-online-radikalisering-sender-terrorisme-i-europa-ind-i-en-ny-fase
+EU publication: https://op.europa.eu/en/publication-detail/-/publication/51f6ac4d-c326-11f1-bfcb-01aa75ed71a1/language-en
+
+## unresolved
+
+Which two of the three French incidents Europol included is **not yet established**. Do not automatically treat Apt or Lyon as excluded. Potential explanations include legal classification, reporting cut-off, and differing definitions; these are hypotheses, not findings. Preserve both national and Europol metrics separately and seek original TE-SAT case-level source.
+
+The two French deaths (Mulhouse, Lyon) do not alone establish which incidents were included in Europol's five EU jihadist fatalities. A five-fatality aggregate could suggest an inclusion pattern, but arithmetic alone is not adequate evidence.
