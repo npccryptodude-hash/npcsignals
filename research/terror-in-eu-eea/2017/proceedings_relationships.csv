@@ -1,0 +1,14 @@
+record_id,incident_id,date,stage_or_relationship,evidence_status,finding_or_allegation,finality,source_ids
+MAN-J1,GB17-MAN,2020-08-20,trial_sentence,confirmed,Hashem Abedi convicted of 22 murders and other counts; life with minimum 55 years.,further_status_not_verified,GB-MAN
+MAN-R1,GB17-MAN,2020-08-20,material_assistance,confirmed,Court determined deliberate participation by brother in preparation; personal assistance distinct from organisational direction.,not_applicable,GB-MAN
+MAN-R2,GB17-MAN,2023-03-02,probable_training_or_assistance,confirmed,Inquiry assessed probable training or assistance in Libya. This is an inquiry assessment; supplier and direction remain unverified.,not_applicable,GB-INQ
+MAN-R3,GB17-MAN,2017-05,responsibility_claim,reported,Europol records IS claim separately from adjudicated participation and inquiry findings.,not_applicable,EU17
+PAR-J1,GB17-PAR,2018-03-23,trial_sentence,confirmed,Life with minimum 34 years for attempted murder.,further_status_not_verified,GB-PAR
+FIN-J1,GB17-FIN,2018-02,trial_sentence,confirmed,Life with minimum 43 years for murder and attempted murder; court remarks establish far-right motive.,further_status_not_verified,GB-FIN
+STO-J1,SE17-STO,2018-06-07,trial_sentence,confirmed,Trial court imposed life for terrorist offences including five murders. Later official appeal release concerns damages separately.,criminal_finality_not_verified_in_sources,SE-STO;SE-CIV
+STO-R1,SE17-STO,2017-04,pledge,reported,"Europol reports recorded and transmitted allegiance pledge and no public claim. Receipt, membership and command need separate evidence.",not_applicable,EU17
+TUR-J1,FI17-TUR,2019,appeal_withdrawal,reported,Life sentence stood after defendant withdrew appeal.,reported_final,FI-TUR
+HAM-J1,DE17-HAM,2018-03-01,trial_sentence,reported,Hamburg OLG life sentence for murder and attempted murders.,appeal_status_not_verified,DE-HAM
+BCN-J1,ES17-BCN,2023-11-27,cassation,reported,Supreme Court reportedly upheld 43- and 36-year sentences for terrorist organisation and explosives-related offences; not convictions for perpetrating Barcelona and Cambrils killings.,cassation_reported,ES-TS
+CAM-R1,ES17-CAM,2017-08,responsibility_claim,reported,Europol records IS claim for both attacks. Domestic cell and public claim do not establish externally issued orders.,not_applicable,EU17;ES-TS
+BUC-J1,GB17-BUC,2018,acquittal,reported,Later TE-SAT refers to earlier acquittal; scope of original slot and numeric revision unverified.,not_applicable,EU19
