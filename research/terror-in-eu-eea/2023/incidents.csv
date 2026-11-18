@@ -1,0 +1,11 @@
+incident_id,event_date,country_iso2,locality,category,outcome_cell,confidence,deaths,injuries,source_ids,qualification
+ES23-ALG,2023-01-25,ES,Algeciras,jihadism,completed,adequate,1,2,EU23;ES-ALG1;ES-ALG2,TE-SAT p. 21; injuries are source-specific
+DE23-DUI,2023-04,DE,Duisburg,jihadism,completed,adequate,1,4,EU23;DE-DUI,One EU allocation for the grouped example; two physical events on 9 and 18 April
+FR23-ARR,2023-10-13,FR,Arras,jihadism,completed,adequate,1,2,EU23;FR-CRGN;FR-ARR,TE-SAT p. 21; injuries reflect report wording
+BE23-BRU,2023-10-16,BE,Brussels,jihadism,completed,adequate,2,1,EU23;BE-BRU,TE-SAT pp. 21–22; responsibility claim is not direction
+FR23-PAR,2023-12-02,FR,Paris,jihadism,completed,adequate,1,2,EU23;FR-CRGN;FR-PAR,National count; TE-SAT p. 22 gives two dead and one injured
+ES23-MAD,2023-11-09,ES,Madrid,not_specified,failed,adequate,,1,EU23;ES-MAD1;ES-MAD2,TE-SAT p. 54; matching date and target; political motive unestablished in EU report
+IT23-ROM,2023-04-22,IT,Rome,left_wing_anarchist,completed,adequate,,,EU23,Dated completed example p. 45; claimant identity unverified
+IT23-EIN,2023-03,IT,Einstein project area,left_wing_anarchist,failed,adequate,,,EU23,p. 45 failed example; municipality and national docket unknown
+LU23-PLOT,2023,LU,,right_wing,foiled,adequate,,,EU23,p. 33 unique Luxembourg case; exact date and case file unknown
+ES23-ZAR,2023-01-25,ES,Zaragoza,left_wing_anarchist,foiled,candidate,,,EU23,p. 45 calls it failed; candidate for sole Spanish left-wing slot marked foiled on p. 43

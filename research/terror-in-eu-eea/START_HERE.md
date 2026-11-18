@@ -40,3 +40,5 @@ no medium publication is authorised by this research setup.
 [Phase 7 source, statistical and publication-readiness audit](2025_PUBLICATION_READINESS_PHASE7.md) and [claim-to-source matrix](2025_CLAIM_VERIFICATION_PHASE7.md).
 
 [2024 statistical baseline and comparability](2024/BASELINE.md) · [2024 progress and evidence gaps](2024/PROGRESS.md). The provisional 2025 evidence baseline is preserved at commit 9a255e4.
+
+[2023 statistical baseline](2023/BASELINE.md) · [2023–2025 comparability](2023/COMPARABILITY_2023_2025.md) · [2023 progress and evidence gaps](2023/PROGRESS.md).

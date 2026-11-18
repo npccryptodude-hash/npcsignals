@@ -1,0 +1,11 @@
+record_id,incident_id,date,stage,finding_or_allegation,finality,source_ids
+J-DUI,DE23-DUI,2023-12-19,court_judgment,Life sentence in joint proceedings covering both physical acts; official judgment database marks final,final,DE-DUI
+R-DUI,DE23-DUI,2023-04,official_assessment,Europol describes self-radicalisation through IS propaganda; no case-specific direction established here,not_applicable,EU23
+J-ARR,FR23-ARR,2026-11-04,reported_referral,Referral to special assize court reported; date is coverage date,no_merits_judgment_verified,FR-ARR
+J-PAR,FR23-PAR,2026-01-13,reported_investigation_update,Judicial investigation reportedly completed; date is coverage date,no_merits_judgment_verified,FR-PAR
+J-BRU,BE23-BRU,2026-11-12,reported_judgment,Three weapons-law convictions in aftermath reported; operational direction and knowledge of attack not established by this source check,appeal_unknown,BE-BRU
+R-BRU,BE23-BRU,2023-10-16,official_account_of_pledge_and_claim,Pledge of allegiance and IS claim reported by Europol; neither alone proves operational command,not_applicable,EU23
+J-ALG1,ES23-ALG,2025-11-28,reported_first_instance,Acquitted under psychiatric exemption and ordered into supervised psychiatric confinement,appeal_later_reported,ES-ALG1
+J-ALG2,ES23-ALG,2026-04-10,reported_appeal,Appellate chamber reportedly upheld acquittal and confinement,later_finality_unverified,ES-ALG2
+J-MAD,ES23-MAD,2025-09-30,reported_pretrial_review,Four processing orders upheld on alleged terrorist attempted murder and criminal organisation offences,no_merits_judgment_verified,ES-MAD1;ES-MAD2
+R-ROM,IT23-ROM,2023-04-24,reported_responsibility_claim,Europol records a claim attributed to a named circle; authorship and participation not adjudicated here,not_applicable,EU23
