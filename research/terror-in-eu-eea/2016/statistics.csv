@@ -1,0 +1,20 @@
+metric_id,geography,measure,value,source_ids,locator
+ALL-C,EU28,completed_attacks,47,EU16,p. 10; remaining 95 without complete outcome breakdown
+ALL-DEAD,EU28,victim_deaths,142,EU16,p. 10 n. 3; includes non-table-context UK deaths
+ALL-INJ,EU28,injured,379,EU16,pp. 10 and 49
+J-C,EU28,jihadist_completed,10,EU16,p. 22
+J-DEAD,EU28;fixed_EU27,jihadist_victim_deaths,135,EU16,p. 49; all 13 attacks in BE FR DE
+J-INJ,EU28;fixed_EU27,jihadist_injured,374,EU16,p. 49; all 13 attacks in BE FR DE
+FIXED-INJ,fixed_EU27,all_ideologies_injury_total_unverified,,EU16,No complete compatible UK injury breakdown
+FIXED-DEAD,fixed_EU27,derived_headline_deaths,135,EU16,p. 10 n. 3 lists six NI deaths plus one UK MP death; arithmetic only under edition casualty scope
+NI-SEC,GB-NIR,security_entries,76,EU16,p. 10 n. 2
+NI-SHOOT,GB-NIR,shootings_in_Europol_return,49,EU16,p. 10 n. 2
+NI-BOMB,GB-NIR,bombings_in_Europol_return,27,EU16,p. 10 n. 2
+NI-NS,GB-NIR,national_security_targets,4,EU16,p. 10 n. 2; subset of 76
+NI-ARR,GB-NIR,arrests_separate_from_UK_149,123,EU16;GB-REV,p. 40; reviewer reports 123 under section 41
+BRU-DEAD,BE,Europol_combined_Brussels_deaths,32,EU16,p. 24; separate from site-specific immediate counts
+BRU-INJ,BE,Europol_combined_Brussels_injuries,340,EU16,p. 24; no forced split
+NIC-LATE-D,FR,later_Nice_deaths,86,FR-NIC-RES,Research report using later victim scope
+NIC-LATE-I,FR,later_Nice_injured,458,FR-NIC-RES,Research report; injury definition not harmonised with Europol
+BER-LATE-D,DE,later_Berlin_deaths,13,DE-MEM,13th death in 2021 as recognised by memorial source
+BRU-JUD-DEAD,BE,reported_murder_victims_in_Brussels_verdict,35,BE-SEN,2023 sentencing coverage; judicial scope differs from original 32

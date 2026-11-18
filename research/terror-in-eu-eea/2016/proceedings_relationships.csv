@@ -1,0 +1,15 @@
+record_id,incident_id,date,stage_or_relationship,evidence_status,finding_or_allegation,finality,source_ids
+BRU-J1,BE16-ZAV,2023-07-25,shared_trial_verdict,reported,Six defendants guilty of terrorist murder or attempt; eight guilty of participating in terrorist group activities; two fully acquitted. Same proceeding for Maelbeek.,reported_final_after_deadline,BE-VER;BE-END
+BRU-J2,BE16-MAE,2023-10-02,shared_verdict_finality,reported,Court spokesperson reported no cassation filings by deadline; no duplicate legal count for shared sites.,reported_final,BE-END
+BRU-R1,BE16-ZAV,2016-03,operational_coordination,reported,Europol describes coordination between sites and links of participants to the Paris network. Court reporting separately establishes group participation.,not_applicable,EU16;BE-PAR;BE-VER
+NIC-J1,FR16-NIC,2024-06-13,appeal_judgment,confirmed,Special assize appeal court imposed 18 years each for terrorist criminal association; court source does not equate the two defendants with perpetration of murders.,later_final,FR-NIC-CAS
+NIC-J2,FR16-NIC,2026-02-11,cassation,confirmed,Criminal chamber pourvoi 24-84.288; both 18-year dispositions became final.,final,FR-NIC-CAS;FR-NIC-REP
+NIC-R1,FR16-NIC,2016-07,responsibility_claim,reported,IS claimed attack after event. Europol said a link had not been confirmed at its cutoff.,not_applicable,EU16
+BER-R1,DE16-BER,2016-12,responsibility_claim_and_pledge,reported,Europol records public responsibility claim and pre-attack allegiance video; separate from proved membership or direction.,not_applicable,EU16
+BER-R2,DE16-BER,2020-12,direct_contacts_and_membership_assessment,confirmed,Federal prosecutor told committee that Amri had personal contacts with IS fighters while formal membership was unsupported by the evidence known to authorities. No adjudicated command finding in that testimony.,not_applicable,DE-GBA;DE-BT
+HAN-J1,DE16-HAN,2017-01,trial_judgment,confirmed,Celle court reports attempted murder and terrorism-group support findings. The separate national finding does not resolve Europol slot identity.,not_final_on_announcement,DE-HAN
+ENS-J1,NL16-ENS,2019-03,cassation,confirmed,Hoge Raad upheld terrorist intent in the arson judgment. Europol counted the attack as failed.,final_for_cited_defendant,NL-ENS
+ISM-J1,GB16-ISM,2021-12-21,appeal,confirmed,Judiciary summary records life sentence with minimum 22 years and appeal disposition.,later_status_unverified,GB-ISM
+COX-J1,GB16-COX,2016-11,sentencing,confirmed,Crown Court conviction and whole-life sentence for murder. Original Europol UK attack table covers NI-related entries only.,later_status_unverified,GB-COX
+BRU-J3,BE16-ZAV,2023-09-15,shared_trial_sentence,reported,Atar and two others received life sentences; the reported Atar verdict concerns 35 murder victims. The proceeding covers both sites.,reported_final_after_deadline,BE-SEN;BE-END
+BRU-R2,BE16-ZAV,2023-09-15,cell_direction,reported,Belga reports the jury found Atar led the cell and selected and instructed members. This is evidence of individual direction at cell level; no further command-chain finding is inferred.,reported_final_after_deadline,BE-SEN;BE-END

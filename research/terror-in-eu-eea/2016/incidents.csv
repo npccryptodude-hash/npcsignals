@@ -1,0 +1,24 @@
+incident_id,event_date,country_iso2,locality,category,outcome_cell,confidence,deaths,injuries,source_ids,qualification
+BE16-ZAV,2016-03-22,BE,Zaventem,jihadism,completed,adequate,11,,EU16;BE-PAR;BE-VER;BE-END,"p. 24; immediate airport deaths as stated, not final casualty allocation. Shared judicial case."
+BE16-MAE,2016-03-22,BE,Maelbeek,jihadism,completed,adequate,,,EU16;BE-PAR;BE-VER;BE-END,p. 24; separate statistical event; combined Brussels figures are in statistics.csv.
+BE16-CHA,2016-08-06,BE,Charleroi,jihadism,completed,adequate,0,2,EU16,p. 24; excludes deceased attacker.
+BE16-SCH,2016-10,BE,Schaerbeek,jihadism,completed,adequate,0,3,EU16,pp. 24–25; two officers attacked and another injured during arrest.
+FR16-MAG,2016-06-13,FR,Magnanville,jihadism,completed,adequate,2,,EU16,p. 22; grouped fatal attacks within one event.
+FR16-NIC,2016-07-14,FR,Nice,jihadism,completed,adequate,85,201,EU16;FR-NIC-CAS;FR-NIC-RES,p. 23 contemporaneous Europol figures; later national research reports 86 and 458.
+FR16-ROU,2016-07-26,FR,Saint-Étienne-du-Rouvray,jihadism,completed,adequate,1,1,EU16,pp. 22–23; excludes deceased perpetrators.
+FR16-ARG,2016-03,FR,Argenteuil,jihadism,foiled,adequate,,,EU16,p. 25; explicitly thwarted example; national submission unavailable.
+DE16-BER,2016-12-19,DE,Berlin Breitscheidplatz,jihadism,completed,adequate,12,56,EU16;DE-BT;DE-GBA;DE-MEM,p. 23 contemporary scope; later 13th death separately recorded.
+DE16-WUR,2016-07-18,DE,Würzburg area,jihadism,completed,adequate,0,5,EU16,"pp. 23–24 narrative, country and completed-event margins."
+DE16-ANS,2016-07-24,DE,Ansbach,jihadism,completed,adequate,0,12,EU16,p. 24 victim count excludes perpetrator; country and completed-event margins.
+DE16-HAN,2016-02-26,DE,Hanover,jihadism,unresolved_outcome,candidate,0,1,EU16;DE-HAN,p. 23 narrative; original fourth joint allocation not separately keyed. Separate domestic judgment.
+DE16-DUS,2016-06,DE,Düsseldorf plot,jihadism,unresolved_outcome,candidate,,,EU16,p. 25 foiled example; scope relative to fourth German slot unverified; alternative rather than extra allocation.
+NL16-ENS,2016-02,NL,Enschede,right_wing,failed,adequate,0,0,EU16;NL-ENS,p. 45 explicitly failed in Europol; Dutch Hoge Raad confirmed terrorist-purpose arson classification.
+GB16-ISM,2016-03-04,GB,Belfast,separatist,unresolved_outcome,adequate,1,,EU16;GB-ISM,p. 40 within the 76 and four; event date differs from date of death on 15 March.
+GB16-COX,2016-06-16,GB,Birstall,context_only,outside_original_attack_count,outside_scope,1,,EU16;GB-COX,p. 10 n. 3 includes death in casualty scope; UK attack row contains only NI-related entries.
+GR16-PRO,2016-10,GR,Athens,left_wing_anarchist,unresolved_outcome,adequate,,,EU16,pp. 42–43; Prosecutor residence; exact annex outcome unknown.
+GR16-MEX,2016-07,GR,Athens,left_wing_anarchist,unresolved_outcome,adequate,,,EU16,pp. 42–43; Mexican embassy; exact annex outcome unknown.
+GR16-FRA,2016-11,GR,Athens,left_wing_anarchist,unresolved_outcome,adequate,,,EU16,pp. 42–43; French embassy; exact annex outcome unknown.
+IT16-CIV,2016-01,IT,Civitavecchia,left_wing_anarchist,unresolved_outcome,adequate,,,EU16,pp. 42–43; Courthouse; exact annex outcome unknown.
+IT16-PAR,2016-06,IT,Parma,left_wing_anarchist,unresolved_outcome,adequate,,,EU16,pp. 42–43; European Food Safety Authority; exact annex outcome unknown.
+IT16-BIO,2016-06,IT,Italy,left_wing_anarchist,unresolved_outcome,adequate,,,EU16,pp. 42–43; Biotechnology company; exact annex outcome unknown.
+IT16-BOL,2016,IT,Bologna,left_wing_anarchist,unresolved_outcome,adequate,,,EU16,pp. 42–43; Carabinieri station; exact annex outcome unknown.

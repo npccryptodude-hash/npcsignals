@@ -1,0 +1,6 @@
+record_id,occurrence_year,incident_id,evidence_layer,numeric_revision,source_ids,qualification
+2016-LATER,2016,,later_official_series,none_verified,EU16;EU17,Later TE-SAT preserves headline 142 attacks and 1002 arrests. No keyed numeric amendment verified.
+2016-COX,2016,GB16-COX,original_scope_asymmetry,none_verified,EU16;GB-COX,Murder in victim context while UK attack annex includes only NI-related entries.
+2016-ENS,2016,NL16-ENS,legal_and_statistical_outcome,none_verified,EU16;NL-ENS,Terrorist-purpose arson confirmed in law. Europol outcome failed preserved.
+2016-BER,2016,DE16-BER,later_victim_count,none_verified,EU16;DE-MEM,Later victim count 13; original 12 kept without adjustment.
+2016-NIC,2016,FR16-NIC,later_victim_count,none_verified,EU16;FR-NIC-RES,Later victim counts preserved separately without substituting into original totals.
