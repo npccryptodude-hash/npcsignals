@@ -34,3 +34,5 @@ no medium publication is authorised by this research setup.
 [Phase 4 incident crosswalk and coverage of the 45 Europol slots](2025_INCIDENT_IDENTIFICATION_PHASE4.md), with [dated case and evidence gaps](2025_EVIDENCE_GAPS_PHASE4_2026-11-18.md).
 
 [Phase 5 incident crosswalk](2025_INCIDENT_IDENTIFICATION_PHASE5.md) and [primary-source recovery and remaining gaps](2025_EVIDENCE_GAPS_PHASE5_2026-11-18.md).
+
+[Phase 6 crosswalk and progress](2025_INCIDENT_IDENTIFICATION_PHASE6.md), [independent evidence audit](2025_INDEPENDENT_CROSSWALK_AUDIT_PHASE6.md), [Europol reporting methodology](2025_EUROPOL_REPORTING_METHOD.md) and [dated discrepancy register](2025_EVIDENCE_GAPS_PHASE6_2026-11-18.md).
