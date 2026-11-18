@@ -1,5 +1,6 @@
 """Rebuild and verify English SVG copies without changing geometry or numeric labels."""
 import argparse
+import csv
 import json
 import re
 from pathlib import Path
@@ -44,8 +45,23 @@ def main():
         else:
             destination.write_text(expected, encoding="utf-8")
         print(f"PASS: {name}")
+    lead = (TARGET / "01_2019_2020_geography.svg").read_text(encoding="utf-8")
+    with (ROOT.parent / "data" / "phase22_annual_analysis.csv").open(
+        encoding="utf-8", newline=""
+    ) as stream:
+        annual = {row["reference_year"]: row for row in csv.DictReader(stream)}
+    year_2019, year_2020 = annual["2019"], annual["2020"]
+    assert int(year_2019["original_attacks"]) - int(year_2019["included_uk_attacks"]) == int(year_2019["fixed_eu27_attacks"])
+    assert int(year_2019["original_attacks"]) == 119
+    assert int(year_2019["fixed_eu27_attacks"]) == 55
+    assert int(year_2020["fixed_eu27_attacks"]) == 57
+    assert int(year_2020["later_official_attack_revision"]) == 56
+    for value in ("119", "55", "57", "56"):
+        if not re.search(rf">{value}</text>", lead):
+            raise SystemExit(f"FAIL: geographic figure missing value {value}")
+    print("PASS: lead figure values match versioned annual dataset")
     if args.check:
-        print("PASS: all English SVGs reproduce byte-for-byte from originals and translation manifest")
+        print("PASS: all six English SVGs reproduce byte-for-byte from originals and translation manifest")
 
 if __name__ == "__main__":
     main()
