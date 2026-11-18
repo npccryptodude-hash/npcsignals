@@ -13,6 +13,8 @@ Internal assessment. The reports may describe the official returns, their geogra
 | Financial-support findings | Not supportable from available sources as a general series | Case-specific court or official dispositions, such as the Danish agency's report of an appeal finding, have their own evidence status. Missing findings do not demonstrate no financial support. |
 | Thirty-one-country coverage claim | Not supportable from available sources as a census | The research grid covers 31 countries. National event coverage is partial, and the UK and EFTA data cannot be pooled into an equivalent EU series. |
 
+See [Phase 19 remediation](PHASE_19_REMEDIATION.md#publication-assessment-and-phase-20) for the subsequent assessment and prioritised evidence targets.
+
 ## Limitations and priorities
 
 1. Retain reproducible report references for all graphics. Recover publisher copies of the three mirror-based editions if possible and record any meaningful text or layout changes. Request no external contact under the current scope. Verify 2025's arrest-age denominator only against independent public documentation.

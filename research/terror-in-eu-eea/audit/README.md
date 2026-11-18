@@ -5,7 +5,8 @@
 - [Recalculated statistical series](recalculated.csv) and [validation script](recalculate.py)
 - [Source integrity and legal evidence](EVIDENCE.md)
 - [Report retrieval ledger](source_integrity.csv) and [2025 arrest rows](arrests_2025.csv)
-- [Discrepancies and corrections](DISCREPANCIES.md)
+- [Phase 18 discrepancies and corrections](DISCREPANCIES.md)
+- [Phase 19 evidence remediation and current discrepancy status](PHASE_19_REMEDIATION.md)
 - [Publication decisions and remediation](PUBLICATION_READINESS.md)
 
 ## Statistical controls

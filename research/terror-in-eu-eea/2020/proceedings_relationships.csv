@@ -11,3 +11,4 @@ CON-J1,FR20-CON,2026-03-02,appeal_judgments,reported,Four defendants received si
 NIC-J1,FR20-NIC,2025,trial_and_scheduled_appeal,reported,"First-instance life sentence; appeal reported scheduled for December 2026, outside cutoff.",not_final_at_report,FR-NIC
 REA-J1,GB20-REA,2021-01-11,sentencing,confirmed,Court sentencing remarks for Reading murders and attempted murders; UK context.,appeal_status_unverified,GB-REA
 WAL-J2,DE20-WAL,2021-07-23,trial_judgment,reported,Official Hamburg report records a Munich OLG sentence of nine years six months and psychiatric placement. Court treated ideology and illness as contributing factors.,further_appeal_unverified,DE-WAL-J
+A100-J3,DE20-A100,2023-02-16,revision_dismissal,confirmed,4 StR 329/22; BGH dismissed the revision and confirmed finality of the 31 January 2022 lower court judgment.,final,DE-BER-BGH;DE-BER-BGH-DISP

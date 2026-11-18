@@ -1,6 +1,6 @@
 # Discrepancy and correction register — 18 November 2026
 
-All locators are printed page numbers. [Report URLs and retrieval checks](source_integrity.csv) identify the full PDFs consulted.
+This is the Phase 18 snapshot. See [Phase 19 remediation](PHASE_19_REMEDIATION.md) for subsequent findings and the updated register. All locators are printed page numbers. [Report URLs and retrieval checks](source_integrity.csv) identify the full PDFs consulted.
 
 | Issue | Status | Evidence and statistical disposition |
 |---|---|---|
