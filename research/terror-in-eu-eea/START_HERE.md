@@ -16,6 +16,7 @@ start with an all-category overview, then investigate jihadist terrorism in grea
 - [method and definitions](METHODOLOGY.md)
 - [data model](DATA_MODEL.md)
 - [source register](SOURCES.md)
+- [independent 2015–2025 audit](audit/README.md)
 
 ## status and limitations
 

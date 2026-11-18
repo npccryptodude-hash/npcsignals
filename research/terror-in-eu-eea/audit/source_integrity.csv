@@ -1,0 +1,12 @@
+reference_year,edition,source_id,source_type,source_url,statistical_printed_pages,bytes,sha256
+2015,TE-SAT 2016,EU15,publisher_original,https://www.europol.europa.eu/cms/sites/default/files/documents/europol_tesat_2016.pdf,44–45,4038824,45ebdbaac89072e05c581d441210bf42fa36e470100a3799455b3cf428d40fa5
+2016,TE-SAT 2017,EU16,publisher_original,https://www.europol.europa.eu/cms/sites/default/files/documents/tesat2017_0.pdf,49–50,8443234,9d80e60737827de952579c926c3a0b7c742fb1467d5e6f24840557bb5c049371
+2017,TE-SAT 2018,EU17,publisher_original,https://www.europol.europa.eu/cms/sites/default/files/documents/tesat_2018_1.pdf,54–56,12460097,357440e6e1b27503b281e3dcfa7969ffe2e1e4962b7c852ea6843127f21748a5
+2018,TE-SAT 2019,EU18,publisher_original,https://www.europol.europa.eu/cms/sites/default/files/documents/tesat_2019_final.pdf,68–69,11874700,e233dd615a6d97ace37802e2372f4fbc5a43cf68368b11530b117e2158bcf0d2
+2019,TE-SAT 2020,EU19,publisher_original,https://www.europol.europa.eu/cms/sites/default/files/documents/european_union_terrorism_situation_and_trend_report_te-sat_2020_0.pdf,84–85,12990105,17838807f9af5ccddc82cc2d53a792f6fc63370bca4192a46ca3347f292dd5ba
+2020,TE-SAT 2021,EU20,publisher_original,https://www.europol.europa.eu/cms/sites/default/files/documents/tesat_2021_0.pdf,99–100,11189122,ac5011b7733de4df27fba02acf3b578704899aaa7f9eba7136ddd1e5133defb5
+2021,TE-SAT 2022,EU21,publisher_original,https://www.europol.europa.eu/cms/sites/default/files/documents/Tesat_Report_2022_0.pdf,82–83,2995209,c8eca87e7d7d65a4097132948eb0ac577cb45328a639fbd160c0b415da5dbc00
+2022,TE-SAT 2023,EU22,government_hosted_copy,https://tpcoe.gov.pl/download/11/636/EuropeanUnionTerrorismSituationandTrendreport2023.pdf,79–80,3927023,fde4aed6e1634fbf1b5aa52220d4a2515f4b3f2a67a5c75ee97484d9152807ba
+2023,TE-SAT 2024,EU23,third_party_reproduction,https://www.pvtweb.de/fileadmin/user_upload-/Dateien_zum_Download/TE-SAT_2024.pdf,61–62,1339026,74d16889635d8eafc0143351abd26929c434d6ee70e2476db3901c157c0a5fa7
+2024,TE-SAT 2025,EU24,government_hosted_copy,https://tpcoe.gov.pl/download/10/4691/EUTE-SAT2025.pdf,62–63,1524157,0a18061235353efda54b433510f4ff20a19fca4b8933b00578f4d6f3045ef3f6
+2025,TE-SAT 2026,eu-full,publisher_original,https://www.europol.europa.eu/cms/sites/default/files/documents/EU-TE-SAT-2026.pdf,19–22; 47–49,4330605,fe067558ae4b7670284d0f30afe6b1decb8b3ee7f36bf4d472a0d3cf599113a2
