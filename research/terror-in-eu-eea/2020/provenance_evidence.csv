@@ -1,0 +1,2 @@
+adjustment_id,occurrence_year,original_edition,later_edition,change,candidate_event_id,candidate_status,duplicate_status,source_ids
+DE20-JIH-REMOVE,2020,TE-SAT 2021,TE-SAT 2023,-1,DE20-A100,strongest_candidate_no_direct_revision_key,no_duplicate_finding,EU20;EU21;EU22;DE-BER;DE-BER-INIT;DE-BFV;DE-CTC

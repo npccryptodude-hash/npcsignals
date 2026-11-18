@@ -46,3 +46,5 @@ no medium publication is authorised by this research setup.
 [2022 statistical baseline](2022/BASELINE.md) · [cross-year reporting audit](2022/CROSS_YEAR_REPORTING_AUDIT.md) · [2022–2025 comparability](2022/COMPARABILITY_2022_2025.md) · [2022 evidence gaps](2022/PROGRESS.md).
 
 [2021 statistical baseline](2021/BASELINE.md) · [retrospective reporting reconciliation](2021/REPORTING_RECONCILIATION.md) · [2021–2025 comparison](2021/COMPARABILITY_2021_2025.md) · [2021 evidence gaps](2021/PROGRESS.md).
+
+[2020 statistical baseline](2020/BASELINE.md) · [German judicial reclassification audit](2020/RECLASSIFICATION_AUDIT.md) · [2020–2025 comparison](2020/COMPARABILITY_2020_2025.md) · [2020 evidence gaps](2020/PROGRESS.md).
