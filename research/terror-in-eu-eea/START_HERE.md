@@ -32,3 +32,5 @@ no medium publication is authorised by this research setup.
 [2025 comparative report, 31-country coverage and next priorities](2025_EUROPE_COMPARATIVE_REPORT.md).
 
 [Phase 4 incident crosswalk and coverage of the 45 Europol slots](2025_INCIDENT_IDENTIFICATION_PHASE4.md), with [dated case and evidence gaps](2025_EVIDENCE_GAPS_PHASE4_2026-11-18.md).
+
+[Phase 5 incident crosswalk](2025_INCIDENT_IDENTIFICATION_PHASE5.md) and [primary-source recovery and remaining gaps](2025_EVIDENCE_GAPS_PHASE5_2026-11-18.md).
