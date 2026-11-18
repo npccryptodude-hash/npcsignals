@@ -1,0 +1,4 @@
+cohort_id,occurrence_year,reporting_reference_year,publication_year,source_edition,submission_year,country_iso2,category,outcome,published_cohort_count,event_ids,first_edition_inclusion_status,duplicate_risk_status,source_ids
+FR-COR-2021-RETRO,2021,2023,2024,TE-SAT 2024,2024,FR,separatist,completed,4,,explicitly_absent_in_TE-SAT_2022,no_duplicate_verified_event_level_unauditable,EU21;EU23;EU25
+FR-COR-2022-RETRO,2022,2023,2024,TE-SAT 2024,2024,FR,separatist,completed,22,,explicitly_absent_in_TE-SAT_2023,no_duplicate_verified_event_level_unauditable,EU22;EU23;EU25
+FR-COR-2023-COHORT,2023,2023,2024,TE-SAT 2024,,FR,separatist,completed,44,,included_in_TE-SAT_2024,no_duplicate_verified_event_level_unauditable,EU23;EU25

@@ -20,3 +20,11 @@ each factual record requires at least one source_id. never collapse multiple nat
 ## initial data state
 
 no incident-level dataset populated. source register provides the first ingestion queue. the 2025 europol eu totals are not imported as eu/eea totals.
+
+## Historical event and reporting dates
+
+The occurrence year belongs to the physical event. A disruption date may anchor a foiled entry, with the date basis recorded. Investigation and judicial decision years belong to dated procedural records and can differ from one another and from the occurrence year.
+
+For each official statistic, preserve the reporting reference year, edition identifier and publication year. Record actual submission year separately when evidenced. A retrospective entry can have an occurrence year earlier than the reporting reference year, and revised editions can share the same publication year. Record the edition version with the source.
+
+The [cross-year cohort register](2022/cross_year_events.csv) links these dimensions and preserves an unresolved event list as an empty field. Cohort IDs identify aggregate rows only. Join to stable physical event IDs only when both the incident and allocation can be supported. Track inclusion evidence and duplicate risk separately. Original edition totals stay fixed. Any occurrence-date reassignment belongs in a labelled analytical series.

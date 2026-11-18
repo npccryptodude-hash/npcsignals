@@ -1,0 +1,15 @@
+cell_id,country_iso2,category,outcome,total,adequate,candidate,unidentified,incident_ids,source_id
+BE-jihadism-completed,BE,jihadism,completed,1,0,1,0,BE22-SCH,EU22
+BE-jihadism-foiled,BE,jihadism,foiled,1,1,0,0,BE22-OOS,EU22
+BE-left_wing_anarchist-completed,BE,left_wing_anarchist,completed,1,0,0,1,,EU22
+FR-jihadism-completed,FR,jihadism,completed,1,0,1,0,FR22-ARL,EU22
+FR-jihadism-foiled,FR,jihadism,foiled,3,3,0,0,FR22-CHA;FR22-VAL;FR22-STR,EU22
+FR-right_wing-foiled,FR,right_wing,foiled,2,2,0,0,FR22-BOU;FR22-BOZ,EU22
+DE-right_wing-foiled,DE,right_wing,foiled,1,1,0,0,DE22-ESS,EU22
+GR-left_wing_anarchist-completed,GR,left_wing_anarchist,completed,3,1,0,2,GR22-MAR,EU22
+GR-left_wing_anarchist-foiled,GR,left_wing_anarchist,foiled,1,0,0,1,,EU22
+IT-left_wing_anarchist-completed,IT,left_wing_anarchist,completed,8,1,1,6,IT22-TRA;IT22-CAR,EU22
+IT-left_wing_anarchist-failed,IT,left_wing_anarchist,failed,3,0,0,3,,EU22
+IT-left_wing_anarchist-foiled,IT,left_wing_anarchist,foiled,1,1,0,0,IT22-ROM,EU22
+SK-right_wing-completed,SK,right_wing,completed,1,1,0,0,SK22-BRA,EU22
+ES-left_wing_anarchist-completed,ES,left_wing_anarchist,completed,1,1,0,0,ES22-MAD,EU22

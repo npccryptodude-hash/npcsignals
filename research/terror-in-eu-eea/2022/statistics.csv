@@ -1,0 +1,14 @@
+metric_id,geography,measure,value,source_id,locator
+EU-ALL-DEAD,EU27,attack_victim_deaths,4,EU22-EXEC,p. 2
+EU-J-DEAD,EU27,jihadist_victim_deaths,2,EU22,pp. 9 and 24
+EU-R-DEAD,EU27,right_wing_victim_deaths,2,EU22,p. 44
+EU-R-INJ,EU27,right_wing_victim_injured,1,EU22,p. 44; p. 9 uses ambiguous two casualties
+EU-L-INJ,EU27,left_wing_victim_injured,1,EU22,pp. 9 and 60
+EU-J-INJ,EU27,jihadist_injury_aggregate_unverified,,EU22,p. 24 does not supply aggregate
+EU-ALL-INJ,EU27,all_ideology_injury_aggregate_unverified,,EU22,"pp. 9, 24, 44 and 60 describe scoped counts"
+NI-DEAD,GB-NIR,security_related_deaths,1,GB-NI,Key statistics; calendar 2022
+NI-BOMB,GB-NIR,bombing_incidents,5,GB-NI,Key statistics; calendar 2022
+NI-SHOOT,GB-NIR,shooting_incidents,29,GB-NI,Key statistics; calendar 2022
+NI-ARR,GB-NIR,security_related_Section_41_arrests,110,GB-NI,Key statistics; calendar 2022
+NI-CHG,GB-NIR,persons_subsequently_charged,13,GB-NI,Key statistics; calendar 2022
+LI-OFF,LI,national_police_statutory_terrorism_cases,3,LI-EXT,§ 3.3; no outcome crosswalk

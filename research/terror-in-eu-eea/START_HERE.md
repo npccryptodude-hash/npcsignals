@@ -42,3 +42,5 @@ no medium publication is authorised by this research setup.
 [2024 statistical baseline and comparability](2024/BASELINE.md) · [2024 progress and evidence gaps](2024/PROGRESS.md). The provisional 2025 evidence baseline is preserved at commit 9a255e4.
 
 [2023 statistical baseline](2023/BASELINE.md) · [2023–2025 comparability](2023/COMPARABILITY_2023_2025.md) · [2023 progress and evidence gaps](2023/PROGRESS.md).
+
+[2022 statistical baseline](2022/BASELINE.md) · [cross-year reporting audit](2022/CROSS_YEAR_REPORTING_AUDIT.md) · [2022–2025 comparability](2022/COMPARABILITY_2022_2025.md) · [2022 evidence gaps](2022/PROGRESS.md).

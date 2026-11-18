@@ -1,0 +1,19 @@
+incident_id,event_date,country_iso2,locality,category,outcome_cell,confidence,deaths,injuries,source_ids,qualification
+BE22-SCH,2022-11-10,BE,Schaarbeek,jihadism,completed,candidate,1,1,EU22;BE-SCH,Single Belgian completed jihadist cell matches date scope and death count; no explicit submission cross-reference.
+FR22-ARL,2022-03-02,FR,Arles,jihadism,completed,candidate,1,,EU22;FR-ARL;FR-AN,Single French completed jihadist cell is compatible; referral for trial is not an incident-level Europol confirmation. Death on 21 March.
+FR22-CHA,2022-03-16,FR,Challans,jihadism,foiled,adequate,,,EU22,p. 26; arrest date is the documented disruption date.
+FR22-VAL,2022-05-28,FR,Valence,jihadism,foiled,adequate,,,EU22,p. 26; arrest date is the documented disruption date.
+FR22-STR,2022-11-15,FR,Strasbourg,jihadism,foiled,adequate,,,EU22,p. 26; arrest date is the documented disruption date.
+BE22-OOS,2022-08-23,BE,Oostende,jihadism,foiled,adequate,,,EU22,p. 26; arrest date is the documented disruption date.
+DE22-ESS,2022-05-12,DE,Essen,right_wing,foiled,adequate,,,EU22;DE-BGH;DE-FIN,p. 44; arrest date verified against Bundesgerichtshof.
+FR22-BOU,2022-05,FR,Bourg-Saint-Andéol,right_wing,foiled,adequate,,,EU22,p. 44; month of arrest.
+FR22-BOZ,2022-09,FR,Bouzonville,right_wing,foiled,adequate,,,EU22,p. 45; month of arrest.
+SK22-BRA,2022-10-12,SK,Bratislava,right_wing,completed,adequate,2,1,EU22;SK-PRO,p. 44 and national prosecutor annual report; excludes perpetrator death.
+GR22-MAR,2022-07-07,GR,Marousi,left_wing_anarchist,completed,adequate,,,EU22,p. 57 explicitly describes occurrence in category discussion; claimed responsibility is unadjudicated.
+IT22-TRA,2022-11-05,IT,Trambileno,left_wing_anarchist,completed,adequate,,,EU22,p. 57; claimed act and stated solidarity are distinct from proven attribution.
+IT22-CAR,2022-11-26,IT,Carasco,left_wing_anarchist,completed,candidate,,,EU22,pp. 57–58; narrative reports arson in campaign context without expressly assigning an annex row.
+IT22-ROM,2022-06-27,IT,Rome,left_wing_anarchist,foiled,adequate,,,EU22,p. 59 explicitly identifies foiled attack; responsibility claim recorded separately.
+ES22-MAD,2022-11-30,ES,Madrid and related locations,left_wing_anarchist,completed,adequate,0,1,EU22;ES-TR;ES-AP,pp. 59–60; one statistical slot for broader series. Europol and national judicial classification are separate fields of evidence.
+NO22-OSL,2022-06-25,NO,Oslo,national,outside_scope,outside_scope,2,,NO-OSL;NO-APP,National court case; outside EU crosswalk.
+IS22-INV,2022-09,IS,Iceland,national,outside_scope,outside_scope,,,IS-PRO,Investigation reference month; terrorism counts acquitted; no EU slot.
+GB22-DOV,2022-10-30,GB,Dover,national,outside_scope,outside_scope,,,GB-DOV,Police attributed the attack to terrorist ideology; no EU slot.

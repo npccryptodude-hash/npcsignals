@@ -1,0 +1,15 @@
+country_iso2,category,outcome,total,source_id,locator
+BE,jihadism,completed,1,EU22,p. 79
+BE,jihadism,foiled,1,EU22,p. 79
+BE,left_wing_anarchist,completed,1,EU22,p. 79
+FR,jihadism,completed,1,EU22,p. 79
+FR,jihadism,foiled,3,EU22,p. 79
+FR,right_wing,foiled,2,EU22,p. 79
+DE,right_wing,foiled,1,EU22,p. 79
+GR,left_wing_anarchist,completed,3,EU22,p. 79
+GR,left_wing_anarchist,foiled,1,EU22,p. 79
+IT,left_wing_anarchist,completed,8,EU22,p. 79
+IT,left_wing_anarchist,failed,3,EU22,p. 79
+IT,left_wing_anarchist,foiled,1,EU22,p. 79
+SK,right_wing,completed,1,EU22,p. 79
+ES,left_wing_anarchist,completed,1,EU22,p. 79
