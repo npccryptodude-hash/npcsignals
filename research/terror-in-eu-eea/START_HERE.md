@@ -18,6 +18,7 @@ start with an all-category overview, then investigate jihadist terrorism in grea
 - [source register](SOURCES.md)
 - [independent 2015–2025 audit](audit/README.md)
 - [controlled historical analysis and analytical dataset](audit/PHASE_22_HISTORICAL_ANALYSIS.md)
+- [internal editorial draft and figures](audit/phase23/REPORT.md)
 
 ## status and limitations
 

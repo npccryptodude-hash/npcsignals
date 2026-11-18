@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="350" viewBox="0 0 880 350" role="img" aria-labelledby="title description">
+<title id="title">institusjonelle tellinger, 2025</title>
+<desc id="description">Fem rader viser særskilte institusjonelle enheter i Tyskland og Frankrike.</desc>
+<metadata>NPCsignals internal review. Source commit d1f675eb785db712655c6952e43f3a57dd31f66c.</metadata>
+<g font-family="sans-serif">
+<rect x="0.00" y="0.00" width="880.00" height="350.00" fill="#ffffff"/>
+<text x="30" y="39" font-size="24" text-anchor="start" fill="#162436" font-weight="bold">institusjonelle tellinger, 2025</text>
+<rect x="30.00" y="81.00" width="820.00" height="30.00" fill="#eef3f7"/>
+<text x="45" y="103" font-size="14" text-anchor="start" fill="#162436" font-weight="bold">DE</text>
+<text x="100" y="103" font-size="14" text-anchor="start" fill="#162436">NRW</text>
+<text x="280" y="103" font-size="16" text-anchor="start" fill="#162436" font-weight="bold">5</text>
+<text x="325" y="103" font-size="14" text-anchor="start" fill="#162436">jihadistisk motiverte angrep i hele tyskland</text>
+<rect x="30.00" y="115.00" width="820.00" height="30.00" fill="#ffffff"/>
+<text x="45" y="137" font-size="14" text-anchor="start" fill="#162436" font-weight="bold">DE</text>
+<text x="100" y="137" font-size="14" text-anchor="start" fill="#162436">Bundesregierung</text>
+<text x="280" y="137" font-size="16" text-anchor="start" fill="#162436" font-weight="bold">4</text>
+<text x="325" y="137" font-size="14" text-anchor="start" fill="#162436">navngitte steder i føderalt svar</text>
+<rect x="30.00" y="149.00" width="820.00" height="30.00" fill="#eef3f7"/>
+<text x="45" y="171" font-size="14" text-anchor="start" fill="#162436" font-weight="bold">DE</text>
+<text x="100" y="171" font-size="14" text-anchor="start" fill="#162436">Europol</text>
+<text x="280" y="171" font-size="16" text-anchor="start" fill="#162436" font-weight="bold">4</text>
+<text x="325" y="171" font-size="14" text-anchor="start" fill="#162436">fullførte jihadistiske europolposter</text>
+<rect x="30.00" y="183.00" width="820.00" height="30.00" fill="#ffffff"/>
+<text x="45" y="205" font-size="14" text-anchor="start" fill="#162436" font-weight="bold">FR</text>
+<text x="100" y="205" font-size="14" text-anchor="start" fill="#162436">PNAT</text>
+<text x="280" y="205" font-size="16" text-anchor="start" fill="#162436" font-weight="bold">3</text>
+<text x="325" y="205" font-size="14" text-anchor="start" fill="#162436">fullførte jihadistisk inspirerte angrep</text>
+<rect x="30.00" y="217.00" width="820.00" height="30.00" fill="#eef3f7"/>
+<text x="45" y="239" font-size="14" text-anchor="start" fill="#162436" font-weight="bold">FR</text>
+<text x="100" y="239" font-size="14" text-anchor="start" fill="#162436">Europol</text>
+<text x="280" y="239" font-size="16" text-anchor="start" fill="#162436" font-weight="bold">2</text>
+<text x="325" y="239" font-size="14" text-anchor="start" fill="#162436">fullførte jihadistiske europolposter</text>
+<text x="30" y="293" font-size="13" text-anchor="start" fill="#162436">kildene oppgir ulike telleenheter; de publiserte radene har ingen felles hendelsesnøkkel.</text>
+<text x="30" y="334" font-size="11" text-anchor="start" fill="#162436">npcsignals · internt utkast · kildegrunnlag d1f675e</text>
+</g>
+</svg>

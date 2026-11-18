@@ -35,3 +35,4 @@ See [Phase 19 remediation](PHASE_19_REMEDIATION.md#publication-assessment-and-ph
 | Unsupported by current data | A comprehensive 31-country incident census, trend in physical attack incidence, harmonised long-run ideological risk, pooled injury trend, unique-person estimates, same-year conviction-to-arrest rates and cross-case command or financing trends. |
 
 See the [historical analysis](PHASE_22_HISTORICAL_ANALYSIS.md) and [visualisation specification](PHASE_22_VISUALISATION_SPEC.md). These classifications concern evidence quality and scope. Release remains subject to approval.
+See the [Phase 23 pre-publication gate](phase23/GATE.md) for item-level editorial review and release requirements.
