@@ -26,3 +26,5 @@ no medium publication is authorised by this research setup.
 ## 2025 incident verification update — 2026-11-18
 
 [Reconciliation, release status and exact gaps](2025_INCIDENT_RECONCILIATION.md) supersedes the earlier provisional mapping wherever it documents new evidence. The structured incident, source, casualty, relationship and judicial extracts are under [data](data/).
+
+[Further verification and consolidated evidence gaps, 18 November 2026](2025_EVIDENCE_FOLLOW_UP_2026-11-18.md).

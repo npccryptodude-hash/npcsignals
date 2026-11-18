@@ -23,3 +23,7 @@ Court conviction includes terrorist association / criminal organisation and reco
 ## Original Europol — 2026-11-18
 
 [TE-SAT 2026 p. 30](https://www.europol.europa.eu/cms/sites/default/files/documents/EU-TE-SAT-2026.pdf#page=30) describes the unique 15 February Austrian incident, a pledge of allegiance and self-radicalisation online without guidance from others. The official court announcement and ORF's attributed finality confirmation remain distinct sources.
+
+## Finality provenance clarification — reviewed 2026-11-18
+
+The court's own 27 May notice confirms the judgment and the defendant's waiver, and expressly describes the judgment as non-final at that point. The 2 June finality confirmation comes from the court spokesperson as quoted by ORF. No later original court certificate or notice confirming finality was located. The archived status remains final with attributed secondary provenance.

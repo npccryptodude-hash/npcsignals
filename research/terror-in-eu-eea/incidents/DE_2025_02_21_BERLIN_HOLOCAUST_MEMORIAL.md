@@ -49,3 +49,7 @@ The March 2026 court finding that an IS member guided the attacker over months i
 ## Primary 2025 chronology — checked 2026-11-18
 
 The [federal prosecutor's 24 February 2025 takeover notice](https://www.presseportal.de/blaulicht/pm/14981/5977993) alleges attempted murder and records life-threatening injury to the victim. The [29 July announcement](https://www.presseportal.de/blaulicht/pm/14981/6086202) dates the indictment to 18 July. The exact revision filing date is unverified here. The 17 March 2026 press report date should be retained separately from the date of filing. No later BGH outcome or adjudication of the separate assistance allegation surfaced in this pass.
+
+## Relationship evidence clarification — 2026-11-18
+
+Kammergericht release 12/2026 describes a guided attack, months of contact and preparation by an IS member, and a written pledge in the defendant's possession when detained. The published notice does not establish acceptance as a member, the full chain of command, or payments. The separate defendant's alleged encouragement remains at indictment stage in the public record reviewed.

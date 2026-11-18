@@ -11,3 +11,7 @@ El País reported on 25 February 2026 that Audiencia Nacional's criminal chamber
 - [Europol, full TE-SAT](https://www.europol.europa.eu/cms/sites/default/files/documents/EU-TE-SAT-2026.pdf#page=19)
 - [OIET, Figure 9](https://observatorioterrorismo.com/eedyckaz/2026/03/ES-ANUARIO2025.pdf)
 - [El País, reporting from the 16 January order](https://elpais.com/espana/2026-02-25/el-acuchillador-de-vallecas-acusado-de-yihadismo-el-profeta-me-ha-hablado-y-me-ha-dicho-que-hoy-es-el-dia-del-juicio-final.html)
+
+## Detention chronology — reviewed 2026-11-18
+
+[Tribuna Madrid/EFE, 7 December 2025](https://www.tribunamadrid.com/noticias/426900/prision-para-el-presunto-yihadista-de-vallecas-por-cuatro-intentos-de-asesinato-terrorista) reports the investigating judge ordered provisional detention at the prosecution's request, before the reported January review. December is the report date, pending the original order. Four suspected attempted killings are a procedural allegation and do not set the victim-injury count.

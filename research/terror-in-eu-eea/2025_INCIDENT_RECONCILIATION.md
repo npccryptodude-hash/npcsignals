@@ -29,3 +29,9 @@ Ready for internal review: original EU aggregates and three identifiable Europol
 3. Obtain Irish Special Criminal Court sentencing orders, charge-level sentences and appeal record. Retrieve the Vallecas detention order, any merits indictment, subsequent status and outcome. Check Lyon's transfer and formal suspect status, Apt's judicial investigation status and the latest Mulhouse proceedings.
 4. Obtain primary casualty definitions and observation dates for Munich, and close remaining event counts without imputing the EU residual.
 5. Check available court findings on case-specific assistance, finance, tasking and command. Preserve unknowns where documents are unavailable. Independent source and editorial review remain pending. The broader 31-country, multi-ideology 2025 incident census remains outside this priority package.
+
+## Follow-up — 2026-11-18
+
+The [DNRT transcript and reporting chronology](FRANCE_2025_PNAT_VS_EUROPOL_DISCREPANCY.md) provide a French match lead independent of casualty arithmetic. The earliest French two-incident count found names Mulhouse and describes a southern incident consistent with Apt. It is an October 2025 snapshot and supplies no Europol crosswalk. Lyon remains in the national records.
+
+The [dated follow-up and consolidated evidence gaps](2025_EVIDENCE_FOLLOW_UP_2026-11-18.md) records the check of Essen, judicial progress, relationship review and additional casualty observations.

@@ -46,3 +46,7 @@ WDR's direct court reporting confirms the life sentence, four attempted murders,
 ## Original Europol — 2026-11-18
 
 [TE-SAT 2026 p. 27](https://www.europol.europa.eu/cms/sites/default/files/documents/EU-TE-SAT-2026.pdf#page=27) explicitly names Bielefeld and four critically injured victims. It describes past IS membership and a continuing connection after arrival in Germany. The public passage does not specify the basis or nature of that ongoing connection. The indictment offers evidence of alleged membership and ideological allegiance. Neither public record establishes tasking for the incident. No subsequent appeal resolution was located in this pass.
+
+## Arrest and casualty observations — reviewed 2026-11-18
+
+The [joint police and prosecutor update of 20 May](https://www.presseportal.de/blaulicht/pm/12522/6038611) confirms arrest on the evening of 19 May and communication of the detention warrant on 20 May. The [12:39 update](https://www.presseportal.de/blaulicht/pm/12522/6036567) and [17:48 update](https://www.presseportal.de/blaulicht/pm/12522/6036625) on 18 May each gave at least five injured. The serious-injury subtotal changed from three to four, with one described as in life-threatening condition at 17:48. This qualifies the earlier headline of four injured. Europol p. 27 counts four critically injured and the prosecution charged four attempted murders. The fifth person's status in the Europol aggregate remains unknown.

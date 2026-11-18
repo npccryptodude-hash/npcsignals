@@ -20,3 +20,9 @@ c-es-02,ES_2025_11_22_VALLECAS,persons_attacked,3,Street victims described by Fi
 c-d-01,IE_2025_07_DUBLIN_KHAN,injured,1,Garda physically injured in stabbing,incident day,court_reporting,reported,ie-d3
 c-b-01,DE_2025_02_21_BERLIN_HOLOCAUST_MEMORIAL,injured,1,victim in court account,incident day,first_instance,confirmed,de-b1
 c-e-01,DE_2025_09_05_ESSEN,life_threatening_stabbing_injuries,2,Two stabbing victims; separate bodily harm against caretaker by fist,incident day,first_instance_reporting,confirmed,de-e2
+c-m-10,DE_2025_02_13_MUNICH,injured,44,Nonfatal injured persons in the factual account; separate from attempted-murder count,prosecution account as at 26 August 2025,indictment_account,confirmed,de-m7
+c-bi-02,DE_2025_05_18_BIELEFELD,injured,5,At least five persons,incident day 12:39 update,preliminary,confirmed,de-bi5
+c-bi-03,DE_2025_05_18_BIELEFELD,seriously_injured,3,Subset of at least five,incident day 12:39 update,preliminary,confirmed,de-bi5
+c-bi-04,DE_2025_05_18_BIELEFELD,injured,5,At least five persons,incident day 17:48 update,preliminary,confirmed,de-bi6
+c-bi-05,DE_2025_05_18_BIELEFELD,seriously_injured,4,Subset of at least five; one in life-threatening condition,incident day 17:48 update,preliminary,confirmed,de-bi6
+c-fm-03,FR_2025_02_22_MULHOUSE,seriously_injured,3,DNRT director's severity subtotal; cutoff unspecified,reported to parliament 16 October 2025,official_testimony,confirmed,fr-dnrt
