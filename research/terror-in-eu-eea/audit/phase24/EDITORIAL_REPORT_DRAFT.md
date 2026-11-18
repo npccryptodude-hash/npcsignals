@@ -14,7 +14,7 @@ men de to tallene dekker ikke samme geografi. 2019-utgaven inkluderer storbritan
 
 dette beviser ikke at terrortrusselen var uendret. det viser at den opprinnelige sammenligningen blander to geografiske områder. også etter justeringen kan nasjonale rapporterings- og klassifiseringspraksiser være forskjellige.
 
-**figur 01:** [eu28 og fast eu27](../phase23/figures/01_geography.svg). behold bildeteksten som forklarer at storbritannia er trukket fra, at nasjonal rapporteringspraksis ikke er harmonisert, og at en separat 2015-figurobservasjon på 193 fortsatt er uavklart.
+**hovedillustrasjon 01:** [geografisammenligning 2015–2019](../phase23/figures/01_geography.svg) **sammen med** [eu27-serien 2015–2025](../phase23/figures/02_eu27_series.svg), der 2020-verdien 57 vises. figur 01 alene slutter i 2019 og kan ikke illustrere hele 2019–2020-sammenligningen. i en senere publisering kan en egen sammenstillingsfigur vise 2019 original 119, 2019 fast eu27 55 og 2020 eu27 57, eventuelt den senere offisielle verdien 56 som separat markør. den er foreløpig ikke produsert. behold forbehold om ulike rapporteringspraksiser og den uavklarte 2015-figurobservasjonen 193.
 
 ## når rapporteringsåret ikke er hendelsesåret
 
@@ -24,7 +24,7 @@ npcsignals har derfor beholdt to ulike framstillinger. den ene gjengir de opprin
 
 det er en illustrasjon av hvor mye en årsvis sammenligning kan påvirkes av rapporteringskohorten. det er **ikke** en ny offisiell hendelsesårstelling. individuelle koblinger og mulig overlapp er ikke tilstrekkelig avklart. vi kan derfor ikke bruke scenariet til å fastslå hvor mange fysiske terrorhendelser som faktisk fant sted hvert år.
 
-**figur 03:** [revisjoner og følsomhet](../phase23/figures/03_revisions.svg). offisielle revisjoner skal vises som egne markører, adskilt fra det betingede scenariet. manglende revisjonstall må ikke tegnes som null.
+**hovedillustrasjon 02 — figur 03:** [revisjoner og følsomhet](../phase23/figures/03_revisions.svg). offisielle revisjoner skal vises som egne markører, adskilt fra det betingede scenariet. manglende revisjonstall må ikke tegnes som null.
 
 ## samme ord, forskjellige telleenheter
 
@@ -36,7 +36,7 @@ slike forskjeller dokumenterer at kildene har ulike avgrensninger og telleenhete
 
 den samme begrensningen gjelder pågripelser og rettslige avgjørelser. med fast eu27-geografi er de rapporterte pågripelsestallene 943 i 2015, 380 i 2022 og 486 i 2025. eurojust oppgir for 2025 406 fellende avgjørelser og 99 frifinnelser i sin rapportering av avsluttede saker. disse tallene gjelder ikke den samme identifiserte gruppen personer og kan ikke brukes til å beregne en domfellelsesandel av årets pågripelser. [c07–c08]
 
-**figur 05:** [institusjonelle tellinger](../phase23/figures/05_institutions.svg). institusjon, år, kategori og telleenhet må følge hvert tall, også ved deling utenfor rapporten.
+**supplerende illustrasjon — figur 05:** [institusjonelle tellinger](../phase23/figures/05_institutions.svg). institusjon, år, kategori og telleenhet må følge hvert tall, også ved deling utenfor rapporten.
 
 ## hva vet vi om postene bak statistikken?
 
@@ -46,7 +46,7 @@ i de opprinnelige årsrapportenes til sammen 1 129 angrepsposter er 168 tilstrek
 
 dette er en måling av **undersøkelsens koblingsdekning i offentlig tilgjengelig dokumentasjon**. den sier ikke at 926 hendelser er udokumenterte hos myndighetene, eller at de ikke fant sted. én statistisk post kan også ha flere konkurrerende identitetskandidater. i 2025 gjelder 18 mulige identiteter 17 kandidatposter.
 
-**figur 04:** [identifikasjonsdekning](../phase23/figures/04_coverage.svg). prosentandeler må alltid ledsages av eksakte antall og definisjonen av «statistisk post». figuren må aldri omtales som «andelen terrorangrep europol ikke kan dokumentere».
+**hovedillustrasjon 03 — figur 04:** [identifikasjonsdekning](../phase23/figures/04_coverage.svg). prosentandeler må alltid ledsages av eksakte antall og definisjonen av «statistisk post». figuren må aldri omtales som «andelen terrorangrep europol ikke kan dokumentere».
 
 ## hva en rettsavgjørelse faktisk fastslår
 
@@ -60,7 +60,7 @@ i solingen-saken forkastet bundesgerichtshof revisjonen **12. mai 2026**, og mel
 
 eksemplene er valgt for å vise ulike bevisgrenser, ikke fordi de representerer et statistisk utvalg eller dokumenterer en felles kommandostruktur.
 
-**figur 06:** [rettslige beviskjeder](../phase23/figures/06_judicial.svg). oppgi kildetype og rettslig stadium på hver rad. behold skillet mellom avgjørelsesdato og publiseringsdato.
+**vedleggsillustrasjon — figur 06:** [rettslige beviskjeder](../phase23/figures/06_judicial.svg). oppgi kildetype og rettslig stadium på hver rad. behold skillet mellom avgjørelsesdato og publiseringsdato.
 
 ## avvik som fortsatt står åpne
 
@@ -87,6 +87,6 @@ det er mulig å etterprøve mange av de publiserte totalene og vise hvor sammenl
 ## redaksjonelle sperrer før publisering
 
 - dette er et nytt leservendt utkast; de 20 kontrollerte påstandene og kildeobservasjonene forblir uendret i sine opprinnelige filer.
-- figur 02 (full eu27-årsserie) og figur 01 gir supplerende kontekst; figur 03, 04, 05 og 06 støtter avsnittene over. alle seks figurer må følge med riktige bildetekster, lesbare mobilversjoner og tekstalternativer ved eventuell eksport.
+- planlagt figurrekkefølge i hovedartikkelen: (1) figur 01 og 02 i felles geografisk sammenheng, inntil en egen 2019–2020-sammenstilling er laget; (2) figur 03 om revisjoner og følsomhet; (3) figur 04 om identifikasjonsdekning. figur 05 kan plasseres etter avsnittet om institusjoner. figur 06 og hele figur 02 kan også gjøres tilgjengelige i dokumentasjonsvedlegget. ingen figur er godkjent som endelig mobil- eller publiseringsasset. alle seks må ha riktige bildetekster og tekstalternativer.
 - ingen enkeltstående figur eller sosialt utdrag kan distribueres uten enhet, geografi, kilde og nødvendige forbehold.
 - rapporten krever fortsatt uavhengig menneskelig redaksjonell kontroll, vurdering av endelig eksport, personvern- og skadevurdering i publiseringskonteksten og eksplisitt publiseringstillatelse.
