@@ -22,3 +22,15 @@ No primary organisational declaration or case-specific judicial finding has yet 
 - [Europol TE-SAT 2017, left-wing/anarchist chapter](https://www.europol.europa.eu/tesat/2017/4.LEFT-WING_AND_ANARCHIST_TERRORISM.html).
 - [Europol TE-SAT 2017, Annex 1](https://www.europol.europa.eu/tesat/2017/ANNEX_1.html).
 - [Europol TE-SAT 2023, category definition](https://publications.europa.eu/resource/cellar/1694f1b5-9a38-11ee-b164-01aa75ed71a1.0001.01/DOC_1).
+
+
+## Greek Supreme Court decisions: original national judgments (20 November 2026)
+
+**Areios Pagos 1333/2018** ([official decision](https://www.areiospagos.gr/nomologia/apofaseis_DISPLAY.asp?apof=1333_2018&cd=ZSFD5EMZYDNB7AERPCS8ZTMB4EA8O2&info=%EF%BF%BD)) reproduces a judicial account describing the Conspiracy of Cells of Fire as an organised group with multiple participants, differentiated roles and alleged aims of carrying out terrorist acts. The passages must be read in their procedural context: a Supreme Court review reproducing findings and charges is not a finding that all persons ever named in investigations were members.
+
+**Areios Pagos 442/2021** ([official decision](https://www.areiospagos.gr/nomologia/apofaseis_DISPLAY.asp?apof=442_2021&cd=CTRUXZM9XNV2644MP3Q7SKHVBMGMDY&info=%EF%BF%BD)) contains detailed national judicial material concerning alleged membership between January 2014 and a February 2015 arrest. Its case chronology and individual disposition must be mapped before counting a 2015 incident or claiming a particular defendant's final guilt.
+
+**Areios Pagos 1223/2024** ([official decision](https://areiospagos.gr/nomologia/apofaseis_DISPLAY.asp?apof=1223_2024&cd=B08I1WMEC4SX8ILMY6IIMIQB1YM8RL&info=%EF%BF%BD)) concerns proceedings connected in the judgment's factual history to 2017 letter-bomb investigations. The Supreme Court on 28 June 2024 (published 10 October) **partially quashed** an appellate decision **only** as to acceptance of a post-offence good-behaviour mitigating circumstance and the consequent sentence, remitting that part for reconsideration. It rejected the prosecutor's cassation application in other respects. This **does not** mean the entire conviction was quashed; nor is the ultimate sentence after remittal established by this document. The court's recitation of 2017 events includes a reported claim of responsibility and police investigative connections, which are not automatically separate adjudications of organisational responsibility for each act.
+
+**Attribution boundary:** These judicial materials strengthen the Greek legal-history section. They do **not** establish a direct judicial match for the **October 2016 prosecutor-residence incident** previously reported by Europol. That event's individual perpetrators and disposition remain unresolved.
+
