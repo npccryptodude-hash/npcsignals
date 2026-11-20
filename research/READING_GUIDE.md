@@ -7,7 +7,7 @@
 - **first visit:** open a subject from the research index and read its purpose, documented findings and uncertainty.
 - **school work:** follow the timeline, choose one claim, then compare its evidence and limitations. cite the dated source and the archive path, not just a headline.
 - **journalism:** use the source ledger and original document or transaction identifier. distinguish a publisher’s claim from the archive’s independent checks.
-- **research review:** inspect methodology, exact datasets, version history, checksums and reproducibility scripts. the current archive status links to the dated audit records and exceptions.
+- **research review:** inspect methodology, exact datasets, version history, checksums and reproducibility scripts.
 
 ## evidence strength
 
@@ -41,4 +41,4 @@ read the retrieval time and coverage statement. a saved response may describe on
 
 older checkpoints can contain instructions written during research. they are historical provenance, not current instructions to the reader. current reader pages replace their role as entry points. corrections, rejected hypotheses and explicit limitations are retained.
 
-use the [current archive status](../archive-maintenance/CURRENT_STATUS.md) to find dated checks and known exceptions before relying on a checksum or running a historical script. evidence files have not been renamed to make the interface simpler.
+Read the methodology and source notes for each investigation before relying on a checksum or running a historical script.

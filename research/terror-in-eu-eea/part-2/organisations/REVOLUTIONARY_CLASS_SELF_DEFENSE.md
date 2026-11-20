@@ -1,0 +1,7 @@
+# revolutionary class self-defense
+
+The US National Counterterrorism Center's June 2026 profile describes an anonymous Greek group that emerged in early 2024. It attributes anti-capitalist and anti-authoritarian goals to the group and assesses that it uses violence to disrupt Greek political and economic institutions. It describes a small-cell structure. This is an agency assessment of origin, motive and structure. Membership, changes in leadership and operational direction are not independently established in the cited court record.
+
+The agency attributes two incidents in the period to the group, at governmental premises in Athens in 2024 and at transport-company premises in 2025. The 2024 Labour Ministry incident remains a candidate for an EU slot. For the 2025 Hellenic Train incident, Hellenic Police confirms occurrence and Europol reports a responsibility claim. The statistical match is adequate. The agency attribution and the claim have distinct evidentiary roles, and neither constitutes a Greek judicial finding of responsibility.
+
+Sources [NCTC profile, pp. 1–2](https://www.odni.gov/wp-content/uploads/dlm_uploads/CT-Guide-Revolutionary-Class-Self-Defense_508.pdf) · [2024 candidate record](../../2024/incidents.csv) · [2025 occurrence and linkage](../../data/terror_2025_incident_supplement.csv) · [2025 claim and agency attribution](../../data/terror_2025_judicial_relationship_updates.csv)

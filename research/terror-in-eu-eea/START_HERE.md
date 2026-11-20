@@ -1,6 +1,5 @@
 # terror in eu/eea
 
-status: foundation / research in progress  
 created: 2026-11-18  
 coverage: fixed 31-country research area: 27 current eu member states, norway, iceland, liechtenstein and the united kingdom  
 historical window: 2015–2025; 2026 developments tracked separately
@@ -12,6 +11,8 @@ build a verifiable, source-linked research database describing terrorism across 
 start with an all-category overview, then investigate jihadist terrorism in greater depth based on the documented record. no predetermined conclusion about any ideology, religion, population or institution.
 
 ## read first
+
+- [part 2 — ideologies, organisations and objectives](part-2/README.md)
 
 - [method and definitions](METHODOLOGY.md)
 - [data model](DATA_MODEL.md)
