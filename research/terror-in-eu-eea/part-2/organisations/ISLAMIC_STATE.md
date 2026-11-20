@@ -72,3 +72,14 @@ The order also provides a judicially stated **historical account of IS's aims** 
 ### Research implications
 
 These two judicial records distinguish **suspected domestic cell organisation**, **reported contact with ISPK**, **suspected financing or support**, **membership**, and **operational direction**. They do not create additional confirmed attacks in the annual Europol denominator. Before attributing any of the alleged conduct as proven, locate subsequent indictments, trial judgments and appellate outcomes, if any.
+
+
+## Follow-up disposition search: AK 100–106/23 and StB 50/25 (20 November 2026)
+
+**AK 100–106/23 — later indictment confirmed, final verdict not verified.** The German Federal Prosecutor's Office announced on 24 April 2024 that seven defendants were indicted at the Düsseldorf Higher Regional Court on **28 March 2024** for forming and participating in an alleged domestic terrorist organisation. Six of the seven (excluding Mukhammadshujo A.) were additionally accused of supporting IS. The prosecutor alleged that several thousand euros were transferred to IS representatives abroad. These are **charges**, not established trial facts. [Original federal prosecutor statement republished verbatim by Presseportal](https://www.presseportal.de/blaulicht/pm/14981/5764903). [ARD/SWR trial reporting, 28 July 2024](https://www.tagesschau.de/investigativ/swr/is-khorasan-terrorismus-prozess-deutschland-tuerkei-100.html) records the Düsseldorf trial opening. The searched materials did not establish a later judgment or appellate finality. **Status: indicted and tried; final disposition unverified.**
+
+**StB 50/25 — later verdict not verified.** The original 30 October 2025 BGH detention-review order remains the latest case-specific judicial document verified in this search. Its alleged transfers, recruitment and correspondence are not convictions. **Status: pretrial as last verified; subsequent disposition unknown.**
+
+**False-match safeguard:** The widely indexed Düsseldorf IS verdict dated **31 May 2022** concerns **five defendants**, and predates the July 2023 arrests of the seven persons in AK 100–106/23. It is a **different case** and must not be attached to this record. [ARD 2022 report](https://www.tagesschau.de/inland/is-terroristen-haft-urteil-duesseldorf-101.html).
+
+Do not convert a failed verdict search into a claim that no verdict exists. Future retrieval should use docket **AK 100–106/23**, prosecutor's **28 March 2024 indictment**, defendant names and the Düsseldorf court's assigned trial docket.
