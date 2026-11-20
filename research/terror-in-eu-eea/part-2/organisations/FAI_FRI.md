@@ -11,10 +11,10 @@ The shared label does not prove common operational command. Attribution must be 
 Europol's TE-SAT 2017 reports 16 left-wing/anarchist terrorist attacks in Italy in 2016. Within its narrative, it describes:
 
 - January: an incendiary device outside the Civitavecchia courthouse in Rome, attributed to a named FAI/FRI cell, with property damage.
-- June: two parcel-bomb incidents attributed to another named FAI/FRI cell, one intercepted at the European Food Safety Authority in Parma and another sent to a biotechnology company, with a minor injury to the company's owner.
+- June: two parcel-bomb incidents, one intercepted at the European Food Safety Authority in **Parma on 7 June 2016**, the other exploding at a biotechnology company in **Milan on 9 June 2016**, with a minor injury. Europol reports an FAI/FRI-cell attribution. **The original Italian intelligence report says neither parcel attack was directly claimed**, while assessing a probable common campaign associated with a *Nucleo Danaus plexippus* FAI/FRI communication. The agency assessment is not an authenticated claim by either perpetrator or a judicial finding.
 - Bologna: an explosive device outside a Carabinieri station, which Europol describes as **believed** to have been placed by an FAI/FRI cell.
 
-These descriptions support **Europol-reported attribution**, with different levels of confidence even within the same paragraph. They do not, on their own, establish judicial findings, membership or common command. The 16 Italian statistical entries must not all be attributed to FAI/FRI: Europol discusses other actors and themes in the same chapter.
+These descriptions support **source-attributed assessments and reported claims**, with different levels of confidence even within the same paragraph. In particular, the Italian government's unclaimed-parcel distinction must be preserved alongside Europol's broader attribution. They do not, on their own, establish judicial findings, membership or common command. The 16 Italian statistical entries must not all be attributed to FAI/FRI: Europol discusses other actors and themes in the same chapter.
 
 Europol describes attacks on migration-related facilities and associated companies, criminal-justice institutions and other targets in its broader Italian 2016 account. These targets show a range of grievances and target choices, not a single verified organisation-wide motive.
 
@@ -61,3 +61,7 @@ The [Procura Generale di Torino, 2025 judicial-year report](https://pg-torino.gi
 
 **Source distinction:** This is an **original report from a participating Italian prosecutorial authority**, stronger than secondary news coverage, but **not the full operative Cassation judgment or trial evidence**. The precise findings about cell membership, communications and operational command cannot be reconstructed from the sentencing summary alone. The 2006 act is historical context outside the 2015–2025 attack denominator.
 
+
+## National source reconciliation for the 2016 parcels (audit correction, 20 November 2026)
+
+The original [Italian intelligence report for 2016, printed pp. 69–70](https://www.senato.it/service/PDF/PDFServer/BGT/1021660.pdf) distinguishes the **7 June Parma** and **9 June Milan** parcel incidents from a direct perpetrator responsibility claim. It assesses a probable campaign relationship with the *Nucleo Danaus plexippus* communication. The event-level crosswalk documents the source locators and keeps both entries at **NO_VERIFIED_JOIN** for a merits judgment. The [Italian Ministry of Interior 2016 report, printed pp. 11–12](https://www.senato.it/service/PDF/PDFServer/DF/335766.pdf) separately records the **12 January Civitavecchia** device and the later **27 January FAI/FRI-labelled claim**. Neither claim nor intelligence attribution proves individual perpetrators or common operational command.
