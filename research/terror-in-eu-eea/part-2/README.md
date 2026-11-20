@@ -13,5 +13,6 @@ An official category tells you how an entry was reported. A court can establish 
 - [Why attack frequency, harm and arrests differ: 2016](ATTACKS_HARM_ARRESTS_2016.md)
 - [Fixed EU27 ideological categories, 2015–2019](FIXED_EU27_IDEOLOGY_2015_2019.md)
 - [Comparative case evidence: ideology, claims, membership and command](ATTRIBUTION_COMPARISON.md)
+- [Claims, ideological influence and reported contacts: 2022 cases](CLAIMS_AND_INFLUENCE_2022.md)
 - [Source register](SOURCES.md)
 - [Part 1 methodology](../METHODOLOGY.md)
