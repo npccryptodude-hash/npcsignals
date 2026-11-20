@@ -84,3 +84,16 @@ The [1333/2018 judgment](https://www.areiospagos.gr/nomologia/apofaseis_DISPLAY.
 **Join:** This is an **event-specific, contemporaneously reported first-instance conviction** and therefore a stronger link than AP 1223/2024's contextual reference. **Not yet original-judgment verified:** case number, exact counts in the operative decision, appeal, cassation or finality. Do not label it final or use it to prove CCF membership/command. The earlier statement that attack-specific proceedings were still pending refers to the time recounted in the Supreme Court's separate case and is superseded as a current-status claim by the November 2023 trial report.
 
 **Dataset policy:** Keep `2017/incidents.csv` unchanged. Add a proceedings relationship only after documenting the court's case number/operative text or explicitly accepting a **reported non-final trial disposition** as a separate evidence tier under the existing register policy.
+
+## Trial-file separation and appeal-status check (20 November 2026)
+
+A closer reading of [Kathimerini's 24 November 2023 courtroom report](https://www.kathimerini.gr/society/562746274/katadiki-gia-to-dema-vomva-ston-loyka-papadimo/) resolves an important potential conflation:
+
+1. **Weapons/explosives possession proceeding:** An earlier first-instance 11-year sentence was reportedly reduced **on appeal in April 2023 to a two-year suspended sentence**. This is the distinct proceedings track relevant to the background in Areios Pagos 1223/2024.
+2. **2017 parcel-bomb attack proceeding:** A **separate first-instance judgment on 23 November 2023** imposed an **11-year sentence with suspended effect** for the attack against Loukas Papademos. The panel split 2–1; one judge favoured acquittal. The report says the court adopted a lesser legal characterisation of an explosion endangering people instead of attempted murder.
+
+**Do not transfer the April 2023 appeal outcome to the November 2023 attack conviction.** Both happen to involve an 11-year first-instance sentence in different proceedings. The exact court file number and operative written 2023 attack judgment remain unverified.
+
+The [official Greek Supreme Court criminal-case search](https://www.areiospagos.gr/poiniko_search.asp) requires a challenged judgment number/year or hearing date, which is not yet established for the 2023 attack case. A targeted public-source search did not locate a later appeal or cassation disposition by 20 November 2026. This **does not prove** no appeal was filed or no later judgment exists.
+
+**Event join status remains** REPORTED_ATTACK_TRIAL_CONVICTION, **not** final original-court judgment. CCF membership/operational direction is **not adjudicated by this report**. The separate final acquittal on membership described in AP 1223/2024 must not be overwritten by the later attack conviction.
