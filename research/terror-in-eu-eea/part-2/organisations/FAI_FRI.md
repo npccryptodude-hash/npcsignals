@@ -35,3 +35,10 @@ For 2022, Europol reports a Rome responsibility claim under the Augusto Masetti 
 - [Europol TE-SAT 2017, Annex 1](https://www.europol.europa.eu/tesat/2017/ANNEX_1.html), original Italy 16 and EU 27 entries.
 - [Europol TE-SAT 2023, category definition and p. 59](https://publications.europa.eu/resource/cellar/1694f1b5-9a38-11ee-b164-01aa75ed71a1.0001.01/DOC_1).
 - [Rome incident IT22-ROM](../../2022/incidents.csv) and [claim IT22-ROM-R1](../../2022/proceedings_relationships.csv).
+
+## US designation and alias scope: original documents (verified 20 November 2026)
+
+[Federal Register notice 2025-20663](https://www.govinfo.gov/content/pkg/FR-2025-11-20/html/2025-20663.htm) designates **Informal Anarchist Federation/International Revolutionary Front** as a Foreign Terrorist Organization under INA section 219. The notice was dated **10 November 2025** and became effective upon publication **20 November 2025**. It explicitly lists **Brigata Augusto Masetti Federazione Anarchica Informale—Fronte Rivoluzionario Internazionale** and an English Augusto Masetti variant among the designated aliases. The separate [SDGT notice 2025-20666](https://www.govinfo.gov/content/pkg/FR-2025-11-20/html/2025-20666.htm) records the Executive Order 13224 designation.
+
+**Interpretive boundary:** The US government's alias list provides an administrative naming link to the label used in Europol's 2022 Rome claim report. It does **not** authenticate that claim, establish a single stable command structure across listed cells, identify perpetrators or prove responsibility in the Rome case. US administrative designation is not an Italian criminal judgment.
+
