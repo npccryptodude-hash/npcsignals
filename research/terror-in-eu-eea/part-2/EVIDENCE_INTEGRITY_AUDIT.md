@@ -48,3 +48,29 @@ Each row must preserve source provenance, original source text or exact locator,
 5. Independent human editorial review remains a publication gate. No publication, merge or main-branch edits authorised.
 
 **Provisional verdict: NOT READY FOR PUBLICATION.** This is a research-quality control status, not a conclusion about any investigated organisation or defendant.
+
+## Second pass: 2016 injury discrepancy traced to source fields (20 November 2026)
+
+Directly reopened `2016/statistics.csv`, `2016/incidents.csv` and `METHODOLOGY.md` on the research branch.
+
+**Reproducible arithmetic from the registered values:**
+- `BRU-INJ` = **340** (Europol combined Brussels sites, 22 March 2016).
+- `FR16-NIC.injuries` = **201** (Europol contemporary Nice value).
+- `DE16-BER.injuries` = **56** (Europol contemporary Berlin value).
+- **340 + 201 + 56 = 597**, whereas `ALL-INJ` = **379** (EU28 all-ideologies 2016 total), and `J-INJ` = **374** (EU28 jihadist total).
+
+**Confirmed finding:** The apparent 597-versus-379 discrepancy is reproducible from **different fields of the same registered Europol edition**, not merely from later revised Nice/Berlin victim totals. The individual-site figures cannot be naively aggregated as the same population and definition as the annual total. This is a **source-level scope/definition conflict requiring original TE-SAT page and footnote verification**, not an arithmetic error to “fix” by replacing 379 with 597.
+
+**Additional control:** The `2016/incidents.csv` Nice injuries value 201 is contemporary, whereas the separate `NIC-LATE-I` value 458 is a later national research figure. Combining 458 with contemporary 340/56 would create another mixed-scope total. The Brussels 340 is already combined across both airport and metro; it must not be added separately to each Brussels event. The annual 379 and 374 remain recorded as source claims with unresolved harmonisation.
+
+**Dataset policy:** Preserve original figures and qualifiers, add an explicit cross-scope arithmetic warning before figures are used in prose or charts. Recheck the original TE-SAT 2017 printed pp. 10, 23–24 and 49 and its statistical reference period before determining whether the discrepancy arises from reporting-year versus attack-year population, a table correction, casualty definitions or another cause. **No cause has yet been proven.**
+
+## Second pass: 2016 register row classification
+
+A direct row count of the inspected `2016/incidents.csv` text gives **23 incident records** (excluding header): **20 adequate**, **2 candidate**, **1 outside_scope** (based on the displayed confidence column; independently verify with a CSV parser before using in any publication). More importantly, the specific rows `DE16-HAN` and `DE16-DUS` are candidates and `GB16-COX` is explicitly outside original attack count; the file is **not** a 23-attack denominator. The row count is an audit inventory, not a Europol total.
+
+## Second pass: reader-facing attribution claims
+
+`part-2/ATTRIBUTION_COMPARISON.md` was reopened. Its ten examples distinguish (a) judicially supported ideology, (b) official reports of claims, (c) agency assessments, (d) pretrial custody and (e) final court outcomes. No direct assertion that the 2016 Italian FAI/FRI-labelled claim proves perpetrator identity was found in this inspected comparison. Remaining risk: the comparison's `Germany, Solingen, 2024` row uses a final BGH summary to support membership, but the document expressly withholds an inference of operational command; retain that caveat. This is a **document-specific check**, not an exhaustive audit of all Part 2 prose.
+
+**Next:** verify counts programmatically, inspect the original TE-SAT 2017 tables, then inspect each remaining Part 2 profile against the event-ID crosswalk.
