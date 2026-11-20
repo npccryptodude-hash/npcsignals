@@ -108,3 +108,21 @@ A contemporary independent public-sector review identified **the exact same nume
 **Trend-series consequence:** 2016 `ALL-INJ` and `J-INJ` are **SOURCE_REPORTED_UNRECONCILED**. Comparisons of injuries across 2015–2025 that require a harmonised 2016 count must be held or marked non-comparable. Attack-count and death-count series are not invalidated by this injury-specific arithmetic discrepancy without separate evidence; each has independent verification gates.
 
 **Next verification route:** obtain an official Europol clarification/corrigendum through published records, or find a published national-to-Europol injury reconciliation. No outreach is authorised. Independently inspect injury definitions in neighbouring TE-SAT editions before making longitudinal comparisons.
+
+## Fifth pass: cross-chapter organisation-attribution review (20 November 2026)
+
+Reopened **all five thematic Part 2 chapters** and `ORGANISATIONS.md` on the research branch. This is a complete **chapter-level claim scan**, not a complete primary-source re-verification of every linked national record.
+
+| Chapter | Tested attribution boundary | Finding | Follow-up |
+|---|---|---|---|
+| `LEFT_WING_AND_ANARCHIST.md` | 2022 Rome claim, 2024/25 Greek RCS assessment | **PASS WITH OPEN EVIDENCE:** distinguishes Europol claim, NCTC attribution and absent judicial proof. The 2022 Rome statistical match is not treated as proof of FAI/FRI command. | Validate referenced 2022/2024/2025 incident IDs and sources before any aggregate group count. |
+| `RIGHT_WING_NETWORKS_AND_INFLUENCE.md` | Swedish NMR association, Slovak Terrorgram influence, French 2025 projects | **PASS WITH OPEN EVIDENCE:** no automatic membership or direction from reported links/influence; French proceedings not described as convictions. | Obtain original national judgments/prosecutor records for selected cases. |
+| `JIHADIST_NETWORKS_AND_INDIVIDUALS.md` | Solingen membership, Holbæk assistance, Westbahnhof purported contact | **PASS WITH OPEN EVIDENCE:** membership, reported contact and operational direction kept separate. | Reopen underlying case decisions for finality and specific charge scope. |
+| `SEPARATIST_AND_ETHNONATIONALIST.md` | Corsica 2023 cohort; Northern Ireland mixed reporting | **PASS WITH OPEN EVIDENCE:** retrospective Corsican 4/22/44 occurrence-year allocation not presented as 70 attacks in 2023; NI entries not assigned to a named organisation. | Verify all country/year denominators against original editions. |
+| `ORGANISATIONS.md` | Organisation index | **PASS:** explicitly rejects equating profile count with active organisation count; identifies sources as selected cases. | Audit each linked profile individually. |
+
+**No chapter-level attribution inflation was identified in these inspected passages.** This is a limited negative finding: absence of an observed overclaim in five chapters does not certify the underlying case records or all profile appendices.
+
+**Cross-cutting material risk:** Source-derived 2016 injury totals remain inconsistent in the original edition, and the separatist 2023 reporting-year cohort differs from occurrence-year distribution. These are **different** comparability issues and must not be combined into one correction.
+
+**Next queue:** audit the five organisation profiles in full; validate cross-referenced incident IDs and original-source locators; inspect 2016 casualty trend figures and run deterministic repository checks.
