@@ -157,3 +157,15 @@ Directly reopened `2016/incidents.csv`, `2016/sources.csv`, `part-2/organisation
 **Remaining controlled-data task:** Add the Italian primary documents to the source register with stable source IDs, then amend `IT16-CIV`, `IT16-PAR`, `IT16-BIO` dates and `IT16-BIO` locality using those source IDs; retain original Europol source and classification. Do not change incident totals or proceedings relationships.
 
 **Verification gate:** Crosswalk existence and source-ID existence above were manually inspected; a **whole-repository automated foreign-key check has not yet run**. This is not a claim of complete validation.
+
+## Eighth pass: controlled Italian CSV corrections and read-back (20 November 2026)
+
+Two original Italian government sources were added to `2016/sources.csv`:
+- `IT16-INTEL`: 2016 intelligence report, Senate Doc. XXXIII no. 4, printed pp. 69–70; source URL in register.
+- `IT16-INTERIOR`: Ministry of Interior parliamentary report, Doc. XXXVIII no. 5 vol. I, printed pp. 11–12; source URL in register.
+
+The following **only** fields were amended in `2016/incidents.csv`: `IT16-CIV.event_date=2016-01-12` and source IDs `EU16;IT16-INTEL;IT16-INTERIOR`; `IT16-PAR.event_date=2016-06-07` and `EU16;IT16-INTEL`; `IT16-BIO.event_date=2016-06-09`, `locality=Milan`, and `EU16;IT16-INTEL`. Original Europol source ID, confidence, category, outcome, death and injury cells, event IDs and row counts were retained.
+
+**Post-edit remote read-back:** Both CSV files were fetched again from the branch. The three event rows and both new source rows match the intended values. `2016/incidents.csv` still has **23** records and `2016/sources.csv` has **25** records (excluding headers). This verifies the remote edit landed and basic row count preservation; **no deterministic repository build, CSV parser, foreign-key scan or whole-repo test has been executed in this pass**.
+
+**Scope:** Research branch only. No merge, main modification, publication, external contact or legal attribution change. Publication gate remains NOT READY.
