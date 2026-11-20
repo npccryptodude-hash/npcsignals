@@ -53,3 +53,22 @@ The German Federal Court of Justice (BGH) reported that the revision was rejecte
 - [2025 judicial and relationship updates](../../data/terror_2025_judicial_relationship_updates.csv): p5-west-contact, p3-pl-prep.
 
 This profile is a case-anchored research foundation. Its historical objectives, organisational command and financing sections are **not complete**; absence of a finding in the reviewed documents does not establish that no such relationship existed.
+
+
+## Primary German judicial records: organisational history, support and financing (20 November 2026)
+
+### BGH AK 100–106/23, 24 January 2024 — pretrial detention review
+
+The [BGH original order, ECLI:DE:BGH:2024:240124BAK100.23.0](https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2024&Gericht=bgh&Sort=1026&anz=3646&nr=136396&pos=4), concerns seven suspects in a German alleged domestic group and alleged support to IS/ISPK. **Procedural stage:** continuation of pretrial detention under sections 121–122 StPO, on the basis of strong suspicion; **not a conviction**. The order says the suspected group sought attacks in Germany or western Europe and allegedly collected and transferred funds in support of IS. The court records alleged communications with persons abroad connected to ISPK, while expressly stating that the contents of those communications had **not** been established. It also records that concrete attack plans and immediate preparations had not been developed before the July 2023 arrests (order, paras. 14–15). This is not proof that IS central leadership ordered a specific European attack.
+
+The order's legal discussion treats IS as a foreign terrorist organisation and describes ISPK as a subordinate IS organisation for the purposes of that assessment (paras. 43 onward). Preserve the source's legal and temporal context rather than generalising this classification to every self-declared affiliate.
+
+### BGH StB 50/25, 30 October 2025 — alleged support by a non-member
+
+The [BGH original order, ECLI:DE:BGH:2025:301025BSTB50.25.0](https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=Aktuell&Gericht=bgh&Sort=12288&anz=1072&nr=143630&pos=4), rejected an appeal against a detention warrant. **Procedural stage:** detention review on strong suspicion, **not a merits conviction**. The court describes allegations that a woman collected and transferred funds for imprisoned IS members and their families and relayed correspondence intended to sustain support for IS. The order explicitly describes her as **not herself an IS member** (paras. 10–11). This supports the legal distinction between suspected assistance and membership, not a finding of guilt.
+
+The order also provides a judicially stated **historical account of IS's aims** (paras. 12–19): establishment of a state governed by its ideology and interpretation of sharia in Iraq and the wider Levant; renaming to Islamic State upon the June 2014 proclamation of a caliphate; loss of territorial control by March 2019; and continued clandestine activity and international affiliates. This is an original **German court's account** of the organisation's history, not an authenticated original IS manifesto. Time-sensitive force estimates in the order must not be represented as current 2026 figures.
+
+### Research implications
+
+These two judicial records distinguish **suspected domestic cell organisation**, **reported contact with ISPK**, **suspected financing or support**, **membership**, and **operational direction**. They do not create additional confirmed attacks in the annual Europol denominator. Before attributing any of the alleged conduct as proven, locate subsequent indictments, trial judgments and appellate outcomes, if any.
