@@ -2,7 +2,7 @@
 
 ## Identity and documented history
 
-The US Department of State's [14 June 2024 designation fact sheet](https://2021-2025.state.gov/terrorist-designations-of-nordic-resistance-movement-and-three-leaders/) says the organisation was formed in **1997** as the Swedish Resistance Movement and adopted the Nordic Resistance Movement name in **2016**. The US account describes its base in Sweden and branches in Norway, Denmark, Iceland and Finland, and reports that Finland banned the organisation in **2020**. These are US government statements; this profile has not independently reviewed the Finnish court's operative judgment or national membership records.
+The US Department of State's [14 June 2024 designation fact sheet](https://2021-2025.state.gov/terrorist-designations-of-nordic-resistance-movement-and-three-leaders/) says the organisation was formed in **1997** as the Swedish Resistance Movement and adopted the Nordic Resistance Movement name in **2016**. The US account describes its base in Sweden and branches in Norway, Denmark, Iceland and Finland, and reports that Finland banned the organisation in **2020**. These are US government statements. The Finnish Supreme Court's official summary of KKO:2020:68 was subsequently reviewed below; the full Finnish-language judgment and national membership records have not been independently reviewed.
 
 ## Stated political objectives and ideology
 
