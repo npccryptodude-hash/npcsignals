@@ -34,3 +34,7 @@ No primary organisational declaration or case-specific judicial finding has yet 
 
 **Attribution boundary:** These judicial materials strengthen the Greek legal-history section. They do **not** establish a direct judicial match for the **October 2016 prosecutor-residence incident** previously reported by Europol. That event's individual perpetrators and disposition remain unresolved.
 
+
+## Case-level correction: Papademos 2017 (original text reviewed 20 November 2026)
+
+[Areios Pagos 1223/2024](https://www.areiospagos.gr/nomologia/apofaseis_DISPLAY.asp?apof=1223_2024&cd=B08I1WMEC4SX8ILMY6IIMIQB1YM8RL&info=%EF%BF%BD) explicitly mentions the **25 May 2017** explosion in the vehicle carrying former Prime Minister Loukas Papademos. This supplies a precise **contextual event match** to register row **GR17-PAP**. The court's account identifies it as a separate investigation/trial, while the reviewed appeal case concerns weapons, explosives and other charges. The decision **does not adjudicate guilt for the Papademos attack**. The court also records an **irrevocable acquittal of a defendant on CCF-membership charges**; earlier police suspicion and prison visits must not be recast as membership. The attack-specific trial's ultimate result is still unverified. See [judgment–incident crosswalk](../JUDGMENT_INCIDENT_CROSSWALK.md).
