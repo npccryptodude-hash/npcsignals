@@ -169,3 +169,22 @@ The following **only** fields were amended in `2016/incidents.csv`: `IT16-CIV.ev
 **Post-edit remote read-back:** Both CSV files were fetched again from the branch. The three event rows and both new source rows match the intended values. `2016/incidents.csv` still has **23** records and `2016/sources.csv` has **25** records (excluding headers). This verifies the remote edit landed and basic row count preservation; **no deterministic repository build, CSV parser, foreign-key scan or whole-repo test has been executed in this pass**.
 
 **Scope:** Research branch only. No merge, main modification, publication, external contact or legal attribution change. Publication gate remains NOT READY.
+
+## Ninth pass: independent parsed 2016 integrity check (20 November 2026)
+
+A fresh remote read of the four 2016 CSV files was parsed with a quote-aware CSV parser in the audit execution environment, without modifying repository data.
+
+| File | Parsed data rows |
+|---|---:|
+| `2016/incidents.csv` | 23 |
+| `2016/sources.csv` | 25 |
+| `2016/crosswalk.csv` | 15 |
+| `2016/proceedings_relationships.csv` | 14 |
+
+**Checks actually executed:** incident and source CSV parsing; uniqueness of `incident_id`, `source_id`, `cell_id`; every incident `source_ids` token resolves to a 2016 source ID; every populated crosswalk `incident_ids` token resolves to an incident ID; every 2016 incident date begins with the year 2016. **Result: zero issues** in these checks. The read-back confirmed the three amended Italian rows and their source-ID lists.
+
+**Not tested:** whole-repository foreign keys, proceedings relationship foreign keys, annual attack arithmetic, deterministic Python `audit/recalculate.py`, `audit/build_english_figures.py --check`, Phase 24 independent recomputation, SVG byte hashes or the full historical build. Existing `audit/phase25/STATUS_AND_GATE.md` reports earlier PASS at the 18 November checkpoint, **not a new pass on this changed branch**.
+
+**Remote CI check:** PR #7 remains draft and unmerged; the current head at the time of inspection was `e2db19aa4db5bdf1f898a22203f13ec54ebd7320`. No pull-request workflow runs were returned for that commit. This is not evidence that tests ran or passed.
+
+**Verdict for this subset:** PASS (2016 basic referential integrity); overall publication gate remains NOT READY.
