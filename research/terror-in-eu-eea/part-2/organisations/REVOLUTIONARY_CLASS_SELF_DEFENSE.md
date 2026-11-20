@@ -26,7 +26,7 @@ The [2025 judicial relationship updates](../../data/terror_2025_judicial_relatio
 
 ## US designation
 
-The June 2026 NCTC profile states that the US Department of State designated RCS in **November 2025** as both an SDGT and an FTO, in a designation described as associated with the Antifa movement. This is a **secondary official agency description of a designation**, not an independently reopened State Department designation notice or Federal Register entry. The precise effective date, legal instruments, aliases and status should be checked against those primary records before publication. The designation does not itself resolve individual responsibility for either Greek incident.
+The June 2026 NCTC profile states that the US Department of State designated RCS in **November 2025** as both an SDGT and an FTO, in a designation described as associated with the Antifa movement. This was initially a **secondary official agency description of a designation**. The original Federal Register FTO and SDGT notices were subsequently verified below, including the effective publication date. This does not establish Greek judicial responsibility. The designation does not itself resolve individual responsibility for either Greek incident.
 
 ## Unresolved questions
 
