@@ -143,3 +143,17 @@ Reopened the complete repository content of `organisations/FAI_FRI.md`, `REVOLUT
 **Scope of edits:** Four sequential commits to three existing organisation profiles; no incident data, statistics, legal relationship CSVs or primary evidence changed. The five-profile internal consistency check is **completed with residual source-verification gaps**, not a full substantive clearance.
 
 **Next queue:** cross-reference all profile incident IDs with CSV source identifiers; inspect deterministic validation scripts and run them in an appropriate reproducible environment; resolve the Italian event wording where original texts support a precise correction.
+
+## Seventh pass: exact 2016 event-ID and source-ID check; FAI/FRI correction (20 November 2026)
+
+Directly reopened `2016/incidents.csv`, `2016/sources.csv`, `part-2/organisations/FAI_FRI.md` and `part-2/JUDGMENT_INCIDENT_CROSSWALK.md`.
+
+**Inventory:** The CSV has **23 data rows**, of which **20** have `confidence=adequate`, **2** `candidate` and **1** `outside_scope`. The 23-row inventory is not an official 2016 attack total; `GB16-COX` is contextual and `DE16-HAN` / `DE16-DUS` are alternative or candidate German event links.
+
+**Direct incident-ID joins:** `IT16-CIV`, `IT16-PAR`, `IT16-BIO` and `IT16-BOL` exist in `2016/incidents.csv` and the judgment crosswalk. The 2016 register uses `EU16` as its source ID for all four; `EU16` exists in `2016/sources.csv` and resolves to the archived TE-SAT 2017 PDF with a recorded SHA-256. The additional original Italian intelligence and Ministry of Interior sources are cited in the crosswalk but **not yet assigned dedicated `2016/sources.csv` source IDs**. This is a traceability enhancement to address before editing the structured dates/localities.
+
+**Corrected `organisations/FAI_FRI.md`:** The June 2016 Parma and Milan entries now explicitly distinguish (1) original Italian report's **unclaimed** parcel attacks; (2) intelligence assessment of a probable common campaign linked to *Nucleo Danaus plexippus* communication; (3) Europol's FAI/FRI-cell attribution. Civitavecchia's later FAI/FRI-labelled claim is a separate claim. No event-specific merits judgment has been verified for any of these three.
+
+**Remaining controlled-data task:** Add the Italian primary documents to the source register with stable source IDs, then amend `IT16-CIV`, `IT16-PAR`, `IT16-BIO` dates and `IT16-BIO` locality using those source IDs; retain original Europol source and classification. Do not change incident totals or proceedings relationships.
+
+**Verification gate:** Crosswalk existence and source-ID existence above were manually inspected; a **whole-repository automated foreign-key check has not yet run**. This is not a claim of complete validation.
