@@ -107,3 +107,21 @@ The [official Greek Supreme Court criminal-case search](https://www.areiospagos.
 **Exact source locator:** PDF text lines 194–210, printed pp. 11–12, especially lines 200–205 and footnote 4. The document was directly reopened and its event description inspected on 20 November 2026.
 
 **Greek Papademos court-number search:** Contemporary [Kathimerini report](https://www.kathimerini.com.cy/gr/ellada/katadiki-gia-to-dema-bomba-ston-loyka-papadimo-%E2%80%93-neo-yliko-apo-tis-kameres-asfaleias) identifies the trial court, decision date and defendant, but does not supply an operative judgment number. The [Greek Supreme Court criminal-case search](https://www.areiospagos.gr/poiniko_search.asp) requests a challenged judgment number/year or a hearing date. A verified attack-trial judgment number and subsequent finality were **not obtained** in this search. Do not infer absence of appeal.
+
+## Original Italian intelligence report: exact 2016 incident joins (20 November 2026)
+
+[Italian government, *Relazione sulla politica dell'informazione per la sicurezza 2016*, Doc. XXXIII no. 4, communicated to Parliament 24 February 2017, printed pp. 69–70](https://www.senato.it/service/PDF/PDFServer/BGT/1021660.pdf) was reopened and its relevant text reviewed.
+
+| Incident ID | Original report's exact date and place | Event and attribution | Evidence join |
+|---|---|---|---|
+| IT16-CIV | **12 January 2016**, Civitavecchia courthouse | Low-yield device; later claim signed Comitato pirotecnico per un anno straordinario, FAI/FRI | DIRECT_OFFICIAL_EVENT_REPORT; REPORTED_RESPONSIBILITY_CLAIM |
+| IT16-PAR | **7 June 2016**, European Food Safety Authority, Parma | Explosive parcel intercepted by security staff | DIRECT_OFFICIAL_EVENT_REPORT; **no authenticated direct responsibility claim** |
+| IT16-BIO | **9 June 2016**, biotechnology company's registered office, **Milan** | Parcel exploded; office-holder slightly injured | DIRECT_OFFICIAL_EVENT_REPORT; **no authenticated direct responsibility claim** |
+
+The government report explicitly says the Parma and Milan attacks were **not claimed**, but assesses they **probably** belonged to the same anti-harm campaign linked to the *Nucleo Danaus plexippus*-FAI/FRI statement delivered to food/biotechnology companies on 7–9 June. This is an **official intelligence assessment of thematic/possible actor linkage**, not a conviction, authenticated perpetrator or command relationship. Its identification of Milan improves the geographical precision of the generic `IT16-BIO` incident description, but the structured CSV is intentionally unchanged until the event-to-source audit and controlled edit.
+
+The report also describes September 2016 *Scripta Manent* detention measures against seven suspects and investigative reconstruction of the FAI/FRI network. **No defendant-to-IT16-PAR/IT16-BIO conviction is established by this source.** The report's account of Greek CCF ideological ties and a 2016 Athens judge-residence attack likewise does not prove cross-border operational direction.
+
+**Locator:** printed pp. 69–70, PDF extracted lines 1331–1350; CCF Greece discussion printed p. 71, lines 1357–1359. This is an additional original government source alongside the separately reviewed Italian Interior Ministry 2016 report for IT16-CIV.
+
+**Current evidence status:** three **official event joins**, zero **verified event-specific judicial conviction joins** from this source. No alteration to 2016 incident counts, casualty allocations or proceedings relationships.
