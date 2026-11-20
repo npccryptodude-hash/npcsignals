@@ -188,3 +188,19 @@ A fresh remote read of the four 2016 CSV files was parsed with a quote-aware CSV
 **Remote CI check:** PR #7 remains draft and unmerged; the current head at the time of inspection was `e2db19aa4db5bdf1f898a22203f13ec54ebd7320`. No pull-request workflow runs were returned for that commit. This is not evidence that tests ran or passed.
 
 **Verdict for this subset:** PASS (2016 basic referential integrity); overall publication gate remains NOT READY.
+
+## Tenth pass: extended 2016 relationship and allocation integrity (20 November 2026)
+
+All four 2016 CSVs were fetched again from the current research branch and parsed with an independent quote-aware JavaScript CSV parser. The following checks were **actually executed**:
+
+- Every `source_ids` token in **23 incident rows**: **42** source references, zero unresolved.
+- Every `source_id` token in **15 crosswalk rows**: **15** source references, zero unresolved.
+- Every `source_ids` token in **14 proceedings relationship rows**: **21** source references, zero unresolved.
+- All 14 proceedings `incident_id` foreign keys resolve to existing incidents; all proceeding dates conform to year/month/day-prefix syntax.
+- For each crosswalk cell, `total = adequate + candidate + unidentified`; adequate linked incident count matches `adequate`; each linked incident matches country, category and outcome of its cell. Zero exceptions.
+
+**Result: PASS for these additional 2016 structural and relationship checks (78 source references).** This is independent parser/logic execution in the connector audit environment, **not execution of the repository's Python scripts**. It does not validate the factual accuracy of national sources, 2016 injury arithmetic, cross-year consistency or deterministic SVG reproducibility.
+
+**Execution constraint:** Repository files are accessible through the GitHub connector; the local execution container could not resolve github.com, and the connector does not expose a shell executor. Therefore `audit/recalculate.py`, `audit/phase24/verify_independent.py`, `audit/build_english_figures.py --check`, and `audit/phase25/verify_layouts.py` **remain unexecuted on the current head**. The historical Phase 25 PASS is not transferred to this changed checkpoint.
+
+**Editorial gate remains NO-GO** until full deterministic regression and independent human review.
