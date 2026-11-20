@@ -18,7 +18,7 @@ GB16-COX,2016-06-16,GB,Birstall,context_only,outside_original_attack_count,outsi
 GR16-PRO,2016-10,GR,Athens,left_wing_anarchist,unresolved_outcome,adequate,,,EU16,pp. 42–43; Prosecutor residence; exact annex outcome unknown.
 GR16-MEX,2016-07,GR,Athens,left_wing_anarchist,unresolved_outcome,adequate,,,EU16,pp. 42–43; Mexican embassy; exact annex outcome unknown.
 GR16-FRA,2016-11,GR,Athens,left_wing_anarchist,unresolved_outcome,adequate,,,EU16,pp. 42–43; French embassy; exact annex outcome unknown.
-IT16-CIV,2016-01,IT,Civitavecchia,left_wing_anarchist,unresolved_outcome,adequate,,,EU16,pp. 42–43; Courthouse; exact annex outcome unknown.
-IT16-PAR,2016-06,IT,Parma,left_wing_anarchist,unresolved_outcome,adequate,,,EU16,pp. 42–43; European Food Safety Authority; exact annex outcome unknown.
-IT16-BIO,2016-06,IT,Italy,left_wing_anarchist,unresolved_outcome,adequate,,,EU16,pp. 42–43; Biotechnology company; exact annex outcome unknown.
+IT16-CIV,2016-01-12,IT,Civitavecchia,left_wing_anarchist,unresolved_outcome,adequate,,,EU16;IT16-INTEL;IT16-INTERIOR,pp. 42–43; Courthouse; exact annex outcome unknown.
+IT16-PAR,2016-06-07,IT,Parma,left_wing_anarchist,unresolved_outcome,adequate,,,EU16;IT16-INTEL,pp. 42–43; European Food Safety Authority; exact annex outcome unknown.
+IT16-BIO,2016-06-09,IT,Milan,left_wing_anarchist,unresolved_outcome,adequate,,,EU16;IT16-INTEL,pp. 42–43; Biotechnology company; exact annex outcome unknown.
 IT16-BOL,2016,IT,Bologna,left_wing_anarchist,unresolved_outcome,adequate,,,EU16,pp. 42–43; Carabinieri station; exact annex outcome unknown.
