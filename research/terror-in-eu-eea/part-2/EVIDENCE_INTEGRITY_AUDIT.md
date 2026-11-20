@@ -126,3 +126,20 @@ Reopened **all five thematic Part 2 chapters** and `ORGANISATIONS.md` on the res
 **Cross-cutting material risk:** Source-derived 2016 injury totals remain inconsistent in the original edition, and the separatist 2023 reporting-year cohort differs from occurrence-year distribution. These are **different** comparability issues and must not be combined into one correction.
 
 **Next queue:** audit the five organisation profiles in full; validate cross-referenced incident IDs and original-source locators; inspect 2016 casualty trend figures and run deterministic repository checks.
+
+## Sixth pass: all five organisation profiles, dated consistency audit (20 November 2026)
+
+Reopened the complete repository content of `organisations/FAI_FRI.md`, `REVOLUTIONARY_CLASS_SELF_DEFENSE.md`, `CONSPIRACY_OF_CELLS_OF_FIRE.md`, `ISLAMIC_STATE.md` and `NORDIC_RESISTANCE_MOVEMENT.md`. This pass checks **internal consistency and attribution boundaries**; it does not claim independent re-reading of every linked primary document.
+
+**Verified internal inconsistencies corrected on the research branch:**
+1. **NRM:** Opening narrative and 2020 chronology previously stated Finnish judgment had not been independently checked, despite later section citing the verified **official Supreme Court summary KKO:2020:68**. Corrected to distinguish the reviewed official summary from the full Finnish-language judgment not yet reviewed.
+2. **RCS:** Initial US-designation section still described Federal Register verification as outstanding despite the later original-notice section. Updated to reflect primary FTO/SDGT notices and preserve the Greek judicial gap.
+3. **CCF:** Clarified that missing original event-specific judicial proof concerns **October 2016 prosecutor-residence incident**, not all Greek cases. The Papademos 2017 first-instance verdict remains **reported**, not original-judgment-verified or final.
+
+**No text change required in this pass:** FAI/FRI profile consistently distinguishes US alias designation, 2016 Europol attribution, Italian historical Fossano proceedings and the separate 2022 Rome claim; IS profile separates final Solingen membership finding from detention orders in AK 100–106/23 and StB 50/25. Both still have original-judgment/document gaps explicitly identified.
+
+**Unresolved:** The FAI/FRI opening narrative describes the two 2016 parcels as attributed to a named cell in Europol, while the original Italian intelligence report's stronger nuance is that Parma and Milan were **unclaimed** and a shared campaign was assessed as probable. These propositions can coexist only with careful source attribution: a Europol-reported cell attribution is not a perpetrator-authenticated claim or a judicial finding. Before publication, align the event-specific wording with both original documents and preserve the differing confidence levels.
+
+**Scope of edits:** Four sequential commits to three existing organisation profiles; no incident data, statistics, legal relationship CSVs or primary evidence changed. The five-profile internal consistency check is **completed with residual source-verification gaps**, not a full substantive clearance.
+
+**Next queue:** cross-reference all profile incident IDs with CSV source identifiers; inspect deterministic validation scripts and run them in an appropriate reproducible environment; resolve the Italian event wording where original texts support a precise correction.
