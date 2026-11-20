@@ -9,6 +9,7 @@ An official category tells you how an entry was reported. A court can establish 
 - [Jihadist networks and individuals: organisational evidence](JIHADIST_NETWORKS_AND_INDIVIDUALS.md)
 - [Right-wing networks and ideological influence](RIGHT_WING_NETWORKS_AND_INFLUENCE.md)
 - [Separatist and ethno-nationalist reporting and attribution](SEPARATIST_AND_ETHNONATIONALIST.md)
+- [Organisation-profile source verification and outstanding evidence](ORGANISATION_PROFILE_VERIFICATION.md)
 - [Organisations and case links](ORGANISATIONS.md)
 - [Historical category counts and Norway's threat assessment](STATISTICS_AND_NORWAY.md)
 - [Italy's concentration in left-wing/anarchist reporting, 2022–2025](ITALY_CONCENTRATION.md)
