@@ -8,5 +8,7 @@ An official category tells you how an entry was reported. A court can establish 
 - [Left-wing and anarchist terrorism](LEFT_WING_AND_ANARCHIST.md)
 - [Organisations and case links](ORGANISATIONS.md)
 - [Historical category counts and Norway's threat assessment](STATISTICS_AND_NORWAY.md)
+- [Italy's concentration in left-wing/anarchist reporting, 2022–2025](ITALY_CONCENTRATION.md)
+- [Why extremist violence and terrorism entries differ: 2016](CLASSIFICATION_BOUNDARY_2016.md)
 - [Source register](SOURCES.md)
 - [Part 1 methodology](../METHODOLOGY.md)
