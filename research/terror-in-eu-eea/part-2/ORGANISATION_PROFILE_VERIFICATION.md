@@ -44,3 +44,18 @@ Two original BGH orders have now been inspected, separate from the Solingen fina
 - [StB 50/25, 30 October 2025](https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=Aktuell&Gericht=bgh&Sort=12288&anz=1072&nr=143630&pos=4): detention review, alleged fundraising and correspondence support by a **non-member**. The court provides a historical account of IS's goals and organisational trajectory. **Not a conviction.**
 
 **Updated gap:** original German judicial historical description is now available, but it is not an IS-authored programme. Final case dispositions, actual transfers proved at trial, organisational direction and comprehensive leadership/finance chronology remain unverified. The earlier matrix row describing IS history as only broad background should now be read with this source-specific upgrade.
+
+
+## Judicial follow-up, 20 November 2026
+
+| Track | New evidence | Current verified procedural limit | Next source |
+|---|---|---|---|
+| Germany AK 100–106/23 | Federal Prosecutor statement: seven indicted 28 March 2024; trial opened July 2024 | No later final judgment located in this search; 2022 five-defendant Düsseldorf verdict is unrelated | OLG Düsseldorf assigned trial docket, court judgment, appellate outcome |
+| Germany StB 50/25 | Original 30 October 2025 detention order remains last verified judicial record | No later judgment verified | Federal Prosecutor case announcement and court docket |
+| Italy FAI/FRI, Fossano 2006 | Rai/ANSA report final Cassation outcome 24 April 2024: Cospito 23 years, Beniamino 17 years 9 months | Reported finality; original Cassation judgment not yet inspected; pre-2015 event | Cassazione operative judgment and reasons |
+| Italy FAI/FRI, Adinolfi 2012 | Rai reports 2014 Cospito conviction and Nucleo Olga responsibility claim | Original judgment unreviewed; pre-2015 event | 2014 final judgment and authenticated claim |
+| Italy FAI/FRI, Speziale | ANSA 23 March 2026 reports final acquittal and unsuccessful detention-compensation application | Reported acquittal; original court reasons not inspected | Acquittal and compensation judgments |
+| Greece CCF, Athens 2016 | Europol attribution already registered | Original Greek judgment not verified | Greek judicial database and prosecutor's case identifiers |
+| Greece RCS, Athens 2024/2025 | Police occurrence and Europol claim; US designation instruments verified | No Greek merits judgment verified | Greek police/prosecutor releases and trial docket |
+
+The Italian final-outcome reporting supplies useful **case contrast**, but the cases of 2006 and 2012 must not be counted as attacks occurring during 2015–2025. Greek case status remains **unresolved**, not assumed to be an acquittal or conviction. Source links and detailed caveats are in the individual organisation profiles.
