@@ -74,3 +74,23 @@ A direct row count of the inspected `2016/incidents.csv` text gives **23 inciden
 `part-2/ATTRIBUTION_COMPARISON.md` was reopened. Its ten examples distinguish (a) judicially supported ideology, (b) official reports of claims, (c) agency assessments, (d) pretrial custody and (e) final court outcomes. No direct assertion that the 2016 Italian FAI/FRI-labelled claim proves perpetrator identity was found in this inspected comparison. Remaining risk: the comparison's `Germany, Solingen, 2024` row uses a final BGH summary to support membership, but the document expressly withholds an inference of operational command; retain that caveat. This is a **document-specific check**, not an exhaustive audit of all Part 2 prose.
 
 **Next:** verify counts programmatically, inspect the original TE-SAT 2017 tables, then inspect each remaining Part 2 profile against the event-ID crosswalk.
+
+## Third pass: direct verification against Europol TE-SAT 2017 (20 November 2026)
+
+**Original primary PDF reopened:** [Europol, *European Union Terrorism Situation and Trend Report 2017*](https://www.europol.europa.eu/sites/default/files/documents/tesat2017.pdf). This is a **same-edition, directly verified internal numerical incompatibility**, not an inference from later national casualty revisions.
+
+| Source location (printed page) | Original statement / number | Audit result |
+|---|---|---|
+| p. 10, general overview | **379** injured; **142** victims killed; **142** attacks reported | Confirmed as original headline |
+| p. 49, Annex 1 | **374 out of 379** casualties in religiously inspired category; **135 out of 142** deaths | Confirmed original annex wording |
+| p. 24, Brussels narrative | **340** injured across Zaventem and Maelbeek, combined | Confirmed; **do not duplicate across both sites** |
+| p. 23, Nice narrative | **201** injured | Confirmed |
+| p. 23, Berlin narrative | **56** injured | Confirmed |
+
+**Arithmetic:** 340 + 201 + 56 = **597**, exceeding the report's 379 by **218**. Even the two-event sum Brussels + Nice = **541**, exceeding 379 by **162**. All three events are described by the report as 2016 attacks in the EU. **Therefore the narrative figures and the headline cannot be treated as one consistent, additive injury population.** The underlying cause (definition, correction, temporal cutoff, editorial error or another issue) is **not established** by the checked pages. Do not assign one.
+
+**Editorial restriction:** No graph, comparative injury-rate calculation or prose may use the 379 as a reconciled sum of these individual incidents. Present it only as *Europol's published aggregate* with an explicit inconsistency flag until an official correction or defensible methodology is found. Preserve original values in `2016/statistics.csv` and `2016/incidents.csv`; any later harmonised series must have a separate metric and source protocol.
+
+**Independent cross-check:** The PDF's Annex 1 also shows the **142** attacks split by country and affiliation; it does not provide incident-specific injury allocations that would resolve this mismatch. The original narrative directly supports the 340/201/56 values; the original headline and annex directly support 379/374.
+
+**Verification status:** Original-source arithmetic conflict = **CONFIRMED**. Explanation = **UNKNOWN**. Official corrigendum = **NOT YET CHECKED**. Dataset changes = **NONE**.
