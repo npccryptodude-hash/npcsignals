@@ -1,0 +1,8 @@
+country_iso2,completed,failed,foiled,jihadism,right_wing,left_wing_anarchist,separatist,other_combined,total,source_id
+BE,1,0,1,2,0,0,0,0,2,EU23
+FR,72,0,8,8,1,0,70,1,80,EU23
+DE,1,0,2,3,0,0,0,0,3,EU23
+GR,0,1,0,0,0,1,0,0,1,EU23
+IT,23,7,0,0,0,30,0,0,30,EU23
+LU,0,0,1,0,1,0,0,0,1,EU23
+ES,1,1,1,1,0,1,0,1,3,EU23

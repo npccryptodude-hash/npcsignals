@@ -1,0 +1,10 @@
+metric_id,geography,measure,value,source_ids,locator
+ALL-DEAD,original_including_UK,headline_victim_deaths,10,EU19,pp. 10–11 and 35; separate from NI and German context cases
+ALL-INJ,original_including_UK,headline_injured,27,EU19,pp. 10–11; jihadist 26 and right-wing one
+EU27-DEAD,fixed_EU27,derived_headline_victim_deaths,8,EU19,"p. 35 enumerates four Utrecht, four Paris, two London"
+EU27-INJ,fixed_EU27,injury_total_unverified,,EU19,pp. 10–11 and 35; original all-incident injury geography not consistently decomposed
+GB-NI-SEC,GB-NIR,2019_security_incidents_in_NI,55,EU19,p. 54
+GB-NI-NS,GB-NIR,2019_incidents_targeting_national_security_in_NI,4,EU19,p. 54; one additional outside NI
+GB-NI-EXT,GB,2019_related_attack_on_national_security_target_outside_NI,1,EU19,pp. 54 and 84
+GB-NS-LATER,GB-NIR,2019_national_security_attack_series_as_reported_in_2026,5,GB-NS,HLWS1514; distinct series and source vintage
+GB-NI-ARR,GB-NIR,2019_additional_arrests_outside_UK_281,147,EU19,p. 85 annex note

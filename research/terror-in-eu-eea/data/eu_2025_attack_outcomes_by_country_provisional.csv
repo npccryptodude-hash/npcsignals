@@ -1,0 +1,11 @@
+year,country_iso2,completed,failed,foiled,total,source_url,source_page,verification_status,notes
+2025,AT,1,0,6,7,https://www.europol.europa.eu/cms/sites/default/files/documents/EU-TE-SAT-2026.pdf,47,verified_against_publisher_pdf_phase18,reported_eu_attacks
+2025,BE,0,0,2,2,https://www.europol.europa.eu/cms/sites/default/files/documents/EU-TE-SAT-2026.pdf,47,verified_against_publisher_pdf_phase18,reported_eu_attacks
+2025,FR,3,0,11,14,https://www.europol.europa.eu/cms/sites/default/files/documents/EU-TE-SAT-2026.pdf,47,verified_against_publisher_pdf_phase18,reported_eu_attacks
+2025,DE,4,0,0,4,https://www.europol.europa.eu/cms/sites/default/files/documents/EU-TE-SAT-2026.pdf,47,verified_against_publisher_pdf_phase18,reported_eu_attacks
+2025,GR,1,1,0,2,https://www.europol.europa.eu/cms/sites/default/files/documents/EU-TE-SAT-2026.pdf,47,verified_against_publisher_pdf_phase18,reported_eu_attacks
+2025,IE,1,0,1,2,https://www.europol.europa.eu/cms/sites/default/files/documents/EU-TE-SAT-2026.pdf,47,verified_against_publisher_pdf_phase18,reported_eu_attacks
+2025,IT,10,1,0,11,https://www.europol.europa.eu/cms/sites/default/files/documents/EU-TE-SAT-2026.pdf,47,verified_against_publisher_pdf_phase18,reported_eu_attacks
+2025,MT,0,1,0,1,https://www.europol.europa.eu/cms/sites/default/files/documents/EU-TE-SAT-2026.pdf,47,verified_against_publisher_pdf_phase18,reported_eu_attacks
+2025,NL,1,0,0,1,https://www.europol.europa.eu/cms/sites/default/files/documents/EU-TE-SAT-2026.pdf,47,verified_against_publisher_pdf_phase18,reported_eu_attacks
+2025,ES,1,0,0,1,https://www.europol.europa.eu/cms/sites/default/files/documents/EU-TE-SAT-2026.pdf,47,verified_against_publisher_pdf_phase18,reported_eu_attacks

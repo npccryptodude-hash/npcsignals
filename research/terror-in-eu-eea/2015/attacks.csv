@@ -1,0 +1,13 @@
+country_iso2,category,outcome,total,geography_component,source_id,locator
+DK,jihadism,completed,2,fixed_EU27,EU15,p. 44 annex; pp. 10 and 22–23 for named incidents
+FR,jihadism,completed,3,fixed_EU27,EU15,p. 44 annex; pp. 10 and 22–23 for named incidents
+FR,jihadism,unresolved_outcome,12,fixed_EU27,EU15,p. 44 annex; pp. 10 and 22–23 for named incidents
+FR,right_wing,unresolved_outcome,7,fixed_EU27,EU15,p. 44 annex; pp. 10 and 22–23 for named incidents
+FR,separatist,unresolved_outcome,47,fixed_EU27,EU15,p. 44 annex; pp. 10 and 22–23 for named incidents
+FR,not_specified,unresolved_outcome,4,fixed_EU27,EU15,p. 44 annex; pp. 10 and 22–23 for named incidents
+GR,left_wing_anarchist,unresolved_outcome,2,fixed_EU27,EU15,p. 44 annex; pp. 10 and 22–23 for named incidents
+GR,right_wing,unresolved_outcome,2,fixed_EU27,EU15,p. 44 annex; pp. 10 and 22–23 for named incidents
+IT,left_wing_anarchist,unresolved_outcome,4,fixed_EU27,EU15,p. 44 annex; pp. 10 and 22–23 for named incidents
+ES,left_wing_anarchist,unresolved_outcome,7,fixed_EU27,EU15,p. 44 annex; pp. 10 and 22–23 for named incidents
+ES,separatist,unresolved_outcome,18,fixed_EU27,EU15,p. 44 annex; pp. 10 and 22–23 for named incidents
+GB,not_specified,unresolved_outcome,103,UK_contribution,EU15,p. 44 annex; pp. 10 and 22–23 for named incidents

@@ -1,0 +1,17 @@
+incident_id,event_date,country_iso2,locality,category,outcome_cell,confidence,deaths,injuries,source_ids,qualification
+AT20-VIE,2020-11-02,AT,Vienna,jihadism,completed,adequate,4,27,EU20;AT-OMB,pp. 45–46; 17 directly injured and ten while escaping.
+FR20-VIL,2020-01-03,FR,Villejuif,jihadism,completed,adequate,1,2,EU20,p. 44; count excludes perpetrator.
+FR20-ROM,2020-04-04,FR,Romans-sur-Isère,jihadism,completed,adequate,2,5,EU20,p. 44.
+FR20-COL,2020-04-27,FR,Colombes,jihadism,completed,adequate,0,2,EU20,p. 44.
+FR20-PAR,2020-09-25,FR,Paris,jihadism,completed,adequate,0,2,EU20,p. 45.
+FR20-CON,2020-10-16,FR,Conflans-Sainte-Honorine,jihadism,completed,adequate,1,,EU20;FR-APP,p. 45; count excludes perpetrator.
+FR20-NIC,2020-10-29,FR,Nice,jihadism,completed,adequate,3,1,EU20;FR-NIC,p. 45; victim injury excludes perpetrator.
+DE20-WAL,2020-04/2020-05,DE,Waldkraiburg,jihadism,completed,adequate,0,6,EU20;DE-WAL,p. 44; one statistical example for a physical series. Injury number pertains to one event.
+DE20-A100,2020-08-18,DE,Berlin A100,jihadism,completed,adequate,0,6,EU20;DE-BER,"p. 44; original allocation verified. Identity of removed record remains candidate, see audit."
+DE20-DRE,2020-10-04,DE,Dresden,jihadism,completed,adequate,1,1,EU20;DE-DRE,p. 45; one survivor injured; one victim died.
+FR20-BRE,2020-01-20,FR,Brest,jihadism,foiled,adequate,,,EU20,p. 48; disruption date.
+FR20-FAR,2020-10-27,FR,Farébersviller,jihadism,foiled,adequate,,,EU20,p. 48; disruption date.
+BE20-EUP,2020-10-31,BE,Eupen and La Calamine,jihadism,foiled,adequate,,,EU20,"p. 48; one plot, two arrest locations."
+DE20-CEL,2020-04-15,DE,Germany,jihadism,foiled,adequate,,,EU20;DE-CEL,"p. 48; one plot-cell allocation, not one per arrest."
+DE20-HAN,2020-02-19,DE,Hanau,right_wing,completed,adequate,9,,EU20;DE-HAN,pp. 18–19; Europol victim scope; excludes perpetrator and his mother.
+GB20-REA,2020-06-20,GB,Reading,national,outside_scope,outside_scope,3,,GB-REA;EU20,Separate UK case.

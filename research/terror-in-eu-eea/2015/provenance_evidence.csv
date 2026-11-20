@@ -1,0 +1,4 @@
+record_id,occurrence_year,incident_id,evidence_layer,numeric_revision,source_ids,qualification
+2015-193,2015,,later_unexplained_chart,unresolved,EU15;EU16;EU17;EU18,"TE-SAT 2017 p. 11 Fig. 1 and TE-SAT 2018 p. 9 Fig. 1 print 193 for 2015. TE-SAT 2017 pp. 10 and 49 and TE-SAT 2019 p. 13 give 211. No correction notice, allocation or revised country tables verified."
+2015-FR-OV,2015,,same_edition_margin_conflict,none_verified,EU15,Overview p. 10 gives France 72 and 50 separatist versus annex 73 and 47. Annex reconciles to 211.
+2015-NOV-UNIT,2015,FR15-NOV,multiple_physical_sites_shared_proceeding,none_verified,EU15;FR-INQ;FR-PAR-CIV,Count one supported representative allocation as lower bound; remaining unkeyed slots not split by site or court charge.

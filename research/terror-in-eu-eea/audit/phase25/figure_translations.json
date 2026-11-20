@@ -1,0 +1,254 @@
+{
+  "01_geography": [
+    [
+      "eu28 og fast eu27, 2015–2019",
+      "eu28 and fixed eu27, 2015–2019"
+    ],
+    [
+      "To stolper per år. Originalserien inkluderer Storbritannia; fast EU27 trekker fra den britiske raden.",
+      "Two bars per year. Original series includes the UK; fixed EU27 excludes the UK row."
+    ],
+    [
+      "eu28 og fast eu27, 2015–2019",
+      "eu28 and fixed eu27, 2015–2019"
+    ],
+    [
+      "venstre: original eu28 · høyre: fast eu27",
+      "left: original eu28 · right: fixed eu27"
+    ],
+    [
+      "rapporterte angrepsposter",
+      "reported attack entries"
+    ],
+    [
+      "britiske poster trukket fra: 103 / 76 / 107 / 60 / 64",
+      "UK entries excluded: 103 / 76 / 107 / 60 / 64"
+    ],
+    [
+      "2015: figurobservasjonen 193 har uavklart grunnlag; 211 er originalt årstall.",
+      "2015: chart value 193 is unresolved; original annual total is 211."
+    ],
+    [
+      "fast geografi beholder nasjonal rapporteringspraksis.",
+      "fixed geography retains national reporting differences."
+    ],
+    [
+      "npcsignals · internt utkast · kildegrunnlag d1f675e",
+      "npcsignals · internal draft · source checkpoint d1f675e"
+    ]
+  ],
+  "02_eu27_series": [
+    [
+      "rapporterte tall ved fast eu27-geografi",
+      "reported counts on fixed eu27 geography"
+    ],
+    [
+      "Elleve år med angrepsposter og pågripelser i to separate paneler med nullbaserte akser.",
+      "Eleven years of reported attacks and arrests in separate zero-based panels."
+    ],
+    [
+      "rapporterte tall ved fast eu27-geografi",
+      "reported counts on fixed eu27 geography"
+    ],
+    [
+      "angrepsposter",
+      "attack entries"
+    ],
+    [
+      "rapporterte pågripelser",
+      "reported arrests"
+    ],
+    [
+      "fra 2020: britisk rad er ute av originalserien; fast eu27 bruker samme geografi gjennom perioden.",
+      "from 2020: UK row absent; fixed eu27 retains the same geography."
+    ],
+    [
+      "2023: 26 eldre poster i angrepskohorten; 426 pågripelser mot senere tabellsum 431.",
+      "2023: 26 earlier attack entries; 426 arrests vs later table sum 431."
+    ],
+    [
+      "2015: 193 er en separat figurobservasjon · 2025: aldersnevneren 347/344 er uavklart.",
+      "2015: separate chart value 193 · 2025: age denominator 347/344 unresolved."
+    ],
+    [
+      "rapporterte kohorter; faktisk hendelsesfrekvens kan ikke utledes.",
+      "reported cohorts; physical incident frequency cannot be inferred."
+    ],
+    [
+      "npcsignals · internt utkast · kildegrunnlag d1f675e",
+      "npcsignals · internal draft · source checkpoint d1f675e"
+    ]
+  ],
+  "03_revisions": [
+    [
+      "offisielle revisjoner og betinget følsomhet",
+      "official revisions and conditional sensitivity"
+    ],
+    [
+      "Fast EU27 mot analytisk scenario for 2020–2023. To separate markører viser dokumenterte revisjoner.",
+      "Fixed EU27 versus conditional scenario, 2020–2023. Two markers show official revisions."
+    ],
+    [
+      "offisielle revisjoner og betinget følsomhet",
+      "official revisions and conditional sensitivity"
+    ],
+    [
+      "venstre: fast eu27 · høyre: betinget scenario · oransje markør: senere offisielt tall",
+      "left: fixed eu27 · right: conditional · amber: later official"
+    ],
+    [
+      "rapporterte eller omfordelte angrepsposter",
+      "reported or reallocated attack entries"
+    ],
+    [
+      "senere offisielle tall: 56 (2020) og 18 (2021); øvrige markører mangler.",
+      "later official: 56 (2020), 18 (2021); no other revision markers."
+    ],
+    [
+      "scenario: offisielle revisjoner og omfordeling av 26 eldre poster til 2021 (+4) og 2022 (+22).",
+      "scenario: revisions plus 26 older entries to 2021 (+4), 2022 (+22)."
+    ],
+    [
+      "2015, utenfor panelet: 193 i senere figur har uavklart grunnlag.",
+      "2015 (not shown): separate chart value 193 remains unresolved."
+    ],
+    [
+      "omfordelingen er betinget; enkelthendelser og mulig overlapp er uavklart.",
+      "conditional reallocation; individual joins and overlap unresolved."
+    ],
+    [
+      "npcsignals · internt utkast · kildegrunnlag d1f675e",
+      "npcsignals · internal draft · source checkpoint d1f675e"
+    ]
+  ],
+  "04_coverage": [
+    [
+      "identifikasjon av statistiske poster",
+      "identification of statistical entries"
+    ],
+    [
+      "Tre stablede andeler for hvert år. Total og eksakte klassetall står under hver stolpe.",
+      "Three stacked shares each year; totals and exact counts below bars."
+    ],
+    [
+      "identifikasjon av statistiske poster",
+      "identification of statistical entries"
+    ],
+    [
+      "nederst: tilstrekkelig · midten: kandidat · øverst: uidentifisert",
+      "bottom: identified · middle: candidate · top: unidentified"
+    ],
+    [
+      "original geografi: eu28 til og med 2019; eu27 fra 2020.",
+      "original scope: eu28 through 2019; eu27 from 2020."
+    ],
+    [
+      "i 2025 svarer 17 kandidatposter til 18 mulige identiteter.",
+      "2025: 17 candidate entries, 18 possible event identities."
+    ],
+    [
+      "den fysiske hendelsesdekningen kan ikke utledes av disse andelene.",
+      "physical incident coverage cannot be inferred from these shares."
+    ],
+    [
+      "npcsignals · internt utkast · kildegrunnlag d1f675e",
+      "npcsignals · internal draft · source checkpoint d1f675e"
+    ]
+  ],
+  "05_institutions": [
+    [
+      "institusjonelle tellinger, 2025",
+      "institutional counts, 2025"
+    ],
+    [
+      "Fem rader viser særskilte institusjonelle enheter i Tyskland og Frankrike.",
+      "Five distinct institutional counting units in Germany and France."
+    ],
+    [
+      "institusjonelle tellinger, 2025",
+      "institutional counts, 2025"
+    ],
+    [
+      "jihadistisk motiverte angrep i hele tyskland",
+      "jihadist-motivated attacks in Germany"
+    ],
+    [
+      "navngitte steder i føderalt svar",
+      "locations named in federal response"
+    ],
+    [
+      "fullførte jihadistiske europolposter",
+      "completed jihadist Europol entries"
+    ],
+    [
+      "fullførte jihadistisk inspirerte angrep",
+      "completed jihadist-inspired attacks"
+    ],
+    [
+      "fullførte jihadistiske europolposter",
+      "completed jihadist Europol entries"
+    ],
+    [
+      "kildene oppgir ulike telleenheter; de publiserte radene har ingen felles hendelsesnøkkel.",
+      "sources use different units; no common event key is established."
+    ],
+    [
+      "npcsignals · internt utkast · kildegrunnlag d1f675e",
+      "npcsignals · internal draft · source checkpoint d1f675e"
+    ]
+  ],
+  "06_judicial": [
+    [
+      "rettslige og organisatoriske beviskjeder",
+      "judicial and organizational evidence chains"
+    ],
+    [
+      "Daterte rader viser initial vurdering, dom og rettskraft i A100, PETs oppsummering for Holbæk og flere kildetyper for Solingen.",
+      "Dated observations: A100 assessments and judgments, PET Holbæk summary, and Solingen sources."
+    ],
+    [
+      "rettslige og organisatoriske beviskjeder",
+      "judicial and organizational evidence chains"
+    ],
+    [
+      "innledende mistanke om islamistisk angrep",
+      "initial suspicion of Islamist attack"
+    ],
+    [
+      "domstolen avviser klassifisering og beslutter plassering",
+      "court rejects classification; orders placement"
+    ],
+    [
+      "BGH forkaster revisjonen; avgjørelsen er rettskraftig",
+      "BGH dismisses appeal; judgment final"
+    ],
+    [
+      "PET oppgir ankefunn om terrorforsøk og finansiering",
+      "PET reports appeal finding: attempt and financing"
+    ],
+    [
+      "Europol omtaler kommunikasjon og oppmuntring",
+      "Europol reports contact and encouragement"
+    ],
+    [
+      "BGH forkaster revisjonen; draps- og medlemskapsdommen er rettskraftig",
+      "BGH dismisses appeal; murder and IS membership final"
+    ],
+    [
+      "BGH gjengir oppmuntring og råd fra IS-kontakter",
+      "BGH recounts encouragement and advice from IS contacts"
+    ],
+    [
+      "A100: kobling til slettet europolpost står som kandidat.",
+      "A100: link to deleted Europol entry remains a candidate."
+    ],
+    [
+      "sakene gir ikke grunnlag for å fastslå en felles operativ kommandostruktur.",
+      "cases do not establish a shared operational command."
+    ],
+    [
+      "npcsignals · internt utkast · kildegrunnlag d1f675e",
+      "npcsignals · internal draft · source checkpoint d1f675e"
+    ]
+  ]
+}

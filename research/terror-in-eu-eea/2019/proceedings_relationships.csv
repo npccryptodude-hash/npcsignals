@@ -1,0 +1,11 @@
+record_id,incident_id,date,stage_or_relationship,evidence_status,finding_or_allegation,finality,source_ids
+UTR-J1,NL19-UTR,2020-03-20,trial_judgment,confirmed,Life sentence; court found terrorist intent. ECLI:NL:RBMNE:2020:1046.,appeal_status_not_verified,NL-UTR
+UTR-R1,NL19-UTR,2019-03,propaganda_reference,reported,Europol records an IS publication referring to the attack without claiming it. Reported relative links do not establish perpetrator membership or direction.,not_applicable,EU19
+LYO-J1,FR19-LYO,2025-04-07,trial_judgment,reported,Life sentence with 22-year minimum security period.,appeal_status_unverified,FR-LYO
+FIS-J1,GB19-FIS,2021,inquest,confirmed,Inquest recorded a planned attack and the circumstances of attacker death.,not_applicable,GB-FIS
+FIS-R1,GB19-FIS,2019-11-30,responsibility_claim,reported,"Europol records public IS claim. Claim does not establish communications, assistance, financing or command.",not_applicable,EU19
+PP-R1,FR19-PP,2019-10-10,propaganda_reference,reported,Europol records an IS publication referring to the incident without a claim.,not_applicable,EU19
+VIL-R1,LT19-VIL,2019-10,organisational_membership,reported,Lithuanian assessment describes active Feuerkrieg Division membership. Europol records suspected membership. Assistance and command are separate unverified propositions.,not_applicable,EU19;LT-VIL
+MCK-J1,GB19-MCK,2026-02-27,interlocutory_ruling,confirmed,Belfast Crown Court declined the no-case-to-answer applications at that stage.,not_a_merits_ruling,GB-MCK-NC
+MCK-J2,GB19-MCK,2026-07-03,trial_verdict,confirmed,Three defendants acquitted on the murder counts. Other counts assessed separately.,further_proceedings_not_verified,GB-MCK
+HAL-J1,DE19-HAL,2020-12,trial_judgment,reported,Official state report recounts life sentence and subsequent preventive detention. Original Europol attack table excludes the case.,further_appeal_not_verified,DE-HAL;EU19

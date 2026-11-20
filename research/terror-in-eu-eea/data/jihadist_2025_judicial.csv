@@ -1,0 +1,37 @@
+record_id,incident_id,date,stage,case_reference,outcome,evidence_status,finality,source_ids
+j-m-01,DE_2025_02_13_MUNICH,2026-08-06,judgment,7 St 3/25,Life; two murders; particularly serious guilt,confirmed,not_final_at_announcement; later_unknown,de-m5
+j-b-01,DE_2025_02_21_BERLIN_HOLOCAUST_MEMORIAL,2026-03-05,judgment,,13 years; attempted murder and attempted IS membership,confirmed,not_final_at_announcement,de-b1
+j-b-02,DE_2025_02_21_BERLIN_HOLOCAUST_MEMORIAL,2026-03,revision,,Defence filing reported; disposition unknown,reported,unknown,de-b3
+j-b-03,DE_2025_02_21_BERLIN_HOLOCAUST_MEMORIAL,2026-05-27,pretrial_detention,,Separate alleged assistant detained,confirmed,not_applicable,de-b2
+j-b-04,DE_2025_02_21_BERLIN_HOLOCAUST_MEMORIAL,2026-08-21,indictment,,Separate allegation of assistance to attempted murder and dangerous bodily harm,confirmed,not_applicable,de-b2
+j-bi-01,DE_2025_05_18_BIELEFELD,2025-05-20,investigation,,Federal prosecutor takeover,confirmed,not_applicable,de-bi1
+j-bi-02,DE_2025_05_18_BIELEFELD,2025-11-26,indictment,,Four attempted murders and past IS membership alleged,confirmed,not_applicable,de-bi2
+j-bi-03,DE_2025_05_18_BIELEFELD,2026-06-01,judgment,,Life sentence plus preventive detention reported,reported,later_unknown,de-bi3
+j-bi-04,DE_2025_05_18_BIELEFELD,2026-06-08,revision,,Defence filing reported; disposition unknown,reported,unknown,de-bi4
+j-e-01,DE_2025_09_05_ESSEN,2025-09-12,investigation,,Federal takeover,confirmed,not_applicable,de-e1
+j-e-02,DE_2025_09_05_ESSEN,2026-03-31,indictment,III-5 St 2/26,Three attempted murders alleged,confirmed,not_applicable,de-e5
+j-e-03,DE_2025_09_05_ESSEN,2026-06-15,trial,III-5 St 2/26,Closed trial opened,reported,not_applicable,de-e4
+j-e-04,DE_2025_09_05_ESSEN,2026-09-22,judgment,III-5 St 2/26,Nine years juvenile detention; two attempted murders; caretaker count not upheld as attempted murder,confirmed,not_final_at_announcement; later_unknown,de-e2;de-e3
+j-v-01,AT_2025_02_15_VILLACH,2025-12-15,indictment,,Terrorism and murder offences,confirmed,not_applicable,at-v1
+j-v-02,AT_2025_02_15_VILLACH,2026-05-27,judgment,,Life imprisonment; defendant waived appeal,confirmed,prosecution_position_pending_at_announcement,at-v2
+j-v-03,AT_2025_02_15_VILLACH,2026-06-02,finality_confirmation,,Court spokesperson confirmed prosecution did not appeal,reported,final,at-v3
+j-a-01,FR_2025_01_25_APT,2025-01-29,formal_investigation,,Detention and attempted terrorist assassination investigation,reported,not_applicable,fr-a2
+j-fm-01,FR_2025_02_22_MULHOUSE,2025-02,formal_investigation,,Terrorism-linked murder and attempted assassination allegations,reported,not_applicable,fr-m1;fr-m2
+j-fm-02,FR_2025_02_22_MULHOUSE,2026-02-22,pretrial_update,,Investigation and detention continuing at report date,reported,not_applicable,fr-m2
+j-l-01,FR_2025_09_10_LYON,2025-10-02,arrest,,Principal suspect arrested in Italy,reported,not_applicable,fr-l1
+j-l-02,FR_2025_09_10_LYON,2025-10-13,investigation,,Terrorism qualifications added,reported,not_applicable,fr-l1
+j-d-01,IE_2025_07_DUBLIN_KHAN,2026-01-12,guilty_plea,,Eight counts across two events including two terrorism offences,reported,not_applicable,ie-d2;ie-d3
+j-d-02,IE_2025_07_DUBLIN_KHAN,2026-11-02,sentencing,,Six years six months effective custody backdated to 29 July 2025; four years post-release supervision,reported,unknown,ie-d3;ie-d4
+j-es-01,ES_2025_11_22_VALLECAS,2025-11-22,arrest,DP 110/2025,Police apprehension after confrontation; ongoing preliminary investigation listed in Memoria 2026,confirmed,not_applicable,es-v1
+j-es-02,ES_2025_11_22_VALLECAS,2026-01-16,detention_review,DP 110/2025,Detention upheld; indicia of four alleged attempted terrorist killings; defence disputes motive,reported,not_applicable,es-v4
+j-m-02,DE_2025_02_13_MUNICH,2025-08-19,indictment,7 St 3/25,Two murders and 44 attempted murders alleged,confirmed,not_applicable,de-m7
+j-m-03,DE_2025_02_13_MUNICH,2026-01-16,scheduled_trial_start,7 St 3/25,Trial opening scheduled by court order,confirmed,not_applicable,de-m8
+j-b-05,DE_2025_02_21_BERLIN_HOLOCAUST_MEMORIAL,2025-02-24,investigation,,Federal prosecutor announced takeover,confirmed,not_applicable,de-b4
+j-b-06,DE_2025_02_21_BERLIN_HOLOCAUST_MEMORIAL,2025-07-18,indictment,,Federal prosecutor filed charges,confirmed,not_applicable,de-b5
+j-l-03,FR_2025_09_10_LYON,2025-10-27,transfer,,Transfer from Italy as reported by AFP quoting PNAT,reported,not_applicable,fr-l2
+j-l-04,FR_2025_09_10_LYON,2025-10-28,formal_investigation_and_detention,,Terrorism-linked assassination and terrorist criminal association; provisional detention,reported,not_applicable,fr-l2
+j-l-05,FR_2025_09_10_LYON,2026-10-05,investigating_judge_hearing,,Civil party heard during judicial investigation,reported,not_applicable,fr-l3
+j-m-04,DE_2025_02_13_MUNICH,2025-11-13,indictment_admitted,7 St 3/25,Court admitted the federal indictment unchanged,confirmed,not_applicable,de-m9
+j-bi-05,DE_2025_05_18_BIELEFELD,2025-05-19,arrest,,Suspect arrested in evening,confirmed,not_applicable,de-bi7
+j-bi-06,DE_2025_05_18_BIELEFELD,2025-05-20,detention_warrant_communicated,,Detention warrant concerned four alleged attempted murders with dangerous bodily harm,confirmed,not_applicable,de-bi7
+j-es-03,ES_2025_11_22_VALLECAS,2025-12-07,initial_detention_report,DP 110/2025,Publication date; investigating judge ordered detention at prosecution request,reported,not_applicable,es-v5

@@ -1,0 +1,12 @@
+actor_id,actor_type,public_label,evidence_status,privacy_review,source_ids
+org-is,organisation,Islamic State,confirmed,public organisation,eu-full
+actor-berlin,person,Berlin defendant,confirmed,role only,de-b1
+actor-berlin-contact,person,IS contact in Berlin trial,confirmed,role only,de-b1
+actor-berlin-assistant,person,Separately accused Berlin individual,confirmed,role only,de-b2
+actor-bielefeld,person,Bielefeld defendant,confirmed,role only,de-bi2
+actor-villach,person,Villach defendant,confirmed,role only,at-v2
+actor-essen,person,Essen defendant,confirmed,role only,de-e2
+actor-dublin,person,Dublin defendant,reported,role only,ie-d3
+actor-vallecas,person,Vallecas suspect,confirmed,role only,es-v1
+ideology-jihadist,ideology,Jihadist ideology,confirmed,concept node,eu-full
+actor-lyon,person,Lyon suspect,reported,role only,fr-l2

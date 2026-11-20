@@ -1,0 +1,21 @@
+claim_id,phase23_verdict,source_inspected,independent_check,remaining_limit
+C01,Supported with qualification,START_HERE purpose and scope; TE-SAT 2021 and 2026 introductory scope,31 is a research grid; clarified that data cover edition territory,Physical incidence coverage unknown
+C02,Supported,Annual source-integrity register; TE-SAT 2020 p. 84 and 2026 pp. 19–22; phase22 analytical header,Published country rows and four distinct statistical fields confirmed,Not a census
+C03,Supported,TE-SAT 2020 p. 84; TE-SAT 2021 pp. 12 and 99; 2019 country rows,119 minus UK 64 equals 55 versus 57 in 2020,Geography only
+C04,Supported with qualification,TE-SAT 2024 full pp. 11 and 62; TE-SAT 2025 p. 13 and 62; TE-SAT 2026 pp. 18–20 and 47,Maximum original fixed series 120; outcomes 34/5/19 versus 22/3/20,Clarified original reporting cohort; no physical peak
+C05,Supported,TE-SAT 2023 p. 9 and n. 4,Explicit 56/18 and earlier 57/15; deleted German incident unnamed,A100 remains candidate
+C06,Supported with qualification,TE-SAT 2024 full pp. 11–12 and 51 n. 75; TE-SAT 2026 pp. 47–48; provenance ledger,Recomputed 94−50=44 and 120−28=92,Scenario assumes separate transfers; overlap and event joins unverified
+C07,Supported,TE-SAT 2016 p. 45; TE-SAT 2023 p. 80; TE-SAT 2026 p. 22 and raw transcriptions,1077−134=943; 380 and 486 independently summed,Enforcement and coding differ
+C08,Supported with qualification,TE-SAT 2026 pp. 22–24 nn. 31–33,406 and 99 are outcomes in reported concluded proceedings; 486 reported arrests,Calendar year shared; reference event and cohort differ; possible overlap unmeasured
+C09,Supported with qualification,Original crosswalks and 2025 phase 6 outcome cells,168+35+926=1129; 2025 7+17+21=45,UK in denominator through 2019; scope made visible
+C10,Supported,Phase 18 crosswalk and phase 6 competing France identities,One slot can have multiple candidate identities,Unidentified cannot determine occurrence or falsification
+C11,Supported with qualification,Landgericht PM 5/2022 and BGH PM 036/2023 plus published disposition; TE-SAT 2023 p. 9 n. 4,Lower court rejected classification; BGH date and finality confirmed,EU deletion remains unnamed; court release summarises reasons
+C12,Supported with qualification,PET 14 May 2024 announcement on Østre Landsret,Principal defendant's attempt and financing findings confirmed in agency account,Signed judgment and later finality unverified; no command attribution
+C13,Requires correction,BGH original PM 091/2026 and linked 3 StR 55/26 disposition; DSV reproduction; TE-SAT 2025 via R-SOL,12 May decision and 22 May announcement; original release gives lower court finding on advice and encouragement,Disposition contains no further reasons; operational command and financing unestablished
+C14,Supported with qualification,NRW pp. 28 and 216; Bundestag 21/4296 p. 18 q. 29; TE-SAT 2026 p. 19,State national five; federal four named locations; Europol four completed slots,Federal reply scope and missing roster cannot identify a fifth
+C15,Supported with qualification,PNAT Édito p. 1 bundle p. 27; TE-SAT 2026 pp. 19 and 47,PNAT names three; Europol counts two,All three remain candidate alternatives
+C16,Supported with qualification,TE-SAT 2016 p. 44; TE-SAT 2017 pp. 10–11 and 23–24 and 49; web figure inspected,193 vs 211; 340+201+56=597 alongside 379 and 374,Unknown common definition; no misconduct inference
+C17,Supported with qualification,TE-SAT 2024 full p. 63; TE-SAT 2026 pp. 18 and 22 and 27 n. 36 and 49–52,426 baseline versus five-category sum 431; 347 and 344 separately printed,No verified revised total or age fraction; clarified edition attribution
+C18,Supported with qualification,French Senate answer 03246 and TE-SAT 2024 full p. 51 n. 75,32 national facts across two policing domains versus 34 EU-described attacks,Disjoint from older occurrence cohort; precise unit difference unknown
+C19,Supported with qualification,Original and fixed country-row comparisons; official adjustment provenance,Holding geography and testing transfers changes selected differences,Interpretation restricted to reporting cohorts
+C20,Supported,Methodology; Phase 21 denominator and reporting matrix; published tables,No harmonised event keys or denominator for proposed extra inferences,Substantive review gate remains separate

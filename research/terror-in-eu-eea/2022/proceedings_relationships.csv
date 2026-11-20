@@ -1,0 +1,14 @@
+record_id,incident_id,date,stage_or_relationship,evidence_status,finding_or_allegation,finality,source_ids
+DE22-ESS-J1,DE22-ESS,2022-08-25,detention_order,confirmed,BGH reinstated warrant; preparation allegation at that stage.,not_applicable,DE-BGH
+DE22-ESS-J2,DE22-ESS,2023-02-10,trial_judgment,reported,Two years of suspended juvenile sentence; preparation and weapons offences.,reported_final_by_2023-02-21,DE-FIN
+BE22-SCH-J1,BE22-SCH,2025-12-19,judicial_measure,reported,"Custodial internment ordered; record as judicial measure, not prison sentence.",unknown,BE-SCH
+FR22-ARL-J1,FR22-ARL,2026-07-06,referral_on_appeal,reported,Referral to special assize court for terrorism-related murder allegation upheld.,merits_pending_or_unverified,FR-ARL
+ES22-MAD-J1,ES22-MAD,2024-07-23,trial_judgment,reported,18 years for terrorism and explosives offences.,superseded_in_part_on_appeal,ES-TR;ES-AP
+ES22-MAD-J2,ES22-MAD,2024-11-12,appeal_judgment,reported,Audiencia Nacional appeal chamber reduced sentence to 11 years 9 months.,cassation_status_unverified,ES-AP
+NO22-OSL-J1,NO22-OSL,2025-01-30,appeal_withdrawal,reported,Appeal withdrawn; 30-year preventive detention with minimum 20 years from Oslo District Court stands.,reported_final,NO-OSL;NO-APP
+IS22-INV-J1,IS22-INV,2026-03-11,supreme_court_remittal,confirmed,Hæstiréttur 28/2025 set aside previous appeal judgment and remitted.,not_applicable,IS-PRO
+IS22-INV-J2,IS22-INV,2026-06-18,appeal_judgment,confirmed,Landsréttur 324/2024 acquitted of attempted terrorism and complicity and convicted of serious weapons offences.,prosecution_waived_leave_via_2026-07-10_notice,IS-PRO
+FR22-STR-R1,FR22-STR,2022-11,communication,reported,Europol attributes contacts with IS members to investigators; details and judicial finding unverified.,not_applicable,EU22
+SK22-BRA-R1,SK22-BRA,2022-10,ideological_influence,reported,"Europol reports influence of Terrorgram publications. Membership, direct communication, assistance, financing and command unverified by this evidence.",not_applicable,EU22
+GR22-MAR-R1,GR22-MAR,2022-07,responsibility_claim,reported,Active in Solidarity Anarchists claim reported by Europol; independent attribution unverified.,not_applicable,EU22
+IT22-ROM-R1,IT22-ROM,2022-06,responsibility_claim,reported,"Claim attributed by Europol to Augusto Masetti Brigade/FAI-FRI; court finding, material support and direction unverified.",not_applicable,EU22

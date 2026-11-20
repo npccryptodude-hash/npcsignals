@@ -1,0 +1,11 @@
+incident_id,event_date,country_iso2,locality,event_outcome,national_basis,europol_match,evidence_status,source_ids,incident_record
+DE_2025_02_13_MUNICH,2025-02-13,DE,Munich,completed,German federal roster,named,confirmed,de-bt;eu-full,incidents/DE_2025_02_13_MUNICH.md
+DE_2025_02_21_BERLIN_HOLOCAUST_MEMORIAL,2025-02-21,DE,Berlin,completed,German federal roster,corroborated,confirmed,de-bt;de-b1;eu-full,incidents/DE_2025_02_21_BERLIN_HOLOCAUST_MEMORIAL.md
+DE_2025_05_18_BIELEFELD,2025-05-18,DE,Bielefeld,completed,German federal roster,named,confirmed,de-bt;eu-full,incidents/DE_2025_05_18_BIELEFELD.md
+DE_2025_09_05_ESSEN,2025-09-05,DE,Essen,completed,German federal roster,provisional_age_conflict,confirmed,de-bt;de-e2;eu-full,incidents/DE_2025_09_05_ESSEN.md
+AT_2025_02_15_VILLACH,2025-02-15,AT,Villach,completed,Terrorism conviction,identifiable_example,confirmed,at-v2;at-v3;eu-full,incidents/AT_2025_02_15_VILLACH.md
+FR_2025_01_25_APT,2025-01-25,FR,Apt,completed,PNAT jihadist-inspired,unknown,confirmed,fr-pnat;fr-crgn;fr-a1;eu-full;fr-dnrt,incidents/FR_2025_01_25_APT.md
+FR_2025_02_22_MULHOUSE,2025-02-22,FR,Mulhouse,completed,PNAT jihadist-inspired,unknown,confirmed,fr-pnat;fr-crgn;eu-full;fr-dnrt,incidents/FR_2025_02_22_MULHOUSE.md
+FR_2025_09_10_LYON,2025-09-10,FR,Lyon,completed,PNAT jihadist-inspired,unknown,confirmed,fr-pnat;fr-crgn;eu-full;fr-l2;fr-l3,incidents/FR_2025_09_10_LYON.md
+IE_2025_07_DUBLIN_KHAN,2025-07-29,IE,Dublin,completed,Terrorism conviction reported,secondary_attribution,reported,ie-d1;ie-d3;eu-full,incidents/IE_2025_07_DUBLIN_KHAN.md
+ES_2025_11_22_VALLECAS,2025-11-22,ES,Madrid (Vallecas),completed,Terrorism investigation,strong_candidate,confirmed,es-v1;es-v2;es-v3;eu-full,incidents/ES_2025_11_22_VALLECAS.md

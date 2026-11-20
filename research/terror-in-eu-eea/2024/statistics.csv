@@ -1,0 +1,15 @@
+metric_id,geography,category,measure,value,source_id,locator
+jihadist_arrests,EU27,jihadist,persons_arrested,289,EU24,"pp. 7, 63"
+right_wing_arrests,EU27,right_wing,persons_arrested,47,EU24,"pp. 7, 63"
+left_wing_anarchist_arrests,EU27,left_wing_anarchist,persons_arrested,28,EU24,"pp. 7, 63"
+separatist_arrests,EU27,separatist,persons_arrested,27,EU24,"pp. 7, 63"
+other_arrests,EU27,other,persons_arrested,58,EU24,"pp. 7, 63"
+all_arrests,EU27,all,persons_arrested,449,EU24,"pp. 7, 63"
+all_deaths,EU27,all,victim_deaths,5,EU24,p. 13
+all_injured,EU27,all,victim_injuries,20,EU24,p. 13
+jihadist_deaths,EU27,jihadist,victim_deaths,5,EU24,"pp. 7, 14"
+jihadist_injured,EU27,jihadist,victim_injuries,18,EU24,"pp. 7, 14"
+NO_completed_extreme_islamist_attacks,Norway,jihadist,completed_extreme_islamist_attacks,0,NO-PST,Retrospective statement since 2022
+LI_recorded_Terrorismus_offences,Liechtenstein,all,recorded_Terrorismus_offences,0,LI-LP,Crime table
+GB_bombing_incidents,Northern Ireland,all,bombing_incidents,6,GB-PSNI,Calendar 2024
+GB_shooting_incidents,Northern Ireland,all,shooting_incidents,17,GB-PSNI,Calendar 2024

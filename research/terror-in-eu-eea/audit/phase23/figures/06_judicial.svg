@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="490" viewBox="0 0 880 490" role="img" aria-labelledby="title description">
+<title id="title">rettslige og organisatoriske beviskjeder</title>
+<desc id="description">Daterte rader viser initial vurdering, dom og rettskraft i A100, PETs oppsummering for Holbæk og flere kildetyper for Solingen.</desc>
+<metadata>NPCsignals internal review. Source commit d1f675eb785db712655c6952e43f3a57dd31f66c.</metadata>
+<g font-family="sans-serif">
+<rect x="0.00" y="0.00" width="880.00" height="490.00" fill="#ffffff"/>
+<text x="30" y="39" font-size="24" text-anchor="start" fill="#162436" font-weight="bold">rettslige og organisatoriske beviskjeder</text>
+<rect x="30.00" y="80.00" width="820.00" height="34.00" fill="#eef3f7"/>
+<text x="44" y="103" font-size="14" text-anchor="start" fill="#162436" font-weight="bold">A100</text>
+<text x="145" y="103" font-size="13" text-anchor="start" fill="#162436">2020-08-19</text>
+<text x="255" y="103" font-size="13" text-anchor="start" fill="#162436">innledende mistanke om islamistisk angrep</text>
+<rect x="30.00" y="119.00" width="820.00" height="34.00" fill="#ffffff"/>
+<text x="44" y="142" font-size="14" text-anchor="start" fill="#162436" font-weight="bold">A100</text>
+<text x="145" y="142" font-size="13" text-anchor="start" fill="#162436">2022-01-31</text>
+<text x="255" y="142" font-size="13" text-anchor="start" fill="#162436">domstolen avviser klassifisering og beslutter plassering</text>
+<rect x="30.00" y="158.00" width="820.00" height="34.00" fill="#eef3f7"/>
+<text x="44" y="181" font-size="14" text-anchor="start" fill="#162436" font-weight="bold">A100</text>
+<text x="145" y="181" font-size="13" text-anchor="start" fill="#162436">2023-02-16</text>
+<text x="255" y="181" font-size="13" text-anchor="start" fill="#162436">BGH forkaster revisjonen; avgjørelsen er rettskraftig</text>
+<rect x="30.00" y="197.00" width="820.00" height="34.00" fill="#ffffff"/>
+<text x="44" y="220" font-size="14" text-anchor="start" fill="#162436" font-weight="bold">Holbæk</text>
+<text x="145" y="220" font-size="13" text-anchor="start" fill="#162436">2024-05-14</text>
+<text x="255" y="220" font-size="13" text-anchor="start" fill="#162436">PET oppgir ankefunn om terrorforsøk og finansiering</text>
+<rect x="30.00" y="236.00" width="820.00" height="34.00" fill="#eef3f7"/>
+<text x="44" y="259" font-size="14" text-anchor="start" fill="#162436" font-weight="bold">Solingen</text>
+<text x="145" y="259" font-size="13" text-anchor="start" fill="#162436">2025</text>
+<text x="255" y="259" font-size="13" text-anchor="start" fill="#162436">Europol omtaler kommunikasjon og oppmuntring</text>
+<rect x="30.00" y="275.00" width="820.00" height="34.00" fill="#ffffff"/>
+<text x="44" y="298" font-size="14" text-anchor="start" fill="#162436" font-weight="bold">Solingen</text>
+<text x="145" y="298" font-size="13" text-anchor="start" fill="#162436">2026-05-12</text>
+<text x="255" y="298" font-size="13" text-anchor="start" fill="#162436">BGH forkaster revisjonen; draps- og medlemskapsdommen er rettskraftig</text>
+<rect x="30.00" y="314.00" width="820.00" height="34.00" fill="#eef3f7"/>
+<text x="44" y="337" font-size="14" text-anchor="start" fill="#162436" font-weight="bold">Solingen</text>
+<text x="145" y="337" font-size="13" text-anchor="start" fill="#162436">2026-05-22</text>
+<text x="255" y="337" font-size="13" text-anchor="start" fill="#162436">BGH gjengir oppmuntring og råd fra IS-kontakter</text>
+<text x="30" y="405" font-size="13" text-anchor="start" fill="#162436">A100: kobling til slettet europolpost står som kandidat.</text>
+<text x="30" y="428" font-size="12" text-anchor="start" fill="#162436">sakene gir ikke grunnlag for å fastslå en felles operativ kommandostruktur.</text>
+<text x="30" y="452" font-size="12" text-anchor="start" fill="#162436">BGH original notice 091/2026 and disposition 3 StR 55/26</text>
+<text x="30" y="474" font-size="11" text-anchor="start" fill="#162436">npcsignals · internt utkast · kildegrunnlag d1f675e</text>
+</g>
+</svg>

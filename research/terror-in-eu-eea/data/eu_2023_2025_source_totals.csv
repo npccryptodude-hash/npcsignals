@@ -1,0 +1,17 @@
+year,geography,measure,category,value,source_id,source_url,verification_note
+2023,EU,attacks_all_statuses,all,120,tesat-2024,https://www.europol.europa.eu/cms/sites/default/files/documents/TE-SAT%202024%20-%20Executive%20Summary%20-%20EN.pdf,executive_summary_page_2
+2023,EU,attacks_all_statuses,jihadist,14,tesat-2024,https://www.europol.europa.eu/cms/sites/default/files/documents/TE-SAT%202024%20-%20Executive%20Summary%20-%20EN.pdf,executive_summary_page_2
+2023,EU,attacks_all_statuses,left_wing_anarchist,32,tesat-2024,https://www.europol.europa.eu/cms/sites/default/files/documents/TE-SAT%202024%20-%20Executive%20Summary%20-%20EN.pdf,executive_summary_page_2
+2023,EU,attacks_all_statuses,right_wing,2,tesat-2024,https://www.europol.europa.eu/cms/sites/default/files/documents/TE-SAT%202024%20-%20Executive%20Summary%20-%20EN.pdf,executive_summary_page_2
+2023,EU,attacks_all_statuses,separatist,70,tesat-2024,https://www.europol.europa.eu/cms/sites/default/files/documents/TE-SAT%202024%20-%20Executive%20Summary%20-%20EN.pdf,executive_summary_page_2
+2023,EU,deaths,jihadist,6,tesat-2024,https://www.europol.europa.eu/cms/sites/default/files/documents/TE-SAT%202024%20-%20Executive%20Summary%20-%20EN.pdf,executive_summary_page_2
+2024,EU,attacks_all_statuses,all,58,tesat-2025,https://www.europol.europa.eu/cms/sites/default/files/documents/TE-SAT%202025%20-%20Summary%20-%20EN.pdf,executive_summary
+2024,EU,attacks_all_statuses,jihadist,24,tesat-2025,https://www.europol.europa.eu/cms/sites/default/files/documents/TE-SAT%202025%20-%20Summary%20-%20EN.pdf,executive_summary
+2024,EU,attacks_all_statuses,left_wing_anarchist,21,tesat-2025,https://www.europol.europa.eu/cms/sites/default/files/documents/TE-SAT%202025%20-%20Summary%20-%20EN.pdf,executive_summary
+2024,EU,attacks_all_statuses,right_wing,1,tesat-2025,https://www.europol.europa.eu/cms/sites/default/files/documents/TE-SAT%202025%20-%20Summary%20-%20EN.pdf,executive_summary
+2024,EU,deaths,jihadist,5,tesat-2025,https://www.europol.europa.eu/cms/sites/default/files/documents/TE-SAT%202025%20-%20Summary%20-%20EN.pdf,executive_summary
+2025,EU,attacks_all_statuses,all,45,tesat-2026,https://op.europa.eu/en/publication-detail/-/publication/51f6ac4d-c326-11f1-bfcb-01aa75ed71a1/language-en,europol_report_summary_crosschecked
+2025,EU,attacks_all_statuses,jihadist,24,tesat-2026,https://op.europa.eu/en/publication-detail/-/publication/51f6ac4d-c326-11f1-bfcb-01aa75ed71a1/language-en,europol_report_summary_crosschecked
+2025,EU,attacks_all_statuses,left_wing_anarchist,12,tesat-2026,https://op.europa.eu/en/publication-detail/-/publication/51f6ac4d-c326-11f1-bfcb-01aa75ed71a1/language-en,europol_report_summary_crosschecked
+2025,EU,attacks_all_statuses,right_wing,5,tesat-2026,https://op.europa.eu/en/publication-detail/-/publication/51f6ac4d-c326-11f1-bfcb-01aa75ed71a1/language-en,europol_report_summary_crosschecked
+2025,EU,deaths,jihadist,5,tesat-2026,https://op.europa.eu/en/publication-detail/-/publication/51f6ac4d-c326-11f1-bfcb-01aa75ed71a1/language-en,europol_report_summary_crosschecked

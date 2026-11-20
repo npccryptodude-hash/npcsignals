@@ -1,0 +1,96 @@
+statistic_id,country_iso2,geography,period_start,period_end,source_system,ideology_normalized,original_label,measure,value,source_id,locator,qualification
+AT-jihadist-completed,AT,AT,2025-01-01,2025-12-31,TE-SAT 2026,jihadist,Jihadist,completed,1,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+AT-jihadist-failed,AT,AT,2025-01-01,2025-12-31,TE-SAT 2026,jihadist,Jihadist,failed,0,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+AT-jihadist-foiled,AT,AT,2025-01-01,2025-12-31,TE-SAT 2026,jihadist,Jihadist,foiled,6,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+AT-jihadist-total,AT,AT,2025-01-01,2025-12-31,TE-SAT 2026,jihadist,Jihadist,total,7,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+BE-jihadist-completed,BE,BE,2025-01-01,2025-12-31,TE-SAT 2026,jihadist,Jihadist,completed,0,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+BE-jihadist-failed,BE,BE,2025-01-01,2025-12-31,TE-SAT 2026,jihadist,Jihadist,failed,0,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+BE-jihadist-foiled,BE,BE,2025-01-01,2025-12-31,TE-SAT 2026,jihadist,Jihadist,foiled,1,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+BE-jihadist-total,BE,BE,2025-01-01,2025-12-31,TE-SAT 2026,jihadist,Jihadist,total,1,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+BE-other_unspecified-completed,BE,BE,2025-01-01,2025-12-31,TE-SAT 2026,other_unspecified,Other/not specified,completed,0,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+BE-other_unspecified-failed,BE,BE,2025-01-01,2025-12-31,TE-SAT 2026,other_unspecified,Other/not specified,failed,0,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+BE-other_unspecified-foiled,BE,BE,2025-01-01,2025-12-31,TE-SAT 2026,other_unspecified,Other/not specified,foiled,1,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+BE-other_unspecified-total,BE,BE,2025-01-01,2025-12-31,TE-SAT 2026,other_unspecified,Other/not specified,total,1,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+FR-jihadist-completed,FR,FR,2025-01-01,2025-12-31,TE-SAT 2026,jihadist,Jihadist,completed,2,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+FR-jihadist-failed,FR,FR,2025-01-01,2025-12-31,TE-SAT 2026,jihadist,Jihadist,failed,0,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+FR-jihadist-foiled,FR,FR,2025-01-01,2025-12-31,TE-SAT 2026,jihadist,Jihadist,foiled,8,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+FR-jihadist-total,FR,FR,2025-01-01,2025-12-31,TE-SAT 2026,jihadist,Jihadist,total,10,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+FR-right_wing-completed,FR,FR,2025-01-01,2025-12-31,TE-SAT 2026,right_wing,Right-wing,completed,1,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+FR-right_wing-failed,FR,FR,2025-01-01,2025-12-31,TE-SAT 2026,right_wing,Right-wing,failed,0,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+FR-right_wing-foiled,FR,FR,2025-01-01,2025-12-31,TE-SAT 2026,right_wing,Right-wing,foiled,3,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+FR-right_wing-total,FR,FR,2025-01-01,2025-12-31,TE-SAT 2026,right_wing,Right-wing,total,4,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+DE-jihadist-completed,DE,DE,2025-01-01,2025-12-31,TE-SAT 2026,jihadist,Jihadist,completed,4,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+DE-jihadist-failed,DE,DE,2025-01-01,2025-12-31,TE-SAT 2026,jihadist,Jihadist,failed,0,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+DE-jihadist-foiled,DE,DE,2025-01-01,2025-12-31,TE-SAT 2026,jihadist,Jihadist,foiled,0,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+DE-jihadist-total,DE,DE,2025-01-01,2025-12-31,TE-SAT 2026,jihadist,Jihadist,total,4,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+GR-left_wing_anarchist-completed,GR,GR,2025-01-01,2025-12-31,TE-SAT 2026,left_wing_anarchist,Left-wing and anarchist,completed,1,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+GR-left_wing_anarchist-failed,GR,GR,2025-01-01,2025-12-31,TE-SAT 2026,left_wing_anarchist,Left-wing and anarchist,failed,0,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+GR-left_wing_anarchist-foiled,GR,GR,2025-01-01,2025-12-31,TE-SAT 2026,left_wing_anarchist,Left-wing and anarchist,foiled,0,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+GR-left_wing_anarchist-total,GR,GR,2025-01-01,2025-12-31,TE-SAT 2026,left_wing_anarchist,Left-wing and anarchist,total,1,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+GR-other_unspecified-completed,GR,GR,2025-01-01,2025-12-31,TE-SAT 2026,other_unspecified,Other/not specified,completed,0,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+GR-other_unspecified-failed,GR,GR,2025-01-01,2025-12-31,TE-SAT 2026,other_unspecified,Other/not specified,failed,1,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+GR-other_unspecified-foiled,GR,GR,2025-01-01,2025-12-31,TE-SAT 2026,other_unspecified,Other/not specified,foiled,0,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+GR-other_unspecified-total,GR,GR,2025-01-01,2025-12-31,TE-SAT 2026,other_unspecified,Other/not specified,total,1,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+IE-jihadist-completed,IE,IE,2025-01-01,2025-12-31,TE-SAT 2026,jihadist,Jihadist,completed,1,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+IE-jihadist-failed,IE,IE,2025-01-01,2025-12-31,TE-SAT 2026,jihadist,Jihadist,failed,0,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+IE-jihadist-foiled,IE,IE,2025-01-01,2025-12-31,TE-SAT 2026,jihadist,Jihadist,foiled,0,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+IE-jihadist-total,IE,IE,2025-01-01,2025-12-31,TE-SAT 2026,jihadist,Jihadist,total,1,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+IE-right_wing-completed,IE,IE,2025-01-01,2025-12-31,TE-SAT 2026,right_wing,Right-wing,completed,0,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+IE-right_wing-failed,IE,IE,2025-01-01,2025-12-31,TE-SAT 2026,right_wing,Right-wing,failed,0,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+IE-right_wing-foiled,IE,IE,2025-01-01,2025-12-31,TE-SAT 2026,right_wing,Right-wing,foiled,1,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+IE-right_wing-total,IE,IE,2025-01-01,2025-12-31,TE-SAT 2026,right_wing,Right-wing,total,1,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+IT-left_wing_anarchist-completed,IT,IT,2025-01-01,2025-12-31,TE-SAT 2026,left_wing_anarchist,Left-wing and anarchist,completed,10,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+IT-left_wing_anarchist-failed,IT,IT,2025-01-01,2025-12-31,TE-SAT 2026,left_wing_anarchist,Left-wing and anarchist,failed,1,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+IT-left_wing_anarchist-foiled,IT,IT,2025-01-01,2025-12-31,TE-SAT 2026,left_wing_anarchist,Left-wing and anarchist,foiled,0,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+IT-left_wing_anarchist-total,IT,IT,2025-01-01,2025-12-31,TE-SAT 2026,left_wing_anarchist,Left-wing and anarchist,total,11,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+MT-other_unspecified-completed,MT,MT,2025-01-01,2025-12-31,TE-SAT 2026,other_unspecified,Other/not specified,completed,0,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+MT-other_unspecified-failed,MT,MT,2025-01-01,2025-12-31,TE-SAT 2026,other_unspecified,Other/not specified,failed,1,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+MT-other_unspecified-foiled,MT,MT,2025-01-01,2025-12-31,TE-SAT 2026,other_unspecified,Other/not specified,foiled,0,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+MT-other_unspecified-total,MT,MT,2025-01-01,2025-12-31,TE-SAT 2026,other_unspecified,Other/not specified,total,1,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+NL-other_unspecified-completed,NL,NL,2025-01-01,2025-12-31,TE-SAT 2026,other_unspecified,Other/not specified,completed,1,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+NL-other_unspecified-failed,NL,NL,2025-01-01,2025-12-31,TE-SAT 2026,other_unspecified,Other/not specified,failed,0,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+NL-other_unspecified-foiled,NL,NL,2025-01-01,2025-12-31,TE-SAT 2026,other_unspecified,Other/not specified,foiled,0,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+NL-other_unspecified-total,NL,NL,2025-01-01,2025-12-31,TE-SAT 2026,other_unspecified,Other/not specified,total,1,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+ES-jihadist-completed,ES,ES,2025-01-01,2025-12-31,TE-SAT 2026,jihadist,Jihadist,completed,1,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+ES-jihadist-failed,ES,ES,2025-01-01,2025-12-31,TE-SAT 2026,jihadist,Jihadist,failed,0,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+ES-jihadist-foiled,ES,ES,2025-01-01,2025-12-31,TE-SAT 2026,jihadist,Jihadist,foiled,0,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+ES-jihadist-total,ES,ES,2025-01-01,2025-12-31,TE-SAT 2026,jihadist,Jihadist,total,1,eu-full,"pp. 19–20, 47",Source-specific cell; zero means none reported in this cell
+EU27-all-completed,,EU27,2025-01-01,2025-12-31,TE-SAT 2026,all,all,completed,22,eu-full,"pp. 18–20, 47",EU reporting universe
+EU27-all-failed,,EU27,2025-01-01,2025-12-31,TE-SAT 2026,all,all,failed,3,eu-full,"pp. 18–20, 47",EU reporting universe
+EU27-all-foiled,,EU27,2025-01-01,2025-12-31,TE-SAT 2026,all,all,foiled,20,eu-full,"pp. 18–20, 47",EU reporting universe
+EU27-all-total,,EU27,2025-01-01,2025-12-31,TE-SAT 2026,all,all,total,45,eu-full,"pp. 18–20, 47",EU reporting universe
+EU27-jihadist-completed,,EU27,2025-01-01,2025-12-31,TE-SAT 2026,jihadist,Jihadist,completed,9,eu-full,"pp. 18–20, 47",EU reporting universe
+EU27-jihadist-failed,,EU27,2025-01-01,2025-12-31,TE-SAT 2026,jihadist,Jihadist,failed,0,eu-full,"pp. 18–20, 47",EU reporting universe
+EU27-jihadist-foiled,,EU27,2025-01-01,2025-12-31,TE-SAT 2026,jihadist,Jihadist,foiled,15,eu-full,"pp. 18–20, 47",EU reporting universe
+EU27-jihadist-total,,EU27,2025-01-01,2025-12-31,TE-SAT 2026,jihadist,Jihadist,total,24,eu-full,"pp. 18–20, 47",EU reporting universe
+EU27-right_wing-completed,,EU27,2025-01-01,2025-12-31,TE-SAT 2026,right_wing,Right-wing,completed,1,eu-full,"pp. 18–20, 47",EU reporting universe
+EU27-right_wing-failed,,EU27,2025-01-01,2025-12-31,TE-SAT 2026,right_wing,Right-wing,failed,0,eu-full,"pp. 18–20, 47",EU reporting universe
+EU27-right_wing-foiled,,EU27,2025-01-01,2025-12-31,TE-SAT 2026,right_wing,Right-wing,foiled,4,eu-full,"pp. 18–20, 47",EU reporting universe
+EU27-right_wing-total,,EU27,2025-01-01,2025-12-31,TE-SAT 2026,right_wing,Right-wing,total,5,eu-full,"pp. 18–20, 47",EU reporting universe
+EU27-left_wing_anarchist-completed,,EU27,2025-01-01,2025-12-31,TE-SAT 2026,left_wing_anarchist,Left-wing and anarchist,completed,11,eu-full,"pp. 18–20, 47",EU reporting universe
+EU27-left_wing_anarchist-failed,,EU27,2025-01-01,2025-12-31,TE-SAT 2026,left_wing_anarchist,Left-wing and anarchist,failed,1,eu-full,"pp. 18–20, 47",EU reporting universe
+EU27-left_wing_anarchist-foiled,,EU27,2025-01-01,2025-12-31,TE-SAT 2026,left_wing_anarchist,Left-wing and anarchist,foiled,0,eu-full,"pp. 18–20, 47",EU reporting universe
+EU27-left_wing_anarchist-total,,EU27,2025-01-01,2025-12-31,TE-SAT 2026,left_wing_anarchist,Left-wing and anarchist,total,12,eu-full,"pp. 18–20, 47",EU reporting universe
+EU27-ethno_nationalist_separatist-completed,,EU27,2025-01-01,2025-12-31,TE-SAT 2026,ethno_nationalist_separatist,ethno_nationalist_separatist,completed,0,eu-full,"pp. 18–20, 47",EU reporting universe
+EU27-ethno_nationalist_separatist-failed,,EU27,2025-01-01,2025-12-31,TE-SAT 2026,ethno_nationalist_separatist,ethno_nationalist_separatist,failed,0,eu-full,"pp. 18–20, 47",EU reporting universe
+EU27-ethno_nationalist_separatist-foiled,,EU27,2025-01-01,2025-12-31,TE-SAT 2026,ethno_nationalist_separatist,ethno_nationalist_separatist,foiled,0,eu-full,"pp. 18–20, 47",EU reporting universe
+EU27-ethno_nationalist_separatist-total,,EU27,2025-01-01,2025-12-31,TE-SAT 2026,ethno_nationalist_separatist,ethno_nationalist_separatist,total,0,eu-full,"pp. 18–20, 47",EU reporting universe
+EU27-other_unspecified-completed,,EU27,2025-01-01,2025-12-31,TE-SAT 2026,other_unspecified,Other/not specified,completed,1,eu-full,"pp. 18–20, 47",EU reporting universe
+EU27-other_unspecified-failed,,EU27,2025-01-01,2025-12-31,TE-SAT 2026,other_unspecified,Other/not specified,failed,2,eu-full,"pp. 18–20, 47",EU reporting universe
+EU27-other_unspecified-foiled,,EU27,2025-01-01,2025-12-31,TE-SAT 2026,other_unspecified,Other/not specified,foiled,1,eu-full,"pp. 18–20, 47",EU reporting universe
+EU27-other_unspecified-total,,EU27,2025-01-01,2025-12-31,TE-SAT 2026,other_unspecified,Other/not specified,total,4,eu-full,"pp. 18–20, 47",EU reporting universe
+EU27-all-fatalities,,EU27,2025-01-01,2025-12-31,TE-SAT 2026,all,all,fatalities,6,eu-full,pp. 18–19,Injuries are source-category figures; no harmonised all-category injury total entered
+EU27-jihadist-fatalities,,EU27,2025-01-01,2025-12-31,TE-SAT 2026,jihadist,Jihadist,fatalities,5,eu-full,pp. 18–19,Injuries are source-category figures; no harmonised all-category injury total entered
+EU27-jihadist-injured,,EU27,2025-01-01,2025-12-31,TE-SAT 2026,jihadist,Jihadist,injured,81,eu-full,pp. 18–19,Injuries are source-category figures; no harmonised all-category injury total entered
+EU27-right_wing-fatalities,,EU27,2025-01-01,2025-12-31,TE-SAT 2026,right_wing,Right-wing,fatalities,1,eu-full,pp. 18–19,Injuries are source-category figures; no harmonised all-category injury total entered
+EU27-left_wing_anarchist-victims_reported,,EU27,2025-01-01,2025-12-31,TE-SAT 2026,left_wing_anarchist,Left-wing and anarchist,victims_reported,0,eu-full,pp. 18–19,Injuries are source-category figures; no harmonised all-category injury total entered
+EU27-other_unspecified-injured_in_reported_stabbings,,EU27,2025-01-01,2025-12-31,TE-SAT 2026,other_unspecified,Other/not specified,injured_in_reported_stabbings,6,eu-full,pp. 18–19,Injuries are source-category figures; no harmonised all-category injury total entered
+NO-jihadist-completed,NO,NO,2025-01-01,2025-12-31,PST,jihadist,Islamist extremists,completed,0,no-pst,Islamist extremism,Explicit scoped zero; failed and foiled unknown
+PT-jihadist-completed,PT,PT,2025-01-01,2025-12-31,RASI,jihadist,terrorismo de matriz islamista,completed,0,pt-rasi,p. 32,Explicit scoped zero; other ideology classes not included
+LI-all-police_offences,LI,LI,2025-01-01,2025-12-31,Landespolizei,all,Terrorismus,police_offences,1,li-pol,Politisch religiös motivierte Delikte table,Attack outcome and case identity unavailable
+GB-NIR-all-national_security_attacks,GB,GB-NIR,2025-01-01,2025-12-31,Parliament HLWS1514,all,National security attacks,national_security_attacks,0,gb-ni,Calendar-year 2025 row,Explicit zero for this Northern Ireland metric only
+GB-NIR-unspecified-bombing_incidents,GB,GB-NIR,2025-01-01,2025-12-31,Parliament HLWS1514,unspecified,Bombing incidents,bombing_incidents,12,gb-ni,Calendar-year 2025 narrative,Security incidents; terrorist outcome and ideology not imputed
+GB-NIR-unspecified-shooting_incidents,GB,GB-NIR,2025-01-01,2025-12-31,Parliament HLWS1514,unspecified,Shooting incidents,shooting_incidents,9,gb-ni,Calendar-year 2025 narrative,Security incidents; terrorist outcome and ideology not imputed
+BE-ocam-threat-reports,BE,BE,2025-01-01,2025-12-31,OCAM,all,Signalements de menace,threat_reports,157,be-ocam-full,Image de la menace; signalements,Threat/extremism reports; not individual terrorist attacks
+GB-gb-terrorism-related-arrests,GB,Great Britain,2025-01-01,2025-12-31,Disruptive Powers Report,all,Terrorism-related activity,persons_arrested,3034,gb-disruptive-powers,Section 2,Excludes Northern Ireland; 2779 related to supporting Palestine Action following proscription
+GB-gb-terrorism-related-arrests-excl-pa,GB,Great Britain,2025-01-01,2025-12-31,Disruptive Powers Report,all,Terrorism-related activity excluding Palestine Action proscription-related arrests,persons_arrested,255,gb-disruptive-powers,Section 2,Excludes Northern Ireland; subset of 3034

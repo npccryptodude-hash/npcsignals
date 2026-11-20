@@ -1,0 +1,17 @@
+cell_id,country_iso2,category,outcome,total,adequate,candidate,unidentified,source_id
+BE-jihadism-completed,BE,jihadism,completed,1,1,0,0,EU23
+BE-jihadism-foiled,BE,jihadism,foiled,1,0,0,1,EU23
+FR-jihadism-completed,FR,jihadism,completed,2,2,0,0,EU23
+FR-jihadism-foiled,FR,jihadism,foiled,6,0,0,6,EU23
+FR-right_wing-foiled,FR,right_wing,foiled,1,0,0,1,EU23
+FR-separatist-completed,FR,separatist,completed,70,0,0,70,EU23
+FR-other-foiled,FR,other,foiled,1,0,0,1,EU23
+DE-jihadism-completed,DE,jihadism,completed,1,1,0,0,EU23
+DE-jihadism-foiled,DE,jihadism,foiled,2,0,0,2,EU23
+GR-left_wing_anarchist-failed,GR,left_wing_anarchist,failed,1,0,0,1,EU23
+IT-left_wing_anarchist-completed,IT,left_wing_anarchist,completed,23,1,0,22,EU23
+IT-left_wing_anarchist-failed,IT,left_wing_anarchist,failed,7,1,0,6,EU23
+LU-right_wing-foiled,LU,right_wing,foiled,1,1,0,0,EU23
+ES-jihadism-completed,ES,jihadism,completed,1,1,0,0,EU23
+ES-left_wing_anarchist-foiled,ES,left_wing_anarchist,foiled,1,0,1,0,EU23
+ES-not_specified-failed,ES,not_specified,failed,1,1,0,0,EU23

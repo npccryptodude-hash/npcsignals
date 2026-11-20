@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:lang="en" width="900" height="540" viewBox="0 0 900 540" role="img" aria-labelledby="title desc">
+<title id="title">2019–2020: geography changes the comparison</title>
+<desc id="desc">2019 · original EU28: 119; 2019 · fixed EU27: 55; 2020 · original EU27: 57; 2020 · later official revision: 56. Reported statistical entries. Physical attack frequency cannot be inferred.</desc>
+<metadata>NPCsignals internal review. Statistical source commit d1f675eb785db712655c6952e43f3a57dd31f66c.</metadata>
+<rect width="100%" height="100%" fill="#fff"/>
+<g font-family="DejaVu Sans, sans-serif" fill="#162436">
+<text x="35" y="48" font-size="26" font-weight="bold">2019–2020: geography changes the comparison</text>
+<text x="35" y="79" font-size="14">Reported attack entries</text>
+<text x="35" y="130" font-size="16">2019 · original EU28</text>
+<rect x="290" y="103" width="476" height="40" fill="#235886"/>
+<text x="781" y="130" font-size="22" font-weight="bold">119</text>
+<text x="35" y="202" font-size="16">2019 · fixed EU27</text>
+<rect x="290" y="175" width="220" height="40" fill="#17746b"/>
+<text x="525" y="202" font-size="22" font-weight="bold">55</text>
+<text x="35" y="274" font-size="16">2020 · original EU27</text>
+<rect x="290" y="247" width="228" height="40" fill="#17746b"/>
+<text x="533" y="274" font-size="22" font-weight="bold">57</text>
+<text x="35" y="346" font-size="16">2020 · later official revision</text>
+<rect x="290" y="319" width="224" height="40" fill="#c9d3df"/>
+<text x="529" y="346" font-size="22" font-weight="bold">56</text>
+<text x="35" y="405" font-size="14">2019 UK contribution: 64 entries (119 − 64 = 55).</text>
+<text x="35" y="427" font-size="14">Fixed geography retains national reporting and classification differences.</text>
+<text x="35" y="449" font-size="14">The later official revision is shown separately from the original cohort.</text>
+<text x="35" y="471" font-size="14">TE-SAT 2020 p. 84 · TE-SAT 2021 pp. 12, 99 · TE-SAT 2023 p. 9 n. 4.</text>
+<text x="35" y="493" font-size="14">Reported statistical entries. Physical attack frequency cannot be inferred.</text>
+<text x="35" y="522" font-size="12">NPCsignals · internal draft · statistical source checkpoint d1f675e</text>
+</g>
+</svg>

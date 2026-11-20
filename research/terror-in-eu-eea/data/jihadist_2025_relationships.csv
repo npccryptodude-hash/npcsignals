@@ -1,0 +1,15 @@
+relation_id,incident_id,subject_id,predicate,object_id,evidence_status,evidence_stage,qualification,source_ids
+r-b-01,DE_2025_02_21_BERLIN_HOLOCAUST_MEMORIAL,actor-berlin,direct_communication,actor-berlin-contact,confirmed,first_instance_finding,Court found contact over months by messaging,de-b1
+r-b-02,DE_2025_02_21_BERLIN_HOLOCAUST_MEMORIAL,actor-berlin-contact,operational_guidance,actor-berlin,confirmed,first_instance_finding,Court described guided attack and preparation; senior command chain unspecified,de-b1
+r-b-03,DE_2025_02_21_BERLIN_HOLOCAUST_MEMORIAL,actor-berlin-contact,membership,org-is,confirmed,first_instance_finding,Court identified contact as IS member,de-b1
+r-b-04,DE_2025_02_21_BERLIN_HOLOCAUST_MEMORIAL,actor-berlin,attempted_membership,org-is,confirmed,first_instance_finding,Court convicted of attempted membership; acceptance not established,de-b1
+r-b-05,DE_2025_02_21_BERLIN_HOLOCAUST_MEMORIAL,actor-berlin-assistant,alleged_encouragement,actor-berlin,reported,indictment_allegation,Prosecutor alleges in-person encouragement; underlying guilt undecided,de-b2
+r-bi-01,DE_2025_05_18_BIELEFELD,actor-bielefeld,historical_membership,org-is,confirmed,official_attribution_and_indictment_allegation,Confirmed attribution by Europol; alleged activities in 2015–2016 according to indictment; exact judicial finding unverified,eu-full;de-bi2
+r-bi-02,DE_2025_05_18_BIELEFELD,actor-bielefeld,unspecified_continuing_connection,org-is,confirmed,official_attribution,"Confirmed that TE-SAT records a continuing connection after 2023; type, counterparty and supporting evidence unspecified",eu-full
+r-v-01,AT_2025_02_15_VILLACH,actor-villach,declared_allegiance,org-is,confirmed,Europol_account,Pledge plus online self-radicalisation described by Europol,eu-full
+r-v-02,AT_2025_02_15_VILLACH,actor-villach,terrorist_association,org-is,confirmed,judgment,Association conviction; does not separately establish orders for the attack,at-v2
+r-e-01,DE_2025_09_05_ESSEN,actor-essen,ideological_influence,ideology-jihadist,confirmed,first_instance_finding,Court describes online radicalisation and Islamist motivation; no specific group assigned,de-e2
+r-d-01,IE_2025_07_DUBLIN_KHAN,actor-dublin,ideological_influence,ideology-jihadist,reported,court_reporting,Reported self-description and like-minded group testimony; organisation and involvement in either act unverified,ie-d3;ie-d2;ie-d4
+r-es-01,ES_2025_11_22_VALLECAS,actor-vallecas,suspected_ideological_influence,ideology-jihadist,disputed,detention_review_reported,Interlocutory indicia from writings and video; defence disputes motive,es-v4
+r-b-06,DE_2025_02_21_BERLIN_HOLOCAUST_MEMORIAL,actor-berlin,pledge_document_in_possession,org-is,confirmed,first_instance_finding,Court notice describes written pledge in possession on arrest; acceptance not established,de-b1
+r-l-01,FR_2025_09_10_LYON,actor-lyon,possible_indirect_contact,org-is,reported,investigative_lead,AFP attributed a possible indirect link to investigative phone evidence; counterparty and relationship unverified,fr-l2

@@ -1,0 +1,15 @@
+country_iso2,category,outcome,total,source_id,locator
+AT,jihadism,completed,1,EU20,p. 99; pp. 43–48
+BE,jihadism,foiled,1,EU20,p. 99; pp. 43–48
+BE,right_wing,failed,1,EU20,p. 99; pp. 18–19
+DE,jihadism,completed,3,EU20,p. 99; pp. 43–48
+DE,jihadism,foiled,1,EU20,p. 99; pp. 43–48
+DE,right_wing,completed,1,EU20,p. 99; pp. 18–19
+DE,right_wing,foiled,1,EU20,p. 99; pp. 18–19
+ES,separatist,unresolved_outcome,9,EU20,p. 99; pp. 22–23
+FR,jihadism,completed,6,EU20,p. 99; pp. 43–48
+FR,jihadism,foiled,2,EU20,p. 99; pp. 43–48
+FR,right_wing,foiled,1,EU20,p. 99; pp. 18–19
+FR,left_wing_anarchist,foiled,1,EU20,p. 99; pp. 21 and 92–93; detailed chapter headline controls with contradiction retained
+FR,separatist,unresolved_outcome,5,EU20,p. 99; pp. 22–23
+IT,left_wing_anarchist,completed,24,EU20,p. 99; pp. 21 and 92–93; detailed chapter headline controls with contradiction retained

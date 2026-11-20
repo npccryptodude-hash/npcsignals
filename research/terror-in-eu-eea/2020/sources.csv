@@ -1,0 +1,26 @@
+source_id,publisher,date_or_year,locator,url
+EU20,Europol,2021-06-22,Full official TE-SAT 2021 DOI 10.2813/677724; retrieved 2026-11-18; 113 pages; 11189122 bytes; SHA-256 ac5011b7733de4df27fba02acf3b578704899aaa7f9eba7136ddd1e5133defb5,https://www.europol.europa.eu/cms/sites/default/files/documents/tesat_2021_0.pdf
+EU20-MIR,Europol via Malta FIAU,2021,Mirror retrieved; 113 pages; 5089039 bytes; SHA-256 3ad1fc94528b181a7abd4aedbc23e89a91aa256313e079a785af397f4593767f,https://fiaumalta.org/wp-content/uploads/2022/02/tesat_2021_0-1.pdf
+EU20-META,EU Publications Office,2021,Publication and DOI metadata,https://op.europa.eu/en/publication-detail/-/publication/f5b533c6-dade-11eb-895a-01aa75ed71a1/language-en
+EU-EP,European Parliament,2021,EU casualty and ideology figures summarising Europol,https://www.europarl.europa.eu/topics/en/article/20210628STO07262/
+EU21,Europol,2022,TE-SAT 2022 pp. 7 and 22–24; 2020 total 57,https://www.europol.europa.eu/cms/sites/default/files/documents/Tesat_Report_2022_0.pdf
+EU22,Europol,2023-10,TE-SAT 2023 p. 9 n. 4; jihadist historical breakdown p. 24,https://tpcoe.gov.pl/download/11/636/EuropeanUnionTerrorismSituationandTrendreport2023.pdf
+DE-BER,Landgericht Berlin,2022-02-01,"PM 5/2022, 521 Ks 1/21; ruling on 31 January; summary explicitly rejects Islamist attack classification",https://www.berlin.de/gerichte/presse/pressemitteilungen-der-ordentlichen-gerichtsbarkeit/2022/pressemitteilung.1172551.php
+DE-BER-INIT,Generalstaatsanwaltschaft Berlin and Berlin Police,2020-08-19,Contemporaneous suspected Islamist attack; cited by EU20 p. 44 n. 52,https://www.berlin.de/generalstaatsanwaltschaft/presse/pressemitteilungen/2020/pressemitteilung.985408.php
+DE-WAL,Federal Prosecutor General,2020-12-21,Indictment in Waldkraiburg series; hosted by Bavarian court,https://www.bayern.verfassungsgerichtshof.de/media/images/behoerden-und-gerichte/oberlandesgerichte/muenchen/presse2021/pressemitteilung_2_vom_21.12.2020.pdf
+DE-DRE,OLG Dresden,2021-05,Trial ruling 4 St 1/21; original judicial announcement,https://www.medienservice.sachsen.de/medien/news/251838
+DE-CEL,Federal Prosecutor General,2020-04-15,Arrests in alleged IS cell; locator is EU20 p. 48 n. 54,https://www.generalbundesanwalt.de/SharedDocs/Pressemitteilungen/DE/2020/Pressemitteilung-vom-15-04-2020.html
+DE-HAN,Federal Prosecutor General,2021-12-16,Investigation closure announcement distributed by Presseportal,https://www.presseportal.de/blaulicht/pm/14981/5101005
+DE-BFV,Federal Office for Protection of the Constitution,2021,Verfassungsschutzbericht 2020; contemporary Islamist reporting,https://www.bpb.de/system/files/dokument_pdf/verfassungsschutzbericht-2020%20-%20komplett.pdf
+DE-CTC,CTC Sentinel,2025,"Case-by-case comparison, Berlin section; secondary corroboration; no Europol revision identifier",https://ctc.westpoint.edu/?p=57234
+AT-OMB,Austrian Ombudsman Board,2023,Special report on the 2 November 2020 Vienna attack,https://volksanwaltschaft.gv.at/fileadmin/user_upload/Downloads/Berichte/SoBe/sonderbericht-zum-terroranschlag-2020_bf-3.pdf
+FR-APP,Le Figaro,2026-03-02,Reported appeal verdicts in Paty case; cassation not verified,https://www.lefigaro.fr/actualite-france/proces-paty-en-appel-la-cour-d-assises-prononce-des-peines-inferieures-20260302
+FR-NIC,Le Figaro,2025-06-04,Reported first-instance life sentence and December 2026 appeal schedule,https://www.lefigaro.fr/nice/attentat-de-la-basilique-de-nice-le-proces-en-appel-du-terroriste-fixe-en-decembre-2026-20250604
+GB-REA,Courts and Tribunals Judiciary,2021-01-11,Reading sentencing remarks R v Khairi Saadallah,https://www.judiciary.uk/judgments/r-v-khairi-saadallah/
+GB-NI,Independent Reporting Commission,2022,"Fifth report p. 40 financial year comparator, separate from calendar 2020",https://www.ircommission.org/files/ircommission/2023-03/IRC%20Fifth%20Report%20-%20Web%20Accessible.pdf
+CAT-NO,PST,,National report catalogue only,https://www.pst.no/alle-artikler/trusselvurderinger/
+CAT-IS,Government of Iceland,,National security catalogue only,https://www.stjornarradid.is/verkefni/almannaoryggi/thjodaroryggi/itarefni/
+CAT-LI,Landespolizei,,Annual reports catalogue only,https://www.landespolizei.li/ueber-uns/jahresberichte
+DE-WAL-J,Hamburg Office for Protection of the Constitution,2022,2021 annual report printed pp. 32–33; reports OLG Munich findings and sentence,https://dokumente.hamburg.de/resource/blob/97768/7201e0451044e2057f8bed639f528b72/vsb-2021-online-pdf-data.pdf
+DE-BER-BGH,Bundesgerichtshof,2023-02-22,Notice 036/2023; Disposition and Vorinstanz,https://www.bundesgerichtshof.de/SharedDocs/Pressemitteilungen/DE/2023/2023036.html
+DE-BER-BGH-DISP,Bundesgerichtshof,2023-02-16,4 StR 329/22 linked disposition; p. 1,https://www.bundesgerichtshof.de/SharedDocs/Entscheidungen/DE/Strafsenate/4_StS/2022/4_StR_329-22.pdf?__blob=publicationFile&v=1

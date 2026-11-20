@@ -1,0 +1,28 @@
+observation_id,incident_id,measure,value,qualifier,observation_period,series_status,evidence_status,source_id
+c-m-01,DE_2025_02_13_MUNICH,injured,28,initial police tally,same day initial release,preliminary,confirmed,de-m1
+c-m-02,DE_2025_02_13_MUNICH,injured,30,updated police tally,same day later release,preliminary,confirmed,de-m2
+c-m-03,DE_2025_02_13_MUNICH,injured,39,LKA tally,following day,preliminary,confirmed,de-m3
+c-m-04,DE_2025_02_13_MUNICH,injured,50,strictly more than 50; 2025 security report,2025 retrospectively; cutoff unspecified,retrospective,confirmed,de-m4
+c-m-05,DE_2025_02_13_MUNICH,injured,43,persons injured in court account,factual findings at August 2026 judgment,first_instance,confirmed,de-m5
+c-m-06,DE_2025_02_13_MUNICH,injured,44,municipal memorial count,cutoff unspecified,retrospective,confirmed,de-m6
+c-m-07,DE_2025_02_13_MUNICH,injured,44,state intelligence annual report,2025 retrospectively; cutoff unspecified,retrospective,confirmed,de-sh
+c-m-08,DE_2025_02_13_MUNICH,injured,57,Europol incident count; detailed definition unspecified,2025 reference year; cutoff unspecified,annual_report,confirmed,eu-full
+c-m-09,DE_2025_02_13_MUNICH,dead,2,Europol incident count,2025 reference year,annual_report,confirmed,eu-full
+c-bi-01,DE_2025_05_18_BIELEFELD,critically_injured,4,Europol critically injured victims,2025 reference year,annual_report,confirmed,eu-full
+c-v-01,AT_2025_02_15_VILLACH,dead,1,Europol incident count,2025 reference year,annual_report,confirmed,eu-full
+c-v-02,AT_2025_02_15_VILLACH,injured,5,Austrian indictment count,as of indictment,prosecution_account,confirmed,at-v1
+c-fm-01,FR_2025_02_22_MULHOUSE,dead,1,CRGN retrospective,2025 reference year,national_research_note,confirmed,fr-crgn
+c-fm-02,FR_2025_02_22_MULHOUSE,injured,7,CRGN retrospective,2025 reference year,national_research_note,confirmed,fr-crgn
+c-a-01,FR_2025_01_25_APT,injured,2,customer and security guard in CRGN narrative,2025 reference year,national_research_note,confirmed,fr-crgn
+c-l-01,FR_2025_09_10_LYON,dead,1,CRGN retrospective,2025 reference year,national_research_note,confirmed,fr-crgn
+c-es-01,ES_2025_11_22_VALLECAS,dead,0,OIET event table,2025 reference year,independent_report,reported,es-v3
+c-es-02,ES_2025_11_22_VALLECAS,persons_attacked,3,Street victims described by Fiscalía; excludes later police encounter,incident day,prosecution_account,confirmed,es-v1
+c-d-01,IE_2025_07_DUBLIN_KHAN,injured,1,Garda physically injured in stabbing,incident day,court_reporting,reported,ie-d3
+c-b-01,DE_2025_02_21_BERLIN_HOLOCAUST_MEMORIAL,injured,1,victim in court account,incident day,first_instance,confirmed,de-b1
+c-e-01,DE_2025_09_05_ESSEN,life_threatening_stabbing_injuries,2,Two stabbing victims; separate bodily harm against caretaker by fist,incident day,first_instance_reporting,confirmed,de-e2
+c-m-10,DE_2025_02_13_MUNICH,injured,44,Nonfatal injured persons in the factual account; separate from attempted-murder count,prosecution account as at 26 August 2025,indictment_account,confirmed,de-m7
+c-bi-02,DE_2025_05_18_BIELEFELD,injured,5,At least five persons,incident day 12:39 update,preliminary,confirmed,de-bi5
+c-bi-03,DE_2025_05_18_BIELEFELD,seriously_injured,3,Subset of at least five,incident day 12:39 update,preliminary,confirmed,de-bi5
+c-bi-04,DE_2025_05_18_BIELEFELD,injured,5,At least five persons,incident day 17:48 update,preliminary,confirmed,de-bi6
+c-bi-05,DE_2025_05_18_BIELEFELD,seriously_injured,4,Subset of at least five; one in life-threatening condition,incident day 17:48 update,preliminary,confirmed,de-bi6
+c-fm-03,FR_2025_02_22_MULHOUSE,seriously_injured,3,DNRT director's severity subtotal; cutoff unspecified,reported to parliament 16 October 2025,official_testimony,confirmed,fr-dnrt

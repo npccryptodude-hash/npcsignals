@@ -1,0 +1,12 @@
+metric_id,geography,measure,value,source_id,locator
+EU-DEAD,EU27,victim_deaths,21,EU20,p. 12
+EU-INJ,EU27,injured_minimum,54,EU20,p. 12
+J-DEAD,EU27,jihadist_victim_deaths,12,EU20,pp. 12–13
+J-INJ,EU27,jihadist_injury_threshold_strictly_greater_than,47,EU20,pp. 13 and 43
+R-DEAD,EU27,right_wing_victim_deaths,9,EU20,p. 12
+UK-ALL,GB,reported_composite_incidents,62,EU20,p. 12 n. 2; six terrorism cases/plots plus 56 security incidents
+UK-ARR,GB,reported_arrests,185,EU20,p. 12
+NI-SHOOT,GB-NIR,shooting_incidents_in_TE_SAT,39,EU20,p. 23; do not harmonise with other PSNI periods
+NI-BOMB,GB-NIR,bombings_in_TE_SAT,17,EU20,p. 23
+NI-SEC,GB-NIR,security_related_incidents_in_TE_SAT,56,EU20,pp. 12 and 23
+NI-ARR,GB-NIR,terrorism_related_arrests_in_TE_SAT,79,EU20,p. 23

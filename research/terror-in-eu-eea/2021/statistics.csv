@@ -1,0 +1,10 @@
+metric_id,geography,measure,value,source_id,locator
+EU-DEAD,EU27,reported_attack_victim_deaths,2,EU21,pp. 4 and 22
+EU-J-INJ,EU27,minimum_injuries_reconstructed_from_two_Europol_accounts,10,EU21,p. 22; not an independently published all-attack injury aggregate
+ES-ROL-INJ,ES,Roldan_injuries_early_domestic_reporting,2,ES-ROL,21 September report
+ES-ROL-EU,ES,Roldan_injuries_Europol,5,EU21,p. 22
+DE-ICE-V,DE,ICE_travelling_victims_in_trial_findings,4,DE-ICE,Press release 64/2022; different measurement from injury count
+NI-DEAD,GB-NIR,security_related_deaths,2,GB-NI,2022 calendar bulletin comparison with 2021
+NI-BOMB,GB-NIR,bombing_incidents,5,GB-NI,2022 calendar bulletin comparison with 2021
+NI-SHOOT,GB-NIR,shooting_incidents,27,GB-NI,2022 calendar bulletin comparison with 2021
+NI-ARR,GB-NIR,security_related_Section_41_arrests,130,GB-NI,2022 calendar bulletin comparison with 2021

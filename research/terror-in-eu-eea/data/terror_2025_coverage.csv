@@ -1,0 +1,32 @@
+country_iso2,country,year,study_area,europol_status,national_source_status,national_source_ids,limitation
+AT,Austria,2025,eu27,reported_in_annex,national_report_reviewed,at-dsn;at-west-olg;at-dsn-six,Two documented foiled candidates; no named six-case crosswalk
+BE,Belgium,2025,eu27,reported_in_annex,different_national_measure,be-ocam-full;be-ap;be-antwerp-pp;be-mosque-parl;be-mosque-bx1,Domestic Brussels mosque plot recorded separately; missing other/unspecified EU crosswalk
+BG,Bulgaria,2025,eu27,no_attack_row_in_reviewed_eu_source,national_report_secondary_lead,bg-bnr,SANS 2025 original attack tables not located
+HR,Croatia,2025,eu27,no_attack_row_in_reviewed_eu_source,national_report_located,hr-soa,2025 public intelligence report; attack outcomes not extracted
+CY,Cyprus,2025,eu27,no_attack_row_in_reviewed_eu_source,data_unavailable_in_review,cy-cystat,Located crime dataset covers 2024
+CZ,Czechia,2025,eu27,no_attack_row_in_reviewed_eu_source,national_report_located,cz-bis,BIS 2025 report entry; comparable national outcomes not extracted
+DK,Denmark,2025,eu27,no_attack_row_in_reviewed_eu_source,different_national_measure,dk-cta,Threat assessment; no equivalent outcome census verified
+EE,Estonia,2025,eu27,no_attack_row_in_reviewed_eu_source,different_national_measure,ee-kapo;ee-kapo-terror,KAPO organisational-presence assessment is not an annual attack tally
+FI,Finland,2025,eu27,no_attack_row_in_reviewed_eu_source,national_report_secondary_lead,fi-threat,Threat-report lead; full primary national census not located
+FR,France,2025,eu27,reported_in_annex,different_national_classification,fr-pnat;fr-crgn;fr-dnrt;fr-incel25;fr-dgsi-threat;fr-oct-plot;fr-aug-plot;fr-senat776,Seven national jihadist disruptions versus eight TE-SAT; Senate adds Milice rouge candidate in separate right-wing category
+DE,Germany,2025,eu27,reported_in_annex,different_national_classification,de-bt;de-lvw,Four Islamist events under Q29; right-wing examples need separate status
+GR,Greece,2025,eu27,reported_in_annex,incident_primary_only,gr-pol;gr-thess-ap;gr-thess-trial,Thessaloniki bank case investigated as lead and left unmapped; failed other slot unknown
+HU,Hungary,2025,eu27,no_attack_row_in_reviewed_eu_source,national_report_located,hu-pol,General yearbook; terrorism outcome table not verified
+IE,Ireland,2025,eu27,reported_in_annex,different_national_classification,ie-garda;ie-d1;ie-d3,Garda hate crimes distinct; domestic Dublin case covers two acts
+IT,Italy,2025,eu27,reported_in_annex,national_report_located,it-intel;it-pg26;it-narni;it-lazio-questura,National judicial and police sources add leads; EU slot attribution remains partial
+LV,Latvia,2025,eu27,no_attack_row_in_reviewed_eu_source,different_national_measure,lv-vdd;lv-vdd-full,Calendar 2025 VDD presence assessment; 2025 appeal in a 2024 case and no comparable attack tally
+LT,Lithuania,2025,eu27,no_attack_row_in_reviewed_eu_source,different_national_measure,lt-vsd,Threat assessment; calendar-year census not verified
+LU,Luxembourg,2025,eu27,no_attack_row_in_reviewed_eu_source,national_report_located,lu-pol,Police annual report located; comparable outcome data not extracted
+MT,Malta,2025,eu27,reported_in_annex,national_report_secondary_lead,mt-crime,General crime reporting; one failed other event unnamed
+NL,Netherlands,2025,eu27,reported_in_annex,incident_primary_only,nl-om;nl-om26;nl-nctv;nl-dam-sep,September preliminary hearing documented; no verified EU match or merits judgment
+PL,Poland,2025,eu27,no_attack_row_in_reviewed_eu_source,different_national_classification,pl-abw,Police/security preparation case; EU table has no attack row
+PT,Portugal,2025,eu27,no_attack_row_in_reviewed_eu_source,verified_zero_limited_category,pt-rasi;pt-pj;pt-dciap,Zero completed Islamist attacks in RASI; right-wing preparation separately documented
+RO,Romania,2025,eu27,no_attack_row_in_reviewed_eu_source,different_national_measure,ro-sri,Alert-level announcement; no comparable national outcome census
+SK,Slovakia,2025,eu27,no_attack_row_in_reviewed_eu_source,data_unavailable_in_review,sk-nrsr,Oversight source is not a 2025 attack tally
+SI,Slovenia,2025,eu27,no_attack_row_in_reviewed_eu_source,data_unavailable_in_review,,Official incident outcome census not located in first-pass search
+ES,Spain,2025,eu27,reported_in_annex,national_report_reviewed,es-v1;es-v2,Vallecas strong candidate; exact submission missing
+SE,Sweden,2025,eu27,no_attack_row_in_reviewed_eu_source,different_national_measure,se-sapo,Threat assessment; no comparable national outcome census verified
+GB,United Kingdom,2025,non_eu,outside_eu_scope,different_national_measure,gb-ho;gb-ni;gb-ctp;gb-inq;gb-gmp-oct;gb-disruptive-powers,GB 2025 arrest series and NI security series retain separate scope
+IS,Iceland,2025,non_eu,outside_eu_scope,different_national_measure,is-risk,April threat assessment; no full-year census verified
+LI,Liechtenstein,2025,non_eu,outside_eu_scope,different_national_measure,li-pol,"Jahresbericht p. 31: one offence, one cleared offence; underlying case type unpublished"
+NO,Norway,2025,non_eu,outside_eu_scope,verified_zero_limited_category,no-pst;no-ssb,Scoped PST zero remains; SSB registered-offence source does not resolve attack outcomes

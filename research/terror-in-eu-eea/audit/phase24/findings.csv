@@ -1,0 +1,11 @@
+finding_id,affected,severity,evidence,required_correction,disposition,remaining_uncertainty
+FND01,C13 and F06,high,BGH notice dated 22 May labels decision 12 May; DSV wrapper uses 22 May,Separate decision from notice date and use primary issuer,Corrected,Historic register retained as versioned observation
+FND02,C13 and F06,medium,BGH issuer explicitly summarises lower court findings on encouragement and advice,Attribute the court finding separately from Europol and qualify command,Corrected,Full lower-court reasons not inspected
+FND03,C08,medium,Year 2025 shared while reporting event differs,Describe conclusion year and arrest year separately,Corrected,Individual overlap untested
+FND04,C01 C04 C06 C09 and F01–F04,medium,Detached claim or chart loses cohort and physical incidence boundaries,State geographic and counting scope in report and figures,Corrected,Cohort comparability remains bounded
+FND05,C12 and F06,medium,PET agency summary identifies principal defendant; later finality not verified,Scope to principal; keep agency attribution,Corrected,Later appeal and signed judgment unverified
+FND06,C16 C17 C18,medium,Category subcount and source labels were abbreviated,Retain 374 and edition units for 426/431 and Corsica,Corrected,All discrepancies remain open
+FND07,F01–F06,medium,360px raster makes labels and notes small,Attach readable HTML or text alternatives and retain standalone caveats,Text alternatives supplied; intended mobile export pending,Fixed SVG layout remains small at 360px
+FND08,F05,medium,Federal reply lists locations and NRW uses nationwide count,Preserve distinct unit labels and unknown correspondence,Retained,Five-versus-four does not identify a missing German case
+FND09,Section 8 and F06,medium,Three selected cases are neither a representative sample nor a chain across incidents,Keep examples scoped and require caption in excerpts,Qualified,Selection bias persists as expected in illustrative sample
+FND10,Report and figures,low,Place identifiers are sufficient for case attribution without naming suspects,Retain minimal detail and check export captions,Passed for internal review,Release-context review remains necessary

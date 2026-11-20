@@ -1,0 +1,15 @@
+cell_id,country_iso2,category,outcome,total,adequate,candidate,unidentified,incident_ids,source_id
+AT-jihadism-completed,AT,jihadism,completed,1,1,0,0,AT20-VIE,EU20
+BE-jihadism-foiled,BE,jihadism,foiled,1,1,0,0,BE20-EUP,EU20
+BE-right_wing-failed,BE,right_wing,failed,1,0,0,1,,EU20
+DE-jihadism-completed,DE,jihadism,completed,3,3,0,0,DE20-WAL;DE20-A100;DE20-DRE,EU20
+DE-jihadism-foiled,DE,jihadism,foiled,1,1,0,0,DE20-CEL,EU20
+DE-right_wing-completed,DE,right_wing,completed,1,1,0,0,DE20-HAN,EU20
+DE-right_wing-foiled,DE,right_wing,foiled,1,0,0,1,,EU20
+ES-separatist-unresolved_outcome,ES,separatist,unresolved_outcome,9,0,0,9,,EU20
+FR-jihadism-completed,FR,jihadism,completed,6,6,0,0,FR20-VIL;FR20-ROM;FR20-COL;FR20-PAR;FR20-CON;FR20-NIC,EU20
+FR-jihadism-foiled,FR,jihadism,foiled,2,2,0,0,FR20-BRE;FR20-FAR,EU20
+FR-right_wing-foiled,FR,right_wing,foiled,1,0,0,1,,EU20
+FR-left_wing_anarchist-foiled,FR,left_wing_anarchist,foiled,1,0,0,1,,EU20
+FR-separatist-unresolved_outcome,FR,separatist,unresolved_outcome,5,0,0,5,,EU20
+IT-left_wing_anarchist-completed,IT,left_wing_anarchist,completed,24,0,0,24,,EU20

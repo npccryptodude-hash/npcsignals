@@ -1,0 +1,23 @@
+incident_id,event_date,country_iso2,locality,category,outcome_cell,confidence,deaths,injuries,source_ids,qualification
+FR18-TRE,2018-03-23,FR,Carcassonne and Trèbes,jihadism,completed,adequate,4,15,EU18;FR-TRE,p. 31; one grouped statistical entry; injuries from national gendarmerie account.
+NL18-HAG,2018-05-05,NL,The Hague,jihadism,completed,adequate,0,3,EU18;NL-HAG;NL-HAG-AP;EU19,p. 31 original statistical allocation; later courts found no terrorist intent.
+FR18-PAR,2018-05-12,FR,Paris,jihadism,completed,adequate,1,,EU18,p. 31; excludes attacker death.
+BE18-LIE,2018-05-29,BE,Liège,jihadism,completed,adequate,3,4,EU18,p. 31; four wounded police in Europol narrative.
+NL18-AMS,2018-08-31,NL,Amsterdam,jihadism,completed,adequate,0,2,EU18;NL-AMS;NL-AMS-AP,p. 32; victims only.
+FR18-STR,2018-12-11,FR,Strasbourg,jihadism,completed,adequate,5,,EU18;FR-STR-AP;FR-STR-CAS,p. 32; excludes attacker death.
+GB18-MAN,2018-12-31,GB,Manchester,jihadism,completed,adequate,0,3,EU18;GB-MAN,p. 32; police sentencing release corroborates.
+ES18-COR,2018-08-20,ES,Cornellà / Barcelona area,jihadism,failed,adequate,0,,EU18,p. 32 explicitly classified as failed; attacker death excluded.
+NL18-ARN,2018-09,NL,Netherlands / Arnhem investigation,jihadism,foiled,adequate,,,EU18;NL-ARN,p. 32 seven suspects; pp. 47–48 context. Court source ties to September disruption.
+DE18-COL,2018-06,DE,Cologne,jihadism,foiled,adequate,,,EU18,Report describes uncovered plot; no instructions preserved.
+IT18-MAC,2018-02-03,IT,Macerata,right_wing,completed,adequate,0,6,EU18;IT-MAC,"p. 60; sole Italian right-wing attack, sentencing independently reported."
+GR18-POL,2018-02-26,GR,Athens,left_wing_anarchist,unresolved_outcome,adequate,,,EU18,p. 56; police station incident.
+GR18-PRO,2018-03-24,GR,Athens,left_wing_anarchist,unresolved_outcome,adequate,,,EU18,pp. 56–57; prosecution office incident.
+GR18-RES,2018-11-13,GR,Athens,left_wing_anarchist,unresolved_outcome,adequate,,,EU18,"p. 57; incident near a prosecutor residence; device did not explode, exact statistical outcome not coded."
+GR18-MED,2018-12,GR,Athens,left_wing_anarchist,unresolved_outcome,adequate,,,EU18,p. 57; television headquarters incident.
+GR18-CHU,2018-12-27,GR,Athens,left_wing_anarchist,unresolved_outcome,adequate,,,EU18,p. 57; church incident.
+IT18-VIL,2018-08-12,IT,Villorba,left_wing_anarchist,unresolved_outcome,adequate,,,EU18,p. 57; political party office.
+IT18-ROB,2018-12-24,IT,Italy,left_wing_anarchist,unresolved_outcome,adequate,,,EU18,p. 57; technology institute incident.
+IT18-AZU,2018-02-20,IT,Italy,left_wing_anarchist,unresolved_outcome,adequate,,,EU18,p. 57; Azione Universitaria office.
+IT18-ALA,2018-10-13,IT,Ala,left_wing_anarchist,unresolved_outcome,adequate,,,EU18,p. 57; political party office.
+IT18-TRE,2018-05-07,IT,Trento,left_wing_anarchist,unresolved_outcome,adequate,,,EU18,p. 57; CasaPound office.
+GR18-BUT,2018-12,GR,Athens,single_issue,unresolved_outcome,adequate,,,EU18,p. 63 directly identifies sole single-issue event; no explicit outcome code.

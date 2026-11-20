@@ -1,0 +1,13 @@
+cell_id,country_iso2,category,outcome,total,adequate,candidate,unidentified,incident_ids,source_id
+DK-jihadism-completed,DK,jihadism,completed,2,2,0,0,DK15-KRU;DK15-SYN,EU15
+FR-jihadism-completed,FR,jihadism,completed,3,3,0,0,FR15-CH;FR15-MON;FR15-HC,EU15
+FR-jihadism-unresolved_outcome,FR,jihadism,unresolved_outcome,12,3,1,8,FR15-NIC;FR15-SQF;FR15-NOV;FR15-THA,EU15
+FR-right_wing-unresolved_outcome,FR,right_wing,unresolved_outcome,7,0,0,7,,EU15
+FR-separatist-unresolved_outcome,FR,separatist,unresolved_outcome,47,0,0,47,,EU15
+FR-not_specified-unresolved_outcome,FR,not_specified,unresolved_outcome,4,0,0,4,,EU15
+GR-left_wing_anarchist-unresolved_outcome,GR,left_wing_anarchist,unresolved_outcome,2,1,0,1,GR15-STI,EU15
+GR-right_wing-unresolved_outcome,GR,right_wing,unresolved_outcome,2,0,0,2,,EU15
+IT-left_wing_anarchist-unresolved_outcome,IT,left_wing_anarchist,unresolved_outcome,4,0,2,2,IT15-BAR;IT15-ROM,EU15
+ES-left_wing_anarchist-unresolved_outcome,ES,left_wing_anarchist,unresolved_outcome,7,0,0,7,,EU15
+ES-separatist-unresolved_outcome,ES,separatist,unresolved_outcome,18,0,0,18,,EU15
+GB-not_specified-unresolved_outcome,GB,not_specified,unresolved_outcome,103,0,0,103,,EU15

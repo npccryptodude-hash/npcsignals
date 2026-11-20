@@ -1,0 +1,26 @@
+source_id,publisher,date_or_year,locator,url
+EU22,Europol,2023-10,"Full revised edition; DOI 10.2813/302117; 94 pages; 3927023 bytes; SHA-256 fde4aed6e1634fbf1b5aa52220d4a2515f4b3f2a67a5c75ee97484d9152807ba; downloaded from Polish Police TPCoE; pp. 2, 9–12, 24–26, 44–45, 56–60, 79–80, 88–90",https://tpcoe.gov.pl/download/11/636/EuropeanUnionTerrorismSituationandTrendreport2023.pdf
+EU22-JUN,Europol,2023-06-14,Superseded full report; DOI 10.2813/370206; 94 pages; 3831673 bytes; SHA-256 9997845345d4615c24db0eda4bf1589dc8cf5d113d1ba6b05eb20c9e0c6f0408; mirror downloaded,https://www.pvtweb.de/fileadmin/user_upload-/Dateien_zum_Download/Europol_TE-SAT_2023.pdf
+EU22-META,Publications Office of the EU,2023-12-13,Revised full edition metadata and EU repository release date,https://op.europa.eu/en/publication-detail/-/publication/1694f1b5-9a38-11ee-b164-01aa75ed71a1
+EU22-DIRECT,Europol,2023,Original PDF URL cited in COM(2024)64; direct request HTTP 404 on 2026-11-18,https://www.europol.europa.eu/cms/sites/default/files/documents/Europol_TE-SAT_2023.pdf
+EU22-EXEC,Europol,2023,Executive summary p. 2; four deaths,https://www.europol.europa.eu/cms/sites/default/files/documents/TE-SAT%202023%20-%20Executive%20Summary.pdf
+EU21,Europol,2022,Full TE-SAT 2022 annex p. 82; checked via Malta FIAU mirror,https://fiaumalta.org/app/uploads/2022/07/EUROPOL-publishes-the-EU-Terrorism-Situation-and-Trend-Report-2022.pdf
+EU23,Europol,2024-12-12,Full TE-SAT 2024; inspected previously retrieved copy; printed pp. 10–11 nn. 12/15 and p. 50 n. 75; tables p. 61,https://www.pvtweb.de/fileadmin/user_upload-/Dateien_zum_Download/TE-SAT_2024.pdf
+EU25,Europol,2026-07-13,Full TE-SAT 2026 p. 47 n. 44 as recorded in 2023 baseline; prior verification,https://www.europol.europa.eu/cms/sites/default/files/documents/EU-TE-SAT-2026.pdf
+FR-PNAT,PNAT,2026-01,2025 activity booklet; Saisines PNAT dans le contentieux terroriste; Corse column,https://www.tribunal-de-paris.justice.fr/sites/default/files/2026-01/Plaquettes%20activit%C3%A9%202025%20TJP%20-%20PNF%20-%20PNAT%20-%20PNACO.pdf
+FR-SEN,French Ministry of the Interior,2025-07-17,Senate written question 03246; ministerial answer in JO Sénat p. 4146,https://www.senat.fr/questions/base/2025/qSEQ250203246.html
+FR-AN,Assemblée nationale,2025,Report 1466; notes 40–41; broader attack and arson metric,https://www.assemblee-nationale.fr/dyn/opendata/RINFANR5L17B1466.html
+FR-ARL,Le Parisien,2026-07-06,Reported appellate affirmation of trial referral; original order not obtained,https://www.leparisien.fr/faits-divers/assassinat-dyvan-colonna-la-justice-confirme-le-proces-devant-les-assises-de-franck-elong-abe-accuse-davoir-tue-le-militant-corse-06-07-2026-SZLGAI3PN5AZBPI2PJPEBKVYNY.php
+BE-SCH,BRUZZ,2025-12-19,Reported Brussels court internment order; original order and appeal status not obtained,https://www.bruzz.be/actua/justitie/man-die-politie-inspecteur-thomas-monjoie-doodde-wordt-geinterneerd-2025-12-19
+DE-BGH,Bundesgerichtshof,2022-08-25,Detention decision; pp. 2–3; warrant 3 BGs 448/22 reinstated,https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2022-8-25&Gericht=bgh&anz=14&nr=131103&pos=11
+DE-FIN,Radio Essen,2023-02-21,Reports OLG Düsseldorf confirmation that judgment became final,https://www.radioessen.de/artikel/terrorplan-auf-schule-in-essen-urteil-rechtskraeftig-1575540
+SK-PRO,Slovak Special Prosecutor,2023,2022 annual report; Tepláreň passage confirms two killed and one wounded,https://www.genpro.gov.sk/fileadmin/Sprava_o_cinnosti/2022_sprava_o_cinnosti_USP.pdf
+ES-TR,RTVE,2024-07-23,Audiencia Nacional first-instance judgment as reported,https://www.rtve.es/noticias/20240723/condenan-18-anos-carcel-hombre-mando-cartas-explosivos-moncloa-embajada-ucrania/16195748.shtml
+ES-AP,El País,2024-11-12,Audiencia Nacional appeal chamber judgment as reported; cassation status unverified,https://elpais.com/espana/2024-11-12/la-audiencia-nacional-rebaja-la-condena-al-jubilado-que-envio-cartas-pirotecnicas-al-gobierno.html
+GB-NI,PSNI Statistics Branch,2023-01-06,Calendar-year 2022 key statistics; university mirror,https://cain.ulster.ac.uk/issues/police/docs/psni_2023_stats_security_2022.pdf
+GB-DOV,Counter Terrorism Policing,2022-11-05,Dover investigation update; police assessment of motivation,https://www.counterterrorism.police.uk/news/attack-at-dover-investigation-update-from-counter-terrorism-policing-south-east-ctpse/
+NO-OSL,RVTS Nord,,Court proceedings interpretation; Oslo judgment and withdrawal,https://nord.rvts.no/fordypning/rettsprosessene
+NO-APP,Aftenposten,2025-01-30,Defence confirmation of appeal withdrawal,https://www.aftenposten.no/i/4Bl1E9
+IS-PRO,Icelandic Director of Public Prosecutions,2026-07-10,Landsréttur 324/2024 and Hæstiréttur 28/2025; no prosecution application for leave,https://island.is/frett/ekki-oskad-eftir-afryjunarleyfi-i-hrydjuverkamalinu
+LI-POL,Liechtenstein Landespolizei,2023-04-17,Police annual report for 2022 located,https://www.landespolizei.li/application/files/6116/8233/1600/Jahresbericht_LP_2022_Webseite_20230417.pdf
+LI-EXT,Liechtenstein-Institut,2023,Extremismusbericht 2022 § 3.3; cites Landespolizei statistics,https://s3.eu-central-1.amazonaws.com/ext-linst-c5-web-liechtenstein-institut.li-2019/4516/8906/7067/Extremismusbericht_2022_V2.0.pdf

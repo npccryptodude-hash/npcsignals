@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:lang="en" width="360" height="487" viewBox="0 0 360 487" role="img" aria-labelledby="title desc">
+<title id="title">2019–2020: geography changes the comparison</title>
+<desc id="desc">2019 · original EU28: 119 | 2019 · fixed EU27: 55 | 2020 · original EU27: 57 | 2020 · later official revision: 56. 2019 UK contribution: 64 entries (119 − 64 = 55). Fixed geography retains national reporting and classification differences. The later official revision is shown separately from the original cohort. TE-SAT 2020 p. 84 · TE-SAT 2021 pp. 12, 99 · TE-SAT 2023 p. 9 n. 4. Reported statistical entries. Physical attack frequency cannot be inferred.</desc>
+<metadata>NPCsignals internal review. Statistical source commit d1f675eb785db712655c6952e43f3a57dd31f66c.</metadata>
+<rect width="100%" height="100%" fill="#fff"/>
+<g font-family="DejaVu Sans, sans-serif" fill="#162436">
+<text x="16" y="23" font-size="19" font-weight="bold">2019–2020: geography</text>
+<text x="16" y="47" font-size="19" font-weight="bold">changes the comparison</text>
+<rect x="12" y="63" width="336" height="44" fill="#eef3f7"/>
+<text x="18" y="79" font-size="13" font-weight="bold">2019 · original</text>
+<text x="18" y="97" font-size="13" font-weight="bold">EU28</text>
+<text x="178" y="79" font-size="13">119</text>
+<rect x="12" y="109" width="336" height="26" fill="#eef3f7"/>
+<text x="18" y="125" font-size="13" font-weight="bold">2019 · fixed EU27</text>
+<text x="178" y="125" font-size="13">55</text>
+<rect x="12" y="137" width="336" height="44" fill="#eef3f7"/>
+<text x="18" y="153" font-size="13" font-weight="bold">2020 · original</text>
+<text x="18" y="171" font-size="13" font-weight="bold">EU27</text>
+<text x="178" y="153" font-size="13">57</text>
+<rect x="12" y="183" width="336" height="44" fill="#eef3f7"/>
+<text x="18" y="199" font-size="13" font-weight="bold">2020 · later</text>
+<text x="18" y="217" font-size="13" font-weight="bold">official revision</text>
+<text x="178" y="199" font-size="13">56</text>
+<text x="16" y="253" font-size="13">2019 UK contribution: 64 entries (119 − 64</text>
+<text x="16" y="271" font-size="13">= 55).</text>
+<text x="16" y="295" font-size="13">Fixed geography retains national reporting</text>
+<text x="16" y="313" font-size="13">and classification differences.</text>
+<text x="16" y="337" font-size="13">The later official revision is shown</text>
+<text x="16" y="355" font-size="13">separately from the original cohort.</text>
+<text x="16" y="379" font-size="13">TE-SAT 2020 p. 84 · TE-SAT 2021 pp. 12, 99</text>
+<text x="16" y="397" font-size="13">· TE-SAT 2023 p. 9 n. 4.</text>
+<text x="16" y="421" font-size="13">Reported statistical entries. Physical</text>
+<text x="16" y="439" font-size="13">attack frequency cannot be inferred.</text>
+<text x="16" y="463" font-size="13">NPCsignals · internal draft · d1f675e</text>
+</g>
+</svg>

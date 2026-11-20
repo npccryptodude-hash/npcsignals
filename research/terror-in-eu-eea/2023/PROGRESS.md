@@ -1,0 +1,9 @@
+# Phase 9 progress and evidence gaps — 18 November 2026
+
+[Baseline](BASELINE.md) · [Attack data](attacks.csv) · [Arrests](arrests.csv) · [Country coverage](coverage.csv) · [Crosswalk](crosswalk.csv) · [Incidents](incidents.csv) · [Proceedings and relationships](proceedings_relationships.csv) · [Comparability](COMPARABILITY_2023_2025.md).
+
+The provisional 120-slot crosswalk has **9 adequate, 1 candidate and 110 unidentified** across 16 active cells. The nine include direct examples with incomplete national case files (Rome, the Einstein project and Luxembourg). Candidate status captures the Zaragoza outcome conflict. Counts measure allocated report slots, not judgments or physical actions. Exact crosswalk and source IDs have been validated.
+
+The official Düsseldorf judgment 6 StS 2/23 covers both Duisburg events and the database marks it final. Arras referral and Paris investigation closure are reported procedural updates. The Brussels weapons-law convictions are reported without confirmed appeal status and do not establish knowing coordination of the attack. The Algeciras psychiatric-exemption ruling and appellate affirmance are secondary accounts. Madrid processing orders concern allegations; no merits decision was verified. Reported propaganda inspiration, pledge, claim, contact, material assistance, financing and command remain separate.
+
+Next evidence needed: event-level Corsican submissions with dates; named lists for the other Italian events and Germany/France foiled cases; Zaragoza classification correction or event return; source-specific victim counts for Paris; original Spanish, French and Belgian orders and finality where applicable; comparable national datasets for the outstanding countries. Missing values remain unknown. Only the navigation index was altered outside this 2023 directory.

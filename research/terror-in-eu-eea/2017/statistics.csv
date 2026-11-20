@@ -1,0 +1,18 @@
+metric_id,geography,measure,value,source_ids,locator
+ALL-DEAD,EU28,headline_victim_deaths,68,EU17,p. 9; excludes NI security incident casualties
+ALL-INJ,EU28,headline_injuries,844,EU17,p. 9; excludes NI security incident casualties
+J-DEAD,EU28,jihadist_victim_deaths,62,EU17,pp. 9 and 23
+J-INJ,EU28,jihadist_injuries,819,EU17,pp. 9 and 23
+UK-J-DEAD,GB,jihadist_victim_deaths,35,EU17,p. 23 n. 23; open-source basis
+EU27-J-DEAD,EU27,jihadist_victim_deaths_derived,27,EU17,pp. 23–24; 62 minus 35; country subtotals independently sum to 27
+EU27-ALL-DEAD,EU27,all_category_victim_deaths_unverified,,EU17,pp. 9 and 23; no fully compatible jurisdiction breakdown
+EU27-INJ,EU27,all_category_injuries_unverified,,EU17,p. 9; no fully compatible jurisdiction breakdown
+NI-SEC,GB-NIR,security_incidents,88,EU17;GB-REV,p. 9 nn. 1 and 4
+NI-SHOOT,GB-NIR,security_shootings_in_Europol_return,58,EU17,p. 9 n. 4
+NI-BOMB,GB-NIR,security_bombings_in_Europol_return,30,EU17,p. 9 n. 4
+NI-NS,GB-NIR,national_security_attacks,5,EU17;GB-NS,p. 9 n. 1 and separate parliamentary series
+NI-ARR,GB-NIR,arrests_outside_original_aggregate,173,EU17,p. 55 footnote
+J-C,EU28,jihadist_completed_margin,10,EU17,p. 23
+J-F,EU28,jihadist_failed_margin,12,EU17,p. 23
+J-P,EU28,jihadist_foiled_margin,11,EU17,p. 23
+ES-AN-INJ,ES,annual_investigation_report_approximate_injuries,300,ES-AN,2017 annual report investigation summary; scope differs from 138 in combined Europol case narratives

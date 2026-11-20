@@ -1,0 +1,17 @@
+record_id,incident_id,date,stage,finding_or_allegation,finality,source_ids
+J-SOL,DE_2024_08_23_SOLINGEN,2026-05-22,appeal,BGH 3 StR 55/26 rejected revision; domestic IS membership and murder judgment final per reproduced court announcement,final_as_reported,DE-SOL
+R-SOL,DE_2024_08_23_SOLINGEN,2024-08,official_attribution,Europol reports IS claim and messaging encouragement by IS member; case-specific command and financing not independently established here,not_applicable,EU24;DE-SOL
+J-MAN,DE_2024_05_31_MANNHEIM,2025-09-16,reported_first_instance,Life sentence reported,later_status_unverified,DE-MAN
+J-GAL,IE_2024_08_15_GALWAY,2025-04-29,reported_sentencing,Eight years of detention after guilty plea to attempted murder,appeal_unknown,IE-GAL
+J-ROT,NL_2024_09_19_ERASMUSBRUG,2025-12-19,court_announcement,Court found terrorist intent and imposed TBS with compulsory treatment; psychosis prevented attribution of criminal responsibility,appeal_unknown,NL-ROT
+R-ROT,NL_2024_09_19_ERASMUSBRUG,2025-12-19,court_announcement,Court cited ideological material and expressions in its intent analysis; membership and operational command unestablished,not_applicable,NL-ROT
+J-FICO,SK_2024_05_15_HANDLOVA,2026-04-29,reported_appeal,Supreme Court upheld 21-year sentence for terrorist attack,appellate_disposition_reported,SK-FICO
+J-PRAGUE,CZ_2024_06_06_PRAGUE_BUS,2025-06-09,reported_first_instance,Eight years reported in case covering bus arson and further planned attack,appeal_unknown,CZ-PRA
+R-PRAGUE,CZ_2024_06_06_PRAGUE_BUS,2024-06,official_assessment,Europol reports apparent online recruitment by individuals linked to Russia; state command not independently adjudicated in reviewed sources,not_applicable,EU24;CZ-PRA
+J-DK-MAY,DK_2024_05_29_COPENHAGEN,2026-07-09,reported_pretrial,Detention reported; no indictment as of report,unresolved,DK-MAY
+J-DK-OCT,DK_2024_10_02_EMBASSY,2026-02-03,police_announcement,Two domestic terrorism convictions,appeal_unknown,DK-EMB
+J-LT,LT_2024_05_09_VILNIUS,2025-11-24,prosecutor_announcement,Vilnius court imposed three years four months after statutory reduction,appeal_unknown,LT-VIL
+J-MT,MT_2024_05_30_LABOUR,2025-11-18,reported_hearing,Terrorism charges and continuing court proceedings reported,unresolved,MT-LAB
+J-MON,IT_2024_03_18_MONTELLO,2024-06-26,reported_investigation,Police referral reported; merits judgment not verified,unresolved,IT-MON
+J-FR,FR_2024_08_24_GRANDE_MOTTE,2024-08-29,reported_formal_investigation,Terrorism-related formal investigation reported,unresolved,FR-LGM
+J-AT,AT_2024_08_VIENNA_CONCERT,2026-05-28,reported_first_instance,15-year term reported in proceedings including concert plot and additional conduct,appeal_unknown,AT-CON;AT-VER

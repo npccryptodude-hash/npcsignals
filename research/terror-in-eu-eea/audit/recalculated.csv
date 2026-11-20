@@ -1,0 +1,12 @@
+year,attacks,uk_attacks,eu27_attacks,arrests,uk_arrests,eu27_arrests,completed,failed,foiled,unresolved_outcome,adequate,candidate,unidentified,attack_categories,arrest_categories,later_official_attacks,occurrence_sensitivity_attacks
+2015,211,103,108,1077,134,943,5,0,0,206,9,3,199,jihadism=17;left_wing_anarchist=13;not_specified=107;right_wing=9;separatist=65,jihadism=687;left_wing_anarchist=67;not_specified=144;right_wing=11;separatist=168,,108
+2016,142,76,66,1002,149,853,10,1,1,130,20,1,121,jihadism=13;left_wing_anarchist=27;not_specified=2;right_wing=1;separatist=99,jihadism=718;left_wing_anarchist=31;not_specified=157;right_wing=12;separatist=84,,66
+2017,205,107,98,1219,412,807,14,3,6,182,27,1,177,jihadism=33;left_wing_anarchist=24;not_specified=6;right_wing=5;separatist=137,jihadism=705;left_wing_anarchist=36;not_specified=428;right_wing=20;separatist=30,,98
+2018,129,60,69,1056,273,783,8,1,16,104,22,0,107,jihadism=24;left_wing_anarchist=19;not_specified=1;right_wing=1;separatist=83;single_issue=1,jihadism=511;left_wing_anarchist=34;not_specified=434;right_wing=44;separatist=30;single_issue=3,,69
+2019,119,64,55,1004,281,723,4,5,21,89,24,1,94,jihadism=21;left_wing_anarchist=26;not_specified=6;right_wing=6;separatist=57;single_issue=3,jihadism=436;left_wing_anarchist=111;not_specified=386;right_wing=21;separatist=48;single_issue=2,,55
+2020,57,0,57,449,0,449,35,1,7,14,15,0,42,jihadism=14;left_wing_anarchist=25;right_wing=4;separatist=14,jihadism=254;left_wing_anarchist=52;not_specified=69;other=1;right_wing=34;separatist=39,56,56
+2021,15,0,15,388,0,388,4,1,10,0,14,1,0,jihadism=11;left_wing_anarchist=1;right_wing=3,jihadism=260;left_wing_anarchist=19;not_specified=14;other=5;right_wing=64;separatist=26,18,22
+2022,28,0,28,380,0,380,16,3,9,0,12,3,13,jihadism=6;left_wing_anarchist=18;right_wing=4,jihadism=266;left_wing_anarchist=19;not_specified=6;other=26;right_wing=45;separatist=18,,50
+2023,120,0,120,426,0,426,98,9,13,0,9,1,110,jihadism=14;left_wing_anarchist=32;not_specified=1;other=1;right_wing=2;separatist=70,jihadism=334;left_wing_anarchist=14;not_specified=9;other=18;right_wing=26;separatist=25,,94
+2024,58,0,58,449,0,449,34,5,19,0,9,7,42,jihadist=24;left_wing_anarchist=21;other=8;right_wing=1;separatist=4,jihadist=289;left_wing_anarchist=28;other=58;right_wing=47;separatist=27,,58
+2025,45,0,45,486,0,486,22,3,20,0,7,17,21,jihadist=24;left_wing_anarchist=12;other_unspecified=4;right_wing=5,jihadist=347;left_wing_anarchist=13;other=49;right_wing=43;separatist=34,,45

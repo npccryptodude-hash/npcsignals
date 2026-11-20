@@ -1,0 +1,24 @@
+source_id,publisher,date_or_year,locator,url
+EU16,Europol,2017-06-15,"Full TE-SAT 2017 covering 2016; retrieved 2026-11-18; 62 pages; 8443234 bytes; SHA-256 9d80e60737827de952579c926c3a0b7c742fb1467d5e6f24840557bb5c049371; pp. 10,22–25,40,42–45,49–50,54–55",https://www.europol.europa.eu/cms/sites/default/files/documents/tesat2017_0.pdf
+EU16-META,Publications Office,2017,DOI 10.2813/237471; publication metadata,https://op.europa.eu/en/publication-detail/-/publication/a4fe72c9-b541-11e7-837e-01aa75ed71a1
+EU16-A,Europol,2017,Official HTML annex 1; independently checked against PDF,https://www.europol.europa.eu/tesat/2017/ANNEX_1.html
+EU16-B,Europol,2017,Official HTML annex 2; independently checked against PDF,https://www.europol.europa.eu/tesat/2017/ANNEX_2.html
+EU17,Europol,2018,TE-SAT 2018 2016 comparator,https://www.europol.europa.eu/cms/sites/default/files/documents/tesat_2018_1.pdf
+BE-PAR,Belgian Chamber of Representatives,2018,22 March attack investigation commission brochure; both sites,https://www.lachambre.be/kvvcr/pdf_sections/publications/attentats/Brochure_Attentats_Terroristes.pdf
+BE-VER,Belga,2023-07-25,Reports verdicts and offences,https://www.belganewsagency.eu/brussels-attacks-trial-six-perpetrators-guilty-across-the-board-two-defendants-fully-acquitted
+BE-END,Belga,2023-10-02,Court spokesperson confirms appeal deadline expired without filing,https://www.belganewsagency.eu/no-appeals-filed-in-brussels-terrorism-trial-making-all-rulings-final
+FR-NIC-CAS,Cour de cassation,2026-02-11,Criminal chamber pourvoi 24-84.288; appellate terms and cassation decision,https://www.courdecassation.fr/decision/698ec174cdc6046d4728a107
+FR-NIC-REP,Le Parisien,2026-02-11,Confirms final sentences after cassation,https://www.leparisien.fr/faits-divers/attentat-de-nice-la-cour-de-cassation-rend-definitives-les-condamnations-des-deux-derniers-condamnes-11-02-2026-3KJQ64ZGTBBTPEZPJ6QLTRWBC4.php
+FR-NIC-RES,Research report hosted by French Ministry of Justice,2018,Bonelli and Carrié report; later 86 killed and 458 injured; not a harmonised victim return,https://www.justice.gouv.fr/sites/default/files/migrations/presse/art_pix/Rapport%20Bonelli%20Carri%C3%A9%20-%20Radicalit%C3%A9%20engag%C3%A9e%20radicalit%C3%A9s%20r%C3%A9volt%C3%A9es.pdf
+DE-BT,Bundestag,2021,19/30800 inquiry final report,https://dserver.bundestag.de/btd/19/308/1930800.pdf
+DE-GBA,Bundestag,2020-12,Federal prosecutor testimony on personal contacts and formal membership,https://www.bundestag.de/webarchiv/presse/hib/2020_12/812864-812864
+DE-MEM,Berlin borough administration,,Memorial page; 13th death in 2021,https://www.berlin.de/ba-charlottenburg-wilmersdorf/ueber-den-bezirk/geschichte/gedenkstaetten/artikel.792032.php
+DE-HAN,OLG Celle,2017-01,Hanover verdict release; no finality at announcement,https://oberlandesgericht-celle.niedersachsen.de/startseite/aktuelles/presseinformationen/angriff-auf-einen-beamten-der-bundespolizei-im-hauptbahnhof-hannover-150535.html
+NL-ENS,Hoge Raad,2019-03,ECLI:NL:HR:2019:343; confirms appellate judgment,https://uitspraken.rechtspraak.nl/details?id=ECLI%3ANL%3AHR%3A2019%3A343
+GB-REV,Independent Reviewer of Terrorism Legislation,2018,Terrorism Acts in 2016; §5 and Northern Ireland; 123 S41 arrests distinct,https://assets.publishing.service.gov.uk/media/5a81eb5440f0b62302699de9/CCS207_CCS0118827758-1_Terrorism_Acts_in_2016_print.pdf
+GB-ISM,Judiciary Northern Ireland,2021-12-21,Court of Appeal judgment summary; Ismay case,https://www.judiciaryni.uk/files/judiciaryni/decisions/Summary%20of%20judgment%20-%20R%20v%20Christopher%20Robinson%20-%20CA%20-%20211221.pdf
+GB-COX,Crown Court,2016-11,Thomas Mair sentencing remarks,https://www.judiciary.uk/wp-content/uploads/2016/11/sentencing-remarks-r-v-thomas-mair.pdf
+NO-PST,PST,,National assessments catalogue,https://www.pst.no/alle-artikler/trusselvurderinger/
+IS-CAT,Icelandic government,,National security catalogue,https://www.stjornarradid.is/verkefni/almannaoryggi/thjodaroryggi/itarefni/
+LI-CAT,Landespolizei,,Annual report catalogue,https://www.landespolizei.li/ueber-uns/jahresberichte
+BE-SEN,Belga,2023-09-15,Reports sentencing reasons and jury findings on cell leadership and 35 murder victims,https://www.belganewsagency.eu/brussels-attacks-trial-three-men-sentenced-to-life-in-prison-no-additional-punishments-for-abrini-and-asufi

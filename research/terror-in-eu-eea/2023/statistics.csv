@@ -1,0 +1,8 @@
+metric_id,geography,measure,value,source_id,locator
+EU-J-DEAD,EU27,jihadist_victim_deaths,6,EU23,pp. 10–11 and 19
+EU-J-INJ,EU27,jihadist_victim_injuries,12,EU23,pp. 10–11 and 19
+NI-DEAD,Northern Ireland,security_related_deaths,0,GB-NI,Key Statistics
+NI-BOMB,Northern Ireland,bombing_incidents,8,GB-NI,Key Statistics
+NI-SHOOT,Northern Ireland,shooting_incidents,33,GB-NI,Key Statistics
+NI-NS,Northern Ireland,national_security_attacks,1,GB-NS,2023 calendar year
+NO-Z,Norway,completed_extreme_islamist_attacks,0,NO-PST,Retrospective statement since 2022
