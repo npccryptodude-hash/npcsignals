@@ -49,3 +49,12 @@ The designation blocks covered property subject to US jurisdiction and generally
 - [Part 1 Swedish relationship SWE-R1](../../2021/proceedings_relationships.csv).
 
 This is a source-scoped profile, not a finding that the organisation committed every right-wing attack in the Nordic countries.
+
+## Finnish Supreme Court: original judicial determination (verified 20 November 2026)
+
+The Finnish Supreme Court's own English-language summary of **KKO:2020:68**, issued **22 September 2020**, is now directly verified: [official court summary](https://www.korkeinoikeus.fi/en/news/news-archive/kko202068-disbandment-of-an-association/). The court affirmed disbandment under **section 43(1)(1) of the Finnish Associations Act**. This is an association-law ruling, **not a criminal terrorism conviction or a judicial finding that NRM directed the 2021 Swedish case**.
+
+The court identified as established the association's national-socialist objectives, the pursuit of a change from representative democracy to the association's rule, and severe restrictions on others' fundamental rights. It examined the association's website and described racist material and Holocaust denial. The court expressly noted that the association's formal rules restricted violence to self-defence, **but** found that leaders or active members had committed assaults and other offences, that violent offences had resulted in convictions, and that the organisation had tolerated or positively treated such conduct. It found violence at least tacitly accepted in the association's activities and concluded that unlawful activity was sufficiently essential to require disbandment rather than a caution.
+
+**Evidence boundary:** This directly supports the Finnish judicial findings about the association's objectives and activities. It does not establish the guilt of every member, a Europe-wide NRM attack count, or command in a separate incident. The Supreme Court summary is an official court publication; the full Finnish-language judgment may provide additional reasoning.
+
