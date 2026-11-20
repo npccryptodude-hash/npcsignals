@@ -42,3 +42,14 @@ For 2022, Europol reports a Rome responsibility claim under the Augusto Masetti 
 
 **Interpretive boundary:** The US government's alias list provides an administrative naming link to the label used in Europol's 2022 Rome claim report. It does **not** authenticate that claim, establish a single stable command structure across listed cells, identify perpetrators or prove responsibility in the Rome case. US administrative designation is not an Italian criminal judgment.
 
+
+
+## Italian judicial outcomes: convictions and acquittal (research update, 20 November 2026)
+
+**Fossano 2006, final outcome in 2024.** Italian public broadcaster [Rai News, 24 April 2024](https://www.rainews.it/tgr/piemonte/articoli/2024/04/il-verdetto-della-cassazione-definitiva-la-condanna-a-23-anni-per-lanarchico-cospito--4e5b239b-520b-42ff-b3f4-f599c56349db.html) and [ANSA](https://www.ansa.it/sito/notizie/cronaca/2024/04/24/condanna-definitiva-per-cospito-a-23-anni-di-carcere_0ac8e4f8-21e5-47ce-9bc3-bf26877ddd9f.html) report that Italy's Court of Cassation rejected the appeals and finalised **23 years for Alfredo Cospito** and **17 years 9 months for Anna Beniamino** in the proceedings arising from the **2006** Fossano Carabinieri-school bombing. This is a **reported final judicial outcome**; the full Cassation judgment and precise operative findings have not yet been retrieved. Because the incident predates 2015, it must **not** be inserted as an additional 2015–2025 Europol attack.
+
+**Adinolfi shooting 2012.** Rai reports a **2014 conviction** of Cospito to **10 years 8 months** for the 2012 shooting of Ansaldo Nucleare executive Roberto Adinolfi, which was claimed under the **Nucleo Olga FAI/FRI** label. Keep the conviction, responsibility claim and cell/command relationship analytically separate; the original 2014 judicial reasons are not yet reviewed. This incident also predates the attack-study window.
+
+**Valentina Speziale: final acquittal.** [ANSA, 23 March 2026](https://www.ansa.it/amp/sito/notizie/cronaca/2026/03/23/anarchici-arrestata-ma-assolta-in-processo-fai-fri-niente-risarcimento_b09b485c-138f-4b7b-98b8-0b7d3fea6d77.html) reports that Speziale was **finally acquitted** of alleged participation in FAI/FRI. Her later claim for compensation for wrongful detention was rejected; the reporting describes the courts' distinction between circumstances that initially supported suspicion and the absence of sufficient proof of participation. **A denial of detention compensation does not reverse the acquittal.** The original acquittal and compensation judgments remain to be retrieved.
+
+**Evidence discipline:** The above are reported outcomes of Italian courts, not original judgments inspected in this update. Neither conviction of two individuals nor an administrative US alias list establishes a single central FAI/FRI command over every 2016 or 2022 Italian entry.
