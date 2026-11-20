@@ -59,3 +59,13 @@ Two original BGH orders have now been inspected, separate from the Solingen fina
 | Greece RCS, Athens 2024/2025 | Police occurrence and Europol claim; US designation instruments verified | No Greek merits judgment verified | Greek police/prosecutor releases and trial docket |
 
 The Italian final-outcome reporting supplies useful **case contrast**, but the cases of 2006 and 2012 must not be counted as attacks occurring during 2015–2025. Greek case status remains **unresolved**, not assumed to be an acquittal or conviction. Source links and detailed caveats are in the individual organisation profiles.
+
+
+## Primary-source upgrades: Greece and Italy (20 November 2026)
+
+- **Greece, CCF:** [Areios Pagos 1333/2018](https://www.areiospagos.gr/nomologia/apofaseis_DISPLAY.asp?apof=1333_2018&cd=ZSFD5EMZYDNB7AERPCS8ZTMB4EA8O2&info=%EF%BF%BD), [442/2021](https://www.areiospagos.gr/nomologia/apofaseis_DISPLAY.asp?apof=442_2021&cd=CTRUXZM9XNV2644MP3Q7SKHVBMGMDY&info=%EF%BF%BD), and [1223/2024](https://areiospagos.gr/nomologia/apofaseis_DISPLAY.asp?apof=1223_2024&cd=B08I1WMEC4SX8ILMY6IIMIQB1YM8RL&info=%EF%BF%BD) are original Greek Supreme Court decisions. The 2024 decision partially quashed only mitigation/sentence provisions and remitted that portion; the later sentence is unknown. None of these documents is yet an adequate individual-to-incident judicial match for the October 2016 Athens event.
+- **Italy, FAI/FRI:** [Torino prosecutor-general 2025 official report](https://pg-torino.giustizia.it/cmsresources/cms/documents/RELAZIONE%20PROCURATORE%20GENERALE.pdf) confirms the Fossano sentencing and Cassation disposition. The report is an original institutional source, but not the underlying full judgment; the attack occurred in 2006 and is not part of the 2015–2025 attack denominator.
+- **Germany, AK 100–106/23 and StB 50/25:** No new final verdict established in this verification pass. Preserve their existing indictment/detention stages and continue docket-specific follow-up.
+- **Greece, RCS:** No original Greek merits judgment located in this pass. Do not transfer findings from CCF proceedings to RCS.
+
+**Priority:** Map Greek 2017 court findings to exact incident IDs and check the remittal outcome; seek 2016 Athens case-specific judgment; seek Italian full Cassation judgment and later German verdicts.
