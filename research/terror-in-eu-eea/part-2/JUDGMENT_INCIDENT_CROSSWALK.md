@@ -19,7 +19,7 @@ Research checkpoint: 20 November 2026. This crosswalk joins **specific repositor
 | GR16-FRA | November 2016, French embassy | Same decisions | NO_VERIFIED_JOIN | No court-event correspondence established |
 | GR17-JAN | 10 January 2017, Athens | Areios Pagos 1223/2024 | NO_VERIFIED_JOIN | Decision's 2017 letter-bomb context alone cannot identify this specific January event |
 | GR17-NOV | 6 November 2017, Athens | Areios Pagos 1223/2024 | NO_VERIFIED_JOIN | Event-specific correspondence not established |
-| GR17-PAP | 25 May 2017, Athens: letter-bomb explosion injuring former PM Loukas Papademos and vehicle occupants | Areios Pagos 1223/2024 | CONTEXTUAL_EVENT_REFERENCE | The judgment explicitly names this incident and says its criminal trial was separate and ongoing at the point described; the reviewed judgment is not a conviction for the Papademos attack |
+| GR17-PAP | 25 May 2017, Athens: letter-bomb explosion injuring former PM Loukas Papademos and vehicle occupants | Areios Pagos 1223/2024; Athens three-member felony appeals court reported 23 November 2023 | REPORTED_ATTACK_TRIAL_CONVICTION + CONTEXTUAL_EVENT_REFERENCE | Contemporary Kathimerini reports Giagtzoglou convicted at first instance (11 years; suspended effect); original trial judgment and later finality unverified. AP 1223/2024 is separate weapons proceedings and does not itself adjudicate the attack |
 | GR17-BAN | 19 April 2017, Athens | Areios Pagos 1223/2024 | NO_VERIFIED_JOIN | Do not equate a 2017 letter-bomb reference with this incident without recipient/date confirmation |
 | GR17-APP | 22 December 2017, Athens | Areios Pagos 1223/2024 | NO_VERIFIED_JOIN | Court judgment's factual history not mapped to this incident |
 
@@ -76,3 +76,11 @@ The [1333/2018 judgment](https://www.areiospagos.gr/nomologia/apofaseis_DISPLAY.
 | Finality of attack-specific proceedings | Not verified; pending at time of court's narrative |
 | Organisational membership | Judgment records irrevocable acquittal of K. G. on CCF membership allegation |
 | Join classification | CONTEXTUAL_EVENT_REFERENCE, not DIRECT_EVENT_JUDGMENT |
+
+## Subsequent disposition discovered: GR17-PAP (20 November 2026)
+
+[Kathimerini, 24 November 2023](https://www.kathimerini.gr/society/562746274/katadiki-gia-to-dema-vomva-ston-loyka-papadimo/) reports that on **23 November 2023** the Athens three-member felony appeals court, sitting at first instance for the attack case, convicted **Konstantinos Giagtzoglou** in relation to the **25 May 2017** letter-bomb explosion against former PM Loukas Papademos. It reports an **11-year custodial sentence with suspended effect**, a **2–1 majority**, and the court's acceptance of a lesser explosion-endangerment characterisation instead of attempted murder. [Dnews, 24 November 2023](https://www.dnews.gr/eidhseis/politikes-eidhseis/450710/me-6-xronia-kathysterisi-i-katadiki-tis-tromokratikis-epithesis-me-vomva-dema-ston-l-papadimo) independently reports the outcome.
+
+**Join:** This is an **event-specific, contemporaneously reported first-instance conviction** and therefore a stronger link than AP 1223/2024's contextual reference. **Not yet original-judgment verified:** case number, exact counts in the operative decision, appeal, cassation or finality. Do not label it final or use it to prove CCF membership/command. The earlier statement that attack-specific proceedings were still pending refers to the time recounted in the Supreme Court's separate case and is superseded as a current-status claim by the November 2023 trial report.
+
+**Dataset policy:** Keep `2017/incidents.csv` unchanged. Add a proceedings relationship only after documenting the court's case number/operative text or explicitly accepting a **reported non-final trial disposition** as a separate evidence tier under the existing register policy.
