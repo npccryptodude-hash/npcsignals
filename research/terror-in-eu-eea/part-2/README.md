@@ -22,3 +22,5 @@ An official category tells you how an entry was reported. A court can establish 
 - [Part 1 methodology](../METHODOLOGY.md)
 
 - [Greek and Italian judgment-to-incident crosswalk](JUDGMENT_INCIDENT_CROSSWALK.md) — conservative event-ID mapping; no unverified direct judicial joins.
+
+- [Part 2 evidence integrity audit](EVIDENCE_INTEGRITY_AUDIT.md) — adversarial source-to-incident controls, unresolved discrepancies and publication gate.
