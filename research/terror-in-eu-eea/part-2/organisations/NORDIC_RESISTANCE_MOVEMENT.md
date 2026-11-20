@@ -28,7 +28,7 @@ The designation blocks covered property subject to US jurisdiction and generally
 |---|---|---|
 | 1997 | Formation under Swedish Resistance Movement name | US government retrospective history |
 | 2016 | Name change to Nordic Resistance Movement | US government retrospective history |
-| 2020 | Finnish prohibition reported | US government report; original Finnish judgment not yet examined |
+| 2020 | Finnish association disbandment affirmed | Finnish Supreme Court official summary KKO:2020:68 reviewed below; full Finnish-language reasons not reviewed |
 | November 2021 | Swedish case with Europol-reported NRM links | Europol association; membership and direction unresolved |
 | 14 June 2024 | US SDGT designations of NRM and three named leaders | Primary US executive designation |
 
