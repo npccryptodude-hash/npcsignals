@@ -46,3 +46,10 @@ The June 2026 NCTC profile states that the US Department of State designated RCS
 - [2025 relationships](../../data/terror_2025_judicial_relationship_updates.csv).
 
 This profile separates organisational assessments, occurrence, claims, administrative designation and judicial responsibility.
+
+## Original US designation instruments (verified 20 November 2026)
+
+The **FTO** designation is directly confirmed by [Federal Register notice 2025-20663](https://www.govinfo.gov/content/pkg/FR-2025-11-20/html/2025-20663.htm), dated **10 November 2025**, published and effective **20 November 2025**, under section 219 of the Immigration and Nationality Act. The separate **SDGT** designation appears in [Federal Register notice 2025-20666](https://www.govinfo.gov/content/pkg/FR-2025-11-20/html/2025-20666.htm), under Executive Order 13224. The [OFAC sanctions entry](https://sanctionssearch.ofac.treas.gov/Details.aspx?id=56430) independently displays RCS with SDGT and FTO program labels and aliases.
+
+These are primary administrative designation records. They establish US legal status and the names covered by the actions, **not a Greek conviction, identification of individual attackers, or proof that a central leadership directed the 2024/2025 incidents**. The earlier designation section's verification task for the existence and effective date of the US instruments is now resolved; Greek judicial attribution remains open.
+
