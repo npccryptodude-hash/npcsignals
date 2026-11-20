@@ -16,7 +16,7 @@ but these observations do not cover the same territory. the 2019 edition include
 
 this does not prove that the terrorism threat remained constant. it demonstrates that the unadjusted comparison mixes geographic scopes. national classification and reporting practices may still differ after the adjustment.
 
-**primary illustration 01:** [2019–2020 geographic comparison](../phase25/figures/01_2019_2020_geography.svg), showing the original 2019 EU28 total 119, fixed-EU27 2019 total 55, original 2020 EU27 total 57 and separately labelled later official revision 56. source: TE-SAT 2020 p. 84, TE-SAT 2021 pp. 12 and 99 and TE-SAT 2023 p. 9 n. 4. [full original geographic context](../phase25/figures/01_geography_en.svg) and [eleven-year fixed-EU27 series](../phase25/figures/02_eu27_series_en.svg) remain in the evidence appendix. the 2015 chart discrepancy of 193 versus 211 remains unresolved.
+**primary illustration 01:** [2019–2020 geographic comparison](../phase25/figures/01_2019_2020_geography.svg), showing the original 2019 EU28 total 119, fixed-EU27 2019 total 55, original 2020 EU27 total 57 and separately labelled later official revision 56. source: TE-SAT 2020 p. 84, TE-SAT 2021 pp. 12 and 99 and TE-SAT 2023 p. 9 n. 4. [full original geographic context](../phase25/figures/01_geography_en.svg) and [eleven-year fixed-EU27 series](../phase25/figures/02_eu27_series_en.svg) remain in the evidence appendix. the 2015 edition (TE-SAT 2016, pp. 10–11 and 44) reports 211. the subsequent TE-SAT 2017 edition repeats 211 in its prose (p. 10) but plots 193 in figure 1 (p. 11); the discrepancy remains unresolved.
 
 ## when the reporting year is not the occurrence year
 
@@ -44,7 +44,7 @@ the same caution applies to arrests and judicial decisions. fixed-eu27 reported 
 
 the investigation also attempted to link statistical entries to identifiable incidents using available sources.
 
-across 1,129 entries in the original annual reporting cohorts, 168 were adequately identified, 35 were candidate entries and 926 remained unidentified. this denominator includes the uk row through 2019. for 2025, the respective figures are seven adequately identified, 17 candidates and 21 unidentified out of 45. [c09–c10]
+across 1,129 entries in the original annual reporting cohorts, 168 were adequately identified, 35 were candidate entries and **926 remained unidentified by this project's public-source linkage**. this denominator includes the uk row through 2019. for 2025, the respective figures are seven adequately identified, 17 candidates and 21 unidentified out of 45. [c09–c10]
 
 these figures measure **this investigation's ability to link published statistical entries to available source material**. they do not establish that europol lacks internal documentation for 926 incidents, or that those incidents did not occur. a single statistical entry may have several competing event candidates. in 2025, 18 possible identities relate to 17 candidate entries.
 
@@ -68,7 +68,7 @@ the three cases illustrate different evidentiary boundaries. they are not a repr
 
 some published observations cannot yet be reconciled using the available sources:
 
-- **2015:** one europol chart shows 193, while the accompanying text and annual data use 211.
+- **2015:** TE-SAT 2016 reports **211** in its original annual data (pp. 10–11, 44). the later TE-SAT 2017 edition repeats **211** in the prose (p. 10) but plots **193** for 2015 in figure 1 (p. 11). the discrepancy's cause is unknown.
 - **2016:** europol reports 379 injured overall, while three incident narratives add to 597. its annex gives 374 for jihadist casualties, using the annex’s own terminology. the sources do not provide a common measurement definition that resolves the difference.
 - **2023:** the original edition and a later overview report 426 arrests, while retrospective category tables sum to 431.
 - **2025:** the table reports 347 jihadist arrests, while an age footnote uses 344.
