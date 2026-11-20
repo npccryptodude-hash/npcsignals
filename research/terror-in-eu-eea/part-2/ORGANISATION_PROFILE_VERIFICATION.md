@@ -34,3 +34,13 @@ This is a documentary control sheet for Part 2, not a finding of organisational 
 - [US Federal Register, FTO notice 2025-20663](https://www.govinfo.gov/content/pkg/FR-2025-11-20/html/2025-20663.htm): original administrative FTO instrument for FAI/FRI and RCS, effective on publication 20 November 2025.
 - [US Federal Register, SDGT notice 2025-20666](https://www.govinfo.gov/content/pkg/FR-2025-11-20/html/2025-20666.htm): separate original administrative designation under E.O. 13224.
 - The FAI/FRI alias list includes Augusto Masetti variants, but an administrative alias is not an adjudicated link to the 2022 Rome act.
+
+
+## German primary-court upgrade: IS (20 November 2026)
+
+Two original BGH orders have now been inspected, separate from the Solingen final conviction:
+
+- [AK 100–106/23, 24 January 2024](https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2024&Gericht=bgh&Sort=1026&anz=3646&nr=136396&pos=4): detention review, alleged domestic group, alleged support transfers and ISPK contact. The court says the content of certain overseas communications was unknown and that concrete attack plans had not yet developed. **Not a conviction.**
+- [StB 50/25, 30 October 2025](https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=Aktuell&Gericht=bgh&Sort=12288&anz=1072&nr=143630&pos=4): detention review, alleged fundraising and correspondence support by a **non-member**. The court provides a historical account of IS's goals and organisational trajectory. **Not a conviction.**
+
+**Updated gap:** original German judicial historical description is now available, but it is not an IS-authored programme. Final case dispositions, actual transfers proved at trial, organisational direction and comprehensive leadership/finance chronology remain unverified. The earlier matrix row describing IS history as only broad background should now be read with this source-specific upgrade.
