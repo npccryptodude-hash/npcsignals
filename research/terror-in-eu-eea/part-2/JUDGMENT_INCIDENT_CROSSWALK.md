@@ -137,3 +137,27 @@ The paper distinguishes the investigative/prosecutorial reconstruction of inform
 **Document hierarchy:** This is an original publication by a judicial training institution summarising proceedings, **not** the complete operative text of Cassation judgment 38184/2022. Confirm each count, defendant, conviction, acquittal and finality from that decision before creating any event-specific judicial relationship. The police [6 September 2016 Scripta Manent release](https://www.poliziadistato.it/articolo/3857ce8d5e3c1fa164926365) independently specifies that the arrest-operation allegations concerned **Fossano 2006** and **Torino Crocetta 2007** explosives, not a demonstrated judicial link to the June 2016 parcel incidents.
 
 **Research status:** new **case identifiers verified**; no new DIRECT_EVENT_JUDGMENT for 2016 incident rows.
+
+## Targeted retrieval of Cassation 38184/2022 and separate Italian case registers (20 November 2026)
+
+**Full-text retrieval outcome: NOT OBTAINED.** The exact Cassation decision is **Second Criminal Section no. 38184/2022, hearing 6 July 2022, deposited 11 October 2022**. Searches of public Cassation materials and legal repositories found original downstream court documents and the Supreme Court's institutional analysis, but **not the complete text of decision 38184/2022**. Do not describe its individual charges as exhaustively inspected.
+
+**Original judicial substitutes actually inspected:**
+- [Italian Supreme Court's *Rassegna della giurisprudenza di legittimità penale 2022*, volume I](https://www.cortedicassazione.it/resources/cms/documents/Rassegna_penale_anno_2022_VOLUME_I.pdf), section IV on political versus ordinary *strage*, specifically analyses **count F** (Fossano Carabinieri school, 2006) and mentions **count L** (three devices in Torino within a year). It is an **institutional analytical summary**, not the full judgment or a count-by-count disposition.
+- [Italian Constitutional Court judgment 94/2023](https://www.cortecostituzionale.it/scheda-pronuncia/2023/94) confirms that Cassation partially annulled the appellate ruling as to **count F legal classification**, from article 422 to article 285, remitting **sentence determination**. It expressly dates the Fossano event to **2 June 2006**. This is an **original court judgment about the remittal**, not the complete 38184/2022.
+- [Torino Court of Assize of Appeal order, 19 December 2022, RG 18/22](https://www.giurisprudenzapenale.com/wp-content/uploads/2023/01/ORDINANZA-19.12.2022.pdf) identifies the same Cassation number and remittal proceeding.
+- [Court of Cassation judgment 13258/2023](https://www.giurisprudenzapenale.com/wp-content/uploads/2023/03/cospito-cassazione.pdf) is a **different judgment** concerning detention conditions; it refers to the 2022 case but must not be mistaken for 38184/2022.
+
+**Count-to-register gate:** Count F = **OUTSIDE_WINDOW** (Fossano, 2 June 2006). Count L = **historical Torino 2007 context**, pending full count text and disposition; not a match to IT16-CIV, IT16-PAR, IT16-BIO or IT16-BOL. All other counts in 38184/2022 = **NOT_EXTRACTED**; no assertion of exhaustive verification. The full 2022 decision is required before marking each count reviewed.
+
+### Separate national-source checks
+
+| Incident | Newly checked national source | Result | Judicial gap |
+|---|---|---|---|
+| IT16-CIV | [Italian National Anti-Mafia/Anti-Terrorism Directorate report for July 2015–June 2016](https://www.avvisopubblico.it/home/wp-content/uploads/2017/06/RELAZIONE-DNA-1.7.2015-30.6.2016.pdf) | Prosecutorial institutional report independently records the January 2016 device near Civitavecchia court and says FAI/FRI claimed it | No case docket, named defendants or final merits judgment established |
+| IT16-PAR | [Parma police headquarters annual address, 10 April 2017](https://questure.poliziadistato.it/it/Parma/articolo/96658eb85222b571378756506) | Original territorial police statement records June 2016 intercepted explosive parcel to EFSA and describes anarchist authorship as **probable** | No case docket, named defendants or final merits judgment established |
+| IT16-BIO | [Italian 2016 intelligence report](https://www.senato.it/service/PDF/PDFServer/BGT/1021660.pdf) (previously inspected) | Confirms Milan biotechnology recipient and injury; no distinct national prosecution record newly found | No case docket, named defendants or final merits judgment established |
+
+**Status of national register access:** Public-source searches did not provide a case-number lookup or complete prosecution file for these three incidents. Do not infer that the investigations were closed or that no prosecution occurred. The publicly documented original police/prosecutor sources are **event verification**, not judicial attribution.
+
+**Next retrieval route:** Search Italian Supreme Court public judgment search by exact **38184/2022**, or request document access through authorised legal databases or court archives; if a copy becomes available, extract each lettered charge, event date/location, accused persons, adjudicated result and finality. Independently seek Parma, Milano and Civitavecchia prosecutor case numbers; do not map by FAI/FRI alias alone.
