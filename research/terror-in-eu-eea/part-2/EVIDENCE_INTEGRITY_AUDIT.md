@@ -204,3 +204,16 @@ All four 2016 CSVs were fetched again from the current research branch and parse
 **Execution constraint:** Repository files are accessible through the GitHub connector; the local execution container could not resolve github.com, and the connector does not expose a shell executor. Therefore `audit/recalculate.py`, `audit/phase24/verify_independent.py`, `audit/build_english_figures.py --check`, and `audit/phase25/verify_layouts.py` **remain unexecuted on the current head**. The historical Phase 25 PASS is not transferred to this changed checkpoint.
 
 **Editorial gate remains NO-GO** until full deterministic regression and independent human review.
+
+## Eleventh pass: Phase 26 editorial challenge follow-through (20 November 2026)
+
+Reopened `audit/phase26/INDEPENDENT_EDITORIAL_CHALLENGE.md`, `audit/phase25/SOURCE_GUIDE.md`, `audit/phase25/DIRECT_SOURCE_VERIFICATION.md`, `audit/phase24/EDITORIAL_REPORT_DRAFT.md`, and `audit/phase23/claims.csv`. The prior independent model challenge had explicitly identified source provenance for **193/211** and reader misinterpretation of **926** as targeted wording defects.
+
+**Changes made on the research branch:**
+- `audit/phase24/EDITORIAL_REPORT_DRAFT.md`: Clarified that TE-SAT 2016's original 2015 cohort is **211**, while the *later* TE-SAT 2017 text retains **211** and its figure 1 shows **193**; the reason is not established. Corrected the short discrepancy paragraph and opening figure caption.
+- Same draft: Changed first occurrence of **926** to **“926 remained unidentified by this project's public-source linkage”**, explicitly defining the limitation before the subsequent explanatory paragraph.
+- `audit/phase25/SOURCE_GUIDE.md`: Updated C16–C18 locator row to cite the original edition **TE-SAT 2016 pp. 10–11 and 44** for 211, and the *later* TE-SAT 2017 **p. 11 figure 1** for 193, alongside the later prose p. 10.
+
+**Unchanged:** `audit/phase23/claims.csv` remains original claim evidence, and no numerical datasets, figure values, event attribution or annual totals changed. The 2016 injury discrepancy remains **SOURCE_REPORTED_UNRECONCILED**.
+
+**Gate:** These are targeted model-led editorial corrections, **not independent human editorial signoff**. Full deterministic scripts remain unexecuted at this branch head; the local container cannot resolve github.com, and the connected GitHub API has no shell runner. Draft PR #7 must remain unmerged and unpublished.
