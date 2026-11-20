@@ -14,7 +14,7 @@ Europol also reports that some Italian attacks in 2016 were assessed to have fol
 
 ## Evidence limits
 
-No primary organisational declaration or case-specific judicial finding has yet been verified for the 2016 Athens incident in this profile. The sources do not establish the individual participants, operational command, a 2015–2025 organisational chronology or any relationship to Revolutionary Class Self-Defense.
+No primary organisational declaration or case-specific judicial finding has yet been verified for the **October 2016 Athens prosecutor-residence incident** in this profile. The later-reviewed Greek Supreme Court decisions concern other procedural histories and do not close this event-specific gap. The sources do not establish the individual participants, operational command, a 2015–2025 organisational chronology or any relationship to Revolutionary Class Self-Defense.
 
 ## Sources
 
