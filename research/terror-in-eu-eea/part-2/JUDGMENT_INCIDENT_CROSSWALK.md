@@ -125,3 +125,15 @@ The report also describes September 2016 *Scripta Manent* detention measures aga
 **Locator:** printed pp. 69–70, PDF extracted lines 1331–1350; CCF Greece discussion printed p. 71, lines 1357–1359. This is an additional original government source alongside the separately reviewed Italian Interior Ministry 2016 report for IT16-CIV.
 
 **Current evidence status:** three **official event joins**, zero **verified event-specific judicial conviction joins** from this source. No alteration to 2016 incident counts, casualty allocations or proceedings relationships.
+
+## Scripta Manent: Italian judicial training institution's case-number evidence (20 November 2026)
+
+The [Scuola Superiore della Magistratura, *Le varie realtà dell'anarco-insurrezionalismo*](https://www.scuolamagistratura.it/documents/20126/cf14a1bc-bad4-73e5-d69d-5b9b25bf7e87), original institutional legal-training paper, was opened and read. It identifies the **Torino prosecutor investigation 15577/2012**, **Torino Court of Assize of Appeal judgment 6/2020 (24 November 2020)** and **Court of Cassation, second criminal section, judgment 38184/2022 (6 July 2022)**. These are actionable original-case identifiers, not yet the full judgments themselves.
+
+Its footnote 19 lists acts for which convictions had become final, including explosive parcels to Bologna's mayor and Torino recipients in **2005–2006**, the **5 March 2007** Torino Crocetta devices, and associated explosives offences. It also describes the **2006 Fossano** attack in the case history. None is the same dated act as **IT16-CIV (12 January 2016)**, **IT16-PAR (7 June 2016)**, or **IT16-BIO (9 June 2016)**. **Do not join these convictions to the 2016 rows on the strength of a shared FAI/FRI label.**
+
+The paper distinguishes the investigative/prosecutorial reconstruction of informal anarchist currents from adjudicated findings. Its historical claim that FAI/FRI developed transnational links with Greek CCF in 2011 is an **institutional author's assessment**, not a court finding that the Greek group commanded specific Italian incidents. It identifies earlier programme statements as source leads, but their provenance and authenticity are not independently reviewed here.
+
+**Document hierarchy:** This is an original publication by a judicial training institution summarising proceedings, **not** the complete operative text of Cassation judgment 38184/2022. Confirm each count, defendant, conviction, acquittal and finality from that decision before creating any event-specific judicial relationship. The police [6 September 2016 Scripta Manent release](https://www.poliziadistato.it/articolo/3857ce8d5e3c1fa164926365) independently specifies that the arrest-operation allegations concerned **Fossano 2006** and **Torino Crocetta 2007** explosives, not a demonstrated judicial link to the June 2016 parcel incidents.
+
+**Research status:** new **case identifiers verified**; no new DIRECT_EVENT_JUDGMENT for 2016 incident rows.
